@@ -1,0 +1,107 @@
+{
+  "name": "Playbook Test",
+  "type": "playbook",
+  "_id": "Pl1yh0PK1bI4ArhE",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "",
+    "slug": "playbook-test",
+    "actorType": "character",
+    "stats": {
+      "one": {
+        "label": "One",
+        "value": 1
+      },
+      "two": {
+        "label": "Two",
+        "value": 2
+      },
+      "three": {
+        "label": "Three",
+        "value": 3
+      }
+    },
+    "statsDetail": "Add +1 to one Stat.",
+    "attributes": {
+      "coin": {
+        "label": "Coin",
+        "type": "Number",
+        "value": 0,
+        "choices": [
+          {
+            "value": 1,
+            "options": {}
+          },
+          {
+            "value": 2,
+            "options": {}
+          },
+          {
+            "value": 3,
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "looks": {
+        "label": "Looks",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Ruffian, with blonde hair.</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Striking, with dark long hair.</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Sulking with bright red hair.</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "value": "",
+        "max": null,
+        "options": {},
+        "description": ""
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "Starting Moves",
+        "desc": "These are the moves you start with.",
+        "grantOn": 0,
+        "advancement": 0,
+        "repeatable": true,
+        "type": "multi",
+        "choices": [],
+        "granted": false
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "e3BWK32GQZOdbFw4": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733425985317,
+    "modifiedTime": 1733426186085,
+    "lastModifiedBy": "e3BWK32GQZOdbFw4"
+  },
+  "_key": "!items!Pl1yh0PK1bI4ArhE"
+}

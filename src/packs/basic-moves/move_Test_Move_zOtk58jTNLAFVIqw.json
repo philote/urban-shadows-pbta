@@ -1,0 +1,53 @@
+{
+  "name": "Test Move",
+  "type": "move",
+  "_id": "zOtk58jTNLAFVIqw",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Test Move Description.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": "<p>Test Move Complicaiton.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success",
+        "value": "<p>Test Move Partial success.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>Test Move Success!</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "ask",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "ujILC5uHvGH9mpgN": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.9.4",
+    "coreVersion": "12.331",
+    "createdTime": 1712349640072,
+    "modifiedTime": 1712349709290,
+    "lastModifiedBy": "ujILC5uHvGH9mpgN",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!zOtk58jTNLAFVIqw"
+}

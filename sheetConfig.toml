@@ -1,0 +1,328 @@
+# Configure Rolls
+rollFormula = "2d6"
+statClock = 3
+minMod = -3
+maxMod = 4
+# Configure stat toggle label and formula modifier.
+[statToggle]
+    label = "Scar"
+    modifier = "-1"
+
+# Define roll result ranges.
+[rollResults]
+    [rollResults.miss]
+        range = "6-"
+        label = "Miss"
+    [rollResults.weak-hit]
+        range = "7-9"
+        label = "Weak Hit"
+    [rollResults.strong-hit]
+        range = "10+"
+        label = "Strong Hit"
+    [rollResults.critical]
+        range = false
+        label = "Critical Hit!"
+
+########################################
+## CHARACTERS ##########################
+########################################
+# Define the character group.
+[character]
+
+    # Define stats.
+    [character.stats]
+        blood = "Blood"
+        heart = "Heart"
+        mind = "Mind"
+        spirit = "Spirit"
+        mortalis = "Mortalis"
+        night = "Night"
+        power = "Power"
+        wild = "Wild"
+ 
+    # Define attributes.
+    [character.attributes.harm]
+        type = "ListMany"
+        label = "Harm"
+        options = [
+            "(Armor)",
+            "Faint",
+            "Serious|2",
+            "Critical|2",
+        ]
+        position = "top"
+    [character.attributes.advancement]
+        type = "ListMany"
+        label = "Advancement"
+        description = "When you've marked all four Circles, erase the marks and advance"
+        options = [
+            "Mortalis",
+            "Night",
+            "Power",
+            "Wild"  
+        ]
+        position = "top"
+    [character.attributes.corruption]
+        type = "Clock"
+        label = "Corruption"
+        description = "Corruption trigger: mark corruption."
+        max = 5
+        default = 0
+        playbook = true
+        position = "top"
+
+    # Define sidebar details.
+    [character.attributes.trauma]
+        type = "Clock"
+        label = "Trauma"
+        description = "When you witness a scene of violence or victimization and do nothing, mark trauma and corruption."
+        max = 5
+        default = 0
+        playbook = "spectre"
+        position = "left"
+    [character.attributes.web]
+        type = "LongText"
+        label = "Your Web"
+        description = "Those trapped in your web:"
+        playbook = "vamp"
+        position = "left"
+    [character.attributes.letItOut]
+        type = "LongText"
+        label = "Let it out Abilities"
+        playbook = true
+        position = "left"
+    [character.attributes.debts]
+        type = "LongText"
+        label = "Debts"
+        playbook = true
+        position = "left"
+    [character.attributes.advancements]
+        type = "ListMany"
+        label = "Advancements"
+        description = "Available at the beginning of play:"
+        options = [
+            "+1 Status (max+1)",
+            "+1 Status (max+1)",
+            "+1 Status (max+1)",
+            "a new Aware move",
+            "a new Aware move",
+            "a move from another archetype",
+            "a move from another archetype",
+            "open a new mortal relationship"  
+        ]
+        playbook = true
+        position = "left"
+    [character.attributes.expertAdvancements]
+        type = "ListMany"
+        label = "Expert advancements"
+        description = "After five advances, you may select:"
+        options = [
+            "+1 any Circle (max+3)",
+            "+1 any Circle (max+3)",
+            "Mortalis Status: 2",
+            "erase a scar",
+            "change your Circle",
+            "advance 3 basic moves",
+            "advance 3 basic moves",
+            "change to a new archetype"  
+        ]
+        playbook = true
+        position = "left"
+    [character.attributes.corruptionAdvances]
+        type = "ListMany"
+        label = "Corruption advances"
+        description = "Corruption represents your character slipping toward the worst parts of their nature. As your corruption mounts, your powers only grow..."
+        options = [
+            "take +1 to any stat (max+3)",
+            "take +1 to any stat (max+3)",
+            "take a new corruption move",
+            "take a new corruption move",
+            "take a new corruption move from another archetype or your own",
+            "retire your character; they may return as a Threat"  
+        ]
+        playbook = true
+        position = "left"
+
+    # Description tab
+    [character.description.lookOne]
+        type = "LongText"
+        label = "Look One"
+        playbook = true
+    [character.description.lookTwo]
+        type = "LongText"
+        label = "Look Two"
+        playbook = true
+    [character.description.lookThree]
+        type = "LongText"
+        label = "Look Three"
+        playbook = true
+    [character.description.demeanor]
+        type = "LongText"
+        label = "Demeanor"
+        playbook = true
+    [character.description.questionOne]
+        type = "LongText"
+        label = "Question One"
+        playbook = true
+    [character.description.questionTwo]
+        type = "LongText"
+        label = "Question Two"
+        playbook = true
+    [character.description.questionThree]
+        type = "LongText"
+        label = "Question Three"
+        playbook = true
+    [character.description.questionFour]
+        type = "LongText"
+        label = "Question Four"
+        playbook = true
+    [character.description.questionFive]
+        type = "LongText"
+        label = "Question Five"
+        playbook = true
+    [character.description.notes]
+        type = "LongText"
+        label = "Notes"
+      
+    # Define groups for moves.
+    [character.moveTypes.basic]
+        label = "Basic Moves"
+        creation = true
+    [character.moveTypes.playbook]
+        label = "Playbook Moves"
+        playbook = true
+    [character.moveTypes.debt]
+        label  = "Debt Moves"
+        creation = true
+    [character.moveTypes.circle]
+        label = "Circle Moves"
+        creation = true
+    [character.moveTypes.city]
+        label = "City Moves"
+    [character.moveTypes.hub]
+        label = "Hub Moves"
+    [character.moveTypes.corruption]
+        label = "Corruption Moves"
+        playbook = true
+    [character.moveTypes.spells]
+        label = "Spells"
+        playbook = true
+
+    # Define groups for equipment.
+    [character.equipmentTypes]
+        gear = "Gear"
+
+########################################
+## FACTION #############################
+########################################
+[faction]
+    label = "Faction"
+    baseType = "character"
+
+    # Define stats.
+    [faction.stats]
+        size = "Size"
+        strength = "Strength"  
+        tours = "#Tours"
+ 
+    # Define attributes.         
+    [faction.attributes.circles]
+        type = "LongText"
+        label = "Circles"
+        default = "Mortalis ; Night ; Power ; Wild"
+        position = "top"
+    [faction.attributes.recruitment]
+        type = "Clock"
+        label = "Recruitment"
+        description = "if the track fills, the faction adds +1 Size. If something reduces the Size of a faction, the track clears."
+        max = 3
+        default = 0
+        position = "top"
+    [faction.attributes.resources]
+        type = "Clock"
+        label = "Resources"
+        description = "if the track fills, the faction adds +1 Strength and gains a new asset. If something reduces the Strength of a faction, the resource track clears."
+        max = 3
+        default = 0
+        position = "top"
+
+    # Define sidebar details.
+    [faction.attributes.goal]
+        type = "LongText"
+        label = "Goal"
+        position = "left"
+    [faction.attributes.leaders]
+        type = "LongText"
+        label = "Leaders"
+        position = "left"
+    [faction.attributes.assets]
+        type = "LongText"
+        label = "Assets"
+        position = "left"
+    [faction.description.notes]
+        type = "LongText"
+        label = "Notes"
+      
+    # Define groups for moves.
+    [faction.moveTypes]
+        faction = "Faction Moves"
+
+    # Define groups for equipment.
+    [faction.equipmentTypes]
+        gear = "Gear"
+        weapon = "Weapons"
+        transport = "Transport"
+        armour = "Armour"
+
+########################################
+## NPCs ################################
+########################################
+[npc]
+    # Define attributes.
+    [npc.attributes.harm]
+        type = "Resource"
+        label = "Harm Capacity"
+        position = "top"
+    [npc.attributes.status]
+        type = "Clock"
+        label = "Status"
+        max = 3
+        default = 1
+        position = "top"
+    [npc.attributes.type]
+        type = "ListMany"
+        label = "Circle"
+        options = [
+            "Mortalis",
+            "Night",
+            "Power",
+            "Wild"
+        ]
+        position = "top"
+    [npc.attributes.faction]
+        type = "LongText"
+        label = "Details" 
+        default = "Faction & Archetype"
+        position = "top"
+    [npc.attributes.motivation]
+        type = "LongText"
+        label = "Motivation"
+        position = "left"
+    [npc.attributes.forces]
+        type = "LongText"
+        label = "Forces/Faiblesses"
+        default = "Armor ?"
+        position = "left"
+    [npc.attributes.desc]
+        type = "LongText"
+        label = "Description"
+        position = "left"
+
+    # Define logical groups for moves.
+    [npc.moveTypes]
+        basic = "Basic Moves"
+        custom = "Custom Moves"
+
+    # Define groups for equipment.
+    [npc.equipmentTypes]
+        loot = "Loot"

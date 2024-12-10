@@ -1,0 +1,93 @@
+{
+    "US2E": {
+        "CharacterSheets": {
+            "rollResults": {
+                "complications": "Complications",
+                "partialSuccess": "Partial Success",
+                "success": "Success",
+                "critical": "Critical"
+            },
+            "shiftStats": {
+                "label": "Shift Stats",
+                "statLabel": "Stat",
+                "statsLabel": "Stats"
+            },
+            "stats": {
+                "blood": "Blood",
+                "heart": "Heart",
+                "mind": "Mind",
+                "spirit": "Spirit"
+            },
+            "statToggle": "Stat Toggle",
+            "details": {
+                "biographyLabel": "Biography",
+                "looksLabel": "Looks"
+            },
+            "moveTypes": {
+                "basicLabel": "Basic Moves",
+                "playbookLabel": "Playbook Moves"
+            },
+            "attr": {
+                "xpLabel": "Experience",
+                "injuryLabel": "Injury",
+                "coinLabel": "Coin",
+                "conditions": {
+                    "label": "Conditions",
+                    "description": "Conditions description",
+                    "options": {
+                        "0": "Tired",
+                        "1": "Scared",
+                        "2": "Hurt",
+                        "3": "Angry",
+                        "4": "Confused"
+                    }
+                }
+            },
+            "gearLabel": "Gear"
+        },
+        "NPCSheets": {
+            "attr": {
+                "factionLabel": "Faction",
+                "injuryLabel": "Injury",
+                "flyLabel": "Can Fly?",
+                "ageLabel": "Age"
+            },
+            "details": {
+                "biographyLabel": "Biography"
+            },
+            "moveTypes": {
+                "basicLabel": "Basic Moves"
+            },
+            "lootLabel": "Loot"
+        },
+        "Tags": {
+            "equipment": {
+                "strong": {
+                    "value": "Strong",
+                    "description": "Very Strong"
+                },
+                "weak": {
+                    "value": "Weak",
+                    "description": "Pretty Weak"
+                },
+                "glows": {
+                    "value": "Glows",
+                    "description": "Acts as a torch"
+                }
+            }
+        },
+        "Settings": {
+            "startup": {
+                "name": "First Time Startup",
+                "dialog": {
+                    "title": "Welcome to PbtA Template",
+                    "content": "Would you like to use this module's custom startup screen?"
+                }
+            },
+            "img": {
+                "name": "Use the Module Login Image?",
+                "hint": "If set to true: use the module login img; if set to false: use the default or user set login image."
+            }
+        }
+    }
+}

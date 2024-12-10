@@ -1,0 +1,97 @@
+{
+  "id": "urban-shadows-pbta",
+  "title": "Urban Shadows 2E (PbtA)",
+  "description": "Unofficial [System Name] RPG custom sheet and compendium module, to be used with the Powered by the Apocalypse (PbtA) system.",
+  "version": "#{VERSION}#",
+  "compatibility": {
+    "minimum": 11,
+    "verified": 12.331,
+    "maximum": 12
+  },
+  "authors": [
+    {
+      "name": "ephson",
+      "url": "https://github.com/philote",
+      "discord": "ephson",
+      "reddit": "u/ephson"
+    }
+  ],
+  "flags": {
+    "hotReload": {
+      "extensions": ["css", "html", "hbs", "json"],
+      "paths": ["css", "lang", "templates"]
+    }
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pbta",
+        "type": "system",
+        "manifest": "https://asacolips-artifacts.s3.amazonaws.com/pbta/master/system.json",
+        "compatibility": {
+          "minimum": "1.0.0"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "module/urban-shadows-pbta.mjs"
+  ],
+  "styles": [
+    "css/urban-shadows-pbta.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "basic-moves",
+      "label": "Basic Moves",
+      "path": "packs/basic-moves",
+      "type": "Item",
+      "system": "pbta",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "playbooks",
+      "label": "Playbooks",
+      "path": "packs/playbooks",
+      "type": "Item",
+      "system": "pbta",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "bugs": "Replace this with a link to file issues or tickets",
+  "media": [
+    {
+      "type": "screenshot",
+      "url": "https://raw.githubusercontent.com/philote/urban-shadows-pbta/main/assets/screenshot.webp",
+      "caption": "Character Sheet"
+    },
+    {
+      "type": "cover",
+      "url": "https://raw.githubusercontent.com/philote/urban-shadows-pbta/main/assets/cover.webp",
+      "caption": "Cover Image"
+    },
+    {
+      "type": "setup",
+      "url": "https://raw.githubusercontent.com/philote/urban-shadows-pbta/main/assets/package_image.webp",
+      "thumbnail": "https://raw.githubusercontent.com/philote/urban-shadows-pbta/main/assets/package_image_thumb.webp"
+    }
+  ]
+}

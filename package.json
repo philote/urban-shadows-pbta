@@ -1,0 +1,24 @@
+{
+  "name": "pbta-boilerplate",
+  "version": "2.0.0",
+  "description": "CSS compiler & linting for the PbtA-Boilerplate system",
+  "scripts": {
+    "build": "sass src/scss/urban-shadows-pbta.scss css/urban-shadows-pbta.css --style=expanded --no-source-map",
+    "watch": "sass src/scss/urban-shadows-pbta.scss css/urban-shadows-pbta.css --style=expanded --source-map --watch",
+    "pushLDBtoJSON": "node ./tools/pushLDBtoJSON.mjs",
+    "pullJSONtoLDB": "node ./tools/pullJSONtoLDB.mjs"
+  },
+  "browserslist": [
+    "last 3 versions"
+  ],
+  "author": "Joseph Hopson",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.3",
+    "sass": "^1.53.0",
+    "@eslint/js": "^9.16.0",
+    "eslint": "^9.16.0",
+    "globals": "^15.13.0"
+  }
+}

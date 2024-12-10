@@ -1,0 +1,106 @@
+/* Colors */
+$primary-text-color: black;
+$secondary-text-color: white;
+$header-text-color: #000000;
+$disabled-text-color: grey;
+
+$background-color: #fffaec;
+
+$stat-background-color: #000000;
+$stat-background-hover-color: #515151;
+$stat-border-color: grey;
+
+$input-background-color: #ffffffad;
+$input-border-color: #00000063;
+
+$tab-background-color: #dbbebd;
+$tab-background-hover-color: #484848;
+$tab-background-active-color: #000000;
+
+// .pbta.sheet {
+
+//     section.window-content {
+//         background-color: $background-color;
+//         color: $primary-text-color;
+//     }
+
+//     .cell__title {
+//         color: $header-text-color;
+//     }
+
+//     /* Inputs */
+//     input, 
+//     button, 
+//     select, 
+//     textarea {
+//         background: $input-background-color;
+//         color: $primary-text-color;
+//         border: 0.5px solid $input-border-color;
+//     }
+
+//     input:disabled, 
+//     button:disabled, 
+//     select:disabled, 
+//     textarea:disabled {
+//         background: $input-background-color;
+//         color: $disabled-text-color;
+//     }
+
+//     .sheet-wrapper .editor-content, .editor-content {
+//         background: $input-background-color;
+//         border: 0.5px solid $input-border-color;
+//         padding: 0 4px;
+//         border-radius: 4px;
+//         height: 100%;
+//         min-height: 45px;
+//     }
+
+//     /* Tabs */
+//     .tabs {
+//         border-bottom: 2px solid $tab-background-active-color;
+//     }
+
+//     .sheet-tabs.tabs > a.item {
+//         border-top-left-radius: 5px;
+//         border-top-right-radius: 5px;
+//         font-style: italic;
+//         background-color: $tab-background-color;
+//         color: $primary-text-color;
+
+//         &.active,
+//         &.active:hover {
+//             background-color: $tab-background-active-color;
+//             color: $secondary-text-color;
+//         }
+
+//         &:hover,
+//         &:focus {
+//             background-color: $tab-background-hover-color;
+//             color: $secondary-text-color;
+//             font-weight: bold;
+//         }
+//     }
+
+
+//     /* Labels */
+//     .sheet-attributes {
+//         position: relative;
+      
+//         .cell--stats .stat {
+//           background: $stat-background-color;
+//           color: $secondary-text-color;
+        
+//           .cell__title {
+//             color: $secondary-text-color;
+//           }
+    
+//           &:hover {
+//             background: $stat-background-hover-color;
+//           }
+    
+//           .stat-value {
+//             border: 1px solid $stat-border-color;
+//           }
+//         }
+//       }
+// }
