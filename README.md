@@ -2,21 +2,11 @@
 
 ![Cover](assets/cover.webp)
 
-## An Urban Shadows 2E module for Foundry VTT using the PbtA System
-This module is for [Foundry VTT](https://foundryvtt.com/) and requires the [PbtA System](https://github.com/asacolips-projects/pbta) created by [asacolips](https://github.com/asacolips).
-
-![](https://img.shields.io/badge/Foundry-v12-informational)
-<!--- Downloads @ Latest Badge -->
-![Latest Release Download Count](https://img.shields.io/github/downloads/philote/urban-shadows-pbta/latest/module.zip)
-<!--- Forge Bazaar Install % Badge -->
-![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%urban-shadows-pbta&colorB=4aa94a)
-
 <p align="center">
     <img alt="Foundry Version 12 support" src="https://img.shields.io/badge/Foundry-v12-informational"> 
     <img alt="Latest Release Download Count" src="https://img.shields.io/github/downloads/philote/urban-shadows-pbta/latest/module.zip"> 
     <img alt="Forge Installs" src="https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%urban-shadows-pbta&colorB=4aa94a" />
 </p>
-
 <p align="center">
     <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/philote/urban-shadows-pbta"> 
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/philote/urban-shadows-pbta"> 
@@ -36,7 +26,11 @@ This module is for [Foundry VTT](https://foundryvtt.com/) and requires the [PbtA
     </a> 
 </p>
 
-[Description of the game with links to the publisher goes here.]
+### An Urban Shadows 2E module for Foundry VTT using the PbtA System
+
+The ideas used in this module are from Urban Shadows 2E from Magpie Games. You can get the Book at: https://magpiegames.com/collections/urban-shadows
+
+This module is for [Foundry VTT](https://foundryvtt.com/) and requires the [PbtA System](https://github.com/asacolips-projects/pbta) created by [asacolips](https://github.com/asacolips).
 
 ## Screenshot
 ![Screenshot](assets/screenshot.webp)
@@ -46,13 +40,17 @@ This module is for [Foundry VTT](https://foundryvtt.com/) and requires the [PbtA
 The following Foundry VTT game system must be installed to use this module: [Powered by the Apocalypse](https://foundryvtt.com/packages/pbta).
 
 ## Features
-
-- Feature One
-- Feature Two
+- Sheets for 
+  - Characters
+  - Playbooks
+  - Moves
+  - NPCs
+  - Factions
 
 ## TODO
-- TODO One
+- All the things
 
 # License & Acknowledgements
+[Urban Shadows](https://magpiegames.com/collections/urban-shadows) was created by Andrew Medeiros and Mark Diaz Truman and is copyright 2015 by Magpie Games, including all text and art. All rights are reserved.
 
 Icons from game-icons.net are released under a Creative Commons Attribution 3.0 Unported license. https://creativecommons.org/licenses/by/3.0/
