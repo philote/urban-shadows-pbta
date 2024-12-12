@@ -6,7 +6,6 @@
 - stats
 - List of Debts (very similar to Masks Influence)
 - List of Questions
-- might need a "feature" item added
 - "let it out" abilities (looks kinda like feats in root?)
 - corruption
     - trigger text
@@ -22,38 +21,61 @@
     - status, 3 ticks
 - List of gear
 
+## NPC Actor
+- picture
+- name
+### top
+- Status [Status-1, Status-2, Status-3]
+- Harm track
+- Circle
+- Faction
+### side
+- Drives
+- RESISTANCES (ARMOR)
+- VULNERABILITIES (increase harm)
+### details
+- Presenting
+- Look
+- Demeanor
+- Role
+- Trait
+- Quirk
+- List of Debts
+- Notes
+### List of Moves
+
 ## Faction Actor
 - picture
 - name
+### top
+- stances [striving, maintaining, collapsing]
+- Size [Size-1, Size-2, Size-3, Size-4]
+- Strength [Strength-1, Strength-2, Strength-3, Strength-4]
+### side
+- leader [Status-3] (NPC or PC Actor)
+- Assets, tags like +veteran hunters, +necromantic rituals, or +drug dealer network
+### details
 - description
-- members
-- allies
-- moves
-- goal
-- 
+- goals
+- List of members (NPC & PC Actors)
+### List of Moves
 
-## NPC Actor
+## City Hub Journal Template
 - picture
 - name
-- DRiVEs
-- List of Debts
-- Harm track
-- list of Resident items/flags
-    - pc, residents, faction, question
-- list of relationship items/flags
-    - pc, relationship, pc to whom the relationship is with
+- description
+- list of Residents (NPCs + other info)
+- list of relationships (or just have them on the PC sheet?)
 - list of Hub Moves
 - tables [locations, rumors, factions, npcs]
 
-## NPC Actor
-- picture
-- name
-- DRiVEs
-- List of Debts
-- Harm track
-- RESISTANCES (ARMOR)
-- VULNERABILITIES (increase harm)
-- Circle
+## New Items
+- Debt
+
+
+## extra nice features
+- A sheet/Journal entry shows all debts
+- Debts that connect 2 PCs or PCs and NPCs are the same objects
 
 ## PbtA features
 - on playbook granting prompt player which stat they want to add a +1 to

@@ -1,5 +1,8 @@
 # Urban Shadows 2E (PbtA) (Unofficial)
 
+> [!Warning]
+> This is not a finished module yet.
+
 <p align="center">
     <img alt="Foundry Version 12 support" src="https://img.shields.io/badge/Foundry-v12-informational"> 
     <img alt="Latest Release Download Count" src="https://img.shields.io/github/downloads/philote/urban-shadows-pbta/latest/module.zip"> 
@@ -42,11 +45,14 @@ The following Foundry VTT game system must be installed to use this module: [Pow
   - Characters
   - Playbooks
   - Moves
-  - NPCs
-  - Factions
+  - Gear
 
 ## TODO
-- All the things
+- Faction Sheet
+- Debt Items
+- NPC Sheet
+- Hub Journal Template
+- Relationship and debt tracking on PC sheets
 
 # License & Acknowledgements
 [Urban Shadows](https://magpiegames.com/collections/urban-shadows) was created by Andrew Medeiros and Mark Diaz Truman and is copyright 2015 by Magpie Games, including all text and art. All rights are reserved.

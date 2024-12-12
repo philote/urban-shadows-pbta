@@ -1,7 +1,7 @@
 {
   "id": "urban-shadows-pbta",
   "title": "Urban Shadows 2E (PbtA)",
-  "description": "Unofficial [System Name] RPG custom sheet and compendium module, to be used with the Powered by the Apocalypse (PbtA) system.",
+  "description": "Unofficial Urban Shadows 2E RPG custom sheet module, to be used with the Powered by the Apocalypse (PbtA) system.",
   "version": "#{VERSION}#",
   "compatibility": {
     "minimum": 11,
@@ -76,7 +76,7 @@
   "download": "#{DOWNLOAD}#",
   "license": "LICENSE",
   "readme": "README.md",
-  "bugs": "Replace this with a link to file issues or tickets",
+  "bugs": "https://github.com/philote/urban-shadows-pbta/issues",
   "media": [
     {
       "type": "screenshot",
