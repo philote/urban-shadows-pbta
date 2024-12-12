@@ -1,0 +1,52 @@
+{
+  "folder": "UpKeNQxOrv4nSvGG",
+  "name": "AWARE Kit",
+  "type": "move",
+  "_id": "OqkXmOBq4MEmGjDV",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>You have some gear you’ve picked up since becoming aware of the supernatural world, mostly stashed away in the trunk of your car or in a bag you carry with you.</p><p>When you go to your kit for some mundane gear—road flares, first aid kit, etc.—useful to the situation, roll with <strong>Spirit</strong>. On a hit, you find something you can use that pretty much fits the bill. On a 10+, it’s perfect; take +1 ongoing to putting it to use in the scene. On a miss, the situation escalates while you’re trying to prepare—brace yourself!</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Weak Hit",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Strong Hit",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.OqkXmOBq4MEmGjDV",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1733907156058,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!items!OqkXmOBq4MEmGjDV"
+}

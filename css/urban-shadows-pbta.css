@@ -1,0 +1,122 @@
+/* Colors */
+.pbta.sheet {
+  /* Labels */
+  /* Tabs */
+  /* Advancements */
+  /* Description Tab */
+}
+.pbta.sheet .window-header {
+  background-color: #1b0328;
+}
+.pbta.sheet .sheet-attributes {
+  position: relative;
+}
+.pbta.sheet .sheet-attributes .cell--stats .stat {
+  max-width: 155px;
+  background-color: #55067a !important;
+}
+.pbta.sheet .sheet-attributes .cell--stats .stat:hover {
+  background: #434343 !important;
+}
+.pbta.sheet .sheet-attributes .cell--stats .stat:nth-child(n+5) {
+  background-color: #1b0328 !important;
+}
+.pbta.sheet .sheet-attributes .cell--stats .stat:nth-child(n+5) .stat-toggle {
+  display: none;
+}
+.pbta.sheet .sheet-attributes .cell--stats .stat:nth-child(n+5):hover {
+  background: #434343 !important;
+}
+.pbta.sheet .sheet-attributes .cell--stats .stat .stat-value {
+  color: #602C63;
+  background: rgba(255, 255, 255, 0.85);
+}
+.pbta.sheet .cell__title {
+  color: #602C63;
+}
+.pbta.sheet .tabs {
+  border-bottom: 2px solid #1b0328;
+}
+.pbta.sheet .sheet-tabs.tabs > a.item {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: rgba(199, 189, 200, 0.2);
+  border-top: 1px solid #1b0328;
+  border-left: 1px solid #1b0328;
+  border-right: 1px solid #1b0328;
+  color: #1b0328;
+}
+.pbta.sheet .sheet-tabs.tabs > a.item.active, .pbta.sheet .sheet-tabs.tabs > a.item.active:hover {
+  background-color: #1b0328;
+  color: #ffffff;
+}
+.pbta.sheet .sheet-tabs.tabs > a.item:hover, .pbta.sheet .sheet-tabs.tabs > a.item:focus {
+  background-color: #434343;
+  color: #ffffff;
+  font-weight: bold;
+}
+.pbta.sheet .sheet-attributes-top {
+  padding: 0;
+}
+.pbta.sheet .sheet-attributes-top .cell--attributes-top .cell {
+  padding-top: 5px;
+}
+.pbta.sheet .cell--attr-advancement ul.cell__checkboxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+}
+.pbta.sheet .cell--attr-advancement ul.cell__checkboxes label:nth-child(odd) {
+  unicode-bidi: embed;
+  direction: rtl;
+  text-align: left;
+}
+.pbta.sheet .cell--attr-harm ul.cell__checkboxes label:nth-child(1) {
+  position: absolute;
+  top: 7px;
+  right: 0;
+  unicode-bidi: embed;
+  direction: rtl;
+  text-align: left;
+}
+.pbta.sheet .cell--attr-corruption .cell__clock {
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 5px;
+  position: absolute;
+  top: 7px;
+  right: 0;
+}
+.pbta.sheet .description .sheet-tab {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  gap: 5px;
+}
+.pbta.sheet .description .sheet-tab .lookOne, .pbta.sheet .description .sheet-tab .lookTwo, .pbta.sheet .description .sheet-tab .lookThree, .pbta.sheet .description .sheet-tab .demeanor {
+  flex-basis: 24%;
+}
+.pbta.sheet .description .sheet-tab .lookOne .editor-content, .pbta.sheet .description .sheet-tab .lookTwo .editor-content, .pbta.sheet .description .sheet-tab .lookThree .editor-content, .pbta.sheet .description .sheet-tab .demeanor .editor-content {
+  min-height: 50px;
+}
+.pbta.sheet .description .sheet-tab .lookTwo .cell__title, .pbta.sheet .description .sheet-tab .lookThree .cell__title {
+  visibility: hidden;
+}
+.pbta.sheet .description .sheet-tab .questionOne, .pbta.sheet .description .sheet-tab .questionTwo, .pbta.sheet .description .sheet-tab .questionThree, .pbta.sheet .description .sheet-tab .questionFour, .pbta.sheet .description .sheet-tab .questionFive {
+  flex-basis: 100%;
+}
+.pbta.sheet .description .sheet-tab .questionOne .editor-content, .pbta.sheet .description .sheet-tab .questionTwo .editor-content, .pbta.sheet .description .sheet-tab .questionThree .editor-content, .pbta.sheet .description .sheet-tab .questionFour .editor-content, .pbta.sheet .description .sheet-tab .questionFive .editor-content {
+  min-height: 100px;
+}
+.pbta.sheet .description .sheet-tab .questionTwo .cell__title, .pbta.sheet .description .sheet-tab .questionThree .cell__title, .pbta.sheet .description .sheet-tab .questionFour .cell__title, .pbta.sheet .description .sheet-tab .questionFive .cell__title {
+  display: none;
+}
+.pbta.sheet .description .sheet-tab .notes {
+  flex-basis: 100%;
+}
+.pbta.sheet .description .sheet-tab .notes .editor-content {
+  min-height: 200px;
+}
+
+/*# sourceMappingURL=urban-shadows-pbta.css.map */

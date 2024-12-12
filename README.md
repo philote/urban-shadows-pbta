@@ -1,6 +1,4 @@
-# Urban Shadows 2E (PbtA)
-
-![Cover](assets/cover.webp)
+# Urban Shadows 2E (PbtA) (Unofficial)
 
 <p align="center">
     <img alt="Foundry Version 12 support" src="https://img.shields.io/badge/Foundry-v12-informational"> 
@@ -26,7 +24,7 @@
     </a> 
 </p>
 
-### An Urban Shadows 2E module for Foundry VTT using the PbtA System
+### An unofficial Urban Shadows 2E module for Foundry VTT using the PbtA System
 
 The ideas used in this module are from Urban Shadows 2E from Magpie Games. You can get the Book at: https://magpiegames.com/collections/urban-shadows
 

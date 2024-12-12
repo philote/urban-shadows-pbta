@@ -98,3 +98,67 @@ Hooks.once('ready', async function () {
         }
     }
 });
+
+Hooks.on("renderActorSheet", async (app, html) => {
+    // Update Stat Scar labels
+
+    // Blood
+    const bloodToggleInput = html[0].querySelector(
+        'li.stat > label.cell__title[for="system.stats.blood.value"] ~ label.stat-toggle.checkbox input'
+    );
+
+    if (bloodToggleInput) {
+        const parentLabel = bloodToggleInput.parentElement;
+        const textNode = Array.from(parentLabel.childNodes).find(
+            (node) => node.nodeType === Node.TEXT_NODE
+        );
+        if (textNode) {
+            textNode.nodeValue = " Shattered";
+        }
+    }
+
+    // Heart
+    const heartToggleInput = html[0].querySelector(
+        'li.stat > label.cell__title[for="system.stats.heart.value"] ~ label.stat-toggle.checkbox input'
+    );
+
+    if (heartToggleInput) {
+        const parentLabel = heartToggleInput.parentElement;
+        const textNode = Array.from(parentLabel.childNodes).find(
+            (node) => node.nodeType === Node.TEXT_NODE
+        );
+        if (textNode) {
+            textNode.nodeValue = " Crushed";
+        }
+    }
+
+    // Mind
+    const mindToggleInput = html[0].querySelector(
+        'li.stat > label.cell__title[for="system.stats.mind.value"] ~ label.stat-toggle.checkbox input'
+    );
+    
+    if (mindToggleInput) {
+        const parentLabel = mindToggleInput.parentElement;
+        const textNode = Array.from(parentLabel.childNodes).find(
+            (node) => node.nodeType === Node.TEXT_NODE
+        );
+        if (textNode) {
+            textNode.nodeValue = " Fractured";
+        }
+    }
+    
+    // Spirit
+    const spiritToggleInput = html[0].querySelector(
+        'li.stat > label.cell__title[for="system.stats.spirit.value"] ~ label.stat-toggle.checkbox input'
+    ); 
+
+    if (spiritToggleInput) {
+        const parentLabel = spiritToggleInput.parentElement;
+        const textNode = Array.from(parentLabel.childNodes).find(
+            (node) => node.nodeType === Node.TEXT_NODE
+        );
+        if (textNode) {
+            textNode.nodeValue = " Broken";
+        }
+    }
+});

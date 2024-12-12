@@ -1,0 +1,35 @@
+{
+  "folder": "RUb3ktHoJTPnpWLH",
+  "name": "a smartphone",
+  "type": "equipment",
+  "_id": "aNiUMJhPzIvaUufw",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.aNiUMJhPzIvaUufw",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907152038,
+    "modifiedTime": 1733907152038,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!items!aNiUMJhPzIvaUufw"
+}

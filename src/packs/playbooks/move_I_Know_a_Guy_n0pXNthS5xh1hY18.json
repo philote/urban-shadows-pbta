@@ -1,0 +1,52 @@
+{
+  "folder": "UpKeNQxOrv4nSvGG",
+  "name": "I Know a Guy",
+  "type": "move",
+  "_id": "n0pXNthS5xh1hY18",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 1\"><div class=\"layoutArea\"><div class=\"column\"><p>When you <em><strong>hit the streets</strong></em> to get what you need from a member of your Circle, roll with <strong>Heart</strong> instead of their Circle. On a 7-9, add this option to the list:</p><ul><li><p>however you find them requires you to offer a Debt to an intermediary</p></li></ul></div></div></div>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Weak Hit",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Strong Hit",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "heart",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.n0pXNthS5xh1hY18",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1733907156058,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!items!n0pXNthS5xh1hY18"
+}

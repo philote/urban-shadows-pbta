@@ -1,5 +1,5 @@
 {
-  "name": "Test Move",
+  "name": "Basic Move",
   "type": "move",
   "_id": "zOtk58jTNLAFVIqw",
   "img": "icons/svg/aura.svg",
@@ -44,8 +44,8 @@
     "systemVersion": "0.9.4",
     "coreVersion": "12.331",
     "createdTime": 1712349640072,
-    "modifiedTime": 1712349709290,
-    "lastModifiedBy": "ujILC5uHvGH9mpgN",
+    "modifiedTime": 1733907269220,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB",
     "compendiumSource": null,
     "duplicateSource": null
   },

@@ -1,0 +1,723 @@
+{
+  "name": "The AWARE",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Most people have no idea what takes place in the shadows of the city, remaining ignorant of the monsters that walk among us. Those awakened to the world as it truly is can’t help but feel the pull of the darkness...</p>",
+    "slug": "the-aware",
+    "actorType": "character",
+    "stats": {
+      "blood": {
+        "label": "Blood",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "heart": {
+        "label": "Heart",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mind": {
+        "label": "Mind",
+        "value": -1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "spirit": {
+        "label": "Spirit",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mortalis": {
+        "label": "Mortalis",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "night": {
+        "label": "Night",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "power": {
+        "label": "Power",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "wild": {
+        "label": "Wild",
+        "value": -1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      }
+    },
+    "statsDetail": "(Add 1 to one of these)",
+    "attributes": {
+      "corruption": {
+        "label": "Corruption",
+        "description": "TRIGGER: When you ignore your mortal commitments or relationships to deal with the supernatural, mark corruption.",
+        "type": "Clock",
+        "value": 0,
+        "max": 5,
+        "choices": [
+          {
+            "value": 0,
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "options": {}
+      },
+      "letItOut": {
+        "label": "Let it out Abilities",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>gain access to a secure or locked-down location</p></li><li><p>draw immediate mortal attention to a person or situation</p></li><li><p>spot a previously overlooked clue or advantage in the immediate area</p></li><li><p>convince an NPC to act on their kindness, role, or own best interest</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": "TO ACTIVATE THESE ABILITIES"
+      },
+      "debts": {
+        "label": "Debts",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>Someone befriended you long before you discovered the supernatural...and purposefully hid its existence from you when it mattered. They owe you a Debt.</p></li><li><p>Someone puts up with your questions about the supernatural. You owe them a Debt.</p></li><li><p>You’re leveraging dirt you have on someone to get their help dismantling a supernatural scheme that targets innocent mortals. You owe them a Debt.</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "advancements": {
+        "label": "Advancements",
+        "description": "Available at the beginning of play:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 Status (max+1)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 Status (max+1)",
+            "value": false
+          },
+          "2": {
+            "label": "+1 Status (max+1)",
+            "value": false
+          },
+          "3": {
+            "label": "a new Aware move",
+            "value": false
+          },
+          "4": {
+            "label": "a new Aware move",
+            "value": false
+          },
+          "5": {
+            "label": "a move from another archetype",
+            "value": false
+          },
+          "6": {
+            "label": "a move from another archetype",
+            "value": false
+          },
+          "7": {
+            "label": "open a new mortal relationship",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "+1 Status (max+1)",
+                "value": false
+              },
+              "1": {
+                "label": "+1 Status (max+1)",
+                "value": false
+              },
+              "2": {
+                "label": "+1 Status (max+1)",
+                "value": false
+              },
+              "3": {
+                "label": "a new Aware move",
+                "value": false
+              },
+              "4": {
+                "label": "a new Aware move",
+                "value": false
+              },
+              "5": {
+                "label": "a move from another archetype",
+                "value": false
+              },
+              "6": {
+                "label": "a move from another archetype",
+                "value": false
+              },
+              "7": {
+                "label": "open a new mortal relationship",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "expertAdvancements": {
+        "label": "Expert advancements",
+        "description": "After five advances, you may select:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 any Circle (max+3)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 any Circle (max+3)",
+            "value": false
+          },
+          "2": {
+            "label": "Mortalis Status: 2",
+            "value": false
+          },
+          "3": {
+            "label": "erase a scar",
+            "value": false
+          },
+          "4": {
+            "label": "change your Circle",
+            "value": false
+          },
+          "5": {
+            "label": "advance 3 basic moves",
+            "value": false
+          },
+          "6": {
+            "label": "advance 3 basic moves",
+            "value": false
+          },
+          "7": {
+            "label": "change to a new archetype",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "value": false,
+                "label": "+1 any Circle (max+3)"
+              },
+              "1": {
+                "value": false,
+                "label": "+1 any Circle (max+3)"
+              },
+              "2": {
+                "value": false,
+                "label": "obtain Circle Status-2"
+              },
+              "3": {
+                "value": false,
+                "label": "erase a scar"
+              },
+              "4": {
+                "value": false,
+                "label": "change your Circle"
+              },
+              "5": {
+                "value": false,
+                "label": "advance 3 basic moves"
+              },
+              "6": {
+                "value": false,
+                "label": "advance 3 basic moves"
+              },
+              "7": {
+                "value": false,
+                "label": "change to a new archetype"
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "corruptionAdvances": {
+        "label": "Corruption advances",
+        "description": "Corruption represents your character slipping toward the worst parts of their nature. As your corruption mounts, your powers only grow...",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "take +1 to any stat (max+3)",
+            "value": false
+          },
+          "1": {
+            "label": "take +1 to any stat (max+3)",
+            "value": false
+          },
+          "2": {
+            "label": "take a new corruption move",
+            "value": false
+          },
+          "3": {
+            "label": "take a new corruption move",
+            "value": false
+          },
+          "4": {
+            "label": "take a new corruption move from another archetype or your own",
+            "value": false
+          },
+          "5": {
+            "label": "retire your character; they may return as a Threat",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "take +1 to any stat (max+3)",
+                "value": false
+              },
+              "1": {
+                "label": "take +1 to any stat (max+3)",
+                "value": false
+              },
+              "2": {
+                "label": "take a new corruption move",
+                "value": false
+              },
+              "3": {
+                "label": "take a new corruption move",
+                "value": false
+              },
+              "4": {
+                "label": "take a new corruption move from another archetype or your own",
+                "value": false
+              },
+              "5": {
+                "label": "retire your character; they may return as a Threat",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "lookOne": {
+        "label": "Look One",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>androgynous</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>conforming</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>shifting</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>nonconforming</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Pick one"
+      },
+      "lookTwo": {
+        "label": "Look Two",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Asian or South Asian</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Black</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Hispanic/ Latinx</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Indigenous</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Middle Eastern</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>White</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Other: &lt;fill in yourself later&gt;</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Pick one"
+      },
+      "lookThree": {
+        "label": "Look Three",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>brand name clothing</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>business casual</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>forgettable clothing</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>uniformed</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Pick one"
+      },
+      "demeanor": {
+        "label": "Demeanor",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>aggressive</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>charming</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>composed</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>paranoid</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Pick one"
+      },
+      "questionOne": {
+        "label": "Question One",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>How did you discover the supernatural?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionTwo": {
+        "label": "Question Two",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>How long have you been in the city?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionThree": {
+        "label": "Question Three",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>What mortal commitment keeps you from leaving your old life behind?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionFour": {
+        "label": "Question Four",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>What mortal aspiration have you given up?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionFive": {
+        "label": "Question Five",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>What powerful faction or person are you currently investigating?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "AWARE MOVES",
+        "desc": "CHOOSE THREE:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.izLmUAMU5Rtxzjij",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.n0pXNthS5xh1hY18",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.Be7FZqN6XgEuHwKm",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.bPJ1yAeTzEMQuRob",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.oVFVXHMMrjcuH04M",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.EoBxIURUOoz8u85W",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "AWARE Starting Moves",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.UgtltRnqjXXe7R2f",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.9dZrgaPwJ63ZfuUa",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.OqkXmOBq4MEmGjDV",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Starting Gear",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.aNiUMJhPzIvaUufw",
+            "img": "icons/svg/item-bag.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.dIqohpVe1v0Fy6yp",
+            "img": "icons/svg/item-bag.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.P6b94Ue994qV46IN",
+            "img": "icons/svg/item-bag.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Starting Gear: A self-defense weapon",
+        "desc": "Choose One",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.tsqmVDRebBdsgDUG",
+            "img": "icons/svg/item-bag.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "img": "icons/svg/item-bag.svg",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.hqNim9kxmSvFuedg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.J4PJ4vElEpxzdo1L",
+            "img": "icons/svg/item-bag.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.lzHbRUnXEk7yJ5Ak",
+            "img": "icons/svg/item-bag.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "aEdEKaOhyuR3hW54",
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907141240,
+    "modifiedTime": 1733962596462,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_id": "vsERpK9xGVXcNa6i",
+  "sort": 0,
+  "_key": "!items!vsERpK9xGVXcNa6i"
+}

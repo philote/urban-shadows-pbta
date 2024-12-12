@@ -1,0 +1,22 @@
+{
+  "name": "The AWARE Moves",
+  "sorting": "a",
+  "folder": "aEdEKaOhyuR3hW54",
+  "type": "Item",
+  "_id": "UpKeNQxOrv4nSvGG",
+  "description": "",
+  "sort": 400000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": null,
+    "modifiedTime": 1733907156083,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!folders!UpKeNQxOrv4nSvGG"
+}
