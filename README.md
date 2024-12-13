@@ -5,13 +5,9 @@
 
 <p align="center">
     <img alt="Foundry Version 12 support" src="https://img.shields.io/badge/Foundry-v12-informational"> 
-    <img alt="Latest Release Download Count" src="https://img.shields.io/github/downloads/philote/urban-shadows-pbta/latest/module.zip"> 
-    <img alt="Forge Installs" src="https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%urban-shadows-pbta&colorB=4aa94a" />
-</p>
-<p align="center">
     <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/philote/urban-shadows-pbta"> 
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/philote/urban-shadows-pbta"> 
-    <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/philote/urban-shadows-pbta/total" /> 
+    <img alt="Latest Release Download Count" src="https://img.shields.io/github/downloads/philote/urban-shadows-pbta/latest/module.zip">
     <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/philote/urban-shadows-pbta?label=latest%20release" /> 
 </p>
 <p align="center">
