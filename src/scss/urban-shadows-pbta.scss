@@ -1,193 +1,20 @@
-/* Colors */
-$background-color: #fffaec;
-$c-white: #ffffff;
+@use "sass:meta";
+@use 'colors.scss';
+@use 'core.scss';
 
-$c-light-purple: #c7bdc8;
-$c-light-purple-20: #c7bdc833;
-$c-purple: #55067a;
-
-$c-dark-purple: #1b0328;
-$c-hover: #434343;
-$c-plum: #602C63;
-
-.pbta.sheet {
-    .window-header {
-        background-color: $c-dark-purple;
+.vtt {
+    // PC sheets
+    div[id^='PbtaActorSheet'] {
+        @include meta.load-css('character-sheet.scss');
     }
 
-    /* Labels */
-    .sheet-attributes {
-        position: relative;
-
-        .cell--stats{
-            .stat {
-                max-width: 155px;
-                background-color: $c-purple !important;
-
-                &:hover {
-                    background: $c-hover !important;
-                }
-
-                // &:nth-child(1) {
-                //     .stat-toggle {
-                //         font-size: 0;
-                //     }
-
-                //     &:before {
-                //         font-size: 14px;
-                //         color: red;
-                //         content:'TEST';
-                //     }
-                // }
-    
-                &:nth-child(n + 5) {
-                    background-color: $c-dark-purple !important;
-                    .stat-toggle {
-                        display: none;
-                    }
-                    &:hover {
-                        background: $c-hover !important;
-                    }
-                }
-    
-                // &:nth-child(-n + 4) {
-                //     .cell__clock {
-                //         display: none;
-                //     }
-                // }
-    
-                .stat-value {
-                    color: $c-plum;
-                    background: rgba(255, 255, 255, 0.85);
-                }
-            }
-        }
+    // Faction sheets
+    div[id^='PbtaActorOtherSheet'] {
+        @include meta.load-css('faction-sheet.scss');
     }
 
-    .cell__title {
-        color: $c-plum;
-    }
-
-    /* Tabs */
-    .tabs {
-        border-bottom: 2px solid $c-dark-purple;
-    }
-
-    .sheet-tabs.tabs > a.item {
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-        background-color: $c-light-purple-20;
-        border-top: 1px solid $c-dark-purple;
-        border-left: 1px solid $c-dark-purple;
-        border-right: 1px solid $c-dark-purple;
-        color: $c-dark-purple;
-
-        &.active,
-        &.active:hover {
-            background-color: $c-dark-purple;
-            color: $c-white;
-        }
-
-        &:hover,
-        &:focus {
-            background-color: $c-hover;
-            color: $c-white;
-            font-weight: bold;
-        }
-    }
-
-    .sheet-attributes-top {
-        padding: 0;
-
-        .cell--attributes-top {
-            .cell {
-                padding-top: 5px;
-            }
-        }
-    }
-
-    /* Advancements */
-    .cell--attr-advancement {
-        ul.cell__checkboxes {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 2px;
-
-            label:nth-child(odd) {
-                unicode-bidi: embed;
-                direction: rtl;
-                text-align: left;
-            }
-        }
-    }
-
-    .cell--attr-harm{
-        ul.cell__checkboxes {
-            label:nth-child(1) {
-                position: absolute;
-                top: 7px;
-                right: 0;
-                unicode-bidi: embed;
-                direction: rtl;
-                text-align: left;
-            }
-        }
-    }
-
-    .cell--attr-corruption  {
-        .cell__clock {
-            align-items: flex-end;
-            justify-content: flex-end;
-            gap: 5px;
-            position: absolute;
-            top: 7px;
-            right: 0;
-        }
-    }
-
-    /* Description Tab */
-
-    .description .sheet-tab {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-        align-content: flex-start;
-        gap: 5px;
-
-        .lookOne, .lookTwo, .lookThree, .demeanor {
-            flex-basis: 24%;
-
-            .editor-content {
-                min-height: 50px;
-            }
-        }
-
-        .lookTwo, .lookThree {
-            .cell__title {
-                visibility: hidden;
-            }
-        }
-
-        .questionOne, .questionTwo, .questionThree, .questionFour, .questionFive {
-            flex-basis: 100%;
-            
-            .editor-content {
-                min-height: 100px;
-            }
-        }
-
-        .questionTwo, .questionThree, .questionFour, .questionFive {
-            .cell__title {
-                display: none;
-            }
-        }
-
-        .notes {
-            flex-basis: 100%;
-            
-            .editor-content {
-                min-height: 200px;
-            }
-        }
+    // NPC sheets
+    .npc {
+        @include meta.load-css('npc-sheet.scss');
     }
 }

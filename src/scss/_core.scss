@@ -1,0 +1,117 @@
+@use "colors";
+
+.pbta.sheet {
+
+    .window-header {
+        background-color: colors.$c-dark-purple;
+    }
+
+    /* Stats */
+    .sheet-attributes {
+        position: relative;
+
+        .cell--stats{
+            .stat {
+                max-width: 155px;
+                background-color: colors.$c-purple !important;
+
+                &:hover {
+                    background: colors.$c-hover !important;
+                }
+    
+                .stat-value {
+                    color: colors.$c-plum;
+                    background: rgba(255, 255, 255, 0.85);
+                }
+            }
+        }
+    }
+
+    .cell__title {
+        color: colors.$c-plum;
+    }
+
+    /* Tabs */
+    .tabs {
+        border-bottom: 2px solid colors.$c-dark-purple;
+    }
+
+    .sheet-tabs.tabs > a.item {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        background-color: colors.$c-light-purple-20;
+        border-top: 1px solid colors.$c-dark-purple;
+        border-left: 1px solid colors.$c-dark-purple;
+        border-right: 1px solid colors.$c-dark-purple;
+        color: colors.$c-dark-purple;
+
+        &.active,
+        &.active:hover {
+            background-color: colors.$c-dark-purple;
+            color: colors.$c-white;
+        }
+
+        &:hover,
+        &:focus {
+            background-color: colors.$c-hover;
+            color: colors.$c-white;
+            font-weight: bold;
+        }
+    }
+
+    .sheet-attributes-top {
+        padding: 0;
+
+        .cell--attributes-top {
+            .cell {
+                padding-top: 5px;
+            }
+        }
+    }
+
+    /* Description Tab */
+
+    .description .sheet-tab {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-content: flex-start;
+        gap: 5px;
+
+        .lookOne, .lookTwo, .lookThree, .demeanor {
+            flex-basis: 24%;
+
+            .editor-content {
+                min-height: 50px;
+            }
+        }
+
+        .lookTwo, .lookThree {
+            .cell__title {
+                visibility: hidden;
+            }
+        }
+
+        .questionOne, .questionTwo, .questionThree, .questionFour, .questionFive {
+            flex-basis: 100%;
+            
+            .editor-content {
+                min-height: 100px;
+            }
+        }
+
+        .questionTwo, .questionThree, .questionFour, .questionFive {
+            .cell__title {
+                display: none;
+            }
+        }
+
+        .notes {
+            flex-basis: 100%;
+            
+            .editor-content {
+                min-height: 200px;
+            }
+        }
+    }
+}

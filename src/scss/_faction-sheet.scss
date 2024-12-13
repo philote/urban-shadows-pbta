@@ -1,0 +1,59 @@
+@use "colors";
+
+.sheet-playbook {
+    display: none;
+}
+
+/* Stats */
+.sheet-attributes {
+    .cell--stats{
+        .stat {
+            max-width: 200px;
+            min-height: 75px;
+            margin-top: 30px;
+
+            .stat-toggle {
+                display: none;
+            }
+            &:hover {
+                background: colors.$c-hover !important;
+            }
+        }
+    }
+}
+
+.cell--attr-circles, .cell--attr-stance {
+    ul.cell__checkboxes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2px;
+
+        label:nth-child(odd) {
+            unicode-bidi: embed;
+            direction: rtl;
+            text-align: left;
+        }
+    }
+}
+
+.cell--attr-recruitment, .cell--attr-resources {
+    .cell__clock {
+        align-items: flex-end;
+        justify-content: flex-end;
+        gap: 5px;
+        position: absolute;
+        top: 7px;
+        right: 0;
+    }
+}
+
+.sheet-wrapper .sheet-header {
+    position: absolute;
+    left: 190px;
+    width: -webkit-fill-available;
+    margin-right: 20px;
+}
+
+a[data-tab="equipment"] {   
+    display: none;
+}

@@ -1,0 +1,58 @@
+@use "colors";
+
+/* Stats */
+.sheet-attributes {
+    .cell--stats{
+        .stat {
+            &:nth-child(n + 5) {
+                background-color: colors.$c-dark-purple !important;
+                .stat-toggle {
+                    display: none;
+                }
+                &:hover {
+                    background: colors.$c-hover !important;
+                }
+            }
+        }
+    }
+}
+
+/* Advancements */
+.cell--attr-advancement {
+    ul.cell__checkboxes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2px;
+
+        label:nth-child(odd) {
+            unicode-bidi: embed;
+            direction: rtl;
+            text-align: left;
+        }
+    }
+}
+
+.cell--attr-harm{
+    ul.cell__checkboxes {
+        label:nth-child(1) {
+            position: absolute;
+            top: 7px;
+            right: 0;
+            unicode-bidi: embed;
+            direction: rtl;
+            text-align: left;
+        }
+    }
+}
+
+
+.cell--attr-corruption  {
+    .cell__clock {
+        align-items: flex-end;
+        justify-content: flex-end;
+        gap: 5px;
+        position: absolute;
+        top: 7px;
+        right: 0;
+    }
+}

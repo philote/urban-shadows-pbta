@@ -38,6 +38,7 @@
 - Look
 - Demeanor
 - Role
+- Presenting
 - Trait
 - Quirk
 - List of Debts
@@ -47,10 +48,14 @@
 ## Faction Actor
 - picture
 - name
-### top
-- stances [striving, maintaining, collapsing]
+### stats
 - Size [Size-1, Size-2, Size-3, Size-4]
 - Strength [Strength-1, Strength-2, Strength-3, Strength-4]
+### top
+- stances [striving, maintaining, collapsing]
+- circles [Mortalis, Night, Power, Wild]
+- recruitment
+- resources
 ### side
 - leader [Status-3] (NPC or PC Actor)
 - Assets, tags like +veteran hunters, +necromantic rituals, or +drug dealer network
@@ -69,13 +74,10 @@
 - list of Hub Moves
 - tables [locations, rumors, factions, npcs]
 
-## New Items
-- Debt
-
-
 ## extra nice features
 - A sheet/Journal entry shows all debts
 - Debts that connect 2 PCs or PCs and NPCs are the same objects
+- New Item: Debt
 
 ## PbtA features
 - on playbook granting prompt player which stat they want to add a +1 to
@@ -85,3 +87,4 @@
     - questions with multiple choice
     - questions with input box
     - questions that link to other PCs
+- Unique CSS added for each custom actor type

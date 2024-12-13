@@ -1,0 +1,34 @@
+.cell--attr-status  {
+    .cell__clock {
+        align-items: flex-end;
+        justify-content: flex-end;
+        gap: 5px;
+        position: absolute;
+        top: 7px;
+        right: 0;
+    }
+}
+
+.cell--attr-circle {
+    ul.cell__checkboxes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2px;
+
+        label:nth-child(odd) {
+            unicode-bidi: embed;
+            direction: rtl;
+            text-align: left;
+        }
+    }
+}
+
+.description .sheet-tab {
+    .look, .demeanor, .information, .debts {
+        flex-basis: 49%;
+
+        .editor-content {
+            min-height: 75px;
+        }
+    }
+}

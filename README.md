@@ -1,7 +1,7 @@
 # Urban Shadows 2E (PbtA) (Unofficial)
 
 > [!Warning]
-> This is not a finished module yet.
+> This module is in the early stages of development, use with caution.
 
 <p align="center">
     <img alt="Foundry Version 12 support" src="https://img.shields.io/badge/Foundry-v12-informational"> 
@@ -46,12 +46,12 @@ The following Foundry VTT game system must be installed to use this module: [Pow
   - Playbooks
   - Moves
   - Gear
+  - NPCs
+  - Factions
 
 ## TODO
-- Faction Sheet
-- Debt Items
-- NPC Sheet
-- Hub Journal Template
+- Debt Items and actor linking
+- Hub Journal Templates
 - Relationship and debt tracking on PC sheets
 
 # License & Acknowledgements

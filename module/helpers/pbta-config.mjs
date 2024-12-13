@@ -1,689 +1,723 @@
 export const configSheet = async () => {
     // Pass module sheet object to sheetConfig
     game.pbta.sheetConfig = {
-        "rollFormula": "2d6",
-        "statClock": 3,
-        "minMod": -3,
-        "maxMod": 4,
-        "statToggle": {
-            "label": "Scar",
-            "modifier": "-1"
+        rollFormula: "2d6",
+        statClock: 3,
+        minMod: -3,
+        maxMod: 4,
+        statToggle: {
+            label: "Scar",
+            modifier: "-1"
         },
-        "rollResults": {
-            "miss": {
-                "start": null,
-                "end": 6,
-                "label": "Miss"
+        rollResults: {
+            miss: {
+                start: null,
+                end: 6,
+                label: "Miss"
             },
-            "weak-hit": {
-                "start": 7,
-                "end": 9,
-                "label": "Weak Hit"
+            weakHit: {
+                start: 7,
+                end: 9,
+                label: "Weak Hit"
             },
-            "strong-hit": {
-                "start": 10,
-                "end": null,
-                "label": "Strong Hit"
+            strongHit: {
+                start: 10,
+                end: null,
+                label: "Strong Hit"
             }
         },
-        "actorTypes": {
-            "character": {
-                "details": {
-                    "lookOne": {
-                        "label": "Look",
-                        "value": "",
-                        "playbook": true
+        actorTypes: {
+            character: {
+                stats: {
+                    blood: {
+                        label: "Blood",
+                        value: 0,
                     },
-                    "lookTwo": {
-                        "label": "Look Two",
-                        "value": "",
-                        "playbook": true
+                    heart: {
+                        label: "Heart",
+                        value: 0,
                     },
-                    "lookThree": {
-                        "label": "Look Three",
-                        "value": "",
-                        "playbook": true
+                    mind: {
+                        label: "Mind",
+                        value: 0,
                     },
-                    "demeanor": {
-                        "label": "Demeanor",
-                        "value": "",
-                        "playbook": true
+                    spirit: {
+                        label: "Spirit",
+                        value: 0,
                     },
-                    "questionOne": {
-                        "label": "Questions",
-                        "value": "",
-                        "playbook": true
-                    },
-                    "questionTwo": {
-                        "label": "Question Two",
-                        "value": "",
-                        "playbook": true
-                    },
-                    "questionThree": {
-                        "label": "Question Three",
-                        "value": "",
-                        "playbook": true
-                    },
-                    "questionFour": {
-                        "label": "Question Four",
-                        "value": "",
-                        "playbook": true
-                    },
-                    "questionFive": {
-                        "label": "Question Five",
-                        "value": "",
-                        "playbook": true
-                    },
-                    "notes": {
-                        "label": "Notes",
-                        "value": "",
-                    }
-                },
-                "stats": {
-                    "blood": {
-                        "label": "Blood",
-                        "value": 0,
-                    },
-                    "heart": {
-                        "label": "Heart",
-                        "value": 0,
-                    },
-                    "mind": {
-                        "label": "Mind",
-                        "value": 0,
-                    },
-                    "spirit": {
-                        "label": "Spirit",
-                        "value": 0,
-                    },
-                    "mortalis": {
-                        "label": "Mortalis",
-                        "value": 0,
-                        "steps": {
-                            "value": 0,
-                            "max": 3
+                    mortalis: {
+                        label: "Mortalis",
+                        value: 0,
+                        steps: {
+                            value: 0,
+                            max: 3
                         }
                     },
-                    "night": {
-                        "label": "Night",
-                        "value": 0,
-                        "steps": {
-                            "value": 0,
-                            "max": 3
+                    night: {
+                        label: "Night",
+                        value: 0,
+                        steps: {
+                            value: 0,
+                            max: 3
                         }
                     },
-                    "power": {
-                        "label": "Power",
-                        "value": 0,
-                        "steps": {
-                            "value": 0,
-                            "max": 3
+                    power: {
+                        label: "Power",
+                        value: 0,
+                        steps: {
+                            value: 0,
+                            max: 3
                         }
                     },
-                    "wild": {
-                        "label": "Wild",
-                        "value": 0,
-                        "steps": {
-                            "value": 0,
-                            "max": 3
+                    wild: {
+                        label: "Wild",
+                        value: 0,
+                        steps: {
+                            value: 0,
+                            max: 3
                         }
                     }
                 },
-                "attributes": {
-                    "harm": {
-                        "label": "Harm",
-                        "description": null,
-                        "customLabel": false,
-                        "userLabel": false,
-                        "playbook": null,
-                        "limited": false,
-                        "position": "top",
-                        "type": "ListMany",
-                        "condition": false,
-                        "sort": false,
-                        "options": {
-                            "0": {
-                                "label": "Armor",
-                                "value": false
+                attributes: {
+                    harm: {
+                        label: "Harm",
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        position: "top",
+                        type: "ListMany",
+                        condition: false,
+                        sort: false,
+                        options: {
+                            0: {
+                                label: "Armor",
+                                value: false
                             },
-                            "1": {
-                                "label": "Faint",
-                                "value": false
+                            1: {
+                                label: "Faint",
+                                value: false
                             },
-                            "2": {
-                                "values": {
-                                    "0": {
-                                        "value": false
+                            2: {
+                                values: {
+                                    0: {
+                                        value: false
                                     },
-                                    "1": {
-                                        "value": false
+                                    1: {
+                                        value: false
                                     }
                                 },
-                                "label": "Serious"
+                                label: "Serious"
                             },
-                            "3": {
-                                "values": {
-                                    "0": {
-                                        "value": false
+                            3: {
+                                values: {
+                                    0: {
+                                        value: false
                                     },
-                                    "1": {
-                                        "value": false
+                                    1: {
+                                        value: false
                                     }
                                 },
-                                "label": "Critical"
+                                label: "Critical"
                             }
                         }
                     },
-                    "advancement": {
-                        "label": "Advancement",
-                        "description": "When you've marked all four, clear & advance",
-                        "customLabel": false,
-                        "userLabel": false,
-                        "playbook": null,
-                        "limited": false,
-                        "position": "top",
-                        "type": "ListMany",
-                        "condition": false,
-                        "sort": false,
-                        "options": {
-                            "0": {
-                                "label": "Mortalis",
-                                "value": false
+                    advancement: {
+                        label: "Advancement",
+                        description: "When you've marked all four, clear & advance",
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        position: "top",
+                        type: "ListMany",
+                        condition: false,
+                        sort: false,
+                        options: {
+                            0: {
+                                label: "Mortalis",
+                                value: false
                             },
-                            "1": {
-                                "label": "Night",
-                                "value": false
+                            1: {
+                                label: "Night",
+                                value: false
                             },
-                            "2": {
-                                "label": "Power",
-                                "value": false
+                            2: {
+                                label: "Power",
+                                value: false
                             },
-                            "3": {
-                                "label": "Wild",
-                                "value": false
+                            3: {
+                                label: "Wild",
+                                value: false
                             }
                         }
                     },
-                    "corruption": {
-                        "label": "Corruption",
-                        "description": "Corruption trigger: ",
-                        "customLabel": false,
-                        "userLabel": false,
-                        "playbook": true,
-                        "limited": false,
-                        "position": "top",
-                        "type": "Clock",
-                        "value": 0,
-                        "max": 5
+                    corruption: {
+                        label: "Corruption",
+                        description: "Corruption trigger: ",
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: true,
+                        limited: false,
+                        position: "top",
+                        type: "Clock",
+                        value: 0,
+                        max: 5
                     },
-                    "trauma": {
-                        "label": "Trauma",
-                        "description": "When you witness a scene of violence or victimization and do nothing, mark trauma and corruption.",
-                        "customLabel": false,
-                        "userLabel": false,
-                        "playbook": "spectre",
-                        "limited": false,
-                        "position": "left",
-                        "type": "Clock",
-                        "value": 0,
-                        "max": 5
+                    trauma: {
+                        label: "Trauma",
+                        description: "When you witness a scene of violence or victimization and do nothing, mark trauma and corruption.",
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: "spectre",
+                        limited: false,
+                        position: "left",
+                        type: "Clock",
+                        value: 0,
+                        max: 5
                     },
-                    "web": {
-                        "label": "Your Web",
-                        "description": "Those trapped in your web:",
-                        "customLabel": false,
-                        "userLabel": false,
-                        "playbook": "vamp",
-                        "limited": false,
-                        "position": "left",
-                        "type": "LongText",
-                        "value": ""
+                    web: {
+                        label: "Your Web",
+                        description: "Those trapped in your web:",
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: "vamp",
+                        limited: false,
+                        position: "left",
+                        type: "LongText",
+                        value: ""
                     },
-                    "letItOut": {
-                        "label": "Let it out Abilities",
-                        "description": null,
-                        "customLabel": false,
-                        "userLabel": false,
-                        "playbook": true,
-                        "limited": false,
-                        "position": "left",
-                        "type": "LongText",
-                        "value": ""
+                    letItOut: {
+                        label: "Let it out Abilities",
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: true,
+                        limited: false,
+                        position: "left",
+                        type: "LongText",
+                        value: ""
                     },
-                    "debts": {
-                        "label": "Debts",
-                        "description": null,
-                        "customLabel": false,
-                        "userLabel": false,
-                        "playbook": true,
-                        "limited": false,
-                        "position": "left",
-                        "type": "LongText",
-                        "value": ""
+                    debts: {
+                        label: "Debts",
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: true,
+                        limited: false,
+                        position: "left",
+                        type: "LongText",
+                        value: ""
                     },
-                    "advancements": {
-                        "label": "Advancements",
-                        "description": "Available at the beginning of play:",
-                        "customLabel": false,
-                        "userLabel": false,
-                        "playbook": true,
-                        "limited": false,
-                        "position": "left",
-                        "type": "ListMany",
-                        "condition": false,
-                        "sort": false,
-                        "options": {
-                            "0": {
-                                "label": "+1 Status (max+1)",
-                                "value": false
+                    advancements: {
+                        label: "Advancements",
+                        description: "Available at the beginning of play:",
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: true,
+                        limited: false,
+                        position: "left",
+                        type: "ListMany",
+                        condition: false,
+                        sort: false,
+                        options: {
+                            0: {
+                                label: "+1 Status (max+1)",
+                                value: false
                             },
-                            "1": {
-                                "label": "+1 Status (max+1)",
-                                "value": false
+                            1: {
+                                label: "+1 Status (max+1)",
+                                value: false
                             },
-                            "2": {
-                                "label": "+1 Status (max+1)",
-                                "value": false
+                            2: {
+                                label: "+1 Status (max+1)",
+                                value: false
                             },
-                            "3": {
-                                "label": "a new Aware move",
-                                "value": false
+                            3: {
+                                label: "a new Aware move",
+                                value: false
                             },
-                            "4": {
-                                "label": "a new Aware move",
-                                "value": false
+                            4: {
+                                label: "a new Aware move",
+                                value: false
                             },
-                            "5": {
-                                "label": "a move from another archetype",
-                                "value": false
+                            5: {
+                                label: "a move from another archetype",
+                                value: false
                             },
-                            "6": {
-                                "label": "a move from another archetype",
-                                "value": false
+                            6: {
+                                label: "a move from another archetype",
+                                value: false
                             },
-                            "7": {
-                                "label": "open a new mortal relationship",
-                                "value": false
+                            7: {
+                                label: "open a new mortal relationship",
+                                value: false
                             }
                         }
                     },
-                    "expertAdvancements": {
-                        "label": "Expert advancements",
-                        "description": "After five advances, you may select:",
-                        "customLabel": false,
-                        "userLabel": false,
-                        "playbook": true,
-                        "limited": false,
-                        "position": "left",
-                        "type": "ListMany",
-                        "condition": false,
-                        "sort": false,
-                        "options": {
-                            "0": {
-                                "label": "+1 any Circle (max+3)",
-                                "value": false
+                    expertAdvancements: {
+                        label: "Expert advancements",
+                        description: "After five advances, you may select:",
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: true,
+                        limited: false,
+                        position: "left",
+                        type: "ListMany",
+                        condition: false,
+                        sort: false,
+                        options: {
+                            0: {
+                                label: "+1 any Circle (max+3)",
+                                value: false
                             },
-                            "1": {
-                                "label": "+1 any Circle (max+3)",
-                                "value": false
+                            1: {
+                                label: "+1 any Circle (max+3)",
+                                value: false
                             },
-                            "2": {
-                                "label": "Mortalis Status: 2",
-                                "value": false
+                            2: {
+                                label: "Mortalis Status: 2",
+                                value: false
                             },
-                            "3": {
-                                "label": "erase a scar",
-                                "value": false
+                            3: {
+                                label: "erase a scar",
+                                value: false
                             },
-                            "4": {
-                                "label": "change your Circle",
-                                "value": false
+                            4: {
+                                label: "change your Circle",
+                                value: false
                             },
-                            "5": {
-                                "label": "advance 3 basic moves",
-                                "value": false
+                            5: {
+                                label: "advance 3 basic moves",
+                                value: false
                             },
-                            "6": {
-                                "label": "advance 3 basic moves",
-                                "value": false
+                            6: {
+                                label: "advance 3 basic moves",
+                                value: false
                             },
-                            "7": {
-                                "label": "change to a new archetype",
-                                "value": false
+                            7: {
+                                label: "change to a new archetype",
+                                value: false
                             }
                         }
                     },
-                    "corruptionAdvances": {
-                        "label": "Corruption advances",
-                        "description": "Corruption represents your character slipping toward the worst parts of their nature. As your corruption mounts, your powers only grow...",
-                        "customLabel": false,
-                        "userLabel": false,
-                        "playbook": true,
-                        "limited": false,
-                        "position": "left",
-                        "type": "ListMany",
-                        "condition": false,
-                        "sort": false,
-                        "options": {
-                            "0": {
-                                "label": "take +1 to any stat (max+3)",
-                                "value": false
+                    corruptionAdvances: {
+                        label: "Corruption advances",
+                        description: "Corruption represents your character slipping toward the worst parts of their nature. As your corruption mounts, your powers only grow...",
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: true,
+                        limited: false,
+                        position: "left",
+                        type: "ListMany",
+                        condition: false,
+                        sort: false,
+                        options: {
+                            0: {
+                                label: "take +1 to any stat (max+3)",
+                                value: false
                             },
-                            "1": {
-                                "label": "take +1 to any stat (max+3)",
-                                "value": false
+                            1: {
+                                label: "take +1 to any stat (max+3)",
+                                value: false
                             },
-                            "2": {
-                                "label": "take a new corruption move",
-                                "value": false
+                            2: {
+                                label: "take a new corruption move",
+                                value: false
                             },
-                            "3": {
-                                "label": "take a new corruption move",
-                                "value": false
+                            3: {
+                                label: "take a new corruption move",
+                                value: false
                             },
-                            "4": {
-                                "label": "take a new corruption move from another archetype or your own",
-                                "value": false
+                            4: {
+                                label: "take a new corruption move from another archetype or your own",
+                                value: false
                             },
-                            "5": {
-                                "label": "retire your character; they may return as a Threat",
-                                "value": false
+                            5: {
+                                label: "retire your character; they may return as a Threat",
+                                value: false
                             }
                         }
                     }
                 },
-                "moveTypes": {
-                    "basic": {
-                        "label": "Basic Moves",
-                        "playbook": false,
-                        "creation": true
+                details: {
+                    lookOne: {
+                        label: "Look",
+                        value: "",
+                        playbook: true
                     },
-                    "playbook": {
-                        "label": "Playbook Moves",
-                        "playbook": true,
-                        "creation": false
+                    lookTwo: {
+                        label: "Look Two",
+                        value: "",
+                        playbook: true
                     },
-                    "debt": {
-                        "label": "Debt Moves",
-                        "playbook": false,
-                        "creation": true
+                    lookThree: {
+                        label: "Look Three",
+                        value: "",
+                        playbook: true
                     },
-                    "circle": {
-                        "label": "Circle Moves",
-                        "playbook": false,
-                        "creation": true
+                    demeanor: {
+                        label: "Demeanor",
+                        value: "",
+                        playbook: true
                     },
-                    "city": {
-                        "label": "City Moves",
-                        "playbook": false,
-                        "creation": false
+                    questionOne: {
+                        label: "Questions",
+                        value: "",
+                        playbook: true
                     },
-                    "hub": {
-                        "label": "Hub Moves",
-                        "playbook": false,
-                        "creation": false
+                    questionTwo: {
+                        label: "Question Two",
+                        value: "",
+                        playbook: true
                     },
-                    "corruption": {
-                        "label": "Corruption Moves",
-                        "playbook": true,
-                        "creation": false
+                    questionThree: {
+                        label: "Question Three",
+                        value: "",
+                        playbook: true
                     },
-                    "spells": {
-                        "label": "Spells",
-                        "playbook": true,
-                        "creation": false
+                    questionFour: {
+                        label: "Question Four",
+                        value: "",
+                        playbook: true
+                    },
+                    questionFive: {
+                        label: "Question Five",
+                        value: "",
+                        playbook: true
+                    },
+                    notes: {
+                        label: "Notes",
+                        value: "",
                     }
                 },
-                "equipmentTypes": {
-                    "gear": {
-                        "label": "Gear"
+                moveTypes: {
+                    basic: {
+                        label: "Basic Moves",
+                        playbook: false,
+                        creation: true
+                    },
+                    playbook: {
+                        label: "Playbook Moves",
+                        playbook: true,
+                        creation: false
+                    },
+                    debt: {
+                        label: "Debt Moves",
+                        playbook: false,
+                        creation: true
+                    },
+                    circle: {
+                        label: "Circle Moves",
+                        playbook: false,
+                        creation: true
+                    },
+                    city: {
+                        label: "City Moves",
+                        playbook: false,
+                        creation: false
+                    },
+                    hub: {
+                        label: "Hub Moves",
+                        playbook: false,
+                        creation: false
+                    },
+                    corruption: {
+                        label: "Corruption Moves",
+                        playbook: true,
+                        creation: false
+                    },
+                    spells: {
+                        label: "Spells",
+                        playbook: true,
+                        creation: false
+                    }
+                },
+                equipmentTypes: {
+                    gear: {
+                        label: "Gear"
                     }
                 }
             },
-            "faction": {
-                "label": "Faction",
-                "details": {
-                    "notes": {
-                        "label": "Notes",
-                        "value": "",
-                        "type": "LongText"
+            faction: {
+                label: "Faction",
+                stats: {
+                    size: {
+                        label: "Size",
+                        value: 0
+                    },
+                    strength: {
+                        label: "Strength",
+                        value: 0
                     }
                 },
-                "stats": {
-                    "size": {
-                        "label": "Size",
-                        "value": 0,
-                        "steps": {
-                            "value": 0,
-                            "max": 3
-                        }
-                    },
-                    "strength": {
-                        "label": "Strength",
-                        "value": 0,
-                        "steps": {
-                            "value": 0,
-                            "max": 3
-                        }
-                    },
-                    "tours": {
-                        "label": "#Tours",
-                        "value": 0,
-                        "steps": {
-                            "value": 0,
-                            "max": 3
-                        }
-                    }
-                },
-                "attributes": {
-                    "circles": {
-                        "label": "Circles",
-                        "description": null,
-                        "customLabel": false,
-                        "userLabel": false,
-                        "playbook": null,
-                        "limited": false,
-                        "position": "top",
-                        "type": "LongText",
-                        "value": "Mortalis ; Night ; Power ; Wild"
-                    },
-                    "recruitment": {
-                        "label": "Recruitment",
-                        "description": "if the track fills, the faction adds +1 Size. If something reduces the Size of a faction, the track clears.",
-                        "customLabel": false,
-                        "userLabel": false,
-                        "playbook": null,
-                        "limited": false,
-                        "position": "top",
-                        "type": "Clock",
-                        "value": 0,
-                        "max": 3
-                    },
-                    "resources": {
-                        "label": "Resources",
-                        "description": "if the track fills, the faction adds +1 Strength and gains a new asset. If something reduces the Strength of a faction, the resource track clears.",
-                        "customLabel": false,
-                        "userLabel": false,
-                        "playbook": null,
-                        "limited": false,
-                        "position": "top",
-                        "type": "Clock",
-                        "value": 0,
-                        "max": 3
-                    },
-                    "goal": {
-                        "label": "Goal",
-                        "description": null,
-                        "customLabel": false,
-                        "userLabel": false,
-                        "playbook": null,
-                        "limited": false,
-                        "position": "left",
-                        "type": "LongText",
-                        "value": ""
-                    },
-                    "leaders": {
-                        "label": "Leaders",
-                        "description": null,
-                        "customLabel": false,
-                        "userLabel": false,
-                        "playbook": null,
-                        "limited": false,
-                        "position": "left",
-                        "type": "LongText",
-                        "value": ""
-                    },
-                    "assets": {
-                        "label": "Assets",
-                        "description": null,
-                        "customLabel": false,
-                        "userLabel": false,
-                        "playbook": null,
-                        "limited": false,
-                        "position": "left",
-                        "type": "LongText",
-                        "value": ""
-                    }
-                },
-                "moveTypes": {
-                    "faction": {
-                        "label": "Faction Moves"
-                    }
-                },
-                "equipmentTypes": {
-                    "gear": {
-                        "label": "Gear"
-                    },
-                    "weapon": {
-                        "label": "Weapons"
-                    },
-                    "transport": {
-                        "label": "Transport"
-                    },
-                    "armour": {
-                        "label": "Armour"
-                    }
-                },
-                "baseType": "character"
-            },
-            "npc": {
-                "details": {
-                    "biography": {
-                        "label": "Biography",
-                        "value": ""
-                    }
-                },
-                "attributes": {
-                    "harm": {
-                        "label": "Harm Capacity",
-                        "description": null,
-                        "customLabel": false,
-                        "userLabel": false,
-                        "playbook": null,
-                        "limited": false,
-                        "position": "top",
-                        "type": "Resource",
-                        "value": 0,
-                        "max": 1
-                    },
-                    "status": {
-                        "label": "Status",
-                        "description": null,
-                        "customLabel": false,
-                        "userLabel": false,
-                        "playbook": null,
-                        "limited": false,
-                        "position": "top",
-                        "type": "Clock",
-                        "value": 1,
-                        "max": 3
-                    },
-                    "type": {
-                        "label": "Circle",
-                        "description": null,
-                        "customLabel": false,
-                        "userLabel": false,
-                        "playbook": null,
-                        "limited": false,
-                        "position": "top",
-                        "type": "ListMany",
-                        "condition": false,
-                        "sort": false,
-                        "options": {
-                            "0": {
-                                "label": "Mortalis",
-                                "value": false
+                attributes: {
+                    circles: {
+                        label: "Circle(s)",
+                        description: "",
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        position: "top",
+                        type: "ListMany",
+                        condition: false,
+                        sort: false,
+                        options: {
+                            0: {
+                                label: "Mortalis",
+                                value: false
                             },
-                            "1": {
-                                "label": "Night",
-                                "value": false
+                            1: {
+                                label: "Night",
+                                value: false
                             },
-                            "2": {
-                                "label": "Power",
-                                "value": false
+                            2: {
+                                label: "Power",
+                                value: false
                             },
-                            "3": {
-                                "label": "Wild",
-                                "value": false
+                            3: {
+                                label: "Wild",
+                                value: false
                             }
                         }
                     },
-                    "faction": {
-                        "label": "Details",
-                        "description": null,
-                        "customLabel": false,
-                        "userLabel": false,
-                        "playbook": null,
-                        "limited": false,
-                        "position": "top",
-                        "type": "LongText",
-                        "value": "Faction & Archetype"
+                    recruitment: {
+                        label: "Recruitment",
+                        description: "Filling this track adds +1 to Size. If something reduces the Size of a faction, the track clears.",
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        position: "top",
+                        type: "Clock",
+                        value: 0,
+                        max: 3
                     },
-                    "motivation": {
-                        "label": "Motivation",
-                        "description": null,
-                        "customLabel": false,
-                        "userLabel": false,
-                        "playbook": null,
-                        "limited": false,
-                        "position": "left",
-                        "type": "LongText",
-                        "value": ""
+                    resources: {
+                        label: "Resources",
+                        description: "Filling this track adds +1 Strength and gains a new asset. If something reduces the Strength of a faction, the resource track clears.",
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        position: "top",
+                        type: "Clock",
+                        value: 0,
+                        max: 3
                     },
-                    "forces": {
-                        "label": "Forces/Faiblesses",
-                        "description": null,
-                        "customLabel": false,
-                        "userLabel": false,
-                        "playbook": null,
-                        "limited": false,
-                        "position": "left",
-                        "type": "LongText",
-                        "value": "Armor ?"
+                    stance: {
+                        label: "Stance",
+                        description: "",
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        position: "top",
+                        type: "ListMany",
+                        condition: false,
+                        sort: false,
+                        options: {
+                            0: {
+                                label: "Striving",
+                                value: false
+                            },
+                            1: {
+                                label: "Maintaining",
+                                value: false
+                            },
+                            2: {
+                                label: "Collapsing",
+                                value: false
+                            }
+                        }
                     },
-                    "desc": {
-                        "label": "Description",
-                        "description": null,
-                        "customLabel": false,
-                        "userLabel": false,
-                        "playbook": null,
-                        "limited": false,
-                        "position": "left",
-                        "type": "LongText",
-                        "value": ""
+                    goals: {
+                        label: "Goals",
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        position: "left",
+                        type: "LongText",
+                        value: ""
+                    },
+                    leaders: {
+                        label: "Leaders",
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        position: "left",
+                        type: "LongText",
+                        value: ""
+                    },
+                    assets: {
+                        label: "Assets",
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        position: "left",
+                        type: "LongText",
+                        value: ""
                     }
                 },
-                "moveTypes": {
-                    "basic": {
-                        "label": "Basic Moves"
-                    },
-                    "custom": {
-                        "label": "Custom Moves"
+                details: {
+                    notes: {
+                        label: "Notes",
+                        value: "",
+                        type: "LongText"
                     }
                 },
-                "equipmentTypes": {
-                    "loot": {
-                        "label": "Loot"
+                moveTypes: {
+                    faction: {
+                        label: "Faction Moves"
+                    }
+                },
+                equipmentTypes: {
+                    assets: {
+                        label: "Assets"
+                    }
+                },
+                baseType: "character"
+            },
+            npc: {
+                attributes: {
+                    harm: {
+                        label: "Harm Capacity",
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        position: "top",
+                        type: "Resource",
+                        value: 0,
+                        max: 1
+                    },
+                    status: {
+                        label: "Status",
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        position: "top",
+                        type: "Clock",
+                        value: 0,
+                        max: 3
+                    },
+                    circle: {
+                        label: "Circle",
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        position: "top",
+                        type: "ListMany",
+                        condition: false,
+                        sort: false,
+                        options: {
+                            0: {
+                                label: "Mortalis",
+                                value: false
+                            },
+                            1: {
+                                label: "Night",
+                                value: false
+                            },
+                            2: {
+                                label: "Power",
+                                value: false
+                            },
+                            3: {
+                                label: "Wild",
+                                value: false
+                            }
+                        }
+                    },
+                    faction: {
+                        label: "Faction",
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        position: "top",
+                        type: "Text",
+                        value: ""
+                    },
+                    // side
+                    drives: {
+                        label: "Drives",
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        position: "left",
+                        type: "LongText",
+                        value: ""
+                    },
+                    resistances: {
+                        label: "Resistances",
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        position: "left",
+                        type: "LongText",
+                        value: ""
+                    },
+                    vulnerabilities: {
+                        label: "Vulnerabilities",
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        position: "left",
+                        type: "LongText",
+                        value: ""
+                    }
+                },
+                details: {
+                    look: {
+                        label: "Look",
+                        value: ""
+                    },
+                    demeanor: {
+                        label: "Demeanor",
+                        value: ""
+                    },
+                    information: {
+                        label: "Information",
+                        value: "Role: <br>Trait: <br>Quirk: <br>Presenting: "
+                    },
+                    debts: {
+                        label: "Debts",
+                        value: ""
+                    },
+                    notes: {
+                        label: "Notes",
+                        value: ""
+                    }
+                },
+                moveTypes: {
+                    npc: {
+                        label: "NPC Moves"
+                    }
+                },
+                equipmentTypes: {
+                    gear: {
+                        label: "Gear"
                     }
                 }
             }

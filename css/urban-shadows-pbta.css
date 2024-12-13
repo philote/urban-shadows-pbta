@@ -1,8 +1,7 @@
 /* Colors */
 .pbta.sheet {
-  /* Labels */
+  /* Stats */
   /* Tabs */
-  /* Advancements */
   /* Description Tab */
 }
 .pbta.sheet .window-header {
@@ -16,15 +15,6 @@
   background-color: #55067a !important;
 }
 .pbta.sheet .sheet-attributes .cell--stats .stat:hover {
-  background: #434343 !important;
-}
-.pbta.sheet .sheet-attributes .cell--stats .stat:nth-child(n+5) {
-  background-color: #1b0328 !important;
-}
-.pbta.sheet .sheet-attributes .cell--stats .stat:nth-child(n+5) .stat-toggle {
-  display: none;
-}
-.pbta.sheet .sheet-attributes .cell--stats .stat:nth-child(n+5):hover {
   background: #434343 !important;
 }
 .pbta.sheet .sheet-attributes .cell--stats .stat .stat-value {
@@ -61,32 +51,6 @@
 .pbta.sheet .sheet-attributes-top .cell--attributes-top .cell {
   padding-top: 5px;
 }
-.pbta.sheet .cell--attr-advancement ul.cell__checkboxes {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2px;
-}
-.pbta.sheet .cell--attr-advancement ul.cell__checkboxes label:nth-child(odd) {
-  unicode-bidi: embed;
-  direction: rtl;
-  text-align: left;
-}
-.pbta.sheet .cell--attr-harm ul.cell__checkboxes label:nth-child(1) {
-  position: absolute;
-  top: 7px;
-  right: 0;
-  unicode-bidi: embed;
-  direction: rtl;
-  text-align: left;
-}
-.pbta.sheet .cell--attr-corruption .cell__clock {
-  align-items: flex-end;
-  justify-content: flex-end;
-  gap: 5px;
-  position: absolute;
-  top: 7px;
-  right: 0;
-}
 .pbta.sheet .description .sheet-tab {
   display: flex;
   flex-flow: row wrap;
@@ -117,6 +81,116 @@
 }
 .pbta.sheet .description .sheet-tab .notes .editor-content {
   min-height: 200px;
+}
+
+.vtt div[id^=PbtaActorSheet] {
+  /* Colors */
+  /* Stats */
+  /* Advancements */
+}
+.vtt div[id^=PbtaActorSheet] .sheet-attributes .cell--stats .stat:nth-child(n+5) {
+  background-color: #1b0328 !important;
+}
+.vtt div[id^=PbtaActorSheet] .sheet-attributes .cell--stats .stat:nth-child(n+5) .stat-toggle {
+  display: none;
+}
+.vtt div[id^=PbtaActorSheet] .sheet-attributes .cell--stats .stat:nth-child(n+5):hover {
+  background: #434343 !important;
+}
+.vtt div[id^=PbtaActorSheet] .cell--attr-advancement ul.cell__checkboxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+}
+.vtt div[id^=PbtaActorSheet] .cell--attr-advancement ul.cell__checkboxes label:nth-child(odd) {
+  unicode-bidi: embed;
+  direction: rtl;
+  text-align: left;
+}
+.vtt div[id^=PbtaActorSheet] .cell--attr-harm ul.cell__checkboxes label:nth-child(1) {
+  position: absolute;
+  top: 7px;
+  right: 0;
+  unicode-bidi: embed;
+  direction: rtl;
+  text-align: left;
+}
+.vtt div[id^=PbtaActorSheet] .cell--attr-corruption .cell__clock {
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 5px;
+  position: absolute;
+  top: 7px;
+  right: 0;
+}
+.vtt div[id^=PbtaActorOtherSheet] {
+  /* Colors */
+  /* Stats */
+}
+.vtt div[id^=PbtaActorOtherSheet] .sheet-playbook {
+  display: none;
+}
+.vtt div[id^=PbtaActorOtherSheet] .sheet-attributes .cell--stats .stat {
+  max-width: 200px;
+  min-height: 75px;
+  margin-top: 30px;
+}
+.vtt div[id^=PbtaActorOtherSheet] .sheet-attributes .cell--stats .stat .stat-toggle {
+  display: none;
+}
+.vtt div[id^=PbtaActorOtherSheet] .sheet-attributes .cell--stats .stat:hover {
+  background: #434343 !important;
+}
+.vtt div[id^=PbtaActorOtherSheet] .cell--attr-circles ul.cell__checkboxes, .vtt div[id^=PbtaActorOtherSheet] .cell--attr-stance ul.cell__checkboxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+}
+.vtt div[id^=PbtaActorOtherSheet] .cell--attr-circles ul.cell__checkboxes label:nth-child(odd), .vtt div[id^=PbtaActorOtherSheet] .cell--attr-stance ul.cell__checkboxes label:nth-child(odd) {
+  unicode-bidi: embed;
+  direction: rtl;
+  text-align: left;
+}
+.vtt div[id^=PbtaActorOtherSheet] .cell--attr-recruitment .cell__clock, .vtt div[id^=PbtaActorOtherSheet] .cell--attr-resources .cell__clock {
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 5px;
+  position: absolute;
+  top: 7px;
+  right: 0;
+}
+.vtt div[id^=PbtaActorOtherSheet] .sheet-wrapper .sheet-header {
+  position: absolute;
+  left: 190px;
+  width: -webkit-fill-available;
+  margin-right: 20px;
+}
+.vtt div[id^=PbtaActorOtherSheet] a[data-tab=equipment] {
+  display: none;
+}
+.vtt .npc .cell--attr-status .cell__clock {
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 5px;
+  position: absolute;
+  top: 7px;
+  right: 0;
+}
+.vtt .npc .cell--attr-circle ul.cell__checkboxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+}
+.vtt .npc .cell--attr-circle ul.cell__checkboxes label:nth-child(odd) {
+  unicode-bidi: embed;
+  direction: rtl;
+  text-align: left;
+}
+.vtt .npc .description .sheet-tab .look, .vtt .npc .description .sheet-tab .demeanor, .vtt .npc .description .sheet-tab .information, .vtt .npc .description .sheet-tab .debts {
+  flex-basis: 49%;
+}
+.vtt .npc .description .sheet-tab .look .editor-content, .vtt .npc .description .sheet-tab .demeanor .editor-content, .vtt .npc .description .sheet-tab .information .editor-content, .vtt .npc .description .sheet-tab .debts .editor-content {
+  min-height: 75px;
 }
 
 /*# sourceMappingURL=urban-shadows-pbta.css.map */
