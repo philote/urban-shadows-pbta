@@ -4,16 +4,55 @@
 .sheet-attributes {
     .cell--stats{
         .stat {
+            min-width: 140px;
+            
             &:nth-child(n + 5) {
                 background-color: colors.$c-dark-purple !important;
                 .stat-toggle {
                     display: none;
                 }
+
                 &:hover {
                     background: colors.$c-hover !important;
                 }
+                
+                .cell__clock{
+                    padding-bottom: 12px;
+                    display: inline-block;
+                    position: relative;
+                    text-align: center;
+
+                    &::after {
+                        content: "Status";
+                        font-size: 10px;
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        text-align: center;
+                    }
+                }
             }
         }
+        
+        // .stat[data-stat="mortalis"] {
+            
+        // }
+
+        // .stat[data-stat="night"] {
+        //     background-color: red !important;
+        //     color: green !important;
+        // }
+        
+        // .stat[data-stat="power"] {
+        //     background-color: red !important;
+        //     color: green !important;
+        // }
+        
+        // .stat[data-stat="wild"] {
+        //     background-color: red !important;
+        //     color: green !important;
+        // }
     }
 }
 

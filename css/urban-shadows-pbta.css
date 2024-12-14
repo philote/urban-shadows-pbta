@@ -88,6 +88,9 @@
   /* Stats */
   /* Advancements */
 }
+.vtt div[id^=PbtaActorSheet] .sheet-attributes .cell--stats .stat {
+  min-width: 140px;
+}
 .vtt div[id^=PbtaActorSheet] .sheet-attributes .cell--stats .stat:nth-child(n+5) {
   background-color: #1b0328 !important;
 }
@@ -96,6 +99,21 @@
 }
 .vtt div[id^=PbtaActorSheet] .sheet-attributes .cell--stats .stat:nth-child(n+5):hover {
   background: #434343 !important;
+}
+.vtt div[id^=PbtaActorSheet] .sheet-attributes .cell--stats .stat:nth-child(n+5) .cell__clock {
+  padding-bottom: 12px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+.vtt div[id^=PbtaActorSheet] .sheet-attributes .cell--stats .stat:nth-child(n+5) .cell__clock::after {
+  content: "Status";
+  font-size: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 .vtt div[id^=PbtaActorSheet] .cell--attr-advancement ul.cell__checkboxes {
   display: grid;
