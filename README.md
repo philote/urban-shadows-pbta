@@ -38,7 +38,7 @@ The following Foundry VTT game system must be installed to use this module: [Pow
 
 ## How to Install
 
-You can install the latest released version of the module by using this manifest link in Foundry VTT. [Instructions](https://foundryvtt.com/article/tutorial/): https://github.com/philote/urban-shadows-pbta/releases/latest/download/system.json
+You can install the latest released version of the module by using this manifest link in Foundry VTT. [Instructions](https://foundryvtt.com/article/tutorial/): https://github.com/philote/urban-shadows-pbta/releases/latest/download/module.json
 
 ## Features
 - Sheets for 
