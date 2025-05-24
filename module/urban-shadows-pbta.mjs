@@ -164,35 +164,40 @@ Hooks.on("renderActorSheet", async (app, html) => {
 });
 
 Hooks.on("renderSettings", (app, html) => {
-    // --- Button Creation Logic (Common for both versions) ---
-    const buttonsData = [
-        {
-            action: (ev) => {
-                ev.preventDefault();
-                window.open("https://magpiegames.com/masks/", "_blank");
+    // --- Setting Module Configuration
+    const MODULE_CONFIG = {
+        headingKey: "US2E.Settings.game.heading",
+        sectionClass: "us2e-doc",
+        buttonsData: [
+            {
+                action: (ev) => {
+                    ev.preventDefault();
+                    window.open("https://magpiegames.com/masks/", "_blank");
+                },
+                iconClasses: ["fa-solid", "fa-book"],
+                labelKey: "US2E.Settings.game.publisher.title",
             },
-            iconClasses: ["fa-solid", "fa-book"],
-            labelKey: "US2E.Settings.game.publisher.title",
-        },
-        {
-            action: (ev) => {
-                ev.preventDefault();
-                window.open("https://github.com/philote/urban-shadows-pbta", "_blank");
+            {
+                action: (ev) => {
+                    ev.preventDefault();
+                    window.open("https://github.com/philote/urban-shadows-pbta", "_blank");
+                },
+                iconClasses: ["fab", "fa-github"],
+                labelKey: "US2E.Settings.game.github.title",
             },
-            iconClasses: ["fab", "fa-github"],
-            labelKey: "US2E.Settings.game.github.title",
-        },
-        {
-            action: (ev) => {
-                ev.preventDefault();
-                window.open("https://ko-fi.com/ephson", "_blank");
+            {
+                action: (ev) => {
+                    ev.preventDefault();
+                    window.open("https://ko-fi.com/ephson", "_blank");
+                },
+                iconClasses: ["fa-solid", "fa-mug-hot"],
+                labelKey: "US2E.Settings.game.kofi.title",
             },
-            iconClasses: ["fa-solid", "fa-mug-hot"],
-            labelKey: "US2E.Settings.game.kofi.title",
-        },
-    ];
+        ]
+    };
 
-    const buttons = buttonsData.map(({ action, iconClasses, labelKey }) => {
+    // --- Button Creation Logic 
+    const buttons = MODULE_CONFIG.buttonsData.map(({ action, iconClasses, labelKey }) => {
         const button = document.createElement("button");
         button.type = "button";
 
@@ -200,53 +205,47 @@ Hooks.on("renderSettings", (app, html) => {
         icon.classList.add(...iconClasses);
 
         // Append icon and localized text node
-        button.append(icon, document.createTextNode(` ${game.i18n.localize(labelKey)}`)); // Add space for separation
+        button.append(icon, document.createTextNode(` ${game.i18n.localize(labelKey)}`));
 
         button.addEventListener("click", action);
         return button;
     });
     
-    // --- Version Specific Logic ---
+    // --- Version Specific Logic (Reusable) ---
     if (game.release.generation >= 13) {
         // V13+ Logic: Insert after the "Documentation" section
         const documentationSection = html.querySelector("section.documentation");
         if (documentationSection) {
             // Create section wrapper
             const section = document.createElement("section");
-            section.classList.add("access", "flexcol");
+            section.classList.add(MODULE_CONFIG.sectionClass, "flexcol");
 
             const divider = document.createElement("h4");
             divider.classList.add("divider");
-            // Using a more specific key might be better, but reusing for now
-            divider.textContent = game.i18n.localize("US2E.Settings.game.heading");
+            divider.textContent = game.i18n.localize(MODULE_CONFIG.headingKey);
 
             // Append divider and buttons to section
             section.append(divider, ...buttons);
             
-            // Insert section after documentation
-            documentationSection.after(section);
+            // Insert section before documentation
+            documentationSection.before(section);
         } else {
-            console.warn("Urban Shadows | Could not find 'section.documentation' in V13 settings panel.");
+            console.warn(`${game.i18n.localize(MODULE_CONFIG.headingKey)} | Could not find 'section.documentation' in V13 settings panel.`);
         }
     } else {
         // V12 Logic: Insert after the "Game Settings" section
-        const gameSettingsSection = html.querySelector("#settings-game");
+        const gameSettingsSection = html[0].querySelector("#settings-game");
         if (gameSettingsSection) {
-            // Create section wrapper
-            const section = document.createElement("section");
-            section.classList.add("access", "flexcol");
+			const header = document.createElement("h2");
+			header.innerText = game.i18n.localize(MODULE_CONFIG.headingKey);
 
-            const header = document.createElement("h4");
-            header.classList.add("divider");
-            header.textContent = game.i18n.localize("US2E.Settings.game.heading");
+			const settingsDiv = document.createElement("div");
+			settingsDiv.append(...buttons);
 
-            // Append header and buttons to section
-            section.append(header, ...buttons);
-
-            // Insert the section after the game settings section
-            gameSettingsSection.after(section);
+			// Insert the header and the div containing buttons after the game settings section
+			gameSettingsSection.after(header, settingsDiv);
         } else {
-            console.warn("Urban Shadows | Could not find '#settings-game' section in V12 settings panel.");
+            console.warn(`${game.i18n.localize(MODULE_CONFIG.headingKey)} | Could not find '#settings-game' section in V12 settings panel.`);
         }
     }
 });
