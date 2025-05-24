@@ -77,6 +77,18 @@
             }
         },
         "Settings": {
+            "game": {
+				"heading": "Urban Shadows 2e",
+				"publisher": {
+					"title": "Magpie Games"
+				},
+				"github": {
+					"title": "Module Repository"
+				},
+				"kofi": {
+					"title": "Support me on Ko-fi"
+				}
+			},
             "startup": {
                 "name": "First Time Startup",
                 "dialog": {

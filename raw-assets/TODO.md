@@ -1,3 +1,5 @@
+# DATA
+
 ## Character Actor
 - picture
 - name
@@ -70,21 +72,48 @@
 - name
 - description
 - list of Residents (NPCs + other info)
-- list of relationships (or just have them on the PC sheet?)
+- list of relationships (or just have them on the PC sheet?) - linked to PC sheets?
 - list of Hub Moves
 - tables [locations, rumors, factions, npcs]
+
+-----------------------
+-----------------------
+
+# TODO:
+There is more work than I remembered:
+- Re-styling everything so that all the sheets and messages use Magpie's art, fonts, etc...
+
+## Character Sheet
+Player Sheet
+- [Larger bit of work, maybe] Good Debt tracking *(this is the core conceit of the game, so it should be done better)*
+- [Larger lift] Each playbook has a section of unique rules and forms to fill out. A solution would be needed to add these. It gets even harder if its require that a User can make unique playbooks because then you almost have to have a mini form builder. Some more thought might come up with and easier solution, but for now, this is ouchy.
+- Some moves need to be upgradable (can reuse Triumphs code from Root)
+- better UI for Question/Answer stuff *(little more like Root)*
+- add an advancement tab (I have done this several times, few hours of work)
+### Nice to have:
+- starting status set when the playbook is added *(PBTA update)*
+
+## NPC Sheet
+GM Sheet: data and UI widgets pretty good.
+- Looks pretty meh, so a design pass and maybe layout rework
+- Add the debt solution from Characters *(see above)*
+
+## Faction Sheet
+GM Sheet: data and UI widgets pretty good.
+- Looks pretty meh, so a design pass and maybe layout rework
+
+## City Hub Sheet
+GM Sheet for tracking city hub data.
+**This is not started**. *(there is a possibility that this could be a creative journal instead of an actor... actor would be better though)*
+- picture
+- name
+- description
+- list of Residents (NPCs + other info)
+- list of relationships (or just have them on the PC sheet?) - linked to PC sheets? (Debts are a factor here)
+- list of Hub Moves
+- Hub tables [locations, rumors, factions, npcs]
 
 ## extra nice features
 - A sheet/Journal entry shows all debts
 - Debts that connect 2 PCs or PCs and NPCs are the same objects
 - New Item: Debt
-
-## PbtA features
-- on playbook granting prompt player which stat they want to add a +1 to
-- on playbook granting prompt player which stat set they want to us
-- stat grouping? (example urban shadows with stats and circles)
-- add background question UI with background question granting on playbook add
-    - questions with multiple choice
-    - questions with input box
-    - questions that link to other PCs
-- Unique CSS added for each custom actor type

@@ -18,8 +18,8 @@ With the change to LevelDB, there is an extra step to create the packs locally.
 
 # To update the packs
 Make sure Foundry is not running first.
--  LDB to JSON for syncing to git : npm run `pushLDBtoJSON` will create the src/packs files and export all actors/items in json files
--  JSON to LDB for testing locally : npm run `pullJSONtoLDB` will create the LevelDB folders from the JSON files in the src/packs folder
+-  LDB to JSON for syncing to git : `npm run pushLDBtoJSON` will create the src/packs files and export all actors/items in json files
+-  JSON to LDB for testing locally : `npm run pullJSONtoLDB` will create the LevelDB folders from the JSON files in the src/packs folder
 
 # Macro for migrating compendium packs
 ```javascript
@@ -28,3 +28,4 @@ for (let pack of game.packs) {
     if (!["Actor", "Item", "Scene"].includes(pack.documentName)) continue;
     await game.pbta.migrations.migrateCompendium(pack);
 }
+```
