@@ -1,0 +1,52 @@
+{
+  "folder": "L3nP6rT9uW2xZ5bC",
+  "name": "Psychometry",
+  "type": "move",
+  "_id": "O6qS9uW2xZ5bC8fG",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you examine an interesting object, roll with Spirit. On a hit, ask the MC questions from the list below. On a 10+, ask 3. On a 7-9, ask 1:</p><ul><li>what is the history of this object?</li><li>what bans, wards, or limits are attached to this object?</li><li>where does this object belong?</li><li>what secrets or mysteries has this object been privy to?</li><li>what strong emotions have most recently been near this object?</li></ul><p>On a miss, ask 1, but the answers you get overwhelm you; take -1 ongoing for the scene.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Weak Hit",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Strong Hit",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "spirit",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.O6qS9uW2xZ5bC8fG",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1733907156058,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!items!O6qS9uW2xZ5bC8fG"
+}
