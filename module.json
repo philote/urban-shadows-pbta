@@ -4,8 +4,8 @@
   "description": "Unofficial Urban Shadows 2E RPG custom sheet module, to be used with the Powered by the Apocalypse (PbtA) system.",
   "version": "#{VERSION}#",
   "compatibility": {
-    "minimum": 12,
-    "verified": 12.331,
+    "minimum": 13,
+    "verified": 13.344,
     "maximum": 13
   },
   "authors": [
@@ -27,9 +27,8 @@
       {
         "id": "pbta",
         "type": "system",
-        "manifest": "https://asacolips-artifacts.s3.amazonaws.com/pbta/latest/system.json",
         "compatibility": {
-          "minimum": "1.0.0"
+          "minimum": "1.1.16"
         }
       }
     ]

@@ -21,6 +21,9 @@
   color: #602C63;
   background: rgba(255, 255, 255, 0.85);
 }
+.pbta.sheet .sheet-attributes .cell--stats .stat .cell__title {
+  color: #ffffff;
+}
 .pbta.sheet .cell__title {
   color: #602C63;
 }
