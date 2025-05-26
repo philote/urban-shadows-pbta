@@ -1,0 +1,28 @@
+{
+    "folder": "FAE_MOVES_FOLDER",
+    "name": "In Our Blood",
+    "type": "move",
+    "_id": "m2W7aK9bH5rL6pT4",
+    "_key": "!items!m2W7aK9bH5rL6pT4",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "description": "<p>When you mislead, distract, or trick someone through lies of omission or clever misdirection, roll with Heart instead of Mind.</p>",
+      "moveType": "playbook",
+      "rollFormula": "",
+      "moveResults": {
+        "miss":   { "key": "system.moveResults.miss.value",   "label": "Miss",      "value": "" },
+        "weak-hit": { "key": "system.moveResults.weak-hit.value", "label": "Weak Hit",  "value": "" },
+        "strong-hit": { "key": "system.moveResults.strong-hit.value", "label": "Strong Hit","value": "" }
+      },
+      "uses":     0,
+      "rollType": "",
+      "rollMod":  0,
+      "actorType":"character",
+      "choices":  ""
+    },
+    "effects": [],
+    "sort": 0,
+    "ownership": {},
+    "flags": {},
+    "_stats": {}
+  }

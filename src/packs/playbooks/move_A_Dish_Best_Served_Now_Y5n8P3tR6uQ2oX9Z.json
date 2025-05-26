@@ -1,0 +1,28 @@
+{
+    "folder": "FAE_MOVES_FOLDER",
+    "name": "A Dish Best Served Now",
+    "type": "move",
+    "_id": "Y5n8P3tR6uQ2oX9Z",
+    "_key": "!items!Y5n8P3tR6uQ2oX9Z",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "description": "<p>When you commit to enacting revenge on behalf of someone (including yourself) wronged by another, gain +1 ongoing against the target of that vengeance. For every scene in which you do not pursue vengeance, suffer 1-harm (ap).</p>",
+      "moveType": "playbook",
+      "rollFormula": "",
+      "moveResults": {
+        "miss":   { "key": "system.moveResults.miss.value",   "label": "Miss",      "value": "" },
+        "weak-hit": { "key": "system.moveResults.weak-hit.value", "label": "Weak Hit",  "value": "" },
+        "strong-hit": { "key": "system.moveResults.strong-hit.value", "label": "Strong Hit","value": "" }
+      },
+      "uses":     0,
+      "rollType": "",
+      "rollMod":  0,
+      "actorType":"character",
+      "choices":  ""
+    },
+    "effects": [],
+    "sort": 0,
+    "ownership": {},
+    "flags": {},
+    "_stats": {}
+  }

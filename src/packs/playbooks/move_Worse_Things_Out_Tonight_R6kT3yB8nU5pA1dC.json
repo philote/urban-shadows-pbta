@@ -1,0 +1,28 @@
+{
+    "folder": "HUNTER_MOVES_FOLDER",
+    "name": "Worse Things Out Tonight",
+    "type": "move",
+    "_id": "R6kT3yB8nU5pA1dC",
+    "_key": "!items!R6kT3yB8nU5pA1dC",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "description": "<p>When you persuade an NPC by promising to protect them from harm, roll with Blood instead of Heart.</p>",
+      "moveType": "playbook",
+      "rollFormula": "",
+      "moveResults": {
+        "miss":       { "key": "system.moveResults.miss.value",       "label": "Miss",       "value": "" },
+        "weak-hit":   { "key": "system.moveResults.weak-hit.value",   "label": "Weak Hit",   "value": "" },
+        "strong-hit": { "key": "system.moveResults.strong-hit.value", "label": "Strong Hit","value": "" }
+      },
+      "uses":      0,
+      "rollType":  "",
+      "rollMod":   0,
+      "actorType": "character",
+      "choices":   ""
+    },
+    "effects": [],
+    "sort": 0,
+    "ownership": {},
+    "flags": {},
+    "_stats": {}
+  }

@@ -1,0 +1,28 @@
+{
+    "folder": "HUNTER_MOVES_FOLDER",
+    "name": "Prepared for Anything",
+    "type": "move",
+    "_id": "F1jH9kL2Z5pX8qV3",
+    "_key": "!items!F1jH9kL2Z5pX8qV3",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "description": "<p>You have a well-stocked armory, full of modern and ancient weapons. Take another two custom weapons and select one additional add-on for every custom weapon you own.</p>",
+      "moveType": "playbook",
+      "rollFormula": "",
+      "moveResults": {
+        "miss":       { "key": "system.moveResults.miss.value",       "label": "Miss",       "value": "" },
+        "weak-hit":   { "key": "system.moveResults.weak-hit.value",   "label": "Weak Hit",   "value": "" },
+        "strong-hit": { "key": "system.moveResults.strong-hit.value", "label": "Strong Hit","value": "" }
+      },
+      "uses":      0,
+      "rollType":  "",
+      "rollMod":   0,
+      "actorType": "character",
+      "choices":   ""
+    },
+    "effects": [],
+    "sort": 0,
+    "ownership": {},
+    "flags": {},
+    "_stats": {}
+  }

@@ -1,0 +1,28 @@
+{
+    "folder": "HUNTER_MOVES_FOLDER",
+    "name": "Deadly",
+    "type": "move",
+    "_id": "B7kR3nY9pQ4sT2wL",
+    "_key": "!items!B7kR3nY9pQ4sT2wL",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "description": "<p>When you inflict harm, inflict +1 harm. You cannot choose to reduce this harm.</p>",
+      "moveType": "playbook",
+      "rollFormula": "",
+      "moveResults": {
+        "miss":       { "key": "system.moveResults.miss.value",       "label": "Miss",       "value": "" },
+        "weak-hit":   { "key": "system.moveResults.weak-hit.value",   "label": "Weak Hit",   "value": "" },
+        "strong-hit": { "key": "system.moveResults.strong-hit.value", "label": "Strong Hit","value": "" }
+      },
+      "uses":      0,
+      "rollType":  "",
+      "rollMod":   0,
+      "actorType": "character",
+      "choices":   ""
+    },
+    "effects": [],
+    "sort": 0,
+    "ownership": {},
+    "flags": {},
+    "_stats": {}
+  }

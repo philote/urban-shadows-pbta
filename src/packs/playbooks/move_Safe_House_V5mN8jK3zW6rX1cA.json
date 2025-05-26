@@ -1,0 +1,28 @@
+{
+    "folder": "HUNTER_MOVES_FOLDER",
+    "name": "Safe House",
+    "type": "move",
+    "_id": "V5mN8jK3zW6rX1cA",
+    "_key": "!items!V5mN8jK3zW6rX1cA",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "description": "<p>You have a secure location that you can hole up in. Detail it and choose 3:</p><ul><li>high-tech surveillance equipment</li><li>a mystical or magical prison</li><li>fortified walls/windows/doors</li><li>stockpiles of food and water</li><li>explosives set to blow the place</li></ul>",
+      "moveType": "playbook",
+      "rollFormula": "",
+      "moveResults": {
+        "miss":       { "key": "system.moveResults.miss.value",       "label": "Miss",       "value": "" },
+        "weak-hit":   { "key": "system.moveResults.weak-hit.value",   "label": "Weak Hit",   "value": "" },
+        "strong-hit": { "key": "system.moveResults.strong-hit.value", "label": "Strong Hit","value": "" }
+      },
+      "uses":      0,
+      "rollType":  "",
+      "rollMod":   0,
+      "actorType": "character",
+      "choices":   ""
+    },
+    "effects": [],
+    "sort": 0,
+    "ownership": {},
+    "flags": {},
+    "_stats": {}
+  }

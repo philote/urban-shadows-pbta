@@ -1,0 +1,28 @@
+{
+  "folder": "FAE_MOVES_FOLDER",
+  "name": "Faerie Magic",
+  "type": "move",
+  "_id": "k9J4s2L8q1M7v0X3",
+  "_key": "!items!k9J4s2L8q1M7v0X3",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>You have access to gifts of your court, powers that call upon your homeland’s magic and wonder. Select your powers from the list provided. Whenever you use a faerie power, choose 1:</p><ul><li>suffer 1-harm (ap)</li><li>mark corruption</li><li>give your monarch a Debt</li></ul>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss":   { "key": "system.moveResults.miss.value",   "label": "Miss",      "value": "" },
+      "weak-hit": { "key": "system.moveResults.weak-hit.value", "label": "Weak Hit",  "value": "" },
+      "strong-hit": { "key": "system.moveResults.strong-hit.value", "label": "Strong Hit","value": "" }
+    },
+    "uses":     0,
+    "rollType": "",
+    "rollMod":  0,
+    "actorType":"character",
+    "choices":  ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {},
+  "flags": {},
+  "_stats": {}
+}
