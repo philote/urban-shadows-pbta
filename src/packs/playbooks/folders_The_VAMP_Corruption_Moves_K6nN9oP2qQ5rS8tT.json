@@ -1,0 +1,22 @@
+{
+  "name": "The VAMP Corruption Moves",
+  "sorting": "a",
+  "folder": "I2oO5rR8sS1tT4uU",
+  "type": "Item",
+  "_id": "K6nN9oP2qQ5rS8tT",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": null,
+    "modifiedTime": 1733907149543,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!folders!K6nN9oP2qQ5rS8tT"
+}

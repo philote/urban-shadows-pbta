@@ -1,0 +1,52 @@
+{
+  "folder": "E2hJ5mM9pP2sS5vX",
+  "name": "SPECTRE End Move",
+  "type": "move",
+  "_id": "N1sS4vV7wW0aC3fF",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When your spirit passes on permanently to the other side, any PCs present gain +1 Spirit (max+3) or take a corruption advance, your choice.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Weak Hit",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Strong Hit",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.N1sS4vV7wW0aC3fF",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1733907156058,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!items!N1sS4vV7wW0aC3fF"
+}

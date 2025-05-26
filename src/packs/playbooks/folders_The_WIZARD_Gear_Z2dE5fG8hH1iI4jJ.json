@@ -1,0 +1,22 @@
+{
+  "name": "The WIZARD Gear",
+  "sorting": "a",
+  "folder": "W8wW1xX4yY7zZ0aA",
+  "type": "Item",
+  "_id": "Z2dE5fG8hH1iI4jJ",
+  "description": "",
+  "sort": 200000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": null,
+    "modifiedTime": 1733907152049,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!folders!Z2dE5fG8hH1iI4jJ"
+}

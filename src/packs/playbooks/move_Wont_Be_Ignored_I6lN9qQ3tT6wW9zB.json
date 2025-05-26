@@ -1,0 +1,52 @@
+{
+  "folder": "E2hJ5mM9pP2sS5vX",
+  "name": "Won't Be Ignored",
+  "type": "move",
+  "_id": "I6lN9qQ3tT6wW9zB",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you get in someone’s way, take a 10+ instead of rolling. If you mislead, distract, or trick someone with an obvious supernatural display, roll with <strong>Spirit</strong> instead of <strong>Mind</strong>.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Weak Hit",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Strong Hit",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "spirit",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.I6lN9qQ3tT6wW9zB",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1733907156058,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!items!I6lN9qQ3tT6wW9zB"
+}

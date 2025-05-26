@@ -1,0 +1,22 @@
+{
+  "name": "The TAINTED Corruption Moves",
+  "sorting": "a",
+  "folder": "O8rS1tT4uU7vV0wW",
+  "type": "Item",
+  "_id": "Q0rS3tT6uU9vV2wW",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": null,
+    "modifiedTime": 1733907149543,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!folders!Q0rS3tT6uU9vV2wW"
+}

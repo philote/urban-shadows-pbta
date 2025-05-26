@@ -1,0 +1,22 @@
+{
+  "name": "The VETERAN Gear",
+  "sorting": "a",
+  "folder": "C5dE8fG1hH4iI7jJ",
+  "type": "Item",
+  "_id": "F8hK1nN4oP7qQ0rS",
+  "description": "",
+  "sort": 200000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": null,
+    "modifiedTime": 1733907152049,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!folders!F8hK1nN4oP7qQ0rS"
+}

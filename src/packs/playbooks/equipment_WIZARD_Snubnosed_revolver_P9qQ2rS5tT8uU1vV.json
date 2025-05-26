@@ -1,0 +1,35 @@
+{
+  "folder": "Z2dE5fG8hH1iI4jJ",
+  "name": "Snubnosed revolver",
+  "type": "equipment",
+  "_id": "P9qQ2rS5tT8uU1vV",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "(2-harm close/near loud reload concealable)",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "[{\"value\":\"2-harm\"},{\"value\":\"close/near\"},{\"value\":\"loud\"},{\"value\":\"reload\"},{\"value\":\"concealable\"}]",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.P9qQ2rS5tT8uU1vV",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907152038,
+    "modifiedTime": 1733907152038,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!items!P9qQ2rS5tT8uU1vV"
+}

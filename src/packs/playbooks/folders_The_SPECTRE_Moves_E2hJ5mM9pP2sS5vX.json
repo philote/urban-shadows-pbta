@@ -1,0 +1,22 @@
+{
+  "name": "The SPECTRE Moves",
+  "sorting": "a",
+  "folder": "D1gI4lL8oO1rR4uW",
+  "type": "Item",
+  "_id": "E2hJ5mM9pP2sS5vX",
+  "description": "",
+  "sort": 400000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": null,
+    "modifiedTime": 1733907156083,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!folders!E2hJ5mM9pP2sS5vX"
+}

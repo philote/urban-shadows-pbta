@@ -1,0 +1,22 @@
+{
+  "name": "The SWORN Corruption Moves",
+  "sorting": "a",
+  "folder": "V9yA2bC5dE8fG1hH",
+  "type": "Item",
+  "_id": "X1bC4dE7fG0hH3kK",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": null,
+    "modifiedTime": 1733907149543,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!folders!X1bC4dE7fG0hH3kK"
+}

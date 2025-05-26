@@ -1,0 +1,52 @@
+{
+  "folder": "L3nP6rT9uW2xZ5bC",
+  "name": "ORACLE INTIMACY Move",
+  "type": "move",
+  "_id": "U2wY5bC8fE1hH4lM",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you share a moment of intimacy—physical or emotional—with another person, you gain a specific and clear vision about that person’s future. Mark corruption to ask the MC up to two follow-up questions; they must answer honestly.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Weak Hit",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Strong Hit",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.U2wY5bC8fE1hH4lM",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1733907156058,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!items!U2wY5bC8fE1hH4lM"
+}

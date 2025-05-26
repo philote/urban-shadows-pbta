@@ -1,0 +1,22 @@
+{
+  "name": "The VAMP",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "I2oO5rR8sS1tT4uU",
+  "description": "",
+  "sort": 800000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": null,
+    "modifiedTime": 1733907127276,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!folders!I2oO5rR8sS1tT4uU"
+}

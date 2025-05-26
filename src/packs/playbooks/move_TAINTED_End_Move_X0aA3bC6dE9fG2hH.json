@@ -1,0 +1,52 @@
+{
+  "folder": "P9qQ2rS5tT8uU1vV",
+  "name": "TAINTED End Move",
+  "type": "move",
+  "_id": "X0aA3bC6dE9fG2hH",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you die, cash in all the Debts your patron owes you to come back, healing all harm. If you have none, your patron asks someone else to pay the Debt for you. If they refuse, time’s up.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Weak Hit",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Strong Hit",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.X0aA3bC6dE9fG2hH",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1733907156058,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!items!X0aA3bC6dE9fG2hH"
+}

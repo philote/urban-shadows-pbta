@@ -1,0 +1,52 @@
+{
+  "folder": "X0aA3bC6dE9fG2hH",
+  "name": "Sanctum Sanctorum",
+  "type": "move",
+  "_id": "B4dE7fG0hH3kK6nN",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you go to your sanctum for a spell ingredient, relic, or tome, roll with <strong>Spirit</strong>. On a 10+, you’ve got pretty much just the thing. On a 7-9, you’ve got something close, but it’s flawed or lacking in some significant way. On a miss, you don’t have what you’re looking for, but you know someone from another Circle who probably has it in stock.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Weak Hit",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Strong Hit",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "spirit",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.B4dE7fG0hH3kK6nN",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1733907156058,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!items!B4dE7fG0hH3kK6nN"
+}

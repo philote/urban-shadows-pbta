@@ -1,0 +1,52 @@
+{
+  "folder": "L3nP6rT9uW2xZ5bC",
+  "name": "Skim the Surface",
+  "type": "move",
+  "_id": "P7rT0vX3yA6dC9gH",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you touch someone and attempt to read their surface thoughts, roll with Spirit. On a hit, ask their player questions from the list below. On a 10+, ask 3. On a 7-9, ask 1:</p><ul><li>what are you thinking about right now?</li><li>who or what are you protecting?</li><li>what secrets are you currently keeping?</li><li>what is your hidden pain?</li></ul><p>On a miss, you inflict 1-harm (ap) on them and yourself.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Weak Hit",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Strong Hit",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "spirit",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.P7rT0vX3yA6dC9gH",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1733907156058,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!items!P7rT0vX3yA6dC9gH"
+}

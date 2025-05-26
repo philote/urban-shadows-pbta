@@ -1,0 +1,22 @@
+{
+  "name": "The SPECTRE Gear",
+  "sorting": "a",
+  "folder": "D1gI4lL8oO1rR4uW",
+  "type": "Item",
+  "_id": "G4jL7oO1rR4uU7xZ",
+  "description": "",
+  "sort": 200000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": null,
+    "modifiedTime": 1733907152049,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!folders!G4jL7oO1rR4uU7xZ"
+}

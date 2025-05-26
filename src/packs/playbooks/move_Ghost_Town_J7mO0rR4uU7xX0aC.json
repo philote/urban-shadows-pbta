@@ -1,0 +1,52 @@
+{
+  "folder": "E2hJ5mM9pP2sS5vX",
+  "name": "Ghost Town",
+  "type": "move",
+  "_id": "J7mO0rR4uU7xX0aC",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you hit the streets to consult your ghostly contacts, take +1 ongoing to dealing with them. On a miss, you still find a ghost who has what you’re looking to get, but they are dangerous or lost, your choice.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Weak Hit",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Strong Hit",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.J7mO0rR4uU7xX0aC",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1733907156058,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!items!J7mO0rR4uU7xX0aC"
+}

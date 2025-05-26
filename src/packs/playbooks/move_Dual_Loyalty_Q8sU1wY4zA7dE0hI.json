@@ -1,0 +1,52 @@
+{
+  "folder": "L3nP6rT9uW2xZ5bC",
+  "name": "Dual Loyalty",
+  "type": "move",
+  "_id": "Q8sU1wY4zA7dE0hI",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>You are known as an ally to the mortal world; take Mortalis as a second Circle. You can earn up to Status-2 in Mortalis, and you can make one additional city move each faction turn using your new Status. If you make use of this additional move, the MC will tell you what mortal trouble lands on your doorstep after time passes, looking to you for help...</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Weak Hit",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Strong Hit",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.Q8sU1wY4zA7dE0hI",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1733907156058,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!items!Q8sU1wY4zA7dE0hI"
+}
