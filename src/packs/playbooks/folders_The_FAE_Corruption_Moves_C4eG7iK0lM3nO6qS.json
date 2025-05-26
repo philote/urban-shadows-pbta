@@ -1,0 +1,22 @@
+{
+  "name": "The FAE Corruption Moves",
+  "sorting": "a",
+  "folder": "k9L2mN5pR8tX1vY4",
+  "type": "Item",
+  "_id": "C4eG7iK0lM3nO6qS",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": null,
+    "modifiedTime": 1733907149543,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!folders!C4eG7iK0lM3nO6qS"
+}

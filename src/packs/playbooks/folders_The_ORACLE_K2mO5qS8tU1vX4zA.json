@@ -1,0 +1,22 @@
+{
+  "name": "The ORACLE",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "K2mO5qS8tU1vX4zA",
+  "description": "",
+  "sort": 400000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": null,
+    "modifiedTime": 1733907127276,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!folders!K2mO5qS8tU1vX4zA"
+}

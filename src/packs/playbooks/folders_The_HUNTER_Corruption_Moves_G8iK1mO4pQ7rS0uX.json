@@ -1,0 +1,22 @@
+{
+  "name": "The HUNTER Corruption Moves",
+  "sorting": "a",
+  "folder": "E6gI9kM2nO5pQ8sV",
+  "type": "Item",
+  "_id": "G8iK1mO4pQ7rS0uX",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": null,
+    "modifiedTime": 1733907149543,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!folders!G8iK1mO4pQ7rS0uX"
+}

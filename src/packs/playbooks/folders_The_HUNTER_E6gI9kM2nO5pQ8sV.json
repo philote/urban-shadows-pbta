@@ -1,0 +1,22 @@
+{
+  "name": "The HUNTER",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "E6gI9kM2nO5pQ8sV",
+  "description": "",
+  "sort": 200000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": null,
+    "modifiedTime": 1733907127276,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!folders!E6gI9kM2nO5pQ8sV"
+}

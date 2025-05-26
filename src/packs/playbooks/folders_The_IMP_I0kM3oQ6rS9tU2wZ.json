@@ -1,0 +1,22 @@
+{
+  "name": "The IMP",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "I0kM3oQ6rS9tU2wZ",
+  "description": "",
+  "sort": 300000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": null,
+    "modifiedTime": 1733907127276,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!folders!I0kM3oQ6rS9tU2wZ"
+}

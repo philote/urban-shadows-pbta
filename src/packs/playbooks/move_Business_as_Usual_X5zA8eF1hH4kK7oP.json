@@ -1,0 +1,52 @@
+{
+  "folder": "J1lN4pR7sT0uV3xA",
+  "name": "Business as Usual",
+  "type": "move",
+  "_id": "X5zA8eF1hH4kK7oP",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When time passes—or at the start of the game—roll with Mind. On a hit, your usual operations generate a new scheme or provide an opportunity to advance one of your existing schemes, your choice. On a 10+, you also pick 1:</p><ul><li>A loyal customer reveals the secrets of a powerful NPC, your choice</li><li>An NPC who owes you a Debt shows up to make good on their obligation</li><li>A Status-3 NPC of your Circle offers you a Debt for your services</li></ul><p>On a miss, a family member or close friend drags you into a scheme you'd rather have avoided; generate a new scheme with three complications, and the MC will tell you what terrible fate could befall your ally should you fail to deliver.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Weak Hit",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Strong Hit",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "mind",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.X5zA8eF1hH4kK7oP",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1733907156058,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!items!X5zA8eF1hH4kK7oP"
+}

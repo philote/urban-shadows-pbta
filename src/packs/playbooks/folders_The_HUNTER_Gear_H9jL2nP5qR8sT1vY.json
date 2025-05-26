@@ -1,0 +1,22 @@
+{
+  "name": "The HUNTER Gear",
+  "sorting": "a",
+  "folder": "E6gI9kM2nO5pQ8sV",
+  "type": "Item",
+  "_id": "H9jL2nP5qR8sT1vY",
+  "description": "",
+  "sort": 200000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": null,
+    "modifiedTime": 1733907152049,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!folders!H9jL2nP5qR8sT1vY"
+}
