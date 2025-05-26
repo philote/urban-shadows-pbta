@@ -2,7 +2,7 @@
   "folder": "X1bC4dE7fG0hH3kK",
   "name": "Ahead of the Game",
   "type": "move",
-  "_id": "G0hH3kK6nN9oP2qQ",
+  "_id": "p0hH3kK6nN9oP2qQ",
   "img": "icons/svg/aura.svg",
   "system": {
     "description": "<p>You get +1 Mind (max+4). Whenever you roll with Mind and roll a 12+, mark corruption.</p>",
@@ -48,5 +48,5 @@
     "modifiedTime": 1733907149533,
     "lastModifiedBy": "MZpJvwT3EQwBniAB"
   },
-  "_key": "!items!G0hH3kK6nN9oP2qQ"
+  "_key": "!items!p0hH3kK6nN9oP2qQ"
 }
