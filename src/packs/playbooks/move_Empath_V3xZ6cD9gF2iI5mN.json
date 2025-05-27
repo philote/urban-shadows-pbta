@@ -1,5 +1,5 @@
 {
-  "folder": "M4oQ7sU0vX3yA6dE",
+  "folder": "9jooQvLSqeeFI7bh",
   "name": "Empath",
   "type": "move",
   "_id": "V3xZ6cD9gF2iI5mN",
@@ -32,7 +32,7 @@
     "choices": ""
   },
   "effects": [],
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "MZpJvwT3EQwBniAB": 3
@@ -41,12 +41,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907149533,
-    "modifiedTime": 1733907149533,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+    "modifiedTime": 1748304368057,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
   },
   "_key": "!items!V3xZ6cD9gF2iI5mN"
 }

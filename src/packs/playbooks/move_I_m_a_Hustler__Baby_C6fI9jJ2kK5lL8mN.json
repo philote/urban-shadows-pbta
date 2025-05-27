@@ -1,0 +1,53 @@
+{
+  "folder": "K6nN9oP2qQ5rS8tT",
+  "name": "I'm a Hustler, Baby",
+  "type": "move",
+  "_id": "C6fI9jJ2kK5lL8mN",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Mark corruption to make an additional city move when time passes; if you use your Circle Status for the move, add +1 to your roll.</p>",
+    "moveType": "corruption",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Weak Hit",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Strong Hit",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907149533,
+    "modifiedTime": 1748304471691,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
+  },
+  "_key": "!items!C6fI9jJ2kK5lL8mN"
+}

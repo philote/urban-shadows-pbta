@@ -1,0 +1,35 @@
+{
+  "folder": "Zd4TA7dhxVlc1TEo",
+  "name": "Ritual instruments",
+  "type": "equipment",
+  "_id": "1bf9dcd7f50d48d1",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "(i.e. an athame, a pentacle, etc.)",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.A8dF1iI5lL8oO1rT",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907152038,
+    "modifiedTime": 1733907152038,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!equipments!1bf9dcd7f50d48d1"
+}

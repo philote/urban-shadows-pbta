@@ -1,0 +1,35 @@
+{
+  "folder": "FNTac0wfVzg0qssN",
+  "name": "Magnum revolver",
+  "type": "equipment",
+  "_id": "3F6i3djFhxSbolbD",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "(3-harm near loud reload)",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "[{\"value\":\"3-harm\"},{\"value\":\"near\"},{\"value\":\"loud\"},{\"value\":\"reload\"}]",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.U6wW9zB2dE5fG8hH",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907152038,
+    "modifiedTime": 1733907152038,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!equipments!3F6i3djFhxSbolbD"
+}

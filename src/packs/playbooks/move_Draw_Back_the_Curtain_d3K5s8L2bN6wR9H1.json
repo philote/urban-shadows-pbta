@@ -1,28 +1,48 @@
 {
-    "folder": "B3dF6hJ9kL2mN5pR",
-    "name": "Draw Back the Curtain",
-    "type": "move",
-    "_id": "d3K5s8L2bN6wR9H1",
-    "_key": "!items!d3K5s8L2bN6wR9H1",
-    "img": "icons/svg/aura.svg",
-    "system": {
-      "description": "<p>When you escape a situation, add this option to the list:</p><ul><li>you escape to your homeland, for better or worse</li></ul>",
-      "moveType": "playbook",
-      "rollFormula": "",
-      "moveResults": {
-        "miss":   { "key": "system.moveResults.miss.value",   "label": "Miss",      "value": "" },
-        "weak-hit": { "key": "system.moveResults.weak-hit.value", "label": "Weak Hit",  "value": "" },
-        "strong-hit": { "key": "system.moveResults.strong-hit.value", "label": "Strong Hit","value": "" }
+  "folder": "B3dF6hJ9kL2mN5pR",
+  "name": "Draw Back the Curtain",
+  "type": "move",
+  "_id": "d3K5s8L2bN6wR9H1",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you escape a situation, add this option to the list:</p><ul><li>you escape to your homeland, for better or worse</li></ul>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
       },
-      "uses":     0,
-      "rollType": "",
-      "rollMod":  0,
-      "actorType":"character",
-      "choices":  ""
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Weak Hit",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Strong Hit",
+        "value": ""
+      }
     },
-    "effects": [],
-    "sort": 0,
-    "ownership": {},
-    "flags": {},
-    "_stats": {}
-  }
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {},
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!d3K5s8L2bN6wR9H1"
+}

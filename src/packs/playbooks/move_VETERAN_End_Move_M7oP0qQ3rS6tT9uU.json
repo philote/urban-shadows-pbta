@@ -1,5 +1,5 @@
 {
-  "folder": "D6fG9hH2iI5jJ8kK",
+  "folder": "0x74AgDRViQaXCdG",
   "name": "VETERAN End Move",
   "type": "move",
   "_id": "M7oP0qQ3rS6tT9uU",
@@ -32,7 +32,7 @@
     "choices": ""
   },
   "effects": [],
-  "sort": 0,
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "MZpJvwT3EQwBniAB": 3
@@ -41,12 +41,13 @@
   "_stats": {
     "compendiumSource": "Item.M7oP0qQ3rS6tT9uU",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+    "modifiedTime": 1748304853201,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
   },
   "_key": "!items!M7oP0qQ3rS6tT9uU"
 }

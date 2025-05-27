@@ -1,7 +1,7 @@
 {
   "name": "The VAMP Gear",
   "sorting": "a",
-  "folder": "I2oO5rR8sS1tT4uU",
+  "folder": "0x74AgDRViQaXCdG",
   "type": "Item",
   "_id": "L7mN0oP3qQ6rS9tT",
   "description": "",
@@ -11,12 +11,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": null,
-    "modifiedTime": 1733907152049,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+    "modifiedTime": 1748304141478,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
   },
   "_key": "!folders!L7mN0oP3qQ6rS9tT"
 }

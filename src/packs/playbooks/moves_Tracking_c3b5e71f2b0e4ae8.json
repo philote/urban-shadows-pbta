@@ -1,0 +1,52 @@
+{
+  "folder": "dc42f2a227bc46ab",
+  "name": "Tracking",
+  "type": "move",
+  "_id": "c3b5e71f2b0e4ae8",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Spend 1 hold to learn the location of a specific person. You must have a personal object that belongs to the target or recent leavings of their body (a lock of hair, fingernail clippings, their blood, etc.).</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Weak Hit",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Strong Hit",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.C5dE8fG1hH4iI7jJ",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1733907156058,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!moves!c3b5e71f2b0e4ae8"
+}

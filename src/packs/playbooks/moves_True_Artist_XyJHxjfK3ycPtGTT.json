@@ -1,0 +1,52 @@
+{
+  "folder": "v2Qrl5qjKQEw7T5a",
+  "name": "True Artist",
+  "type": "move",
+  "_id": "XyJHxjfK3ycPtGTT",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you publicly present a valuable or rare gift you’ve created to a Status-2+ NPC, they must openly refuse or accept your offering. If they refuse, they owe you a Debt; if they accept, take +1 ongoing to consulting your contacts, recruiting allies, and refusing to honor Debts from their Circle until after time passes.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Weak Hit",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Strong Hit",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.H2iI5jJ8kK1lL4mN",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1733907156058,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!moves!XyJHxjfK3ycPtGTT"
+}

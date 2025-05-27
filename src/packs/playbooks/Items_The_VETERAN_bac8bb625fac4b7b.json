@@ -1,0 +1,22 @@
+{
+  "name": "The VETERAN",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "bac8bb625fac4b7b",
+  "description": "",
+  "sort": 900000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": null,
+    "modifiedTime": 1733907127276,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!Items!bac8bb625fac4b7b"
+}

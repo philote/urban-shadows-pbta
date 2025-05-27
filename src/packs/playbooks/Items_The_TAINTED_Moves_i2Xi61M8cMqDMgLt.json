@@ -1,0 +1,22 @@
+{
+  "name": "The TAINTED Moves",
+  "sorting": "a",
+  "folder": "O8rS1tT4uU7vV0wW",
+  "type": "Item",
+  "_id": "i2Xi61M8cMqDMgLt",
+  "description": "",
+  "sort": 400000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": null,
+    "modifiedTime": 1733907156083,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!Items!i2Xi61M8cMqDMgLt"
+}

@@ -1,28 +1,48 @@
 {
-    "folder": "B3dF6hJ9kL2mN5pR",
-    "name": "Words Are Wind",
-    "type": "move",
-    "_id": "Z8p4J7v3Q6kM2nR5",
-    "_key": "!items!Z8p4J7v3Q6kM2nR5",
-    "img": "icons/svg/aura.svg",
-    "system": {
-      "description": "<p>You know instantly if someone has broken their word to you or reneged on a deal you’ve made; take a Debt on them and +1 ongoing to claim what you deserve from them or their allies.</p>",
-      "moveType": "playbook",
-      "rollFormula": "",
-      "moveResults": {
-        "miss":   { "key": "system.moveResults.miss.value",   "label": "Miss",      "value": "" },
-        "weak-hit": { "key": "system.moveResults.weak-hit.value", "label": "Weak Hit",  "value": "" },
-        "strong-hit": { "key": "system.moveResults.strong-hit.value", "label": "Strong Hit","value": "" }
+  "folder": "B3dF6hJ9kL2mN5pR",
+  "name": "Words Are Wind",
+  "type": "move",
+  "_id": "Z8p4J7v3Q6kM2nR5",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>You know instantly if someone has broken their word to you or reneged on a deal you’ve made; take a Debt on them and +1 ongoing to claim what you deserve from them or their allies.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
       },
-      "uses":     0,
-      "rollType": "",
-      "rollMod":  0,
-      "actorType":"character",
-      "choices":  ""
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Weak Hit",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Strong Hit",
+        "value": ""
+      }
     },
-    "effects": [],
-    "sort": 0,
-    "ownership": {},
-    "flags": {},
-    "_stats": {}
-  }
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {},
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Z8p4J7v3Q6kM2nR5"
+}

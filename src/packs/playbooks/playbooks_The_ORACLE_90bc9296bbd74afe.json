@@ -1,0 +1,676 @@
+{
+  "name": "The ORACLE",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>The future is always in motion, like a great river dragging us all to our inevitable ends. There are some who can raise themselves above the surface to see what awaits us, looking into a future both unclear and terrifying. These oracles are blessed with the sight...and cursed by what they see.</p>",
+    "slug": "the-oracle",
+    "actorType": "character",
+    "stats": {
+      "blood": {
+        "label": "Blood",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "heart": {
+        "label": "Heart",
+        "value": -1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mind": {
+        "label": "Mind",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "spirit": {
+        "label": "Spirit",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mortalis": {
+        "label": "Mortalis",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "night": {
+        "label": "Night",
+        "value": -1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "power": {
+        "label": "Power",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "wild": {
+        "label": "Wild",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      }
+    },
+    "statsDetail": "(Add 1 to one of these)",
+    "attributes": {
+      "corruption": {
+        "label": "Corruption",
+        "description": "TRIGGER: When you offer a false prophecy—or lie about the details of a true one—mark corruption.",
+        "type": "Clock",
+        "value": 0,
+        "max": 5,
+        "choices": [
+          {
+            "value": 0,
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "options": {}
+      },
+      "letItOut": {
+        "label": "Let it out Abilities",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>uncover the essential truth of a thing or person in your presence</p></li><li><p>twist the strands of fate to help or hinder an NPC in your presence</p></li><li><p>frighten or impress someone with knowledge of their past</p></li><li><p>channel a powerful prophecy from beyond concerning a present character</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": "TO ACTIVATE THESE ABILITIES"
+      },
+      "debts": {
+        "label": "Debts",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>Someone helps decipher your visions with unique insights. You owe them 2 Debts.</p></li><li><p>You had a dark vision about someone, but gave bad guidance. You owe them a Debt.</p></li><li><p>Someone interfered with your destiny. They owe you a Debt. Tell them if you’ve forgiven them—they owe you another Debt if you still hold a grudge for their actions.</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "advancements": {
+        "label": "Advancements",
+        "description": "Available at the beginning of play:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 Status (max+1)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 Status (max+1)",
+            "value": false
+          },
+          "2": {
+            "label": "+1 Status (max+1)",
+            "value": false
+          },
+          "3": {
+            "label": "a new Oracle move",
+            "value": false
+          },
+          "4": {
+            "label": "a new Oracle move",
+            "value": false
+          },
+          "5": {
+            "label": "a move from another playbook",
+            "value": false
+          },
+          "6": {
+            "label": "a move from another playbook",
+            "value": false
+          },
+          "7": {
+            "label": "change your Circle",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "+1 Status (max+1)",
+                "value": false
+              },
+              "1": {
+                "label": "+1 Status (max+1)",
+                "value": false
+              },
+              "2": {
+                "label": "+1 Status (max+1)",
+                "value": false
+              },
+              "3": {
+                "label": "a new Oracle move",
+                "value": false
+              },
+              "4": {
+                "label": "a new Oracle move",
+                "value": false
+              },
+              "5": {
+                "label": "a move from another playbook",
+                "value": false
+              },
+              "6": {
+                "label": "a move from another playbook",
+                "value": false
+              },
+              "7": {
+                "label": "change your Circle",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "expertAdvancements": {
+        "label": "Expert advancements",
+        "description": "After five advances, you may select:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 any Circle (max+3)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 any Circle (max+3)",
+            "value": false
+          },
+          "2": {
+            "label": "obtain Circle Status-2",
+            "value": false
+          },
+          "3": {
+            "label": "get a sanctum",
+            "value": false
+          },
+          "4": {
+            "label": "advance 3 basic moves",
+            "value": false
+          },
+          "5": {
+            "label": "advance 3 basic moves",
+            "value": false
+          },
+          "6": {
+            "label": "change to a new playbook",
+            "value": false
+          },
+          "7": {
+            "label": "retire your character to safety",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "value": false,
+                "label": "+1 any Circle (max+3)"
+              },
+              "1": {
+                "value": false,
+                "label": "+1 any Circle (max+3)"
+              },
+              "2": {
+                "value": false,
+                "label": "obtain Circle Status-2"
+              },
+              "3": {
+                "value": false,
+                "label": "get a sanctum"
+              },
+              "4": {
+                "value": false,
+                "label": "advance 3 basic moves"
+              },
+              "5": {
+                "value": false,
+                "label": "advance 3 basic moves"
+              },
+              "6": {
+                "value": false,
+                "label": "change to a new playbook"
+              },
+              "7": {
+                "value": false,
+                "label": "retire your character to safety"
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "corruptionAdvances": {
+        "label": "Corruption advances",
+        "description": "Corruption represents your character slipping toward the worst parts of their nature. As your corruption mounts, your powers only grow...",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "take +1 to any stat (max+3)",
+            "value": false
+          },
+          "1": {
+            "label": "take +1 to any stat (max+3)",
+            "value": false
+          },
+          "2": {
+            "label": "take a new corruption move",
+            "value": false
+          },
+          "3": {
+            "label": "take a new corruption move",
+            "value": false
+          },
+          "4": {
+            "label": "take a new corruption move from another playbook or your own",
+            "value": false
+          },
+          "5": {
+            "label": "retire your character; they may return as a Threat",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "take +1 to any stat (max+3)",
+                "value": false
+              },
+              "1": {
+                "label": "take +1 to any stat (max+3)",
+                "value": false
+              },
+              "2": {
+                "label": "take a new corruption move",
+                "value": false
+              },
+              "3": {
+                "label": "take a new corruption move",
+                "value": false
+              },
+              "4": {
+                "label": "take a new corruption move from another playbook or your own",
+                "value": false
+              },
+              "5": {
+                "label": "retire your character; they may return as a Threat",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "lookOne": {
+        "label": "Look One",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>androgynous</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>conforming</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>shifting</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>nonconforming</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Pick one"
+      },
+      "lookTwo": {
+        "label": "Look Two",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Asian or South Asian</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Black</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Hispanic/ Latinx</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Indigenous</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Middle Eastern</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>White</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Other: <fill in yourself later></p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Pick one"
+      },
+      "lookThree": {
+        "label": "Look Three",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>casual clothing</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>colorful clothing</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>dirty clothing</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>revealing clothing</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Pick one"
+      },
+      "demeanor": {
+        "label": "Demeanor",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>distant</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>manipulative</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>paranoid</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>soothing</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Pick one"
+      },
+      "questionOne": {
+        "label": "Question One",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>How old were you when your visions began?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionTwo": {
+        "label": "Question Two",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>How long have you been in the city?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionThree": {
+        "label": "Question Three",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>How did you originally convince your benefactor to trust you and your visions?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionFour": {
+        "label": "Question Four",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Who seeks to sway you from your service?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionFive": {
+        "label": "Question Five",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>What signs hint your prophecy grows near?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "ORACLE MOVES",
+        "desc": "CHOOSE TWO:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.0AOIqpl7ePIIIhz4",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.4dUME8JD1dKthmSq",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.ri1Wd3p50cgAoZZW",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.13ed0f1b3c434160",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.jxcu3IGIkTUUOMQA",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "ORACLE Starting Moves",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.gvAHOQlG8O5UNcO4",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.BaqMf9ihmCyJwgId",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Starting Gear",
+        "desc": "Everything provided by your benefactor, and two sets of prophetic tools:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.e767ca3562bf4862",
+            "img": "icons/svg/item-bag.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.086a92054d994217",
+            "img": "icons/svg/item-bag.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.wd2QKswKnQFLy5A7",
+            "img": "icons/svg/item-bag.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 2,
+        "granted": false,
+        "advancement": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "K2mO5qS8tU1vX4zA",
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907141240,
+    "modifiedTime": 1733962596462,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_id": "90bc9296bbd74afe",
+  "sort": 0,
+  "_key": "!playbooks!90bc9296bbd74afe"
+}

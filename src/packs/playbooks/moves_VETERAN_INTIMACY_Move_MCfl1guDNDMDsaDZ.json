@@ -1,0 +1,52 @@
+{
+  "folder": "v2Qrl5qjKQEw7T5a",
+  "name": "VETERAN INTIMACY Move",
+  "type": "move",
+  "_id": "MCfl1guDNDMDsaDZ",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you share a moment of intimacy—physical or emotional—with another person, tell them a story about your time in the city and offer some advice. If they accept your counsel, hold 1. Spend the hold to give them a 10+ (instead of rolling) on a move they make while following your guidance. If they reject your wisdom, mark corruption.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Weak Hit",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Strong Hit",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.N8oP1qQ4rS7tT0uU",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1733907156058,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!moves!MCfl1guDNDMDsaDZ"
+}

@@ -1,5 +1,5 @@
 {
-  "folder": "X0aA3bC6dE9fG2hH",
+  "folder": "v8rCzpKWoYbgqrH6",
   "name": "Teleport",
   "type": "move",
   "_id": "H2iI5jJ8kK1lL4mN",
@@ -32,7 +32,7 @@
     "choices": ""
   },
   "effects": [],
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "MZpJvwT3EQwBniAB": 3
@@ -41,12 +41,13 @@
   "_stats": {
     "compendiumSource": "Item.H2iI5jJ8kK1lL4mN",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+    "modifiedTime": 1748304789679,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
   },
   "_key": "!items!H2iI5jJ8kK1lL4mN"
 }

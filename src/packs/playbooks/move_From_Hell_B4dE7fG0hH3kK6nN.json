@@ -1,5 +1,5 @@
 {
-  "folder": "Q0rS3tT6uU9vV2wW",
+  "folder": "K6nN9oP2qQ5rS8tT",
   "name": "From Hell",
   "type": "move",
   "_id": "B4dE7fG0hH3kK6nN",
@@ -32,7 +32,7 @@
     "choices": ""
   },
   "effects": [],
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "MZpJvwT3EQwBniAB": 3
@@ -41,12 +41,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907149533,
-    "modifiedTime": 1733907149533,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+    "modifiedTime": 1748304450838,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
   },
   "_key": "!items!B4dE7fG0hH3kK6nN"
 }

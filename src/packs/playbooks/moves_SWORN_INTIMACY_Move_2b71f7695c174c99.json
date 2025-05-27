@@ -1,0 +1,52 @@
+{
+  "folder": "W0aC3fF6gG9hH2iI",
+  "name": "SWORN INTIMACY Move",
+  "type": "move",
+  "_id": "2b71f7695c174c99",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you share a moment of intimacy—physical or emotional—with another person, tell them if they matter more than your oath. If you say they do, mark corruption and they hold 1; they can spend the hold at any time to summon you to their location.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Weak Hit",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Strong Hit",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.F9iL2oO5rR8sS1tT",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1733907156058,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!moves!2b71f7695c174c99"
+}

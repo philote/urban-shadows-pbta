@@ -1,0 +1,22 @@
+{
+  "name": "The VETERAN Corruption Moves",
+  "sorting": "a",
+  "folder": "fcec782fa9f64c7d",
+  "type": "Item",
+  "_id": "c964cbbeaafc4d29",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": null,
+    "modifiedTime": 1733907149543,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!Items!c964cbbeaafc4d29"
+}

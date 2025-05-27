@@ -1,0 +1,676 @@
+{
+  "name": "The SWORN",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>The machinations of Power rely on many to keep the wheels turning, but none so much as those sworn to serve the many factions of Power—academies, abbeys, and councils. Yet no matter what oath underlies their service, those sworn must make their own decisions about control, loyalty, and justice...</p>",
+    "slug": "the-sworn",
+    "actorType": "character",
+    "stats": {
+      "blood": {
+        "label": "Blood",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "heart": {
+        "label": "Heart",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mind": {
+        "label": "Mind",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "spirit": {
+        "label": "Spirit",
+        "value": -1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mortalis": {
+        "label": "Mortalis",
+        "value": -1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "night": {
+        "label": "Night",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "power": {
+        "label": "Power",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "wild": {
+        "label": "Wild",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      }
+    },
+    "statsDetail": "(Add 1 to one of these)",
+    "attributes": {
+      "corruption": {
+        "label": "Corruption",
+        "description": "TRIGGER: When you break one of your vows or work against your masters, mark corruption.",
+        "type": "Clock",
+        "value": 0,
+        "max": 5,
+        "choices": [
+          {
+            "value": 0,
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "options": {}
+      },
+      "letItOut": {
+        "label": "Let it out Abilities",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>shatter a magical spell, illusion, or enchantment with a touch</p></li><li><p>cloak yourself in magical armor; expend it to ignore all harm one time</p></li><li><p>strike down all lesser foes in your vicinity with a blast of elemental force</p></li><li><p>force someone to answer your questions truthfully for a scene</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": "TO ACTIVATE THESE ABILITIES"
+      },
+      "debts": {
+        "label": "Debts",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>Someone gives you info about a Circle you don’t understand. You owe them a Debt.</p></li><li><p>You secretly helped someone get justice for a wrong done upon them. They owe you a Debt. Tell them why you helped.</p></li><li><p>Your service forced you to punish or kill someone’s ally or friend on behalf of your masters. You owe them a Debt.</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "advancements": {
+        "label": "Advancements",
+        "description": "Available at the beginning of play:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 Status (max+1)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 Status (max+1)",
+            "value": false
+          },
+          "2": {
+            "label": "+1 Status (max+1)",
+            "value": false
+          },
+          "3": {
+            "label": "a new Sworn move",
+            "value": false
+          },
+          "4": {
+            "label": "a new Sworn move",
+            "value": false
+          },
+          "5": {
+            "label": "a move from another playbook",
+            "value": false
+          },
+          "6": {
+            "label": "a move from another playbook",
+            "value": false
+          },
+          "7": {
+            "label": "Power Status: 2",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "+1 Status (max+1)",
+                "value": false
+              },
+              "1": {
+                "label": "+1 Status (max+1)",
+                "value": false
+              },
+              "2": {
+                "label": "+1 Status (max+1)",
+                "value": false
+              },
+              "3": {
+                "label": "a new Sworn move",
+                "value": false
+              },
+              "4": {
+                "label": "a new Sworn move",
+                "value": false
+              },
+              "5": {
+                "label": "a move from another playbook",
+                "value": false
+              },
+              "6": {
+                "label": "a move from another playbook",
+                "value": false
+              },
+              "7": {
+                "label": "Power Status: 2",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "expertAdvancements": {
+        "label": "Expert advancements",
+        "description": "After five advances, you may select:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 any Circle (max+3)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 any Circle (max+3)",
+            "value": false
+          },
+          "2": {
+            "label": "+1 any Circle (max+3)",
+            "value": false
+          },
+          "3": {
+            "label": "erase a scar",
+            "value": false
+          },
+          "4": {
+            "label": "advance 3 basic moves",
+            "value": false
+          },
+          "5": {
+            "label": "advance 3 basic moves",
+            "value": false
+          },
+          "6": {
+            "label": "change to a new playbook",
+            "value": false
+          },
+          "7": {
+            "label": "retire your character to safety",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "value": false,
+                "label": "+1 any Circle (max+3)"
+              },
+              "1": {
+                "value": false,
+                "label": "+1 any Circle (max+3)"
+              },
+              "2": {
+                "value": false,
+                "label": "+1 any Circle (max+3)"
+              },
+              "3": {
+                "value": false,
+                "label": "erase a scar"
+              },
+              "4": {
+                "value": false,
+                "label": "advance 3 basic moves"
+              },
+              "5": {
+                "value": false,
+                "label": "advance 3 basic moves"
+              },
+              "6": {
+                "value": false,
+                "label": "change to a new playbook"
+              },
+              "7": {
+                "value": false,
+                "label": "retire your character to safety"
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "corruptionAdvances": {
+        "label": "Corruption advances",
+        "description": "Corruption represents your character slipping toward the worst parts of their nature. As your corruption mounts, your powers only grow...",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "take +1 to any stat (max+3)",
+            "value": false
+          },
+          "1": {
+            "label": "take +1 to any stat (max+3)",
+            "value": false
+          },
+          "2": {
+            "label": "take a new corruption move",
+            "value": false
+          },
+          "3": {
+            "label": "take a new corruption move",
+            "value": false
+          },
+          "4": {
+            "label": "take a new corruption move from another playbook or your own",
+            "value": false
+          },
+          "5": {
+            "label": "retire your character; they may return as a Threat",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "take +1 to any stat (max+3)",
+                "value": false
+              },
+              "1": {
+                "label": "take +1 to any stat (max+3)",
+                "value": false
+              },
+              "2": {
+                "label": "take a new corruption move",
+                "value": false
+              },
+              "3": {
+                "label": "take a new corruption move",
+                "value": false
+              },
+              "4": {
+                "label": "take a new corruption move from another playbook or your own",
+                "value": false
+              },
+              "5": {
+                "label": "retire your character; they may return as a Threat",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "lookOne": {
+        "label": "Look One",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>androgynous</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>conforming</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>shifting</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>nonconforming</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Pick one"
+      },
+      "lookTwo": {
+        "label": "Look Two",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Asian or South Asian</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Black</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Hispanic/ Latinx</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Indigenous</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Middle Eastern</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>White</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Other: <fill in yourself later></p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Pick one"
+      },
+      "lookThree": {
+        "label": "Look Three",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>casual clothing</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>disheveled clothing</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>expensive clothing</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>ritual clothing</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Pick one"
+      },
+      "demeanor": {
+        "label": "Demeanor",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>cunning</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>emotional</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>obsessive</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>stoic</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Pick one"
+      },
+      "questionOne": {
+        "label": "Question One",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Why did you swear your oath?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionTwo": {
+        "label": "Question Two",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>How long have you been in the city?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionThree": {
+        "label": "Question Three",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Who trained you in the ways of your order?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionFour": {
+        "label": "Question Four",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>What marks you as different from the masters you serve?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionFive": {
+        "label": "Question Five",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Whose disappearance are you investigating?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "SWORN MOVES",
+        "desc": "CHOOSE TWO:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.Z3kK6nN0qQ3tT6wY",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.A4dE7fG0hH3kK6nN",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.B5eG8hH1iI4jJ7kK",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.Y4DxqwFjIBSKMlfk",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.iQGJbo4OUye8oJ57",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "SWORN Starting Moves",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.hBlENCMLw3IBo1IG",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.oJMTh3qH3i4V3SwK",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Starting Gear",
+        "desc": "A luxurious house or apartment, a fancy car, an expensive smartphone. One backup weapon of choice:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.K4lL7mN0oP3qQ6rS",
+            "img": "icons/svg/item-bag.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.L5mN8oP1qQ4rS7tT",
+            "img": "icons/svg/item-bag.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.M6oP9qQ2rS5tT8uU",
+            "img": "icons/svg/item-bag.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "V9yA2bC5dE8fG1hH",
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907141240,
+    "modifiedTime": 1733962596462,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_id": "k1a23JRsXpDrgl28",
+  "sort": 0,
+  "_key": "!playbooks!k1a23JRsXpDrgl28"
+}

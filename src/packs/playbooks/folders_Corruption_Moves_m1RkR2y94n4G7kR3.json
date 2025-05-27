@@ -1,0 +1,21 @@
+{
+  "type": "Item",
+  "folder": "7ayqTUH8GpSQrvSf",
+  "name": "Corruption Moves",
+  "color": null,
+  "sorting": "a",
+  "_id": "m1RkR2y94n4G7kR3",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!m1RkR2y94n4G7kR3"
+}

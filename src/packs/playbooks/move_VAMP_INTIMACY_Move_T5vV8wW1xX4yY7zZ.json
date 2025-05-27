@@ -1,5 +1,5 @@
 {
-  "folder": "J3kK6nN9oP2qQ5rS",
+  "folder": "0x74AgDRViQaXCdG",
   "name": "VAMP INTIMACY Move",
   "type": "move",
   "_id": "T5vV8wW1xX4yY7zZ",
@@ -32,7 +32,7 @@
     "choices": ""
   },
   "effects": [],
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "MZpJvwT3EQwBniAB": 3
@@ -41,12 +41,13 @@
   "_stats": {
     "compendiumSource": "Item.T5vV8wW1xX4yY7zZ",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+    "modifiedTime": 1748304848291,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
   },
   "_key": "!items!T5vV8wW1xX4yY7zZ"
 }

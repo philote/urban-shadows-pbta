@@ -1,5 +1,5 @@
 {
-  "folder": "V7wW0xX3yY6zZ9aA",
+  "folder": "m1RkR2y94n4G7kR3",
   "name": "Street Hound",
   "type": "move",
   "_id": "G9hH2iI5jJ8kK1lL",
@@ -32,7 +32,7 @@
     "choices": ""
   },
   "effects": [],
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "MZpJvwT3EQwBniAB": 3
@@ -41,12 +41,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907149533,
-    "modifiedTime": 1733907149533,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+    "modifiedTime": 1748304736114,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
   },
   "_key": "!items!G9hH2iI5jJ8kK1lL"
 }

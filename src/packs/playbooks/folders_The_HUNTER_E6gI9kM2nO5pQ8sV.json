@@ -5,18 +5,19 @@
   "type": "Item",
   "_id": "E6gI9kM2nO5pQ8sV",
   "description": "",
-  "sort": 200000,
+  "sort": 600000,
   "color": null,
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": null,
-    "modifiedTime": 1733907127276,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+    "modifiedTime": 1748304135831,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
   },
   "_key": "!folders!E6gI9kM2nO5pQ8sV"
 }

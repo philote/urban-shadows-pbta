@@ -1,0 +1,22 @@
+{
+  "name": "The VETERAN Moves",
+  "sorting": "a",
+  "folder": "fcec782fa9f64c7d",
+  "type": "Item",
+  "_id": "4eb47bb88edb4c36",
+  "description": "",
+  "sort": 400000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": null,
+    "modifiedTime": 1733907156083,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!Items!4eb47bb88edb4c36"
+}

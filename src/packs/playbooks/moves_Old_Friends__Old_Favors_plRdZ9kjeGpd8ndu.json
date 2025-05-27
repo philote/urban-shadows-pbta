@@ -1,0 +1,52 @@
+{
+  "folder": "v2Qrl5qjKQEw7T5a",
+  "name": "Old Friends, Old Favors",
+  "type": "move",
+  "_id": "plRdZ9kjeGpd8ndu",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you first encounter an NPC, you may declare them an old friend instead of putting a name to a face and roll with <strong>Mind</strong>. On a hit, they offer you aid, even if it exposes them to danger. On a 7-9, tell the MC why you owe them a Debt. On a miss, tell the MC why they probably bear an old grudge against you for wronging them in the past.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Weak Hit",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Strong Hit",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "mind",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.G9hH2iI5jJ8kK1lL",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1733907156058,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!moves!plRdZ9kjeGpd8ndu"
+}

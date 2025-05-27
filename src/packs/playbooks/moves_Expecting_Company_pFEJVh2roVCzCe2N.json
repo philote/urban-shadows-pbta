@@ -1,0 +1,52 @@
+{
+  "folder": "G8iK1mO4pQ7rS0uX",
+  "name": "Expecting Company",
+  "type": "move",
+  "_id": "pFEJVh2roVCzCe2N",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Mark corruption to have a backup team of mortal hunters arrive in the scene (2-harm small 1-armor trained). Mark a second corruption for them to show up in a superior position.</p>",
+    "moveType": "corruption",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Weak Hit",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Strong Hit",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907149533,
+    "modifiedTime": 1733907149533,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!moves!pFEJVh2roVCzCe2N"
+}

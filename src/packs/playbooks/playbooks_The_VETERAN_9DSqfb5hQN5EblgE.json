@@ -1,0 +1,693 @@
+{
+  "name": "The VETERAN",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Once upon a time, you were someone important...and dangerous. People knew you and gave you a wide berth. You were a force to be reckoned with in this city. And then you got old, broken, or both.</p>",
+    "slug": "the-veteran",
+    "actorType": "character",
+    "stats": {
+      "blood": {
+        "label": "Blood",
+        "value": -1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "heart": {
+        "label": "Heart",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mind": {
+        "label": "Mind",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "spirit": {
+        "label": "Spirit",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mortalis": {
+        "label": "Mortalis",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "night": {
+        "label": "Night",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "power": {
+        "label": "Power",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "wild": {
+        "label": "Wild",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      }
+    },
+    "statsDetail": "(add 1 to one of these)",
+    "attributes": {
+      "corruption": {
+        "label": "Corruption",
+        "description": "TRIGGER: When you knowingly head straight into danger, mark corruption.",
+        "type": "Clock",
+        "value": 0,
+        "max": 5,
+        "choices": [
+          {
+            "value": 0,
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "options": {}
+      },
+      "letItOut": {
+        "label": "Let it out Abilities",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>blindside an unsuspecting target with a terrible or knockout blow</p></li><li><p>barricade or secure a place using minimal supplies</p></li><li><p>frighten or intimidate someone with a reminder of the person you used to be</p></li><li><p>reveal the ways an old ally or enemy is shaping a current conflict</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": "TO ACTIVATE THESE ABILITIES"
+      },
+      "debts": {
+        "label": "Debts",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>Someone relies on you for training or knowledge. Ask them why they need your help; tell the MC what you’ve provided and ask how many Debts (1-3) you’re owed.</p></li><li><p>You’re working on something big for someone, and it’s nearly ready. They owe you a Debt.</p></li><li><p>Someone keeps pulling your ass out of the fire when you forget you’re retired. You owe them a Debt.</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "advancements": {
+        "label": "Advancements",
+        "description": "Available at the beginning of play:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 Status (max+1)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 Status (max+1)",
+            "value": false
+          },
+          "2": {
+            "label": "+1 Status (max+1)",
+            "value": false
+          },
+          "3": {
+            "label": "a new Veteran move",
+            "value": false
+          },
+          "4": {
+            "label": "a new Veteran move",
+            "value": false
+          },
+          "5": {
+            "label": "Mortalis Status: 2",
+            "value": false
+          },
+          "6": {
+            "label": "a move from another playbook",
+            "value": false
+          },
+          "7": {
+            "label": "change your Circle",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "+1 Status (max+1)",
+                "value": false
+              },
+              "1": {
+                "label": "+1 Status (max+1)",
+                "value": false
+              },
+              "2": {
+                "label": "+1 Status (max+1)",
+                "value": false
+              },
+              "3": {
+                "label": "a new Veteran move",
+                "value": false
+              },
+              "4": {
+                "label": "a new Veteran move",
+                "value": false
+              },
+              "5": {
+                "label": "Mortalis Status: 2",
+                "value": false
+              },
+              "6": {
+                "label": "a move from another playbook",
+                "value": false
+              },
+              "7": {
+                "label": "change your Circle",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "expertAdvancements": {
+        "label": "Expert advancements",
+        "description": "After five advances, you may select:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 any Circle (max+3)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 any Circle (max+3)",
+            "value": false
+          },
+          "2": {
+            "label": "erase a scar",
+            "value": false
+          },
+          "3": {
+            "label": "add 2 resources to your workshop",
+            "value": false
+          },
+          "4": {
+            "label": "advance 3 basic moves",
+            "value": false
+          },
+          "5": {
+            "label": "advance 3 basic moves",
+            "value": false
+          },
+          "6": {
+            "label": "change to a new playbook",
+            "value": false
+          },
+          "7": {
+            "label": "retire your character to safety",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "value": false,
+                "label": "+1 any Circle (max+3)"
+              },
+              "1": {
+                "value": false,
+                "label": "+1 any Circle (max+3)"
+              },
+              "2": {
+                "value": false,
+                "label": "erase a scar"
+              },
+              "3": {
+                "value": false,
+                "label": "add 2 resources to your workshop"
+              },
+              "4": {
+                "value": false,
+                "label": "advance 3 basic moves"
+              },
+              "5": {
+                "value": false,
+                "label": "advance 3 basic moves"
+              },
+              "6": {
+                "value": false,
+                "label": "change to a new playbook"
+              },
+              "7": {
+                "value": false,
+                "label": "retire your character to safety"
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "corruptionAdvances": {
+        "label": "Corruption advances",
+        "description": "Corruption represents your character slipping toward the worst parts of their nature. As your corruption mounts, your powers only grow...",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "take +1 to any stat (max+3)",
+            "value": false
+          },
+          "1": {
+            "label": "take +1 to any stat (max+3)",
+            "value": false
+          },
+          "2": {
+            "label": "take a new corruption move",
+            "value": false
+          },
+          "3": {
+            "label": "take a new corruption move",
+            "value": false
+          },
+          "4": {
+            "label": "take a new corruption move from another playbook or your own",
+            "value": false
+          },
+          "5": {
+            "label": "retire your character; they may return as a Threat",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "take +1 to any stat (max+3)",
+                "value": false
+              },
+              "1": {
+                "label": "take +1 to any stat (max+3)",
+                "value": false
+              },
+              "2": {
+                "label": "take a new corruption move",
+                "value": false
+              },
+              "3": {
+                "label": "take a new corruption move",
+                "value": false
+              },
+              "4": {
+                "label": "take a new corruption move from another playbook or your own",
+                "value": false
+              },
+              "5": {
+                "label": "retire your character; they may return as a Threat",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "lookOne": {
+        "label": "Look One",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>androgynous</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>conforming</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>shifting</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>nonconforming</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Pick one"
+      },
+      "lookTwo": {
+        "label": "Look Two",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Asian or South Asian</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Black</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Hispanic/ Latinx</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Indigenous</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Middle Eastern</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>White</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Other: <fill in yourself later></p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Pick one"
+      },
+      "lookThree": {
+        "label": "Look Three",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>casual clothing</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>dirty clothing</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>formal clothing</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>uniform clothing</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Pick one"
+      },
+      "demeanor": {
+        "label": "Demeanor",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>charming</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>crass</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>professional</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>reserved</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Pick one"
+      },
+      "questionOne": {
+        "label": "Question One",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>What were you once known for in the city?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionTwo": {
+        "label": "Question Two",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>How long have you lived here?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionThree": {
+        "label": "Question Three",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>What was your greatest accomplishment?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionFour": {
+        "label": "Question Four",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Why did you step back from who you were?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionFive": {
+        "label": "Question Five",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>What do you desperately need?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "VETERAN MOVES",
+        "desc": "YOU GET THIS ONE:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.plRdZ9kjeGpd8ndu",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "AND CHOOSE TWO MORE:",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.KEcfEUqOhNR1D4HH",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.nzEtYWPo8zfrPgEH",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.xPdmCfCvuXLvS7gw",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.U79fjMPb4uuYb7zR",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.1HR3Awr120Z0vEXi",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 2,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "VETERAN Starting Moves",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.61G1bKAZrUym18Ac",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.MdVmLn0FBUm08rQC",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Starting Gear",
+        "desc": "A small apartment or warehouse hideout, a practical car or old pick-up truck, a smartphone, a workshop (detail). One trusty weapon of choice:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.uNpgcYYgBru32GfI",
+            "img": "icons/svg/item-bag.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.HKWmMcz2tRcWGfdr",
+            "img": "icons/svg/item-bag.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.3F6i3djFhxSbolbD",
+            "img": "icons/svg/item-bag.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "41JxD0pVIReFWokG",
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907141240,
+    "modifiedTime": 1733962596462,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_id": "9DSqfb5hQN5EblgE",
+  "sort": 0,
+  "_key": "!playbooks!9DSqfb5hQN5EblgE"
+}

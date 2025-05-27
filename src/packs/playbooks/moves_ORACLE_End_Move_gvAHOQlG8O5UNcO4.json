@@ -1,0 +1,52 @@
+{
+  "folder": "RoBtbwCqcWOkqSa7",
+  "name": "ORACLE End Move",
+  "type": "move",
+  "_id": "gvAHOQlG8O5UNcO4",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you die or retire your character, choose a PC; the MC will tell you a dark fate you foresee for them. If you issue a warning, they take +1 ongoing to avoid it; if you don’t, they take -1 ongoing instead.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Weak Hit",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Strong Hit",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.T1vX4zA7dE0gG3kL",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1733907156058,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!moves!gvAHOQlG8O5UNcO4"
+}

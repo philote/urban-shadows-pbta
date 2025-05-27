@@ -1,0 +1,52 @@
+{
+  "folder": "X1bC4dE7fG0hH3kK",
+  "name": "Stool Pigeons",
+  "type": "move",
+  "_id": "Jfjk7KWg7hiRp6X2",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Mark corruption to roll with Mind instead of the relevant Circle Status when you consult your contacts. On a miss, mark corruption again—then choose to either answer your contact’s tough question or owe them a Debt.</p>",
+    "moveType": "corruption",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Weak Hit",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Strong Hit",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907149533,
+    "modifiedTime": 1733907149533,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!moves!Jfjk7KWg7hiRp6X2"
+}

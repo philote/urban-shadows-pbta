@@ -1,0 +1,52 @@
+{
+  "folder": "RoBtbwCqcWOkqSa7",
+  "name": "Soothsayer",
+  "type": "move",
+  "_id": "eZ7wIjFes5d2978m",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you turn to your prophetic tools to read someone’s future, roll with Spirit. On a hit, the MC will tell you something new and interesting about their destiny. On a 10+, you may ask a followup question; the MC will answer honestly. On a miss, you see vague shapes of what is to come, but something is obscuring your prophetic powers; the future you tried to read is beyond your sight until you resolve the interference.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Weak Hit",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Strong Hit",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "spirit",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.R9tV2xZ5bC8fE1iJ",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1733907156058,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!moves!eZ7wIjFes5d2978m"
+}

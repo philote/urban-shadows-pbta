@@ -1,7 +1,7 @@
 {
   "name": "The WIZARD Corruption Moves",
   "sorting": "a",
-  "folder": "W8wW1xX4yY7zZ0aA",
+  "folder": "V25gvO7K7VAFw0NO",
   "type": "Item",
   "_id": "Y1bC4dE7fG0hH3kK",
   "description": "",
@@ -11,12 +11,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": null,
-    "modifiedTime": 1733907149543,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+    "modifiedTime": 1748304180557,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
   },
   "_key": "!folders!Y1bC4dE7fG0hH3kK"
 }

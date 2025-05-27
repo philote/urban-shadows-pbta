@@ -1,0 +1,52 @@
+{
+  "folder": "67b98e674f1346b5",
+  "name": "Tough as Nails",
+  "type": "move",
+  "_id": "8634f318f01b4801",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>You get 1-armor; blessed or holy sources ignore this armor completely. Weapons designed to stun or impair you have no effect unless blessed or holy. You don’t require medical attention or magical assistance to heal harm you’ve suffered, and you clear critical harm like it was faint or serious harm—one box every few days.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Weak Hit",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Strong Hit",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.W8wW1xX4yY7zZ0aA",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1733907156058,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+  },
+  "_key": "!moves!8634f318f01b4801"
+}

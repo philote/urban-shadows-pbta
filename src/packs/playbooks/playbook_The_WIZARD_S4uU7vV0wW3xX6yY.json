@@ -565,13 +565,13 @@
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.A3bC6dE9fG2hH5iI",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.ZTNOOhuzKheGGZF2",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.B4dE7fG0hH3kK6nN",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.gaVbpcYqUTVAuNwu",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
@@ -588,43 +588,43 @@
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.C5dE8fG1hH4iI7jJ",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.41JxD0pVIReFWokG",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.D6fG9hH2iI5jJ8kK",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.v2Qrl5qjKQEw7T5a",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.E7gJ0kK3lL6mN9oP",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.tsIXrXO42yN9Xtmu",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.F8hK1nN4oP7qQ0rS",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.FNTac0wfVzg0qssN",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.G9hH2iI5jJ8kK1lL",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.plRdZ9kjeGpd8ndu",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.H2iI5jJ8kK1lL4mN",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.KEcfEUqOhNR1D4HH",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.I3jJ6kK9lL2mN5oP",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.nzEtYWPo8zfrPgEH",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
@@ -641,13 +641,13 @@
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.J4kK7lL0mN3oP6qQ",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.xPdmCfCvuXLvS7gw",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.K5lL8mN1oP4qQ7rS",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.U79fjMPb4uuYb7zR",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
@@ -664,19 +664,19 @@
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.P9qQ2rS5tT8uU1vV",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.i2Xi61M8cMqDMgLt",
             "img": "icons/svg/item-bag.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.Q0rS3tT6uU9vV2wW",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.MTHSObEuSjh33gsZ",
             "img": "icons/svg/item-bag.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.R1tT4uU7vV0wW3xX",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.DtVjFryQ9TiBFL2n",
             "img": "icons/svg/item-bag.svg",
             "granted": false,
             "advancement": 0
@@ -689,7 +689,7 @@
     ]
   },
   "effects": [],
-  "folder": "W8wW1xX4yY7zZ0aA",
+  "folder": "V25gvO7K7VAFw0NO",
   "ownership": {
     "default": 0,
     "MZpJvwT3EQwBniAB": 3
@@ -698,14 +698,15 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907141240,
-    "modifiedTime": 1733962596462,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+    "modifiedTime": 1748304878271,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
   },
   "_id": "S4uU7vV0wW3xX6yY",
-  "sort": 0,
+  "sort": 100000,
   "_key": "!items!S4uU7vV0wW3xX6yY"
 }
