@@ -565,7 +565,7 @@
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.ZTNOOhuzKheGGZF2",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.682d0c13e10c49d1",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
@@ -588,19 +588,19 @@
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.41JxD0pVIReFWokG",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.41JxD0pVIReFWo12",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.v2Qrl5qjKQEw7T5a",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.1cd7e4cde6a94d46",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.tsIXrXO42yN9Xtmu",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.rsIXrXO42yN9Xtmu",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
@@ -641,12 +641,6 @@
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.xPdmCfCvuXLvS7gw",
-            "img": "icons/svg/aura.svg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
             "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.U79fjMPb4uuYb7zR",
             "img": "icons/svg/aura.svg",
             "granted": false,
@@ -664,19 +658,13 @@
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.i2Xi61M8cMqDMgLt",
-            "img": "icons/svg/item-bag.svg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
             "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.MTHSObEuSjh33gsZ",
             "img": "icons/svg/item-bag.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.DtVjFryQ9TiBFL2n",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.033846e28c11448d",
             "img": "icons/svg/item-bag.svg",
             "granted": false,
             "advancement": 0

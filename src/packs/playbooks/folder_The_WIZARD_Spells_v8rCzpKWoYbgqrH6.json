@@ -1,0 +1,22 @@
+{
+  "type": "Item",
+  "folder": "V25gvO7K7VAFw0NO",
+  "name": "The WIZARD Spells",
+  "color": null,
+  "sorting": "a",
+  "_id": "v8rCzpKWoYbgqrH6",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1748308439509
+  },
+  "_key": "!folders!v8rCzpKWoYbgqrH6"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "Item",
+  "folder": "7ayqTUH8GpSQrvSf",
+  "name": "The WOLF Gear",
+  "color": null,
+  "sorting": "a",
+  "_id": "hM6tvxeysulhBbtO",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!hM6tvxeysulhBbtO"
+}

@@ -1,12 +1,12 @@
 {
-  "folder": "hfW50eZcSZh23Lls",
-  "name": "Street Hound",
+  "folder": "67b98e674f1346b5",
+  "name": "The Devil Inside",
   "type": "move",
-  "_id": "G9hH2iI5jJ8kK1lL",
+  "_id": "KKpnIjAKDvcHC4cs",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>Mark corruption to transform into a coyote or dog. While in this form, you can roll with <strong>SPIRIT</strong> instead of mind to figure someone out or mislead, distract, and trick them.</p>",
-    "moveType": "corruption",
+    "description": "<p>When you assume your demon form, roll with Blood. On a 10+, pick 3. On a 7-9, pick 2. On a miss, pick 1 and give your patron a Debt...or go without your form. If you’re working a job for your patron, pick 1 more. If you mark corruption, pick 1 more.</p>",
+    "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
@@ -26,28 +26,27 @@
       }
     },
     "uses": 0,
-    "rollType": "spirit",
+    "rollType": "blood",
     "rollMod": 0,
     "actorType": "character",
     "choices": ""
   },
   "effects": [],
-  "sort": 100000,
+  "sort": 0,
   "ownership": {
     "default": 0,
     "MZpJvwT3EQwBniAB": 3
   },
   "flags": {},
   "_stats": {
-    "compendiumSource": null,
+    "compendiumSource": "Item.S4uU7vV0wW3xX6yY",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "12.331",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
-    "createdTime": 1733907149533,
-    "modifiedTime": 1748304736114,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
-    "exportSource": null
+    "createdTime": 1733907156058,
+    "modifiedTime": 1733907156058,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
   },
-  "_key": "!items!G9hH2iI5jJ8kK1lL"
+  "_key": "!moves!KKpnIjAKDvcHC4cs"
 }

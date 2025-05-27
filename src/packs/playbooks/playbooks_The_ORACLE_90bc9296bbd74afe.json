@@ -629,13 +629,13 @@
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.e767ca3562bf4862",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.tnbVX7iO5pek2nw2",
             "img": "icons/svg/item-bag.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.086a92054d994217",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.9ebmNWuNLC3HZSgp",
             "img": "icons/svg/item-bag.svg",
             "granted": false,
             "advancement": 0

@@ -1,12 +1,12 @@
 {
-  "folder": "hfW50eZcSZh23Lls",
-  "name": "Street Hound",
+  "folder": "J1lN4pR7sT0uV3xA",
+  "name": "IMP End Move",
   "type": "move",
-  "_id": "G9hH2iI5jJ8kK1lL",
+  "_id": "c9bd3b4435434c66",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>Mark corruption to transform into a coyote or dog. While in this form, you can roll with <strong>SPIRIT</strong> instead of mind to figure someone out or mislead, distract, and trick them.</p>",
-    "moveType": "corruption",
+    "description": "<p>When you die, one of your schemes comes to fruition, but someone else reaps the rewards. Choose someone to benefit from the plans you put in motion; select a payout for them.</p>",
+    "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
@@ -26,28 +26,27 @@
       }
     },
     "uses": 0,
-    "rollType": "spirit",
+    "rollType": "",
     "rollMod": 0,
     "actorType": "character",
     "choices": ""
   },
   "effects": [],
-  "sort": 100000,
+  "sort": 0,
   "ownership": {
     "default": 0,
     "MZpJvwT3EQwBniAB": 3
   },
   "flags": {},
   "_stats": {
-    "compendiumSource": null,
+    "compendiumSource": "Item.E2hJ5mM9pP2sS5vX",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "12.331",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
-    "createdTime": 1733907149533,
-    "modifiedTime": 1748304736114,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
-    "exportSource": null
+    "createdTime": 1733907156058,
+    "modifiedTime": 1733907156058,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
   },
-  "_key": "!items!G9hH2iI5jJ8kK1lL"
+  "_key": "!moves!c9bd3b4435434c66"
 }

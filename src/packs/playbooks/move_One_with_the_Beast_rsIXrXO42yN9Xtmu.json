@@ -1,11 +1,11 @@
 {
   "folder": "hfW50eZcSZh23Lls",
-  "name": "Street Hound",
+  "name": "One with the Beast",
   "type": "move",
-  "_id": "G9hH2iI5jJ8kK1lL",
+  "_id": "rsIXrXO42yN9Xtmu",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>Mark corruption to transform into a coyote or dog. While in this form, you can roll with <strong>SPIRIT</strong> instead of mind to figure someone out or mislead, distract, and trick them.</p>",
+    "description": "<p>Mark corruption when you transform to select two additional qualities or remove two existing weaknesses from your Transformation. Mark a second corruption to do both.</p>",
     "moveType": "corruption",
     "rollFormula": "",
     "moveResults": {
@@ -26,13 +26,13 @@
       }
     },
     "uses": 0,
-    "rollType": "spirit",
+    "rollType": "",
     "rollMod": 0,
     "actorType": "character",
     "choices": ""
   },
   "effects": [],
-  "sort": 100000,
+  "sort": 0,
   "ownership": {
     "default": 0,
     "MZpJvwT3EQwBniAB": 3
@@ -41,13 +41,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "12.331",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907149533,
-    "modifiedTime": 1748304736114,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
-    "exportSource": null
+    "modifiedTime": 1733907149533,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB"
   },
-  "_key": "!items!G9hH2iI5jJ8kK1lL"
+  "_key": "!moves!rsIXrXO42yN9Xtmu"
 }
