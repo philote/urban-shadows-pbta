@@ -1,22 +1,23 @@
 {
   "name": "The SPECTRE Corruption Moves",
   "sorting": "a",
-  "folder": "ZXbYPxyNKjIsq0YA",
+  "folder": "D1gI4lL8oO1rR4uW",
   "type": "Item",
   "_id": "c7079c13dd0345cd",
   "description": "",
-  "sort": 100000,
+  "sort": 300000,
   "color": null,
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": null,
-    "modifiedTime": 1733907149543,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+    "modifiedTime": 1748405331639,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
   },
-  "_key": "!Items!c7079c13dd0345cd"
+  "_key": "!folders!c7079c13dd0345cd"
 }

@@ -1,15 +1,15 @@
 {
-  "folder": "XJlC20slukoS8nIH",
-  "name": "Machete",
+  "folder": "L7mN0oP3qQ6rS9tT",
+  "name": "Dual Colt Double Eagles",
   "type": "equipment",
-  "_id": "1HR3Awr120Z0vEXi",
+  "_id": "wZehIb6GrC9FNoyl",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "(3-harm close messy)",
+    "description": "(3-harm near loud)",
     "uses": 0,
     "quantity": 1,
     "weight": 0,
-    "tags": "[{\"value\":\"3-harm\"},{\"value\":\"close\"},{\"value\":\"messy\"}]",
+    "tags": "[{\"value\":\"3-harm\"},{\"value\":\"near\"},{\"value\":\"loud\"}]",
     "itemType": "",
     "equipmentType": "gear",
     "actorType": "character"
@@ -22,7 +22,7 @@
   },
   "flags": {},
   "_stats": {
-    "compendiumSource": "Item.L6mN9oP2qQ5rS8tT",
+    "compendiumSource": "Item.F1bC4dE7fG0hH3kK",
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pbta",
@@ -31,5 +31,5 @@
     "modifiedTime": 1733907152038,
     "lastModifiedBy": "MZpJvwT3EQwBniAB"
   },
-  "_key": "!equipments!1HR3Awr120Z0vEXi"
+  "_key": "!items!wZehIb6GrC9FNoyl"
 }

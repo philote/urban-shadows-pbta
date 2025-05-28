@@ -1,11 +1,11 @@
 {
-  "name": "The WIZARD Gear",
+  "name": "The IMP Corruption Moves",
   "sorting": "a",
-  "folder": "XJlC20slukoS8nIH",
+  "folder": "I0kM3oQ6rS9tU2wZ",
   "type": "Item",
-  "_id": "kXKEFDeaUiEXIuuh",
+  "_id": "pSgr2ehJHpccQhNH",
   "description": "",
-  "sort": 200000,
+  "sort": 100000,
   "color": null,
   "flags": {},
   "_stats": {
@@ -15,8 +15,8 @@
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": null,
-    "modifiedTime": 1733907152049,
+    "modifiedTime": 1733907149543,
     "lastModifiedBy": "MZpJvwT3EQwBniAB"
   },
-  "_key": "!Items!kXKEFDeaUiEXIuuh"
+  "_key": "!folders!pSgr2ehJHpccQhNH"
 }

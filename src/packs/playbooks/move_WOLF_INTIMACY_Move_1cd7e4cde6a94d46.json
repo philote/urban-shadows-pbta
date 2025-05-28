@@ -1,5 +1,5 @@
 {
-  "folder": "362f8c377e2c40c4",
+  "folder": "yB0RDR4bfzvFKjGa",
   "name": "WOLF INTIMACY Move",
   "type": "move",
   "_id": "1cd7e4cde6a94d46",
@@ -32,7 +32,7 @@
     "choices": ""
   },
   "effects": [],
-  "sort": 0,
+  "sort": 150000,
   "ownership": {
     "default": 0,
     "MZpJvwT3EQwBniAB": 3
@@ -41,12 +41,13 @@
   "_stats": {
     "compendiumSource": "Item.D6fG9hH2iI5jJ8kK",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+    "modifiedTime": 1748405584593,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
   },
-  "_key": "!moves!1cd7e4cde6a94d46"
+  "_key": "!items!1cd7e4cde6a94d46"
 }

@@ -1,5 +1,5 @@
 {
-  "folder": "362f8c377e2c40c4",
+  "folder": "yB0RDR4bfzvFKjGa",
   "name": "Bloodhound",
   "type": "move",
   "_id": "fad3fd847c7c4ded",
@@ -32,7 +32,7 @@
     "choices": ""
   },
   "effects": [],
-  "sort": 0,
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "MZpJvwT3EQwBniAB": 3
@@ -41,12 +41,13 @@
   "_stats": {
     "compendiumSource": "Item.A3bC6dE9fG2hH5iI",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+    "modifiedTime": 1748405469882,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
   },
-  "_key": "!moves!fad3fd847c7c4ded"
+  "_key": "!items!fad3fd847c7c4ded"
 }

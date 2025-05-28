@@ -1,5 +1,5 @@
 {
-  "folder": "ufS1dxqJc8WIp68B",
+  "folder": "J3kK6nN9oP2qQ5rS",
   "name": "Keep Your Friends Close",
   "type": "move",
   "_id": "z4N5gOpNl4yDtuTY",
@@ -32,7 +32,7 @@
     "choices": ""
   },
   "effects": [],
-  "sort": 0,
+  "sort": 175000,
   "ownership": {
     "default": 0,
     "MZpJvwT3EQwBniAB": 3
@@ -41,12 +41,13 @@
   "_stats": {
     "compendiumSource": "Item.P1vV4wW7xX0yY3zZ",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+    "modifiedTime": 1748405539130,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
   },
-  "_key": "!moves!z4N5gOpNl4yDtuTY"
+  "_key": "!items!z4N5gOpNl4yDtuTY"
 }

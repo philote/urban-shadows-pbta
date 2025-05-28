@@ -1,11 +1,11 @@
 {
-  "name": "The IMP Corruption Moves",
+  "name": "The IMP Gear",
   "sorting": "a",
   "folder": "I0kM3oQ6rS9tU2wZ",
   "type": "Item",
-  "_id": "pSgr2ehJHpccQhNH",
+  "_id": "9ebmNWuNLC3HZSgp",
   "description": "",
-  "sort": 100000,
+  "sort": 200000,
   "color": null,
   "flags": {},
   "_stats": {
@@ -15,8 +15,8 @@
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": null,
-    "modifiedTime": 1733907149543,
+    "modifiedTime": 1733907152049,
     "lastModifiedBy": "MZpJvwT3EQwBniAB"
   },
-  "_key": "!Items!pSgr2ehJHpccQhNH"
+  "_key": "!folders!9ebmNWuNLC3HZSgp"
 }

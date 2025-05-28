@@ -1,5 +1,5 @@
 {
-  "folder": "tsIXrXO42yN9Xtmu",
+  "folder": "c964cbbeaafc4d29",
   "name": "Dark Experiments",
   "type": "move",
   "_id": "spyjca3e1XREJAN0",
@@ -32,7 +32,7 @@
     "choices": ""
   },
   "effects": [],
-  "sort": 0,
+  "sort": 150000,
   "ownership": {
     "default": 0,
     "MZpJvwT3EQwBniAB": 3
@@ -41,12 +41,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907149533,
-    "modifiedTime": 1733907149533,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+    "modifiedTime": 1748405389841,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
   },
-  "_key": "!moves!spyjca3e1XREJAN0"
+  "_key": "!items!spyjca3e1XREJAN0"
 }

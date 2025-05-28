@@ -1,5 +1,5 @@
 {
-  "folder": "K2mO5qS8tU1vX4zA",
+  "folder": "L3nP6rT9uW2xZ5bC",
   "name": "ORACLE INTIMACY Move",
   "type": "move",
   "_id": "U2wY5bC8fE1hH4lM",
@@ -32,7 +32,7 @@
     "choices": ""
   },
   "effects": [],
-  "sort": 100000,
+  "sort": 175000,
   "ownership": {
     "default": 0,
     "MZpJvwT3EQwBniAB": 3
@@ -45,7 +45,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748304569303,
+    "modifiedTime": 1748399961620,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

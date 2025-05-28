@@ -1,15 +1,15 @@
 {
-  "name": "The ORACLE",
+  "name": "The VETERAN",
   "type": "playbook",
   "img": "icons/svg/book.svg",
   "system": {
-    "description": "<p>The future is always in motion, like a great river dragging us all to our inevitable ends. There are some who can raise themselves above the surface to see what awaits us, looking into a future both unclear and terrifying. These oracles are blessed with the sight...and cursed by what they see.</p>",
-    "slug": "the-oracle",
+    "description": "<p>Once upon a time, you were someone important...and dangerous. People knew you and gave you a wide berth. You were a force to be reckoned with in this city. And then you got old, broken, or both.</p>",
+    "slug": "the-veteran",
     "actorType": "character",
     "stats": {
       "blood": {
         "label": "Blood",
-        "value": 0,
+        "value": -1,
         "steps": {
           "value": 0,
           "max": 3
@@ -17,7 +17,7 @@
       },
       "heart": {
         "label": "Heart",
-        "value": -1,
+        "value": 1,
         "steps": {
           "value": 0,
           "max": 3
@@ -33,7 +33,7 @@
       },
       "spirit": {
         "label": "Spirit",
-        "value": 1,
+        "value": 0,
         "steps": {
           "value": 0,
           "max": 3
@@ -49,7 +49,7 @@
       },
       "night": {
         "label": "Night",
-        "value": -1,
+        "value": 0,
         "steps": {
           "value": 0,
           "max": 3
@@ -57,7 +57,7 @@
       },
       "power": {
         "label": "Power",
-        "value": 1,
+        "value": 0,
         "steps": {
           "value": 0,
           "max": 3
@@ -72,11 +72,11 @@
         }
       }
     },
-    "statsDetail": "(Add 1 to one of these)",
+    "statsDetail": "(add 1 to one of these)",
     "attributes": {
       "corruption": {
         "label": "Corruption",
-        "description": "TRIGGER: When you offer a false prophecy—or lie about the details of a true one—mark corruption.",
+        "description": "TRIGGER: When you knowingly head straight into danger, mark corruption.",
         "type": "Clock",
         "value": 0,
         "max": 5,
@@ -96,7 +96,7 @@
         "value": "",
         "choices": [
           {
-            "value": "<ul><li><p>uncover the essential truth of a thing or person in your presence</p></li><li><p>twist the strands of fate to help or hinder an NPC in your presence</p></li><li><p>frighten or impress someone with knowledge of their past</p></li><li><p>channel a powerful prophecy from beyond concerning a present character</p></li></ul>",
+            "value": "<ul><li><p>blindside an unsuspecting target with a terrible or knockout blow</p></li><li><p>barricade or secure a place using minimal supplies</p></li><li><p>frighten or intimidate someone with a reminder of the person you used to be</p></li><li><p>reveal the ways an old ally or enemy is shaping a current conflict</p></li></ul>",
             "options": {}
           }
         ],
@@ -112,7 +112,7 @@
         "value": "",
         "choices": [
           {
-            "value": "<ul><li><p>Someone helps decipher your visions with unique insights. You owe them 2 Debts.</p></li><li><p>You had a dark vision about someone, but gave bad guidance. You owe them a Debt.</p></li><li><p>Someone interfered with your destiny. They owe you a Debt. Tell them if you’ve forgiven them—they owe you another Debt if you still hold a grudge for their actions.</p></li></ul>",
+            "value": "<ul><li><p>Someone relies on you for training or knowledge. Ask them why they need your help; tell the MC what you’ve provided and ask how many Debts (1-3) you’re owed.</p></li><li><p>You’re working on something big for someone, and it’s nearly ready. They owe you a Debt.</p></li><li><p>Someone keeps pulling your ass out of the fire when you forget you’re retired. You owe them a Debt.</p></li></ul>",
             "options": {}
           }
         ],
@@ -140,15 +140,15 @@
             "value": false
           },
           "3": {
-            "label": "a new Oracle move",
+            "label": "a new Veteran move",
             "value": false
           },
           "4": {
-            "label": "a new Oracle move",
+            "label": "a new Veteran move",
             "value": false
           },
           "5": {
-            "label": "a move from another playbook",
+            "label": "Mortalis Status: 2",
             "value": false
           },
           "6": {
@@ -176,15 +176,15 @@
                 "value": false
               },
               "3": {
-                "label": "a new Oracle move",
+                "label": "a new Veteran move",
                 "value": false
               },
               "4": {
-                "label": "a new Oracle move",
+                "label": "a new Veteran move",
                 "value": false
               },
               "5": {
-                "label": "a move from another playbook",
+                "label": "Mortalis Status: 2",
                 "value": false
               },
               "6": {
@@ -218,11 +218,11 @@
             "value": false
           },
           "2": {
-            "label": "obtain Circle Status-2",
+            "label": "erase a scar",
             "value": false
           },
           "3": {
-            "label": "get a sanctum",
+            "label": "add 2 resources to your workshop",
             "value": false
           },
           "4": {
@@ -255,11 +255,11 @@
               },
               "2": {
                 "value": false,
-                "label": "obtain Circle Status-2"
+                "label": "erase a scar"
               },
               "3": {
                 "value": false,
-                "label": "get a sanctum"
+                "label": "add 2 resources to your workshop"
               },
               "4": {
                 "value": false,
@@ -430,15 +430,15 @@
             "options": {}
           },
           {
-            "value": "<p>colorful clothing</p>",
-            "options": {}
-          },
-          {
             "value": "<p>dirty clothing</p>",
             "options": {}
           },
           {
-            "value": "<p>revealing clothing</p>",
+            "value": "<p>formal clothing</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>uniform clothing</p>",
             "options": {}
           }
         ],
@@ -454,19 +454,19 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<p>distant</p>",
+            "value": "<p>charming</p>",
             "options": {}
           },
           {
-            "value": "<p>manipulative</p>",
+            "value": "<p>crass</p>",
             "options": {}
           },
           {
-            "value": "<p>paranoid</p>",
+            "value": "<p>professional</p>",
             "options": {}
           },
           {
-            "value": "<p>soothing</p>",
+            "value": "<p>reserved</p>",
             "options": {}
           }
         ],
@@ -482,7 +482,7 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<p>How old were you when your visions began?</p>",
+            "value": "<p>What were you once known for in the city?</p>",
             "options": {}
           }
         ],
@@ -498,7 +498,7 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<p>How long have you been in the city?</p>",
+            "value": "<p>How long have you lived here?</p>",
             "options": {}
           }
         ],
@@ -514,7 +514,7 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<p>How did you originally convince your benefactor to trust you and your visions?</p>",
+            "value": "<p>What was your greatest accomplishment?</p>",
             "options": {}
           }
         ],
@@ -530,7 +530,7 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<p>Who seeks to sway you from your service?</p>",
+            "value": "<p>Why did you step back from who you were?</p>",
             "options": {}
           }
         ],
@@ -546,7 +546,7 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<p>What signs hint your prophecy grows near?</p>",
+            "value": "<p>What do you desperately need?</p>",
             "options": {}
           }
         ],
@@ -559,37 +559,13 @@
     },
     "choiceSets": [
       {
-        "title": "ORACLE MOVES",
-        "desc": "CHOOSE TWO:",
+        "title": "VETERAN MOVES",
+        "desc": "YOU GET THIS ONE:",
         "type": "multi",
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.0AOIqpl7ePIIIhz4",
-            "img": "icons/svg/aura.svg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.4dUME8JD1dKthmSq",
-            "img": "icons/svg/aura.svg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.ri1Wd3p50cgAoZZW",
-            "img": "icons/svg/aura.svg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.13ed0f1b3c434160",
-            "img": "icons/svg/aura.svg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.jxcu3IGIkTUUOMQA",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.plRdZ9kjeGpd8ndu",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
@@ -600,19 +576,60 @@
         "advancement": 0
       },
       {
-        "title": "ORACLE Starting Moves",
+        "title": "AND CHOOSE TWO MORE:",
         "desc": "",
         "type": "multi",
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.gvAHOQlG8O5UNcO4",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.KEcfEUqOhNR1D4HH",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.BaqMf9ihmCyJwgId",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.nzEtYWPo8zfrPgEH",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.K4lL7mN0oP3qQ6rS",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.U79fjMPb4uuYb7zR",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.1HR3Awr120Z0vEXi",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 2,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "VETERAN Starting Moves",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.61G1bKAZrUym18Ac",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.MdVmLn0FBUm08rQC",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
@@ -624,37 +641,37 @@
       },
       {
         "title": "Starting Gear",
-        "desc": "Everything provided by your benefactor, and two sets of prophetic tools:",
+        "desc": "A small apartment or warehouse hideout, a practical car or old pick-up truck, a smartphone, a workshop (detail). One trusty weapon of choice:",
         "type": "multi",
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.tnbVX7iO5pek2nw2",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.uNpgcYYgBru32GfI",
             "img": "icons/svg/item-bag.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.9ebmNWuNLC3HZSgp",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.HKWmMcz2tRcWGfdr",
             "img": "icons/svg/item-bag.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.wd2QKswKnQFLy5A7",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.3F6i3djFhxSbolbg",
             "img": "icons/svg/item-bag.svg",
             "granted": false,
             "advancement": 0
           }
         ],
-        "grantOn": 2,
+        "grantOn": 1,
         "granted": false,
         "advancement": 0
       }
     ]
   },
   "effects": [],
-  "folder": "K2mO5qS8tU1vX4zA",
+  "folder": "qfi6Go2GdMVMrMB1",
   "ownership": {
     "default": 0,
     "MZpJvwT3EQwBniAB": 3
@@ -663,14 +680,15 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907141240,
-    "modifiedTime": 1733962596462,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+    "modifiedTime": 1748405545137,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
   },
-  "_id": "90bc9296bbd74afe",
-  "sort": 0,
-  "_key": "!playbooks!90bc9296bbd74afe"
+  "_id": "9DSqfb5hQN5EblgE",
+  "sort": 100000,
+  "_key": "!items!9DSqfb5hQN5EblgE"
 }

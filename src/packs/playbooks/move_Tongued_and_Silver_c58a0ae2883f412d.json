@@ -41,12 +41,13 @@
   "_stats": {
     "compendiumSource": "Item.U6wW9zB2dE5fG8hH",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907156058,
     "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "exportSource": null
   },
-  "_key": "!moves!c58a0ae2883f412d"
+  "_key": "!items!c58a0ae2883f412d"
 }

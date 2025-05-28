@@ -561,6 +561,8 @@
       {
         "title": "SWORN MOVES",
         "desc": "CHOOSE TWO:",
+        "grantOn": 1,
+        "advancement": 0,
         "type": "multi",
         "repeatable": true,
         "choices": [
@@ -595,14 +597,13 @@
             "advancement": 0
           }
         ],
-        "grantOn": 1,
-        "granted": false,
-        "advancement": 0
+        "granted": false
       },
       {
         "title": "SWORN Starting Moves",
         "desc": "",
-        "type": "multi",
+        "grantOn": 0,
+        "advancement": 0,
         "repeatable": true,
         "choices": [
           {
@@ -618,38 +619,18 @@
             "advancement": 0
           }
         ],
-        "grantOn": 0,
-        "granted": false,
-        "advancement": 0
+        "type": "multi",
+        "granted": false
       },
       {
         "title": "Starting Gear",
         "desc": "A luxurious house or apartment, a fancy car, an expensive smartphone. One backup weapon of choice:",
-        "type": "multi",
+        "grantOn": 0,
+        "advancement": 0,
         "repeatable": true,
-        "choices": [
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.K4lL7mN0oP3qQ6rS",
-            "img": "icons/svg/item-bag.svg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.L5mN8oP1qQ4rS7tT",
-            "img": "icons/svg/item-bag.svg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.M6oP9qQ2rS5tT8uU",
-            "img": "icons/svg/item-bag.svg",
-            "granted": false,
-            "advancement": 0
-          }
-        ],
-        "grantOn": 1,
-        "granted": false,
-        "advancement": 0
+        "type": "multi",
+        "choices": [],
+        "granted": false
       }
     ]
   },
@@ -663,14 +644,15 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907141240,
-    "modifiedTime": 1733962596462,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+    "modifiedTime": 1748404928276,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
   },
   "_id": "21dca1aac16e4dd0",
-  "sort": 0,
-  "_key": "!playbooks!21dca1aac16e4dd0"
+  "sort": 100000,
+  "_key": "!items!21dca1aac16e4dd0"
 }

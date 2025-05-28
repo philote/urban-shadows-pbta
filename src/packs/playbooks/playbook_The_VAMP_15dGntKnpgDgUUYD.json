@@ -1,10 +1,10 @@
 {
-  "name": "The WOLF",
+  "name": "The VAMP",
   "type": "playbook",
   "img": "icons/svg/book.svg",
   "system": {
-    "description": "<p>Primal, deadly, and awesome. Little in the world can match the werewolf’s relentlessness or brute force. Those cursed by a bite or born into a bloodline carry a great fury within them. But fury, like all emotion, can be tempered and forged into something greater...</p>",
-    "slug": "the-wolf",
+    "description": "<p>Strong, fast, eternal in age, and insatiable in hunger, the vampire is an unadulterated predator, a twisted reflection of the person they once were, doomed to walk the earth and feed their hungers. Keep your distance.</p>",
+    "slug": "the-vamp",
     "actorType": "character",
     "stats": {
       "blood": {
@@ -17,7 +17,7 @@
       },
       "heart": {
         "label": "Heart",
-        "value": -1,
+        "value": 1,
         "steps": {
           "value": 0,
           "max": 3
@@ -33,7 +33,7 @@
       },
       "spirit": {
         "label": "Spirit",
-        "value": 1,
+        "value": -1,
         "steps": {
           "value": 0,
           "max": 3
@@ -41,7 +41,7 @@
       },
       "mortalis": {
         "label": "Mortalis",
-        "value": 0,
+        "value": 1,
         "steps": {
           "value": 0,
           "max": 3
@@ -65,18 +65,18 @@
       },
       "wild": {
         "label": "Wild",
-        "value": 1,
+        "value": 0,
         "steps": {
           "value": 0,
           "max": 3
         }
       }
     },
-    "statsDetail": "(add 1 to one of these)",
+    "statsDetail": "(Add 1 to one of these)",
     "attributes": {
       "corruption": {
         "label": "Corruption",
-        "description": "TRIGGER: When you destroy a threat to your territory instead of driving it out, mark corruption.",
+        "description": "TRIGGER: When you feed on an unwilling victim, mark corruption.",
         "type": "Clock",
         "value": 0,
         "max": 5,
@@ -96,7 +96,7 @@
         "value": "",
         "choices": [
           {
-            "value": "<ul><li><p>heal 2-harm instantaneously, starting with critical harm</p></li><li><p>transform from one form into the other without seeing the moon</p></li><li><p>perform a ferocious feat of lupine strength and speed</p></li><li><p>enhance your lupine senses to supernatural levels</p></li></ul>",
+            "value": "<ul><li><p>create an opportunity to escape, ignoring all mortal bindings</p></li><li><p>perform a fantastic feat of vampiric strength or agility</p></li><li><p>extend your vampiric senses for a short period of time</p></li><li><p>display your dominance; low-Status NPCs flee, PCs must keep their cool</p></li></ul>",
             "options": {}
           }
         ],
@@ -112,7 +112,7 @@
         "value": "",
         "choices": [
           {
-            "value": "<ul><li><p>Someone intervened on your behalf when you crossed a powerful figure from another Circle. You owe them a Debt.</p></li><li><p>Someone hired you for a job and you fucked it up. Tell them why another obligation got in the way. You owe them a Debt.</p></li><li><p>Someone lives in your territory, benefiting from your protection. They owe you a Debt.</p></li></ul>",
+            "value": "<ul><li><p>Someone makes sure you get fed regularly, without attracting too much attention. You owe them 2 Debts.</p></li><li><p>Someone relies on you for their fix. Ask them what you provide that keeps them sane. They owe you a Debt; add them to your web.</p></li><li><p>Someone recently sold you out to one of your enemies. You avoided the worst of the attacks, but your betrayer owes you a Debt; add them to your web.</p></li></ul>",
             "options": {}
           }
         ],
@@ -140,15 +140,15 @@
             "value": false
           },
           "3": {
-            "label": "a new Wolf move",
+            "label": "a new Vamp move",
             "value": false
           },
           "4": {
-            "label": "a new Wolf move",
+            "label": "a new Vamp move",
             "value": false
           },
           "5": {
-            "label": "join or lead a wolf pack",
+            "label": "a move from another playbook",
             "value": false
           },
           "6": {
@@ -176,15 +176,15 @@
                 "value": false
               },
               "3": {
-                "label": "a new Wolf move",
+                "label": "a new Vamp move",
                 "value": false
               },
               "4": {
-                "label": "a new Wolf move",
+                "label": "a new Vamp move",
                 "value": false
               },
               "5": {
-                "label": "join or lead a wolf pack",
+                "label": "a move from another playbook",
                 "value": false
               },
               "6": {
@@ -222,15 +222,15 @@
             "value": false
           },
           "3": {
-            "label": "advance four basic moves",
+            "label": "erase a scar",
             "value": false
           },
           "4": {
-            "label": "erase a scar",
+            "label": "advance 3 basic moves",
             "value": false
           },
           "5": {
-            "label": "erase a scar",
+            "label": "advance 3 basic moves",
             "value": false
           },
           "6": {
@@ -259,15 +259,15 @@
               },
               "3": {
                 "value": false,
-                "label": "advance four basic moves"
+                "label": "erase a scar"
               },
               "4": {
                 "value": false,
-                "label": "erase a scar"
+                "label": "advance 3 basic moves"
               },
               "5": {
                 "value": false,
-                "label": "erase a scar"
+                "label": "advance 3 basic moves"
               },
               "6": {
                 "value": false,
@@ -426,19 +426,19 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<p>baggy clothing</p>",
+            "value": "<p>concealing clothing</p>",
             "options": {}
           },
           {
-            "value": "<p>dark clothing</p>",
+            "value": "<p>formal clothing</p>",
             "options": {}
           },
           {
-            "value": "<p>dirty clothing</p>",
+            "value": "<p>ordinary clothing</p>",
             "options": {}
           },
           {
-            "value": "<p>tactical clothing</p>",
+            "value": "<p>vintage clothing</p>",
             "options": {}
           }
         ],
@@ -454,7 +454,7 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<p>aggressive</p>",
+            "value": "<p>antiquated</p>",
             "options": {}
           },
           {
@@ -462,11 +462,11 @@
             "options": {}
           },
           {
-            "value": "<p>restless</p>",
+            "value": "<p>seductive</p>",
             "options": {}
           },
           {
-            "value": "<p>violent</p>",
+            "value": "<p>volatile</p>",
             "options": {}
           }
         ],
@@ -482,7 +482,7 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<p>When did you first experience the change?</p>",
+            "value": "<p>When did you become a vampire?</p>",
             "options": {}
           }
         ],
@@ -514,7 +514,7 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<p>What is the best part of your other form?</p>",
+            "value": "<p>How do you keep your cravings in check?</p>",
             "options": {}
           }
         ],
@@ -530,7 +530,7 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<p>Who is the most important person in your territory?</p>",
+            "value": "<p>How did you acquire your haven?</p>",
             "options": {}
           }
         ],
@@ -546,7 +546,7 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<p>What do you desperately need?</p>",
+            "value": "<p>What deal are you invested in right now?</p>",
             "options": {}
           }
         ],
@@ -559,41 +559,13 @@
     },
     "choiceSets": [
       {
-        "title": "WOLF MOVES",
+        "title": "VAMP MOVES",
         "desc": "YOU GET THIS ONE:",
-        "type": "multi",
-        "repeatable": true,
-        "choices": [],
-        "grantOn": 1,
-        "granted": false,
-        "advancement": 0
-      },
-      {
-        "title": "AND CHOOSE ONE MORE:",
-        "desc": "",
         "type": "multi",
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.OVJL4Bz9saDNxPw0",
-            "img": "icons/svg/aura.svg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.kXKEFDeaUiEXIuuh",
-            "img": "icons/svg/aura.svg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.682d0c13e10c49d1",
-            "img": "icons/svg/aura.svg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.gaVbpcYqUTVAuNwu",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.M8oP1qQ4rS7tT0uU",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
@@ -604,19 +576,60 @@
         "advancement": 0
       },
       {
-        "title": "WOLF Starting Moves",
+        "title": "AND CHOOSE TWO MORE:",
         "desc": "",
         "type": "multi",
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.41JxD0pVIReFWo12",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.N9oP2qQ5rS8tT1uU",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.1cd7e4cde6a94d46",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.s8jdzgSfTh1NGojD",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.z4N5gOpNl4yDtuTY",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.bEs93DU0Eiaf0bNl",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.spyjca3e1XREJAN0",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 2,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "VAMP Starting Moves",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.uNpgcYYgBru32GfI",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.HKWmMcz2tRcWGfdr",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
@@ -628,49 +641,37 @@
       },
       {
         "title": "Starting Gear",
-        "desc": "A duffel bag with your personal belongings, a shitty cell phone. Choose two practical weapons:",
+        "desc": "A secluded apartment, a comfortable car, a smartphone. One stylish weapon of choice:",
         "type": "multi",
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.nzEtYWPo8zfrPgEH",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.wZehIb6GrC9FNoyl",
             "img": "icons/svg/item-bag.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.K4lL7mN0oP3qQ6rS",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.kXKEFDeaUiEXIuuh",
             "img": "icons/svg/item-bag.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.U79fjMPb4uuYb7zR",
-            "img": "icons/svg/item-bag.svg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.1HR3Awr120Z0vEXi",
-            "img": "icons/svg/item-bag.svg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.61G1bKAZrUym18Ac",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.682d0c13e10c49d1",
             "img": "icons/svg/item-bag.svg",
             "granted": false,
             "advancement": 0
           }
         ],
-        "grantOn": 2,
+        "grantOn": 1,
         "granted": false,
         "advancement": 0
       }
     ]
   },
   "effects": [],
-  "folder": "HKWmMcz2tRcWGfdr",
+  "folder": "0x74AgDRViQaXCdG",
   "ownership": {
     "default": 0,
     "MZpJvwT3EQwBniAB": 3
@@ -679,14 +680,15 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907141240,
     "modifiedTime": 1733962596462,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "exportSource": null
   },
-  "_id": "MdVmLn0FBUm08rQC",
+  "_id": "15dGntKnpgDgUUYD",
   "sort": 0,
-  "_key": "!playbooks!MdVmLn0FBUm08rQC"
+  "_key": "!items!15dGntKnpgDgUUYD"
 }

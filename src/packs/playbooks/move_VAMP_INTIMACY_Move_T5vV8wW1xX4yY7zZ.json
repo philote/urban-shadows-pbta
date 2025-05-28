@@ -1,5 +1,5 @@
 {
-  "folder": "0x74AgDRViQaXCdG",
+  "folder": "J3kK6nN9oP2qQ5rS",
   "name": "VAMP INTIMACY Move",
   "type": "move",
   "_id": "T5vV8wW1xX4yY7zZ",
@@ -32,7 +32,7 @@
     "choices": ""
   },
   "effects": [],
-  "sort": 100000,
+  "sort": 125000,
   "ownership": {
     "default": 0,
     "MZpJvwT3EQwBniAB": 3
@@ -45,7 +45,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748304848291,
+    "modifiedTime": 1748399913206,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

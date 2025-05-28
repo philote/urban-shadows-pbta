@@ -1,5 +1,5 @@
 {
-  "folder": "V9yA2bC5dE8fG1hH",
+  "folder": "W0aC3fF6gG9hH2iI",
   "name": "SPECTRE INTIMACY Move",
   "type": "move",
   "_id": "O2tT6wW9zB2dE5fG",
@@ -32,7 +32,7 @@
     "choices": ""
   },
   "effects": [],
-  "sort": 200000,
+  "sort": 350000,
   "ownership": {
     "default": 0,
     "MZpJvwT3EQwBniAB": 3
@@ -45,7 +45,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748304671387,
+    "modifiedTime": 1748399936065,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

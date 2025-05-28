@@ -1,22 +1,23 @@
 {
   "name": "The WIZARD Moves",
   "sorting": "a",
-  "folder": "XJlC20slukoS8nIH",
+  "folder": "V25gvO7K7VAFw0NO",
   "type": "Item",
   "_id": "IbSH3P9hNhTyb12s",
   "description": "",
-  "sort": 400000,
+  "sort": 300000,
   "color": null,
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": null,
-    "modifiedTime": 1733907156083,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+    "modifiedTime": 1748405311564,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
   },
-  "_key": "!Items!IbSH3P9hNhTyb12s"
+  "_key": "!folders!IbSH3P9hNhTyb12s"
 }

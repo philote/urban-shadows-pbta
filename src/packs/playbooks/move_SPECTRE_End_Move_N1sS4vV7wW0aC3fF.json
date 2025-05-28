@@ -1,5 +1,5 @@
 {
-  "folder": "V9yA2bC5dE8fG1hH",
+  "folder": "W0aC3fF6gG9hH2iI",
   "name": "SPECTRE End Move",
   "type": "move",
   "_id": "N1sS4vV7wW0aC3fF",
@@ -32,7 +32,7 @@
     "choices": ""
   },
   "effects": [],
-  "sort": 100000,
+  "sort": 300000,
   "ownership": {
     "default": 0,
     "MZpJvwT3EQwBniAB": 3
@@ -45,7 +45,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748304669383,
+    "modifiedTime": 1748399934916,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

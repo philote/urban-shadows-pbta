@@ -32,7 +32,7 @@
     "choices": ""
   },
   "effects": [],
-  "sort": 0,
+  "sort": 300000,
   "ownership": {
     "default": 0,
     "MZpJvwT3EQwBniAB": 3
@@ -41,12 +41,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907149533,
-    "modifiedTime": 1733907149533,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+    "modifiedTime": 1748405564756,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
   },
-  "_key": "!moves!WycP4PJHL4QJTS52"
+  "_key": "!items!WycP4PJHL4QJTS52"
 }

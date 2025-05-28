@@ -1,5 +1,5 @@
 {
-  "folder": "0x74AgDRViQaXCdG",
+  "folder": "SnCfqM8uN9psoa5w",
   "name": "VETERAN End Move",
   "type": "move",
   "_id": "M7oP0qQ3rS6tT9uU",
@@ -32,7 +32,7 @@
     "choices": ""
   },
   "effects": [],
-  "sort": 200000,
+  "sort": 300000,
   "ownership": {
     "default": 0,
     "MZpJvwT3EQwBniAB": 3
@@ -45,7 +45,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748304853201,
+    "modifiedTime": 1748405516679,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

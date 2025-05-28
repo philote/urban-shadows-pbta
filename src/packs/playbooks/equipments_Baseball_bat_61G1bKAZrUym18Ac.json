@@ -1,15 +1,15 @@
 {
-  "folder": "kXKEFDeaUiEXIuuh",
-  "name": "Snubnosed revolver",
+  "folder": "XJlC20slukoS8nIH",
+  "name": "Baseball bat",
   "type": "equipment",
-  "_id": "03e743a1890c43f9",
+  "_id": "61G1bKAZrUym18Ac",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "(2-harm close/near loud reload concealable)",
+    "description": "(2-harm close stun)",
     "uses": 0,
     "quantity": 1,
     "weight": 0,
-    "tags": "[{\"value\":\"2-harm\"},{\"value\":\"close/near\"},{\"value\":\"loud\"},{\"value\":\"reload\"},{\"value\":\"concealable\"}]",
+    "tags": "[{\"value\":\"2-harm\"},{\"value\":\"close\"},{\"value\":\"stun\"}]",
     "itemType": "",
     "equipmentType": "gear",
     "actorType": "character"
@@ -22,7 +22,7 @@
   },
   "flags": {},
   "_stats": {
-    "compendiumSource": "Item.P9qQ2rS5tT8uU1vV",
+    "compendiumSource": "Item.M7oP0qQ3rS6tT9uU",
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pbta",
@@ -31,5 +31,5 @@
     "modifiedTime": 1733907152038,
     "lastModifiedBy": "MZpJvwT3EQwBniAB"
   },
-  "_key": "!equipments!03e743a1890c43f9"
+  "_key": "!items!61G1bKAZrUym18Ac"
 }

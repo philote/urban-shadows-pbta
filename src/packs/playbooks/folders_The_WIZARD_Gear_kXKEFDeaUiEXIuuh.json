@@ -1,9 +1,9 @@
 {
-  "name": "The SPECTRE Gear",
+  "name": "The WIZARD Gear",
   "sorting": "a",
-  "folder": "ZXbYPxyNKjIsq0YA",
+  "folder": "V25gvO7K7VAFw0NO",
   "type": "Item",
-  "_id": "uRtOEOUf43RHbQyH",
+  "_id": "kXKEFDeaUiEXIuuh",
   "description": "",
   "sort": 200000,
   "color": null,
@@ -11,12 +11,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": null,
-    "modifiedTime": 1733907152049,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+    "modifiedTime": 1748405308798,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
   },
-  "_key": "!Items!uRtOEOUf43RHbQyH"
+  "_key": "!folders!kXKEFDeaUiEXIuuh"
 }

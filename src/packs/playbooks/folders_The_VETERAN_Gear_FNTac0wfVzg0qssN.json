@@ -1,9 +1,9 @@
 {
-  "name": "The IMP Gear",
+  "name": "The VETERAN Gear",
   "sorting": "a",
-  "folder": "I0kM3oQ6rS9tU2wZ",
+  "folder": "qfi6Go2GdMVMrMB1",
   "type": "Item",
-  "_id": "9ebmNWuNLC3HZSgp",
+  "_id": "FNTac0wfVzg0qssN",
   "description": "",
   "sort": 200000,
   "color": null,
@@ -11,12 +11,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": null,
-    "modifiedTime": 1733907152049,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+    "modifiedTime": 1748405321198,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
   },
-  "_key": "!Items!9ebmNWuNLC3HZSgp"
+  "_key": "!folders!FNTac0wfVzg0qssN"
 }
