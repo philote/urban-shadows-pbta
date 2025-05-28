@@ -594,12 +594,6 @@
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.hfW50eZcSZh23Lls",
-            "img": "icons/svg/aura.svg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
             "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.XJlC20slukoS8nIH",
             "img": "icons/svg/aura.svg",
             "granted": false,
@@ -616,12 +610,6 @@
         "type": "multi",
         "repeatable": true,
         "choices": [
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.IbSH3P9hNhTyb12s",
-            "img": "icons/svg/aura.svg",
-            "granted": false,
-            "advancement": 0
-          },
           {
             "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.OVJL4Bz9saDNxPw0",
             "img": "icons/svg/aura.svg",

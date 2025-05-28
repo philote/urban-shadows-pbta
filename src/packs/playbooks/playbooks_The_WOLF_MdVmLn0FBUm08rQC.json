@@ -563,14 +563,7 @@
         "desc": "YOU GET THIS ONE:",
         "type": "multi",
         "repeatable": true,
-        "choices": [
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.IbSH3P9hNhTyb12s",
-            "img": "icons/svg/aura.svg",
-            "granted": false,
-            "advancement": 0
-          }
-        ],
+        "choices": [],
         "grantOn": 1,
         "granted": false,
         "advancement": 0
