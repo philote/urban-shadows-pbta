@@ -1,0 +1,695 @@
+{
+  "name": "The HUNTER",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Some people are born to hunt monsters. Others are made by tragedy, loss, or a glimpse behind the veil that changes everything. Hunters are mortals who have dedicated their lives to tracking down and eliminating supernatural threats. They are the thin line between the innocent and the predators that stalk the night...</p>",
+    "slug": "the-hunter",
+    "actorType": "character",
+    "stats": {
+      "blood": {
+        "label": "Blood",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "heart": {
+        "label": "Heart",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mind": {
+        "label": "Mind",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "spirit": {
+        "label": "Spirit",
+        "value": -1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mortalis": {
+        "label": "Mortalis",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "night": {
+        "label": "Night",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "power": {
+        "label": "Power",
+        "value": -1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "wild": {
+        "label": "Wild",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      }
+    },
+    "statsDetail": "(Add 1 to one of these)",
+    "attributes": {
+      "corruption": {
+        "label": "Corruption",
+        "description": "TRIGGER: When you kill a supernatural creature that was not an immediate threat, mark corruption.",
+        "type": "Clock",
+        "value": 0,
+        "max": 5,
+        "choices": [
+          {
+            "value": 0,
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "options": {}
+      },
+      "letItOut": {
+        "label": "Let it out Abilities",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>produce the perfect weapon or tool for dealing with a supernatural threat</p></li><li><p>know exactly where to strike to cause maximum harm to your target</p></li><li><p>sense the presence and nature of supernatural creatures nearby</p></li><li><p>push through pain and injury to keep fighting when others would fall</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": "TO ACTIVATE THESE ABILITIES"
+      },
+      "debts": {
+        "label": "Debts",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>Someone trained you in the ways of hunting the supernatural. You owe them a Debt.</p></li><li><p>You saved someone from a supernatural threat, but they were changed by the experience. They owe you a Debt.</p></li><li><p>Someone provides you with information about supernatural activities in the city. You owe them a Debt.</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "advancements": {
+        "label": "Advancements",
+        "description": "Available at the beginning of play:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 Status (max+1)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 Status (max+1)",
+            "value": false
+          },
+          "2": {
+            "label": "+1 Status (max+1)",
+            "value": false
+          },
+          "3": {
+            "label": "a new Hunter move",
+            "value": false
+          },
+          "4": {
+            "label": "a new Hunter move",
+            "value": false
+          },
+          "5": {
+            "label": "a move from another playbook",
+            "value": false
+          },
+          "6": {
+            "label": "a move from another playbook",
+            "value": false
+          },
+          "7": {
+            "label": "change your Circle",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "+1 Status (max+1)",
+                "value": false
+              },
+              "1": {
+                "label": "+1 Status (max+1)",
+                "value": false
+              },
+              "2": {
+                "label": "+1 Status (max+1)",
+                "value": false
+              },
+              "3": {
+                "label": "a new Hunter move",
+                "value": false
+              },
+              "4": {
+                "label": "a new Hunter move",
+                "value": false
+              },
+              "5": {
+                "label": "a move from another playbook",
+                "value": false
+              },
+              "6": {
+                "label": "a move from another playbook",
+                "value": false
+              },
+              "7": {
+                "label": "change your Circle",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "expertAdvancements": {
+        "label": "Expert advancements",
+        "description": "After five advances, you may select:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 any Circle (max+3)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 any Circle (max+3)",
+            "value": false
+          },
+          "2": {
+            "label": "obtain Circle Status-2",
+            "value": false
+          },
+          "3": {
+            "label": "erase a scar",
+            "value": false
+          },
+          "4": {
+            "label": "advance 3 basic moves",
+            "value": false
+          },
+          "5": {
+            "label": "advance 3 basic moves",
+            "value": false
+          },
+          "6": {
+            "label": "change to a new playbook",
+            "value": false
+          },
+          "7": {
+            "label": "retire your character to safety",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "value": false,
+                "label": "+1 any Circle (max+3)"
+              },
+              "1": {
+                "value": false,
+                "label": "+1 any Circle (max+3)"
+              },
+              "2": {
+                "value": false,
+                "label": "obtain Circle Status-2"
+              },
+              "3": {
+                "value": false,
+                "label": "erase a scar"
+              },
+              "4": {
+                "value": false,
+                "label": "advance 3 basic moves"
+              },
+              "5": {
+                "value": false,
+                "label": "advance 3 basic moves"
+              },
+              "6": {
+                "value": false,
+                "label": "change to a new playbook"
+              },
+              "7": {
+                "value": false,
+                "label": "retire your character to safety"
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "corruptionAdvances": {
+        "label": "Corruption advances",
+        "description": "Corruption represents your character slipping toward the worst parts of their nature. As your corruption mounts, your powers only grow...",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "take +1 to any stat (max+3)",
+            "value": false
+          },
+          "1": {
+            "label": "take +1 to any stat (max+3)",
+            "value": false
+          },
+          "2": {
+            "label": "take a new corruption move",
+            "value": false
+          },
+          "3": {
+            "label": "take a new corruption move",
+            "value": false
+          },
+          "4": {
+            "label": "take a new corruption move from another playbook or your own",
+            "value": false
+          },
+          "5": {
+            "label": "retire your character; they may return as a Threat",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "take +1 to any stat (max+3)",
+                "value": false
+              },
+              "1": {
+                "label": "take +1 to any stat (max+3)",
+                "value": false
+              },
+              "2": {
+                "label": "take a new corruption move",
+                "value": false
+              },
+              "3": {
+                "label": "take a new corruption move",
+                "value": false
+              },
+              "4": {
+                "label": "take a new corruption move from another playbook or your own",
+                "value": false
+              },
+              "5": {
+                "label": "retire your character; they may return as a Threat",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "lookOne": {
+        "label": "Look One",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>androgynous</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>conforming</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>shifting</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>nonconforming</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Pick one"
+      },
+      "lookTwo": {
+        "label": "Look Two",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Asian or South Asian</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Black</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Hispanic/ Latinx</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Indigenous</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Middle Eastern</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>White</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Other: <fill in yourself later></p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Pick one"
+      },
+      "lookThree": {
+        "label": "Look Three",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>combat gear</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>practical clothing</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>rugged clothing</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>tactical clothing</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Pick one"
+      },
+      "demeanor": {
+        "label": "Demeanor",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>determined</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>grim</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>intense</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>vigilant</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Pick one"
+      },
+      "questionOne": {
+        "label": "Question One",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>What supernatural creature first showed you the truth about the world?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionTwo": {
+        "label": "Question Two",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>How long have you been hunting?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionThree": {
+        "label": "Question Three",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>What personal loss drives your crusade?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionFour": {
+        "label": "Question Four",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>What type of supernatural creature do you specialize in hunting?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionFive": {
+        "label": "Question Five",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>What code or principle guides your hunt?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "HUNTER MOVES",
+        "desc": "CHOOSE THREE:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.B7kR3nY9pQ4sT2wL",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.F1jH9kL2Z5pX8qV3",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.V5mN8jK3zW6rX1cA",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.H2jQ7fR5L9pD4kZ3",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.M4pC2zV7nR6tJ3sQ",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.R6kT3yB8nU5pA1dC",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 3,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "HUNTER Starting Moves",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.13ed0f1b3c434160",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.jxcu3IGIkTUUOMQA",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Starting Gear",
+        "desc": "A reliable vehicle, a smartphone, a well-stocked arsenal. Two custom weapons of choice:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.K4lL7mN0oP3qQ6rS",
+            "img": "icons/svg/item-bag.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.ab37097cce424167",
+            "img": "icons/svg/item-bag.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.M6oP9qQ2rS5tT8uU",
+            "img": "icons/svg/item-bag.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.L5mN8oP1qQ4rS7tT",
+            "img": "icons/svg/item-bag.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.03e743a1890c43f9",
+            "img": "icons/svg/item-bag.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 2,
+        "granted": false,
+        "advancement": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "E6gI9kM2nO5pQ8sV",
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907141240,
+    "modifiedTime": 1733962596462,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "exportSource": null
+  },
+  "_id": "h9i0j1k2l3m4n5o6",
+  "sort": 0,
+  "_key": "!items!h9i0j1k2l3m4n5o6"
+}
