@@ -48,9 +48,9 @@
   ],
   "packs": [
     {
-      "name": "basic-moves",
-      "label": "Basic Moves",
-      "path": "packs/basic-moves",
+      "name": "play-materials",
+      "label": "Play Materials",
+      "path": "packs/play-materials",
       "type": "Item",
       "system": "pbta",
       "ownership": {

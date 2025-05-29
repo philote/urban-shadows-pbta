@@ -1,0 +1,53 @@
+{
+  "folder": "6ZLeDXGC080ZpwLQ",
+  "name": "CASH IN A DEBT",
+  "type": "move",
+  "_id": "VF0qX2cY6dZ9eA5b",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you <em><strong>cash in a Debt</strong></em>, remind your debtor why they owe you in order to...</p>",
+    "moveType": "debt",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": "<p>The MC tells you what interesting thing happens.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Weak Hit",
+        "value": "<p>...make a PC:</p><ul><li>answer a question honestly</li><li>do you a favor at moderate cost</li><li>lend a hand to your efforts</li><li>get in the way of someone else</li><li>erase a Debt they hold on someone</li><li>give you a Debt they hold on someone else</li></ul><p>...make an NPC:</p><ul><li>answer a question honestly</li><li>arrange a meeting with an NPC in their Circle</li><li>grant you a worthy boon or useful gift</li><li>erase a Debt they hold on someone</li><li>give you a Debt they hold on someone else</li></ul>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Strong Hit",
+        "value": "<p>...make a PC:</p><ul><li>answer a question honestly</li><li>do you a favor at moderate cost</li><li>lend a hand to your efforts</li><li>get in the way of someone else</li><li>erase a Debt they hold on someone</li><li>give you a Debt they hold on someone else</li></ul><p>...make an NPC:</p><ul><li>answer a question honestly</li><li>arrange a meeting with an NPC in their Circle</li><li>grant you a worthy boon or useful gift</li><li>erase a Debt they hold on someone</li><li>give you a Debt they hold on someone else</li></ul>"
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748493194026,
+    "modifiedTime": 1748493681109,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!VF0qX2cY6dZ9eA5b"
+}

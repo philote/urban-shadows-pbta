@@ -1,0 +1,53 @@
+{
+  "folder": "UQj0bckGnGOYfEHA",
+  "name": "FIGURE SOMEONE OUT",
+  "type": "move",
+  "_id": "Ku9fM1rN5sO8tP4q",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you <em><strong>try to figure someone out</strong></em>, roll with <strong>MIND</strong>.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": "<p>The MC tells you what interesting thing happens.</p><p>If you're in their Circle, ask an additional question, even on a miss.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Weak Hit",
+        "value": "<p>On a hit, ask two. On a 7-9, they ask one of you as well. If you're in their Circle, ask an additional question, even on a miss.</p><ul><li>who's pulling your character's strings?</li><li>what's your character's beef with _____?</li><li>what's your character hoping to get from _____?</li><li>what does your character worry is going to happen?</li><li>how could I get your character to _____?</li><li>how could I put your character in my Debt?</li></ul>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Strong Hit",
+        "value": "<p>On a hit, ask two. If you're in their Circle, ask an additional question, even on a miss.</p><ul><li>who's pulling your character's strings?</li><li>what's your character's beef with _____?</li><li>what's your character hoping to get from _____?</li><li>what does your character worry is going to happen?</li><li>how could I get your character to _____?</li><li>how could I put your character in my Debt?</li></ul>"
+      }
+    },
+    "uses": 0,
+    "rollType": "mind",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748493194026,
+    "modifiedTime": 1748493681109,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!Ku9fM1rN5sO8tP4q"
+}

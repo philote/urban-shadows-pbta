@@ -1,0 +1,53 @@
+{
+  "folder": "UQj0bckGnGOYfEHA",
+  "name": "MISLEAD, DISTRACT, OR TRICK",
+  "type": "move",
+  "_id": "Lv0gN2sO6tP9uQ5r",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you <em><strong>try to mislead, distract, or trick someone</strong></em>, roll with <strong>MIND</strong>.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": "<p>The MC tells you what interesting thing happens.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Weak Hit",
+        "value": "<p>On a hit, they are fooled, at least for a moment. On a 7-9, pick 2:</p><ul><li>you create an opportunity</li><li>you expose a weakness or flaw</li><li>you confuse them for some time</li><li>you avoid further entanglement</li></ul>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Strong Hit",
+        "value": "<p>On a hit, they are fooled, at least for a moment. On a 10+, pick 3:</p><ul><li>you create an opportunity</li><li>you expose a weakness or flaw</li><li>you confuse them for some time</li><li>you avoid further entanglement</li></ul>"
+      }
+    },
+    "uses": 0,
+    "rollType": "mind",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748493194026,
+    "modifiedTime": 1748493681109,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!Lv0gN2sO6tP9uQ5r"
+}

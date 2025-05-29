@@ -1,0 +1,53 @@
+{
+  "folder": "6ZLeDXGC080ZpwLQ",
+  "name": "REFUSE TO HONOR A DEBT",
+  "type": "move",
+  "_id": "WG1rY3dZ7eA0fB6c",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you <em><strong>refuse to honor a Debt</strong></em>, roll with the difference in Status between you and your creditor.</p>",
+    "moveType": "debt",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": "<p>On a miss, you can't avoid the noose: either honor the Debt in full or erase all the Debts owed to you by their Circle and take a -1 ongoing to Status with their Circle until after time passes.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Weak Hit",
+        "value": "<p>On a hit, you weasel out of the obligation for now, but you still owe the Debt. On a 7-9, you owe them an additional Debt or mark corruption, your choice.</p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Strong Hit",
+        "value": "<p>On a hit, you weasel out of the obligation for now, but you still owe the Debt.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "status",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748493194026,
+    "modifiedTime": 1748493681109,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!WG1rY3dZ7eA0fB6c"
+}

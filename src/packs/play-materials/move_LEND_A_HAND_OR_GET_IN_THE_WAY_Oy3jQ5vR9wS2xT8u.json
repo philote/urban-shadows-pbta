@@ -1,0 +1,53 @@
+{
+  "folder": "UQj0bckGnGOYfEHA",
+  "name": "LEND A HAND OR GET IN THE WAY",
+  "type": "move",
+  "_id": "Oy3jQ5vR9wS2xT8u",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you <em><strong>lend a hand or get in the way after a PC has rolled</strong></em>, roll with their <strong>Circle</strong>.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": "<p>The MC tells you what interesting thing happens.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Weak Hit",
+        "value": "<p>On a hit, give them a +1 or -2 to their roll. On a 7-9, you expose yourself to danger, entanglement, or cost.</p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Strong Hit",
+        "value": "<p>On a hit, give them a +1 or -2 to their roll.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "circle",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748493194026,
+    "modifiedTime": 1748493681109,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!Oy3jQ5vR9wS2xT8u"
+}

@@ -1,0 +1,53 @@
+{
+  "folder": "UQj0bckGnGOYfEHA",
+  "name": "ESCAPE A SITUATION",
+  "type": "move",
+  "_id": "Hs7dK9pL3mN6oQ2r",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you <em><strong>take advantage of an opening to escape a situation</strong></em>, roll with <strong>BLOOD</strong>.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": "<p>The MC tells you what interesting thing happens.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Weak Hit",
+        "value": "<p>On a hit, you get away and choose 1. On a 7-9, the MC chooses one as well:</p><ul><li>you suffer harm during your escape</li><li>you end up in another dangerous situation</li><li>you leave something important behind</li><li>you owe an NPC a Debt for their aid</li><li>you give into your base nature and mark corruption</li></ul>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Strong Hit",
+        "value": "<p>On a hit, you get away and choose 1. On a 10+, the MC doesn't choose one.</p><ul><li>you suffer harm during your escape</li><li>you end up in another dangerous situation</li><li>you leave something important behind</li><li>you owe an NPC a Debt for their aid</li><li>you give into your base nature and mark corruption</li></ul>"
+      }
+    },
+    "uses": 0,
+    "rollType": "blood",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748493194026,
+    "modifiedTime": 1748493681109,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!Hs7dK9pL3mN6oQ2r"
+}

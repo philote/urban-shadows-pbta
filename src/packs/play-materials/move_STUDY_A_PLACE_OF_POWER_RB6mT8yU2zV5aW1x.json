@@ -1,0 +1,53 @@
+{
+  "folder": "lZu6QJ3wkQKTDbDF",
+  "name": "STUDY A PLACE OF POWER",
+  "type": "move",
+  "_id": "RB6mT8yU2zV5aW1x",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you <em><strong>study a sanctuary, gathering spot, or place of power</strong></em>, roll with the <strong>Circle</strong> that controls it.</p>",
+    "moveType": "circle",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": "<p>The MC tells you what interesting thing happens.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Weak Hit",
+        "value": "<p>On a hit, you see below the surface to the reality underneath; the MC will reveal an area, NPC, or item located within that is not what it seems.</p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Strong Hit",
+        "value": "<p>On a hit, you see below the surface to the reality underneath; the MC will reveal an area, NPC, or item located within that is not what it seems. On a 10+, your insight reveals much about the Circle's politics and schemes; ask the MC a question about the Circle and take +1 forward when acting on the answer.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "circle",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748493194026,
+    "modifiedTime": 1748493681109,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!RB6mT8yU2zV5aW1x"
+}

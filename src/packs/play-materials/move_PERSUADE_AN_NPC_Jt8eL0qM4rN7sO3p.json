@@ -1,0 +1,53 @@
+{
+  "folder": "UQj0bckGnGOYfEHA",
+  "name": "PERSUADE AN NPC",
+  "type": "move",
+  "_id": "Jt8eL0qM4rN7sO3p",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you <em><strong>persuade an NPC with seduction, promises, or threats</strong></em>, roll with <strong>HEART</strong>.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": "<p>The MC tells you what interesting thing happens.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Weak Hit",
+        "value": "<p>On a hit, they see your point and do as you ask. On a 7-9, they counter your offer or demand payment—a Debt, a favor, resources—before agreeing to follow through.</p><p>If you cash in a Debt with the NPC before you roll, add +3 to your total (max+4).</p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Strong Hit",
+        "value": "<p>On a hit, they see your point and do as you ask.</p><p>If you cash in a Debt with the NPC before you roll, add +3 to your total (max+4).</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "heart",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748493194026,
+    "modifiedTime": 1748493681109,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!Jt8eL0qM4rN7sO3p"
+}
