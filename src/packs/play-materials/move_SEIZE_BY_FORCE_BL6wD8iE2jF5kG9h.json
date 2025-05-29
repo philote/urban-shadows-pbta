@@ -1,0 +1,53 @@
+{
+  "folder": "XH2sZ4eA8fB1gC5d",
+  "name": "SEIZE BY FORCE",
+  "type": "move",
+  "_id": "BL6wD8iE2jF5kG9h",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When a <em><strong>faction seizes a vulnerable asset by force</strong></em>, roll with their Strength.</p>",
+    "moveType": "faction",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": "<p>On a miss, the strike instead results in the utter destruction of the thing the attacking faction attempted to seize; the MC picks just one off the list, and someone comes to one of the PCs looking for help obtaining justice or revenge.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Weak Hit",
+        "value": "<p>On a hit, they take hold of it, seizing or transforming it for their own purposes. On a 7-9, they choose one:</p><ul><li>they don't sacrifice a leader or ally</li><li>they don't cause serious collateral damage</li><li>they don't suffer an immediate, retaliatory attack</li></ul>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Strong Hit",
+        "value": "<p>On a hit, they take hold of it, seizing or transforming it for their own purposes. On a 10+, all three:</p><ul><li>they don't sacrifice a leader or ally</li><li>they don't cause serious collateral damage</li><li>they don't suffer an immediate, retaliatory attack</li></ul>"
+      }
+    },
+    "uses": 0,
+    "rollType": "custom",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748493194026,
+    "modifiedTime": 1748493681109,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!BL6wD8iE2jF5kG9h"
+}

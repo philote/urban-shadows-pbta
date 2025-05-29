@@ -1,0 +1,53 @@
+{
+  "folder": "XH2sZ4eA8fB1gC5d",
+  "name": "DEVELOP INFRASTRUCTURE",
+  "type": "move",
+  "_id": "ZJ4uB6gC0hD3iE7f",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When the <em><strong>leaders of a faction develop infrastructure</strong></em>, commit a secure asset and roll with their Strength.</p>",
+    "moveType": "faction",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": "<p>On a miss, their plan for expansion ignites a schism within the faction; all of their assets are considered vulnerable until one side of the conflict seizes full control.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Weak Hit",
+        "value": "<p>On a hit, the asset becomes vulnerable, and they pick 2:</p><ul><li>they attract new members; mark recruitment</li><li>they acquire new holdings: mark resources</li><li>they solidify control: make a vulnerable asset secure</li></ul>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Strong Hit",
+        "value": "<p>On a hit, the asset becomes vulnerable, and they pick 2:</p><ul><li>they attract new members; mark recruitment</li><li>they acquire new holdings: mark resources</li><li>they solidify control: make a vulnerable asset secure</li></ul><p>On a 10+, a messy opportunity for growth also arises; if the faction (or its allies) seize it before time passes, they mark recruitment or resources, as appropriate.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "custom",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748493194026,
+    "modifiedTime": 1748493681109,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!ZJ4uB6gC0hD3iE7f"
+}

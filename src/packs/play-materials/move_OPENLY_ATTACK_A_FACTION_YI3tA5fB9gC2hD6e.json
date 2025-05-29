@@ -1,0 +1,53 @@
+{
+  "folder": "XH2sZ4eA8fB1gC5d",
+  "name": "OPENLY ATTACK A FACTION",
+  "type": "move",
+  "_id": "YI3tA5fB9gC2hD6e",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When a <em><strong>faction openly attacks another faction</strong></em>, roll with the difference between the two factions' Sizes.</p>",
+    "moveType": "faction",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": "<p>On a miss, the target instead springs a clever trap; they capture or destroy an asset or reduce the attacker's Size, their choice.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Weak Hit",
+        "value": "<p>On a hit, the targeted faction sacrifices an appropriate asset or loses a point of Size, their choice. On a 7-9, the attacking faction must sacrifice an appropriate asset or lose a point of Size as well.</p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Strong Hit",
+        "value": "<p>On a hit, the targeted faction sacrifices an appropriate asset or loses a point of Size, their choice.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "custom",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748493194026,
+    "modifiedTime": 1748493681109,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!YI3tA5fB9gC2hD6e"
+}

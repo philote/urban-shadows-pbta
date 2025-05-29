@@ -1,0 +1,53 @@
+{
+  "folder": "XH2sZ4eA8fB1gC5d",
+  "name": "GOAD AN OPPONENT",
+  "type": "move",
+  "_id": "AK5vC7hD1iE4jF8g",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When a <em><strong>faction tries to goad an opponent into making a mistake</strong></em>, roll with the difference between the two factions' Strengths.</p>",
+    "moveType": "faction",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": "<p>On a miss, the target sees through the scheme; someone from the targeted faction comes to one of the PCs for help turning the tables against the instigating faction.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Weak Hit",
+        "value": "<p>On a 7-9, the target avoids the worst of the trap, but causes enough trouble to embarrass themselves; they take a -1 ongoing to Strength until they reestablish their reputation.</p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Strong Hit",
+        "value": "<p>On a 10+, the target takes the bait; the instigating faction strikes a terrible blow, destroys a vulnerable asset, or undermines a key relationship or alliance.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "custom",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748493194026,
+    "modifiedTime": 1748493681109,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!AK5vC7hD1iE4jF8g"
+}

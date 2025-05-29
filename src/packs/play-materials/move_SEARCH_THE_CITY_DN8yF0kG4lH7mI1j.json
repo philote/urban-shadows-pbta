@@ -1,0 +1,53 @@
+{
+  "folder": "XH2sZ4eA8fB1gC5d",
+  "name": "SEARCH THE CITY",
+  "type": "move",
+  "_id": "DN8yF0kG4lH7mI1j",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When a <em><strong>faction searches the city for useful information</strong></em>—rare occult knowledge, another faction's weaknesses, the location of an artifact—roll with their Size.</p>",
+    "moveType": "faction",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": "<p>On a miss, a member of the inquiring faction ends up dead or missing...but not before passing off some vital info resulting from the search to one of the PCs.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Weak Hit",
+        "value": "<p>On a hit, they uncover some crucial details, enough to ask a PC or notable NPC to pursue things further. On a 7-9, they also pick 2:</p><ul><li>they attract the attention of a rival faction</li><li>they have to make an asset they control vulnerable</li><li>they take -1 ongoing until the end of the next faction turn</li></ul>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Strong Hit",
+        "value": "<p>On a hit, they uncover some crucial details, enough to ask a PC or notable NPC to pursue things further. On a 10+, they also pick 1:</p><ul><li>they attract the attention of a rival faction</li><li>they have to make an asset they control vulnerable</li><li>they take -1 ongoing until the end of the next faction turn</li></ul>"
+      }
+    },
+    "uses": 0,
+    "rollType": "custom",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748493194026,
+    "modifiedTime": 1748493681109,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!DN8yF0kG4lH7mI1j"
+}

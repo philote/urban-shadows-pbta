@@ -1,0 +1,53 @@
+{
+  "folder": "XH2sZ4eA8fB1gC5d",
+  "name": "OFFER PASSAGE",
+  "type": "move",
+  "_id": "EO9zG1lH5mI8nJ2k",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When a <em><strong>faction offers passage to someone</strong></em>—into or out of the city—roll with their Size.</p>",
+    "moveType": "faction",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": "<p>On a miss, the passage sparks a conflict between the faction and their own allies before it can be completed; someone comes to one of the PCs seeking help to negotiate a truce.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Weak Hit",
+        "value": "<p>On a hit, the way is made clear, no matter who opposes it; choose 1:</p><ul><li>the traveler exits; they are beyond reach until they choose to return</li><li>the traveler enters; the faction gains a powerful asset</li></ul><p>On a 7-9, the passage offends a Status-3 NPC who seeks tribute for the trespass; the faction must perform a favor—dedicating a faction move next faction turn—sacrifice an asset, or risk open war.</p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Strong Hit",
+        "value": "<p>On a hit, the way is made clear, no matter who opposes it; choose 1:</p><ul><li>the traveler exits; they are beyond reach until they choose to return</li><li>the traveler enters; the faction gains a powerful asset</li></ul>"
+      }
+    },
+    "uses": 0,
+    "rollType": "custom",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748493194026,
+    "modifiedTime": 1748493681109,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!EO9zG1lH5mI8nJ2k"
+}
