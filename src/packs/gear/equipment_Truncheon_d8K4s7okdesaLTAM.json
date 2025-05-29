@@ -1,8 +1,7 @@
 {
-  "folder": "R1tT4uU7vV0wW3xX",
+  "folder": null,
   "name": "Truncheon",
   "type": "equipment",
-  "_id": "D7gJ0kK3lL6mN9oP",
   "img": "icons/svg/item-bag.svg",
   "system": {
     "description": "(2-harm hand stun)",
@@ -15,22 +14,24 @@
     "actorType": "character"
   },
   "effects": [],
-  "sort": 100000,
   "ownership": {
     "default": 0,
-    "MZpJvwT3EQwBniAB": 3
+    "MZpJvwT3EQwBniAB": 3,
+    "tolKXMkOd7JsM4Jk": 3
   },
   "flags": {},
   "_stats": {
-    "compendiumSource": "Item.D7gJ0kK3lL6mN9oP",
+    "compendiumSource": null,
     "duplicateSource": null,
+    "exportSource": null,
     "coreVersion": "13.344",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
-    "createdTime": 1733907152038,
-    "modifiedTime": 1748304982848,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
-    "exportSource": null
+    "systemVersion": "1.1.20",
+    "createdTime": 1748486460695,
+    "modifiedTime": 1748486460695,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
-  "_key": "!items!D7gJ0kK3lL6mN9oP"
+  "_id": "d8K4s7okdesaLTAM",
+  "sort": 0,
+  "_key": "!items!d8K4s7okdesaLTAM"
 }

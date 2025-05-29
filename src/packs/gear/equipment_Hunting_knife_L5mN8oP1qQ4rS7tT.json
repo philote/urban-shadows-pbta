@@ -1,5 +1,5 @@
 {
-  "folder": "Y2dE5fG8hH1iI4jJ",
+  "folder": null,
   "name": "Hunting knife",
   "type": "equipment",
   "_id": "L5mN8oP1qQ4rS7tT",
@@ -18,19 +18,20 @@
   "sort": 0,
   "ownership": {
     "default": 0,
-    "MZpJvwT3EQwBniAB": 3
+    "MZpJvwT3EQwBniAB": 3,
+    "tolKXMkOd7JsM4Jk": 3
   },
   "flags": {},
   "_stats": {
     "compendiumSource": "Item.L5mN8oP1qQ4rS7tT",
     "duplicateSource": null,
+    "exportSource": null,
     "coreVersion": "13.344",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
-    "createdTime": 1733907152038,
-    "modifiedTime": 1733907152038,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
-    "exportSource": null
+    "systemVersion": "1.1.20",
+    "createdTime": 1748486441549,
+    "modifiedTime": 1748486441549,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "_key": "!items!L5mN8oP1qQ4rS7tT"
 }
