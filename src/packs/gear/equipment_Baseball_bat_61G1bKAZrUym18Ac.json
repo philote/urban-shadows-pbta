@@ -1,15 +1,15 @@
 {
-  "folder": "DtVjFryQ9TiBFL2n",
-  "name": "Pump-action shotgun",
+  "folder": null,
+  "name": "Baseball bat",
   "type": "equipment",
-  "_id": "ab37097cce424167",
+  "_id": "61G1bKAZrUym18Ac",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "(3-harm close/near loud reload messy)",
+    "description": "(2-harm close stun)",
     "uses": 0,
     "quantity": 1,
     "weight": 0,
-    "tags": "[{\"value\":\"3-harm\"},{\"value\":\"close/near\"},{\"value\":\"loud\"},{\"value\":\"reload\"},{\"value\":\"messy\"}]",
+    "tags": "[{\"value\":\"2-harm\"},{\"value\":\"close\"},{\"value\":\"stun\"}]",
     "itemType": "",
     "equipmentType": "gear",
     "actorType": "character"
@@ -22,14 +22,15 @@
   },
   "flags": {},
   "_stats": {
-    "compendiumSource": "Item.F9iL2oO5rR8sS1tT",
+    "compendiumSource": "Item.M7oP0qQ3rS6tT9uU",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907152038,
     "modifiedTime": 1733907152038,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "exportSource": null
   },
-  "_key": "!equipments!ab37097cce424167"
+  "_key": "!items!61G1bKAZrUym18Ac"
 }

@@ -1,15 +1,15 @@
 {
-  "folder": "XJlC20slukoS8nIH",
-  "name": "Butterfly knife",
+  "folder": null,
+  "name": "Spiritual Possessions",
   "type": "equipment",
-  "_id": "U79fjMPb4uuYb7zR",
+  "_id": "DAnQBgLRmTM3BedB",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "(2-harm hand concealable)",
+    "description": "Whatever was on your person when you died, albeit spiritual versions of each.",
     "uses": 0,
     "quantity": 1,
     "weight": 0,
-    "tags": "[{\"value\":\"2-harm\"},{\"value\":\"hand\"},{\"value\":\"concealable\"}]",
+    "tags": "",
     "itemType": "",
     "equipmentType": "gear",
     "actorType": "character"
@@ -22,14 +22,15 @@
   },
   "flags": {},
   "_stats": {
-    "compendiumSource": "Item.K5lL8mN1oP4qQ7rS",
+    "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907152038,
     "modifiedTime": 1733907152038,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB"
+    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "exportSource": null
   },
-  "_key": "!equipments!U79fjMPb4uuYb7zR"
+  "_key": "!items!DAnQBgLRmTM3BedB"
 }
