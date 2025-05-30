@@ -26,7 +26,7 @@
       }
     },
     "uses": 0,
-    "rollType": "circle",
+    "rollType": "ask",
     "rollMod": 0,
     "actorType": "character",
     "choices": ""

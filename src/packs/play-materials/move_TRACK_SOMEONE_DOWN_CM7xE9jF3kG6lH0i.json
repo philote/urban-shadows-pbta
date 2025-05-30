@@ -26,7 +26,7 @@
       }
     },
     "uses": 0,
-    "rollType": "custom",
+    "rollType": "prompt",
     "rollMod": 0,
     "actorType": "character",
     "choices": ""
