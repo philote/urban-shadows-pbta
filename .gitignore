@@ -41,4 +41,6 @@ build/
 # Environment variables
 .env
 CLAUDE.md
-tools/*
+tools/create-location-tables-fixed.mjs
+tools/create-location-tables.mjs
+# tools/pdf-processor.mjs

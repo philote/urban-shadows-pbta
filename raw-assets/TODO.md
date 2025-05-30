@@ -1,3 +1,5 @@
+When creating the faction and npc tables, use the same basic method used for Locations and their sub-tables. Here are the Faction sub-tables: [Purpose, Structure, Mood, Size, Strength, The Faction...] and here are the NPC sub-tables: [Circle, Presenting, Look, Demeanor, Role, Trait, Quirk, Drives]
+
 # TODO:
 ## Character Actor
 Player Sheet
