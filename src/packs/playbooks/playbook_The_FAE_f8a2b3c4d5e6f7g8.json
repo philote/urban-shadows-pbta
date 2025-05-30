@@ -9,7 +9,7 @@
     "stats": {
       "blood": {
         "label": "Blood",
-        "value": 0,
+        "value": -1,
         "steps": {
           "value": 0,
           "max": 3
@@ -25,7 +25,7 @@
       },
       "mind": {
         "label": "Mind",
-        "value": 1,
+        "value": 0,
         "steps": {
           "value": 0,
           "max": 3
@@ -33,7 +33,7 @@
       },
       "spirit": {
         "label": "Spirit",
-        "value": -1,
+        "value": 1,
         "steps": {
           "value": 0,
           "max": 3
@@ -49,7 +49,7 @@
       },
       "night": {
         "label": "Night",
-        "value": 1,
+        "value": -1,
         "steps": {
           "value": 0,
           "max": 3
@@ -65,7 +65,7 @@
       },
       "wild": {
         "label": "Wild",
-        "value": -1,
+        "value": 1,
         "steps": {
           "value": 0,
           "max": 3
@@ -426,19 +426,19 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<p>elegant clothing</p>",
+            "value": "<p>colorful clothing</p>",
             "options": {}
           },
           {
-            "value": "<p>flowing clothing</p>",
+            "value": "<p>expensive clothing</p>",
             "options": {}
           },
           {
-            "value": "<p>natural clothing</p>",
+            "value": "<p>messy clothing</p>",
             "options": {}
           },
           {
-            "value": "<p>vintage clothing</p>",
+            "value": "<p>revealing clothing</p>",
             "options": {}
           }
         ],
@@ -454,19 +454,19 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<p>capricious</p>",
+            "value": "<p>alien</p>",
             "options": {}
           },
           {
-            "value": "<p>ethereal</p>",
+            "value": "<p>eccentric</p>",
             "options": {}
           },
           {
-            "value": "<p>imperious</p>",
+            "value": "<p>seductive</p>",
             "options": {}
           },
           {
-            "value": "<p>playful</p>",
+            "value": "<p>untamed</p>",
             "options": {}
           }
         ],

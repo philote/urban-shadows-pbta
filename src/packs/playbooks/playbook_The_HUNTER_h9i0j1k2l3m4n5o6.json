@@ -25,7 +25,7 @@
       },
       "mind": {
         "label": "Mind",
-        "value": 1,
+        "value": -1,
         "steps": {
           "value": 0,
           "max": 3
@@ -33,7 +33,7 @@
       },
       "spirit": {
         "label": "Spirit",
-        "value": -1,
+        "value": 1,
         "steps": {
           "value": 0,
           "max": 3
@@ -57,7 +57,7 @@
       },
       "power": {
         "label": "Power",
-        "value": -1,
+        "value": 1,
         "steps": {
           "value": 0,
           "max": 3
@@ -65,7 +65,7 @@
       },
       "wild": {
         "label": "Wild",
-        "value": 1,
+        "value": -1,
         "steps": {
           "value": 0,
           "max": 3
@@ -426,19 +426,19 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<p>combat gear</p>",
+            "value": "<p>brand name clothing</p>",
             "options": {}
           },
           {
-            "value": "<p>practical clothing</p>",
+            "value": "<p>business casual</p>",
             "options": {}
           },
           {
-            "value": "<p>rugged clothing</p>",
+            "value": "<p>forgettable clothing</p>",
             "options": {}
           },
           {
-            "value": "<p>tactical clothing</p>",
+            "value": "<p>uniformed</p>",
             "options": {}
           }
         ],
@@ -454,19 +454,19 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<p>determined</p>",
+            "value": "<p>aggressive</p>",
             "options": {}
           },
           {
-            "value": "<p>grim</p>",
+            "value": "<p>charming</p>",
             "options": {}
           },
           {
-            "value": "<p>intense</p>",
+            "value": "<p>composed</p>",
             "options": {}
           },
           {
-            "value": "<p>vigilant</p>",
+            "value": "<p>paranoid</p>",
             "options": {}
           }
         ],

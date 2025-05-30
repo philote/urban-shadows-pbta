@@ -15,10 +15,13 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "@foundryvtt/foundryvtt-cli": "^1.0.3",
-    "sass": "^1.53.0",
     "@eslint/js": "^9.16.0",
+    "@foundryvtt/foundryvtt-cli": "^1.0.3",
     "eslint": "^9.16.0",
-    "globals": "^15.13.0"
+    "globals": "^15.13.0",
+    "sass": "^1.53.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.52.0"
   }
 }

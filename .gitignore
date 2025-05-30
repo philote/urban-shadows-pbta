@@ -37,3 +37,8 @@ packs/*
 
 # Pbta Template
 build/
+
+# Environment variables
+.env
+CLAUDE.md
+tools/*
