@@ -36,12 +36,9 @@ GM Actor for tracking city hub data.
 - New Item: Debt
 
 ## Item/Actor clean up
-- create hub moves
 - create hub tables
-- clean up all moves, playbooks and gear
 - add good html to playbook descriptions
-- link playbooks to moves and gear
-- make factions Items
+- make factions into Items
 - create city hub actors
     - create City Hubs from free material
 
