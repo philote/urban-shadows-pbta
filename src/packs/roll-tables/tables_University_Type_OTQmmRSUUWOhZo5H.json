@@ -1,0 +1,305 @@
+{
+  "folder": "N9rS5uV8wX1yY4zB",
+  "name": "University Type",
+  "_id": "OTQmmRSUUWOhZo5H",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "_id": "mHfosQ5Hfy8cnWKG",
+      "name": "museum (curator, security guard, tourist)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!OTQmmRSUUWOhZo5H.PffUHOi4fcyQpHyr"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "_id": "SxVSbTVWqFgVOOUb",
+      "name": "medical site (doctor, nurse/tech, patient)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!OTQmmRSUUWOhZo5H.nyE2HBUpvGFpqsVs"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "_id": "xjFv22wwBqpGpX7F",
+      "name": "retail store (cashier, customer, security guard)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!OTQmmRSUUWOhZo5H.E9mtoKGqa5LgFpwh"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "_id": "wregeW8aBKLtunwQ",
+      "name": "dive bar (bartender, student, cop)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!OTQmmRSUUWOhZo5H.F24iPwjTDghPNXMN"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "_id": "wzegnsoBYJSuvIw3",
+      "name": "restaurant (waiter, cook, diner)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!OTQmmRSUUWOhZo5H.1423Js8wcWMImLM0"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "_id": "3OgqhHw4BBc5FYTx",
+      "name": "university building (faculty, staff, student)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!OTQmmRSUUWOhZo5H.IOjDJatieThKaMbE"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "_id": "LXLFSDgAkkWUd7GE",
+      "name": "student dorm (student, drug dealer, visitor)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!OTQmmRSUUWOhZo5H.GAMDEiPTYOU35GiI"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "_id": "Gc0InMU3tEAH5wTM",
+      "name": "commons (jogger, student, transient)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!OTQmmRSUUWOhZo5H.Tl5IvNd75TpQcRvo"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "_id": "iyGiFFB12vq67zdC",
+      "name": "church (priest, parishioner, layperson)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!OTQmmRSUUWOhZo5H.qZJgJwHMb6GSTYQ5"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "_id": "E5ilbmgzf6tLxIyw",
+      "name": "parking garage (student, faculty, transient)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!OTQmmRSUUWOhZo5H.pwBbpuVemfg4vdR4"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "_id": "Q8j0WkuCSfnjOWP3",
+      "name": "hotel (bellhop, tourist, manager)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!OTQmmRSUUWOhZo5H.RwdPKyzRnTQFoqq8"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748581947337,
+    "modifiedTime": 1748582366514,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "formula": "2d6",
+  "_key": "!tables!OTQmmRSUUWOhZo5H"
+}

@@ -1,0 +1,305 @@
+{
+  "folder": "M8qR4tU7vW0xY3zA",
+  "name": "Downtown Type",
+  "_id": "POK4nK1ECXTxBLav",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "_id": "rjlBcZVj4xXk8ECp",
+      "name": "sacred space (caretaker, parishioner, pilgrim)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!POK4nK1ECXTxBLav.GpfyKZzj22fgDq1V"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "_id": "WWjtJGHLTpItwLVq",
+      "name": "hotel (bellhop, concierge, manager)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!POK4nK1ECXTxBLav.F3Rn5PNVC1XvIeOC"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "_id": "iw1Yv5xPf3GHWZBX",
+      "name": "street corner (drug dealer, beat cop, transient)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!POK4nK1ECXTxBLav.NjhYn2drAbTLbAGl"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "_id": "NG6VdtCQdZhTyAOS",
+      "name": "illegal gambling hall (dealer, pit boss, degenerate gambler)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!POK4nK1ECXTxBLav.VM0scgUDMtDepBd1"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "_id": "VDVqIrPybcBLpCQ9",
+      "name": "office building (doorman, security guard, custodian)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!POK4nK1ECXTxBLav.Op7OVdYQbx9Z9qIc"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "_id": "eI7arceZYpNqcqrR",
+      "name": "retail store (cashier, buyer, customer)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!POK4nK1ECXTxBLav.JT2WtSBO5NjU3Fkd"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "_id": "O6XnvQqcUHvbWRyq",
+      "name": "restaurant (waiter, maître d', diner)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!POK4nK1ECXTxBLav.pgifij4ZFC2cjlG9"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "_id": "poJGeSRST08dkuUI",
+      "name": "dive bar (bartender, bouncer, drunk)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!POK4nK1ECXTxBLav.bWzvZepH5Epze1Lc"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "_id": "Q8XUMZEpwAG4hO1s",
+      "name": "civic site (security guard, reporter, tourist)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!POK4nK1ECXTxBLav.5pdggrO06W1R9ONh"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "_id": "d4RvhSIl2qjKttVV",
+      "name": "medical site (doctor, nurse/tech, patient)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!POK4nK1ECXTxBLav.BKJDDLZzp5vx7DTp"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "_id": "TxXq5vVIWXJFPHRw",
+      "name": "city park (jogger, drug addict, stalker)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!POK4nK1ECXTxBLav.hb69EA8AsWQXcjPq"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748581947337,
+    "modifiedTime": 1748582366514,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "formula": "2d6",
+  "_key": "!tables!POK4nK1ECXTxBLav"
+}

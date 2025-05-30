@@ -1,69 +1,19 @@
 {
-  "folder": "4wRTF9RvSOhb9bd3",
-  "name": "Rumors",
-  "_id": "8UhsTWySAfWrMMB8",
-  "img": "icons/svg/deaf.svg",
+  "folder": "M8qR4tU7vW0xY3zA",
+  "name": "Downtown Control",
+  "_id": "NtaylQvUwjoEipr9",
+  "img": "icons/svg/d20-grey.svg",
   "description": "",
   "results": [
     {
       "type": "text",
-      "weight": 1,
-      "range": [
-        1,
-        1
-      ],
-      "_id": "r9KMaZ7HevUC6ErR",
-      "name": "Small gallery owners from Wild are receiving death threats coercing them to sell their galleries",
-      "img": "icons/svg/d20-black.svg",
-      "description": "",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.344",
-        "systemId": "pbta",
-        "systemVersion": "1.1.20",
-        "lastModifiedBy": null
-      },
-      "documentUuid": null,
-      "_key": "!tables.results!8UhsTWySAfWrMMB8.r9KMaZ7HevUC6ErR"
-    },
-    {
-      "type": "text",
-      "weight": 1,
+      "weight": 2,
       "range": [
         2,
-        2
-      ],
-      "_id": "R68pNCPk8Md6algS",
-      "name": "A phantom street fair is popping up at night, selling items that curse unlucky buyers",
-      "img": "icons/svg/d20-black.svg",
-      "description": "",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.344",
-        "systemId": "pbta",
-        "systemVersion": "1.1.20",
-        "lastModifiedBy": null
-      },
-      "documentUuid": null,
-      "_key": "!tables.results!8UhsTWySAfWrMMB8.R68pNCPk8Md6algS"
-    },
-    {
-      "type": "text",
-      "weight": 1,
-      "range": [
-        3,
         3
       ],
-      "_id": "aktlqXLqqVVpGzi5",
-      "name": "A predatory wizard art agent is snatching up young talent and turning them into drones",
+      "_id": "V9aNKLZFs0Sbufyy",
+      "name": "Shared",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -78,42 +28,17 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!8UhsTWySAfWrMMB8.aktlqXLqqVVpGzi5"
+      "_key": "!tables.results!NtaylQvUwjoEipr9.fN5EV5ZAFNYhLXie"
     },
     {
       "type": "text",
-      "weight": 1,
+      "weight": 2,
       "range": [
         4,
-        4
-      ],
-      "_id": "kFOKMghGccdk7zWX",
-      "name": "Cryptic graffiti scattered around the district offers instructions for opening a portal to a sacred fae space",
-      "img": "icons/svg/d20-black.svg",
-      "description": "",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.344",
-        "systemId": "pbta",
-        "systemVersion": "1.1.20",
-        "lastModifiedBy": null
-      },
-      "documentUuid": null,
-      "_key": "!tables.results!8UhsTWySAfWrMMB8.kFOKMghGccdk7zWX"
-    },
-    {
-      "type": "text",
-      "weight": 1,
-      "range": [
-        5,
         5
       ],
-      "_id": "FHp6PaWlEL0ouSNY",
-      "name": "The local art museum is charging a new price: patrons leave the institution several years older than when they entered",
+      "_id": "cNQEdMXEnVetIbcf",
+      "name": "Mortalis",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -128,17 +53,17 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!8UhsTWySAfWrMMB8.FHp6PaWlEL0ouSNY"
+      "_key": "!tables.results!NtaylQvUwjoEipr9.NIsXlnyN0YEZegLR"
     },
     {
       "type": "text",
-      "weight": 1,
+      "weight": 3,
       "range": [
         6,
-        6
+        8
       ],
-      "_id": "UIHhhhiciaHv0oNx",
-      "name": "A demonic patron promises riches and success to artists...for the price of their inspiration",
+      "_id": "ngfTjatC4H2Qwzdg",
+      "name": "Night",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -153,7 +78,57 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!8UhsTWySAfWrMMB8.UIHhhhiciaHv0oNx"
+      "_key": "!tables.results!NtaylQvUwjoEipr9.1V3u1929qKePcuzQ"
+    },
+    {
+      "type": "text",
+      "weight": 2,
+      "range": [
+        9,
+        10
+      ],
+      "_id": "BkLgYJ7Zf0MFsS6s",
+      "name": "Wild",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!NtaylQvUwjoEipr9.Z6iguRD46Aj1TqBT"
+    },
+    {
+      "type": "text",
+      "weight": 2,
+      "range": [
+        11,
+        12
+      ],
+      "_id": "GkXKS6nBzDKNqnJ0",
+      "name": "Power",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!NtaylQvUwjoEipr9.u7x0RHt5TZIcudsq"
     }
   ],
   "replacement": true,
@@ -175,6 +150,6 @@
     "modifiedTime": 1748582366514,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
-  "formula": "1d6",
-  "_key": "!tables!8UhsTWySAfWrMMB8"
+  "formula": "2d6",
+  "_key": "!tables!NtaylQvUwjoEipr9"
 }

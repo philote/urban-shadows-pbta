@@ -1,7 +1,7 @@
 {
-  "folder": "4wRTF9RvSOhb9bd3",
-  "name": "Locations",
-  "_id": "KaEzcsEAqY84X0r6",
+  "folder": "N9rS5uV8wX1yY4zB",
+  "name": "University Locations",
+  "_id": "GLQHB9gTPBfuDjrX",
   "img": "icons/svg/city.svg",
   "description": "",
   "results": [
@@ -12,7 +12,7 @@
         1,
         1
       ],
-      "_id": "SbU0VQCjSlqLStrg",
+      "_id": "hrTOwr3UTUHjhs80",
       "name": "Control",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
@@ -28,8 +28,8 @@
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
         "modifiedTime": 1748582067674
       },
-      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.COZVzdcguGDpPAch",
-      "_key": "!tables.results!KaEzcsEAqY84X0r6.SbU0VQCjSlqLStrg"
+      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.HJ0KhOCzF5YVvFGW",
+      "_key": "!tables.results!GLQHB9gTPBfuDjrX.dUuT5agkws3KRg0K"
     },
     {
       "type": "document",
@@ -38,7 +38,7 @@
         1,
         1
       ],
-      "_id": "prT8H3DRdHqK6HtE",
+      "_id": "PzpUVOvlMt1V93LG",
       "name": "Type (with common NPCs)",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
@@ -54,8 +54,8 @@
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
         "modifiedTime": 1748582021315
       },
-      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.p4SR19b4hNqPhmC1",
-      "_key": "!tables.results!KaEzcsEAqY84X0r6.prT8H3DRdHqK6HtE"
+      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.OTQmmRSUUWOhZo5H",
+      "_key": "!tables.results!GLQHB9gTPBfuDjrX.UVYykKGAngFScyoo"
     },
     {
       "type": "document",
@@ -64,7 +64,7 @@
         1,
         1
       ],
-      "_id": "6KI8DRKVZzcD974U",
+      "_id": "FoS8NVGxrl0Dfrsr",
       "name": "Nature",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
@@ -80,8 +80,8 @@
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
         "modifiedTime": 1748582032247
       },
-      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.nUB8PdDU1IFarKbY",
-      "_key": "!tables.results!KaEzcsEAqY84X0r6.6KI8DRKVZzcD974U"
+      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.x5NyciRce1eSSABm",
+      "_key": "!tables.results!GLQHB9gTPBfuDjrX.iJi3bBuMEgBjbHTj"
     },
     {
       "type": "document",
@@ -90,7 +90,7 @@
         1,
         1
       ],
-      "_id": "rFvG1TJHW9Tjafd4",
+      "_id": "fssYv4mUQyxNGqkT",
       "name": "Atmosphere",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
@@ -106,8 +106,8 @@
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
         "modifiedTime": 1748582043906
       },
-      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.JVkPz6wIX9vxhaC2",
-      "_key": "!tables.results!KaEzcsEAqY84X0r6.rFvG1TJHW9Tjafd4"
+      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.LqU4GrfluUkpJJYZ",
+      "_key": "!tables.results!GLQHB9gTPBfuDjrX.zsdV1QsQ2ubj7igX"
     },
     {
       "type": "document",
@@ -116,7 +116,7 @@
         1,
         1
       ],
-      "_id": "UDhqkiso9gFW4woN",
+      "_id": "FDcfLuHKqr18HHyv",
       "name": "Trouble",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
@@ -132,8 +132,8 @@
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
         "modifiedTime": 1748582053548
       },
-      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.B9vBbQQa7Wu9pJAo",
-      "_key": "!tables.results!KaEzcsEAqY84X0r6.UDhqkiso9gFW4woN"
+      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.edD5FYUDPPMfa8CF",
+      "_key": "!tables.results!GLQHB9gTPBfuDjrX.iDzvllUw1GdMB7sl"
     }
   ],
   "replacement": true,
@@ -156,5 +156,5 @@
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "1d1",
-  "_key": "!tables!KaEzcsEAqY84X0r6"
+  "_key": "!tables!GLQHB9gTPBfuDjrX"
 }

@@ -1,7 +1,7 @@
 {
-  "folder": "dcXjjSQVDXDy0jcs",
-  "name": "Type (with common NPCs)",
-  "_id": "p4SR19b4hNqPhmC1",
+  "folder": "L7pQ3sT6uV9wX2yA",
+  "name": "City Hall Atmosphere",
+  "_id": "UDNXaeKmTT3DEEa3",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
   "results": [
@@ -12,10 +12,10 @@
         2,
         2
       ],
-      "_id": "Tyt2b2y8PxrIO6sU",
-      "name": "memorial:",
+      "_id": "R7tAZN0ihdSvaV8R",
+      "name": "secretive",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>mourner, vandal, witness</p>",
+      "description": "",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -28,7 +28,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!p4SR19b4hNqPhmC1.Tyt2b2y8PxrIO6sU"
+      "_key": "!tables.results!UDNXaeKmTT3DEEa3.nxgBitwRwxF9UT9w"
     },
     {
       "type": "text",
@@ -37,10 +37,10 @@
         3,
         3
       ],
-      "_id": "1bgLMLgPrGAWvb3l",
-      "name": "hostel:",
+      "_id": "n6tWdaAkpY13ATuM",
+      "name": "comforting",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>manager, tourist, transient</p>",
+      "description": "",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -53,7 +53,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!p4SR19b4hNqPhmC1.1bgLMLgPrGAWvb3l"
+      "_key": "!tables.results!UDNXaeKmTT3DEEa3.ojrLjEAOsDeK1VgT"
     },
     {
       "type": "text",
@@ -62,10 +62,10 @@
         4,
         4
       ],
-      "_id": "ruBcNxQLxcjuYwMv",
-      "name": "dance club:",
+      "_id": "lQMeh3DUVUUY4YIB",
+      "name": "pristine",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>lurker, bouncer, dancer </p>",
+      "description": "",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -78,7 +78,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!p4SR19b4hNqPhmC1.ruBcNxQLxcjuYwMv"
+      "_key": "!tables.results!UDNXaeKmTT3DEEa3.NhSvSErtwSyJsfkl"
     },
     {
       "type": "text",
@@ -87,10 +87,10 @@
         5,
         5
       ],
-      "_id": "xo0rPb3BQHtsFrHa",
-      "name": "community center:",
+      "_id": "ETdD9TEuEAo4iqbK",
+      "name": "whimsical",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>organizer, volunteer, child </p>",
+      "description": "",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -103,7 +103,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!p4SR19b4hNqPhmC1.xo0rPb3BQHtsFrHa"
+      "_key": "!tables.results!UDNXaeKmTT3DEEa3.WAl6WkUGdlXV90BV"
     },
     {
       "type": "text",
@@ -112,10 +112,10 @@
         6,
         6
       ],
-      "_id": "5RSpTX9xO292OR01",
-      "name": "street market:",
+      "_id": "ZrNwxxfn5uArDBAZ",
+      "name": "inviting",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>urban farmer, artist, customer </p>",
+      "description": "",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -128,7 +128,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!p4SR19b4hNqPhmC1.5RSpTX9xO292OR01"
+      "_key": "!tables.results!UDNXaeKmTT3DEEa3.qPPujYCEGypR60QN"
     },
     {
       "type": "text",
@@ -137,10 +137,10 @@
         7,
         7
       ],
-      "_id": "b8o24vDHyEo5LuwD",
-      "name": "art gallery:",
+      "_id": "wojngWoKFVDdwVLX",
+      "name": "disreputable",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>critic, owner, patron </p>",
+      "description": "",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -153,7 +153,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!p4SR19b4hNqPhmC1.b8o24vDHyEo5LuwD"
+      "_key": "!tables.results!UDNXaeKmTT3DEEa3.PFCLtk2wOVoFApf1"
     },
     {
       "type": "text",
@@ -162,10 +162,10 @@
         8,
         8
       ],
-      "_id": "AV8AXsSJc2OWdSmB",
-      "name": "dive bar:",
+      "_id": "0EWtyC6t9K8eEBnf",
+      "name": "supportive",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>bartender, regular, underage teenager</p>",
+      "description": "",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -178,7 +178,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!p4SR19b4hNqPhmC1.AV8AXsSJc2OWdSmB"
+      "_key": "!tables.results!UDNXaeKmTT3DEEa3.M1BZQSSOkwTVeJUu"
     },
     {
       "type": "text",
@@ -187,10 +187,10 @@
         9,
         9
       ],
-      "_id": "d9kjHuGXVIvf9eez",
-      "name": "museum:",
+      "_id": "AhyZnZTYUBxC7UEh",
+      "name": "politicized",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>curator, security guard, transient </p>",
+      "description": "",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -203,7 +203,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!p4SR19b4hNqPhmC1.d9kjHuGXVIvf9eez"
+      "_key": "!tables.results!UDNXaeKmTT3DEEa3.q5uInz2FyX4Ii23m"
     },
     {
       "type": "text",
@@ -212,10 +212,10 @@
         10,
         10
       ],
-      "_id": "bEkEeMpcsskmfZ4R",
-      "name": "co-op:",
+      "_id": "DYfOcCTI8PCm4fHT",
+      "name": "enchanting",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>organizer, volunteer, community leader </p>",
+      "description": "",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -228,7 +228,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!p4SR19b4hNqPhmC1.bEkEeMpcsskmfZ4R"
+      "_key": "!tables.results!UDNXaeKmTT3DEEa3.hB6QLHyYN2CfvGaf"
     },
     {
       "type": "text",
@@ -237,10 +237,10 @@
         11,
         11
       ],
-      "_id": "eU7wVwoKgCeNgm8B",
-      "name": "pop-up:",
+      "_id": "kIS1vrE1iTnfTmTG",
+      "name": "exclusive",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>influencer, staff, customer </p>",
+      "description": "",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -253,7 +253,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!p4SR19b4hNqPhmC1.eU7wVwoKgCeNgm8B"
+      "_key": "!tables.results!UDNXaeKmTT3DEEa3.reDt2wx2SCoJqmel"
     },
     {
       "type": "text",
@@ -262,10 +262,10 @@
         12,
         12
       ],
-      "_id": "8vTuJOq6yTeOB959",
-      "name": "book store:",
+      "_id": "0IjcSzKaHzPI2Qdt",
+      "name": "cheerful",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>browser, bookseller, lecturer</p>",
+      "description": "",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -278,7 +278,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!p4SR19b4hNqPhmC1.8vTuJOq6yTeOB959"
+      "_key": "!tables.results!UDNXaeKmTT3DEEa3.iBnLP2Y5c3T0kIPP"
     }
   ],
   "replacement": true,
@@ -297,9 +297,9 @@
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748581947337,
-    "modifiedTime": 1748581947337,
+    "modifiedTime": 1748582366514,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
-  "formula": "2d12",
-  "_key": "!tables!p4SR19b4hNqPhmC1"
+  "formula": "2d6",
+  "_key": "!tables!UDNXaeKmTT3DEEa3"
 }
