@@ -1,0 +1,53 @@
+{
+  "folder": "H9kL2nM5oP8qR3sT",
+  "name": "WELCOME TO MY OFFICE",
+  "type": "move",
+  "_id": "H3lM6nN9oP2qQ5rT",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<h3>University Hub Move</h3><p>When you <em><strong>perform a ritual to secure a secluded place on campus for a meeting/deal</strong></em>, roll with <strong>Spirit</strong>.</p>",
+    "moveType": "hub",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": "<p>Your reality warping creates something dangerous piercing between worlds.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Weak Hit",
+        "value": "<p>Campus produces secure location only available to you and designees until meeting/deal complete.</p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Strong Hit",
+        "value": "<p>Campus produces secure location only available to you and designees until meeting/deal complete. Additionally, place is attuned to you; never mark corruption when letting it out within.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "spirit",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748493194026,
+    "modifiedTime": 1748493681109,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!H3lM6nN9oP2qQ5rT"
+}

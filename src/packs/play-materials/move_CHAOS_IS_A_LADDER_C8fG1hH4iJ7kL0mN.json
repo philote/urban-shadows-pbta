@@ -1,0 +1,53 @@
+{
+  "folder": "H9kL2nM5oP8qR3sT",
+  "name": "CHAOS IS A LADDER",
+  "type": "move",
+  "_id": "C8fG1hH4iJ7kL0mN",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<h3>Art District Hub Move</h3><p>When you <em><strong>posture for clout in front of well-connected NPCs</strong></em>, roll with <strong>Mind</strong>.</p>",
+    "moveType": "hub",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": "<p>Your humblebragging attracts attention of a rival you owe a Debt; take <strong>-1 ongoing</strong> when refusing to honor Debts to their Circle until time passes.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Weak Hit",
+        "value": "<p>They buy your ruse; take <strong>+1 Status</strong> with relevant Circle until time passes or deception revealed. However, they require you to prove yourself or risk retribution.</p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Strong Hit",
+        "value": "<p>They buy your ruse; take <strong>+1 Status</strong> with relevant Circle until time passes or deception revealed.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "mind",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748493194026,
+    "modifiedTime": 1748493681109,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!C8fG1hH4iJ7kL0mN"
+}

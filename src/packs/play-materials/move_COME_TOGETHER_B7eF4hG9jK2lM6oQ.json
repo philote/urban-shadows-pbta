@@ -1,0 +1,53 @@
+{
+  "folder": "H9kL2nM5oP8qR3sT",
+  "name": "COME TOGETHER",
+  "type": "move",
+  "_id": "B7eF4hG9jK2lM6oQ",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<h3>Art District Hub Move</h3><p>When you <em><strong>organize a protest</strong></em>, roll with a <strong>Circle of fellow organizers</strong>.</p>",
+    "moveType": "hub",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": "<p>Someone you trusted leaks your secrets to a dangerous foe.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Weak Hit",
+        "value": "<p>Your protest puts pressure on a powerful NPC of your choice; they take <strong>-1 ongoing</strong> through next faction turn.</p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Strong Hit",
+        "value": "<p>Your protest puts pressure on a powerful NPC of your choice; they take <strong>-1 ongoing</strong> through next faction turn. Additionally, the leader of another faction takes interest and delivers a Debt, powerful resources, or secret information.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "ask",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748493194026,
+    "modifiedTime": 1748493681109,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!B7eF4hG9jK2lM6oQ"
+}

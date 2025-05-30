@@ -1,0 +1,53 @@
+{
+  "folder": "H9kL2nM5oP8qR3sT",
+  "name": "LONG-TERM INVESTMENTS",
+  "type": "move",
+  "_id": "I4mN7oO0pQ3rR6sU",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<h3>University Hub Move</h3><p>When you <em><strong>set up a new program, business, or enterprise</strong></em>, spend up to 3 Debts; hold 1 for each spent.</p><p>When time passes, spend hold 1-for-1 to take/give +1 to city/faction moves aided by your endeavor.</p>",
+    "moveType": "hub",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": "<p>This move automatically succeeds when triggered.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Weak Hit",
+        "value": "<p>This move automatically succeeds when triggered.</p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Strong Hit",
+        "value": "<p>Your investment is established. You may spend up to 3 Debts and hold 1 for each spent. When time passes, spend hold 1-for-1 to take/give +1 to city/faction moves aided by your endeavor.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "prompt",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748493194026,
+    "modifiedTime": 1748493681109,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!I4mN7oO0pQ3rR6sU"
+}

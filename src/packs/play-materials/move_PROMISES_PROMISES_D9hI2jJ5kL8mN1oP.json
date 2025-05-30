@@ -1,0 +1,53 @@
+{
+  "folder": "H9kL2nM5oP8qR3sT",
+  "name": "PROMISES, PROMISES",
+  "type": "move",
+  "_id": "D9hI2jJ5kL8mN1oP",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<h3>Art District Hub Move</h3><p>When you <em><strong>persuade an NPC by promising concrete assistance in pursuing their dreams</strong></em>, mark corruption to take a 10+ instead of rolling.</p><p><strong>Important:</strong> If you cannot fulfill your promise by end of next session, mark another corruption.</p>",
+    "moveType": "hub",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": "<p>This move automatically succeeds when triggered.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Weak Hit",
+        "value": "<p>This move automatically succeeds when triggered.</p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Strong Hit",
+        "value": "<p>Your promise is accepted as if you rolled a 10+ on persuade an NPC. Remember: if you cannot fulfill your promise by end of next session, mark another corruption.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "none",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748493194026,
+    "modifiedTime": 1748493681109,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!D9hI2jJ5kL8mN1oP"
+}

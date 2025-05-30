@@ -1,0 +1,53 @@
+{
+  "folder": "H9kL2nM5oP8qR3sT",
+  "name": "PROPER FORMS AND LICENSES",
+  "type": "move",
+  "_id": "F1jK4lL7mN0oO3pR",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<h3>City Hall Hub Move</h3><p>When you <em><strong>bury someone in messy paperwork by manipulating city officials</strong></em>, roll with <strong>Heart</strong>.</p>",
+    "moveType": "hub",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": "<p>Your machinations are costly and impotent; a Status-3 NPC takes interest in your schemes.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Weak Hit",
+        "value": "<p>Draw unwanted municipal attention; they take <strong>-1 ongoing</strong> to moves during faction turn.</p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Strong Hit",
+        "value": "<p>Draw unwanted municipal attention; they take <strong>-1 ongoing</strong> to moves during faction turn. Additionally, convince agents you're doing them a favor; take a Debt on them.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "heart",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748493194026,
+    "modifiedTime": 1748493681109,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!F1jK4lL7mN0oO3pR"
+}
