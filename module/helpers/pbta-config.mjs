@@ -437,6 +437,9 @@ export const configSheet = async () => {
                 equipmentTypes: {
                     gear: {
                         label: "Gear"
+                    },
+                    debt: {
+                        label: "Debt"
                     }
                 }
             },
@@ -718,6 +721,9 @@ export const configSheet = async () => {
                 equipmentTypes: {
                     gear: {
                         label: "Gear"
+                    },
+                    debt: {
+                        label: "Debt"
                     }
                 }
             }
