@@ -9,7 +9,7 @@
 
 import fs from 'fs';
 import path from 'path';
-import Anthropic from '@anthropic-ai/sdk';
+import Anthropic, { toFile } from '@anthropic-ai/sdk';
 
 class PDFProcessor {
   constructor() {
@@ -43,13 +43,12 @@ class PDFProcessor {
         throw new Error(`PDF file too large: ${fileSizeInMB.toFixed(2)}MB (max 32MB)`);
       }
 
-      // Read the file
-      const fileBuffer = fs.readFileSync(pdfPath);
-      
-      // Upload to Files API
-      const response = await this.anthropic.files.create({
-        file: fileBuffer,
-        purpose: 'vision',
+      // Upload to Files API (beta)
+      const response = await this.anthropic.beta.files.upload({
+        file: await toFile(fs.createReadStream(pdfPath), path.basename(pdfPath), { 
+          type: 'application/pdf' 
+        }),
+        betas: ['files-api-2025-04-14']
       });
 
       console.log(`PDF uploaded successfully. File ID: ${response.id}`);
@@ -70,13 +69,17 @@ class PDFProcessor {
     try {
       console.log('Processing PDF with Claude...');
       
-      const response = await this.anthropic.messages.create({
-        model: 'claude-3-5-sonnet-20241022',
+      const response = await this.anthropic.beta.messages.create({
+        model: 'claude-sonnet-4-20250514',
         max_tokens: 4000,
         messages: [
           {
             role: 'user',
             content: [
+              {
+                type: 'text',
+                text: prompt,
+              },
               {
                 type: 'document',
                 source: {
@@ -84,13 +87,10 @@ class PDFProcessor {
                   file_id: fileId,
                 },
               },
-              {
-                type: 'text',
-                text: prompt,
-              },
             ],
           },
         ],
+        betas: ['files-api-2025-04-14']
       });
 
       return response.content[0].text;
@@ -112,7 +112,7 @@ class PDFProcessor {
       const result = await this.processPDFWithPrompt(fileId, prompt);
       
       // Optionally clean up the uploaded file
-      // await this.anthropic.files.delete(fileId);
+      // await this.anthropic.beta.files.delete(fileId);
       
       return result;
     } catch (error) {
@@ -127,7 +127,7 @@ class PDFProcessor {
    */
   async deleteFile(fileId) {
     try {
-      await this.anthropic.files.delete(fileId);
+      await this.anthropic.beta.files.delete(fileId);
       console.log(`Deleted file: ${fileId}`);
     } catch (error) {
       console.error('Error deleting file:', error.message);
