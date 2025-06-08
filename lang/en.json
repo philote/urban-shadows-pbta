@@ -1,6 +1,10 @@
 {
     "US2E": {
+        "SheetConfig": {
+            "character": "Urban Shadows Character Sheet"
+        },
         "CharacterSheets": {
+            "advancementsTab": "Advancements",
             "rollResults": {
                 "complications": "Complications",
                 "partialSuccess": "Partial Success",

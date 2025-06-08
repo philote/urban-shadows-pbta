@@ -86,30 +86,37 @@
   min-height: 200px;
 }
 
-.vtt div[id^=PbtaActorSheet] {
+.vtt div[id^=PbtaActorSheet],
+.vtt div[id^=UrbanShadowsActorSheet-Actor] {
   /* Colors */
   /* Stats */
   /* Advancements */
 }
-.vtt div[id^=PbtaActorSheet] .sheet-attributes .cell--stats .stat {
+.vtt div[id^=PbtaActorSheet] .sheet-attributes .cell--stats .stat,
+.vtt div[id^=UrbanShadowsActorSheet-Actor] .sheet-attributes .cell--stats .stat {
   min-width: 140px;
 }
-.vtt div[id^=PbtaActorSheet] .sheet-attributes .cell--stats .stat:nth-child(n+5) {
+.vtt div[id^=PbtaActorSheet] .sheet-attributes .cell--stats .stat:nth-child(n+5),
+.vtt div[id^=UrbanShadowsActorSheet-Actor] .sheet-attributes .cell--stats .stat:nth-child(n+5) {
   background-color: #1b0328 !important;
 }
-.vtt div[id^=PbtaActorSheet] .sheet-attributes .cell--stats .stat:nth-child(n+5) .stat-toggle {
+.vtt div[id^=PbtaActorSheet] .sheet-attributes .cell--stats .stat:nth-child(n+5) .stat-toggle,
+.vtt div[id^=UrbanShadowsActorSheet-Actor] .sheet-attributes .cell--stats .stat:nth-child(n+5) .stat-toggle {
   display: none;
 }
-.vtt div[id^=PbtaActorSheet] .sheet-attributes .cell--stats .stat:nth-child(n+5):hover {
+.vtt div[id^=PbtaActorSheet] .sheet-attributes .cell--stats .stat:nth-child(n+5):hover,
+.vtt div[id^=UrbanShadowsActorSheet-Actor] .sheet-attributes .cell--stats .stat:nth-child(n+5):hover {
   background: #434343 !important;
 }
-.vtt div[id^=PbtaActorSheet] .sheet-attributes .cell--stats .stat:nth-child(n+5) .cell__clock {
+.vtt div[id^=PbtaActorSheet] .sheet-attributes .cell--stats .stat:nth-child(n+5) .cell__clock,
+.vtt div[id^=UrbanShadowsActorSheet-Actor] .sheet-attributes .cell--stats .stat:nth-child(n+5) .cell__clock {
   padding-bottom: 12px;
   display: inline-block;
   position: relative;
   text-align: center;
 }
-.vtt div[id^=PbtaActorSheet] .sheet-attributes .cell--stats .stat:nth-child(n+5) .cell__clock::after {
+.vtt div[id^=PbtaActorSheet] .sheet-attributes .cell--stats .stat:nth-child(n+5) .cell__clock::after,
+.vtt div[id^=UrbanShadowsActorSheet-Actor] .sheet-attributes .cell--stats .stat:nth-child(n+5) .cell__clock::after {
   content: "Status";
   font-size: 10px;
   position: absolute;
@@ -118,17 +125,20 @@
   right: 0;
   text-align: center;
 }
-.vtt div[id^=PbtaActorSheet] .cell--attr-advancement ul.cell__checkboxes {
+.vtt div[id^=PbtaActorSheet] .cell--attr-advancement ul.cell__checkboxes,
+.vtt div[id^=UrbanShadowsActorSheet-Actor] .cell--attr-advancement ul.cell__checkboxes {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2px;
 }
-.vtt div[id^=PbtaActorSheet] .cell--attr-advancement ul.cell__checkboxes label:nth-child(odd) {
+.vtt div[id^=PbtaActorSheet] .cell--attr-advancement ul.cell__checkboxes label:nth-child(odd),
+.vtt div[id^=UrbanShadowsActorSheet-Actor] .cell--attr-advancement ul.cell__checkboxes label:nth-child(odd) {
   unicode-bidi: embed;
   direction: rtl;
   text-align: left;
 }
-.vtt div[id^=PbtaActorSheet] .cell--attr-harm ul.cell__checkboxes label:nth-child(1) {
+.vtt div[id^=PbtaActorSheet] .cell--attr-harm ul.cell__checkboxes label:nth-child(1),
+.vtt div[id^=UrbanShadowsActorSheet-Actor] .cell--attr-harm ul.cell__checkboxes label:nth-child(1) {
   position: absolute;
   top: 7px;
   right: 0;
@@ -136,7 +146,8 @@
   direction: rtl;
   text-align: left;
 }
-.vtt div[id^=PbtaActorSheet] .cell--attr-corruption .cell__clock {
+.vtt div[id^=PbtaActorSheet] .cell--attr-corruption .cell__clock,
+.vtt div[id^=UrbanShadowsActorSheet-Actor] .cell--attr-corruption .cell__clock {
   align-items: flex-end;
   justify-content: flex-end;
   gap: 5px;
@@ -213,3 +224,5 @@
 .vtt .npc .description .sheet-tab .look .editor-content, .vtt .npc .description .sheet-tab .demeanor .editor-content, .vtt .npc .description .sheet-tab .information .editor-content, .vtt .npc .description .sheet-tab .debts .editor-content {
   min-height: 75px;
 }
+
+/*# sourceMappingURL=urban-shadows-pbta.css.map */

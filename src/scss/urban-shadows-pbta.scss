@@ -4,7 +4,8 @@
 
 .vtt {
     // PC sheets
-    div[id^='PbtaActorSheet'] {
+    div[id^='PbtaActorSheet'], 
+    div[id^='UrbanShadowsActorSheet-Actor'] {
         @include meta.load-css('character-sheet.scss');
     }
 

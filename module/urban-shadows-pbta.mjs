@@ -1,4 +1,6 @@
 import * as pbtaConfig from './helpers/pbta-config.mjs';
+import * as utils from "./helpers/utils.mjs";
+import { UrbanShadowsActorSheetMixin } from "./sheets/actor-sheet.mjs";
 
 // Debt Management Helper Functions
 window.UrbanShadows = {
@@ -40,6 +42,19 @@ window.UrbanShadows = {
 };
 
 Hooks.once('init', () => {
+    // Urban Shadows ActorSheet Setup
+	const urbanShadowsActorSheet = UrbanShadowsActorSheetMixin(
+		game.pbta.applications.actor.PbtaActorSheet
+	);
+	Actors.unregisterSheet("pbta", game.pbta.applications.actor.PbtaActorSheet, {
+		types: ["character"],
+	});
+	Actors.registerSheet("pbta", urbanShadowsActorSheet, {
+		types: ["character"],
+		makeDefault: true,
+		label: "US2E.SheetConfig.character",
+	});
+
     // Register settings
     game.settings.register('urban-shadows-pbta', 'firstTime', {
         name: game.i18n.localize('US2E.Settings.startup.name'),
@@ -56,7 +71,10 @@ Hooks.once('init', () => {
         config: true,
         type: Boolean,
         default: false
-      });
+    });
+
+    // Preload Handlebars parts.
+	utils.preloadHandlebarsTemplates();
 });
 
 // PbtA configuration hook

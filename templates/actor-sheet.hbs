@@ -1,0 +1,63 @@
+<form class="{{cssClass}}" autocomplete="off">
+
+	<div class="sheet-wrapper">
+
+		{{!-- Sheet Header --}}
+		{{> "pbta.actor-header" }}
+
+		<section class="sheet-top flexcol">
+			{{#if isCharacter}}
+			{{!-- Attributes --}}
+			<section class="sheet-attributes flexrow">
+				<div class="cell cell--image">
+					<img class="profile-img" src="{{actor.img}}" data-edit="img" />
+				</div>
+
+				{{> "pbta.actor-stats" }}
+
+			</section>
+			{{/if}}
+
+			<section class="sheet-attributes-top">
+				{{~> "pbta.actor-attributes" attrs=system.attrTop cssClass="cell--attributes-top flexrow" owner=owner editable=editable ~}}
+			</section>
+		</section>
+
+		<section class="sheet-bottom flexrow">
+			{{!-- Sidebar --}}
+			{{#if (objLen system.attrLeft)}}
+			<section>
+				<div class="cell cell--aesthetics">
+					{{> "pbta.actor-attributes" attrs=system.attrLeft cssClass="cell--attributes-left" owner=owner editable=editable}}
+				</div>
+			</section>
+			{{/if}}
+
+			{{!-- Main --}}
+			<section class="sheet-main flexcol">
+				{{!-- Sheet Tab Navigation --}}
+				<nav class="sheet-tabs tabs" data-group="primary">
+					<a class="item" data-tab="description">{{localize "PBTA.Description"}}</a>
+					<a class="item" data-tab="moves">{{localize "PBTA.Moves"}}</a>
+					<a class="item" data-tab="equipment">{{localize "PBTA.Equipment"}}</a>
+					<a class='item' data-tab='advancements'>{{localize 'US2E.CharacterSheets.advancementsTab'}}</a>
+				</nav>
+
+				{{!-- Sheet Body --}}
+				<section class="sheet-body">
+					{{!-- Main Tab --}}
+					{{> "pbta.actor-description" }}
+
+					{{!-- Moves Tab --}}
+					{{> "pbta.actor-movelist" }}
+
+					{{!-- Owned Equipment Tab --}}
+					{{> "pbta.actor-inventory" }}
+
+					{{!-- Advancements Tab --}}
+					{{> "modules/urban-shadows-pbta/templates/parts/actor-advancements.hbs" }}
+				</section>
+			</section>
+		</section>
+	</div>
+	</form>

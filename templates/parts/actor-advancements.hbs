@@ -1,0 +1,93 @@
+<div class="tab advancements" data-group="primary" data-tab="advancements">
+	<div class="flexrow">
+<div class="cell cell--advancements cell--attr-advancements cell--{{system.attributes.advancements.type}}">
+		<span class="cell__title">{{system.attributes.advancements.label}}</span>
+		{{#if system.attributes.advancements.description}}<p class="cell__description cell__description--attr">{{system.attributes.advancements.description}}</p>{{/if}}
+		<ul class="cell__checkboxes flexcol">
+			{{#each system.attributes.advancements.options as |option optionKey|}}
+				<label
+					class="flexrow"
+					{{#if option.tooltip}}
+						data-tooltip="{{option.tooltip}}"
+						data-tooltip-direction="UP"
+					{{/if}}
+				>
+					{{#if option.values}}
+						{{#each option.values as |subOption subOptionKey|}}
+							<input type="checkbox" class="attr-list" name="system.attributes.advancements.options.{{optionKey}}.values.{{subOptionKey}}.value" {{checked subOption.value}}/>
+						{{/each}}
+					{{else}}
+						<input type="checkbox" class="attr-list" name="system.attributes.advancements.options.{{optionKey}}.value" {{checked option.value}}/>
+					{{/if}}
+					{{#if (eq option.label "[Text]")}}
+						<input type="text" class="input input-title" name="system.attributes.advancements.options.{{optionKey}}.userLabel" value="{{option.userLabel}}">
+					{{else}}
+						{{option.label}}
+					{{/if}}
+				</label>
+			{{/each}}
+		</ul>
+	</div>
+	
+	{{!-- expertAdvancements --}}
+	<div class="cell cell--expertAdvancements cell--attr-expertAdvancements cell--{{system.attributes.expertAdvancements.type}}">
+		<span class="cell__title">{{system.attributes.expertAdvancements.label}}</span>
+		{{#if system.attributes.expertAdvancements.description}}<p class="cell__description cell__description--attr">{{system.attributes.expertAdvancements.description}}</p>{{/if}}
+		<ul class="cell__checkboxes flexcol">
+			{{#each system.attributes.expertAdvancements.options as |option optionKey|}}
+				<label
+					class="flexrow"
+					{{#if option.tooltip}}
+						data-tooltip="{{option.tooltip}}"
+						data-tooltip-direction="UP"
+					{{/if}}
+				>
+					{{#if option.values}}
+						{{#each option.values as |subOption subOptionKey|}}
+							<input type="checkbox" class="attr-list" name="system.attributes.expertAdvancements.options.{{optionKey}}.values.{{subOptionKey}}.value" {{checked subOption.value}}/>
+						{{/each}}
+					{{else}}
+						<input type="checkbox" class="attr-list" name="system.attributes.expertAdvancements.options.{{optionKey}}.value" {{checked option.value}}/>
+					{{/if}}
+					{{#if (eq option.label "[Text]")}}
+						<input type="text" class="input input-title" name="system.attributes.expertAdvancements.options.{{optionKey}}.userLabel" value="{{option.userLabel}}">
+					{{else}}
+						{{option.label}}
+					{{/if}}
+				</label>
+			{{/each}}
+		</ul>
+	</div>
+	</div>
+	
+
+	{{!-- corruptionAdvances --}}
+	<div class="cell cell--corruptionAdvances cell--attr-corruptionAdvances cell--{{system.attributes.corruptionAdvances.type}}">
+		<span class="cell__title">{{system.attributes.corruptionAdvances.label}}</span>
+		{{#if system.attributes.corruptionAdvances.description}}<p class="cell__description cell__description--attr">{{system.attributes.corruptionAdvances.description}}</p>{{/if}}
+		<ul class="cell__checkboxes flexcol">
+			{{#each system.attributes.corruptionAdvances.options as |option optionKey|}}
+				<label
+					class="flexrow"
+					{{#if option.tooltip}}
+						data-tooltip="{{option.tooltip}}"
+						data-tooltip-direction="UP"
+					{{/if}}
+				>
+					{{#if option.values}}
+						{{#each option.values as |subOption subOptionKey|}}
+							<input type="checkbox" class="attr-list" name="system.attributes.corruptionAdvances.options.{{optionKey}}.values.{{subOptionKey}}.value" {{checked subOption.value}}/>
+						{{/each}}
+					{{else}}
+						<input type="checkbox" class="attr-list" name="system.attributes.corruptionAdvances.options.{{optionKey}}.value" {{checked option.value}}/>
+					{{/if}}
+					{{#if (eq option.label "[Text]")}}
+						<input type="text" class="input input-title" name="system.attributes.corruptionAdvances.options.{{optionKey}}.userLabel" value="{{option.userLabel}}">
+					{{else}}
+						{{option.label}}
+					{{/if}}
+				</label>
+			{{/each}}
+		</ul>
+	</div>
+</div>
