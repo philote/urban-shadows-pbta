@@ -410,7 +410,7 @@
             "options": {}
           },
           {
-            "value": "<p>Other: <fill in yourself later></p>",
+            "value": "<p>Other: <fill in=\"\" yourself=\"\" later=\"\"></fill></p>",
             "options": {}
           }
         ],
@@ -561,7 +561,8 @@
       {
         "title": "VETERAN MOVES",
         "desc": "YOU GET THIS ONE:",
-        "type": "multi",
+        "grantOn": 1,
+        "advancement": 0,
         "repeatable": true,
         "choices": [
           {
@@ -571,18 +572,18 @@
             "advancement": 0
           }
         ],
-        "grantOn": 1,
-        "granted": false,
-        "advancement": 0
+        "type": "multi",
+        "granted": false
       },
       {
         "title": "AND CHOOSE TWO MORE:",
         "desc": "",
-        "type": "multi",
+        "grantOn": 0,
+        "advancement": 0,
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.XyJHxjfK3ycPtGTT",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.JuTlngpZnJDZD9e7",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
@@ -594,40 +595,34 @@
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.J4kK7lL0mN3oP6qQ",
-            "img": "icons/svg/aura.svg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
             "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.YXu29TI1KcHjLdAG",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.JuTlngpZnJDZD9e7",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.J4kK7lL0mN3oP6qQ",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.XyJHxjfK3ycPtGTT",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           }
         ],
-        "grantOn": 2,
-        "granted": false,
-        "advancement": 0
+        "type": "multi",
+        "granted": false
       },
       {
         "title": "VETERAN Starting Moves",
         "desc": "",
-        "type": "multi",
+        "grantOn": 0,
+        "advancement": 0,
         "repeatable": true,
         "choices": [
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.61G1bKAZrUym18Ac",
-            "img": "icons/svg/aura.svg",
-            "granted": false,
-            "advancement": 0
-          },
           {
             "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.MdVmLn0FBUm08rQC",
             "img": "icons/svg/aura.svg",
@@ -635,22 +630,16 @@
             "advancement": 0
           }
         ],
-        "grantOn": 0,
-        "granted": false,
-        "advancement": 0
+        "type": "multi",
+        "granted": false
       },
       {
         "title": "Starting Gear",
         "desc": "A small apartment or warehouse hideout, a practical car or old pick-up truck, a smartphone, a workshop (detail). One trusty weapon of choice:",
-        "type": "multi",
+        "grantOn": 1,
+        "advancement": 0,
         "repeatable": true,
         "choices": [
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.uNpgcYYgBru32GfI",
-            "img": "icons/svg/item-bag.svg",
-            "granted": false,
-            "advancement": 0
-          },
           {
             "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.HKWmMcz2tRcWGfdr",
             "img": "icons/svg/item-bag.svg",
@@ -658,15 +647,14 @@
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.3F6i3djFhxSbolbg",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.uNpgcYYgBru32GfI",
             "img": "icons/svg/item-bag.svg",
             "granted": false,
             "advancement": 0
           }
         ],
-        "grantOn": 1,
-        "granted": false,
-        "advancement": 0
+        "type": "multi",
+        "granted": false
       }
     ]
   },
@@ -680,11 +668,11 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1748405545137,
+    "modifiedTime": 1749793478523,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

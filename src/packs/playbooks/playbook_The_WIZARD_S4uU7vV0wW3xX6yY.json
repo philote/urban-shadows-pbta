@@ -410,7 +410,7 @@
             "options": {}
           },
           {
-            "value": "<p>Other: <fill in yourself later></p>",
+            "value": "<p>Other: <fill in=\"\" yourself=\"\" later=\"\"></fill></p>",
             "options": {}
           }
         ],
@@ -561,7 +561,8 @@
       {
         "title": "WIZARD MOVES",
         "desc": "YOU GET THIS ONE:",
-        "type": "multi",
+        "grantOn": 0,
+        "advancement": 0,
         "repeatable": true,
         "choices": [
           {
@@ -577,28 +578,16 @@
             "advancement": 0
           }
         ],
-        "grantOn": 2,
-        "granted": false,
-        "advancement": 0
+        "type": "multi",
+        "granted": false
       },
       {
         "title": "YOUR SPELLS",
         "desc": "choose three:",
-        "type": "multi",
+        "grantOn": 0,
+        "advancement": 0,
         "repeatable": true,
         "choices": [
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.fB4AWqXfpPexEFev",
-            "img": "icons/svg/aura.svg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.Wpcln02jgNak4JGH",
-            "img": "icons/svg/aura.svg",
-            "granted": false,
-            "advancement": 0
-          },
           {
             "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.Gj6eXhLvE8Y9KjDs",
             "img": "icons/svg/aura.svg",
@@ -612,7 +601,7 @@
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.OxOl1wJWXph7NW0U",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.Wpcln02jgNak4JGH",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
@@ -624,55 +613,46 @@
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.nzEtYWPo8zfrPgEH",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.fB4AWqXfpPexEFev",
             "img": "icons/svg/aura.svg",
-            "granted": false,
-            "advancement": 0
-          }
-        ],
-        "grantOn": 3,
-        "granted": false,
-        "advancement": 0
-      },
-      {
-        "title": "WIZARD Starting Moves",
-        "desc": "",
-        "type": "multi",
-        "repeatable": true,
-        "choices": [
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.U79fjMPb4uuYb7zR",
-            "img": "icons/svg/aura.svg",
-            "granted": false,
-            "advancement": 0
-          }
-        ],
-        "grantOn": 0,
-        "granted": false,
-        "advancement": 0
-      },
-      {
-        "title": "Starting Gear",
-        "desc": "A nice apartment or simple house, a crappy car, a decent smartphone and a sanctum (detail). One useful weapon of choice:",
-        "type": "multi",
-        "repeatable": true,
-        "choices": [
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.MTHSObEuSjh33gsZ",
-            "img": "icons/svg/item-bag.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.033846e28c11448d",
-            "img": "icons/svg/item-bag.svg",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.nzEtYWPo8zfrPgEH",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.OxOl1wJWXph7NW0U",
+            "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           }
         ],
+        "type": "multi",
+        "granted": false
+      },
+      {
+        "title": "WIZARD Starting Moves",
+        "desc": "",
+        "grantOn": 0,
+        "advancement": 0,
+        "repeatable": true,
+        "type": "multi",
+        "choices": [],
+        "granted": false
+      },
+      {
+        "title": "Starting Gear",
+        "desc": "A nice apartment or simple house, a crappy car, a decent smartphone and a sanctum (detail). One useful weapon of choice:",
         "grantOn": 1,
-        "granted": false,
-        "advancement": 0
+        "advancement": 0,
+        "repeatable": true,
+        "type": "multi",
+        "choices": [],
+        "granted": false
       }
     ]
   },
@@ -686,11 +666,11 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1748304878271,
+    "modifiedTime": 1749793486802,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },
