@@ -410,7 +410,7 @@
             "options": {}
           },
           {
-            "value": "<p>Other: <fill in yourself later></p>",
+            "value": "<p>Other: <fill in=\"\" yourself=\"\" later=\"\"></fill></p>",
             "options": {}
           }
         ],
@@ -561,7 +561,8 @@
       {
         "title": "IMP MOVES",
         "desc": "YOU GET THIS ONE:",
-        "type": "multi",
+        "grantOn": 1,
+        "advancement": 0,
         "repeatable": true,
         "choices": [
           {
@@ -571,14 +572,14 @@
             "advancement": 0
           }
         ],
-        "grantOn": 1,
-        "granted": false,
-        "advancement": 0
+        "type": "multi",
+        "granted": false
       },
       {
         "title": "AND CHOOSE TWO MORE:",
         "desc": "",
-        "type": "multi",
+        "grantOn": 0,
+        "advancement": 0,
         "repeatable": true,
         "choices": [
           {
@@ -606,14 +607,14 @@
             "advancement": 0
           }
         ],
-        "grantOn": 2,
-        "granted": false,
-        "advancement": 0
+        "type": "multi",
+        "granted": false
       },
       {
         "title": "IMP Starting Moves",
         "desc": "",
-        "type": "multi",
+        "grantOn": 0,
+        "advancement": 0,
         "repeatable": true,
         "choices": [
           {
@@ -629,19 +630,18 @@
             "advancement": 0
           }
         ],
-        "grantOn": 0,
-        "granted": false,
-        "advancement": 0
+        "type": "multi",
+        "granted": false
       },
       {
         "title": "Starting Gear",
         "desc": "A small but well-appointed apartment, a reliable car, a smartphone with too many contacts, a collection of useful trinkets and favors:",
-        "type": "multi",
-        "repeatable": true,
-        "choices": [],
         "grantOn": 0,
-        "granted": false,
-        "advancement": 0
+        "advancement": 0,
+        "repeatable": true,
+        "type": "multi",
+        "choices": [],
+        "granted": false
       }
     ]
   },
@@ -655,12 +655,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1733962596462,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1749792493533,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },
   "_id": "i7j8k9l0m1n2o3p4",

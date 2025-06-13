@@ -561,7 +561,8 @@
       {
         "title": "AWARE MOVES",
         "desc": "CHOOSE THREE:",
-        "type": "multi",
+        "grantOn": 1,
+        "advancement": 0,
         "repeatable": true,
         "choices": [
           {
@@ -601,14 +602,14 @@
             "advancement": 0
           }
         ],
-        "grantOn": 1,
-        "granted": false,
-        "advancement": 0
+        "type": "multi",
+        "granted": false
       },
       {
         "title": "AWARE Starting Moves",
         "desc": "",
-        "type": "multi",
+        "grantOn": 0,
+        "advancement": 0,
         "repeatable": true,
         "choices": [
           {
@@ -630,73 +631,28 @@
             "advancement": 0
           }
         ],
-        "grantOn": 0,
-        "granted": false,
-        "advancement": 0
+        "type": "multi",
+        "granted": false
       },
       {
         "title": "Starting Gear",
         "desc": "",
-        "type": "multi",
-        "repeatable": true,
-        "choices": [
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.aNiUMJhPzIvaUufw",
-            "img": "icons/svg/item-bag.svg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.dIqohpVe1v0Fy6yp",
-            "img": "icons/svg/item-bag.svg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.P6b94Ue994qV46IN",
-            "img": "icons/svg/item-bag.svg",
-            "granted": false,
-            "advancement": 0
-          }
-        ],
         "grantOn": 0,
-        "granted": false,
-        "advancement": 0
+        "advancement": 0,
+        "repeatable": true,
+        "type": "multi",
+        "choices": [],
+        "granted": false
       },
       {
         "title": "Starting Gear: A self-defense weapon",
         "desc": "Choose One",
-        "type": "multi",
-        "repeatable": true,
-        "choices": [
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.K4lL7mN0oP3qQ6rS",
-            "img": "icons/svg/item-bag.svg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
-            "img": "icons/svg/item-bag.svg",
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.hqNim9kxmSvFuedg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.J4PJ4vElEpxzdo1L",
-            "img": "icons/svg/item-bag.svg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.lzHbRUnXEk7yJ5Ak",
-            "img": "icons/svg/item-bag.svg",
-            "granted": false,
-            "advancement": 0
-          }
-        ],
         "grantOn": 1,
-        "granted": false,
-        "advancement": 0
+        "advancement": 0,
+        "repeatable": true,
+        "type": "multi",
+        "choices": [],
+        "granted": false
       }
     ]
   },
@@ -710,12 +666,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1733962596462,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1749791510354,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },
   "_id": "vsERpK9xGVXcNa6i",

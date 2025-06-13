@@ -6,7 +6,7 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "description": "<p>When a <em><strong>faction seizes a vulnerable asset by force</strong></em>, roll with their Strength.</p>",
-    "moveType": "faction",
+    "moveType": "",
     "rollFormula": "",
     "moveResults": {
       "miss": {
@@ -26,7 +26,7 @@
       }
     },
     "uses": 0,
-    "rollType": "custom",
+    "rollType": "",
     "rollMod": 0,
     "actorType": "character",
     "choices": ""
@@ -42,11 +42,11 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
-    "systemVersion": "1.1.20",
+    "systemVersion": "1.1.21",
     "createdTime": 1748493194026,
-    "modifiedTime": 1748493681109,
+    "modifiedTime": 1749792154024,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "_key": "!items!BL6wD8iE2jF5kG9h"

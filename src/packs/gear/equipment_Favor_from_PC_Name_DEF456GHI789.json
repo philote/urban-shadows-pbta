@@ -1,15 +1,15 @@
 {
   "folder": null,
-  "name": "Favor Owed to Marcus",
+  "name": "Favor from PC Name",
   "type": "equipment",
-  "_id": "ABC123DEF456",
+  "_id": "DEF456GHI789",
   "img": "icons/svg/coins.svg",
   "system": {
-    "description": "<p><strong>Creditor:</strong> Marcus Blackwood</p><p><strong>Nature:</strong> Protection from Night Court tribunal</p><p><strong>Severity:</strong> Moderate</p><p><strong>Notes:</strong> Marcus vouched for me when I was accused of violating the Night Court's neutrality agreement. I owe him a significant favor in return.</p>",
+    "description": "<p><strong>Debtor:</strong> [PC Name]</p><p><strong>Nature:</strong> Protection from Night Court tribunal</p><p><strong>Severity:</strong> Moderate</p><p><strong>Notes:</strong> I vouched for them when they were accused of violating the Night Court's neutrality agreement. They owe me a significant favor in return.</p>",
     "uses": 0,
     "quantity": 1,
     "weight": 0,
-    "tags": "[{\"value\":\"debt\"},{\"value\":\"moderate\"},{\"value\":\"Marcus Blackwood\"}]",
+    "tags": "[{\"value\":\"debt\"},{\"value\":\"moderate\"},{\"value\":\"owed to me\"}]",
     "itemType": "",
     "equipmentType": "debt",
     "actorType": "character"
@@ -23,14 +23,14 @@
     "urban-shadows-pbta": {
       "debt": {
         "creditorId": null,
-        "creditorName": "Marcus Blackwood",
+        "creditorName": "Current Character",
         "debtorId": null,
-        "debtorName": "Current Character",
+        "debtorName": "[PC Name]",
         "nature": "Protection from Night Court tribunal",
         "severity": "moderate",
         "dateCreated": "2025-01-07",
-        "notes": "Marcus vouched for me when I was accused of violating the Night Court's neutrality agreement.",
-        "linkedDebtId": "DEF456GHI789"
+        "notes": "I vouched for them when they were accused of violating the Night Court's neutrality agreement.",
+        "linkedDebtId": "ABC123DEF456"
       }
     }
   },
@@ -45,5 +45,5 @@
     "modifiedTime": 1748600000000,
     "lastModifiedBy": null
   },
-  "_key": "!items!ABC123DEF456"
+  "_key": "!items!DEF456GHI789"
 }

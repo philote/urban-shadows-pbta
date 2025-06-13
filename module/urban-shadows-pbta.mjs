@@ -120,7 +120,7 @@ Hooks.once('ready', async function () {
     }
 });
 
-Hooks.on("renderActorSheet", async (_app, html) => {
+Hooks.on("renderActorSheet", async (app, html) => {
     // Update Stat Scar labels
 
     // Blood
@@ -184,7 +184,7 @@ Hooks.on("renderActorSheet", async (_app, html) => {
     }
 });
 
-Hooks.on("renderSettings", (_app, html) => {
+Hooks.on("renderSettings", (app, html) => {
     // --- Setting Module Configuration
     const MODULE_CONFIG = {
         headingKey: "US2E.Settings.game.heading",

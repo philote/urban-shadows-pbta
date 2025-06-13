@@ -6,7 +6,7 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "description": "<p>When a <em><strong>faction tries to track a Status-1 or Status-2 character down within the city</strong></em>, roll.</p><ul><li>If the faction has a relevant asset, add 1</li><li>If their quarry is of the same Circle, add 1</li><li>If the faction is Size-1 or Strength-1, subtract 1</li><li>If their quarry is actively hiding, subtract 1</li></ul>",
-    "moveType": "faction",
+    "moveType": "",
     "rollFormula": "",
     "moveResults": {
       "miss": {
@@ -42,11 +42,11 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
-    "systemVersion": "1.1.20",
+    "systemVersion": "1.1.21",
     "createdTime": 1748493194026,
-    "modifiedTime": 1748493681109,
+    "modifiedTime": 1749792147390,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "_key": "!items!CM7xE9jF3kG6lH0i"

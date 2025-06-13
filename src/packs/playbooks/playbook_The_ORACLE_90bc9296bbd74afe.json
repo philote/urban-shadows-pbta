@@ -410,7 +410,7 @@
             "options": {}
           },
           {
-            "value": "<p>Other: <fill in yourself later></p>",
+            "value": "<p>Other: <fill in=\"\" yourself=\"\" later=\"\"></fill></p>",
             "options": {}
           }
         ],
@@ -561,9 +561,22 @@
       {
         "title": "ORACLE MOVES",
         "desc": "CHOOSE TWO:",
-        "type": "multi",
+        "grantOn": 1,
+        "advancement": 0,
         "repeatable": true,
         "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.Q8sU1wY4zA7dE0hI",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.S0uW3yA6dC9fF2jK",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
           {
             "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.O6qS9uW2xZ5bC8fG",
             "img": "icons/svg/aura.svg",
@@ -577,69 +590,45 @@
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.Q8sU1wY4zA7dE0hI",
-            "img": "icons/svg/aura.svg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
             "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.eZ7wIjFes5d2978m",
-            "img": "icons/svg/aura.svg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.S0uW3yA6dC9fF2jK",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           }
         ],
-        "grantOn": 1,
-        "granted": false,
-        "advancement": 0
+        "type": "multi",
+        "granted": false
       },
       {
         "title": "ORACLE Starting Moves",
         "desc": "",
-        "type": "multi",
+        "grantOn": 0,
+        "advancement": 0,
         "repeatable": true,
         "choices": [
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.gvAHOQlG8O5UNcO4",
-            "img": "icons/svg/aura.svg",
-            "granted": false,
-            "advancement": 0
-          },
           {
             "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.BaqMf9ihmCyJwgId",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.gvAHOQlG8O5UNcO4",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
           }
         ],
-        "grantOn": 0,
-        "granted": false,
-        "advancement": 0
+        "type": "multi",
+        "granted": false
       },
       {
         "title": "Starting Gear",
         "desc": "Everything provided by your benefactor, and two sets of prophetic tools:",
-        "type": "multi",
+        "grantOn": 0,
+        "advancement": 0,
         "repeatable": true,
         "choices": [
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.tnbVX7iO5pek2nw2",
-            "img": "icons/svg/item-bag.svg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.9ebmNWuNLC3HZSgp",
-            "img": "icons/svg/item-bag.svg",
-            "granted": false,
-            "advancement": 0
-          },
           {
             "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.wd2QKswKnQFLy5A7",
             "img": "icons/svg/item-bag.svg",
@@ -647,9 +636,8 @@
             "advancement": 0
           }
         ],
-        "grantOn": 2,
-        "granted": false,
-        "advancement": 0
+        "type": "multi",
+        "granted": false
       }
     ]
   },
@@ -663,12 +651,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1733962596462,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1749792511228,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },
   "_id": "90bc9296bbd74afe",

@@ -410,7 +410,7 @@
             "options": {}
           },
           {
-            "value": "<p>Other: <fill in yourself later></p>",
+            "value": "<p>Other: <fill in=\"\" yourself=\"\" later=\"\"></fill></p>",
             "options": {}
           }
         ],
@@ -561,7 +561,8 @@
       {
         "title": "FAE MOVES",
         "desc": "YOU GET THIS ONE:",
-        "type": "multi",
+        "grantOn": 1,
+        "advancement": 0,
         "repeatable": true,
         "choices": [
           {
@@ -571,14 +572,14 @@
             "advancement": 0
           }
         ],
-        "grantOn": 1,
-        "granted": false,
-        "advancement": 0
+        "type": "multi",
+        "granted": false
       },
       {
         "title": "AND CHOOSE TWO MORE:",
         "desc": "",
-        "type": "multi",
+        "grantOn": 0,
+        "advancement": 0,
         "repeatable": true,
         "choices": [
           {
@@ -612,14 +613,14 @@
             "advancement": 0
           }
         ],
-        "grantOn": 2,
-        "granted": false,
-        "advancement": 0
+        "type": "multi",
+        "granted": false
       },
       {
         "title": "FAE Starting Moves",
         "desc": "",
-        "type": "multi",
+        "grantOn": 0,
+        "advancement": 0,
         "repeatable": true,
         "choices": [
           {
@@ -635,19 +636,18 @@
             "advancement": 0
           }
         ],
-        "grantOn": 0,
-        "granted": false,
-        "advancement": 0
+        "type": "multi",
+        "granted": false
       },
       {
         "title": "Starting Gear",
         "desc": "Clothing that shifts between mortal fashion and fae regalia, a token from your homeland, a smartphone that sometimes receives calls from the other side:",
-        "type": "multi",
-        "repeatable": true,
-        "choices": [],
         "grantOn": 0,
-        "granted": false,
-        "advancement": 0
+        "advancement": 0,
+        "repeatable": true,
+        "type": "multi",
+        "choices": [],
+        "granted": false
       }
     ]
   },
@@ -661,12 +661,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1733962596462,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1749792411035,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },
   "_id": "f8a2b3c4d5e6f7g8",
