@@ -38,6 +38,10 @@ packs/*
 # Pbta Template
 build/
 
+# Foundry code base symlinks
+foundry-config.yaml
+foundry
+
 # Environment variables
 .env
 # CLAUDE.md
