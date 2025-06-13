@@ -9,6 +9,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `npm run watch` - Compile SCSS to CSS with source maps and watch for changes
 - `npm run pushLDBtoJSON` - Extract FoundryVTT pack data from LevelDB to JSON files in src/packs/
 - `npm run pullJSONtoLDB` - Convert JSON files from src/packs/ to FoundryVTT LevelDB packs/
+- `npm run createSymlinks` - Create development symlinks for testing (see foundry-config.yaml)
+
+### FoundryVTT API Reference
+The `foundry/` directory contains symlinked files from the target FoundryVTT installation's source code. These files provide essential API documentation and type definitions since FoundryVTT's APIs are poorly documented outside of the source code itself. Key resources include:
+- `foundry/client/` - Client-side API definitions and documentation
+- `foundry/common/` - Shared API structures and utilities
+- Use these files as reference when implementing FoundryVTT integrations or troubleshooting API usage
 
 ### Pack Data Management
 This module uses FoundryVTT's pack system with a dual format:
@@ -40,10 +47,11 @@ This is a FoundryVTT module for Urban Shadows 2E built on the **PbtA (Powered by
 - Component files: `_character-sheet.scss`, `_faction-sheet.scss`, `_npc-sheet.scss`
 - Compiled to `css/urban-shadows-pbta.css`
 
-**Game Content**: Three main pack categories in `src/packs/`
-- `basic-moves/` - Core game moves (basic, circle, debt, faction)
+**Game Content**: Four main pack categories in `src/packs/`
+- `play-materials/` - Core game moves (basic, circle, debt, faction)
 - `playbooks/` - Character archetypes and their specific moves/abilities
-- `gear/` - Equipment and weapons
+- `gear/` - Equipment, weapons, and debt items
+- `roll-tables/` - City location and generation tables
 
 ### Integration Points
 
