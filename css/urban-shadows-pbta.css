@@ -50,6 +50,7 @@
 }
 .pbta.sheet .sheet-attributes-top {
   padding: 0;
+  margin: 5px 0px;
 }
 .pbta.sheet .sheet-attributes-top .cell--attributes-top .cell {
   padding-top: 5px;
@@ -91,6 +92,22 @@
   /* Colors */
   /* Stats */
   /* Advancements */
+}
+.vtt div[id^=PbtaActorSheet] .sheet-header__fields .sheet-playbook .view-playbook,
+.vtt div[id^=PbtaActorSheet] .sheet-header__fields .sheet-playbook [data-action=advancement],
+.vtt div[id^=UrbanShadowsActorSheet-Actor] .sheet-header__fields .sheet-playbook .view-playbook,
+.vtt div[id^=UrbanShadowsActorSheet-Actor] .sheet-header__fields .sheet-playbook [data-action=advancement] {
+  background-color: #1b0328;
+}
+.vtt div[id^=PbtaActorSheet] .sheet-wrapper .sheet-header,
+.vtt div[id^=UrbanShadowsActorSheet-Actor] .sheet-wrapper .sheet-header {
+  margin-bottom: 4px;
+  min-height: unset;
+}
+.vtt div[id^=PbtaActorSheet] .sheet-attributes-top .cell--attributes-top .cell ul, .vtt div[id^=PbtaActorSheet] .sheet-attributes-top .cell--attributes-top .cell ol,
+.vtt div[id^=UrbanShadowsActorSheet-Actor] .sheet-attributes-top .cell--attributes-top .cell ul,
+.vtt div[id^=UrbanShadowsActorSheet-Actor] .sheet-attributes-top .cell--attributes-top .cell ol {
+  margin: 0.5rem 0;
 }
 .vtt div[id^=PbtaActorSheet] .sheet-attributes .cell--stats .stat,
 .vtt div[id^=UrbanShadowsActorSheet-Actor] .sheet-attributes .cell--stats .stat {

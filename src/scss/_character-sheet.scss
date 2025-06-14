@@ -1,6 +1,28 @@
 @use "colors";
 
+.sheet-header__fields 
+.sheet-playbook 
+.view-playbook, 
+.sheet-header__fields 
+.sheet-playbook [data-action=advancement] {
+    background-color: colors.$c-dark-purple;
+}
+
+.sheet-wrapper .sheet-header {
+    margin-bottom: 4px;
+    min-height: unset;
+}
+
 /* Stats */
+.sheet-attributes-top {
+    .cell--attributes-top {
+        .cell {
+            ul, ol {
+                margin: 0.5rem 0;
+            }
+        }
+    }
+}
 .sheet-attributes {
     .cell--stats{
         .stat {
