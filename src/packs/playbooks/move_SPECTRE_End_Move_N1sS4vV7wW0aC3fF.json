@@ -1,6 +1,6 @@
 {
   "folder": "W0aC3fF6gG9hH2iI",
-  "name": "SPECTRE End Move",
+  "name": "SPECTRE END MOVE",
   "type": "move",
   "_id": "N1sS4vV7wW0aC3fF",
   "img": "icons/svg/aura.svg",
@@ -41,11 +41,11 @@
   "_stats": {
     "compendiumSource": "Item.N1sS4vV7wW0aC3fF",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748399934916,
+    "modifiedTime": 1749878741314,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

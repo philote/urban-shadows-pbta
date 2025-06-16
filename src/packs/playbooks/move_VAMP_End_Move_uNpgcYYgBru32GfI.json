@@ -1,6 +1,6 @@
 {
   "folder": "J3kK6nN9oP2qQ5rS",
-  "name": "VAMP End Move",
+  "name": "VAMP END MOVE",
   "type": "move",
   "_id": "uNpgcYYgBru32GfI",
   "img": "icons/svg/aura.svg",
@@ -41,11 +41,11 @@
   "_stats": {
     "compendiumSource": "Item.S4uU7vV0wW3xX6yY",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748405573576,
+    "modifiedTime": 1749878773986,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

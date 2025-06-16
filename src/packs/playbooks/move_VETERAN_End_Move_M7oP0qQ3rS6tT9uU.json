@@ -1,6 +1,6 @@
 {
   "folder": "SnCfqM8uN9psoa5w",
-  "name": "VETERAN End Move",
+  "name": "VETERAN END MOVE",
   "type": "move",
   "_id": "M7oP0qQ3rS6tT9uU",
   "img": "icons/svg/aura.svg",
@@ -41,11 +41,11 @@
   "_stats": {
     "compendiumSource": "Item.M7oP0qQ3rS6tT9uU",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748405516679,
+    "modifiedTime": 1749878789495,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

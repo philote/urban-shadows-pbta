@@ -1,6 +1,6 @@
 {
   "folder": "67b98e674f1346b5",
-  "name": "TAINTED End Move",
+  "name": "TAINTED END MOVE",
   "type": "move",
   "_id": "rLpQT2qDAGUaDOYk",
   "img": "icons/svg/aura.svg",
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.X0aA3bC6dE9fG2hH",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1749878755358,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },
   "_key": "!items!rLpQT2qDAGUaDOYk"

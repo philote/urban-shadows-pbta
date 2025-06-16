@@ -1,0 +1,53 @@
+{
+  "folder": "UpKeNQxOrv4nSvGG",
+  "name": "Tending To Your Relationships",
+  "type": "move",
+  "_id": "QoRSz6YBDJmk9Owb",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you tend to your mortal relationships during the faction turn, make no other city moves and roll with <strong>HEART</strong>. </p>",
+    "moveType": "",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Weak Hit",
+        "value": "<p>On a hit, one of the mortals closest to you offers you a way to deepen your bond; clear a corruption advance if you agree to what they propose. </p><p><strong>On a 7-9</strong>, agreeing isn’t so simple; what they ask of you threatens to expose them to the part of your life you’ve kept hidden. On a miss, one of your mortal ties demands you sacrifice part of your new life to keep them around; manage the conflict or lose the relationship.</p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Strong Hit",
+        "value": "<p>On a hit, one of the mortals closest to you offers you a way to deepen your bond; clear a corruption advance if you agree to what they propose.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1749878090151,
+    "modifiedTime": 1749878214366,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!QoRSz6YBDJmk9Owb"
+}

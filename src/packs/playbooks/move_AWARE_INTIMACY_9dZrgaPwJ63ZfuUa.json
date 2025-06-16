@@ -1,11 +1,11 @@
 {
-  "folder": "B3dF6hJ9kL2mN5pR",
-  "name": "FAE INTIMACY Move",
+  "folder": "UpKeNQxOrv4nSvGG",
+  "name": "AWARE INTIMACY",
   "type": "move",
-  "_id": "9e7162c1b3194086",
+  "_id": "9dZrgaPwJ63ZfuUa",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you share a moment of intimacy—physical or emotional—with another person, demand a promise from them. If they refuse you or break the promise, they owe you a Debt.</p>",
+    "description": "<p>When you share a moment of intimacy—physical or emotional— with someone new who isn’t mortal, mark corruption. When you figure out someone you’ve previously shared a moment of intimacy with, roll with <strong>Heart</strong> instead of <strong>Mind</strong>.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -39,15 +39,15 @@
   },
   "flags": {},
   "_stats": {
-    "compendiumSource": "Item.M4oQ7sU0vX3yA6dE",
+    "compendiumSource": "Item.9dZrgaPwJ63ZfuUa",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1749878654356,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },
-  "_key": "!items!9e7162c1b3194086"
+  "_key": "!items!9dZrgaPwJ63ZfuUa"
 }

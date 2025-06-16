@@ -1,11 +1,11 @@
 {
-  "folder": "L3nP6rT9uW2xZ5bC",
-  "name": "ORACLE INTIMACY Move",
+  "folder": "SnCfqM8uN9psoa5w",
+  "name": "VETERAN INTIMACY",
   "type": "move",
-  "_id": "U2wY5bC8fE1hH4lM",
+  "_id": "MCfl1guDNDMDsaDZ",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you share a moment of intimacy—physical or emotional—with another person, you gain a specific and clear vision about that person’s future. Mark corruption to ask the MC up to two follow-up questions; they must answer honestly.</p>",
+    "description": "<p>When you share a moment of intimacy—physical or emotional—with another person, tell them a story about your time in the city and offer some advice. If they accept your counsel, hold 1. Spend the hold to give them a 10+ (instead of rolling) on a move they make while following your guidance. If they reject your wisdom, mark corruption.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -32,22 +32,22 @@
     "choices": ""
   },
   "effects": [],
-  "sort": 175000,
+  "sort": 0,
   "ownership": {
     "default": 0,
     "MZpJvwT3EQwBniAB": 3
   },
   "flags": {},
   "_stats": {
-    "compendiumSource": "Item.U2wY5bC8fE1hH4lM",
+    "compendiumSource": "Item.N8oP1qQ4rS7tT0uU",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748399961620,
+    "modifiedTime": 1749878794693,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },
-  "_key": "!items!U2wY5bC8fE1hH4lM"
+  "_key": "!items!MCfl1guDNDMDsaDZ"
 }

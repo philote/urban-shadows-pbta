@@ -1,6 +1,6 @@
 {
   "folder": "B3dF6hJ9kL2mN5pR",
-  "name": "FAE End Move",
+  "name": "FAE END MOVE",
   "type": "move",
   "_id": "RoBtbwCqcWOkqSa7",
   "img": "icons/svg/aura.svg",
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.RoBtbwCqcWOkqSa7",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1749878609834,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },
   "_key": "!items!RoBtbwCqcWOkqSa7"

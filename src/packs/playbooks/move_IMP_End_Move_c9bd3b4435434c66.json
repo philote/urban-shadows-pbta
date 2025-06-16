@@ -1,6 +1,6 @@
 {
   "folder": "J1lN4pR7sT0uV3xA",
-  "name": "IMP End Move",
+  "name": "IMP END MOVE",
   "type": "move",
   "_id": "c9bd3b4435434c66",
   "img": "icons/svg/aura.svg",
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.E2hJ5mM9pP2sS5vX",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1749878695887,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },
   "_key": "!items!c9bd3b4435434c66"
