@@ -41,6 +41,7 @@
 					<a class="item" data-tab="moves">{{localize "PBTA.Moves"}}</a>
 					<a class="item" data-tab="equipment">{{localize "PBTA.Equipment"}}</a>
 					<a class='item' data-tab='advancements'>{{localize 'US2E.CharacterSheets.advancementsTab'}}</a>
+					<a class='item' data-tab='playbook'>{{localize 'US2E.CharacterSheets.playbookTab'}}</a>
 				</nav>
 
 				{{!-- Sheet Body --}}
@@ -55,7 +56,10 @@
 					{{> "pbta.actor-inventory" }}
 
 					{{!-- Advancements Tab --}}
-					{{> "modules/urban-shadows-pbta/templates/parts/actor-advancements.hbs" }}
+					{{> "modules/urban-shadows-pbta/templates/parts/actor-tab-advancements.hbs" }}
+
+					{{!-- Playbook Tab --}}
+					{{> "modules/urban-shadows-pbta/templates/parts/actor-tab-playbook.hbs" attrs=system.playbookAttributes cssClass="cell--playbook-attributes flexcol" owner=owner editable=editable }}
 				</section>
 			</section>
 		</section>

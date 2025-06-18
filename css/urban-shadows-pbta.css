@@ -142,6 +142,17 @@
   right: 0;
   text-align: center;
 }
+.vtt div[id^=PbtaActorSheet] .advancements .advancements-top,
+.vtt div[id^=UrbanShadowsActorSheet-Actor] .advancements .advancements-top {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.vtt div[id^=PbtaActorSheet] .advancements .advancements-top > *,
+.vtt div[id^=UrbanShadowsActorSheet-Actor] .advancements .advancements-top > * {
+  flex: 1;
+}
 .vtt div[id^=PbtaActorSheet] .cell--attr-advancement ul.cell__checkboxes,
 .vtt div[id^=UrbanShadowsActorSheet-Actor] .cell--attr-advancement ul.cell__checkboxes {
   display: grid;
