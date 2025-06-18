@@ -1029,302 +1029,302 @@ export const configSheet = async () => {
                         },
                     },
                     TheTaintedDarkPatron: {
-                        label: "YOUR DARK PATRON (Choose 2):",
-                        description: "Your soul has fallen into the hands of a dark patron, a powerful demon whose reputation precedes them, but whose true name is known to few. They have given you terms of employment, access to terrible power, and terrifying insight into their true nature.",
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.DarkPatron.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.DarkPatron.description"),
                         playbook: "the-tainted",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "they seduce all who come into contact with them with pleasantries, gifts, and vices",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.DarkPatron.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "they govern their sprawling organization through strict and severe rules and punishments",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.DarkPatron.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "they require deference from their minions to their strange obsession with a mortal pastime",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.DarkPatron.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "they manipulate their friends, allies, and enemies alike into conflicts that serve their secret designs",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.DarkPatron.options.3"),
                                 value: false,
                             },
                             4: {
-                                label: "they have seeded eyes and ears across the city, always alert to any sign of betrayal or profitable opportunity",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.DarkPatron.options.4"),
                                 value: false,
                             },
                             5: {
-                                label: "they employ only dedicated and loyal minons who are all too happy to report on your activities",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.DarkPatron.options.5"),
                                 value: false,
                             },
                             6: {
-                                label: "they are slow to anger, but their commitment to their wrath is unstoppable once truly provoked",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.DarkPatron.options.6"),
                                 value: false,
                             },
                         },
                     },
                     TheTaintedYourDemonForm: {
-                        label: "YOUR DEMON FORM",
-                        description: "Since your patron claimed your soul, you have a new look: a demon form. Pick as many as apply from the lists below:",
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.YourDemonForm.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.YourDemonForm.description"),
                         playbook: "the-tainted",
                         position: "playbook",
                         type: "LongText",
-                        value: "<ul><li><b>Head:</b> bone, concave, crown, flames, halo, horns, spikes</li><li><b>Eyes:</b> absent, animal, empty, glowing, smoky, un-blinking</li><li><b>Limbs:</b> claws, heavy, hoofed, many, severed, twisted</li><li><b>Wings:</b> blood, feathers, insects, leather, metal, paper, none</li><li><b>Skin:</b> chitinous, marked, misty, sticky, stretched, translucent</li></ul>",
+                        value: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.YourDemonForm.value"),
                     },
                     TheTaintedDemonicJobs: {
-                        label: "DEMONIC JOBS",
-                        description: "Your dark patron keeps you on Earth for a reason; they could always have decided to drag you to hell. Choose two jobs you regularly do for them from the list below:",
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.DemonicJobs.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.DemonicJobs.description"),
                         playbook: "the-tainted",
                         position: "playbook",
                         type: "LongText",
-                        value: "<p><il>Collecting souls, tracking down rogue demons, delivering threats and messages, cleaning up gruesome messes, guarding someone or something, destroying your patron’s enemies, brokering demonic contracts, hiding and securing demonic contraband, operating a demonic establishment, policing your patron’s minions</li></p>",
+                        value: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.DemonicJobs.value"),
                     },
                     TheVampWeb: {
-                        label: "YOUR WEB",
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.Web.label"),
                         description: "",
                         playbook: "the-vamp",
                         position: "playbook",
                         type: "LongText",
-                        value: "<p>When someone comes to you to ask for a favor, seek advice, bargain for info, or threaten your interests, they enter your web and owe you a Debt...even if you don’t offer them anything in return. People leave your web only when they no longer owe you a Debt. When someone is in your web, you gain the following:</p><ul><li>Take +1 ongoing to lend them a hand or get in their way</li><li>Add the following option whenever you figure them out: “what is your character’s true hunger?”</li><li>Spend a Debt (before rolling) when persuading them to advance persuade for the roll in addition to adding +3 to your total</li></ul><p>When time passes—or at the start of the game—choose someone in your web and learn a secret about them that they’d rather keep buried. Mark corruption to ask a follow-up question about the answer; their player must answer you honestly.</p>",
+                        value: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.Web.value"),
                     },
                     TheVampHarbor: {
-                        label: "YOUR HARBOR",
-                        description: "You have a safe place—a haven—secure from outside dangers, located within a larger harbor. Your haven is a reinforced bolthole with emergency rations and an escape vector; when someone willingly enters your haven, add them to your web. Your harbor is a public-facing staple of the community (Choose one):",
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.Harbor.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.Harbor.description"),
                         playbook: "the-vamp",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "a flashy nightclub",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.Harbor.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "an oversized restaurant",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.Harbor.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "an outdated library",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.Harbor.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "a public transport station",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.Harbor.options.3"),
                                 value: false,
                             },
                             4: {
-                                label: "a restored theater",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.Harbor.options.4"),
                                 value: false,
                             },
                             5: {
-                                label: "a religious hospital",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.Harbor.options.5"),
                                 value: false,
                             },
                             6: {
-                                label: "a historic hotel",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.Harbor.options.6"),
                                 value: false,
                             },
                             7: {
-                                label: "an open-air market",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.Harbor.options.7"),
                                 value: false,
                             },
                         },
                     },
                     TheVampHarborAdvantages: {
                         label: "",
-                        description: "CHOOSE 2 ADVANTAGES:",
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.HarborAdvantages.description"),
                         playbook: "the-vamp",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "your harbor is popular with ordinary mortals, giving you easy access to unsuspecting prey",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.HarborAdvantages.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "your harbor hosts a way to quickly dispose of bodies, attracting little to no suspicion",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.HarborAdvantages.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "your harbor is directly controlled by an allied Status-3 NPC from Night, granting you some limited protections",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.HarborAdvantages.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "your harbor allows you a space to entertain and entrance admirers, bringing in a steady stream of gifts and favors",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.HarborAdvantages.options.3"),
                                 value: false,
                             },
                             4: {
-                                label: "your harbor is staffed by ghouls loyal to you, bringing you news of anything they hear or see",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.HarborAdvantages.options.4"),
                                 value: false,
                             },
                         },
                     },
                     TheVampHarborDangers: {
                         label: "",
-                        description: "CHOOSE 2 DANGERS:",
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.HarborDangers.description"),
                         playbook: "the-vamp",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "your harbor lies within the territory of a Status-3 vampire lord; they often demand tribute and Debts",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.HarborDangers.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "your harbor is home to a number of ghostly entities; they range from mildly annoying to deeply dangerous",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.HarborDangers.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "your harbor has attracted the attention of a dedicated group of mortal hunters; they may soon make their move",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.HarborDangers.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "your harbor is constantly busy, day and night; those who frequent it make strict security impossible",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.HarborDangers.options.3"),
                                 value: false,
                             },
                             4: {
-                                label: "your harbor is closely tied to several mortals you care for; they have been thrust into the supernatural world by your unlife",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.HarborDangers.options.4"),
                                 value: false,
                             },
                         },
                     },
                     TheVeteranWorkshop: {
-                        label: "YOUR WORKSHOP",
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVeteran.Workshop.label"),
                         description: "",
                         playbook: "the-veteran",
                         position: "playbook",
                         type: "LongText",
-                        value: "<p>You have a workshop that includes a large space for your tools and/or supplies. When you go into your workshop to work on something, the MC tells you, “Sure, no problem, but…” and then 1 to 4 of the following.</p><ul><li>It’s going to take you hours/days/weeks/months of work or recovery time</li><li>First you’ll have to summon/build/construct ________</li><li>You’ll require the services of ________ to complete it</li><li>You require a rare and expensive ingredient or material</li><li>It will only work for a short time, and may be unreliable</li><li>It’s going to mean exposing anyone nearby to serious fallout</li><li>Your workshop lacks _______; add this and you’ll be able to complete it</li><li>It will require a part of yourself to complete</li><li>You must journey to ________ in order to complete it</li></ul><p>The MC can combine any set of requirements or offer two sets of costs to the same task. Once the requirements are completed, the work is completed. The MC will stat it up, reveal some info, or whatever is called for now that you’ve finished.</p><p>Items created in your workshop are safe from the MC. They can’t be destroyed or taken without your permission, even if you sell or give them away to another character. When you create something specifically for another character, mark their Circle when the project is complete.</p><p>Choose and underline 3 resources your workshop includes: <em>automotive hoist and tools, a darkroom, a regulated growing environment, two or three skilled assistants, a junkyard of raw materials, machining tools, transmitters and receivers, a testing ground, deadly booby traps, a library of old books, a scattering of ancient relics, a mystical focus, magical wards, a medical station, an operating room, high-tech electronics and computers, an advanced surveillance system, a forge, a science lab, a portal to another dimension</em></p>",
+                        value: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVeteran.Workshop.value"),
                     },
                     TheWizardSanctum: {
-                        label: "YOUR SANCTUM",
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWizard.Sanctum.label"),
                         description: "",
                         playbook: "the-wizard",
                         position: "playbook",
                         type: "LongText",
-                        value: "<p>Choose and underline 4 resources of your sanctum:</p> <ul> <li>an extremely knowledgeable assistant</li> <li>a testing ground</li> <li>magical booby traps</li> <li>a library of old tomes</li> <li>a scattering of ancient relics</li> <li>a mystical prison</li> <li>magical wards</li> <li>a portal to another dimension</li> <li>a focus circle</li> <li>an apothecary</li> </ul> <p>Choose and underline 2 downsides of your Sanctum:</p> <ul> <li>it's cursed by a previous owner</li> <li>it attracts otherworldly attention</li> <li>it contains many volatile substances</li> <li>its location is known by many</li> <li>it always lacks a key piece or ingredient</li> <li>it's tough for you to access</li> <li>it contains secrets unfamiliar even to you</li> </ul> <p>When you go into your sanctum to work on something, the MC will tell you, \"Sure, no problem, but…\" and then 1 to 4 of the following:</p> <ul> <li>It's going to take you hours/days/weeks/months of work or recovery time</li> <li>First you'll have to summon/build/construct ________</li> <li>You'll require the services of ________ to complete it</li> <li>You require a rare and expensive ingredient or material</li> <li>It will only work for a short time, and may be unreliable</li> <li>It's going to mean exposing anyone nearby to serious fallout</li> <li>Your sanctum lacks ________; add this and you'll be able to complete it</li> <li>It will require a part of yourself or comparable sacrifice to complete</li> <li>You must journey to________ in order to complete it</li> </ul> <p>The MC can combine any set of requirements or offer two sets of costs to the same task. Once the requirements are completed, the work is completed. The MC will stat it up, reveal some info, or whatever is called for now that you've finished.</p>",
+                        value: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWizard.Sanctum.value"),
                     },
                     TheWolfTerritory1: {
-                        label: "YOUR TERRITORY",
-                        description: "You’ve claimed an area of the city as your own. By default, your territory covers a city block or two and has the trouble: +crime. CHOOSE 2:",
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory1.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory1.description"),
                         playbook: "the-wolf",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "Your territory spans several city blocks you’ve owned for years (add blessing: +influence)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory1.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "People in your territory work hard to keep the streets safe (remove +crime)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory1.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "You are widely accepted as this place’s protector (add blessing: +supported)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory1.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "Your territory includes open grounds for you to roam and hunt (add blessing: +sanctuary)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory1.options.3"),
                                 value: false,
                             },
                             4: {
-                                label: "You’ve made a deal with someone, or something, to protect your territory when you’re not around (add blessing: +guardian)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory1.options.4"),
                                 value: false,
                             },
                         },
                     },
                     TheWolfTerritory2: {
                         label: "",
-                        description: "CHOOSE 2:",
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory2.description"),
                         playbook: "the-wolf",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "Your territory owes fealty to someone more powerful than you (add trouble: +obligations)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory2.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "A Status-3 NPC wants your territory and is working to get it (add trouble: +encroachment)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory2.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "Mortals in the area are actively trying to revitalize local businesses and infrastructure (add trouble: +upheaval)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory2.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "Your territory is plagued by a mystical or supernatural presence (add trouble: +haunted)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory2.options.3"),
                                 value: false,
                             },
                             4: {
-                                label: "You have offered protection within your territory to someone, and now their problems are yours (add trouble: +fealty)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory2.options.4"),
                                 value: false,
                             },
                         },
                     },
 
                     TheWolfTransformationQualities: {
-                        label: "THE TRANSFORMATION",
-                        description: "By default, you can change into your wolf form—at will—in the sight of the moon: you gain natural weaponry (2-harm), 1-armor, and all of the qualities and weaknesses you choose below. CHOOSE 3 QUALITIES:",
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationQualities.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationQualities.description"),
                         playbook: "the-wolf",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "You are massive: gain armor+1 and harm +1",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationQualities.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "You are savage: your harm is armor piercing (ap) and messy",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationQualities.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "You are versatile: take +1 ongoing to letting it out",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationQualities.options.2"),
                                 value: false,
                             },  
                             3: {
-                                label: "You are swift: take +1 ongoing to escaping",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationQualities.options.3"),
                                 value: false,
                             },
                             4: {
-                                label: "You are cunning: take +1 ongoing to keeping your cool",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationQualities.options.4"),
                                 value: false,
                             },
                             5: {
-                                label: "You are steadfast: you fight like a small group against groups",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationQualities.options.5"),
                                 value: false,
                             },
                         },
                     },
                     TheWolfTransformationWeaknesses: {
                         label: "",
-                        description: "CHOOSE 3 WEAKNESSES:",
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationWeaknesses.description"),
                         playbook: "the-wolf",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "Silver weapons ignore your armor and inflict harm+1",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationWeaknesses.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "Sometimes you lose control while transformed",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationWeaknesses.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "Sometimes you transform when you are stressed or angry",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationWeaknesses.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "The transformation is brief; you shift back at the end of a scene",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationWeaknesses.options.3"),
                                 value: false,
                             },
                             4: {
-                                label: "The transformation is violent and painful; suffer 1-harm (ap)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationWeaknesses.options.4"),
                                 value: false,
                             },
                             5: {
-                                label: "The transformation draws the attention of supernatural creatures",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationWeaknesses.options.5"),
                                 value: false,
                             },
                         },
@@ -1332,121 +1332,121 @@ export const configSheet = async () => {
                 },
                 details: {
                     lookOne: {
-                        label: "Look",
+                        label: game.i18n.localize("US2E.CharacterSheets.details.lookLabel"),
                         value: "",
                         playbook: true
                     },
                     lookTwo: {
-                        label: "Look Two",
+                        label: game.i18n.localize("US2E.CharacterSheets.details.lookLabel"),
                         value: "",
                         playbook: true
                     },
                     lookThree: {
-                        label: "Look Three",
+                        label: game.i18n.localize("US2E.CharacterSheets.details.lookLabel"),
                         value: "",
                         playbook: true
                     },
                     demeanor: {
-                        label: "Demeanor",
+                        label: game.i18n.localize("US2E.CharacterSheets.details.demeanorLabel"),
                         value: "",
                         playbook: true
                     },
                     questionOne: {
-                        label: "Questions",
+                        label: game.i18n.localize("US2E.CharacterSheets.details.questionsLabel"),
                         value: "",
                         playbook: true
                     },
                     questionTwo: {
-                        label: "Question Two",
+                        label: game.i18n.localize("US2E.CharacterSheets.details.questionsLabel"),
                         value: "",
                         playbook: true
                     },
                     questionThree: {
-                        label: "Question Three",
+                        label: game.i18n.localize("US2E.CharacterSheets.details.questionsLabel"),
                         value: "",
                         playbook: true
                     },
                     questionFour: {
-                        label: "Question Four",
+                        label: game.i18n.localize("US2E.CharacterSheets.details.questionsLabel"),
                         value: "",
                         playbook: true
                     },
                     questionFive: {
-                        label: "Question Five",
+                        label: game.i18n.localize("US2E.CharacterSheets.details.questionsLabel"),
                         value: "",
                         playbook: true
                     },
                     notes: {
-                        label: "Notes",
+                        label: game.i18n.localize("US2E.CharacterSheets.details.notesLabel"),
                         value: "",
                     }
                 },
                 moveTypes: {
                     basic: {
-                        label: "Basic Moves",
+                        label: game.i18n.localize("US2E.CharacterSheets.moveTypes.basicLabel"),
                         playbook: false,
                         creation: true
                     },
                     playbook: {
-                        label: "Playbook Moves",
+                        label: game.i18n.localize("US2E.CharacterSheets.moveTypes.playbookLabel"),
                         playbook: true,
                         creation: false
                     },
                     debt: {
-                        label: "Debt Moves",
+                        label: game.i18n.localize("US2E.CharacterSheets.moveTypes.debtMovesLabel"),
                         playbook: false,
                         creation: true
                     },
                     circle: {
-                        label: "Circle Moves",
+                        label: game.i18n.localize("US2E.CharacterSheets.moveTypes.circleMovesLabel"),
                         playbook: false,
                         creation: true
                     },
                     city: {
-                        label: "City Moves",
+                        label: game.i18n.localize("US2E.CharacterSheets.moveTypes.cityMovesLabel"),
                         playbook: false,
                         creation: false
                     },
                     hub: {
-                        label: "Hub Moves",
+                        label: game.i18n.localize("US2E.CharacterSheets.moveTypes.hubMovesLabel"),
                         playbook: false,
                         creation: false
                     },
                     corruption: {
-                        label: "Corruption Moves",
+                        label: game.i18n.localize("US2E.CharacterSheets.moveTypes.corruptionMovesLabel"),
                         playbook: true,
                         creation: false
                     },
                     spells: {
-                        label: "Spells",
+                        label: game.i18n.localize("US2E.CharacterSheets.moveTypes.spellsLabel"),
                         playbook: true,
                         creation: false
                     }
                 },
                 equipmentTypes: {
                     gear: {
-                        label: "Gear"
+                        label: game.i18n.localize("US2E.CharacterSheets.equipmentTypes.gearLabel")
                     },
                     debt: {
-                        label: "Debt"
+                        label: game.i18n.localize("US2E.CharacterSheets.equipmentTypes.debtLabel")
                     }
                 }
             },
             faction: {
-                label: "Faction",
+                label: game.i18n.localize("US2E.FactionSheets.label"),
                 stats: {
                     size: {
-                        label: "Size",
+                        label: game.i18n.localize("US2E.FactionSheets.stats.sizeLabel"),
                         value: 0
                     },
                     strength: {
-                        label: "Strength",
+                        label: game.i18n.localize("US2E.FactionSheets.stats.strengthLabel"),
                         value: 0
                     }
                 },
                 attributes: {
                     circles: {
-                        label: "Circle(s)",
+                        label: game.i18n.localize("US2E.FactionSheets.attributes.circlesLabel"),
                         description: "",
                         customLabel: false,
                         userLabel: false,
@@ -1458,26 +1458,26 @@ export const configSheet = async () => {
                         sort: false,
                         options: {
                             0: {
-                                label: "Mortalis",
+                                label: game.i18n.localize("US2E.NPCSheets.circleOptions.mortalisLabel"),
                                 value: false
                             },
                             1: {
-                                label: "Night",
+                                label: game.i18n.localize("US2E.NPCSheets.circleOptions.nightLabel"),
                                 value: false
                             },
                             2: {
-                                label: "Power",
+                                label: game.i18n.localize("US2E.NPCSheets.circleOptions.powerLabel"),
                                 value: false
                             },
                             3: {
-                                label: "Wild",
+                                label: game.i18n.localize("US2E.NPCSheets.circleOptions.wildLabel"),
                                 value: false
                             }
                         }
                     },
                     recruitment: {
-                        label: "Recruitment",
-                        description: "Filling this track adds +1 to Size. If something reduces the Size of a faction, the track clears.",
+                        label: game.i18n.localize("US2E.FactionSheets.attributes.recruitmentLabel"),
+                        description: game.i18n.localize("US2E.FactionSheets.attributes.recruitmentDescription"),
                         customLabel: false,
                         userLabel: false,
                         playbook: null,
@@ -1488,8 +1488,8 @@ export const configSheet = async () => {
                         max: 3
                     },
                     resources: {
-                        label: "Resources",
-                        description: "Filling this track adds +1 Strength and gains a new asset. If something reduces the Strength of a faction, the resource track clears.",
+                        label: game.i18n.localize("US2E.FactionSheets.attributes.resourcesLabel"),
+                        description: game.i18n.localize("US2E.FactionSheets.attributes.resourcesDescription"),
                         customLabel: false,
                         userLabel: false,
                         playbook: null,
@@ -1500,7 +1500,7 @@ export const configSheet = async () => {
                         max: 3
                     },
                     stance: {
-                        label: "Stance",
+                        label: game.i18n.localize("US2E.FactionSheets.attributes.stanceLabel"),
                         description: "",
                         customLabel: false,
                         userLabel: false,
@@ -1512,21 +1512,21 @@ export const configSheet = async () => {
                         sort: false,
                         options: {
                             0: {
-                                label: "Striving",
+                                label: game.i18n.localize("US2E.FactionSheets.attributes.stanceOptions.strivingLabel"),
                                 value: false
                             },
                             1: {
-                                label: "Maintaining",
+                                label: game.i18n.localize("US2E.FactionSheets.attributes.stanceOptions.maintainingLabel"),
                                 value: false
                             },
                             2: {
-                                label: "Collapsing",
+                                label: game.i18n.localize("US2E.FactionSheets.attributes.stanceOptions.collapsingLabel"),
                                 value: false
                             }
                         }
                     },
                     goals: {
-                        label: "Goals",
+                        label: game.i18n.localize("US2E.FactionSheets.attributes.goalsLabel"),
                         description: null,
                         customLabel: false,
                         userLabel: false,
@@ -1537,7 +1537,7 @@ export const configSheet = async () => {
                         value: ""
                     },
                     leaders: {
-                        label: "Leaders",
+                        label: game.i18n.localize("US2E.FactionSheets.attributes.leadersLabel"),
                         description: null,
                         customLabel: false,
                         userLabel: false,
@@ -1548,7 +1548,7 @@ export const configSheet = async () => {
                         value: ""
                     },
                     assets: {
-                        label: "Assets",
+                        label: game.i18n.localize("US2E.FactionSheets.attributes.assetsLabel"),
                         description: null,
                         customLabel: false,
                         userLabel: false,
@@ -1561,19 +1561,19 @@ export const configSheet = async () => {
                 },
                 details: {
                     notes: {
-                        label: "Notes",
+                        label: game.i18n.localize("US2E.CharacterSheets.details.notesLabel"),
                         value: "",
                         type: "LongText"
                     }
                 },
                 moveTypes: {
                     faction: {
-                        label: "Faction Moves"
+                        label: game.i18n.localize("US2E.FactionSheets.moveTypes.factionMovesLabel")
                     }
                 },
                 equipmentTypes: {
                     assets: {
-                        label: "Assets"
+                        label: game.i18n.localize("US2E.FactionSheets.equipmentTypes.assetsLabel")
                     }
                 },
                 baseType: "character"
@@ -1581,7 +1581,7 @@ export const configSheet = async () => {
             npc: {
                 attributes: {
                     harm: {
-                        label: "Harm Capacity",
+                        label: game.i18n.localize("US2E.NPCSheets.attributes.harmCapacityLabel"),
                         description: null,
                         customLabel: false,
                         userLabel: false,
@@ -1593,7 +1593,7 @@ export const configSheet = async () => {
                         max: 1
                     },
                     status: {
-                        label: "Status",
+                        label: game.i18n.localize("US2E.NPCSheets.attributes.statusLabel"),
                         description: null,
                         customLabel: false,
                         userLabel: false,
@@ -1605,7 +1605,7 @@ export const configSheet = async () => {
                         max: 3
                     },
                     circle: {
-                        label: "Circle",
+                        label: game.i18n.localize("US2E.NPCSheets.attributes.circleLabel"),
                         description: null,
                         customLabel: false,
                         userLabel: false,
@@ -1617,25 +1617,25 @@ export const configSheet = async () => {
                         sort: false,
                         options: {
                             0: {
-                                label: "Mortalis",
+                                label: game.i18n.localize("US2E.NPCSheets.circleOptions.mortalisLabel"),
                                 value: false
                             },
                             1: {
-                                label: "Night",
+                                label: game.i18n.localize("US2E.NPCSheets.circleOptions.nightLabel"),
                                 value: false
                             },
                             2: {
-                                label: "Power",
+                                label: game.i18n.localize("US2E.NPCSheets.circleOptions.powerLabel"),
                                 value: false
                             },
                             3: {
-                                label: "Wild",
+                                label: game.i18n.localize("US2E.NPCSheets.circleOptions.wildLabel"),
                                 value: false
                             }
                         }
                     },
                     faction: {
-                        label: "Faction",
+                        label: game.i18n.localize("US2E.NPCSheets.attributes.factionLabel"),
                         description: null,
                         customLabel: false,
                         userLabel: false,
@@ -1647,7 +1647,7 @@ export const configSheet = async () => {
                     },
                     // side
                     drives: {
-                        label: "Drives",
+                        label: game.i18n.localize("US2E.NPCSheets.attributes.drivesLabel"),
                         description: null,
                         customLabel: false,
                         userLabel: false,
@@ -1658,7 +1658,7 @@ export const configSheet = async () => {
                         value: ""
                     },
                     resistances: {
-                        label: "Resistances",
+                        label: game.i18n.localize("US2E.NPCSheets.attributes.resistancesLabel"),
                         description: null,
                         customLabel: false,
                         userLabel: false,
@@ -1669,7 +1669,7 @@ export const configSheet = async () => {
                         value: ""
                     },
                     vulnerabilities: {
-                        label: "Vulnerabilities",
+                        label: game.i18n.localize("US2E.NPCSheets.attributes.vulnerabilitiesLabel"),
                         description: null,
                         customLabel: false,
                         userLabel: false,
@@ -1682,37 +1682,37 @@ export const configSheet = async () => {
                 },
                 details: {
                     look: {
-                        label: "Look",
+                        label: game.i18n.localize("US2E.NPCSheets.details.lookLabel"),
                         value: ""
                     },
                     demeanor: {
-                        label: "Demeanor",
+                        label: game.i18n.localize("US2E.NPCSheets.details.demeanorLabel"),
                         value: ""
                     },
                     information: {
-                        label: "Information",
-                        value: "Role: <br>Trait: <br>Quirk: <br>Presenting: "
+                        label: game.i18n.localize("US2E.NPCSheets.details.informationLabel"),
+                        value: game.i18n.localize("US2E.NPCSheets.details.informationValue")
                     },
                     debts: {
-                        label: "Debts",
+                        label: game.i18n.localize("US2E.NPCSheets.details.debtsLabel"),
                         value: ""
                     },
                     notes: {
-                        label: "Notes",
+                        label: game.i18n.localize("US2E.NPCSheets.details.notesLabel"),
                         value: ""
                     }
                 },
                 moveTypes: {
                     npc: {
-                        label: "NPC Moves"
+                        label: game.i18n.localize("US2E.NPCSheets.moveTypes.npcMovesLabel")
                     }
                 },
                 equipmentTypes: {
                     gear: {
-                        label: "Gear"
+                        label: game.i18n.localize("US2E.NPCSheets.equipmentTypes.gearLabel")
                     },
                     debt: {
-                        label: "Debt"
+                        label: game.i18n.localize("US2E.NPCSheets.equipmentTypes.debtLabel")
                     }
                 }
             }

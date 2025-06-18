@@ -46,11 +46,26 @@
             "statToggle": "Stat Toggle",
             "details": {
                 "biographyLabel": "Biography",
-                "looksLabel": "Looks"
+                "lookLabel": "Looks",
+                "demeanorLabel": "Demeanor",
+                "questionsLabel": "Questions",
+                "notesLabel": "Notes"
             },
             "moveTypes": {
                 "basicLabel": "Basic Moves",
-                "playbookLabel": "Playbook Moves"
+                "playbookLabel": "Playbook Moves",
+                "basicMovesLabel": "Basic Moves",
+                "playbookMovesLabel": "Playbook Moves",
+                "debtMovesLabel": "Debt Moves",
+                "circleMovesLabel": "Circle Moves",
+                "cityMovesLabel": "City Moves",
+                "hubMovesLabel": "Hub Moves",
+                "corruptionMovesLabel": "Corruption Moves",
+                "spellsLabel": "Spells"
+            },
+            "equipmentTypes": {
+                "gearLabel": "Gear",
+                "debtLabel": "Debt"
             },
             "Attributes": {
                 "harm": {
@@ -195,7 +210,7 @@
                 "TheAWARE": {
                     "MortalRelationships": {
                         "label": "Mortal Relationships (Choose 3):",
-                        "description": "While you ride the line between the mortal and supernatural worlds, your friends and family are stuck firmly in the mundane realities of everyday life. When one of your mortal relationships comes to an end for any reason—they cut you off, they die, they leave the city, you tell them to stop contacting you, etc.— immediately mark a corruption advance. If losing a mortal relationship causes you to retire your character due to corruption, tell the MC whom you most blame for the loss; your character will pursue the person responsible as a Threat until \"justice\" is served.",
+                        "description": "While you ride the line between the mortal and supernatural worlds, your friends and family are stuck firmly in the mundane realities of everyday life. When one of your mortal relationships comes to an end for any reason—they cut you off, they die, they leave the city, you tell them to stop contacting you, etc.— immediately mark a corruption advance. If losing a mortal relationship causes you to retire your character due to corruption, tell the MC whom you most blame for the loss; your character will pursue the person responsible as a Threat until \\\"justice\\\" is served.",
                         "options": {
                             "0": "A younger sibling who relies on you for transportation and advice",
                             "1": "A loyal significant other who expects you home by midnight",
@@ -458,6 +473,104 @@
                         }
                     }
                 },
+                "TheVamp": {
+                    "Web": {
+                        "label": "YOUR WEB",
+                        "value": "<p>When someone comes to you to ask for a favor, seek advice, bargain for info, or threaten your interests, they enter your web and owe you a Debt...even if you don't offer them anything in return. People leave your web only when they no longer owe you a Debt. When someone is in your web, you gain the following:</p><ul><li>Take +1 ongoing to lend them a hand or get in their way</li><li>Add the following option whenever you figure them out: \\\"what is your character's true hunger?\\\"</li><li>Spend a Debt (before rolling) when persuading them to advance persuade for the roll in addition to adding +3 to your total</li></ul><p>When time passes—or at the start of the game—choose someone in your web and learn a secret about them that they'd rather keep buried. Mark corruption to ask a follow-up question about the answer; their player must answer you honestly.</p>"
+                    },
+                    "Harbor": {
+                        "label": "YOUR HARBOR",
+                        "description": "You have a safe place—a haven—secure from outside dangers, located within a larger harbor. Your haven is a reinforced bolthole with emergency rations and an escape vector; when someone willingly enters your haven, add them to your web. Your harbor is a public-facing staple of the community (Choose one):",
+                        "options": {
+                            "0": "a flashy nightclub",
+                            "1": "an oversized restaurant",
+                            "2": "an outdated library",
+                            "3": "a public transport station",
+                            "4": "a restored theater",
+                            "5": "a religious hospital",
+                            "6": "a historic hotel",
+                            "7": "an open-air market"
+                        }
+                    },
+                    "HarborAdvantages": {
+                        "description": "CHOOSE 2 ADVANTAGES:",
+                        "options": {
+                            "0": "your harbor is popular with ordinary mortals, giving you easy access to unsuspecting prey",
+                            "1": "your harbor hosts a way to quickly dispose of bodies, attracting little to no suspicion",
+                            "2": "your harbor is directly controlled by an allied Status-3 NPC from Night, granting you some limited protections",
+                            "3": "your harbor allows you a space to entertain and entrance admirers, bringing in a steady stream of gifts and favors",
+                            "4": "your harbor is staffed by ghouls loyal to you, bringing you news of anything they hear or see"
+                        }
+                    },
+                    "HarborDangers": {
+                        "description": "CHOOSE 2 DANGERS:",
+                        "options": {
+                            "0": "your harbor lies within the territory of a Status-3 vampire lord; they often demand tribute and Debts",
+                            "1": "your harbor is home to a number of ghostly entities; they range from mildly annoying to deeply dangerous",
+                            "2": "your harbor has attracted the attention of a dedicated group of mortal hunters; they may soon make their move",
+                            "3": "your harbor is constantly busy, day and night; those who frequent it make strict security impossible",
+                            "4": "your harbor is closely tied to several mortals you care for; they have been thrust into the supernatural world by your unlife"
+                        }
+                    }
+                },
+                "TheVeteran": {
+                    "Workshop": {
+                        "label": "YOUR WORKSHOP",
+                        "value": "<p>You have a workshop that includes a large space for your tools and/or supplies. When you go into your workshop to work on something, the MC tells you, \\\"Sure, no problem, but…\\\" and then 1 to 4 of the following.</p><ul><li>It's going to take you hours/days/weeks/months of work or recovery time</li><li>First you'll have to summon/build/construct ________</li><li>You'll require the services of ________ to complete it</li><li>You require a rare and expensive ingredient or material</li><li>It will only work for a short time, and may be unreliable</li><li>It's going to mean exposing anyone nearby to serious fallout</li><li>Your workshop lacks _______; add this and you'll be able to complete it</li><li>It will require a part of yourself to complete</li><li>You must journey to ________ in order to complete it</li></ul><p>The MC can combine any set of requirements or offer two sets of costs to the same task. Once the requirements are completed, the work is completed. The MC will stat it up, reveal some info, or whatever is called for now that you've finished.</p><p>Items created in your workshop are safe from the MC. They can't be destroyed or taken without your permission, even if you sell or give them away to another character. When you create something specifically for another character, mark their Circle when the project is complete.</p><p>Choose and underline 3 resources your workshop includes: <em>automotive hoist and tools, a darkroom, a regulated growing environment, two or three skilled assistants, a junkyard of raw materials, machining tools, transmitters and receivers, a testing ground, deadly booby traps, a library of old books, a scattering of ancient relics, a mystical focus, magical wards, a medical station, an operating room, high-tech electronics and computers, an advanced surveillance system, a forge, a science lab, a portal to another dimension</em></p>"
+                    }
+                },
+                "TheWizard": {
+                    "Sanctum": {
+                        "label": "YOUR SANCTUM",
+                        "value": "<p>Choose and underline 4 resources of your sanctum:</p> <ul> <li>an extremely knowledgeable assistant</li> <li>a testing ground</li> <li>magical booby traps</li> <li>a library of old tomes</li> <li>a scattering of ancient relics</li> <li>a mystical prison</li> <li>magical wards</li> <li>a portal to another dimension</li> <li>a focus circle</li> <li>an apothecary</li> </ul> <p>Choose and underline 2 downsides of your Sanctum:</p> <ul> <li>it's cursed by a previous owner</li> <li>it attracts otherworldly attention</li> <li>it contains many volatile substances</li> <li>its location is known by many</li> <li>it always lacks a key piece or ingredient</li> <li>it's tough for you to access</li> <li>it contains secrets unfamiliar even to you</li> </ul> <p>When you go into your sanctum to work on something, the MC will tell you, \\\"Sure, no problem, but…\\\" and then 1 to 4 of the following:</p> <ul> <li>It's going to take you hours/days/weeks/months of work or recovery time</li> <li>First you'll have to summon/build/construct ________</li> <li>You'll require the services of ________ to complete it</li> <li>You require a rare and expensive ingredient or material</li> <li>It will only work for a short time, and may be unreliable</li> <li>It's going to mean exposing anyone nearby to serious fallout</li> <li>Your sanctum lacks ________; add this and you'll be able to complete it</li> <li>It will require a part of yourself or comparable sacrifice to complete</li> <li>You must journey to________ in order to complete it</li> </ul> <p>The MC can combine any set of requirements or offer two sets of costs to the same task. Once the requirements are completed, the work is completed. The MC will stat it up, reveal some info, or whatever is called for now that you've finished.</p>"
+                    }
+                },
+                "TheWolf": {
+                    "Territory1": {
+                        "label": "YOUR TERRITORY",
+                        "description": "You've claimed an area of the city as your own. By default, your territory covers a city block or two and has the trouble: +crime. CHOOSE 2:",
+                        "options": {
+                            "0": "Your territory spans several city blocks you've owned for years (add blessing: +influence)",
+                            "1": "People in your territory work hard to keep the streets safe (remove +crime)",
+                            "2": "You are widely accepted as this place's protector (add blessing: +supported)",
+                            "3": "Your territory includes open grounds for you to roam and hunt (add blessing: +sanctuary)",
+                            "4": "You've made a deal with someone, or something, to protect your territory when you're not around (add blessing: +guardian)"
+                        }
+                    },
+                    "Territory2": {
+                        "description": "CHOOSE 2:",
+                        "options": {
+                            "0": "Your territory owes fealty to someone more powerful than you (add trouble: +obligations)",
+                            "1": "A Status-3 NPC wants your territory and is working to get it (add trouble: +encroachment)",
+                            "2": "Mortals in the area are actively trying to revitalize local businesses and infrastructure (add trouble: +upheaval)",
+                            "3": "Your territory is plagued by a mystical or supernatural presence (add trouble: +haunted)",
+                            "4": "You have offered protection within your territory to someone, and now their problems are yours (add trouble: +fealty)"
+                        }
+                    },
+                    "TransformationQualities": {
+                        "label": "THE TRANSFORMATION",
+                        "description": "By default, you can change into your wolf form—at will—in the sight of the moon: you gain natural weaponry (2-harm), 1-armor, and all of the qualities and weaknesses you choose below. CHOOSE 3 QUALITIES:",
+                        "options": {
+                            "0": "You are massive: gain armor+1 and harm +1",
+                            "1": "You are savage: your harm is armor piercing (ap) and messy",
+                            "2": "You are versatile: take +1 ongoing to letting it out",
+                            "3": "You are swift: take +1 ongoing to escaping",
+                            "4": "You are cunning: take +1 ongoing to keeping your cool",
+                            "5": "You are steadfast: you fight like a small group against groups"
+                        }
+                    },
+                    "TransformationWeaknesses": {
+                        "description": "CHOOSE 3 WEAKNESSES:",
+                        "options": {
+                            "0": "Silver weapons ignore your armor and inflict harm+1",
+                            "1": "Sometimes you lose control while transformed",
+                            "2": "Sometimes you transform when you are stressed or angry",
+                            "3": "The transformation is brief; you shift back at the end of a scene",
+                            "4": "The transformation is violent and painful; suffer 1-harm (ap)",
+                            "5": "The transformation draws the attention of supernatural creatures"
+                        }
+                    }
+                },
                 "TheTainted": {
                     "DarkPatron": {
                         "label": "YOUR DARK PATRON (Choose 2):",
@@ -499,8 +612,36 @@
                         "4": "Confused"
                     }
                 }
+            }
+        },
+        "FactionSheets": {
+            "label": "Faction",
+            "stats": {
+                "sizeLabel": "Size",
+                "strengthLabel": "Strength"
             },
-            "gearLabel": "Gear"
+            "attributes": {
+                "circlesLabel": "Circle(s)",
+                "recruitmentLabel": "Recruitment",
+                "recruitmentDescription": "Filling this track adds +1 to Size. If something reduces the Size of a faction, the track clears.",
+                "resourcesLabel": "Resources",
+                "resourcesDescription": "Filling this track adds +1 Strength and gains a new asset. If something reduces the Strength of a faction, the resource track clears.",
+                "stanceLabel": "Stance",
+                "stanceOptions": {
+                    "strivingLabel": "Striving",
+                    "maintainingLabel": "Maintaining",
+                    "collapsingLabel": "Collapsing"
+                },
+                "goalsLabel": "Goals",
+                "leadersLabel": "Leaders",
+                "assetsLabel": "Assets"
+            },
+            "moveTypes": {
+                "factionMovesLabel": "Faction Moves"
+            },
+            "equipmentTypes": {
+                "assetsLabel": "Assets"
+            }
         },
         "NPCSheets": {
             "attr": {
@@ -509,13 +650,39 @@
                 "flyLabel": "Can Fly?",
                 "ageLabel": "Age"
             },
+            "lootLabel": "Loot",
+            "attributes": {
+                "harmCapacityLabel": "Harm Capacity",
+                "statusLabel": "Status",
+                "circleLabel": "Circle",
+                "factionLabel": "Faction",
+                "drivesLabel": "Drives",
+                "resistancesLabel": "Resistances",
+                "vulnerabilitiesLabel": "Vulnerabilities"
+            },
             "details": {
-                "biographyLabel": "Biography"
+                "biographyLabel": "Biography",
+                "lookLabel": "Look",
+                "demeanorLabel": "Demeanor",
+                "informationLabel": "Information",
+                "informationValue": "Role: <br>Trait: <br>Quirk: <br>Presenting: ",
+                "debtsLabel": "Debts",
+                "notesLabel": "Notes"
             },
             "moveTypes": {
-                "basicLabel": "Basic Moves"
+                "basicLabel": "Basic Moves",
+                "npcMovesLabel": "NPC Moves"
             },
-            "lootLabel": "Loot"
+            "equipmentTypes": {
+                "gearLabel": "Gear",
+                "debtLabel": "Debt"
+            },
+            "circleOptions": {
+                "mortalisLabel": "Mortalis",
+                "nightLabel": "Night",
+                "powerLabel": "Power",
+                "wildLabel": "Wild"
+            }
         },
         "Tags": {
             "equipment": {
