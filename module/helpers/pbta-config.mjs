@@ -717,91 +717,91 @@ export const configSheet = async () => {
                         },
                     },
                     TheOracleBenefactor: {
-                        label: "YOUR BENEFACTOR",
-                        description: "You have a benefactor, a powerful NPC whose fate is intertwined with your own; you came into their service as a result of your prophetic visions, but they now demand more and more from you and your powers. Name their Circle—Mortalis, Night, Power, or Wild—and choose the prophecy that binds you together, two strengths, and two flaws: (Ask the MC what life your benefactor has provided for you after you make your choices. Their continued largesse depends on how well you serve their interests.)",
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Benefactor.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Benefactor.description"),
                         value: "<p><b>NAME:</b> </p><p><b>CIRCLE:</b> </p>",
                         playbook: "the-oracle",
                         position: "playbook",
                         type: "LongText",
                     },
                     TheOracleBenefactorProphecy: {
-                        label: "YOUR PROPHECY (Choose one):",
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Prophecy.label"),
                         description: "",
                         playbook: "the-oracle",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "they alone can guide you to the mystical answers you seek",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Prophecy.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "they alone can protect you from a dark fate you have foreseen",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Prophecy.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "they alone can destroy a uniquely evil foe within their own Circle",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Prophecy.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "they alone must play a critical role in the war against a coming darkness",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Prophecy.options.3"),
                                 value: false,
                             },
                         },
                     },
                     TheOracleBenefactorStrengths: {
                         label: "",
-                        description: "STRENGTHS (Choose two):",
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Strengths.description"),
                         playbook: "the-oracle",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "they are a Status-3 member of their Circle",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Strengths.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "they speak truthfully and honor their word",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Strengths.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "they wield significant supernatural power",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Strengths.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "their minions are disciplined and loyal",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Strengths.options.3"),
                                 value: false,
                             },
                         },
                     },
                     TheOracleBenefactorFlaws: {
                         label: "",
-                        description: "FLAWS (Choose two):",
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Flaws.description"),
                         playbook: "the-oracle",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "they are terrifyingly violent and cruel",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Flaws.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "they have defenses against your sight",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Flaws.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "they are at war with powerful enemies",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Flaws.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "they are madly in love with you",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Flaws.options.3"),
                                 value: false,
                             },
                         },
                     },
                     TheSpectreTrauma: {
-                        label: "TRAUMA",
-                        description: "Your sense of self has been shattered by your death, leaving you traumatized. You begin each session with at least 2-trauma marked, but can clear it—and any additional trauma you take—via trauma moves. If you ever fill your trauma track, the MC may call for you to make a trauma move at any time, but you may always choose which trauma move you make in the moment.  The first time you take harm in a scene, mark trauma; when you fill up on harm, your corpus is scattered. Mark trauma to reform in a few days at one of your anchors, or mark 3-trauma to reform immediately at an anchor of the MC’s choice. If you cannot mark trauma while destroyed, the MC decides how/when you reform.",
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.Trauma.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.Trauma.description"),
                         playbook: "the-spectre",
                         position: "playbook",
                         type: "Clock",
@@ -809,221 +809,221 @@ export const configSheet = async () => {
                         max: 5
                     },
                     TheSpectreAnchors: {
-                        label: "ANCHORS (Choose 4):",
-                        description: "You have several anchors in the city—important places, people, or objects that keep you from moving on. You might have an opportunity to put an anchor to rest, but anchors can also be ruined or destroyed. (When one of your anchors is put in danger, you know; mark trauma and take a +1 ongoing to all moves until you see it to safety. When you resolve an anchor, clear your trauma track and erase a corruption advance; when an anchor is destroyed or ruined, fill your trauma track and take a corruption advance.)",
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.Anchors.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.Anchors.description"),
                         playbook: "the-spectre",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "a family member or inheritor, unaware of your existence",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.Anchors.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "a witness to your death, bound to you by chance or fate",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.Anchors.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "a friendly household pet, constant companion in your unlife",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.Anchors.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "a beloved possession of your youth, passed to a new owner",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.Anchors.options.3"),
                                 value: false,
                             },
                             4: {
-                                label: "a marker of your success in life, now claimed by another",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.Anchors.options.4"),
                                 value: false,
                             },
                             5: {
-                                label: "an item related to your death, grimly marking your violent end",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.Anchors.options.5"),
                                 value: false,
                             },
                             6: {
-                                label: "a location of personal importance, a reminder of a past love",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.Anchors.options.6"),
                                 value: false,
                             },
                             7: {
-                                label: "a space you used to live or work, abandoned by the world",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.Anchors.options.7"),
                                 value: false,
                             },
                         },
                     },
                     TheSpectrePassingOn: {
-                        label: "PASSING ON",
-                        description: "When your last anchor is resolved or destroyed, you pass on; pick one blessing or haunting you bestow upon the city for each one of your anchors that was resolved or destroyed, respectively. If all four of your anchors are destroyed, you do not pass on, but are instead swallowed by oblivion and inflict all three hauntings. BLESSINGS:",
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.PassingOn.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.PassingOn.description"),
                         playbook: "the-spectre",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "you inspire an NPC to forgive someone who once wronged them, ending a long-standing conflict",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.PassingOn.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "you cleanse or restore a cherished place once thought by all to be ruined or beyond repair",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.PassingOn.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "you heal or restore someone you once injured or wronged",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.PassingOn.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "you reveal to an NPC the truth of your death and passing",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.PassingOn.options.3"),
                                 value: false,
                             },
                         },
                     },
                     TheSpectrePassingOn2: {
                         label: "",
-                        description: "HAUNTINGS:",
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.PassingOn2.description"),
                         playbook: "the-spectre",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "you leave behind a psychic reflection of your fear and anger, a terrible thing that hunts mortals in the night",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.PassingOn2.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "you imbue an object with nightmarish power; the MC chooses who ends up with the cursed item",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.PassingOn2.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "you drive an NPC close to you into a downward spiral",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.PassingOn2.options.2"),
                                 value: false,
                             },
                         },
                     },
                     TheSwornOathMasters: {
-                        label: "YOUR MASTERS (choose one):",
-                        description: "You’ve sworn an oath to serve an influential faction of Power, an organization that relies on you to protect its members, punish its enemies, and defend its holdings. Tell your MC to stat up your masters as a Size-3, Strength-3 faction within Power. Ask them what you know about the organization’s structure, culture, and assets.",
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathMasters.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathMasters.description"),
                         playbook: "the-sworn",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "an abbey of prescient oracles",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathMasters.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "a council of haughty wizards",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathMasters.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "an order of secret immortals",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathMasters.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "an academy of religious scholars",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathMasters.options.3"),
                                 value: false,
                             },
                             4: {
-                                label: "a covenant of earthbound deities",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathMasters.options.4"),
                                 value: false,
                             },
                         },
                     },
                     TheSwornOathCharged: {
-                        label: "YOU ARE CHARGED WITH (choose two):",
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathCharged.label"),
                         description: "",
                         playbook: "the-sworn",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "protecting and policing their members",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathCharged.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "recovering lost artifacts and tomes",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathCharged.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "investigating threats and problems",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathCharged.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "destroying those who would thwart them",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathCharged.options.3"),
                                 value: false,
                             },
                             4: {
-                                label: "negotiating with their allies and vassals",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathCharged.options.4"),
                                 value: false,
                             },
                         },
                     },
                     TheSwornVows: {
-                        label: "YOUR VOWS, You must… (choose 5):",
-                        description: "When you break one of your vows, mark corruption. When you take a corruption advance, cross out one of your vows—it no longer binds you. If you strike out every vow, your oath is broken—change playbooks immediately.",
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.Vows.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.Vows.description"),
                         playbook: "the-sworn",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "...never trespass on another’s property",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.Vows.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "...never strike the first blow",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.Vows.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "...never lie about your identity or purpose",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.Vows.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "...never reveal your faction’s secrets",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.Vows.options.3"),
                                 value: false,
                             },
                             4: {
-                                label: "...always avoid collateral damage",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.Vows.options.4"),
                                 value: false,
                             },
                             5: {
-                                label: "...always protect members of Power from harm",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.Vows.options.5"),
                                 value: false,
                             },
 
                             6: {
-                                label: "...always thwart the enemies of your masters",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.Vows.options.6"),
                                 value: false,
                             },
                             7: {
-                                label: "...always seize that which your masters desire",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.Vows.options.7"),
                                 value: false,
                             },
                         },
                     },
                     TheSwornOathWeapon: {
-                        label: "YOUR LEGENDARY WEAPON (Choose one):",
-                        description: "Your masters have given you a weapon (3-harm mythic anchored) to wield, a legendary artifact of an age long lost. So long as you bear this legendary armament, advance the named move. When you wield the weapon in the service of your masters, you can roll with Mind instead of Spirit when you keep your cool. But your weapon—like your oath—is bound to your loyalty. If your oath is broken, the weapon will be lost to you, even betraying you to ensure it exits your service.",
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathWeapon.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathWeapon.description"),
                         playbook: "the-sworn",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "a sword wielded by rightful kings (figure someone out)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathWeapon.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "a knife cut from demonic steel (mislead, distract or trick)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathWeapon.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "a spear stolen from heaven itself (let it out)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathWeapon.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "an axe forged in the blood of gods (turn to violence)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathWeapon.options.3"),
                                 value: false,
                             },
                             4: {
-                                label: "a staff imbued with stealthy sorcery (escape a situation)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathWeapon.options.4"),
                                 value: false,
                             },
                             5: {
-                                label: "a hammer blessed by otherworldly magic (keep your cool)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathWeapon.options.5"),
                                 value: false,
                             },
                         },
