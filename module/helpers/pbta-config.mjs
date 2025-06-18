@@ -6,47 +6,47 @@ export const configSheet = async () => {
         minMod: -3,
         maxMod: 4,
         statToggle: {
-            label: "Scar",
+            label: game.i18n.localize("US2E.Config.statToggle.label"),
             modifier: "-1"
         },
         rollResults: {
             miss: {
                 start: null,
                 end: 6,
-                label: "Miss"
+                label: game.i18n.localize("US2E.Config.rollResults.miss.label")
             },
             weakHit: {
                 start: 7,
                 end: 9,
-                label: "Weak Hit"
+                label: game.i18n.localize("US2E.Config.rollResults.weakHit.label")
             },
             strongHit: {
                 start: 10,
                 end: null,
-                label: "Strong Hit"
+                label: game.i18n.localize("US2E.Config.rollResults.strongHit.label")
             }
         },
         actorTypes: {
             character: {
                 stats: {
                     blood: {
-                        label: "Blood",
+                        label: game.i18n.localize("US2E.CharacterSheets.stats.blood"),
                         value: 0,
                     },
                     heart: {
-                        label: "Heart",
+                        label: game.i18n.localize("US2E.CharacterSheets.stats.heart"),
                         value: 0,
                     },
                     mind: {
-                        label: "Mind",
+                        label: game.i18n.localize("US2E.CharacterSheets.stats.mind"),
                         value: 0,
                     },
                     spirit: {
-                        label: "Spirit",
+                        label: game.i18n.localize("US2E.CharacterSheets.stats.spirit"),
                         value: 0,
                     },
                     mortalis: {
-                        label: "Mortalis",
+                        label: game.i18n.localize("US2E.CharacterSheets.stats.mortalis"),
                         value: 0,
                         steps: {
                             value: 0,
@@ -54,7 +54,7 @@ export const configSheet = async () => {
                         }
                     },
                     night: {
-                        label: "Night",
+                        label: game.i18n.localize("US2E.CharacterSheets.stats.night"),
                         value: 0,
                         steps: {
                             value: 0,
@@ -62,7 +62,7 @@ export const configSheet = async () => {
                         }
                     },
                     power: {
-                        label: "Power",
+                        label: game.i18n.localize("US2E.CharacterSheets.stats.power"),
                         value: 0,
                         steps: {
                             value: 0,
@@ -70,7 +70,7 @@ export const configSheet = async () => {
                         }
                     },
                     wild: {
-                        label: "Wild",
+                        label: game.i18n.localize("US2E.CharacterSheets.stats.wild"),
                         value: 0,
                         steps: {
                             value: 0,
@@ -80,7 +80,7 @@ export const configSheet = async () => {
                 },
                 attributes: {
                     harm: {
-                        label: "Harm",
+                        label: game.i18n.localize("US2E.CharacterSheets.Attributes.harm.label"),
                         description: null,
                         customLabel: false,
                         userLabel: false,
@@ -92,11 +92,11 @@ export const configSheet = async () => {
                         sort: false,
                         options: {
                             0: {
-                                label: "Armor",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.harm.options.0.label"),
                                 value: false
                             },
                             1: {
-                                label: "Faint",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.harm.options.1.label"),
                                 value: false
                             },
                             2: {
@@ -108,7 +108,7 @@ export const configSheet = async () => {
                                         value: false
                                     }
                                 },
-                                label: "Serious"
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.harm.options.2.label")
                             },
                             3: {
                                 values: {
@@ -119,13 +119,13 @@ export const configSheet = async () => {
                                         value: false
                                     }
                                 },
-                                label: "Critical"
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.harm.options.3.label")
                             }
                         }
                     },
                     advancement: {
-                        label: "Advancement",
-                        description: "When you've marked all four, clear & advance",
+                        label: game.i18n.localize("US2E.CharacterSheets.Attributes.advancement.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Attributes.advancement.description"),
                         customLabel: false,
                         userLabel: false,
                         playbook: null,
@@ -136,26 +136,26 @@ export const configSheet = async () => {
                         sort: false,
                         options: {
                             0: {
-                                label: "Mortalis",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.advancement.options.0.label"),
                                 value: false
                             },
                             1: {
-                                label: "Night",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.advancement.options.1.label"),
                                 value: false
                             },
                             2: {
-                                label: "Power",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.advancement.options.2.label"),
                                 value: false
                             },
                             3: {
-                                label: "Wild",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.advancement.options.3.label"),
                                 value: false
                             }
                         }
                     },
                     corruption: {
-                        label: "Corruption",
-                        description: "Corruption trigger: ",
+                        label: game.i18n.localize("US2E.CharacterSheets.Attributes.corruption.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Attributes.corruption.description"),
                         customLabel: false,
                         userLabel: false,
                         playbook: true,
@@ -166,8 +166,8 @@ export const configSheet = async () => {
                         max: 5
                     },
                     trauma: {
-                        label: "Trauma",
-                        description: "When you witness a scene of violence or victimization and do nothing, mark trauma and corruption.",
+                        label: game.i18n.localize("US2E.CharacterSheets.Attributes.trauma.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Attributes.trauma.description"),
                         customLabel: false,
                         userLabel: false,
                         playbook: "spectre",
@@ -178,8 +178,8 @@ export const configSheet = async () => {
                         max: 5
                     },
                     web: {
-                        label: "Your Web",
-                        description: "Those trapped in your web:",
+                        label: game.i18n.localize("US2E.CharacterSheets.Attributes.web.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Attributes.web.description"),
                         customLabel: false,
                         userLabel: false,
                         playbook: "vamp",
@@ -189,7 +189,7 @@ export const configSheet = async () => {
                         value: ""
                     },
                     letItOut: {
-                        label: "Let it out Abilities",
+                        label: game.i18n.localize("US2E.CharacterSheets.Attributes.letItOut.label"),
                         description: null,
                         customLabel: false,
                         userLabel: false,
@@ -200,7 +200,7 @@ export const configSheet = async () => {
                         value: ""
                     },
                     debts: {
-                        label: "Debts",
+                        label: game.i18n.localize("US2E.CharacterSheets.Attributes.debts.label"),
                         description: null,
                         customLabel: false,
                         userLabel: false,
@@ -211,8 +211,8 @@ export const configSheet = async () => {
                         value: ""
                     },
                     advancements: {
-                        label: "Advancements",
-                        description: "Available at the beginning of play:",
+                        label: game.i18n.localize("US2E.CharacterSheets.Attributes.advancements.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Attributes.advancements.description"),
                         customLabel: false,
                         userLabel: false,
                         playbook: true,
@@ -223,42 +223,42 @@ export const configSheet = async () => {
                         sort: false,
                         options: {
                             0: {
-                                label: "+1 Status (max+1)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.advancements.options.0.label"),
                                 value: false
                             },
                             1: {
-                                label: "+1 Status (max+1)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.advancements.options.1.label"),
                                 value: false
                             },
                             2: {
-                                label: "+1 Status (max+1)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.advancements.options.2.label"),
                                 value: false
                             },
                             3: {
-                                label: "a new Aware move",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.advancements.options.3.label"),
                                 value: false
                             },
                             4: {
-                                label: "a new Aware move",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.advancements.options.4.label"),
                                 value: false
                             },
                             5: {
-                                label: "a move from another archetype",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.advancements.options.5.label"),
                                 value: false
                             },
                             6: {
-                                label: "a move from another archetype",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.advancements.options.6.label"),
                                 value: false
                             },
                             7: {
-                                label: "open a new mortal relationship",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.advancements.options.7.label"),
                                 value: false
                             }
                         }
                     },
                     expertAdvancements: {
-                        label: "Expert advancements",
-                        description: "After five advances, you may select:",
+                        label: game.i18n.localize("US2E.CharacterSheets.Attributes.expertAdvancements.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Attributes.expertAdvancements.description"),
                         customLabel: false,
                         userLabel: false,
                         playbook: true,
@@ -269,42 +269,42 @@ export const configSheet = async () => {
                         sort: false,
                         options: {
                             0: {
-                                label: "+1 any Circle (max+3)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.expertAdvancements.options.0.label"),
                                 value: false
                             },
                             1: {
-                                label: "+1 any Circle (max+3)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.expertAdvancements.options.1.label"),
                                 value: false
                             },
                             2: {
-                                label: "Mortalis Status: 2",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.expertAdvancements.options.2.label"),
                                 value: false
                             },
                             3: {
-                                label: "erase a scar",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.expertAdvancements.options.3.label"),
                                 value: false
                             },
                             4: {
-                                label: "change your Circle",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.expertAdvancements.options.4.label"),
                                 value: false
                             },
                             5: {
-                                label: "advance 3 basic moves",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.expertAdvancements.options.5.label"),
                                 value: false
                             },
                             6: {
-                                label: "advance 3 basic moves",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.expertAdvancements.options.6.label"),
                                 value: false
                             },
                             7: {
-                                label: "change to a new archetype",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.expertAdvancements.options.7.label"),
                                 value: false
                             }
                         }
                     },
                     corruptionAdvances: {
-                        label: "Corruption advances",
-                        description: "Corruption represents your character slipping toward the worst parts of their nature. As your corruption mounts, your powers only grow...",
+                        label: game.i18n.localize("US2E.CharacterSheets.Attributes.corruptionAdvances.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Attributes.corruptionAdvances.description"),
                         customLabel: false,
                         userLabel: false,
                         playbook: true,
@@ -315,27 +315,27 @@ export const configSheet = async () => {
                         sort: false,
                         options: {
                             0: {
-                                label: "take +1 to any stat (max+3)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.corruptionAdvances.options.0.label"),
                                 value: false
                             },
                             1: {
-                                label: "take +1 to any stat (max+3)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.corruptionAdvances.options.1.label"),
                                 value: false
                             },
                             2: {
-                                label: "take a new corruption move",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.corruptionAdvances.options.2.label"),
                                 value: false
                             },
                             3: {
-                                label: "take a new corruption move",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.corruptionAdvances.options.3.label"),
                                 value: false
                             },
                             4: {
-                                label: "take a new corruption move from another archetype or your own",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.corruptionAdvances.options.4.label"),
                                 value: false
                             },
                             5: {
-                                label: "retire your character; they may return as a Threat",
+                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.corruptionAdvances.options.5.label"),
                                 value: false
                             }
                         }
@@ -374,344 +374,344 @@ export const configSheet = async () => {
                         },
                     },
                     TheFaePowers: {
-                        label: "FAERIE POWERS",
-                        description: "Choose three:",
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Powers.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Powers.description"),
                         playbook: "the-fae",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "Nature’s Caress: Your touch heals 2-harm, starting with critical harm; wounds close, bones knit back together, etc. You cannot use this power on yourself.",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Powers.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "Wither: You can imbue your touch with the power to kill (3-harm intimate ap). The effect is instantly understood by the target as an attack and leaves behind a nasty mark or scar at the point of contact.",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Powers.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "Glamours: You create illusions to fool the senses. The effects don’t last long, but they are compelling. You cannot disguise or conceal yourself or your actions with these tricks.",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Powers.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "Shape Change: You can change your shape into that of a small animal—a bird, a mouse, a snake, a fish, etc.—for a scene. Up to three people you designate can still understand your speech, but everyone else perceives you to be barking, chirping, etc.",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Powers.options.3"),
                                 value: false,
                             },
                             4: {
-                                label: "Bedlam: You can touch a vulnerable target to place them in a specific emotional state (your choice) for the scene. Mark corruption to have that emotion directed toward a target of your choosing.",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Powers.options.4"),
                                 value: false,
                             },
                         },
                     },
                     TheFaeCourtCourtIs: {
-                        label: "YOUR COURT",
-                        description: "You belong to a faerie court, presided over by a monarch to whom you have sworn loyalty. Your monarch holds 2 Debts over you; tell the MC what favors they granted you to earn such holdings. Your court is...",
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Court.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Court.description"),
                         playbook: "the-fae",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "baroque and formal",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Court.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "savage and unruly",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Court.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "aloof and cold",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Court.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "mysterious and exotic",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Court.options.3"),
                                 value: false,
                             },
                         },
                     },
                     TheFaeCourtMonarchsStanding: {
-                        label: "",
-                        description: "Your monarch’s standing is represented by…",
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.MonarchsStanding.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.MonarchsStanding.description"),
                         playbook: "the-fae",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "a crown, magically imbued with your court’s royal authority",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.MonarchsStanding.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "a scepter, forged from the elements of your court",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.MonarchsStanding.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "a magical aura, unconcealable by even faerie magics",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.MonarchsStanding.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "a seat of power, capable of summoning your entire court",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.MonarchsStanding.options.3"),
                                 value: false,
                             },
                         },
                     },
                     TheFaeCourtRival: {
                         label: "",
-                        description: "Your rival is…",
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Rival.description"),
                         playbook: "the-fae",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "a jealous sibling; you owe them a Debt for their loyalty",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Rival.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "a former lover; you owe them a Debt for their kindness",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Rival.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "an old mentor; you owe them a Debt for their tutelage",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Rival.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "a contemptuous peer; you owe them a Debt for their patience",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Rival.options.3"),
                                 value: false,
                             },
                         },
                     },
                     TheHunterSocietyPrey: {
-                        label: "YOUR SOCIETY",
-                        description: "You belong to a society of hunters, an affiliation of fellow mortals who stalk dangerous prey to protect the mortal world from the supernatural. Tell your MC to stat up your society as a Size-2, Strength-2 faction within Mortalis. WHAT IS YOUR PREY?",
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Society.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Society.description"),
                         playbook: "the-hunter",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "vampires who feed on the weak and coerced",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Society.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "demons who corrupt the good and the just",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Society.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "angels who subjugate the will of the faithful",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Society.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "ghosts who plague the lives of the innocent",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Society.options.3"),
                                 value: false,
                             },
                             4: {
-                                label: "wizards who abuse their power and authority",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Society.options.4"),
                                 value: false,
                             },
                         },
                     },
                     TheHunterSocietySacrifice: {
                         label: "",
-                        description: "WHAT DID YOU SACRIFICE TO JOIN?",
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Sacrifice.description"),
                         playbook: "the-hunter",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "my soul, forever tainted by magic ritual",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Sacrifice.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "my family, forever excised from my life",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Sacrifice.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "my childhood, forever lost to my training",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Sacrifice.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "my body, forever scarred by ceremony",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Sacrifice.options.3"),
                                 value: false,
                             },
                         },
                     },
                     TheHunterSocietyGather: {
                         label: "",
-                        description: "WHERE DOES YOUR SOCIETY GATHER?",
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Gather.description"),
                         playbook: "the-hunter",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "a swanky, expensive hotel",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Gather.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "a dive bar or gambling den",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Gather.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "a union or veterans hall",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Gather.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "hallowed religious ground",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Gather.options.3"),
                                 value: false,
                             },
                         },
                     },
                     TheImpEstablishmentServices: {
-                        label: "YOUR ESTABLISHMENT",
-                        description: "You once served a powerful demon, but you seized upon a loophole in your contracted fealty and won your freedom. Now you cater to supernatural clientele from all four Circles, securing your place in this world...for now. By default, your establishment has a permanent location, a small but loyal staff, and many regular customers. Choose two services you offer:",
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Establishment.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Establishment.description"),
                         playbook: "the-imp",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "Transporting and selling otherworldly creatures",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Establishment.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "Appraising and auctioning magical relics and artifacts",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Establishment.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "Creating forgeries, disguises, and stolen identities",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Establishment.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "Providing news, gossip, and rumor to the city at large",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Establishment.options.3"),
                                 value: false,
                             },
                             4: {
-                                label: "Operating a gathering place; name the relevant Circle",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Establishment.options.4"),
                                 value: false,
                             },
                         },
                     },
                     TheImpEstablishmentInvestments: {
                         label: "",
-                        description: "Choose two investments you’ve made over the years:",
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Investments.description"),
                         playbook: "the-imp",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "A skilled bodyguard dedicated solely to your security",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Investments.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "An expansive, expert staff appropriate to your services",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Investments.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "A secure venue, impenetrable by intruders and thieves",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Investments.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "A magical dead zone secured by wards and ritual",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Investments.options.3"),
                                 value: false,
                             },
                             4: {
-                                label: "A Status-3 regular in another Circle; take three Debts on them",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Investments.options.4"),
                                 value: false,
                             },
                         },
                     },
                     TheImpEstablishmentPlague: {
                         label: "",
-                        description: "Choose two problems that plague your business:",
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Plague.description"),
                         playbook: "the-imp",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "A dangerous competitor edging in on your market",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Plague.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "A hard-to-move acquisition attracting unwanted attention",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Plague.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "A besmirched reputation complicating any new deals",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Plague.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "A demonic ex-liege seeking your immediate return",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Plague.options.3"),
                                 value: false,
                             },
                             4: {
-                                label: "A severe state of disrepair endangering your staff",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Plague.options.4"),
                                 value: false,
                             },
                         },
                     },
                     TheImpSchemesText: {
-                        label: "YOUR SCHEMES",
-                        description: "Schemes are risky deals and shady cons designed to expand your business. When you generate a scheme, choose a primary Circle, one of your services, and two complications—the MC will tell you what opportunity you’ve seized upon. When you accomplish a scheme, select two boons and a payout; the MC will detail how they arrive. Generate a scheme whenever a boon or a move tells you to generate a new scheme. COMPLICATIONS: • you promised someone involved something you don’t yet have • you require an unreliable or untrustworthy co-conspirator • you must fool or deceive a powerful and dangerous NPC • you need to steal something from a secure location • you need to wait for a predetermined time or event • you have attracted the attention of dangerous opposition. BOONS: • attract new business; generate a new scheme • pay down your debts; cancel a Debt you owe • throw your weight around; take a Debt on an NPC • grow your reputation; mark a Circle affected by the deal.",
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemesText.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemesText.description"),
                         playbook: "the-imp",
                         position: "playbook",
                         type: "Text",
                     },
                     TheImpSchemePayouts1: {
-                        label: "PAYOUTS",
-                        description: "Available at the start of play:",
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts1.label"),
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts1.description"),
                         playbook: "the-imp",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "+1 any Circle (max+3)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts1.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "hire Fiendish Underlings",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts1.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "acquire an arsenal",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts1.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "secure a new investment",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts1.options.3"),
                                 value: false,
                             },
                             4: {
-                                label: "secure a new investment",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts1.options.4"),
                                 value: false,
                             },
                             5: {
-                                label: "resolve a problem",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts1.options.5"),
                                 value: false,
                             },
                         },
                     },
                     TheImpSchemePayouts2: {
                         label: "",
-                        description: "After 4+ payouts:",
+                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts2.description"),
                         playbook: "the-imp",
                         position: "playbook",
                         type: "ListMany",
                         options: {
                             0: {
-                                label: "+1 any Circle (max+3)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts2.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: "+1 Status (max+2)",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts2.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: "acquire a legendary weapon",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts2.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: "acquire a sanctum",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts2.options.3"),
                                 value: false,
                             },
                             4: {
-                                label: "get 2 new let it out abilities",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts2.options.4"),
                                 value: false,
                             },
                             5: {
-                                label: "retire your character to safety",
+                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts2.options.5"),
                                 value: false,
                             },
                         },
@@ -1756,4 +1756,4 @@ export const tagConfig = {
             '{"value":"US2E.Tags.equipment.weak.value", "editable":false, "description":"US2E.Tags.equipment.weak.description"}, ' +
             '{"value":"US2E.Tags.equipment.glows.value", "editable":false, "description":"US2E.Tags.equipment.glows.description"}]',
     },
-};  
+};

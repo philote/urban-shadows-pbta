@@ -3,6 +3,22 @@
         "SheetConfig": {
             "character": "Urban Shadows Character Sheet"
         },
+        "Config": {
+            "rollResults": {
+                "miss": {
+                    "label": "Miss"
+                },
+                "weakHit": {
+                    "label": "Weak Hit"
+                },
+                "strongHit": {
+                    "label": "Strong Hit"
+                }
+            },
+            "statToggle": {
+                "label": "Scar"
+            }
+        },
         "CharacterSheets": {
             "advancementsTab": "Advancements",
             "playbookTab": "Playbook",
@@ -21,7 +37,11 @@
                 "blood": "Blood",
                 "heart": "Heart",
                 "mind": "Mind",
-                "spirit": "Spirit"
+                "spirit": "Spirit",
+                "mortalis": "Mortalis",
+                "night": "Night",
+                "power": "Power",
+                "wild": "Wild"
             },
             "statToggle": "Stat Toggle",
             "details": {
@@ -32,18 +52,289 @@
                 "basicLabel": "Basic Moves",
                 "playbookLabel": "Playbook Moves"
             },
+            "Attributes": {
+                "harm": {
+                    "label": "Harm",
+                    "options": {
+                        "0": {
+                            "label": "Armor"
+                        },
+                        "1": {
+                            "label": "Faint"
+                        },
+                        "2": {
+                            "label": "Serious"
+                        },
+                        "3": {
+                            "label": "Critical"
+                        }
+                    }
+                },
+                "advancement": {
+                    "label": "Advancement",
+                    "description": "When you've marked all four, clear & advance",
+                    "options": {
+                        "0": {
+                            "label": "Mortalis"
+                        },
+                        "1": {
+                            "label": "Night"
+                        },
+                        "2": {
+                            "label": "Power"
+                        },
+                        "3": {
+                            "label": "Wild"
+                        }
+                    }
+                },
+                "corruption": {
+                    "label": "Corruption",
+                    "description": "Corruption trigger: "
+                },
+                "trauma": {
+                    "label": "Trauma",
+                    "description": "When you witness a scene of violence or victimization and do nothing, mark trauma and corruption."
+                },
+                "web": {
+                    "label": "Your Web",
+                    "description": "Those trapped in your web:"
+                },
+                "letItOut": {
+                    "label": "Let it out Abilities"
+                },
+                "debts": {
+                    "label": "Debts"
+                },
+                "advancements": {
+                    "label": "Advancements",
+                    "description": "Available at the beginning of play:",
+                    "options": {
+                        "0": {
+                            "label": "+1 Status (max+1)"
+                        },
+                        "1": {
+                            "label": "+1 Status (max+1)"
+                        },
+                        "2": {
+                            "label": "+1 Status (max+1)"
+                        },
+                        "3": {
+                            "label": "a new Aware move"
+                        },
+                        "4": {
+                            "label": "a new Aware move"
+                        },
+                        "5": {
+                            "label": "a move from another archetype"
+                        },
+                        "6": {
+                            "label": "a move from another archetype"
+                        },
+                        "7": {
+                            "label": "open a new mortal relationship"
+                        }
+                    }
+                },
+                "expertAdvancements": {
+                    "label": "Expert advancements",
+                    "description": "After five advances, you may select:",
+                    "options": {
+                        "0": {
+                            "label": "+1 any Circle (max+3)"
+                        },
+                        "1": {
+                            "label": "+1 any Circle (max+3)"
+                        },
+                        "2": {
+                            "label": "Mortalis Status: 2"
+                        },
+                        "3": {
+                            "label": "erase a scar"
+                        },
+                        "4": {
+                            "label": "change your Circle"
+                        },
+                        "5": {
+                            "label": "advance 3 basic moves"
+                        },
+                        "6": {
+                            "label": "advance 3 basic moves"
+                        },
+                        "7": {
+                            "label": "change to a new archetype"
+                        }
+                    }
+                },
+                "corruptionAdvances": {
+                    "label": "Corruption advances",
+                    "description": "Corruption represents your character slipping toward the worst parts of their nature. As your corruption mounts, your powers only grow...",
+                    "options": {
+                        "0": {
+                            "label": "take +1 to any stat (max+3)"
+                        },
+                        "1": {
+                            "label": "take +1 to any stat (max+3)"
+                        },
+                        "2": {
+                            "label": "take a new corruption move"
+                        },
+                        "3": {
+                            "label": "take a new corruption move"
+                        },
+                        "4": {
+                            "label": "take a new corruption move from another archetype or your own"
+                        },
+                        "5": {
+                            "label": "retire your character; they may return as a Threat"
+                        }
+                    }
+                }
+            },
             "Playbooks": {
                 "TheAWARE": {
                     "MortalRelationships": {
                         "label": "Mortal Relationships (Choose 3):",
-                        "description": "While you ride the line between the mortal and supernatural worlds, your friends and family are stuck firmly in the mundane realities of everyday life. When one of your mortal relationships comes to an end for any reason—they cut you off, they die, they leave the city, you tell them to stop contacting you, etc.— immediately mark a corruption advance. If losing a mortal relationship causes you to retire your character due to corruption, tell the MC whom you most blame for the loss; your character will pursue the person responsible as a Threat until “justice” is served.",
+                        "description": "While you ride the line between the mortal and supernatural worlds, your friends and family are stuck firmly in the mundane realities of everyday life. When one of your mortal relationships comes to an end for any reason—they cut you off, they die, they leave the city, you tell them to stop contacting you, etc.— immediately mark a corruption advance. If losing a mortal relationship causes you to retire your character due to corruption, tell the MC whom you most blame for the loss; your character will pursue the person responsible as a Threat until \"justice\" is served.",
                         "options": {
                             "0": "A younger sibling who relies on you for transportation and advice",
                             "1": "A loyal significant other who expects you home by midnight",
-                            "2": "A struggling best friend who’s always getting into messy altercations",
+                            "2": "A struggling best friend who's always getting into messy altercations",
                             "3": "A demanding boss who calls you into work at inconvenient times",
-                            "4": "An elderly parent who always knows when you’re lying to them",
+                            "4": "An elderly parent who always knows when you're lying to them",
                             "5": "An overbearing ex-partner who constantly worries about you"
+                        }
+                    }
+                },
+                "TheFae": {
+                    "Powers": {
+                        "label": "FAERIE POWERS",
+                        "description": "Choose three:",
+                        "options": {
+                            "0": "Nature's Caress: Your touch heals 2-harm, starting with critical harm; wounds close, bones knit back together, etc. You cannot use this power on yourself.",
+                            "1": "Wither: You can imbue your touch with the power to kill (3-harm intimate ap). The effect is instantly understood by the target as an attack and leaves behind a nasty mark or scar at the point of contact.",
+                            "2": "Glamours: You create illusions to fool the senses. The effects don't last long, but they are compelling. You cannot disguise or conceal yourself or your actions with these tricks.",
+                            "3": "Shape Change: You can change your shape into that of a small animal—a bird, a mouse, a snake, a fish, etc.—for a scene. Up to three people you designate can still understand your speech, but everyone else perceives you to be barking, chirping, etc.",
+                            "4": "Bedlam: You can touch a vulnerable target to place them in a specific emotional state (your choice) for the scene. Mark corruption to have that emotion directed toward a target of your choosing."
+                        }
+                    },
+                    "Court": {
+                        "label": "YOUR COURT",
+                        "description": "You belong to a faerie court, presided over by a monarch to whom you have sworn loyalty. Your monarch holds 2 Debts over you; tell the MC what favors they granted you to earn such holdings. Your court is...",
+                        "options": {
+                            "0": "baroque and formal",
+                            "1": "savage and unruly",
+                            "2": "aloof and cold",
+                            "3": "mysterious and exotic"
+                        }
+                    },
+                    "MonarchsStanding": {
+                        "description": "Your monarch's standing is represented by…",
+                        "options": {
+                            "0": "a crown, magically imbued with your court's royal authority",
+                            "1": "a scepter, forged from the elements of your court",
+                            "2": "a magical aura, unconcealable by even faerie magics",
+                            "3": "a seat of power, capable of summoning your entire court"
+                        }
+                    },
+                    "Rival": {
+                        "description": "Your rival is…",
+                        "options": {
+                            "0": "a jealous sibling; you owe them a Debt for their loyalty",
+                            "1": "a former lover; you owe them a Debt for their kindness",
+                            "2": "an old mentor; you owe them a Debt for their tutelage",
+                            "3": "a contemptuous peer; you owe them a Debt for their patience"
+                        }
+                    }
+                },
+                "TheHunter": {
+                    "Society": {
+                        "label": "YOUR SOCIETY",
+                        "description": "You belong to a society of hunters, an affiliation of fellow mortals who stalk dangerous prey to protect the mortal world from the supernatural. Tell your MC to stat up your society as a Size-2, Strength-2 faction within Mortalis. WHAT IS YOUR PREY?",
+                        "options": {
+                            "0": "vampires who feed on the weak and coerced",
+                            "1": "demons who corrupt the good and the just",
+                            "2": "angels who subjugate the will of the faithful",
+                            "3": "ghosts who plague the lives of the innocent",
+                            "4": "wizards who abuse their power and authority"
+                        }
+                    },
+                    "Sacrifice": {
+                        "description": "WHAT DID YOU SACRIFICE TO JOIN?",
+                        "options": {
+                            "0": "my soul, forever tainted by magic ritual",
+                            "1": "my family, forever excised from my life",
+                            "2": "my childhood, forever lost to my training",
+                            "3": "my body, forever scarred by ceremony"
+                        }
+                    },
+                    "Gather": {
+                        "description": "WHERE DOES YOUR SOCIETY GATHER?",
+                        "options": {
+                            "0": "a swanky, expensive hotel",
+                            "1": "a dive bar or gambling den",
+                            "2": "a union or veterans hall",
+                            "3": "hallowed religious ground"
+                        }
+                    }
+                },
+                "TheImp": {
+                    "Establishment": {
+                        "label": "YOUR ESTABLISHMENT",
+                        "description": "You once served a powerful demon, but you seized upon a loophole in your contracted fealty and won your freedom. Now you cater to supernatural clientele from all four Circles, securing your place in this world...for now. By default, your establishment has a permanent location, a small but loyal staff, and many regular customers. Choose two services you offer:",
+                        "options": {
+                            "0": "Transporting and selling otherworldly creatures",
+                            "1": "Appraising and auctioning magical relics and artifacts",
+                            "2": "Creating forgeries, disguises, and stolen identities",
+                            "3": "Providing news, gossip, and rumor to the city at large",
+                            "4": "Operating a gathering place; name the relevant Circle"
+                        }
+                    },
+                    "Investments": {
+                        "description": "Choose two investments you've made over the years:",
+                        "options": {
+                            "0": "A skilled bodyguard dedicated solely to your security",
+                            "1": "An expansive, expert staff appropriate to your services",
+                            "2": "A secure venue, impenetrable by intruders and thieves",
+                            "3": "A magical dead zone secured by wards and ritual",
+                            "4": "A Status-3 regular in another Circle; take three Debts on them"
+                        }
+                    },
+                    "Plague": {
+                        "description": "Choose two problems that plague your business:",
+                        "options": {
+                            "0": "A dangerous competitor edging in on your market",
+                            "1": "A hard-to-move acquisition attracting unwanted attention",
+                            "2": "A besmirched reputation complicating any new deals",
+                            "3": "A demonic ex-liege seeking your immediate return",
+                            "4": "A severe state of disrepair endangering your staff"
+                        }
+                    },
+                    "SchemesText": {
+                        "label": "YOUR SCHEMES",
+                        "description": "Schemes are risky deals and shady cons designed to expand your business. When you generate a scheme, choose a primary Circle, one of your services, and two complications—the MC will tell you what opportunity you've seized upon. When you accomplish a scheme, select two boons and a payout; the MC will detail how they arrive. Generate a scheme whenever a boon or a move tells you to generate a new scheme. COMPLICATIONS: • you promised someone involved something you don't yet have • you require an unreliable or untrustworthy co-conspirator • you must fool or deceive a powerful and dangerous NPC • you need to steal something from a secure location • you need to wait for a predetermined time or event • you have attracted the attention of dangerous opposition. BOONS: • attract new business; generate a new scheme • pay down your debts; cancel a Debt you owe • throw your weight around; take a Debt on an NPC • grow your reputation; mark a Circle affected by the deal."
+                    },
+                    "SchemePayouts1": {
+                        "label": "PAYOUTS",
+                        "description": "Available at the start of play:",
+                        "options": {
+                            "0": "+1 any Circle (max+3)",
+                            "1": "hire Fiendish Underlings",
+                            "2": "acquire an arsenal",
+                            "3": "secure a new investment",
+                            "4": "secure a new investment",
+                            "5": "resolve a problem"
+                        }
+                    },
+                    "SchemePayouts2": {
+                        "description": "After 4+ payouts:",
+                        "options": {
+                            "0": "+1 any Circle (max+3)",
+                            "1": "+1 Status (max+2)",
+                            "2": "acquire a legendary weapon",
+                            "3": "acquire a sanctum",
+                            "4": "get 2 new let it out abilities",
+                            "5": "retire your character to safety"
                         }
                     }
                 }
