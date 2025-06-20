@@ -643,6 +643,42 @@
                 "assetsLabel": "Assets"
             }
         },
+        "CityHubSheets": {
+            "label": "City Hub",
+            "attributes": {
+                "dominantCircleLabel": "Dominant Circle",
+                "dominantCircleDescription": "Which Circle primarily controls this hub?",
+                "residentsLabel": "Residents",
+                "residentsDescription": "Important NPCs who live or work in this hub, including debt relationships",
+                "relationshipsLabel": "Relationships",
+                "relationshipsDescription": "PC relationship prompts and connections specific to this hub",
+                "npcTableLabel": "NPC Generation Table", 
+                "npcTableDescription": "2d6 table for generating random NPCs in this hub",
+                "locationTableLabel": "Location Generation Table",
+                "locationTableDescription": "2d6 table for generating random locations in this hub",
+                "rumorTableLabel": "Rumor Table",
+                "rumorTableDescription": "1d6 table for generating rumors about this hub",
+                "factionTableLabel": "Faction Generation Table",
+                "factionTableDescription": "2d6 table for generating random factions in this hub",
+                "generatedNPCsLabel": "Generated NPCs",
+                "generatedNPCsDescription": "NPCs created from the generation tables",
+                "generatedLocationsLabel": "Generated Locations", 
+                "generatedLocationsDescription": "Locations created from the generation tables",
+                "generatedFactionsLabel": "Generated Factions",
+                "generatedFactionsDescription": "Factions created from the generation tables"
+            },
+            "details": {
+                "descriptionLabel": "Description",
+                "atmosphereLabel": "Atmosphere",
+                "notesLabel": "Notes"
+            },
+            "moveTypes": {
+                "hubMovesLabel": "Hub Moves"
+            },
+            "equipmentTypes": {
+                "assetsLabel": "Assets"
+            }
+        },
         "NPCSheets": {
             "attr": {
                 "factionLabel": "Faction",

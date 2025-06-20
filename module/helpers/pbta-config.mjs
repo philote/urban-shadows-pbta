@@ -1578,6 +1578,168 @@ export const configSheet = async () => {
                 },
                 baseType: "character"
             },
+            cityhub: {
+                label: game.i18n.localize("US2E.CityHubSheets.label"),
+                attributes: {
+                    dominantCircle: {
+                        label: game.i18n.localize("US2E.CityHubSheets.attributes.dominantCircleLabel"),
+                        description: game.i18n.localize("US2E.CityHubSheets.attributes.dominantCircleDescription"),
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        position: "top",
+                        type: "ListMany",
+                        condition: false,
+                        sort: false,
+                        options: {
+                            0: {
+                                label: game.i18n.localize("US2E.NPCSheets.circleOptions.mortalisLabel"),
+                                value: false
+                            },
+                            1: {
+                                label: game.i18n.localize("US2E.NPCSheets.circleOptions.nightLabel"),
+                                value: false
+                            },
+                            2: {
+                                label: game.i18n.localize("US2E.NPCSheets.circleOptions.powerLabel"),
+                                value: false
+                            },
+                            3: {
+                                label: game.i18n.localize("US2E.NPCSheets.circleOptions.wildLabel"),
+                                value: false
+                            }
+                        }
+                    },
+                    residents: {
+                        label: game.i18n.localize("US2E.CityHubSheets.attributes.residentsLabel"),
+                        description: game.i18n.localize("US2E.CityHubSheets.attributes.residentsDescription"),
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        position: "left",
+                        type: "LongText",
+                        value: ""
+                    },
+                    relationships: {
+                        label: game.i18n.localize("US2E.CityHubSheets.attributes.relationshipsLabel"),
+                        description: game.i18n.localize("US2E.CityHubSheets.attributes.relationshipsDescription"),
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        position: "left",
+                        type: "LongText",
+                        value: ""
+                    },
+                    npcTable: {
+                        label: game.i18n.localize("US2E.CityHubSheets.attributes.npcTableLabel"),
+                        description: game.i18n.localize("US2E.CityHubSheets.attributes.npcTableDescription"),
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        position: "left",
+                        type: "LongText",
+                        value: ""
+                    },
+                    locationTable: {
+                        label: game.i18n.localize("US2E.CityHubSheets.attributes.locationTableLabel"),
+                        description: game.i18n.localize("US2E.CityHubSheets.attributes.locationTableDescription"),
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        position: "left",
+                        type: "LongText",
+                        value: ""
+                    },
+                    rumorTable: {
+                        label: game.i18n.localize("US2E.CityHubSheets.attributes.rumorTableLabel"),
+                        description: game.i18n.localize("US2E.CityHubSheets.attributes.rumorTableDescription"),
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        position: "left",
+                        type: "LongText",
+                        value: ""
+                    },
+                    factionTable: {
+                        label: game.i18n.localize("US2E.CityHubSheets.attributes.factionTableLabel"),
+                        description: game.i18n.localize("US2E.CityHubSheets.attributes.factionTableDescription"),
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        position: "left",
+                        type: "LongText",
+                        value: ""
+                    },
+                    generatedNPCs: {
+                        label: game.i18n.localize("US2E.CityHubSheets.attributes.generatedNPCsLabel"),
+                        description: game.i18n.localize("US2E.CityHubSheets.attributes.generatedNPCsDescription"),
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        position: "left",
+                        type: "LongText",
+                        value: ""
+                    },
+                    generatedLocations: {
+                        label: game.i18n.localize("US2E.CityHubSheets.attributes.generatedLocationsLabel"),
+                        description: game.i18n.localize("US2E.CityHubSheets.attributes.generatedLocationsDescription"),
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        position: "left",
+                        type: "LongText",
+                        value: ""
+                    },
+                    generatedFactions: {
+                        label: game.i18n.localize("US2E.CityHubSheets.attributes.generatedFactionsLabel"),
+                        description: game.i18n.localize("US2E.CityHubSheets.attributes.generatedFactionsDescription"),
+                        customLabel: false,
+                        userLabel: false,
+                        playbook: null,
+                        limited: false,
+                        position: "left",
+                        type: "LongText",
+                        value: ""
+                    }
+                },
+                details: {
+                    description: {
+                        label: game.i18n.localize("US2E.CityHubSheets.details.descriptionLabel"),
+                        value: "",
+                        type: "LongText"
+                    },
+                    atmosphere: {
+                        label: game.i18n.localize("US2E.CityHubSheets.details.atmosphereLabel"),
+                        value: "",
+                        type: "Text"
+                    },
+                    notes: {
+                        label: game.i18n.localize("US2E.CityHubSheets.details.notesLabel"),
+                        value: "",
+                        type: "LongText"
+                    }
+                },
+                moveTypes: {
+                    hub: {
+                        label: game.i18n.localize("US2E.CityHubSheets.moveTypes.hubMovesLabel")
+                    }
+                },
+                equipmentTypes: {
+                    assets: {
+                        label: game.i18n.localize("US2E.CityHubSheets.equipmentTypes.assetsLabel")
+                    }
+                },
+                baseType: "character"
+            },
             npc: {
                 attributes: {
                     harm: {
