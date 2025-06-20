@@ -22,6 +22,11 @@
       "paths": ["css", "lang", "templates"]
     }
   },
+  "documentTypes": {
+    "Actor": {
+      "city-hub": {}
+    }
+  },
   "relationships": {
     "systems": [
       {

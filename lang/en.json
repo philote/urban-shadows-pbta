@@ -1,7 +1,9 @@
 {
+    "TYPES.urban-shadows-pbta.city-hub": "City Hub",
     "US2E": {
         "SheetConfig": {
-            "character": "Urban Shadows Character Sheet"
+            "character": "Urban Shadows Character Sheet",
+            "cityHub": "Urban Shadows City Hub Sheet"
         },
         "Config": {
             "rollResults": {

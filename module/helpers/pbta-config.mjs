@@ -1578,8 +1578,9 @@ export const configSheet = async () => {
                 },
                 baseType: "character"
             },
-            cityhub: {
+            'urban-shadows-pbta.city-hub': {
                 label: game.i18n.localize("US2E.CityHubSheets.label"),
+                baseType: "npc",
                 attributes: {
                     dominantCircle: {
                         label: game.i18n.localize("US2E.CityHubSheets.attributes.dominantCircleLabel"),
@@ -1738,7 +1739,6 @@ export const configSheet = async () => {
                         label: game.i18n.localize("US2E.CityHubSheets.equipmentTypes.assetsLabel")
                     }
                 },
-                baseType: "character"
             },
             npc: {
                 attributes: {

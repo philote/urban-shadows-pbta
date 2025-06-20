@@ -1,0 +1,31 @@
+import * as utils from "../helpers/utils.mjs";
+
+export function UrbanShadowsCityHubSheetMixin(Base) {
+    return class UrbanShadowsCityHubSheet extends Base {
+        /** @override */
+		// static get defaultOptions() {
+		// 	return foundry.utils.mergeObject(super.defaultOptions, {
+		// 		classes: ["pbta", "sheet", "city-hub", "character"],
+		// 		width: 750,
+		// 		height: 750,
+		// 	});
+		// }
+
+        /** @override */
+		get template() {
+			return 'modules/urban-shadows-pbta/templates/city-hub-sheet.hbs';
+		}
+        
+        /** @override */
+		// async getData() {
+		// 	const context = await super.getData();
+        //     if (this.actor.baseType === 'character') {}
+		// 	return context;
+		// }
+
+		/** @override */
+		// activateListeners(html) {
+		//     super.activateListeners(html);
+		// }
+    }
+}

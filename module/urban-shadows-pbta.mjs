@@ -1,6 +1,8 @@
 import * as pbtaConfig from './helpers/pbta-config.mjs';
 import * as utils from "./helpers/utils.mjs";
 import { UrbanShadowsActorSheetMixin } from "./sheets/actor-sheet.mjs";
+import { UrbanShadowsCityHubSheetMixin } from "./sheets/city-hub-sheet.mjs";
+import { CityHubModel } from './data/cityHubModel.mjs';
 
 // Make Urban Shadows helper functions available globally
 window.UrbanShadows = utils.UrbanShadows;
@@ -18,6 +20,19 @@ Hooks.once('init', () => {
 		makeDefault: true,
 		label: "US2E.SheetConfig.character",
 	});
+
+     // Urban Shadows City Hub Sheet Setup
+    CONFIG.Actor.dataModels['urban-shadows-pbta.city-hub'] = CityHubModel;
+	CONFIG.Actor.typeLabels['urban-shadows-pbta.city-hub'] = 'TYPES.urban-shadows-pbta.city-hub';
+	const urbanShadowsCityHubSheet = UrbanShadowsCityHubSheetMixin(
+		game.pbta.applications.actor.PbtaActorNpcSheet
+	);
+	Actors.registerSheet("urban-shadows-pbta", urbanShadowsCityHubSheet, {
+		types: ["urban-shadows-pbta.city-hub"],
+		makeDefault: true,
+		label: "US2E.SheetConfig.cityHub",
+	});
+    
 
     // Register settings
     game.settings.register('urban-shadows-pbta', 'firstTime', {
