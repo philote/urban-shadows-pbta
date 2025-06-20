@@ -2,14 +2,15 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Commands
+## Documentation
 
-### Development Commands
-- `npm run build` - Compile SCSS to CSS (expanded format, no source maps)
-- `npm run watch` - Compile SCSS to CSS with source maps and watch for changes
-- `npm run pushLDBtoJSON` - Extract FoundryVTT pack data from LevelDB to JSON files in src/packs/
-- `npm run pullJSONtoLDB` - Convert JSON files from src/packs/ to FoundryVTT LevelDB packs/
-- `npm run createSymlinks` - Create development symlinks for testing (see foundry-config.yaml)
+### Game PDFs & working files
+- The `raw-assets` folder has several files:
+    - all the PDFs are Game rules, you should be able to use `tools/pdf-processor.mjs` and `pdf-splitter` to read these files
+    - `urban-shadows-mechanics-reference.md` has is a simple version of the PDF rules
+    - `TODO.md` has my todo list and some data ideas
+    - Other files are not important
+    - `DEVELOPMENT-PLAN.md` is an old dev plan document (use only as reference)
 
 ### FoundryVTT API Reference
 The `foundry/` directory contains symlinked files from the target FoundryVTT installation's source code. These files provide essential API documentation and type definitions since FoundryVTT's APIs are poorly documented outside of the source code itself. Key resources include:
@@ -17,12 +18,22 @@ The `foundry/` directory contains symlinked files from the target FoundryVTT ins
 - `foundry/common/` - Shared API structures and utilities
 - Use these files as reference when implementing FoundryVTT integrations or troubleshooting API usage
 
+
+## Commands
+
+### Development Commands (user will run these, not claude)
+- `npm run build` - Compile SCSS to CSS (expanded format, no source maps)
+- `npm run watch` - Compile SCSS to CSS with source maps and watch for changes
+- `npm run pushLDBtoJSON` - Extract FoundryVTT pack data from LevelDB to JSON files in src/packs/
+- `npm run pullJSONtoLDB` - Convert JSON files from src/packs/ to FoundryVTT LevelDB packs/
+- `npm run createSymlinks` - Create development symlinks for testing (see foundry-config.yaml)
+
 ### Pack Data Management
 This module uses FoundryVTT's pack system with a dual format:
 - **Development**: JSON files in `src/packs/` (human-readable, version controllable)
 - **Production**: LevelDB packs in `packs/` (FoundryVTT's native format)
 
-Always edit JSON files in `src/packs/` and use `npm run pullJSONtoLDB` to generate the LevelDB packs.
+Always edit JSON files in `src/packs/` and ask user to run `npm run pullJSONtoLDB` to generate the LevelDB packs.
 
 ## Architecture
 

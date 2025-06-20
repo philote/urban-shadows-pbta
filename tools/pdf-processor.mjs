@@ -4,9 +4,13 @@
  * PDF Processor using Anthropic Files API
  * 
  * This script uploads a PDF to Anthropic's Files API and processes it with Claude.
+ * Requires ANTHROPIC_API_KEY in .env file.
+ * 
  * Usage: node pdf-processor.mjs <pdf-path> <prompt>
+ * Example: node pdf-processor.mjs raw-assets/document.pdf "Extract all tables and headers"
  */
 
+import 'dotenv/config';
 import fs from 'fs';
 import path from 'path';
 import Anthropic, { toFile } from '@anthropic-ai/sdk';
