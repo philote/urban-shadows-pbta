@@ -20,7 +20,7 @@ export function UrbanShadowsCityHubSheetMixin(Base) {
 		async getData() {
 			const context = await super.getData();
             if (this.actor.baseType === 'npc') {
-				const attributes = this.actor.system.attributes;
+				const attributes = context.system.attributes;
 				const connectionsAttributes = this._getAttributes("connections", attributes);
 				context.system.connectionsAttributes = connectionsAttributes;
 				const tablesAttributes = this._getAttributes("tables", attributes);
@@ -36,21 +36,21 @@ export function UrbanShadowsCityHubSheetMixin(Base) {
 
 		/**
 		 * Get specific attributes from the PbtA config
-		 * @param {string} tab - The tab value to filter by
-		 * @param {Object[]} attributes - List of attributes from the sheet
-		 * @returns {Object[]} Array of attribute objects that match the tab
+		 * @param {string} position - The position value to filter by
+		 * @param {Object} attributes - Object of attributes from the sheet
+		 * @returns {Object} Filtered object containing only attributes that match the position
 		 */
-		_getAttributes(tab, attributes) {
-			if (!tab || !attributes) {
-				return [];
+		_getAttributes(position, attributes) {
+			if (!position || !attributes) {
+				return {};
 			}
 
-			return Object.entries(attributes).reduce((attr, [key, attribute]) => {
-				if (attribute.tab === tab) {
-					attr.push({ key, ...attribute });
+			return Object.entries(attributes).reduce((filtered, [key, attribute]) => {
+				if (attribute.position === position) {
+					filtered[key] = attribute;
 				}
-				return attr;
-			}, []);
+				return filtered;
+			}, {});
 		}
     }
 }

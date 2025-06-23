@@ -1,7 +1,7 @@
 # Urban Shadows 2E (PbtA) (Unofficial)
 
 > [!Warning]
-> This module is in the early stages of development, use with caution.
+> This module is still in development, use with caution.
 
 <p align="center">
     <img alt="Foundry Version 13 support" src="https://img.shields.io/badge/Foundry-v13-informational">
@@ -40,6 +40,8 @@ If you’ve enjoyed my work and find value in what I create, please consider sup
 
 ## Screenshot
 ![Screenshot](assets/screenshot.webp)
+![Screenshot](assets/screenshots-city-hub-faction.webp)
+![Screenshot](assets/screenshots-compendium.webp)
 
 ## Dependencies
 
@@ -53,24 +55,23 @@ You can install the latest released version of the module by using this manifest
 - Sheets for 
   - Characters
   - Playbooks
+  - City Hubs
+  - Factions
   - Moves
   - Gear
   - NPCs
 - Compendiums for free content:
   - Playbooks & Playbook Moves
-  - Basic, Circle, Faction, and Debt Moves
+  - Basic, Circle, Faction, hub, and Debt Moves
   - Gear
+  - Roll tables
 
 ## TODO
-- create hub moves
-- create hub tables
 - clean up all moves, playbooks and gear
 - link playbooks to moves and gear
-- make factions Items so they can live on Hubs
-- create city hub actors
-    - create City Hubs from free material
-- Debt Items and actor linking
-- Relationship and debt tracking on PC sheets
+- Create City Hub compendium from free material
+- Relationship and debt tracking on sheets
+- Improve NPC sheets
 
 # License & Acknowledgements
 [Urban Shadows](https://magpiegames.com/collections/urban-shadows) was created by Andrew Medeiros and Mark Diaz Truman and is copyright 2015 by [Magpie Games](https://magpiegames.com), including all text and art. All rights are reserved.

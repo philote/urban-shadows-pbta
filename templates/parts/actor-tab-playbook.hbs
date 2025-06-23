@@ -1,7 +1,10 @@
 <div class="tab playbook-attributes" data-group="primary" data-tab="playbook">
 	{{#if (objLen attrs)}}
+	{{log attrs}}
 	<div class="pb-attr">
 		{{#each attrs as |attr key|}}
+			{{log attr}}
+			{{log key}}
 			<div class="cell cell--{{key}} cell--attr-{{key}} cell--{{attr.type}}">
 				{{#if attr.customLabel}}
 					<input type="text" class="input--cell-title" name="system.attributes.{{key}}.userLabel" value="{{#if attr.userLabel}}{{attr.userLabel}}{{else}}{{attr.label}}{{/if}}">
@@ -11,6 +14,9 @@
 				{{#if attr.description}}<p class="cell__description cell__description--attr">{{attr.description}}</p>{{/if}}
 				{{!-- Text area --}}
 				{{#if (eq attr.type "LongText")}}
+					{{log "TEST"}}
+					{{log attr.enriched}}
+					{{log attr.attrName}}
 					{{editor attr.enriched target=attr.attrName button=true owner=@root.owner editable=@root.editable engine="prosemirror" collaborate=false}}
 				{{!-- Checkbox --}}
 				{{else if (eq attr.type "Checkbox")}}

@@ -15,6 +15,7 @@ With the change to LevelDB, there is an extra step to create the packs locally.
     - You must be in the Foundry welcome page (or have it completely closed) and NOT in a world you want to convert compendium from. 
     - To convert JSON to LevelDB after a fresh pull from git or manually editing the JSON file: In the system directory use `npm run pullJSONtoLDB` will create the packs depending of the content of src/packs directory
     - To convert LevelDB to JSON after making changes to compendiums in Foundry: In the system directory use `npm run pushLDBtoJSON` will create JSON in the src/packs folder, then you can push your updates upstream.
+- Info to improve intellisense https://foundryvtt.wiki/en/development/guides/improving-intellisense
 
 # To update the packs
 Make sure Foundry is not running first.

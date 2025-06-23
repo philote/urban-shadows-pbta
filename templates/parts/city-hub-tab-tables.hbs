@@ -1,5 +1,6 @@
 <div class="tab tables" data-group="primary" data-tab="tables">
 
+{{log system.tablesAttributes}}
     {{~> "pbta.actor-attributes" attrs=system.tablesAttributes cssClass="cell--tables-tab" owner=owner editable=editable ~}}
     
     {{#each system.details as |result key|}}

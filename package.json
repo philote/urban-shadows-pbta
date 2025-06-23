@@ -1,7 +1,7 @@
 {
-  "name": "pbta-boilerplate",
+  "name": "urban-shadows-pbta",
   "version": "2.0.0",
-  "description": "CSS compiler & linting for the PbtA-Boilerplate system",
+  "description": "CSS compiler & linting for the urban-shadows-pbta system",
   "scripts": {
     "build": "sass src/scss/urban-shadows-pbta.scss css/urban-shadows-pbta.css --style=expanded --no-source-map",
     "watch": "sass src/scss/urban-shadows-pbta.scss css/urban-shadows-pbta.css --style=expanded --source-map --watch",

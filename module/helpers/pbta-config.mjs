@@ -1585,19 +1585,19 @@ export const configSheet = async () => {
                     residents: {
                         label: game.i18n.localize("US2E.CityHubSheets.attributes.residentsLabel"),
                         description: game.i18n.localize("US2E.CityHubSheets.attributes.residentsDescription"),
-                        tab: "connections",
+                        position: "connections",
                         type: "LongText",
                     },
                     relationships: {
                         label: game.i18n.localize("US2E.CityHubSheets.attributes.relationshipsLabel"),
                         description: game.i18n.localize("US2E.CityHubSheets.attributes.relationshipsDescription"),
-                        tab: "connections",
+                        position: "connections",
                         type: "LongText",
                     },
                     tables: {
                         label: game.i18n.localize("US2E.CityHubSheets.attributes.tablesLabel"),
                         description: game.i18n.localize("US2E.CityHubSheets.attributes.tablesDescription"),
-                        tab: "tables",
+                        position: "tables",
                         type: "LongText",
                     },
                     description: {

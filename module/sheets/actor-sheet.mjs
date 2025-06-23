@@ -20,10 +20,11 @@ export function UrbanShadowsActorSheetMixin(Base) {
 		async getData() {
 			const context = await super.getData();
             if (this.actor.baseType === 'character') {
-				const playbookSlug = this.actor.system.playbook.slug;
-				const attributes = this.actor.system.attributes;
+				const playbookSlug = context.system.playbook.slug;
+				const attributes = context.system.attributes;
 				const playbookAttributes = this._getPlaybookAttributes(playbookSlug, attributes);
 				context.system.playbookAttributes = playbookAttributes;
+				console.log("playbookAttributes: ", playbookAttributes);
 				/*
 				if playbookAttributes is empty then add a playbook details to the playbook tab
 				*/
@@ -39,21 +40,21 @@ export function UrbanShadowsActorSheetMixin(Base) {
 		/**
 		 * Get playbook-specific attributes from the PbtA config
 		 * @param {string} playbookValue - The playbook value to filter by
-		 * @param {Object[]} attributes - List of attributes from the playbook
-		 * @returns {Object[]} Array of attribute objects that match the playbook
+		 * @param {Object} attributes - Object of attributes from the playbook
+		 * @returns {Object} Filtered object containing only attributes that match the playbook
 		 */
 		_getPlaybookAttributes(playbookValue, attributes) {
 			if (!playbookValue || !attributes) {
 				console.log("Choose a playbook to update the playbook tab");
-				return [];
+				return {};
 			}
 
-			return Object.entries(attributes).reduce((playbookAttributes, [key, attribute]) => {
+			return Object.entries(attributes).reduce((filtered, [key, attribute]) => {
 				if (attribute.position === "playbook" && attribute.playbook === playbookValue) {
-					playbookAttributes.push({ key, ...attribute });
+					filtered[key] = attribute;
 				}
-				return playbookAttributes;
-			}, []);
+				return filtered;
+			}, {});
 		}
     }
 }
