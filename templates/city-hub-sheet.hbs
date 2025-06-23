@@ -1,25 +1,17 @@
 <form class="{{cssClass}}" autocomplete="off">
 
 	<div class="sheet-wrapper">
-		<p>City Hub!</p>
 		{{!-- Sheet Header --}}
-		{{> "pbta.actor-header" }}
+		<div class="sheet-header">
+			<input class="input--title" name="name" type="text" value="{{actor.name}}" placeholder="Name"/>
+			<div class="cell cell--image">
+				<img class="profile-img" src="{{actor.img}}" data-edit="img" />
+			</div>
+		</div>
 
-		<section class="sheet-top flexcol">
-			{{#if isCharacter}}
-			{{!-- Attributes --}}
-			<section class="sheet-attributes flexrow">
-				<div class="cell cell--image">
-					<img class="profile-img" src="{{actor.img}}" data-edit="img" />
-				</div>
-
-				{{> "pbta.actor-stats" }}
-
-			</section>
-			{{/if}}
-
+		<section class="sheet-top">
 			<section class="sheet-attributes-top">
-				{{~> "pbta.actor-attributes" attrs=system.attrTop cssClass="cell--attributes-top flexcol" owner=owner editable=editable ~}}
+				{{~> "pbta.actor-attributes" attrs=system.attrTop cssClass="cell--attributes-top" owner=owner editable=editable ~}}
 			</section>
 		</section>
 
@@ -37,21 +29,21 @@
 			<section class="sheet-main flexcol">
 				{{!-- Sheet Tab Navigation --}}
 				<nav class="sheet-tabs tabs" data-group="primary">
-					<a class="item" data-tab="description">{{localize "PBTA.Description"}}</a>
+					<a class="item" data-tab="tables">{{localize "US2E.CityHubSheets.tabs.tables.label"}}</a>
 					<a class="item" data-tab="moves">{{localize "PBTA.Moves"}}</a>
-					<a class="item" data-tab="equipment">{{localize "PBTA.Equipment"}}</a>
+					<a class="item" data-tab="connections">{{localize "US2E.CityHubSheets.tabs.connections.label"}}</a>
 				</nav>
 
 				{{!-- Sheet Body --}}
 				<section class="sheet-body">
-					{{!-- Main Tab --}}
-					{{> "pbta.actor-description" }}
+					{{!-- Tables Tab --}}
+					{{> "modules/urban-shadows-pbta/templates/parts/city-hub-tab-tables.hbs" attrs=system.tablesAttributes }}
 
 					{{!-- Moves Tab --}}
 					{{> "pbta.actor-movelist" }}
 
-					{{!-- Owned Equipment Tab --}}
-					{{> "pbta.actor-inventory" }}
+					{{!-- Connections Tab --}}
+					{{> "modules/urban-shadows-pbta/templates/parts/city-hub-tab-connections.hbs" attrs=system.connectionsAttributes }}
 				</section>
 			</section>
 		</section>

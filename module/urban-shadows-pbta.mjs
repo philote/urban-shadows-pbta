@@ -3,12 +3,15 @@ import * as utils from "./helpers/utils.mjs";
 import { UrbanShadowsActorSheetMixin } from "./sheets/actor-sheet.mjs";
 import { UrbanShadowsCityHubSheetMixin } from "./sheets/city-hub-sheet.mjs";
 import { CityHubModel } from './data/cityHubModel.mjs';
+import { UrbanShadowsActorMixin } from './documents/actor.mjs';
 
 // Make Urban Shadows helper functions available globally
 window.UrbanShadows = utils.UrbanShadows;
 
 Hooks.once('init', () => {
     // Urban Shadows ActorSheet Setup
+    CONFIG.Actor.documentClass = UrbanShadowsActorMixin(game.pbta.documents.ActorPbta);
+
 	const urbanShadowsActorSheet = UrbanShadowsActorSheetMixin(
 		game.pbta.applications.actor.PbtaActorSheet
 	);

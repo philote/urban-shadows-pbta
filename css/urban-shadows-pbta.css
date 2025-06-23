@@ -5,7 +5,23 @@
   /* Description Tab */
 }
 .pbta.sheet .window-header {
-  background-color: #1b0328;
+  background-color: rgb(27, 3, 40);
+  border-bottom: 2px groove rgba(199, 189, 200, 0.2);
+}
+.pbta.sheet .sheet-attributes-top .cell--attributes-top .cell ul, .pbta.sheet .sheet-attributes-top .cell--attributes-top .cell ol {
+  margin: 0.5rem 0;
+}
+.pbta.sheet .cell--attr-advancement ul.cell__checkboxes,
+.pbta.sheet .cell--attr-dominantCircle ul.cell__checkboxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+}
+.pbta.sheet .cell--attr-advancement ul.cell__checkboxes label:nth-child(odd),
+.pbta.sheet .cell--attr-dominantCircle ul.cell__checkboxes label:nth-child(odd) {
+  unicode-bidi: embed;
+  direction: rtl;
+  text-align: left;
 }
 .pbta.sheet .sheet-attributes {
   position: relative;
@@ -28,19 +44,19 @@
   color: #602C63;
 }
 .pbta.sheet .tabs {
-  border-bottom: 2px solid #1b0328;
+  border-bottom: 2px solid rgb(27, 3, 40);
 }
 .pbta.sheet .sheet-tabs.tabs > a.item {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   background-color: rgba(199, 189, 200, 0.2);
-  border-top: 1px solid #1b0328;
-  border-left: 1px solid #1b0328;
-  border-right: 1px solid #1b0328;
-  color: #1b0328;
+  border-top: 1px solid rgb(27, 3, 40);
+  border-left: 1px solid rgb(27, 3, 40);
+  border-right: 1px solid rgb(27, 3, 40);
+  color: rgb(27, 3, 40);
 }
 .pbta.sheet .sheet-tabs.tabs > a.item.active, .pbta.sheet .sheet-tabs.tabs > a.item.active:hover {
-  background-color: #1b0328;
+  background-color: rgb(27, 3, 40);
   color: #ffffff;
 }
 .pbta.sheet .sheet-tabs.tabs > a.item:hover, .pbta.sheet .sheet-tabs.tabs > a.item:focus {
@@ -97,7 +113,7 @@
 .vtt div[id^=PbtaActorSheet] .sheet-header__fields .sheet-playbook [data-action=advancement],
 .vtt div[id^=UrbanShadowsActorSheet-Actor] .sheet-header__fields .sheet-playbook .view-playbook,
 .vtt div[id^=UrbanShadowsActorSheet-Actor] .sheet-header__fields .sheet-playbook [data-action=advancement] {
-  background-color: #1b0328;
+  background-color: rgb(27, 3, 40);
 }
 .vtt div[id^=PbtaActorSheet] .sheet-wrapper .sheet-header,
 .vtt div[id^=UrbanShadowsActorSheet-Actor] .sheet-wrapper .sheet-header {
@@ -115,7 +131,7 @@
 }
 .vtt div[id^=PbtaActorSheet] .sheet-attributes .cell--stats .stat:nth-child(n+5),
 .vtt div[id^=UrbanShadowsActorSheet-Actor] .sheet-attributes .cell--stats .stat:nth-child(n+5) {
-  background-color: #1b0328 !important;
+  background-color: rgb(27, 3, 40) !important;
 }
 .vtt div[id^=PbtaActorSheet] .sheet-attributes .cell--stats .stat:nth-child(n+5) .stat-toggle,
 .vtt div[id^=UrbanShadowsActorSheet-Actor] .sheet-attributes .cell--stats .stat:nth-child(n+5) .stat-toggle {
@@ -152,18 +168,6 @@
 .vtt div[id^=PbtaActorSheet] .advancements .advancements-top > *,
 .vtt div[id^=UrbanShadowsActorSheet-Actor] .advancements .advancements-top > * {
   flex: 1;
-}
-.vtt div[id^=PbtaActorSheet] .cell--attr-advancement ul.cell__checkboxes,
-.vtt div[id^=UrbanShadowsActorSheet-Actor] .cell--attr-advancement ul.cell__checkboxes {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2px;
-}
-.vtt div[id^=PbtaActorSheet] .cell--attr-advancement ul.cell__checkboxes label:nth-child(odd),
-.vtt div[id^=UrbanShadowsActorSheet-Actor] .cell--attr-advancement ul.cell__checkboxes label:nth-child(odd) {
-  unicode-bidi: embed;
-  direction: rtl;
-  text-align: left;
 }
 .vtt div[id^=PbtaActorSheet] .cell--attr-harm ul.cell__checkboxes label:nth-child(1),
 .vtt div[id^=UrbanShadowsActorSheet-Actor] .cell--attr-harm ul.cell__checkboxes label:nth-child(1) {
@@ -227,6 +231,69 @@
 }
 .vtt div[id^=PbtaActorOtherSheet] a[data-tab=equipment] {
   display: none;
+}
+.vtt div.city-hub {
+  /* Colors */
+}
+.vtt div.city-hub .window-content {
+  padding: 0;
+}
+.vtt div.city-hub .window-content .sheet-top {
+  background-color: rgba(199, 189, 200, 0.2);
+  margin-top: 0;
+  padding-top: 0;
+}
+.vtt div.city-hub .window-content .sheet-top .sheet-attributes-top {
+  padding: 0 10px 10px 10px;
+  margin: 0;
+}
+.vtt div.city-hub .window-content .sheet-top .cell--attributes-top {
+  display: flex;
+  gap: 15px;
+  border-top: 0;
+}
+.vtt div.city-hub .window-content .sheet-top .cell--attributes-top .cell {
+  flex: 1;
+}
+.vtt div.city-hub .window-content .sheet-bottom {
+  padding: 0px 10px 10px 10px;
+}
+.vtt div.city-hub .window-content .sheet-header {
+  position: relative;
+}
+.vtt div.city-hub .window-content .sheet-header .cell--image {
+  position: relative;
+  background: transparent;
+}
+.vtt div.city-hub .window-content .sheet-header .cell--image img {
+  max-height: 120px;
+  border: none;
+  border-radius: 0;
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.vtt div.city-hub .window-content .sheet-header .input--title {
+  position: absolute;
+  top: 20px;
+  justify-self: anchor-center;
+  z-index: 10;
+  text-align: center;
+  width: 90%;
+  background: rgba(30, 9, 30, 0.4);
+  color: #ffffff;
+  padding: 8px 12px;
+  height: 52px;
+  line-height: 52px;
+  font-size: var(--font-size-40);
+  border: 1px solid rgba(235, 228, 236, 0.4);
+}
+.vtt div.city-hub .window-content .sheet-header .input--title::placeholder {
+  color: rgba(0, 0, 0, 0.7);
+}
+.vtt div.city-hub .window-content .sheet-header .input--title:focus {
+  background: rgba(0, 0, 0, 0.9);
 }
 .vtt .npc .cell--attr-status .cell__clock {
   align-items: flex-end;

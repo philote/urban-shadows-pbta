@@ -1,0 +1,75 @@
+@use "colors";
+
+.window-content {
+    // background-color: colors.$c-dark-purple;
+    padding: 0;
+
+    .sheet-top {
+        background-color: colors.$c-light-purple-20;
+        margin-top: 0;
+        padding-top: 0;
+
+        .sheet-attributes-top {
+            padding: 0 10px 10px 10px;
+            margin: 0;
+        }
+
+        .cell--attributes-top {
+            display: flex;
+            gap: 15px;
+            border-top: 0;
+
+            .cell {
+                flex: 1;
+            }
+        }
+    }
+
+    .sheet-bottom {
+        padding: 0px 10px 10px 10px;
+    }
+
+    .sheet-header {
+        position: relative; // Creates positioning context for absolute child
+
+        .cell--image {
+            position: relative; // Creates positioning context for the input
+            background: transparent;
+
+            img {
+                max-height: 120px;
+                border: none;
+                border-radius: 0;
+                display: block;
+                max-width: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+
+        .input--title {
+            position: absolute;
+            top: 20px;
+            justify-self: anchor-center;
+            z-index: 10;
+            text-align: center;
+            width: 90%;
+            background: rgba(30, 9, 30, 0.4);
+            color: #ffffff;
+            padding: 8px 12px;
+            height: 52px;
+            line-height: 52px;
+            font-size: var(--font-size-40);
+            border: 1px solid rgba(235, 228, 236, 0.4);
+
+            &::placeholder {
+                color: rgba(0, 0, 0, 0.7);
+            }
+
+            &:focus {
+                background: rgba(0, 0, 0, 0.9);
+                // outline: none;
+            }
+        }
+    }
+}

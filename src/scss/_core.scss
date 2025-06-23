@@ -4,6 +4,32 @@
 
     .window-header {
         background-color: colors.$c-dark-purple;
+        border-bottom: 2px groove colors.$c-light-purple-20;
+    }
+
+    .sheet-attributes-top {
+        .cell--attributes-top {
+            .cell {
+                ul, ol {
+                    margin: 0.5rem 0;
+                }
+            }
+        }
+    }
+
+    .cell--attr-advancement,
+    .cell--attr-dominantCircle {
+        ul.cell__checkboxes {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2px;
+
+            label:nth-child(odd) {
+                unicode-bidi: embed;
+                direction: rtl;
+                text-align: left;
+            }
+        }
     }
 
     /* Stats */

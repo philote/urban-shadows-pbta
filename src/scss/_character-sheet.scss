@@ -81,19 +81,6 @@
 }
 
 /* Advancements */
-.cell--attr-advancement {
-    ul.cell__checkboxes {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2px;
-
-        label:nth-child(odd) {
-            unicode-bidi: embed;
-            direction: rtl;
-            text-align: left;
-        }
-    }
-}
 
 .cell--attr-harm{
     ul.cell__checkboxes {

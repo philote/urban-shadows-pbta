@@ -14,6 +14,11 @@
         @include meta.load-css('faction-sheet.scss');
     }
 
+    // Faction sheets
+    div.city-hub {
+        @include meta.load-css('city-hub-sheet.scss');
+    }
+
     // NPC sheets
     .npc {
         @include meta.load-css('npc-sheet.scss');
