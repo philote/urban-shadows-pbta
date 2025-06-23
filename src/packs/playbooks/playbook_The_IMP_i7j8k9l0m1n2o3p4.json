@@ -555,6 +555,172 @@
         "max": null,
         "options": {},
         "description": ""
+      },
+      "TheImpEstablishmentServices": {
+        "label": "YOUR ESTABLISHMENT",
+        "description": "You once served a powerful demon, but you seized upon a loophole in your contracted fealty and won your freedom. Now you cater to supernatural clientele from all four Circles, securing your place in this world...for now. By default, your establishment has a permanent location, a small but loyal staff, and many regular customers. <br>Choose two services you offer:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "Transporting and selling otherworldly creatures",
+            "value": false
+          },
+          "1": {
+            "label": "Appraising and auctioning magical relics and artifacts",
+            "value": false
+          },
+          "2": {
+            "label": "Creating forgeries, disguises, and stolen identities",
+            "value": false
+          },
+          "3": {
+            "label": "Providing news, gossip, and rumor to the city at large",
+            "value": false
+          },
+          "4": {
+            "label": "Operating a gathering place; name the relevant Circle",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheImpEstablishmentInvestments": {
+        "label": "Choose two investments you’ve made over the years:",
+        "description": "",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "A skilled bodyguard dedicated solely to your security",
+            "value": false
+          },
+          "1": {
+            "label": "An expansive, expert staff appropriate to your services",
+            "value": false
+          },
+          "2": {
+            "label": "A secure venue, impenetrable by intruders and thieves",
+            "value": false
+          },
+          "3": {
+            "label": "A magical dead zone secured by wards and ritual",
+            "value": false
+          },
+          "4": {
+            "label": "A Status-3 regular in another Circle; take three Debts on them",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheImpEstablishmentPlague": {
+        "label": "Choose two problems that plague your business:",
+        "description": "",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "A dangerous competitor edging in on your market",
+            "value": false
+          },
+          "1": {
+            "label": "A hard-to-move acquisition attracting unwanted attention",
+            "value": false
+          },
+          "2": {
+            "label": "A besmirched reputation complicating any new deals",
+            "value": false
+          },
+          "3": {
+            "label": "A demonic ex-liege seeking your immediate return",
+            "value": false
+          },
+          "4": {
+            "label": "A severe state of disrepair endangering your staff",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheImpSchemesText": {
+        "label": "YOUR SCHEMES",
+        "description": "Schemes are risky deals and shady cons designed to expand your business. When you generate a scheme, choose a primary Circle, one of your services, and two complications—the MC will tell you what opportunity you’ve seized upon. When you accomplish a scheme, select two boons and a payout; the MC will detail how they arrive. Generate a scheme whenever a boon or a move tells you to generate a new scheme.<br><strong>COMPLICATIONS</strong><br><ul><li>you promised someone involved something you don’t yet have</li><li>you require an unreliable or untrustworthy co-conspirator</li><li>you must fool or deceive a powerful and dangerous NPC</li><li>you need to steal something from a secure location</li><li>you need to wait for a predetermined time or event</li><li>you have attracted the attention of dangerous opposition</li></ul><br><strong>BOONS</strong><br><ul><li>attract new business; generate a new scheme</li><li>pay down your debts; cancel a Debt you owe</li><li>throw your weight around; take a Debt on an NPC</li><li>grow your reputation; mark a Circle affected by the deal</li></ul><br><strong>PAYOUTS</strong><br>",
+        "type": "Text",
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheImpSchemePayouts1": {
+        "label": "PAYOUTS",
+        "description": "Available at the start of play:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 any Circle (max+3)",
+            "value": false
+          },
+          "1": {
+            "label": "hire Fiendish Underlings",
+            "value": false
+          },
+          "2": {
+            "label": "acquire an arsenal",
+            "value": false
+          },
+          "3": {
+            "label": "secure a new investment",
+            "value": false
+          },
+          "4": {
+            "label": "secure a new investment",
+            "value": false
+          },
+          "5": {
+            "label": "resolve a problem",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheImpSchemePayouts2": {
+        "label": "",
+        "description": "After 4+ payouts:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 any Circle (max+3)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 Status (max+2)",
+            "value": false
+          },
+          "2": {
+            "label": "acquire a legendary weapon",
+            "value": false
+          },
+          "3": {
+            "label": "acquire a sanctum",
+            "value": false
+          },
+          "4": {
+            "label": "get 2 new let it out abilities",
+            "value": false
+          },
+          "5": {
+            "label": "retire your character to safety",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
       }
     },
     "choiceSets": [
@@ -659,7 +825,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1749792493533,
+    "modifiedTime": 1750198239819,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

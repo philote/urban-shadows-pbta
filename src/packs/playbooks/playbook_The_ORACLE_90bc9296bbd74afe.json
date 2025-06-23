@@ -555,6 +555,98 @@
         "max": null,
         "options": {},
         "description": ""
+      },
+      "TheOracleBenefactor": {
+        "label": "YOUR BENEFACTOR",
+        "description": "You have a benefactor, a powerful NPC whose fate is intertwined with your own; you came into their service as a result of your prophetic visions, but they now demand more and more from you and your powers. Name their Circle—Mortalis, Night, Power, or Wild—and choose the prophecy that binds you together, two strengths, and two flaws: <p>(Ask the MC what life your benefactor has provided for you after you make your choices. Their continued largesse depends on how well you serve their interests.)</p>",
+        "value": "<p><b>NAME:</b> </p><p><b>CIRCLE:</b> </p>",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p><b>NAME:</b> </p><p><b>CIRCLE:</b> </p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheOracleBenefactorProphecy": {
+        "label": "YOUR PROPHECY:",
+        "description": "",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "they alone can guide you to the mystical answers you seek",
+            "value": false
+          },
+          "1": {
+            "label": "they alone can protect you from a dark fate you have foreseen",
+            "value": false
+          },
+          "2": {
+            "label": "they alone can destroy a uniquely evil foe within their own Circle",
+            "value": false
+          },
+          "3": {
+            "label": "they alone must play a critical role in the war against a coming darkness",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheOracleBenefactorStrengths": {
+        "label": "STRENGTHS:",
+        "description": "",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "they are a Status-3 member of their Circle",
+            "value": false
+          },
+          "1": {
+            "label": "they speak truthfully and honor their word",
+            "value": false
+          },
+          "2": {
+            "label": "they wield significant supernatural power",
+            "value": false
+          },
+          "3": {
+            "label": "their minions are disciplined and loyal",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheOracleBenefactorFlaws": {
+        "label": "FLAWS:",
+        "description": "",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "they are terrifyingly violent and cruel",
+            "value": false
+          },
+          "1": {
+            "label": "they have defenses against your sight",
+            "value": false
+          },
+          "2": {
+            "label": "they are at war with powerful enemies",
+            "value": false
+          },
+          "3": {
+            "label": "they are madly in love with you",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
       }
     },
     "choiceSets": [
@@ -655,7 +747,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1749792511228,
+    "modifiedTime": 1750198278845,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

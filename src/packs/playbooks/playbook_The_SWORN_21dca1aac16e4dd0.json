@@ -410,7 +410,7 @@
             "options": {}
           },
           {
-            "value": "<p>Other: <fill in yourself later></p>",
+            "value": "<p>Other: <fill in=\"\" yourself=\"\" later=\"\"></fill></p>",
             "options": {}
           }
         ],
@@ -555,6 +555,142 @@
         "max": null,
         "options": {},
         "description": ""
+      },
+      "TheSwornOathMasters": {
+        "label": "YOUR MASTERS You serve (choose one):",
+        "description": "You’ve sworn an oath to serve an influential faction of Power, an organization that relies on you to protect its members, punish its enemies, and defend its holdings. Tell your MC to stat up your masters as a Size-3, Strength-3 faction within Power. Ask them what you know about the organization’s structure, culture, and assets.",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "an abbey of prescient oracles",
+            "value": false
+          },
+          "1": {
+            "label": "a council of haughty wizards",
+            "value": false
+          },
+          "2": {
+            "label": "an order of secret immortals",
+            "value": false
+          },
+          "3": {
+            "label": "an academy of religious scholars",
+            "value": false
+          },
+          "4": {
+            "label": "a covenant of earthbound deities",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheSwornOathCharged": {
+        "label": "YOU ARE CHARGED WITH (Choose two):",
+        "description": "",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "protecting and policing their members",
+            "value": false
+          },
+          "1": {
+            "label": "recovering lost artifacts and tomes",
+            "value": false
+          },
+          "2": {
+            "label": "investigating threats and problems",
+            "value": false
+          },
+          "3": {
+            "label": "destroying those who would thwart them",
+            "value": false
+          },
+          "4": {
+            "label": "negotiating with their allies and vassals",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheSwornVows": {
+        "label": "YOUR VOWS You must… (choose 5):",
+        "description": "When you break one of your vows, mark corruption. When you take a corruption advance, cross out one of your vows—it no longer binds you. If you strike out every vow, your oath is broken—change playbooks immediately.",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "...never trespass on another’s property",
+            "value": false
+          },
+          "1": {
+            "label": "...never strike the first blow",
+            "value": false
+          },
+          "2": {
+            "label": "...never lie about your identity or purpose",
+            "value": false
+          },
+          "3": {
+            "label": "...never reveal your faction’s secrets",
+            "value": false
+          },
+          "4": {
+            "label": "...always avoid collateral damage",
+            "value": false
+          },
+          "5": {
+            "label": "...always protect members of Power from harm",
+            "value": false
+          },
+          "6": {
+            "label": "...always thwart the enemies of your masters",
+            "value": false
+          },
+          "7": {
+            "label": "...always seize that which your masters desire",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheSwornOathWeapon": {
+        "label": "YOUR LEGENDARY WEAPON Choose one:",
+        "description": "Your masters have given you a weapon (3-harm mythic anchored) to wield, a legendary artifact of an age long lost. So long as you bear this legendary armament, advance the named move. When you wield the weapon in the service of your masters, you can roll with Mind instead of Spirit when you keep your cool. But your weapon—like your oath—is bound to your loyalty. If your oath is broken, the weapon will be lost to you, even betraying you to ensure it exits your service.",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "a sword wielded by rightful kings (figure someone out)",
+            "value": false
+          },
+          "1": {
+            "label": "a knife cut from demonic steel (mislead, distract or trick)",
+            "value": false
+          },
+          "2": {
+            "label": "a spear stolen from heaven itself (let it out)",
+            "value": false
+          },
+          "3": {
+            "label": "an axe forged in the blood of gods (turn to violence)",
+            "value": false
+          },
+          "4": {
+            "label": "a staff imbued with stealthy sorcery (escape a situation)",
+            "value": false
+          },
+          "5": {
+            "label": "a hammer blessed by otherworldly magic (keep your cool)",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
       }
     },
     "choiceSets": [
@@ -563,17 +699,10 @@
         "desc": "CHOOSE TWO:",
         "grantOn": 1,
         "advancement": 0,
-        "type": "multi",
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.Z3kK6nN0qQ3tT6wY",
-            "img": "icons/svg/aura.svg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.A4dE7fG0hH3kK6nN",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.iQGJbo4OUye8oJ57",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
@@ -591,12 +720,19 @@
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.iQGJbo4OUye8oJ57",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.A4dE7fG0hH3kK6nN",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.Z3kK6nN0qQ3tT6wY",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           }
         ],
+        "type": "multi",
         "granted": false
       },
       {
@@ -644,11 +780,11 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1748404928276,
+    "modifiedTime": 1750198351895,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

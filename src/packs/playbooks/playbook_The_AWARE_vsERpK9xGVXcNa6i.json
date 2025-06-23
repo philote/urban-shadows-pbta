@@ -555,6 +555,40 @@
         "max": null,
         "options": {},
         "description": ""
+      },
+      "TheAware": {
+        "label": "Mortal Relationships",
+        "description": "While you ride the line between the mortal and supernatural worlds, your friends and family are stuck firmly in the mundane realities of everyday life. <br><i>(When one of your mortal relationships comes to an end for any reason—they cut you off, they die, they leave the city, you tell them to stop contacting you, etc.— immediately mark a corruption advance. If losing a mortal relationship causes you to retire your character due to corruption, tell the MC whom you most blame for the loss; your character will pursue the person responsible as a Threat until “justice” is served.)</i> <br>Choose 3:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "A younger sibling who relies on you for transportation and advice",
+            "value": false
+          },
+          "1": {
+            "label": "A loyal significant other who expects you home by midnight",
+            "value": false
+          },
+          "2": {
+            "label": "A struggling best friend who’s always getting into messy altercations",
+            "value": false
+          },
+          "3": {
+            "label": "A demanding boss who calls you into work at inconvenient times",
+            "value": false
+          },
+          "4": {
+            "label": "An elderly parent who always knows when you’re lying to them",
+            "value": false
+          },
+          "5": {
+            "label": "An overbearing ex-partner who constantly worries about you",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
       }
     },
     "choiceSets": [
@@ -670,7 +704,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1749791510354,
+    "modifiedTime": 1750194388744,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

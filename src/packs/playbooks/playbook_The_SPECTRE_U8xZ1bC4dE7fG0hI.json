@@ -555,6 +555,106 @@
         "max": null,
         "options": {},
         "description": ""
+      },
+      "TheSpectreTrauma": {
+        "label": "TRAUMA",
+        "description": "Your sense of self has been shattered by your death, leaving you traumatized. You begin each session with at least 2-trauma marked, but can clear it—and any additional trauma you take—via trauma moves. If you ever fill your trauma track, the MC may call for you to make a trauma move at any time, but you may always choose which trauma move you make in the moment.<br>The first time you take harm in a scene, mark trauma; when you fill up on harm, your corpus is scattered. Mark trauma to reform in a few days at one of your anchors, or mark 3-trauma to reform immediately at an anchor of the MC’s choice. If you cannot mark trauma while destroyed, the MC decides how/when you reform.",
+        "type": "Clock",
+        "value": 0,
+        "max": 5,
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheSpectreAnchors": {
+        "label": "ANCHORS",
+        "description": "You have several anchors in the city—important places, people, or objects that keep you from moving on. You might have an opportunity to put an anchor to rest, but anchors can also be ruined or destroyed.<br>CHOOSE 4:<br>When one of your anchors is put in danger, you know; mark trauma and take a +1 ongoing to all moves until you see it to safety. When you resolve an anchor, clear your trauma track and erase a corruption advance; when an anchor is destroyed or ruined, fill your trauma track and take a corruption advance.",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "a family member or inheritor, unaware of your existence",
+            "value": false
+          },
+          "1": {
+            "label": "a witness to your death, bound to you by chance or fate",
+            "value": false
+          },
+          "2": {
+            "label": "a friendly household pet, constant companion in your unlife",
+            "value": false
+          },
+          "3": {
+            "label": "a beloved possession of your youth, passed to a new owner",
+            "value": false
+          },
+          "4": {
+            "label": "a marker of your success in life, now claimed by another",
+            "value": false
+          },
+          "5": {
+            "label": "an item related to your death, grimly marking your violent end",
+            "value": false
+          },
+          "6": {
+            "label": "a location of personal importance, a reminder of a past love",
+            "value": false
+          },
+          "7": {
+            "label": "a space you used to live or work, abandoned by the world",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheSpectrePassingOn": {
+        "label": "PASSING ON",
+        "description": "When your last anchor is resolved or destroyed, you pass on; pick one blessing or haunting you bestow upon the city for each one of your anchors that was resolved or destroyed, respectively. If all four of your anchors are destroyed, you do not pass on, but are instead swallowed by oblivion and inflict all three hauntings. <br>BLESSINGS",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "you inspire an NPC to forgive someone who once wronged them, ending a long-standing conflict",
+            "value": false
+          },
+          "1": {
+            "label": "you cleanse or restore a cherished place once thought by all to be ruined or beyond repair",
+            "value": false
+          },
+          "2": {
+            "label": "you heal or restore someone you once injured or wronged",
+            "value": false
+          },
+          "3": {
+            "label": "you reveal to an NPC the truth of your death and passing",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheSpectrePassingOn2": {
+        "label": "",
+        "description": "HAUNTINGS",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "you leave behind a psychic reflection of your fear and anger, a terrible thing that hunts mortals in the night",
+            "value": false
+          },
+          "1": {
+            "label": "you imbue an object with nightmarish power; the MC chooses who ends up with the cursed item",
+            "value": false
+          },
+          "2": {
+            "label": "you drive an NPC close to you into a downward spiral",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
       }
     },
     "choiceSets": [
@@ -642,11 +742,11 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1748404922151,
+    "modifiedTime": 1750198303752,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },
