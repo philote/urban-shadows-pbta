@@ -1426,9 +1426,6 @@ export const configSheet = async () => {
                 equipmentTypes: {
                     gear: {
                         label: game.i18n.localize("US2E.CharacterSheets.equipmentTypes.gearLabel")
-                    },
-                    debt: {
-                        label: game.i18n.localize("US2E.CharacterSheets.equipmentTypes.debtLabel")
                     }
                 }
             },
@@ -1787,9 +1784,6 @@ export const configSheet = async () => {
                 equipmentTypes: {
                     gear: {
                         label: game.i18n.localize("US2E.NPCSheets.equipmentTypes.gearLabel")
-                    },
-                    debt: {
-                        label: game.i18n.localize("US2E.NPCSheets.equipmentTypes.debtLabel")
                     }
                 }
             }
