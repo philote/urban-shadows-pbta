@@ -67,11 +67,14 @@ You can install the latest released version of the module by using this manifest
   - Roll tables
 
 ## TODO
-- clean up all moves, playbooks and gear
-- link playbooks to moves and gear
-- Create City Hub compendium from free material
-- Relationship and debt tracking on sheets
+- Compendium
+    - Create the rest of the City Hub data
+    - Create free City Hubs
+    - Fix the Playbook Details
+    - fix the Playbook auto grants
+    - add images to gear
 - Improve NPC sheets
+- Relationship and debt tracking on sheets
 
 # License & Acknowledgements
 [Urban Shadows](https://magpiegames.com/collections/urban-shadows) was created by Andrew Medeiros and Mark Diaz Truman and is copyright 2015 by [Magpie Games](https://magpiegames.com), including all text and art. All rights are reserved.
