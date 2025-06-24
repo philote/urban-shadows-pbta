@@ -19,73 +19,73 @@ Implementation of missing roll tables from the Urban Shadows City Hubs Reference
 
 ## Implementation Tasks
 
-### Phase 1: NPCs Tables (32 tables total)
-**Status**: Pending
+### Phase 1: NPCs Tables (36 tables total)
+**Status**: ✅ COMPLETED
 
 #### Art District NPCs
-- [ ] Main table: "Art District NPCs" (references 8 sub-tables)
-- [ ] Sub-table: "Art District NPCs Circle" (2d6, 11 entries)
-- [ ] Sub-table: "Art District NPCs Presenting" (2d6, 11 entries)
-- [ ] Sub-table: "Art District NPCs Look" (2d6, 11 entries)
-- [ ] Sub-table: "Art District NPCs Demeanor" (2d6, 11 entries)
-- [ ] Sub-table: "Art District NPCs Role" (2d6, 11 entries)
-- [ ] Sub-table: "Art District NPCs Trait" (2d6, 11 entries)
-- [ ] Sub-table: "Art District NPCs Quirk" (2d6, 11 entries)
-- [ ] Sub-table: "Art District NPCs Drives" (2d6, 11 entries)
+- [x] Main table: "Art District NPCs" (references 8 sub-tables)
+- [x] Sub-table: "Art District NPCs Circle" (2d6, 11 entries)
+- [x] Sub-table: "Art District NPCs Presenting" (2d6, 11 entries)
+- [x] Sub-table: "Art District NPCs Look" (2d6, 11 entries)
+- [x] Sub-table: "Art District NPCs Demeanor" (2d6, 11 entries)
+- [x] Sub-table: "Art District NPCs Role" (2d6, 11 entries)
+- [x] Sub-table: "Art District NPCs Trait" (2d6, 11 entries)
+- [x] Sub-table: "Art District NPCs Quirk" (2d6, 11 entries)
+- [x] Sub-table: "Art District NPCs Drives" (2d6, 11 entries)
 
 #### City Hall NPCs
-- [ ] Main table: "City Hall NPCs" (references 8 sub-tables)
-- [ ] Sub-table: "City Hall NPCs Circle" (2d6, 11 entries)
-- [ ] Sub-table: "City Hall NPCs Presenting" (2d6, 11 entries)
-- [ ] Sub-table: "City Hall NPCs Look" (2d6, 11 entries)
-- [ ] Sub-table: "City Hall NPCs Demeanor" (2d6, 11 entries)
-- [ ] Sub-table: "City Hall NPCs Role" (2d6, 11 entries)
-- [ ] Sub-table: "City Hall NPCs Trait" (2d6, 11 entries)
-- [ ] Sub-table: "City Hall NPCs Quirk" (2d6, 11 entries)
-- [ ] Sub-table: "City Hall NPCs Drives" (2d6, 11 entries)
+- [x] Main table: "City Hall NPCs" (references 8 sub-tables)
+- [x] Sub-table: "City Hall NPCs Circle" (2d6, 11 entries)
+- [x] Sub-table: "City Hall NPCs Presenting" (2d6, 11 entries)
+- [x] Sub-table: "City Hall NPCs Look" (2d6, 11 entries)
+- [x] Sub-table: "City Hall NPCs Demeanor" (2d6, 11 entries)
+- [x] Sub-table: "City Hall NPCs Role" (2d6, 11 entries)
+- [x] Sub-table: "City Hall NPCs Trait" (2d6, 11 entries)
+- [x] Sub-table: "City Hall NPCs Quirk" (2d6, 11 entries)
+- [x] Sub-table: "City Hall NPCs Drives" (2d6, 11 entries)
 
 #### Downtown NPCs
-- [ ] Main table: "Downtown NPCs" (references 8 sub-tables)
-- [ ] Sub-table: "Downtown NPCs Circle" (2d6, 11 entries)
-- [ ] Sub-table: "Downtown NPCs Presenting" (2d6, 11 entries)
-- [ ] Sub-table: "Downtown NPCs Look" (2d6, 11 entries)
-- [ ] Sub-table: "Downtown NPCs Demeanor" (2d6, 11 entries)
-- [ ] Sub-table: "Downtown NPCs Role" (2d6, 11 entries)
-- [ ] Sub-table: "Downtown NPCs Trait" (2d6, 11 entries)
-- [ ] Sub-table: "Downtown NPCs Quirk" (2d6, 11 entries)
-- [ ] Sub-table: "Downtown NPCs Drives" (2d6, 11 entries)
+- [x] Main table: "Downtown NPCs" (references 8 sub-tables)
+- [x] Sub-table: "Downtown NPCs Circle" (2d6, 11 entries)
+- [x] Sub-table: "Downtown NPCs Presenting" (2d6, 11 entries)
+- [x] Sub-table: "Downtown NPCs Look" (2d6, 11 entries)
+- [x] Sub-table: "Downtown NPCs Demeanor" (2d6, 11 entries)
+- [x] Sub-table: "Downtown NPCs Role" (2d6, 11 entries)
+- [x] Sub-table: "Downtown NPCs Trait" (2d6, 11 entries)
+- [x] Sub-table: "Downtown NPCs Quirk" (2d6, 11 entries)
+- [x] Sub-table: "Downtown NPCs Drives" (2d6, 11 entries)
 
 #### University NPCs
-- [ ] Main table: "University NPCs" (references 8 sub-tables)
-- [ ] Sub-table: "University NPCs Circle" (2d6, 11 entries)
-- [ ] Sub-table: "University NPCs Presenting" (2d6, 11 entries)
-- [ ] Sub-table: "University NPCs Look" (2d6, 11 entries)
-- [ ] Sub-table: "University NPCs Demeanor" (2d6, 11 entries)
-- [ ] Sub-table: "University NPCs Role" (2d6, 11 entries)
-- [ ] Sub-table: "University NPCs Trait" (2d6, 11 entries)
-- [ ] Sub-table: "University NPCs Quirk" (2d6, 11 entries)
-- [ ] Sub-table: "University NPCs Drives" (2d6, 11 entries)
+- [x] Main table: "University NPCs" (references 8 sub-tables)
+- [x] Sub-table: "University NPCs Circle" (2d6, 11 entries)
+- [x] Sub-table: "University NPCs Presenting" (2d6, 11 entries)
+- [x] Sub-table: "University NPCs Look" (2d6, 11 entries)
+- [x] Sub-table: "University NPCs Demeanor" (2d6, 11 entries)
+- [x] Sub-table: "University NPCs Role" (2d6, 11 entries)
+- [x] Sub-table: "University NPCs Trait" (2d6, 11 entries)
+- [x] Sub-table: "University NPCs Quirk" (2d6, 11 entries)
+- [x] Sub-table: "University NPCs Drives" (2d6, 11 entries)
 
-### Phase 2: Factions Tables (24 tables total)
-**Status**: Pending
+### Phase 2: Factions Tables (28 tables total)
+**Status**: 🔄 IN PROGRESS (14/28 completed)
 
 #### Art District Factions
-- [ ] Main table: "Art District Factions" (references 6 sub-tables)
-- [ ] Sub-table: "Art District Factions Purpose" (2d6, 11 entries)
-- [ ] Sub-table: "Art District Factions Structure" (2d6, 11 entries)
-- [ ] Sub-table: "Art District Factions Mood" (2d6, 11 entries)
-- [ ] Sub-table: "Art District Factions Size" (2d6, 11 entries)
-- [ ] Sub-table: "Art District Factions Strength" (2d6, 11 entries)
-- [ ] Sub-table: "Art District Factions Description" (2d6, 11 entries)
+- [x] Main table: "Art District Factions" (references 6 sub-tables)
+- [x] Sub-table: "Art District Factions Purpose" (2d6, 11 entries)
+- [x] Sub-table: "Art District Factions Structure" (2d6, 11 entries)
+- [x] Sub-table: "Art District Factions Mood" (2d6, 11 entries)
+- [x] Sub-table: "Art District Factions Size" (2d6, 11 entries)
+- [x] Sub-table: "Art District Factions Strength" (2d6, 11 entries)
+- [x] Sub-table: "Art District Factions The Faction..." (2d6, 11 entries)
 
 #### City Hall Factions
-- [ ] Main table: "City Hall Factions" (references 6 sub-tables)
-- [ ] Sub-table: "City Hall Factions Purpose" (2d6, 11 entries)
-- [ ] Sub-table: "City Hall Factions Structure" (2d6, 11 entries)
-- [ ] Sub-table: "City Hall Factions Mood" (2d6, 11 entries)
-- [ ] Sub-table: "City Hall Factions Size" (2d6, 11 entries)
-- [ ] Sub-table: "City Hall Factions Strength" (2d6, 11 entries)
-- [ ] Sub-table: "City Hall Factions Description" (2d6, 11 entries)
+- [x] Main table: "City Hall Factions" (references 6 sub-tables)
+- [x] Sub-table: "City Hall Factions Purpose" (2d6, 11 entries)
+- [x] Sub-table: "City Hall Factions Structure" (2d6, 11 entries)
+- [x] Sub-table: "City Hall Factions Mood" (2d6, 11 entries)
+- [x] Sub-table: "City Hall Factions Size" (2d6, 11 entries)
+- [x] Sub-table: "City Hall Factions Strength" (2d6, 11 entries)
+- [x] Sub-table: "City Hall Factions The Faction..." (2d6, 11 entries)
 
 #### Downtown Factions
 - [ ] Main table: "Downtown Factions" (references 6 sub-tables)
@@ -94,7 +94,7 @@ Implementation of missing roll tables from the Urban Shadows City Hubs Reference
 - [ ] Sub-table: "Downtown Factions Mood" (2d6, 11 entries)
 - [ ] Sub-table: "Downtown Factions Size" (2d6, 11 entries)
 - [ ] Sub-table: "Downtown Factions Strength" (2d6, 11 entries)
-- [ ] Sub-table: "Downtown Factions Description" (2d6, 11 entries)
+- [ ] Sub-table: "Downtown Factions The Faction..." (2d6, 11 entries)
 
 #### University Factions
 - [ ] Main table: "University Factions" (references 6 sub-tables)
@@ -103,7 +103,7 @@ Implementation of missing roll tables from the Urban Shadows City Hubs Reference
 - [ ] Sub-table: "University Factions Mood" (2d6, 11 entries)
 - [ ] Sub-table: "University Factions Size" (2d6, 11 entries)
 - [ ] Sub-table: "University Factions Strength" (2d6, 11 entries)
-- [ ] Sub-table: "University Factions Description" (2d6, 11 entries)
+- [ ] Sub-table: "University Factions The Faction..." (2d6, 11 entries)
 
 ### Phase 3: Rumors Tables (3 tables total)
 **Status**: Pending
@@ -139,18 +139,20 @@ Implementation of missing roll tables from the Urban Shadows City Hubs Reference
 
 ## Progress Tracking
 
-**Total Tables**: 59
-- **Completed**: 6 (Art District NPCs: Circle, Presenting, Look, Demeanor, Role + main table)
-- **In Progress**: Art District NPCs remaining sub-tables
-- **Remaining**: 53
+**Total Tables**: 67
+- **Completed**: 50 (All NPCs + Art District & City Hall Factions)
+- **In Progress**: Downtown & University Factions
+- **Remaining**: 17
 
-### Completed Tables
-✅ Art District NPCs Circle  
-✅ Art District NPCs Presenting  
-✅ Art District NPCs Look  
-✅ Art District NPCs Demeanor  
-✅ Art District NPCs Role  
-✅ Art District NPCs (main table - needs 3 more sub-table references)
+### Recently Completed
+✅ **All NPCs Tables (36 tables)**: All 4 hubs complete with main tables + 8 sub-tables each
+✅ **Art District Factions (7 tables)**: Main table + 6 sub-tables (Purpose, Structure, Mood, Size, Strength, The Faction...)
+✅ **City Hall Factions (7 tables)**: Main table + 6 sub-tables (Purpose, Structure, Mood, Size, Strength, The Faction...)
+
+### Next Tasks
+🔄 Downtown Factions (7 tables)
+⏳ University Factions (7 tables)  
+⏳ Rumors Tables (3 tables): City Hall, Downtown, University
 
 ## Decisions Made
 
