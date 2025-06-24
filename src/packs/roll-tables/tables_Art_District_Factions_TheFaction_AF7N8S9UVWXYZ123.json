@@ -1,0 +1,305 @@
+{
+  "folder": "4wRTF9RvSOhb9bd3",
+  "name": "Art District Factions The Faction...",
+  "_id": "AF7N8S9UVWXYZ123",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "_id": "AfN1S2U3V4W5X6Y7",
+      "name": "...is hunted by an ancient sect of deadly assassins",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!AF7N8S9UVWXYZ123.AfN1S2U3V4W5X6Y7"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "_id": "BfN2S3U4V5W6X7Y8",
+      "name": "...is smuggling illicit magical substances into the area",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!AF7N8S9UVWXYZ123.BfN2S3U4V5W6X7Y8"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "_id": "CfN3S4U5V6W7X8Y9",
+      "name": "...wants to broker a peace with long-time enemies",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!AF7N8S9UVWXYZ123.CfN3S4U5V6W7X8Y9"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "_id": "DfN4S5U6V7W8X9YA",
+      "name": "...contains many refugees from other Circles",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!AF7N8S9UVWXYZ123.DfN4S5U6V7W8X9YA"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "_id": "EfN5S6U7V8W9XAYB",
+      "name": "...is haunted by the ghosts of its fallen members",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!AF7N8S9UVWXYZ123.EfN5S6U7V8W9XAYB"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "_id": "FfN6S7U8V9WAXBYC",
+      "name": "...flaunts proof of the supernatural in public",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!AF7N8S9UVWXYZ123.FfN6S7U8V9WAXBYC"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "_id": "GfN7S8U9VAWBXCYD",
+      "name": "...snatches up and transforms talented mortal artists",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!AF7N8S9UVWXYZ123.GfN7S8U9VAWBXCYD"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "_id": "HfN8S9U0VAWBXCYE",
+      "name": "...sells potent (and stolen) Wild tokens and artifacts",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!AF7N8S9UVWXYZ123.HfN8S9U0VAWBXCYE"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "_id": "IfN9S0U1VAWBXCYF",
+      "name": "...holds extensive property in the district",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!AF7N8S9UVWXYZ123.IfN9S0U1VAWBXCYF"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "_id": "JfN0S1U2VAWBXCYG",
+      "name": "...is plotting an uprising against a Status-3 NPC",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!AF7N8S9UVWXYZ123.JfN0S1U2VAWBXCYG"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "_id": "KfN1S2U3VAWBXCYH",
+      "name": "...is caught in a power struggle with a werewolf pack",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!AF7N8S9UVWXYZ123.KfN1S2U3VAWBXCYH"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748581947337,
+    "modifiedTime": 1748581947337,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "formula": "2d6",
+  "_key": "!tables!AF7N8S9UVWXYZ123"
+}
