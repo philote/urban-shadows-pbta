@@ -1,5 +1,5 @@
 {
-  "folder": "4wRTF9RvSOhb9bd3",
+  "folder": "nSX6yA3VXciQfWG1",
   "name": "Art District Factions Purpose",
   "_id": "AF2A3C4T5I6O7N89",
   "img": "icons/svg/d20-grey.svg",
@@ -283,7 +283,7 @@
   ],
   "replacement": true,
   "displayRoll": true,
-  "sort": 0,
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "tolKXMkOd7JsM4Jk": 3
@@ -293,11 +293,11 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748581947337,
-    "modifiedTime": 1748581947337,
+    "modifiedTime": 1750796994735,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "2d6",

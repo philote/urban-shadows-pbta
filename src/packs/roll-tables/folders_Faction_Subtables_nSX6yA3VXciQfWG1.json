@@ -1,0 +1,21 @@
+{
+  "type": "RollTable",
+  "folder": "4wRTF9RvSOhb9bd3",
+  "name": "Faction Subtables",
+  "color": null,
+  "sorting": "a",
+  "_id": "nSX6yA3VXciQfWG1",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!nSX6yA3VXciQfWG1"
+}
