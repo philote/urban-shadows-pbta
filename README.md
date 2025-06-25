@@ -67,9 +67,6 @@ You can install the latest released version of the module by using this manifest
   - Roll tables
 
 ## TODO
-- Compendium
-    - Create free City Hubs
-    - fix the Playbook auto grants
 - Improve NPC sheets
 - Relationship and debt tracking on sheets
 
