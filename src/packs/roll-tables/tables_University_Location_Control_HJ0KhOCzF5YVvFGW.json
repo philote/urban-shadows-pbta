@@ -1,6 +1,6 @@
 {
   "folder": "N9rS5uV8wX1yY4zB",
-  "name": "University Control",
+  "name": "University Location Control",
   "_id": "HJ0KhOCzF5YVvFGW",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
@@ -143,11 +143,11 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748581947337,
-    "modifiedTime": 1748582366514,
+    "modifiedTime": 1750819639640,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "2d6",
