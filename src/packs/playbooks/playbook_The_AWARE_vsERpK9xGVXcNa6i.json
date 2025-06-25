@@ -72,7 +72,7 @@
         }
       }
     },
-    "statsDetail": "(Add 1 to one of these)",
+    "statsDetail": "(Add 1 to one of the Stats and one of the Circles)",
     "attributes": {
       "corruption": {
         "label": "Corruption",
@@ -586,7 +586,37 @@
             "value": false
           }
         },
-        "choices": [],
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "A younger sibling who relies on you for transportation and advice",
+                "value": false
+              },
+              "1": {
+                "label": "A loyal significant other who expects you home by midnight",
+                "value": false
+              },
+              "2": {
+                "label": "A struggling best friend who’s always getting into messy altercations",
+                "value": false
+              },
+              "3": {
+                "label": "A demanding boss who calls you into work at inconvenient times",
+                "value": false
+              },
+              "4": {
+                "label": "An elderly parent who always knows when you’re lying to them",
+                "value": false
+              },
+              "5": {
+                "label": "An overbearing ex-partner who constantly worries about you",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
         "custom": false,
         "path": "attributes"
       }
@@ -595,9 +625,8 @@
       {
         "title": "AWARE MOVES",
         "desc": "CHOOSE THREE:",
-        "grantOn": 1,
-        "advancement": 0,
-        "repeatable": true,
+        "type": "multi",
+        "repeatable": false,
         "choices": [
           {
             "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.izLmUAMU5Rtxzjij",
@@ -636,14 +665,14 @@
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
       },
       {
         "title": "AWARE Starting Moves",
         "desc": "",
-        "grantOn": 0,
-        "advancement": 0,
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
@@ -663,30 +692,81 @@
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
+          },
+          {
+            "img": "icons/svg/aura.svg",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.rEYW7ERaLnMgdb6t",
+            "granted": false,
+            "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
       },
       {
         "title": "Starting Gear",
         "desc": "",
-        "grantOn": 0,
-        "advancement": 0,
-        "repeatable": true,
         "type": "multi",
-        "choices": [],
-        "granted": false
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.hzja5WHwvYV0N2uk",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/smartphone.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.2REzA6YjzrbwOgmm",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/city-car.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.yTKVPS4StFWX0mK7",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/modern-city.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
       },
       {
         "title": "Starting Gear: A self-defense weapon",
         "desc": "Choose One",
-        "grantOn": 1,
-        "advancement": 0,
-        "repeatable": true,
         "type": "multi",
-        "choices": [],
-        "granted": false
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.K4lL7mN0oP3qQ6rS",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/pistol-gun.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.MzcQgdjQbpLiO6bE",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/switchblade.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.IBq8TZkFFa4WMCzq",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/electric.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.P5fFVwsQW8trEVGa",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/gym-bag.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
       }
     ]
   },
@@ -704,7 +784,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1750832473479,
+    "modifiedTime": 1750888663383,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

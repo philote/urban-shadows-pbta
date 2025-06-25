@@ -72,7 +72,7 @@
         }
       }
     },
-    "statsDetail": "(Add 1 to one of these)",
+    "statsDetail": "(Add 1 to one of the Stats and one of the Circles)",
     "attributes": {
       "corruption": {
         "label": "Corruption",
@@ -555,14 +555,213 @@
         "max": null,
         "options": {},
         "description": ""
+      },
+      "TheFaePowers": {
+        "label": "FAERIE POWERS",
+        "description": "Choose three:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "Nature's Caress: Your touch heals 2-harm, starting with critical harm; wounds close, bones knit back together, etc. You cannot use this power on yourself.",
+            "value": false
+          },
+          "1": {
+            "label": "Wither: You can imbue your touch with the power to kill (3-harm intimate ap). The effect is instantly understood by the target as an attack and leaves behind a nasty mark or scar at the point of contact.",
+            "value": false
+          },
+          "2": {
+            "label": "Glamours: You create illusions to fool the senses. The effects don't last long, but they are compelling. You cannot disguise or conceal yourself or your actions with these tricks.",
+            "value": false
+          },
+          "3": {
+            "label": "Shape Change: You can change your shape into that of a small animal—a bird, a mouse, a snake, a fish, etc.—for a scene. Up to three people you designate can still understand your speech, but everyone else perceives you to be barking, chirping, etc.",
+            "value": false
+          },
+          "4": {
+            "label": "Bedlam: You can touch a vulnerable target to place them in a specific emotional state (your choice) for the scene. Mark corruption to have that emotion directed toward a target of your choosing.",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "Nature's Caress: Your touch heals 2-harm, starting with critical harm; wounds close, bones knit back together, etc. You cannot use this power on yourself.",
+                "value": false
+              },
+              "1": {
+                "label": "Wither: You can imbue your touch with the power to kill (3-harm intimate ap). The effect is instantly understood by the target as an attack and leaves behind a nasty mark or scar at the point of contact.",
+                "value": false
+              },
+              "2": {
+                "label": "Glamours: You create illusions to fool the senses. The effects don't last long, but they are compelling. You cannot disguise or conceal yourself or your actions with these tricks.",
+                "value": false
+              },
+              "3": {
+                "label": "Shape Change: You can change your shape into that of a small animal—a bird, a mouse, a snake, a fish, etc.—for a scene. Up to three people you designate can still understand your speech, but everyone else perceives you to be barking, chirping, etc.",
+                "value": false
+              },
+              "4": {
+                "label": "Bedlam: You can touch a vulnerable target to place them in a specific emotional state (your choice) for the scene. Mark corruption to have that emotion directed toward a target of your choosing.",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheFaeCourtCourtIs": {
+        "label": "YOUR COURT",
+        "description": "You belong to a faerie court, presided over by a monarch to whom you have sworn loyalty. Your monarch holds 2 Debts over you; tell the MC what favors they granted you to earn such holdings. Your court is...",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "baroque and formal",
+            "value": false
+          },
+          "1": {
+            "label": "savage and unruly",
+            "value": false
+          },
+          "2": {
+            "label": "aloof and cold",
+            "value": false
+          },
+          "3": {
+            "label": "mysterious and exotic",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "baroque and formal",
+                "value": false
+              },
+              "1": {
+                "label": "savage and unruly",
+                "value": false
+              },
+              "2": {
+                "label": "aloof and cold",
+                "value": false
+              },
+              "3": {
+                "label": "mysterious and exotic",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheFaeCourtMonarchsStanding": {
+        "label": "US2E.CharacterSheets.Playbooks.TheFae.MonarchsStanding.label",
+        "description": "Your monarch's standing is represented by…",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "a crown, magically imbued with your court's royal authority",
+            "value": false
+          },
+          "1": {
+            "label": "a scepter, forged from the elements of your court",
+            "value": false
+          },
+          "2": {
+            "label": "a magical aura, unconcealable by even faerie magics",
+            "value": false
+          },
+          "3": {
+            "label": "a seat of power, capable of summoning your entire court",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "value": "",
+            "options": {
+              "0": {
+                "label": "a crown, magically imbued with your court's royal authority",
+                "value": false
+              },
+              "1": {
+                "label": "a scepter, forged from the elements of your court",
+                "value": false
+              },
+              "2": {
+                "label": "a magical aura, unconcealable by even faerie magics",
+                "value": false
+              },
+              "3": {
+                "label": "a seat of power, capable of summoning your entire court",
+                "value": false
+              }
+            }
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheFaeCourtRival": {
+        "label": "",
+        "description": "Your rival is…",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "a jealous sibling; you owe them a Debt for their loyalty",
+            "value": false
+          },
+          "1": {
+            "label": "a former lover; you owe them a Debt for their kindness",
+            "value": false
+          },
+          "2": {
+            "label": "an old mentor; you owe them a Debt for their tutelage",
+            "value": false
+          },
+          "3": {
+            "label": "a contemptuous peer; you owe them a Debt for their patience",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "a jealous sibling; you owe them a Debt for their loyalty",
+                "value": false
+              },
+              "1": {
+                "label": "a former lover; you owe them a Debt for their kindness",
+                "value": false
+              },
+              "2": {
+                "label": "an old mentor; you owe them a Debt for their tutelage",
+                "value": false
+              },
+              "3": {
+                "label": "a contemptuous peer; you owe them a Debt for their patience",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
       }
     },
     "choiceSets": [
       {
         "title": "FAE MOVES",
         "desc": "YOU GET THIS ONE:",
-        "grantOn": 1,
-        "advancement": 0,
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
@@ -572,14 +771,14 @@
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
       },
       {
-        "title": "AND CHOOSE TWO MORE:",
-        "desc": "",
-        "grantOn": 0,
-        "advancement": 0,
+        "title": "FAE MOVES",
+        "desc": "AND CHOOSE TWO MORE:",
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
@@ -613,14 +812,14 @@
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
       },
       {
         "title": "FAE Starting Moves",
         "desc": "",
-        "grantOn": 0,
-        "advancement": 0,
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
@@ -636,18 +835,50 @@
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
       },
       {
         "title": "Starting Gear",
         "desc": "Clothing that shifts between mortal fashion and fae regalia, a token from your homeland, a smartphone that sometimes receives calls from the other side:",
-        "grantOn": 0,
-        "advancement": 0,
-        "repeatable": true,
         "type": "multi",
-        "choices": [],
-        "granted": false
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.HZbbbpRVzY68EOu5",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/colombian-statue.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.hzja5WHwvYV0N2uk",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/smartphone.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/triorb.svg",
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.g9PgEqTItk2pyXTT",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.2REzA6YjzrbwOgmm",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/city-car.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.yTKVPS4StFWX0mK7",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/modern-city.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
       }
     ]
   },
@@ -665,7 +896,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1750833613916,
+    "modifiedTime": 1750894738446,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

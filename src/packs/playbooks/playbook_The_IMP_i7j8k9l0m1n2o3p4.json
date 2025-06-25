@@ -72,7 +72,7 @@
         }
       }
     },
-    "statsDetail": "(Add 1 to one of these)",
+    "statsDetail": "(Add 1 to one of the Stats and one of the Circles)",
     "attributes": {
       "corruption": {
         "label": "Corruption",
@@ -582,7 +582,33 @@
             "value": false
           }
         },
-        "choices": [],
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "Transporting and selling otherworldly creatures",
+                "value": false
+              },
+              "1": {
+                "label": "Appraising and auctioning magical relics and artifacts",
+                "value": false
+              },
+              "2": {
+                "label": "Creating forgeries, disguises, and stolen identities",
+                "value": false
+              },
+              "3": {
+                "label": "Providing news, gossip, and rumor to the city at large",
+                "value": false
+              },
+              "4": {
+                "label": "Operating a gathering place; name the relevant Circle",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
         "custom": false,
         "path": "attributes"
       },
@@ -612,7 +638,33 @@
             "value": false
           }
         },
-        "choices": [],
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "A skilled bodyguard dedicated solely to your security",
+                "value": false
+              },
+              "1": {
+                "label": "An expansive, expert staff appropriate to your services",
+                "value": false
+              },
+              "2": {
+                "label": "A secure venue, impenetrable by intruders and thieves",
+                "value": false
+              },
+              "3": {
+                "label": "A magical dead zone secured by wards and ritual",
+                "value": false
+              },
+              "4": {
+                "label": "A Status-3 regular in another Circle; take three Debts on them",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
         "custom": false,
         "path": "attributes"
       },
@@ -642,7 +694,33 @@
             "value": false
           }
         },
-        "choices": [],
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "A dangerous competitor edging in on your market",
+                "value": false
+              },
+              "1": {
+                "label": "A hard-to-move acquisition attracting unwanted attention",
+                "value": false
+              },
+              "2": {
+                "label": "A besmirched reputation complicating any new deals",
+                "value": false
+              },
+              "3": {
+                "label": "A demonic ex-liege seeking your immediate return",
+                "value": false
+              },
+              "4": {
+                "label": "A severe state of disrepair endangering your staff",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
         "custom": false,
         "path": "attributes"
       },
@@ -650,7 +728,12 @@
         "label": "YOUR SCHEMES",
         "description": "Schemes are risky deals and shady cons designed to expand your business. When you generate a scheme, choose a primary Circle, one of your services, and two complications—the MC will tell you what opportunity you’ve seized upon. When you accomplish a scheme, select two boons and a payout; the MC will detail how they arrive. Generate a scheme whenever a boon or a move tells you to generate a new scheme.<br><strong>COMPLICATIONS</strong><br><ul><li>you promised someone involved something you don’t yet have</li><li>you require an unreliable or untrustworthy co-conspirator</li><li>you must fool or deceive a powerful and dangerous NPC</li><li>you need to steal something from a secure location</li><li>you need to wait for a predetermined time or event</li><li>you have attracted the attention of dangerous opposition</li></ul><br><strong>BOONS</strong><br><ul><li>attract new business; generate a new scheme</li><li>pay down your debts; cancel a Debt you owe</li><li>throw your weight around; take a Debt on an NPC</li><li>grow your reputation; mark a Circle affected by the deal</li></ul><br><strong>PAYOUTS</strong><br>",
         "type": "Text",
-        "choices": [],
+        "choices": [
+          {
+            "value": "",
+            "options": {}
+          }
+        ],
         "custom": false,
         "path": "attributes"
       },
@@ -684,7 +767,37 @@
             "value": false
           }
         },
-        "choices": [],
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "+1 any Circle (max+3)",
+                "value": false
+              },
+              "1": {
+                "label": "hire Fiendish Underlings",
+                "value": false
+              },
+              "2": {
+                "label": "acquire an arsenal",
+                "value": false
+              },
+              "3": {
+                "label": "secure a new investment",
+                "value": false
+              },
+              "4": {
+                "label": "secure a new investment",
+                "value": false
+              },
+              "5": {
+                "label": "resolve a problem",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
         "custom": false,
         "path": "attributes"
       },
@@ -718,7 +831,37 @@
             "value": false
           }
         },
-        "choices": [],
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "+1 any Circle (max+3)",
+                "value": false
+              },
+              "1": {
+                "label": "+1 Status (max+2)",
+                "value": false
+              },
+              "2": {
+                "label": "acquire a legendary weapon",
+                "value": false
+              },
+              "3": {
+                "label": "acquire a sanctum",
+                "value": false
+              },
+              "4": {
+                "label": "get 2 new let it out abilities",
+                "value": false
+              },
+              "5": {
+                "label": "retire your character to safety",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
         "custom": false,
         "path": "attributes"
       }
@@ -727,8 +870,7 @@
       {
         "title": "IMP MOVES",
         "desc": "YOU GET THIS ONE:",
-        "grantOn": 1,
-        "advancement": 0,
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
@@ -738,14 +880,14 @@
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
       },
       {
-        "title": "AND CHOOSE TWO MORE:",
-        "desc": "",
-        "grantOn": 0,
-        "advancement": 0,
+        "title": "IMP MOVES",
+        "desc": "AND CHOOSE TWO MORE:",
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
@@ -773,14 +915,14 @@
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
       },
       {
         "title": "IMP Starting Moves",
         "desc": "",
-        "grantOn": 0,
-        "advancement": 0,
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
@@ -796,18 +938,50 @@
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
       },
       {
         "title": "Starting Gear",
-        "desc": "A small but well-appointed apartment, a reliable car, a smartphone with too many contacts, a collection of useful trinkets and favors:",
-        "grantOn": 0,
-        "advancement": 0,
-        "repeatable": true,
+        "desc": "",
         "type": "multi",
-        "choices": [],
-        "granted": false
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.uVi7v6OrRt5G6VyU",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/surfer-van.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.dQVe5sIDFtrubN0b",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/ankh.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.xybKMTgXDHWRT0Zj",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/present.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.hzja5WHwvYV0N2uk",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/smartphone.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/modern-city.svg",
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.Av08ynED7iLXAQiw",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
       }
     ]
   },
@@ -825,7 +999,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1750833670654,
+    "modifiedTime": 1750894820350,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

@@ -1,0 +1,36 @@
+{
+  "folder": null,
+  "name": "A ritual object binding you to this realm",
+  "type": "equipment",
+  "_id": "dQVe5sIDFtrubN0b",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/ankh.svg",
+  "system": {
+    "description": "<p>(e.g. the first dollar spent at your business)</p>",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1750889873594,
+    "modifiedTime": 1750893757412,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!dQVe5sIDFtrubN0b"
+}

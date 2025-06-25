@@ -72,7 +72,7 @@
         }
       }
     },
-    "statsDetail": "(add 1 to one of these)",
+    "statsDetail": "(Add 1 to one of the Stats and one of the Circles)",
     "attributes": {
       "corruption": {
         "label": "Corruption",
@@ -555,14 +555,27 @@
         "max": null,
         "options": {},
         "description": ""
+      },
+      "TheVeteranWorkshop": {
+        "label": "YOUR WORKSHOP",
+        "description": "",
+        "type": "LongText",
+        "value": "<p>You have a workshop that includes a large space for your tools and/or supplies. When you go into your workshop to work on something, the MC tells you, \\\"Sure, no problem, but…\\\" and then 1 to 4 of the following.</p><ul><li>It's going to take you hours/days/weeks/months of work or recovery time</li><li>First you'll have to summon/build/construct ________</li><li>You'll require the services of ________ to complete it</li><li>You require a rare and expensive ingredient or material</li><li>It will only work for a short time, and may be unreliable</li><li>It's going to mean exposing anyone nearby to serious fallout</li><li>Your workshop lacks _______; add this and you'll be able to complete it</li><li>It will require a part of yourself to complete</li><li>You must journey to ________ in order to complete it</li></ul><p>The MC can combine any set of requirements or offer two sets of costs to the same task. Once the requirements are completed, the work is completed. The MC will stat it up, reveal some info, or whatever is called for now that you've finished.</p><p>Items created in your workshop are safe from the MC. They can't be destroyed or taken without your permission, even if you sell or give them away to another character. When you create something specifically for another character, mark their Circle when the project is complete.</p><p>Choose and underline 3 resources your workshop includes: <em>automotive hoist and tools, a darkroom, a regulated growing environment, two or three skilled assistants, a junkyard of raw materials, machining tools, transmitters and receivers, a testing ground, deadly booby traps, a library of old books, a scattering of ancient relics, a mystical focus, magical wards, a medical station, an operating room, high-tech electronics and computers, an advanced surveillance system, a forge, a science lab, a portal to another dimension</em></p>",
+        "choices": [
+          {
+            "value": "<p>You have a workshop that includes a large space for your tools and/or supplies. When you go into your workshop to work on something, the MC tells you, \\\"Sure, no problem, but…\\\" and then 1 to 4 of the following.</p><ul><li>It's going to take you hours/days/weeks/months of work or recovery time</li><li>First you'll have to summon/build/construct ________</li><li>You'll require the services of ________ to complete it</li><li>You require a rare and expensive ingredient or material</li><li>It will only work for a short time, and may be unreliable</li><li>It's going to mean exposing anyone nearby to serious fallout</li><li>Your workshop lacks _______; add this and you'll be able to complete it</li><li>It will require a part of yourself to complete</li><li>You must journey to ________ in order to complete it</li></ul><p>The MC can combine any set of requirements or offer two sets of costs to the same task. Once the requirements are completed, the work is completed. The MC will stat it up, reveal some info, or whatever is called for now that you've finished.</p><p>Items created in your workshop are safe from the MC. They can't be destroyed or taken without your permission, even if you sell or give them away to another character. When you create something specifically for another character, mark their Circle when the project is complete.</p><p>Choose and underline 3 resources your workshop includes: <em>automotive hoist and tools, a darkroom, a regulated growing environment, two or three skilled assistants, a junkyard of raw materials, machining tools, transmitters and receivers, a testing ground, deadly booby traps, a library of old books, a scattering of ancient relics, a mystical focus, magical wards, a medical station, an operating room, high-tech electronics and computers, an advanced surveillance system, a forge, a science lab, a portal to another dimension</em></p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
       }
     },
     "choiceSets": [
       {
         "title": "VETERAN MOVES",
         "desc": "YOU GET THIS ONE:",
-        "grantOn": 1,
-        "advancement": 0,
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
@@ -572,14 +585,14 @@
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
       },
       {
-        "title": "AND CHOOSE TWO MORE:",
-        "desc": "",
-        "grantOn": 0,
-        "advancement": 0,
+        "title": "VETERAN MOVES",
+        "desc": "AND CHOOSE TWO MORE:",
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
@@ -613,48 +626,96 @@
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
       },
       {
         "title": "VETERAN Starting Moves",
         "desc": "",
-        "grantOn": 0,
-        "advancement": 0,
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.MdVmLn0FBUm08rQC",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.M7oP0qQ3rS6tT9uU",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.MCfl1guDNDMDsaDZ",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
       },
       {
         "title": "Starting Gear",
-        "desc": "A small apartment or warehouse hideout, a practical car or old pick-up truck, a smartphone, a workshop (detail). One trusty weapon of choice:",
-        "grantOn": 1,
-        "advancement": 0,
+        "desc": "",
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.HKWmMcz2tRcWGfdr",
-            "img": "icons/svg/item-bag.svg",
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.KJpK75h5tquVPjLJ",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/flatbed.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.uNpgcYYgBru32GfI",
-            "img": "icons/svg/item-bag.svg",
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.JVrSbjXusGXxQ9mR",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/factory.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.hzja5WHwvYV0N2uk",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/smartphone.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/factory.svg",
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.zJHFMoGPOS1qm6oh",
             "granted": false,
             "advancement": 0
           }
         ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Starting Gear",
+        "desc": "One trusty weapon of choice:",
         "type": "multi",
-        "granted": false
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.K4lL7mN0oP3qQ6rS",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/pistol-gun.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.3F6i3djFhxSbolbg",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/revolver.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.ab37097cce424167",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/sawed-off-shotgun.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
       }
     ]
   },
@@ -672,7 +733,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1750833830152,
+    "modifiedTime": 1750894924267,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

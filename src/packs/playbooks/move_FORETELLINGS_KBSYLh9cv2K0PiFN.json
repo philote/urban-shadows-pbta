@@ -1,0 +1,53 @@
+{
+  "folder": "L3nP6rT9uW2xZ5bC",
+  "name": "FORETELLINGS",
+  "type": "move",
+  "_id": "KBSYLh9cv2K0PiFN",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Before each faction turn—or at the start of the game—roll with <strong>Spirit</strong>. </p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": "<p>On a miss, you instead receive a terrifying premonition about the prophecy that binds you to your benefactor; take -1 ongoing to efforts you make to stop it from coming to pass.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Weak Hit",
+        "value": "<p>On a hit, pick one of the options below; after the faction turn, the MC will tell you what your prophetic tools have revealed:</p><ul><li><p>fate has provided an opportunity to fulfill your role for your benefactor; the MC will tell you how to seize it</p></li><li><p>an ally has come to own an item that might reveal more about your prophecy; the MC will tell you where they keep it</p></li><li><p>a coming tragedy might allow you to escape or alter your prophesized path; the MC will tell you who will suffer if you allow it to occur</p></li></ul><p>On a 7-9, you must also choose one:</p><ul><li><p>a threat is closing in; the MC will tell you why it stalks you or your benefactor</p></li><li><p>an ally is plotting a betrayal; the MC will tell you when the hammer will fall</p></li><li><p>a death lurks in the shadows; the MC will tell you how you can avoid it</p></li></ul>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Strong Hit",
+        "value": "<p>On a hit, pick one of the options below; after the faction turn, the MC will tell you what your prophetic tools have revealed:</p><ul><li><p>fate has provided an opportunity to fulfill your role for your benefactor; the MC will tell you how to seize it</p></li><li><p>an ally has come to own an item that might reveal more about your prophecy; the MC will tell you where they keep it</p></li><li><p>a coming tragedy might allow you to escape or alter your prophesized path; the MC will tell you who will suffer if you allow it to occur</p></li></ul>"
+      }
+    },
+    "uses": 0,
+    "rollType": "spirit",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1750890119602,
+    "modifiedTime": 1750890329534,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!KBSYLh9cv2K0PiFN"
+}

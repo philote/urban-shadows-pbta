@@ -1,0 +1,36 @@
+{
+  "name": "a crappy car",
+  "type": "equipment",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/city-car.svg",
+  "system": {
+    "description": "",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1750892478834,
+    "modifiedTime": 1750893140382,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_id": "pLmcHJnSEFA7S4pe",
+  "sort": 0,
+  "_key": "!items!pLmcHJnSEFA7S4pe"
+}

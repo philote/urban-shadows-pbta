@@ -1,0 +1,53 @@
+{
+  "folder": "8o7qAimGOKAnutBa",
+  "name": "TRAUMA MOVE: LASH OUT AT AN NPC",
+  "type": "move",
+  "_id": "4xXzKTHlc3rXRSXX",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you <em><strong>lash out at an NPC in furious anger</strong></em>, roll with <strong>Blood</strong>. </p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": "<p>On a miss, you completely lose control of your ectoplasmic form; mark corruption.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Weak Hit",
+        "value": "<p>On a hit, clear all trauma and inflict harm as established. </p><p>On a 7-9, your violence is wild; it leaves you vulnerable, gets out of hand, or causes some collateral damage, MC’s choice. </p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Strong Hit",
+        "value": "<p>On a hit, clear all trauma and inflict harm as established. </p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "blood",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1750891013253,
+    "modifiedTime": 1750891132568,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!4xXzKTHlc3rXRSXX"
+}

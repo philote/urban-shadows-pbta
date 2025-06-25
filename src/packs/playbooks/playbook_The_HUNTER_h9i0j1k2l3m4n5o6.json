@@ -72,7 +72,7 @@
         }
       }
     },
-    "statsDetail": "(Add 1 to one of these)",
+    "statsDetail": "(Add 1 to one of the Stats and one of the Circles)",
     "attributes": {
       "corruption": {
         "label": "Corruption",
@@ -582,7 +582,33 @@
             "value": false
           }
         },
-        "choices": [],
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "vampires who feed on the weak and coerced",
+                "value": false
+              },
+              "1": {
+                "label": "demons who corrupt the good and the just",
+                "value": false
+              },
+              "2": {
+                "label": "angels who subjugate the will of the faithful",
+                "value": false
+              },
+              "3": {
+                "label": "ghosts who plague the lives of the innocent",
+                "value": false
+              },
+              "4": {
+                "label": "wizards who abuse their power and authority",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
         "custom": false,
         "path": "attributes"
       },
@@ -608,7 +634,29 @@
             "value": false
           }
         },
-        "choices": [],
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "my soul, forever tainted by magic ritual",
+                "value": false
+              },
+              "1": {
+                "label": "my family, forever excised from my life",
+                "value": false
+              },
+              "2": {
+                "label": "my childhood, forever lost to my training",
+                "value": false
+              },
+              "3": {
+                "label": "my body, forever scarred by ceremony",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
         "custom": false,
         "path": "attributes"
       },
@@ -634,7 +682,29 @@
             "value": false
           }
         },
-        "choices": [],
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "a swanky, expensive hotel",
+                "value": false
+              },
+              "1": {
+                "label": "a dive bar or gambling den",
+                "value": false
+              },
+              "2": {
+                "label": "a union or veterans hall",
+                "value": false
+              },
+              "3": {
+                "label": "hallowed religious ground",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
         "custom": false,
         "path": "attributes"
       }
@@ -643,8 +713,7 @@
       {
         "title": "HUNTER MOVES",
         "desc": "CHOOSE THREE:",
-        "grantOn": 0,
-        "advancement": 0,
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
@@ -684,14 +753,14 @@
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
       },
       {
         "title": "HUNTER Starting Moves",
         "desc": "",
-        "grantOn": 0,
-        "advancement": 0,
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
@@ -707,18 +776,38 @@
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
       },
       {
         "title": "Starting Gear",
-        "desc": "A reliable vehicle, a smartphone, a well-stocked arsenal. Two custom weapons of choice:",
-        "grantOn": 0,
-        "advancement": 0,
-        "repeatable": true,
+        "desc": "Also find or create \"Your arsenal\": 3 custom weapons",
         "type": "multi",
-        "choices": [],
-        "granted": false
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.wXS2VL8ghujNaAmO",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/flatbed.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.zdAq6oEtPvlN7R6J",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/modern-city.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/abstract-099.svg",
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.lcXwb8IeDwMfD9zA",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
       }
     ]
   },
@@ -736,7 +825,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1750833649877,
+    "modifiedTime": 1750894781967,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

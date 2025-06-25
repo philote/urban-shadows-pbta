@@ -1,0 +1,53 @@
+{
+  "folder": "L3nP6rT9uW2xZ5bC",
+  "name": "LOOKING FOR HELP",
+  "type": "move",
+  "_id": "49yieposDWFOPjfp",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you go to your benefactor for help or resources, roll with your Status. </p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": "<p>On a miss, they reveal you overlooked something that greatly injured their Status; they are determined to remind you of their power over you before they even consider your request.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Weak Hit",
+        "value": "<p>On a hit, they get you what you need, provided you offer prophetic insight into a problem they have right now. </p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Strong Hit",
+        "value": "<p>On a hit, they get you what you need, provided you offer prophetic insight into a problem they have right now. </p><p>On a 10+, the support they give is exceptionally useful. </p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "prompt",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1750890370241,
+    "modifiedTime": 1750890424976,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!49yieposDWFOPjfp"
+}

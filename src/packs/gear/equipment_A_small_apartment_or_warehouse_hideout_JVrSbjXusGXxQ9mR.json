@@ -1,0 +1,36 @@
+{
+  "name": "A small apartment or warehouse hideout",
+  "type": "equipment",
+  "_id": "JVrSbjXusGXxQ9mR",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/factory.svg",
+  "system": {
+    "description": "",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1750892170396,
+    "modifiedTime": 1750894170957,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!JVrSbjXusGXxQ9mR"
+}

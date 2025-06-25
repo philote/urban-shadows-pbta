@@ -72,7 +72,7 @@
         }
       }
     },
-    "statsDetail": "(Add 1 to one of these)",
+    "statsDetail": "(Add 1 to one of the Stats and one of the Circles)",
     "attributes": {
       "corruption": {
         "label": "Corruption",
@@ -592,7 +592,29 @@
             "value": false
           }
         },
-        "choices": [],
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "they alone can guide you to the mystical answers you seek",
+                "value": false
+              },
+              "1": {
+                "label": "they alone can protect you from a dark fate you have foreseen",
+                "value": false
+              },
+              "2": {
+                "label": "they alone can destroy a uniquely evil foe within their own Circle",
+                "value": false
+              },
+              "3": {
+                "label": "they alone must play a critical role in the war against a coming darkness",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
         "custom": false,
         "path": "attributes"
       },
@@ -618,7 +640,29 @@
             "value": false
           }
         },
-        "choices": [],
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "they are a Status-3 member of their Circle",
+                "value": false
+              },
+              "1": {
+                "label": "they speak truthfully and honor their word",
+                "value": false
+              },
+              "2": {
+                "label": "they wield significant supernatural power",
+                "value": false
+              },
+              "3": {
+                "label": "their minions are disciplined and loyal",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
         "custom": false,
         "path": "attributes"
       },
@@ -644,7 +688,29 @@
             "value": false
           }
         },
-        "choices": [],
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "they are terrifyingly violent and cruel",
+                "value": false
+              },
+              "1": {
+                "label": "they have defenses against your sight",
+                "value": false
+              },
+              "2": {
+                "label": "they are at war with powerful enemies",
+                "value": false
+              },
+              "3": {
+                "label": "they are madly in love with you",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
         "custom": false,
         "path": "attributes"
       }
@@ -653,8 +719,7 @@
       {
         "title": "ORACLE MOVES",
         "desc": "CHOOSE TWO:",
-        "grantOn": 1,
-        "advancement": 0,
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
@@ -688,18 +753,24 @@
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
       },
       {
-        "title": "ORACLE Starting Moves",
-        "desc": "",
-        "grantOn": 0,
-        "advancement": 0,
+        "title": "ORACLE MOVES",
+        "desc": "Starting Moves",
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.BaqMf9ihmCyJwgId",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.KBSYLh9cv2K0PiFN",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.49yieposDWFOPjfp",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
@@ -709,27 +780,46 @@
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
-          }
-        ],
-        "type": "multi",
-        "granted": false
-      },
-      {
-        "title": "Starting Gear",
-        "desc": "Everything provided by your benefactor, and two sets of prophetic tools:",
-        "grantOn": 0,
-        "advancement": 0,
-        "repeatable": true,
-        "choices": [
+          },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.wd2QKswKnQFLy5A7",
-            "img": "icons/svg/item-bag.svg",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.U2wY5bC8fE1hH4lM",
+            "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           }
         ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Starting Gear",
+        "desc": "Choose two:",
         "type": "multi",
-        "granted": false
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.tnbVX7iO5pek2nw2",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/crystal-ball.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/secret-book.svg",
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.PT9avmjve8g9nrCx",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.1bf9dcd7f50d48d1",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/primitive-necklace.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
       }
     ]
   },
@@ -747,7 +837,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1750833689749,
+    "modifiedTime": 1750890716727,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

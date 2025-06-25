@@ -72,7 +72,7 @@
         }
       }
     },
-    "statsDetail": "(Add 1 to one of these)",
+    "statsDetail": "(Add 1 to one of the Stats and one of the Circles)",
     "attributes": {
       "corruption": {
         "label": "Corruption",
@@ -582,7 +582,33 @@
             "value": false
           }
         },
-        "choices": [],
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "an abbey of prescient oracles",
+                "value": false
+              },
+              "1": {
+                "label": "a council of haughty wizards",
+                "value": false
+              },
+              "2": {
+                "label": "an order of secret immortals",
+                "value": false
+              },
+              "3": {
+                "label": "an academy of religious scholars",
+                "value": false
+              },
+              "4": {
+                "label": "a covenant of earthbound deities",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
         "custom": false,
         "path": "attributes"
       },
@@ -612,7 +638,33 @@
             "value": false
           }
         },
-        "choices": [],
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "protecting and policing their members",
+                "value": false
+              },
+              "1": {
+                "label": "recovering lost artifacts and tomes",
+                "value": false
+              },
+              "2": {
+                "label": "investigating threats and problems",
+                "value": false
+              },
+              "3": {
+                "label": "destroying those who would thwart them",
+                "value": false
+              },
+              "4": {
+                "label": "negotiating with their allies and vassals",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
         "custom": false,
         "path": "attributes"
       },
@@ -654,7 +706,45 @@
             "value": false
           }
         },
-        "choices": [],
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "...never trespass on another’s property",
+                "value": false
+              },
+              "1": {
+                "label": "...never strike the first blow",
+                "value": false
+              },
+              "2": {
+                "label": "...never lie about your identity or purpose",
+                "value": false
+              },
+              "3": {
+                "label": "...never reveal your faction’s secrets",
+                "value": false
+              },
+              "4": {
+                "label": "...always avoid collateral damage",
+                "value": false
+              },
+              "5": {
+                "label": "...always protect members of Power from harm",
+                "value": false
+              },
+              "6": {
+                "label": "...always thwart the enemies of your masters",
+                "value": false
+              },
+              "7": {
+                "label": "...always seize that which your masters desire",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
         "custom": false,
         "path": "attributes"
       },
@@ -688,7 +778,37 @@
             "value": false
           }
         },
-        "choices": [],
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "a sword wielded by rightful kings (figure someone out)",
+                "value": false
+              },
+              "1": {
+                "label": "a knife cut from demonic steel (mislead, distract or trick)",
+                "value": false
+              },
+              "2": {
+                "label": "a spear stolen from heaven itself (let it out)",
+                "value": false
+              },
+              "3": {
+                "label": "an axe forged in the blood of gods (turn to violence)",
+                "value": false
+              },
+              "4": {
+                "label": "a staff imbued with stealthy sorcery (escape a situation)",
+                "value": false
+              },
+              "5": {
+                "label": "a hammer blessed by otherworldly magic (keep your cool)",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
         "custom": false,
         "path": "attributes"
       }
@@ -697,8 +817,7 @@
       {
         "title": "SWORN MOVES",
         "desc": "CHOOSE TWO:",
-        "grantOn": 1,
-        "advancement": 0,
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
@@ -732,18 +851,18 @@
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
       },
       {
         "title": "SWORN Starting Moves",
         "desc": "",
-        "grantOn": 0,
-        "advancement": 0,
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.Z3kK6nN0qQ3tT6wY",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.e8466720f02748b2",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
@@ -755,18 +874,61 @@
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
       },
       {
-        "title": "Starting Gear",
-        "desc": "A luxurious house or apartment, a fancy car, an expensive smartphone. One backup weapon of choice:",
-        "grantOn": 0,
-        "advancement": 0,
-        "repeatable": true,
+        "title": "STARTING GEAR",
+        "desc": "",
         "type": "multi",
-        "choices": [],
-        "granted": false
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.lfiYwkArOhE61rrL",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/race-car.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/modern-city.svg",
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.45BahRXdoh9sigR5",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "STARTING GEAR",
+        "desc": "One backup weapon of choice:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.K4lL7mN0oP3qQ6rS",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/pistol-gun.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.L5mN8oP1qQ4rS7tT",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/bowie-knife.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.M6oP9qQ2rS5tT8uU",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/sawed-off-shotgun.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
       }
     ]
   },
@@ -784,7 +946,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1750833782451,
+    "modifiedTime": 1750894868179,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

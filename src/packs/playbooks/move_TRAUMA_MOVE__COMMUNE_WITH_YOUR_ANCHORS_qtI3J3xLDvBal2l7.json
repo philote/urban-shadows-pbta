@@ -1,0 +1,53 @@
+{
+  "folder": "8o7qAimGOKAnutBa",
+  "name": "TRAUMA MOVE: COMMUNE WITH YOUR ANCHORS",
+  "type": "move",
+  "_id": "qtI3J3xLDvBal2l7",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you <em><strong>commune with one of your anchors</strong></em>, roll with <strong>Spirit</strong>. </p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": "<p>On a miss, you only clear 1-trauma; something threatening the anchor interrupts your mediation.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Weak Hit",
+        "value": "<p>On a hit, your anchor soothes your fractured psyche; clear 2-trauma. </p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Strong Hit",
+        "value": "<p>On a hit, your anchor soothes your fractured psyche; clear 2-trauma. </p><p>On a 10+, your communion reveals a way the anchor might be resolved; clear all trauma.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "spirit",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1750891024840,
+    "modifiedTime": 1750891232305,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!qtI3J3xLDvBal2l7"
+}

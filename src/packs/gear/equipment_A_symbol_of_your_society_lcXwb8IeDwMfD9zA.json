@@ -1,0 +1,36 @@
+{
+  "folder": null,
+  "name": "A symbol of your society",
+  "type": "equipment",
+  "_id": "lcXwb8IeDwMfD9zA",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/abstract-099.svg",
+  "system": {
+    "description": "<p>(i.e. tattoo, coin, inscription)</p>",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1750889248157,
+    "modifiedTime": 1750894098114,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!lcXwb8IeDwMfD9zA"
+}

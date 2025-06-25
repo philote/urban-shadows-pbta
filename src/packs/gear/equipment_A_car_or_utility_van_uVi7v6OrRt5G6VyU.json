@@ -1,0 +1,36 @@
+{
+  "folder": null,
+  "name": "A car or utility van",
+  "type": "equipment",
+  "_id": "uVi7v6OrRt5G6VyU",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/surfer-van.svg",
+  "system": {
+    "description": "",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1750889835473,
+    "modifiedTime": 1750893120417,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!uVi7v6OrRt5G6VyU"
+}

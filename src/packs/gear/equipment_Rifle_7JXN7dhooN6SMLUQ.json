@@ -1,0 +1,36 @@
+{
+  "folder": null,
+  "name": "Rifle",
+  "type": "equipment",
+  "_id": "7JXN7dhooN6SMLUQ",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/lee-enfield.svg",
+  "system": {
+    "description": "",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "[{\"value\":\"2-harm\"},{\"value\":\"far\"},{\"value\":\"loud\"},{\"value\":\"reload\"}]",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1750889629993,
+    "modifiedTime": 1750894394131,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!7JXN7dhooN6SMLUQ"
+}

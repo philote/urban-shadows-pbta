@@ -1,0 +1,36 @@
+{
+  "folder": null,
+  "name": "Bow",
+  "type": "equipment",
+  "_id": "TcYWilPcE2aZZt9D",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/bow-arrow.svg",
+  "system": {
+    "description": "",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "[{\"value\":\"2-harm\"},{\"value\":\"close\"},{\"value\":\"Far\"},{\"value\":\"reload\"}]",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1750889428620,
+    "modifiedTime": 1750894258796,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!TcYWilPcE2aZZt9D"
+}

@@ -72,7 +72,7 @@
         }
       }
     },
-    "statsDetail": "(add 1 to one of these)",
+    "statsDetail": "(Add 1 to one of the Stats and one of the Circles)",
     "attributes": {
       "corruption": {
         "label": "Corruption",
@@ -562,7 +562,12 @@
         "type": "Clock",
         "value": 0,
         "max": 5,
-        "choices": [],
+        "choices": [
+          {
+            "value": 0,
+            "options": {}
+          }
+        ],
         "custom": false,
         "path": "attributes"
       },
@@ -604,7 +609,45 @@
             "value": false
           }
         },
-        "choices": [],
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "a family member or inheritor, unaware of your existence",
+                "value": false
+              },
+              "1": {
+                "label": "a witness to your death, bound to you by chance or fate",
+                "value": false
+              },
+              "2": {
+                "label": "a friendly household pet, constant companion in your unlife",
+                "value": false
+              },
+              "3": {
+                "label": "a beloved possession of your youth, passed to a new owner",
+                "value": false
+              },
+              "4": {
+                "label": "a marker of your success in life, now claimed by another",
+                "value": false
+              },
+              "5": {
+                "label": "an item related to your death, grimly marking your violent end",
+                "value": false
+              },
+              "6": {
+                "label": "a location of personal importance, a reminder of a past love",
+                "value": false
+              },
+              "7": {
+                "label": "a space you used to live or work, abandoned by the world",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
         "custom": false,
         "path": "attributes"
       },
@@ -630,7 +673,29 @@
             "value": false
           }
         },
-        "choices": [],
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "you inspire an NPC to forgive someone who once wronged them, ending a long-standing conflict",
+                "value": false
+              },
+              "1": {
+                "label": "you cleanse or restore a cherished place once thought by all to be ruined or beyond repair",
+                "value": false
+              },
+              "2": {
+                "label": "you heal or restore someone you once injured or wronged",
+                "value": false
+              },
+              "3": {
+                "label": "you reveal to an NPC the truth of your death and passing",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
         "custom": false,
         "path": "attributes"
       },
@@ -652,7 +717,25 @@
             "value": false
           }
         },
-        "choices": [],
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "you leave behind a psychic reflection of your fear and anger, a terrible thing that hunts mortals in the night",
+                "value": false
+              },
+              "1": {
+                "label": "you imbue an object with nightmarish power; the MC chooses who ends up with the cursed item",
+                "value": false
+              },
+              "2": {
+                "label": "you drive an NPC close to you into a downward spiral",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
         "custom": false,
         "path": "attributes"
       }
@@ -661,22 +744,34 @@
       {
         "title": "SPECTRE MOVES",
         "desc": "YOU GET THIS ONE:",
-        "grantOn": 1,
-        "advancement": 0,
-        "repeatable": true,
         "type": "multi",
-        "choices": [],
-        "granted": false
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.WgajJP9BJzz2mek1",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
       },
       {
-        "title": "AND CHOOSE TWO MORE:",
-        "desc": "",
-        "grantOn": 0,
-        "advancement": 0,
+        "title": "SPECTRE MOVES",
+        "desc": "AND CHOOSE TWO MORE:",
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
             "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.M0rR4uU7xX0aC3fF",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.wX1jFOlCqtr4nN3G",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
@@ -692,16 +787,22 @@
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.UIm4NJ5oKzlqxB7P",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
       },
       {
         "title": "SPECTRE Starting Moves",
         "desc": "",
-        "grantOn": 0,
-        "advancement": 0,
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
@@ -715,20 +816,23 @@
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.qtI3J3xLDvBal2l7",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.4xXzKTHlc3rXRSXX",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
-      },
-      {
-        "title": "Starting Gear",
-        "desc": "",
         "grantOn": 0,
-        "advancement": 0,
-        "repeatable": true,
-        "type": "multi",
-        "choices": [],
-        "granted": false
+        "granted": false,
+        "advancement": 0
       }
     ]
   },
@@ -746,7 +850,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1750833707942,
+    "modifiedTime": 1750891287038,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

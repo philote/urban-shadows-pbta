@@ -72,7 +72,7 @@
         }
       }
     },
-    "statsDetail": "(add 1 to one of these)",
+    "statsDetail": "(Add 1 to one of the Stats and one of the Circles)",
     "attributes": {
       "corruption": {
         "label": "Corruption",
@@ -555,14 +555,27 @@
         "max": null,
         "options": {},
         "description": ""
+      },
+      "TheWizardSanctum": {
+        "label": "YOUR SANCTUM",
+        "description": "",
+        "type": "LongText",
+        "value": "<p>Choose and underline 4 resources of your sanctum:</p> <ul> <li>an extremely knowledgeable assistant</li> <li>a testing ground</li> <li>magical booby traps</li> <li>a library of old tomes</li> <li>a scattering of ancient relics</li> <li>a mystical prison</li> <li>magical wards</li> <li>a portal to another dimension</li> <li>a focus circle</li> <li>an apothecary</li> </ul> <p>Choose and underline 2 downsides of your Sanctum:</p> <ul> <li>it's cursed by a previous owner</li> <li>it attracts otherworldly attention</li> <li>it contains many volatile substances</li> <li>its location is known by many</li> <li>it always lacks a key piece or ingredient</li> <li>it's tough for you to access</li> <li>it contains secrets unfamiliar even to you</li> </ul> <p>When you go into your sanctum to work on something, the MC will tell you, \\\"Sure, no problem, but…\\\" and then 1 to 4 of the following:</p> <ul> <li>It's going to take you hours/days/weeks/months of work or recovery time</li> <li>First you'll have to summon/build/construct ________</li> <li>You'll require the services of ________ to complete it</li> <li>You require a rare and expensive ingredient or material</li> <li>It will only work for a short time, and may be unreliable</li> <li>It's going to mean exposing anyone nearby to serious fallout</li> <li>Your sanctum lacks ________; add this and you'll be able to complete it</li> <li>It will require a part of yourself or comparable sacrifice to complete</li> <li>You must journey to________ in order to complete it</li> </ul> <p>The MC can combine any set of requirements or offer two sets of costs to the same task. Once the requirements are completed, the work is completed. The MC will stat it up, reveal some info, or whatever is called for now that you've finished.</p>",
+        "choices": [
+          {
+            "value": "<p>Choose and underline 4 resources of your sanctum:</p> <ul> <li>an extremely knowledgeable assistant</li> <li>a testing ground</li> <li>magical booby traps</li> <li>a library of old tomes</li> <li>a scattering of ancient relics</li> <li>a mystical prison</li> <li>magical wards</li> <li>a portal to another dimension</li> <li>a focus circle</li> <li>an apothecary</li> </ul> <p>Choose and underline 2 downsides of your Sanctum:</p> <ul> <li>it's cursed by a previous owner</li> <li>it attracts otherworldly attention</li> <li>it contains many volatile substances</li> <li>its location is known by many</li> <li>it always lacks a key piece or ingredient</li> <li>it's tough for you to access</li> <li>it contains secrets unfamiliar even to you</li> </ul> <p>When you go into your sanctum to work on something, the MC will tell you, \\\"Sure, no problem, but…\\\" and then 1 to 4 of the following:</p> <ul> <li>It's going to take you hours/days/weeks/months of work or recovery time</li> <li>First you'll have to summon/build/construct ________</li> <li>You'll require the services of ________ to complete it</li> <li>You require a rare and expensive ingredient or material</li> <li>It will only work for a short time, and may be unreliable</li> <li>It's going to mean exposing anyone nearby to serious fallout</li> <li>Your sanctum lacks ________; add this and you'll be able to complete it</li> <li>It will require a part of yourself or comparable sacrifice to complete</li> <li>You must journey to________ in order to complete it</li> </ul> <p>The MC can combine any set of requirements or offer two sets of costs to the same task. Once the requirements are completed, the work is completed. The MC will stat it up, reveal some info, or whatever is called for now that you've finished.</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
       }
     },
     "choiceSets": [
       {
         "title": "WIZARD MOVES",
         "desc": "YOU GET THIS ONE:",
-        "grantOn": 0,
-        "advancement": 0,
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
@@ -578,14 +591,14 @@
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
       },
       {
         "title": "YOUR SPELLS",
         "desc": "choose three:",
-        "grantOn": 0,
-        "advancement": 0,
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
@@ -631,28 +644,96 @@
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
       },
       {
         "title": "WIZARD Starting Moves",
         "desc": "",
-        "grantOn": 0,
-        "advancement": 0,
-        "repeatable": true,
         "type": "multi",
-        "choices": [],
-        "granted": false
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.3US48kX8kaqUc5Le",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.28c028e0f21a480f",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
       },
       {
         "title": "Starting Gear",
-        "desc": "A nice apartment or simple house, a crappy car, a decent smartphone and a sanctum (detail). One useful weapon of choice:",
-        "grantOn": 1,
-        "advancement": 0,
-        "repeatable": true,
+        "desc": "",
         "type": "multi",
-        "choices": [],
-        "granted": false
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.pLmcHJnSEFA7S4pe",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/city-car.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.lBJbPUDy109EZrNG",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/family-house.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/temple-gate.svg",
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.7TIGuha5kp5VDkF1",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.hzja5WHwvYV0N2uk",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/smartphone.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Starting Gear",
+        "desc": "One useful weapon of choice:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.MTHSObEuSjh33gsZ",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/glock.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.03e743a1890c43f9",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/revolver.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.033846e28c11448d",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/katana.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
       }
     ]
   },
@@ -670,7 +751,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1750833848941,
+    "modifiedTime": 1750894696010,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

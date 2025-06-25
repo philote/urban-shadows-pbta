@@ -1,0 +1,36 @@
+{
+  "folder": null,
+  "name": "A relic from your homeland",
+  "type": "equipment",
+  "_id": "HZbbbpRVzY68EOu5",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/colombian-statue.svg",
+  "system": {
+    "description": "",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1750888750849,
+    "modifiedTime": 1750893627997,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!HZbbbpRVzY68EOu5"
+}

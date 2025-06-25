@@ -72,7 +72,7 @@
         }
       }
     },
-    "statsDetail": "(Add 1 to one of these)",
+    "statsDetail": "(Add 1 to one of the Stats and one of the Circles)",
     "attributes": {
       "corruption": {
         "label": "Corruption",
@@ -555,35 +555,112 @@
         "max": null,
         "options": {},
         "description": ""
+      },
+      "TheTaintedDarkPatron": {
+        "label": "YOUR DARK PATRON (Choose 2):",
+        "description": "Your soul has fallen into the hands of a dark patron, a powerful demon whose reputation precedes them, but whose true name is known to few. They have given you terms of employment, access to terrible power, and terrifying insight into their true nature.",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "they seduce all who come into contact with them with pleasantries, gifts, and vices",
+            "value": false
+          },
+          "1": {
+            "label": "they govern their sprawling organization through strict and severe rules and punishments",
+            "value": false
+          },
+          "2": {
+            "label": "they require deference from their minions to their strange obsession with a mortal pastime",
+            "value": false
+          },
+          "3": {
+            "label": "they manipulate their friends, allies, and enemies alike into conflicts that serve their secret designs",
+            "value": false
+          },
+          "4": {
+            "label": "they have seeded eyes and ears across the city, always alert to any sign of betrayal or profitable opportunity",
+            "value": false
+          },
+          "5": {
+            "label": "they employ only dedicated and loyal minons who are all too happy to report on your activities",
+            "value": false
+          },
+          "6": {
+            "label": "they are slow to anger, but their commitment to their wrath is unstoppable once truly provoked",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheTaintedYourDemonForm": {
+        "label": "YOUR DEMON FORM",
+        "description": "Since your patron claimed your soul, you have a new look: a demon form. Pick as many as apply from the lists below:",
+        "type": "LongText",
+        "value": "<ul><li><b>Head:</b> bone, concave, crown, flames, halo, horns, spikes</li><li><b>Eyes:</b> absent, animal, empty, glowing, smoky, un-blinking</li><li><b>Limbs:</b> claws, heavy, hoofed, many, severed, twisted</li><li><b>Wings:</b> blood, feathers, insects, leather, metal, paper, none</li><li><b>Skin:</b> chitinous, marked, misty, sticky, stretched, translucent</li></ul>",
+        "choices": [
+          {
+            "value": "<ul><li><b>Head:</b> bone, concave, crown, flames, halo, horns, spikes</li><li><b>Eyes:</b> absent, animal, empty, glowing, smoky, un-blinking</li><li><b>Limbs:</b> claws, heavy, hoofed, many, severed, twisted</li><li><b>Wings:</b> blood, feathers, insects, leather, metal, paper, none</li><li><b>Skin:</b> chitinous, marked, misty, sticky, stretched, translucent</li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheTaintedDemonicJobs": {
+        "label": "DEMONIC JOBS",
+        "description": "Your dark patron keeps you on Earth for a reason; they could always have decided to drag you to hell. Choose two jobs you regularly do for them from the list below:",
+        "type": "LongText",
+        "value": "<p><il>Collecting souls, tracking down rogue demons, delivering threats and messages, cleaning up gruesome messes, guarding someone or something, destroying your patron's enemies, brokering demonic contracts, hiding and securing demonic contraband, operating a demonic establishment, policing your patron's minions</li></p>",
+        "choices": [
+          {
+            "value": "<p><il>Collecting souls, tracking down rogue demons, delivering threats and messages, cleaning up gruesome messes, guarding someone or something, destroying your patron's enemies, brokering demonic contracts, hiding and securing demonic contraband, operating a demonic establishment, policing your patron's minions</il></p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
       }
     },
     "choiceSets": [
       {
         "title": "TAINTED MOVES",
         "desc": "YOU GET THIS ONE:",
-        "grantOn": 1,
-        "advancement": 0,
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.uNpgcYYgBru32GfI",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.KKpnIjAKDvcHC4cs",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
       },
       {
-        "title": "AND CHOOSE TWO MORE:",
-        "desc": "",
-        "grantOn": 0,
-        "advancement": 0,
+        "title": "TAINTED MOVES",
+        "desc": "AND CHOOSE TWO MORE:",
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.V7wW0xX3yY6zZ9aA",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
             "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.HKWmMcz2tRcWGfdr",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.c58a0ae2883f412d",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
@@ -595,48 +672,96 @@
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
       },
       {
         "title": "TAINTED Starting Moves",
         "desc": "",
-        "grantOn": 0,
-        "advancement": 0,
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.OVJL4Bz9saDNxPw0",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.rLpQT2qDAGUaDOYk",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.XL5zAbgtXMnt7l2Z",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
       },
       {
         "title": "Starting Gear",
-        "desc": "A house or apartment, a car, a smartphone. One brutal weapon of choice:",
-        "grantOn": 1,
-        "advancement": 0,
+        "desc": "",
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.iQGJbo4OUye8oJ57",
-            "img": "icons/svg/item-bag.svg",
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.hzja5WHwvYV0N2uk",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/smartphone.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.oJMTh3qH3i4V3SwK",
-            "img": "icons/svg/item-bag.svg",
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.2REzA6YjzrbwOgmm",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/city-car.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.yTKVPS4StFWX0mK7",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/modern-city.svg",
             "granted": false,
             "advancement": 0
           }
         ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Starting Gear",
+        "desc": "One brutal weapon of choice:",
         "type": "multi",
-        "granted": false
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.K4lL7mN0oP3qQ6rS",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/pistol-gun.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.ab37097cce424167",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/sawed-off-shotgun.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/katana.svg",
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.033846e28c11448d",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.d8K4s7okdesaLTAM",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/baton.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
       }
     ]
   },
@@ -654,7 +779,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1750833803279,
+    "modifiedTime": 1750891765207,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

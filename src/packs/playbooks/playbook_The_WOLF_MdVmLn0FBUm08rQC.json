@@ -72,7 +72,7 @@
         }
       }
     },
-    "statsDetail": "(add 1 to one of these)",
+    "statsDetail": "(Add 1 to one of the Stats and one of the Circles)",
     "attributes": {
       "corruption": {
         "label": "Corruption",
@@ -555,14 +555,141 @@
         "max": null,
         "options": {},
         "description": ""
+      },
+      "TheWolfTerritory1": {
+        "label": "YOUR TERRITORY",
+        "description": "You've claimed an area of the city as your own. By default, your territory covers a city block or two and has the trouble: +crime. CHOOSE 2:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "Your territory spans several city blocks you've owned for years (add blessing: +influence)",
+            "value": false
+          },
+          "1": {
+            "label": "People in your territory work hard to keep the streets safe (remove +crime)",
+            "value": false
+          },
+          "2": {
+            "label": "You are widely accepted as this place's protector (add blessing: +supported)",
+            "value": false
+          },
+          "3": {
+            "label": "Your territory includes open grounds for you to roam and hunt (add blessing: +sanctuary)",
+            "value": false
+          },
+          "4": {
+            "label": "You've made a deal with someone, or something, to protect your territory when you're not around (add blessing: +guardian)",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheWolfTerritory2": {
+        "label": "",
+        "description": "CHOOSE 2:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "Your territory owes fealty to someone more powerful than you (add trouble: +obligations)",
+            "value": false
+          },
+          "1": {
+            "label": "A Status-3 NPC wants your territory and is working to get it (add trouble: +encroachment)",
+            "value": false
+          },
+          "2": {
+            "label": "Mortals in the area are actively trying to revitalize local businesses and infrastructure (add trouble: +upheaval)",
+            "value": false
+          },
+          "3": {
+            "label": "Your territory is plagued by a mystical or supernatural presence (add trouble: +haunted)",
+            "value": false
+          },
+          "4": {
+            "label": "You have offered protection within your territory to someone, and now their problems are yours (add trouble: +fealty)",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheWolfTransformationQualities": {
+        "label": "THE TRANSFORMATION",
+        "description": "By default, you can change into your wolf form—at will—in the sight of the moon: you gain natural weaponry (2-harm), 1-armor, and all of the qualities and weaknesses you choose below. CHOOSE 3 QUALITIES:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "You are massive: gain armor+1 and harm +1",
+            "value": false
+          },
+          "1": {
+            "label": "You are savage: your harm is armor piercing (ap) and messy",
+            "value": false
+          },
+          "2": {
+            "label": "You are versatile: take +1 ongoing to letting it out",
+            "value": false
+          },
+          "3": {
+            "label": "You are swift: take +1 ongoing to escaping",
+            "value": false
+          },
+          "4": {
+            "label": "You are cunning: take +1 ongoing to keeping your cool",
+            "value": false
+          },
+          "5": {
+            "label": "You are steadfast: you fight like a small group against groups",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheWolfTransformationWeaknesses": {
+        "label": "",
+        "description": "CHOOSE 3 WEAKNESSES:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "Silver weapons ignore your armor and inflict harm+1",
+            "value": false
+          },
+          "1": {
+            "label": "Sometimes you lose control while transformed",
+            "value": false
+          },
+          "2": {
+            "label": "Sometimes you transform when you are stressed or angry",
+            "value": false
+          },
+          "3": {
+            "label": "The transformation is brief; you shift back at the end of a scene",
+            "value": false
+          },
+          "4": {
+            "label": "The transformation is violent and painful; suffer 1-harm (ap)",
+            "value": false
+          },
+          "5": {
+            "label": "The transformation draws the attention of supernatural creatures",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
       }
     },
     "choiceSets": [
       {
         "title": "WOLF MOVES",
         "desc": "YOU GET THIS ONE:",
-        "grantOn": 1,
-        "advancement": 0,
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
@@ -572,14 +699,14 @@
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
       },
       {
         "title": "AND CHOOSE THREE MORE:",
         "desc": "",
-        "grantOn": 1,
-        "advancement": 0,
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
@@ -607,28 +734,96 @@
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
       },
       {
         "title": "WOLF Starting Moves",
         "desc": "",
-        "grantOn": 0,
-        "advancement": 0,
-        "repeatable": true,
         "type": "multi",
-        "choices": [],
-        "granted": false
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.41JxD0pVIReFWo12",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.1cd7e4cde6a94d46",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
       },
       {
         "title": "Starting Gear",
-        "desc": "A duffel bag with your personal belongings, a shitty cell phone. Choose two practical weapons:",
-        "grantOn": 0,
-        "advancement": 0,
-        "repeatable": true,
+        "desc": "",
         "type": "multi",
-        "choices": [],
-        "granted": false
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.eOmTPHPz6Akhp26L",
+            "img": "icons/svg/item-bag.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.zdAq6oEtPvlN7R6J",
+            "img": "icons/svg/item-bag.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Starting Gear",
+        "desc": "Choose two practical weapons:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.K4lL7mN0oP3qQ6rS",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/pistol-gun.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/baseball-bat.svg",
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.61G1bKAZrUym18Ac",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.U79fjMPb4uuYb7zR",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/butterfly-knife.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.1HR3Awr120Z0vEXi",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/machete.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.03e743a1890c43f9",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/revolver.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
       }
     ]
   },
@@ -646,7 +841,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1750833865873,
+    "modifiedTime": 1750892937544,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

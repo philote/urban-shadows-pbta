@@ -1,0 +1,36 @@
+{
+  "folder": null,
+  "name": "a pick-up truck or muscle car",
+  "type": "equipment",
+  "_id": "wXS2VL8ghujNaAmO",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/flatbed.svg",
+  "system": {
+    "description": "",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1750889209484,
+    "modifiedTime": 1750893399477,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!wXS2VL8ghujNaAmO"
+}

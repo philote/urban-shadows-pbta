@@ -1,0 +1,36 @@
+{
+  "name": "a sanctum",
+  "type": "equipment",
+  "_id": "7TIGuha5kp5VDkF1",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/temple-gate.svg",
+  "system": {
+    "description": "",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1750892528830,
+    "modifiedTime": 1750893788646,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!items!7TIGuha5kp5VDkF1"
+}
