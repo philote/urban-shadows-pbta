@@ -1,0 +1,317 @@
+{
+  "name": "Downtown",
+  "type": "urban-shadows-pbta.city-hub",
+  "_id": "6ZdgoYdX2MKJhtE8",
+  "img": "modules/urban-shadows-pbta/assets/header-bg.webp",
+  "system": {
+    "stats": {},
+    "attributes": {
+      "residents": {
+        "label": "Residents",
+        "description": "Important NPCs who live or work in this hub, including debt relationships",
+        "position": "connections",
+        "type": "LongText",
+        "value": "<table><thead><tr><th>Player Character</th><th>Residents</th><th>Faction</th><th>Why do they owe you?</th></tr></thead><tbody><tr><td></td><td>Maya Lopez, an oracle working the downtown market with a knack for foretelling your enemy's path to ruin</td><td>Power</td><td></td></tr><tr><td></td><td>Mrs. Lane, a wizard and owner of an exclusive five star hotel who lives for gossip</td><td>Power</td><td></td></tr><tr><td></td><td>Dinesh Chopra, a hunter who keeps his block of boutiques a vamp-free zone by any means necessary</td><td>Mortalis</td><td></td></tr><tr><td></td><td>Cyril Callas, a famous paranormal investigator who gives out \"free\" advice from the comfort of his apartment's bus stop</td><td>Mortalis</td><td></td></tr><tr><td></td><td>Taan, a flesh-eating vamp with a particular appetite for wandering tourists that he struggles to keep in check</td><td>Night</td><td></td></tr><tr><td></td><td>Gi Riddle, a boisterous ghost who works downtown as a haunted bar tour guide</td><td>Night</td><td></td></tr><tr><td></td><td>Blessing, a fae whose impassioned speeches on ecological crisis can be heard outside the aquarium any time of the day</td><td>Wild</td><td></td></tr><tr><td></td><td>Akiko Tanaka, a tainted with an impressive history of collecting demonic contracts among local entrepreneurs</td><td>Wild</td><td></td></tr></tbody></table>"
+      },
+      "relationships": {
+        "label": "Relationships",
+        "description": "PC relationship prompts and connections specific to this hub",
+        "position": "connections",
+        "type": "LongText",
+        "value": "<table><thead><tr><th>Player Character</th><th>Relationship</th></tr></thead><tbody><tr><td></td><td>You've recently fallen for a successful shop owner downtown, but you haven't ended your relationship with ____________________ yet. Why are you hesitant to break things off, even though the spark is gone?</td></tr><tr><td></td><td>While doing some delivery work for a few of the more popular demonic eateries downtown, you caught ____________________ in a scandalous situation. What did they offer to buy your silence and why is it still not enough?</td></tr><tr><td></td><td>____________________ recently became the owner of a legendary artifact you've been trying to get your hands on for years. They've refused to part with it, but you're determined to change their mind. How?</td></tr><tr><td></td><td>A colleague of yours has recently become a target of a powerful ghost. Why has ____________________ agreed to lend their services to ensure your coworker's safety?</td></tr><tr><td></td><td>Your ex-spouse still lives with you, even though you've asked them to move out time and time again. Why has ____________________ agreed to help you remove them from the premises, even if (or when?) things get ugly?</td></tr><tr><td></td><td>You and ____________________ go shopping at the faerie market every Sunday. What underground scheme did the two of you accidentally uncover there last week?</td></tr><tr><td></td><td>You and ____________________ got into a heated argument over your involvement with an elder vampire's schemes. What false promise did you make to keep them off your back?</td></tr><tr><td></td><td>You recently got in on the artifact trade downtown and decided to take more than your share of the profits from your werewolf dealer. Why is ____________________ covering for you?</td></tr></tbody></table>"
+      },
+      "tables": {
+        "label": "Tables",
+        "description": "Tables for generating random NPCs, locations, rumors, factions, and Locations in this hub",
+        "position": "tables",
+        "type": "LongText",
+        "value": "<p>@UUID[Compendium.urban-shadows-pbta.roll-tables.RollTable.DF1F2A3C4T5I6O78]{Downtown Factions}</p><p>@UUID[Compendium.urban-shadows-pbta.roll-tables.RollTable.OVPaSg7uk8Bwi1SC]{Downtown Locations}</p><p>@UUID[Compendium.urban-shadows-pbta.roll-tables.RollTable.DT1N2P3Q4R5S6T78]{Downtown NPCs}</p><p>@UUID[Compendium.urban-shadows-pbta.roll-tables.RollTable.DTR1U2M3O4R5S678]{Downtown Rumors}</p>"
+      },
+      "description": {
+        "label": "Description",
+        "value": "<p><em>Downtown only reveals its true nature at sunset—the moment at which business as usual comes to a halt and the affairs of Night can be truly addressed. It doesn’t matter if you’ve lived here your whole life or wandered in last week—the hustle and bustle of downtown guarantees you’ll find nearly anything you seek. That is…if the dangers of the back alleys and deep shadows of downtown don’t find you first.</em></p>",
+        "type": "LongText",
+        "position": "top"
+      },
+      "dominantCircle": {
+        "label": "Dominant Circle",
+        "description": "Which Circle primarily controls this hub?",
+        "customLabel": false,
+        "userLabel": false,
+        "playbook": null,
+        "limited": false,
+        "position": "top",
+        "type": "ListMany",
+        "condition": false,
+        "sort": false,
+        "options": {
+          "0": {
+            "label": "Mortalis",
+            "value": false
+          },
+          "1": {
+            "label": "Night",
+            "value": true
+          },
+          "2": {
+            "label": "Power",
+            "value": false
+          },
+          "3": {
+            "label": "Wild",
+            "value": false
+          }
+        }
+      }
+    },
+    "attrLeft": {},
+    "attrTop": {},
+    "details": {
+      "notes": {
+        "label": "Notes",
+        "value": ""
+      }
+    },
+    "advancements": 0,
+    "playbook": {
+      "name": "",
+      "slug": "",
+      "uuid": ""
+    },
+    "resources": {
+      "forward": {
+        "value": 0
+      },
+      "ongoing": {
+        "value": 0
+      },
+      "hold": {
+        "value": 0
+      },
+      "rollFormula": ""
+    },
+    "customType": "urban-shadows-pbta.city-hub"
+  },
+  "prototypeToken": {
+    "name": "Downtown",
+    "displayName": 0,
+    "actorLink": true,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/urban-shadows-pbta/assets/header-bg.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "folder": "H9kL2nM5oP8qR3sT",
+      "name": "BAR BUDDIES",
+      "type": "move",
+      "_id": "O1AWt3zjajZjQqt9",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<h3>Downtown Hub Move</h3><p>When you <em><strong>go drinking downtown hoping to network with wealthy/powerful</strong></em>, roll with <strong>Heart</strong>.</p>",
+        "moveType": "hub",
+        "rollFormula": "",
+        "moveResults": {
+          "miss": {
+            "key": "system.moveResults.miss.value",
+            "label": "Miss",
+            "value": "<p>Overindulge in your worst vice; MC determines consequences.</p>"
+          },
+          "weakHit": {
+            "key": "system.moveResults.weakHit.value",
+            "label": "Weak Hit",
+            "value": "<p>Meet someone connected to NPC of your choice. They help if you help first; <strong>+1 ongoing</strong> to persuade if you agree to small favor.</p>"
+          },
+          "strongHit": {
+            "key": "system.moveResults.strongHit.value",
+            "label": "Strong Hit",
+            "value": "<p>Meet someone connected to NPC of your choice. They become friends and agree to one favor.</p>"
+          }
+        },
+        "uses": 0,
+        "rollType": "heart",
+        "rollMod": 0,
+        "actorType": "urban-shadows-pbta.city-hub",
+        "choices": ""
+      },
+      "effects": [],
+      "sort": 1100000,
+      "ownership": {
+        "default": 0,
+        "tolKXMkOd7JsM4Jk": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.urban-shadows-pbta.play-materials.Item.K6oP9qQ2rU5vV8wX",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pbta",
+        "systemVersion": "1.1.21",
+        "createdTime": 1750883335454,
+        "modifiedTime": 1750883335454,
+        "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+      },
+      "_key": "!actors.items!6ZdgoYdX2MKJhtE8.O1AWt3zjajZjQqt9"
+    },
+    {
+      "folder": "H9kL2nM5oP8qR3sT",
+      "name": "UP FOR GRABS",
+      "type": "move",
+      "_id": "ESiTpPBWDlgLdsZL",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<h3>Downtown Hub Move</h3><p>When you <em><strong>smash and grab something useful from streets/shops downtown</strong></em>, name target and roll with <strong>Blood</strong>.</p>",
+        "moveType": "hub",
+        "rollFormula": "",
+        "moveResults": {
+          "miss": {
+            "key": "system.moveResults.miss.value",
+            "label": "Miss",
+            "value": "<p>Get something close but victim takes it personally; ally becomes additional target until time passes.</p>"
+          },
+          "weakHit": {
+            "key": "system.moveResults.weakHit.value",
+            "label": "Weak Hit",
+            "value": "<p>Take what you want by force. However, spot someone who will make trouble over evidence of your crime.</p>"
+          },
+          "strongHit": {
+            "key": "system.moveResults.strongHit.value",
+            "label": "Strong Hit",
+            "value": "<p>Take what you want by force.</p>"
+          }
+        },
+        "uses": 0,
+        "rollType": "blood",
+        "rollMod": 0,
+        "actorType": "urban-shadows-pbta.city-hub",
+        "choices": ""
+      },
+      "effects": [],
+      "sort": 1000000,
+      "ownership": {
+        "default": 0,
+        "tolKXMkOd7JsM4Jk": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.urban-shadows-pbta.play-materials.Item.J5nO8pP1qS4tT7uV",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pbta",
+        "systemVersion": "1.1.21",
+        "createdTime": 1750883338980,
+        "modifiedTime": 1750883338980,
+        "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+      },
+      "_key": "!actors.items!6ZdgoYdX2MKJhtE8.ESiTpPBWDlgLdsZL"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1750883229119,
+    "modifiedTime": 1750883500994,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!actors!6ZdgoYdX2MKJhtE8"
+}

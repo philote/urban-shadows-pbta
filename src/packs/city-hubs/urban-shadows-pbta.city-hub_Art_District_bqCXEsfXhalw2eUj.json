@@ -169,7 +169,167 @@
     "appendNumber": false,
     "prependAdjective": false
   },
-  "items": [],
+  "items": [
+    {
+      "folder": "H9kL2nM5oP8qR3sT",
+      "name": "COME TOGETHER",
+      "type": "move",
+      "_id": "bsvUpX7LZs4ujY4m",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<h3>Art District Hub Move</h3><p>When you <em><strong>organize a protest</strong></em>, roll with a <strong>Circle of fellow organizers</strong>.</p>",
+        "moveType": "hub",
+        "rollFormula": "",
+        "moveResults": {
+          "miss": {
+            "key": "system.moveResults.miss.value",
+            "label": "Miss",
+            "value": "<p>Someone you trusted leaks your secrets to a dangerous foe.</p>"
+          },
+          "weakHit": {
+            "key": "system.moveResults.weakHit.value",
+            "label": "Weak Hit",
+            "value": "<p>Your protest puts pressure on a powerful NPC of your choice; they take <strong>-1 ongoing</strong> through next faction turn.</p>"
+          },
+          "strongHit": {
+            "key": "system.moveResults.strongHit.value",
+            "label": "Strong Hit",
+            "value": "<p>Your protest puts pressure on a powerful NPC of your choice; they take <strong>-1 ongoing</strong> through next faction turn. Additionally, the leader of another faction takes interest and delivers a Debt, powerful resources, or secret information.</p>"
+          }
+        },
+        "uses": 0,
+        "rollType": "ask",
+        "rollMod": 0,
+        "actorType": "urban-shadows-pbta.city-hub",
+        "choices": ""
+      },
+      "effects": [],
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "tolKXMkOd7JsM4Jk": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.urban-shadows-pbta.play-materials.Item.B7eF4hG9jK2lM6oQ",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pbta",
+        "systemVersion": "1.1.21",
+        "createdTime": 1750882687392,
+        "modifiedTime": 1750882687392,
+        "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+      },
+      "_key": "!actors.items!bqCXEsfXhalw2eUj.bsvUpX7LZs4ujY4m"
+    },
+    {
+      "folder": "H9kL2nM5oP8qR3sT",
+      "name": "CHAOS IS A LADDER",
+      "type": "move",
+      "_id": "1EdGydgP8Z0cYXwP",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<h3>Art District Hub Move</h3><p>When you <em><strong>posture for clout in front of well-connected NPCs</strong></em>, roll with <strong>Mind</strong>.</p>",
+        "moveType": "hub",
+        "rollFormula": "",
+        "moveResults": {
+          "miss": {
+            "key": "system.moveResults.miss.value",
+            "label": "Miss",
+            "value": "<p>Your humblebragging attracts attention of a rival you owe a Debt; take <strong>-1 ongoing</strong> when refusing to honor Debts to their Circle until time passes.</p>"
+          },
+          "weakHit": {
+            "key": "system.moveResults.weakHit.value",
+            "label": "Weak Hit",
+            "value": "<p>They buy your ruse; take <strong>+1 Status</strong> with relevant Circle until time passes or deception revealed. However, they require you to prove yourself or risk retribution.</p>"
+          },
+          "strongHit": {
+            "key": "system.moveResults.strongHit.value",
+            "label": "Strong Hit",
+            "value": "<p>They buy your ruse; take <strong>+1 Status</strong> with relevant Circle until time passes or deception revealed.</p>"
+          }
+        },
+        "uses": 0,
+        "rollType": "mind",
+        "rollMod": 0,
+        "actorType": "urban-shadows-pbta.city-hub",
+        "choices": ""
+      },
+      "effects": [],
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "tolKXMkOd7JsM4Jk": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.urban-shadows-pbta.play-materials.Item.C8fG1hH4iJ7kL0mN",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pbta",
+        "systemVersion": "1.1.21",
+        "createdTime": 1750882691012,
+        "modifiedTime": 1750882691012,
+        "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+      },
+      "_key": "!actors.items!bqCXEsfXhalw2eUj.1EdGydgP8Z0cYXwP"
+    },
+    {
+      "folder": "H9kL2nM5oP8qR3sT",
+      "name": "PROMISES, PROMISES",
+      "type": "move",
+      "_id": "OeOPiPgIbbXc4bsq",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<h3>Art District Hub Move</h3><p>When you <em><strong>persuade an NPC by promising concrete assistance in pursuing their dreams</strong></em>, mark corruption to take a 10+ instead of rolling.</p><p><strong>Important:</strong> If you cannot fulfill your promise by end of next session, mark another corruption.</p>",
+        "moveType": "hub",
+        "rollFormula": "",
+        "moveResults": {
+          "miss": {
+            "key": "system.moveResults.miss.value",
+            "label": "Miss",
+            "value": "<p>This move automatically succeeds when triggered.</p>"
+          },
+          "weakHit": {
+            "key": "system.moveResults.weakHit.value",
+            "label": "Weak Hit",
+            "value": "<p>This move automatically succeeds when triggered.</p>"
+          },
+          "strongHit": {
+            "key": "system.moveResults.strongHit.value",
+            "label": "Strong Hit",
+            "value": "<p>Your promise is accepted as if you rolled a 10+ on persuade an NPC. Remember: if you cannot fulfill your promise by end of next session, mark another corruption.</p>"
+          }
+        },
+        "uses": 0,
+        "rollType": "",
+        "rollMod": 0,
+        "actorType": "urban-shadows-pbta.city-hub",
+        "choices": ""
+      },
+      "effects": [],
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "tolKXMkOd7JsM4Jk": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.urban-shadows-pbta.play-materials.Item.D9hI2jJ5kL8mN1oP",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pbta",
+        "systemVersion": "1.1.21",
+        "createdTime": 1750882695641,
+        "modifiedTime": 1750882695641,
+        "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+      },
+      "_key": "!actors.items!bqCXEsfXhalw2eUj.OeOPiPgIbbXc4bsq"
+    }
+  ],
   "effects": [],
   "folder": null,
   "sort": 0,

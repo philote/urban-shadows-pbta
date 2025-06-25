@@ -1,0 +1,370 @@
+{
+  "name": "University",
+  "type": "urban-shadows-pbta.city-hub",
+  "_id": "fha09JNbFGp8twKa",
+  "img": "modules/urban-shadows-pbta/assets/header-bg.webp",
+  "system": {
+    "stats": {},
+    "attributes": {
+      "residents": {
+        "label": "Residents",
+        "description": "Important NPCs who live or work in this hub, including debt relationships",
+        "position": "connections",
+        "type": "LongText",
+        "value": "<table><thead><tr><th>Player Character</th><th>Residents</th><th>Faction</th><th>Why do they owe you?</th></tr></thead><tbody><tr><td></td><td>Professor Aoife Belenos, a powerful wizard whose literature seminars are required classes for upcoming sorcerers</td><td>Power</td><td></td></tr><tr><td></td><td>Yakov, a transient immortal who wanders the streets, hunting unknown foes and ancient enemies</td><td>Power</td><td></td></tr><tr><td></td><td>Nuriko Sato, a retired journalist whose new blog covers only the most important supernatural events</td><td>Mortalis</td><td></td></tr><tr><td></td><td>Eloy Verde, a coy purveyor of magical artifacts who owns a popular bookstore next to the university campus</td><td>Mortalis</td><td></td></tr><tr><td></td><td>Jovita, a werewolf whose pack runs an underground gambling establishment with iron fists and plenty of claws</td><td>Night</td><td></td></tr><tr><td></td><td>Lora Ziegler, a vamp who lurks near the university library and other campus locales frequented by isolated students</td><td>Night</td><td></td></tr><tr><td></td><td>Rupa Dey, a charming faerie who takes over the airways for the late night student radio show nearly every night</td><td>Wild</td><td></td></tr><tr><td></td><td>The Beast, a formidable construct who safeguards the university grounds from supernatural threats</td><td>Wild</td><td></td></tr></tbody></table>"
+      },
+      "relationships": {
+        "label": "Relationships",
+        "description": "PC relationship prompts and connections specific to this hub",
+        "position": "connections",
+        "type": "LongText",
+        "value": "<table><thead><tr><th>Player Character</th><th>Relationship</th></tr></thead><tbody><tr><td></td><td>You have a mortal lover who is taking night classes at the university while working full time nearby. Why did ____________________ threaten to expose your secrets to them?</td></tr><tr><td></td><td>A friend from the university has agreed to give you a sizable sum of money to start a new business. Why are they counting on your connections with ____________________ for the endeavor to succeed?</td></tr><tr><td></td><td>Your sibling has recently moved back to the city after fleeing their enemies—and the city itself—a decade ago. Why did ____________________ agree to let them move in with them nearby the university, despite the danger they are now both in?</td></tr><tr><td></td><td>A werewolf pack that runs nearby murdered a friend of yours last year. Why has ____________________ agreed to help you get your revenge, no matter the cost?</td></tr><tr><td></td><td>You and ____________________ had a brief, but passionate love affair late last year, one you kept secret from even your closest friends and allies. Why do you suspect they weren't honest with you about their feelings?</td></tr><tr><td></td><td>____________________ needs your support in their bid for a coveted position of power associated with the university. What have they promised you in return?</td></tr><tr><td></td><td>____________________ is working with you to complete some important supernatural research using your connections to the university's facilities. What dangerous secret have you been keeping from them about your work together?</td></tr><tr><td></td><td>You are a regular at an eatery (owned by a Power faction) that is located near the university. What keeps you and ____________________ coming back no matter how good the competition is elsewhere?</td></tr></tbody></table>"
+      },
+      "tables": {
+        "label": "Tables",
+        "description": "Tables for generating random NPCs, locations, rumors, factions, and Locations in this hub",
+        "position": "tables",
+        "type": "LongText",
+        "value": "<p>@UUID[Compendium.urban-shadows-pbta.roll-tables.RollTable.UF1F2A3C4T5I6O78]{University Factions}</p><p>@UUID[Compendium.urban-shadows-pbta.roll-tables.RollTable.GLQHB9gTPBfuDjrX]{University Locations}</p><p>@UUID[Compendium.urban-shadows-pbta.roll-tables.RollTable.UN1N2P3Q4R5S6T78]{University NPCs}</p><p>@UUID[Compendium.urban-shadows-pbta.roll-tables.RollTable.UR1U2M3O4R5S6782]{University Rumors}</p>"
+      },
+      "description": {
+        "label": "Description",
+        "value": "<p><em>The University is a hotbed of political discourse, supernatural research, and strange magical phenomena. Power holds an iron grip over this section of the city—controlling the institutions that determine the city's very future—but plenty goes on in the shadows they can't reach. The wizards and immortals might think they control destiny, but the city's history is often written by those with more mundane hungers...</em></p>",
+        "type": "LongText",
+        "position": "top"
+      },
+      "dominantCircle": {
+        "label": "Dominant Circle",
+        "description": "Which Circle primarily controls this hub?",
+        "customLabel": false,
+        "userLabel": false,
+        "playbook": null,
+        "limited": false,
+        "position": "top",
+        "type": "ListMany",
+        "condition": false,
+        "sort": false,
+        "options": {
+          "0": {
+            "label": "Mortalis",
+            "value": false
+          },
+          "1": {
+            "label": "Night",
+            "value": false
+          },
+          "2": {
+            "label": "Power",
+            "value": true
+          },
+          "3": {
+            "label": "Wild",
+            "value": false
+          }
+        }
+      }
+    },
+    "attrLeft": {},
+    "attrTop": {},
+    "details": {
+      "notes": {
+        "label": "Notes",
+        "value": ""
+      }
+    },
+    "advancements": 0,
+    "playbook": {
+      "name": "",
+      "slug": "",
+      "uuid": ""
+    },
+    "resources": {
+      "forward": {
+        "value": 0
+      },
+      "ongoing": {
+        "value": 0
+      },
+      "hold": {
+        "value": 0
+      },
+      "rollFormula": ""
+    },
+    "customType": "urban-shadows-pbta.city-hub"
+  },
+  "prototypeToken": {
+    "name": "University",
+    "displayName": 0,
+    "actorLink": true,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/urban-shadows-pbta/assets/header-bg.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "folder": "H9kL2nM5oP8qR3sT",
+      "name": "LONG-TERM INVESTMENTS",
+      "type": "move",
+      "_id": "8Sx7O90xjQdzPi88",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<h3>University Hub Move</h3><p>When you <em><strong>set up a new program, business, or enterprise</strong></em>, spend up to 3 Debts; hold 1 for each spent.</p><p>When time passes, spend hold 1-for-1 to take/give +1 to city/faction moves aided by your endeavor.</p>",
+        "moveType": "hub",
+        "rollFormula": "",
+        "moveResults": {
+          "miss": {
+            "key": "system.moveResults.miss.value",
+            "label": "Miss",
+            "value": "<p>This move automatically succeeds when triggered.</p>"
+          },
+          "weakHit": {
+            "key": "system.moveResults.weakHit.value",
+            "label": "Weak Hit",
+            "value": "<p>This move automatically succeeds when triggered.</p>"
+          },
+          "strongHit": {
+            "key": "system.moveResults.strongHit.value",
+            "label": "Strong Hit",
+            "value": "<p>Your investment is established. You may spend up to 3 Debts and hold 1 for each spent. When time passes, spend hold 1-for-1 to take/give +1 to city/faction moves aided by your endeavor.</p>"
+          }
+        },
+        "uses": 0,
+        "rollType": "prompt",
+        "rollMod": 0,
+        "actorType": "urban-shadows-pbta.city-hub",
+        "choices": ""
+      },
+      "effects": [],
+      "sort": 900000,
+      "ownership": {
+        "default": 0,
+        "tolKXMkOd7JsM4Jk": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.urban-shadows-pbta.play-materials.Item.I4mN7oO0pQ3rR6sU",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pbta",
+        "systemVersion": "1.1.21",
+        "createdTime": 1750883636290,
+        "modifiedTime": 1750883636290,
+        "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+      },
+      "_key": "!actors.items!fha09JNbFGp8twKa.8Sx7O90xjQdzPi88"
+    },
+    {
+      "folder": "H9kL2nM5oP8qR3sT",
+      "name": "WELCOME TO MY OFFICE",
+      "type": "move",
+      "_id": "q5Orbc3vcn2NkaqV",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<h3>University Hub Move</h3><p>When you <em><strong>perform a ritual to secure a secluded place on campus for a meeting/deal</strong></em>, roll with <strong>Spirit</strong>.</p>",
+        "moveType": "hub",
+        "rollFormula": "",
+        "moveResults": {
+          "miss": {
+            "key": "system.moveResults.miss.value",
+            "label": "Miss",
+            "value": "<p>Your reality warping creates something dangerous piercing between worlds.</p>"
+          },
+          "weakHit": {
+            "key": "system.moveResults.weakHit.value",
+            "label": "Weak Hit",
+            "value": "<p>Campus produces secure location only available to you and designees until meeting/deal complete.</p>"
+          },
+          "strongHit": {
+            "key": "system.moveResults.strongHit.value",
+            "label": "Strong Hit",
+            "value": "<p>Campus produces secure location only available to you and designees until meeting/deal complete. Additionally, place is attuned to you; never mark corruption when letting it out within.</p>"
+          }
+        },
+        "uses": 0,
+        "rollType": "spirit",
+        "rollMod": 0,
+        "actorType": "urban-shadows-pbta.city-hub",
+        "choices": ""
+      },
+      "effects": [],
+      "sort": 800000,
+      "ownership": {
+        "default": 0,
+        "tolKXMkOd7JsM4Jk": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.urban-shadows-pbta.play-materials.Item.H3lM6nN9oP2qQ5rT",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pbta",
+        "systemVersion": "1.1.21",
+        "createdTime": 1750883638875,
+        "modifiedTime": 1750883638875,
+        "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+      },
+      "_key": "!actors.items!fha09JNbFGp8twKa.q5Orbc3vcn2NkaqV"
+    },
+    {
+      "folder": "H9kL2nM5oP8qR3sT",
+      "name": "A FRIEND IN THE SCIENCE DEPARTMENT",
+      "type": "move",
+      "_id": "tf1gm3x7yv3Sw1Kn",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<h3>University Hub Move</h3><p>When you <em><strong>hit the streets to look for information about strange/magical phenomena via university contacts</strong></em>, roll with <strong>Mind instead of Circle</strong> when consulting university contacts.</p>",
+        "moveType": "hub",
+        "rollFormula": "",
+        "moveResults": {
+          "miss": {
+            "key": "system.moveResults.miss.value",
+            "label": "Miss",
+            "value": "<p>Questions attract attention of old enemy looking to settle a score.</p>"
+          },
+          "weakHit": {
+            "key": "system.moveResults.weakHit.value",
+            "label": "Weak Hit",
+            "value": "<p>On a hit, they're available and have the stuff. On a 7-9, choose 1:</p><ul><li>whoever you're going to is juggling their own problems</li><li>whatever you need is more costly than anticipated</li></ul>"
+          },
+          "strongHit": {
+            "key": "system.moveResults.strongHit.value",
+            "label": "Strong Hit",
+            "value": "<p>On a hit, they're available and have the stuff.</p>"
+          }
+        },
+        "uses": 0,
+        "rollType": "mind",
+        "rollMod": 0,
+        "actorType": "urban-shadows-pbta.city-hub",
+        "choices": ""
+      },
+      "effects": [],
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "tolKXMkOd7JsM4Jk": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.urban-shadows-pbta.play-materials.Item.G2kL5mM8nO1pP4qS",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pbta",
+        "systemVersion": "1.1.21",
+        "createdTime": 1750883641684,
+        "modifiedTime": 1750883641684,
+        "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+      },
+      "_key": "!actors.items!fha09JNbFGp8twKa.tf1gm3x7yv3Sw1Kn"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1750883525316,
+    "modifiedTime": 1750883724575,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!actors!fha09JNbFGp8twKa"
+}
