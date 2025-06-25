@@ -1,6 +1,6 @@
 {
-  "folder": "SphrtkLd76JB9Qi7",
-  "name": "Art District Location Rumors",
+  "folder": "4wRTF9RvSOhb9bd3",
+  "name": "Art District Rumors",
   "_id": "8UhsTWySAfWrMMB8",
   "img": "icons/svg/deaf.svg",
   "description": "",
@@ -158,7 +158,7 @@
   ],
   "replacement": true,
   "displayRoll": true,
-  "sort": 0,
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "tolKXMkOd7JsM4Jk": 3
@@ -172,7 +172,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748581947337,
-    "modifiedTime": 1750815047454,
+    "modifiedTime": 1750822027186,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "1d6",

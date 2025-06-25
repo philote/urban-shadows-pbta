@@ -1,5 +1,5 @@
 {
-  "folder": "N9rS5uV8wX1yY4zB",
+  "folder": "b4UzuSkbeVaG6I95",
   "name": "University Location Nature",
   "_id": "x5NyciRce1eSSABm",
   "img": "icons/svg/d20-grey.svg",
@@ -283,7 +283,7 @@
   ],
   "replacement": true,
   "displayRoll": true,
-  "sort": 0,
+  "sort": 150000,
   "ownership": {
     "default": 0,
     "tolKXMkOd7JsM4Jk": 3
@@ -297,7 +297,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748581947337,
-    "modifiedTime": 1750819635439,
+    "modifiedTime": 1750821951279,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "2d6",

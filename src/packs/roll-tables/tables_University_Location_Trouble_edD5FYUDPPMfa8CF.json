@@ -1,5 +1,5 @@
 {
-  "folder": "N9rS5uV8wX1yY4zB",
+  "folder": "b4UzuSkbeVaG6I95",
   "name": "University Location Trouble",
   "_id": "edD5FYUDPPMfa8CF",
   "img": "icons/svg/d20-grey.svg",
@@ -283,7 +283,7 @@
   ],
   "replacement": true,
   "displayRoll": true,
-  "sort": 0,
+  "sort": 125000,
   "ownership": {
     "default": 0,
     "tolKXMkOd7JsM4Jk": 3
@@ -297,7 +297,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748581947337,
-    "modifiedTime": 1750819660777,
+    "modifiedTime": 1750821953200,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "2d6",

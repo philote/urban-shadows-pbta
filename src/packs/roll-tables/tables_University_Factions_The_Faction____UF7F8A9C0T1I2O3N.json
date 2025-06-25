@@ -1,5 +1,5 @@
 {
-  "folder": "N9rS5uV8wX1yY4zB",
+  "folder": "z0Nu3MDN2RuzIuCJ",
   "name": "University Factions The Faction...",
   "_id": "UF7F8A9C0T1I2O3N",
   "img": "icons/svg/d20-grey.svg",
@@ -283,7 +283,7 @@
   ],
   "replacement": true,
   "displayRoll": true,
-  "sort": 0,
+  "sort": 125000,
   "ownership": {
     "default": 0,
     "tolKXMkOd7JsM4Jk": 3
@@ -293,11 +293,11 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748581947337,
-    "modifiedTime": 1748581947337,
+    "modifiedTime": 1750821923039,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "2d6",

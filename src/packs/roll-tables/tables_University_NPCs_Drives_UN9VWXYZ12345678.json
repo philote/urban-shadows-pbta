@@ -1,5 +1,5 @@
 {
-  "folder": "N9rS5uV8wX1yY4zB",
+  "folder": "6h41aQSu1j6cw8EF",
   "name": "University NPCs Drives",
   "_id": "UN9VWXYZ12345678",
   "img": "icons/svg/d20-grey.svg",
@@ -283,7 +283,7 @@
   ],
   "replacement": true,
   "displayRoll": true,
-  "sort": 0,
+  "sort": 150000,
   "ownership": {
     "default": 0,
     "tolKXMkOd7JsM4Jk": 3
@@ -293,11 +293,11 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748581947337,
-    "modifiedTime": 1748581947337,
+    "modifiedTime": 1750821963278,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "2d6",

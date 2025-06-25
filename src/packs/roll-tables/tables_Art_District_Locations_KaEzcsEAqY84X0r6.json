@@ -138,7 +138,7 @@
   ],
   "replacement": true,
   "displayRoll": false,
-  "sort": 100000,
+  "sort": 400000,
   "ownership": {
     "default": 0,
     "tolKXMkOd7JsM4Jk": 3
@@ -148,11 +148,11 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748581947337,
-    "modifiedTime": 1748582380914,
+    "modifiedTime": 1750822027186,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "1d1",
