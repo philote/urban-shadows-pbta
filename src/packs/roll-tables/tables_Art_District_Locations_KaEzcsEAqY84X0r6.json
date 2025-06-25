@@ -13,7 +13,7 @@
         1
       ],
       "_id": "SbU0VQCjSlqLStrg",
-      "name": "Control",
+      "name": "Art District Location Control",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -22,11 +22,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
-        "modifiedTime": 1748582067674
+        "modifiedTime": 1750815263646
       },
       "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.COZVzdcguGDpPAch",
       "_key": "!tables.results!KaEzcsEAqY84X0r6.SbU0VQCjSlqLStrg"
@@ -39,7 +39,7 @@
         1
       ],
       "_id": "prT8H3DRdHqK6HtE",
-      "name": "Type (with common NPCs)",
+      "name": "Art District Location Type",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -48,11 +48,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
-        "modifiedTime": 1748582021315
+        "modifiedTime": 1750815265565
       },
       "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.p4SR19b4hNqPhmC1",
       "_key": "!tables.results!KaEzcsEAqY84X0r6.prT8H3DRdHqK6HtE"
@@ -65,7 +65,7 @@
         1
       ],
       "_id": "6KI8DRKVZzcD974U",
-      "name": "Nature",
+      "name": "Art District Location Nature",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -74,11 +74,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
-        "modifiedTime": 1748582032247
+        "modifiedTime": 1750815267860
       },
       "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.nUB8PdDU1IFarKbY",
       "_key": "!tables.results!KaEzcsEAqY84X0r6.6KI8DRKVZzcD974U"
@@ -91,7 +91,7 @@
         1
       ],
       "_id": "rFvG1TJHW9Tjafd4",
-      "name": "Atmosphere",
+      "name": "Art District Location Atmosphere",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -100,11 +100,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
-        "modifiedTime": 1748582043906
+        "modifiedTime": 1750815269598
       },
       "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.JVkPz6wIX9vxhaC2",
       "_key": "!tables.results!KaEzcsEAqY84X0r6.rFvG1TJHW9Tjafd4"
@@ -117,7 +117,7 @@
         1
       ],
       "_id": "UDhqkiso9gFW4woN",
-      "name": "Trouble",
+      "name": "Art District Location Trouble",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -126,11 +126,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
-        "modifiedTime": 1748582053548
+        "modifiedTime": 1750815271314
       },
       "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.B9vBbQQa7Wu9pJAo",
       "_key": "!tables.results!KaEzcsEAqY84X0r6.UDhqkiso9gFW4woN"

@@ -13,7 +13,7 @@
         1
       ],
       "_id": "FiH1J2K3L4M5N6O7",
-      "name": "Circle",
+      "name": "Art District NPCs Circle",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -22,11 +22,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
-        "modifiedTime": 1748582067674
+        "modifiedTime": 1750815276722
       },
       "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.AD1C2E3F4G5H6I7J",
       "_key": "!tables.results!FI6H7I8J9K0L1M23.FiH1J2K3L4M5N6O7"
@@ -39,7 +39,7 @@
         1
       ],
       "_id": "GiH2J3K4L5M6N7O8",
-      "name": "Presenting",
+      "name": "Art District NPCs Presenting",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -48,11 +48,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
-        "modifiedTime": 1748582021315
+        "modifiedTime": 1750815278724
       },
       "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.BE2D3F4G5H6I7J82",
       "_key": "!tables.results!FI6H7I8J9K0L1M23.GiH2J3K4L5M6N7O8"
@@ -65,7 +65,7 @@
         1
       ],
       "_id": "HiH3J4K5L6M7N8O9",
-      "name": "Look",
+      "name": "Art District NPCs Look",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -74,11 +74,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
-        "modifiedTime": 1748582032247
+        "modifiedTime": 1750815280196
       },
       "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.CF3E4F5G6H7I8J94",
       "_key": "!tables.results!FI6H7I8J9K0L1M23.HiH3J4K5L6M7N8O9"
@@ -91,7 +91,7 @@
         1
       ],
       "_id": "IiH4J5K6L7M8N9OA",
-      "name": "Demeanor",
+      "name": "Art District NPCs Demeanor",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -100,11 +100,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
-        "modifiedTime": 1748582043906
+        "modifiedTime": 1750815283941
       },
       "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.DG4F5G6H7I8J9K01",
       "_key": "!tables.results!FI6H7I8J9K0L1M23.IiH4J5K6L7M8N9OA"
@@ -117,7 +117,7 @@
         1
       ],
       "_id": "JiH5J6K7L8M9N0OB",
-      "name": "Role",
+      "name": "Art District NPCs Role",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -126,11 +126,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
-        "modifiedTime": 1748582053548
+        "modifiedTime": 1750815293603
       },
       "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.EH5G6H78J9K0L122",
       "_key": "!tables.results!FI6H7I8J9K0L1M23.JiH5J6K7L8M9N0OB"
@@ -143,7 +143,7 @@
         1
       ],
       "_id": "KiH6J7K8L9M0N1OC",
-      "name": "Trait",
+      "name": "Art District NPCs Trait",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -152,11 +152,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
-        "modifiedTime": 1748582053548
+        "modifiedTime": 1750815293082
       },
       "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.GJ7I8J9K0L12N344",
       "_key": "!tables.results!FI6H7I8J9K0L1M23.KiH6J7K8L9M0N1OC"
@@ -169,7 +169,7 @@
         1
       ],
       "_id": "LiH7J8K9L0M1N2OD",
-      "name": "Quirk",
+      "name": "Art District NPCs Quirk",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -178,11 +178,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
-        "modifiedTime": 1748582053548
+        "modifiedTime": 1750815292573
       },
       "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.HK8J9K0L1MN3O455",
       "_key": "!tables.results!FI6H7I8J9K0L1M23.LiH7J8K9L0M1N2OD"
@@ -195,7 +195,7 @@
         1
       ],
       "_id": "MiH8J9K0L1M2N3OE",
-      "name": "Drives",
+      "name": "Art District NPCs Drives",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -204,11 +204,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
-        "modifiedTime": 1748582053548
+        "modifiedTime": 1750815291143
       },
       "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.IL9K0L1M23O4P566",
       "_key": "!tables.results!FI6H7I8J9K0L1M23.MiH8J9K0L1M2N3OE"

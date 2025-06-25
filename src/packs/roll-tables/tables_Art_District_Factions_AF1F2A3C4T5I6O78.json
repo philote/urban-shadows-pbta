@@ -13,7 +13,7 @@
         1
       ],
       "_id": "AfF1A2C3T4I5O6N7",
-      "name": "Purpose",
+      "name": "Art District Factions Purpose",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -22,11 +22,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
-        "modifiedTime": 1748582067674
+        "modifiedTime": 1750815246980
       },
       "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.AF2A3C4T5I6O7N89",
       "_key": "!tables.results!AF1F2A3C4T5I6O78.AfF1A2C3T4I5O6N7"
@@ -39,7 +39,7 @@
         1
       ],
       "_id": "BfF2A3C4T5I6O7N8",
-      "name": "Structure",
+      "name": "Art District Factions Structure",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -48,11 +48,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
-        "modifiedTime": 1748582021315
+        "modifiedTime": 1750815249347
       },
       "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.AF3C4T5I6O7N8S9U",
       "_key": "!tables.results!AF1F2A3C4T5I6O78.BfF2A3C4T5I6O7N8"
@@ -65,7 +65,7 @@
         1
       ],
       "_id": "CfF3A4C5T6I7O8N9",
-      "name": "Mood",
+      "name": "Art District Factions Mood",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -74,11 +74,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
-        "modifiedTime": 1748582032247
+        "modifiedTime": 1750815251320
       },
       "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.AF4T5I6O7N8S9UVW",
       "_key": "!tables.results!AF1F2A3C4T5I6O78.CfF3A4C5T6I7O8N9"
@@ -91,7 +91,7 @@
         1
       ],
       "_id": "DfF4A5C6T7I8O9NA",
-      "name": "Size",
+      "name": "Art District Factions Size",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -100,11 +100,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
-        "modifiedTime": 1748582043906
+        "modifiedTime": 1750815253140
       },
       "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.AF5I6O7N8S9UVWXY",
       "_key": "!tables.results!AF1F2A3C4T5I6O78.DfF4A5C6T7I8O9NA"
@@ -117,7 +117,7 @@
         1
       ],
       "_id": "EfF5A6C7T8I9OANB",
-      "name": "Strength",
+      "name": "Art District Factions Strength",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -126,11 +126,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
-        "modifiedTime": 1748582053548
+        "modifiedTime": 1750815254740
       },
       "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.AF6O7N8S9UVWXYZ1",
       "_key": "!tables.results!AF1F2A3C4T5I6O78.EfF5A6C7T8I9OANB"
@@ -143,7 +143,7 @@
         1
       ],
       "_id": "FfF6A7C8T9IAOANC",
-      "name": "The Faction...",
+      "name": "Art District Factions The Faction...",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -152,11 +152,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
-        "modifiedTime": 1748582053548
+        "modifiedTime": 1750815256250
       },
       "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.AF7N8S9UVWXYZ123",
       "_key": "!tables.results!AF1F2A3C4T5I6O78.FfF6A7C8T9IAOANC"
