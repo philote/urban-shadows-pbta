@@ -1,7 +1,7 @@
 {
   "type": "RollTable",
   "folder": "4wRTF9RvSOhb9bd3",
-  "name": "Arts District Factions Subtables",
+  "name": "Arts District Factions Sub-tables",
   "color": null,
   "sorting": "a",
   "_id": "Lrap9MtfJyxSz98n",
@@ -15,7 +15,8 @@
     "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.21",
-    "lastModifiedBy": null
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1750814631464
   },
   "_key": "!folders!Lrap9MtfJyxSz98n"
 }
