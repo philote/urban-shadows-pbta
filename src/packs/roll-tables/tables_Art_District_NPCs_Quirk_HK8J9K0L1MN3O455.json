@@ -1,7 +1,7 @@
 {
   "folder": "4wRTF9RvSOhb9bd3",
-  "name": "Art District Factions Purpose",
-  "_id": "AF2A3C4T5I6O7N89",
+  "name": "Art District NPCs Quirk",
+  "_id": "HK8J9K0L1MN3O455",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
   "results": [
@@ -12,8 +12,8 @@
         2,
         2
       ],
-      "_id": "AfA1C2T3I4O5N6S7",
-      "name": "to learn from supernatural collaborations (Mortalis)",
+      "_id": "HkJ1L2M3N4O5P6Q7",
+      "name": "master of aliases",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -28,7 +28,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.AfA1C2T3I4O5N6S7"
+      "_key": "!tables.results!HK8J9K0L1MN3O455.HkJ1L2M3N4O5P6Q7"
     },
     {
       "type": "text",
@@ -37,8 +37,8 @@
         3,
         3
       ],
-      "_id": "BfA2C3T4I5O6N7S8",
-      "name": "to keep dangerous knowledge secret and safe (Night)",
+      "_id": "IkJ2L3M4N5O6P7Q8",
+      "name": "repeatedly escapes danger unscathed",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -53,7 +53,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.BfA2C3T4I5O6N7S8"
+      "_key": "!tables.results!HK8J9K0L1MN3O455.IkJ2L3M4N5O6P7Q8"
     },
     {
       "type": "text",
@@ -62,8 +62,8 @@
         4,
         4
       ],
-      "_id": "CfA3C4T5I6O7N8S9",
-      "name": "to cover up the supernatural truth (Night)",
+      "_id": "JkJ3L4M5N6O7P8Q9",
+      "name": "enemies with a Status-3 NPC",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -78,7 +78,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.CfA3C4T5I6O7N8S9"
+      "_key": "!tables.results!HK8J9K0L1MN3O455.JkJ3L4M5N6O7P8Q9"
     },
     {
       "type": "text",
@@ -87,8 +87,8 @@
         5,
         5
       ],
-      "_id": "DfA4C5T6I7O8N9SA",
-      "name": "to manipulate humans to do their bidding (Night)",
+      "_id": "KkJ4L5M6N7O8P9QA",
+      "name": "collects supernatural secrets",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -103,7 +103,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.DfA4C5T6I7O8N9SA"
+      "_key": "!tables.results!HK8J9K0L1MN3O455.KkJ4L5M6N7O8P9QA"
     },
     {
       "type": "text",
@@ -112,8 +112,8 @@
         6,
         6
       ],
-      "_id": "EfA5C6T7I8O9NASB",
-      "name": "to protect their ancient ways of life (Wild)",
+      "_id": "LkJ5L6M7N8O9P0QB",
+      "name": "has a posse of enamored mortals",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -128,7 +128,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.EfA5C6T7I8O9NASB"
+      "_key": "!tables.results!HK8J9K0L1MN3O455.LkJ5L6M7N8O9P0QB"
     },
     {
       "type": "text",
@@ -137,8 +137,8 @@
         7,
         7
       ],
-      "_id": "FfA6C7T8I9OANBSC",
-      "name": "to create and exploit new contracts (Wild)",
+      "_id": "MkJ6L7M8N9O0P1QC",
+      "name": "knows everybody (and their secrets)",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -153,7 +153,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.FfA6C7T8I9OANBSC"
+      "_key": "!tables.results!HK8J9K0L1MN3O455.MkJ6L7M8N9O0P1QC"
     },
     {
       "type": "text",
@@ -162,8 +162,8 @@
         8,
         8
       ],
-      "_id": "GfA7C8T9IAONBSCD",
-      "name": "to welcome others of their kind to the city (Wild)",
+      "_id": "NkJ7L8M9N0O1P2QD",
+      "name": "champions a new cause every week",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -178,7 +178,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.GfA7C8T9IAONBSCD"
+      "_key": "!tables.results!HK8J9K0L1MN3O455.NkJ7L8M9N0O1P2QD"
     },
     {
       "type": "text",
@@ -187,8 +187,8 @@
         9,
         9
       ],
-      "_id": "HfA8C9TAIBONCSDE",
-      "name": "to acquire and profit off of new holdings (Power)",
+      "_id": "OkJ8L9M0N1O2P3QE",
+      "name": "collects magically-imbued art",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -203,7 +203,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.HfA8C9TAIBONCSDE"
+      "_key": "!tables.results!HK8J9K0L1MN3O455.OkJ8L9M0N1O2P3QE"
     },
     {
       "type": "text",
@@ -212,8 +212,8 @@
         10,
         10
       ],
-      "_id": "IfA9CATBICONDSEF",
-      "name": "to find and sway powerful beings to their side (Power)",
+      "_id": "PkJ9L0M1N2O3P4QF",
+      "name": "constantly shifts romantic partners",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -228,7 +228,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.IfA9CATBICONDSEF"
+      "_key": "!tables.results!HK8J9K0L1MN3O455.PkJ9L0M1N2O3P4QF"
     },
     {
       "type": "text",
@@ -237,8 +237,8 @@
         11,
         11
       ],
-      "_id": "JfA0CBTCIDONESTG",
-      "name": "to remain hidden from formidable enemies (Power)",
+      "_id": "QkJ0L1M2N3O4P5QG",
+      "name": "bent on neutrality in all conflicts",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -253,7 +253,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.JfA0CBTCIDONESTG"
+      "_key": "!tables.results!HK8J9K0L1MN3O455.QkJ0L1M2N3O4P5QG"
     },
     {
       "type": "text",
@@ -262,8 +262,8 @@
         12,
         12
       ],
-      "_id": "KfA1CCTDIEONFSTU",
-      "name": "to keep the peace between rival factions (Mortalis)",
+      "_id": "RkJ1L2M3N4O5P6QH",
+      "name": "brings bad luck wherever they go",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -278,7 +278,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.KfA1CCTDIEONFSTU"
+      "_key": "!tables.results!HK8J9K0L1MN3O455.RkJ1L2M3N4O5P6QH"
     }
   ],
   "replacement": true,
@@ -301,5 +301,5 @@
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "2d6",
-  "_key": "!tables!AF2A3C4T5I6O7N89"
+  "_key": "!tables!HK8J9K0L1MN3O455"
 }

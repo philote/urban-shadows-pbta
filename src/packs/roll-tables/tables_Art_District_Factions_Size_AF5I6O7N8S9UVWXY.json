@@ -1,19 +1,19 @@
 {
   "folder": "4wRTF9RvSOhb9bd3",
-  "name": "Art District Factions Structure",
-  "_id": "AF3C4T5I6O7N8S9U",
+  "name": "Art District Factions Size",
+  "_id": "AF5I6O7N8S9UVWXY",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
   "results": [
     {
       "type": "text",
-      "weight": 2,
+      "weight": 1,
       "range": [
         2,
-        3
+        2
       ],
-      "_id": "AfC1T2I3O4N5S6T7",
-      "name": "Oligarchical",
+      "_id": "AfI1O2N3S4U5V6W7",
+      "name": "4",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -28,17 +28,17 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.AfC1T2I3O4N5S6T7"
+      "_key": "!tables.results!AF5I6O7N8S9UVWXY.AfI1O2N3S4U5V6W7"
     },
     {
       "type": "text",
-      "weight": 2,
+      "weight": 3,
       "range": [
-        4,
+        3,
         5
       ],
-      "_id": "BfC2T3I4O5N6S7T8",
-      "name": "Divided",
+      "_id": "BfI2O3N4S5U6V7W8",
+      "name": "1",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -53,7 +53,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.BfC2T3I4O5N6S7T8"
+      "_key": "!tables.results!AF5I6O7N8S9UVWXY.BfI2O3N4S5U6V7W8"
     },
     {
       "type": "text",
@@ -62,8 +62,8 @@
         6,
         8
       ],
-      "_id": "CfC3T4I5O6N7S8T9",
-      "name": "Anarchic",
+      "_id": "CfI3O4N5S6U7V8W9",
+      "name": "2",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -78,17 +78,17 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.CfC3T4I5O6N7S8T9"
+      "_key": "!tables.results!AF5I6O7N8S9UVWXY.CfI3O4N5S6U7V8W9"
     },
     {
       "type": "text",
-      "weight": 2,
+      "weight": 3,
       "range": [
         9,
-        10
+        11
       ],
-      "_id": "DfC4T5I6O7N8S9TA",
-      "name": "Democratic",
+      "_id": "DfI4O5N6S7U8V9WA",
+      "name": "3",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -103,17 +103,17 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.DfC4T5I6O7N8S9TA"
+      "_key": "!tables.results!AF5I6O7N8S9UVWXY.DfI4O5N6S7U8V9WA"
     },
     {
       "type": "text",
-      "weight": 2,
+      "weight": 1,
       "range": [
-        11,
+        12,
         12
       ],
-      "_id": "EfC5T6I7O8N9SATB",
-      "name": "Despotic",
+      "_id": "EfI5O6N7S8U9VAWB",
+      "name": "4",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -128,7 +128,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.EfC5T6I7O8N9SATB"
+      "_key": "!tables.results!AF5I6O7N8S9UVWXY.EfI5O6N7S8U9VAWB"
     }
   ],
   "replacement": true,
@@ -151,5 +151,5 @@
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "2d6",
-  "_key": "!tables!AF3C4T5I6O7N8S9U"
+  "_key": "!tables!AF5I6O7N8S9UVWXY"
 }

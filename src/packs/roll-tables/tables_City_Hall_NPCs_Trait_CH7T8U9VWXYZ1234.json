@@ -1,7 +1,7 @@
 {
-  "folder": "4wRTF9RvSOhb9bd3",
-  "name": "Art District Factions Purpose",
-  "_id": "AF2A3C4T5I6O7N89",
+  "folder": "L7pQ3sT6uV9wX2yA",
+  "name": "City Hall NPCs Trait",
+  "_id": "CH7T8U9VWXYZ1234",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
   "results": [
@@ -12,8 +12,8 @@
         2,
         2
       ],
-      "_id": "AfA1C2T3I4O5N6S7",
-      "name": "to learn from supernatural collaborations (Mortalis)",
+      "_id": "ChT1U2V3W4X5Y6Z7",
+      "name": "bound by contracts",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -28,7 +28,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.AfA1C2T3I4O5N6S7"
+      "_key": "!tables.results!CH7T8U9VWXYZ1234.ChT1U2V3W4X5Y6Z7"
     },
     {
       "type": "text",
@@ -37,8 +37,8 @@
         3,
         3
       ],
-      "_id": "BfA2C3T4I5O6N7S8",
-      "name": "to keep dangerous knowledge secret and safe (Night)",
+      "_id": "DhT2U3V4W5X6Y7Z8",
+      "name": "nonverbal",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -53,7 +53,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.BfA2C3T4I5O6N7S8"
+      "_key": "!tables.results!CH7T8U9VWXYZ1234.DhT2U3V4W5X6Y7Z8"
     },
     {
       "type": "text",
@@ -62,8 +62,8 @@
         4,
         4
       ],
-      "_id": "CfA3C4T5I6O7N8S9",
-      "name": "to cover up the supernatural truth (Night)",
+      "_id": "EhT3U4V5W6X7Y8Z9",
+      "name": "physically frail",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -78,7 +78,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.CfA3C4T5I6O7N8S9"
+      "_key": "!tables.results!CH7T8U9VWXYZ1234.EhT3U4V5W6X7Y8Z9"
     },
     {
       "type": "text",
@@ -87,8 +87,8 @@
         5,
         5
       ],
-      "_id": "DfA4C5T6I7O8N9SA",
-      "name": "to manipulate humans to do their bidding (Night)",
+      "_id": "FhT4U5V6W7X8Y9ZA",
+      "name": "unusual hair",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -103,7 +103,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.DfA4C5T6I7O8N9SA"
+      "_key": "!tables.results!CH7T8U9VWXYZ1234.FhT4U5V6W7X8Y9ZA"
     },
     {
       "type": "text",
@@ -112,8 +112,8 @@
         6,
         6
       ],
-      "_id": "EfA5C6T7I8O9NASB",
-      "name": "to protect their ancient ways of life (Wild)",
+      "_id": "GhT5U6V7W8X9YAZB",
+      "name": "magical/cursed scar",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -128,7 +128,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.EfA5C6T7I8O9NASB"
+      "_key": "!tables.results!CH7T8U9VWXYZ1234.GhT5U6V7W8X9YAZB"
     },
     {
       "type": "text",
@@ -137,8 +137,8 @@
         7,
         7
       ],
-      "_id": "FfA6C7T8I9OANBSC",
-      "name": "to create and exploit new contracts (Wild)",
+      "_id": "HhT6U7V8W9XAYBZC",
+      "name": "mundane hobbies",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -153,7 +153,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.FfA6C7T8I9OANBSC"
+      "_key": "!tables.results!CH7T8U9VWXYZ1234.HhT6U7V8W9XAYBZC"
     },
     {
       "type": "text",
@@ -162,8 +162,8 @@
         8,
         8
       ],
-      "_id": "GfA7C8T9IAONBSCD",
-      "name": "to welcome others of their kind to the city (Wild)",
+      "_id": "IhT7U8V9WAXYBCZD",
+      "name": "monochromatic",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -178,7 +178,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.GfA7C8T9IAONBSCD"
+      "_key": "!tables.results!CH7T8U9VWXYZ1234.IhT7U8V9WAXYBCZD"
     },
     {
       "type": "text",
@@ -187,8 +187,8 @@
         9,
         9
       ],
-      "_id": "HfA8C9TAIBONCSDE",
-      "name": "to acquire and profit off of new holdings (Power)",
+      "_id": "JhT8U9V0WAXYBCZE",
+      "name": "pierced/tattooed",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -203,7 +203,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.HfA8C9TAIBONCSDE"
+      "_key": "!tables.results!CH7T8U9VWXYZ1234.JhT8U9V0WAXYBCZE"
     },
     {
       "type": "text",
@@ -212,8 +212,8 @@
         10,
         10
       ],
-      "_id": "IfA9CATBICONDSEF",
-      "name": "to find and sway powerful beings to their side (Power)",
+      "_id": "KhT9U0V1WAXYBCZF",
+      "name": "unusual eyes",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -228,7 +228,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.IfA9CATBICONDSEF"
+      "_key": "!tables.results!CH7T8U9VWXYZ1234.KhT9U0V1WAXYBCZF"
     },
     {
       "type": "text",
@@ -237,8 +237,8 @@
         11,
         11
       ],
-      "_id": "JfA0CBTCIDONESTG",
-      "name": "to remain hidden from formidable enemies (Power)",
+      "_id": "LhT0U1V2WAXYBCZG",
+      "name": "strange aura",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -253,7 +253,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.JfA0CBTCIDONESTG"
+      "_key": "!tables.results!CH7T8U9VWXYZ1234.LhT0U1V2WAXYBCZG"
     },
     {
       "type": "text",
@@ -262,8 +262,8 @@
         12,
         12
       ],
-      "_id": "KfA1CCTDIEONFSTU",
-      "name": "to keep the peace between rival factions (Mortalis)",
+      "_id": "MhT1U2V3WAXYBCZH",
+      "name": "notable accessories",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -278,7 +278,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.KfA1CCTDIEONFSTU"
+      "_key": "!tables.results!CH7T8U9VWXYZ1234.MhT1U2V3WAXYBCZH"
     }
   ],
   "replacement": true,
@@ -301,5 +301,5 @@
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "2d6",
-  "_key": "!tables!AF2A3C4T5I6O7N89"
+  "_key": "!tables!CH7T8U9VWXYZ1234"
 }

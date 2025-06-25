@@ -1,8 +1,8 @@
 {
-  "folder": "4wRTF9RvSOhb9bd3",
-  "name": "Art District Factions",
-  "_id": "AF1F2A3C4T5I6O78",
-  "img": "icons/svg/ruins.svg",
+  "folder": "M8qR4tU7vW0xY3zA",
+  "name": "Downtown NPCs",
+  "_id": "DT1N2P3Q4R5S6T78",
+  "img": "icons/svg/mystery-man.svg",
   "description": "",
   "results": [
     {
@@ -12,8 +12,8 @@
         1,
         1
       ],
-      "_id": "AfF1A2C3T4I5O6N7",
-      "name": "Purpose",
+      "_id": "DtN1P2Q3R4S5T6U7",
+      "name": "Circle",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -28,8 +28,8 @@
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
         "modifiedTime": 1748582067674
       },
-      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.AF2A3C4T5I6O7N89",
-      "_key": "!tables.results!AF1F2A3C4T5I6O78.AfF1A2C3T4I5O6N7"
+      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.DT2O3P4Q5R6S7T89",
+      "_key": "!tables.results!DT1N2P3Q4R5S6T78.DtN1P2Q3R4S5T6U7"
     },
     {
       "type": "document",
@@ -38,8 +38,8 @@
         1,
         1
       ],
-      "_id": "BfF2A3C4T5I6O7N8",
-      "name": "Structure",
+      "_id": "EtN2P3Q4R5S6T7U8",
+      "name": "Presenting",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -54,8 +54,8 @@
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
         "modifiedTime": 1748582021315
       },
-      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.AF3C4T5I6O7N8S9U",
-      "_key": "!tables.results!AF1F2A3C4T5I6O78.BfF2A3C4T5I6O7N8"
+      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.DT3P4Q5R6S7T8U9V",
+      "_key": "!tables.results!DT1N2P3Q4R5S6T78.EtN2P3Q4R5S6T7U8"
     },
     {
       "type": "document",
@@ -64,8 +64,8 @@
         1,
         1
       ],
-      "_id": "CfF3A4C5T6I7O8N9",
-      "name": "Mood",
+      "_id": "FtN3P4Q5R6S7T8U9",
+      "name": "Look",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -80,8 +80,8 @@
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
         "modifiedTime": 1748582032247
       },
-      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.AF4T5I6O7N8S9UVW",
-      "_key": "!tables.results!AF1F2A3C4T5I6O78.CfF3A4C5T6I7O8N9"
+      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.DT4Q5R6S7T8U9VWX",
+      "_key": "!tables.results!DT1N2P3Q4R5S6T78.FtN3P4Q5R6S7T8U9"
     },
     {
       "type": "document",
@@ -90,8 +90,8 @@
         1,
         1
       ],
-      "_id": "DfF4A5C6T7I8O9NA",
-      "name": "Size",
+      "_id": "GtN4P5Q6R7S8T9UA",
+      "name": "Demeanor",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -106,8 +106,8 @@
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
         "modifiedTime": 1748582043906
       },
-      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.AF5I6O7N8S9UVWXY",
-      "_key": "!tables.results!AF1F2A3C4T5I6O78.DfF4A5C6T7I8O9NA"
+      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.DT5R6S7T8U9VWXYZ",
+      "_key": "!tables.results!DT1N2P3Q4R5S6T78.GtN4P5Q6R7S8T9UA"
     },
     {
       "type": "document",
@@ -116,8 +116,8 @@
         1,
         1
       ],
-      "_id": "EfF5A6C7T8I9OANB",
-      "name": "Strength",
+      "_id": "HtN5P6Q7R8S9TAUB",
+      "name": "Role",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -132,8 +132,8 @@
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
         "modifiedTime": 1748582053548
       },
-      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.AF6O7N8S9UVWXYZ1",
-      "_key": "!tables.results!AF1F2A3C4T5I6O78.EfF5A6C7T8I9OANB"
+      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.DT6S7T8U9VWXYZ12",
+      "_key": "!tables.results!DT1N2P3Q4R5S6T78.HtN5P6Q7R8S9TAUB"
     },
     {
       "type": "document",
@@ -142,8 +142,8 @@
         1,
         1
       ],
-      "_id": "FfF6A7C8T9IAOANC",
-      "name": "The Faction...",
+      "_id": "ItN6P7Q8R9SATBUC",
+      "name": "Trait",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -158,8 +158,60 @@
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
         "modifiedTime": 1748582053548
       },
-      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.AF7N8S9UVWXYZ123",
-      "_key": "!tables.results!AF1F2A3C4T5I6O78.FfF6A7C8T9IAOANC"
+      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.DT7T8U9VWXYZ1234",
+      "_key": "!tables.results!DT1N2P3Q4R5S6T78.ItN6P7Q8R9SATBUC"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "_id": "JtN7P8Q9RASBTUCD",
+      "name": "Quirk",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+        "modifiedTime": 1748582053548
+      },
+      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.DT8U9VWXYZ123456",
+      "_key": "!tables.results!DT1N2P3Q4R5S6T78.JtN7P8Q9RASBTUCD"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "_id": "KtN8P9QARASBTUCDE",
+      "name": "Drives",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+        "modifiedTime": 1748582053548
+      },
+      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.DT9VWXYZ12345678",
+      "_key": "!tables.results!DT1N2P3Q4R5S6T78.KtN8P9QARASBTUCDE"
     }
   ],
   "replacement": true,
@@ -182,5 +234,5 @@
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "1d1",
-  "_key": "!tables!AF1F2A3C4T5I6O78"
+  "_key": "!tables!DT1N2P3Q4R5S6T78"
 }

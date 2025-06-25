@@ -1,19 +1,19 @@
 {
-  "folder": "4wRTF9RvSOhb9bd3",
-  "name": "Art District Factions Structure",
-  "_id": "AF3C4T5I6O7N8S9U",
+  "folder": "N9rS5uV8wX1yY4zB",
+  "name": "University NPCs Presenting",
+  "_id": "UN3P4Q5R6S7T8U9V",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
   "results": [
     {
       "type": "text",
-      "weight": 2,
+      "weight": 3,
       "range": [
         2,
-        3
+        4
       ],
-      "_id": "AfC1T2I3O4N5S6T7",
-      "name": "Oligarchical",
+      "_id": "UnP1Q2R3S4T5U6V7",
+      "name": "androgynous",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -28,17 +28,17 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.AfC1T2I3O4N5S6T7"
+      "_key": "!tables.results!UN3P4Q5R6S7T8U9V.UnP1Q2R3S4T5U6V7"
     },
     {
       "type": "text",
-      "weight": 2,
+      "weight": 1,
       "range": [
-        4,
+        5,
         5
       ],
-      "_id": "BfC2T3I4O5N6S7T8",
-      "name": "Divided",
+      "_id": "VnP2Q3R4S5T6U7V8",
+      "name": "nonconforming",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -53,7 +53,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.BfC2T3I4O5N6S7T8"
+      "_key": "!tables.results!UN3P4Q5R6S7T8U9V.VnP2Q3R4S5T6U7V8"
     },
     {
       "type": "text",
@@ -62,8 +62,8 @@
         6,
         8
       ],
-      "_id": "CfC3T4I5O6N7S8T9",
-      "name": "Anarchic",
+      "_id": "WnP3Q4R5S6T7U8V9",
+      "name": "conforming",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -78,17 +78,17 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.CfC3T4I5O6N7S8T9"
+      "_key": "!tables.results!UN3P4Q5R6S7T8U9V.WnP3Q4R5S6T7U8V9"
     },
     {
       "type": "text",
-      "weight": 2,
+      "weight": 1,
       "range": [
         9,
-        10
+        9
       ],
-      "_id": "DfC4T5I6O7N8S9TA",
-      "name": "Democratic",
+      "_id": "XnP4Q5R6S7T8U9VA",
+      "name": "nonconforming",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -103,17 +103,17 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.DfC4T5I6O7N8S9TA"
+      "_key": "!tables.results!UN3P4Q5R6S7T8U9V.XnP4Q5R6S7T8U9VA"
     },
     {
       "type": "text",
-      "weight": 2,
+      "weight": 3,
       "range": [
-        11,
+        10,
         12
       ],
-      "_id": "EfC5T6I7O8N9SATB",
-      "name": "Despotic",
+      "_id": "YnP5Q6R7S8T9UAVB",
+      "name": "shifting",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -128,7 +128,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.EfC5T6I7O8N9SATB"
+      "_key": "!tables.results!UN3P4Q5R6S7T8U9V.YnP5Q6R7S8T9UAVB"
     }
   ],
   "replacement": true,
@@ -151,5 +151,5 @@
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "2d6",
-  "_key": "!tables!AF3C4T5I6O7N8S9U"
+  "_key": "!tables!UN3P4Q5R6S7T8U9V"
 }

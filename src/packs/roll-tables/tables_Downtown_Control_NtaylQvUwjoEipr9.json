@@ -1,7 +1,7 @@
 {
-  "folder": "4wRTF9RvSOhb9bd3",
-  "name": "Art District Factions Structure",
-  "_id": "AF3C4T5I6O7N8S9U",
+  "folder": "M8qR4tU7vW0xY3zA",
+  "name": "Downtown Control",
+  "_id": "NtaylQvUwjoEipr9",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
   "results": [
@@ -12,8 +12,8 @@
         2,
         3
       ],
-      "_id": "AfC1T2I3O4N5S6T7",
-      "name": "Oligarchical",
+      "_id": "V9aNKLZFs0Sbufyy",
+      "name": "Shared",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -28,7 +28,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.AfC1T2I3O4N5S6T7"
+      "_key": "!tables.results!NtaylQvUwjoEipr9.V9aNKLZFs0Sbufyy"
     },
     {
       "type": "text",
@@ -37,8 +37,8 @@
         4,
         5
       ],
-      "_id": "BfC2T3I4O5N6S7T8",
-      "name": "Divided",
+      "_id": "cNQEdMXEnVetIbcf",
+      "name": "Mortalis",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -53,7 +53,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.BfC2T3I4O5N6S7T8"
+      "_key": "!tables.results!NtaylQvUwjoEipr9.cNQEdMXEnVetIbcf"
     },
     {
       "type": "text",
@@ -62,8 +62,8 @@
         6,
         8
       ],
-      "_id": "CfC3T4I5O6N7S8T9",
-      "name": "Anarchic",
+      "_id": "ngfTjatC4H2Qwzdg",
+      "name": "Night",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -78,7 +78,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.CfC3T4I5O6N7S8T9"
+      "_key": "!tables.results!NtaylQvUwjoEipr9.ngfTjatC4H2Qwzdg"
     },
     {
       "type": "text",
@@ -87,8 +87,8 @@
         9,
         10
       ],
-      "_id": "DfC4T5I6O7N8S9TA",
-      "name": "Democratic",
+      "_id": "BkLgYJ7Zf0MFsS6s",
+      "name": "Wild",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -103,7 +103,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.DfC4T5I6O7N8S9TA"
+      "_key": "!tables.results!NtaylQvUwjoEipr9.BkLgYJ7Zf0MFsS6s"
     },
     {
       "type": "text",
@@ -112,8 +112,8 @@
         11,
         12
       ],
-      "_id": "EfC5T6I7O8N9SATB",
-      "name": "Despotic",
+      "_id": "GkXKS6nBzDKNqnJ0",
+      "name": "Power",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -128,7 +128,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.EfC5T6I7O8N9SATB"
+      "_key": "!tables.results!NtaylQvUwjoEipr9.GkXKS6nBzDKNqnJ0"
     }
   ],
   "replacement": true,
@@ -147,9 +147,9 @@
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748581947337,
-    "modifiedTime": 1748581947337,
+    "modifiedTime": 1748582366514,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "2d6",
-  "_key": "!tables!AF3C4T5I6O7N8S9U"
+  "_key": "!tables!NtaylQvUwjoEipr9"
 }

@@ -1,19 +1,44 @@
 {
   "folder": "4wRTF9RvSOhb9bd3",
-  "name": "Art District Factions Structure",
-  "_id": "AF3C4T5I6O7N8S9U",
+  "name": "Control",
+  "_id": "COZVzdcguGDpPAch",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
   "results": [
     {
       "type": "text",
-      "weight": 2,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "_id": "yaMPM4I7Cz7jmN3B",
+      "name": "Night",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!COZVzdcguGDpPAch.yaMPM4I7Cz7jmN3B"
+    },
+    {
+      "type": "text",
+      "weight": 1,
       "range": [
         2,
-        3
+        2
       ],
-      "_id": "AfC1T2I3O4N5S6T7",
-      "name": "Oligarchical",
+      "_id": "GQA0s2l7jtKVwm8G",
+      "name": "Shared",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -28,17 +53,42 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.AfC1T2I3O4N5S6T7"
+      "_key": "!tables.results!COZVzdcguGDpPAch.GQA0s2l7jtKVwm8G"
     },
     {
       "type": "text",
-      "weight": 2,
+      "weight": 1,
       "range": [
         4,
+        4
+      ],
+      "_id": "2oNWK04LCql63SDY",
+      "name": "Wild",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!COZVzdcguGDpPAch.2oNWK04LCql63SDY"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
         5
       ],
-      "_id": "BfC2T3I4O5N6S7T8",
-      "name": "Divided",
+      "_id": "CiqvVgAvgEbHP2G2",
+      "name": "Power",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -53,67 +103,17 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.BfC2T3I4O5N6S7T8"
+      "_key": "!tables.results!COZVzdcguGDpPAch.CiqvVgAvgEbHP2G2"
     },
     {
       "type": "text",
-      "weight": 3,
-      "range": [
-        6,
-        8
-      ],
-      "_id": "CfC3T4I5O6N7S8T9",
-      "name": "Anarchic",
-      "img": "icons/svg/d20-black.svg",
-      "description": "",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.344",
-        "systemId": "pbta",
-        "systemVersion": "1.1.20",
-        "lastModifiedBy": null
-      },
-      "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.CfC3T4I5O6N7S8T9"
-    },
-    {
-      "type": "text",
-      "weight": 2,
-      "range": [
-        9,
-        10
-      ],
-      "_id": "DfC4T5I6O7N8S9TA",
-      "name": "Democratic",
-      "img": "icons/svg/d20-black.svg",
-      "description": "",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.344",
-        "systemId": "pbta",
-        "systemVersion": "1.1.20",
-        "lastModifiedBy": null
-      },
-      "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.DfC4T5I6O7N8S9TA"
-    },
-    {
-      "type": "text",
-      "weight": 2,
+      "weight": 1,
       "range": [
         11,
         12
       ],
-      "_id": "EfC5T6I7O8N9SATB",
-      "name": "Despotic",
+      "_id": "VhD46VlDCHqglDS1",
+      "name": "Mortalis",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -128,12 +128,12 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.EfC5T6I7O8N9SATB"
+      "_key": "!tables.results!COZVzdcguGDpPAch.VhD46VlDCHqglDS1"
     }
   ],
   "replacement": true,
   "displayRoll": true,
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "tolKXMkOd7JsM4Jk": 3
@@ -151,5 +151,5 @@
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "2d6",
-  "_key": "!tables!AF3C4T5I6O7N8S9U"
+  "_key": "!tables!COZVzdcguGDpPAch"
 }

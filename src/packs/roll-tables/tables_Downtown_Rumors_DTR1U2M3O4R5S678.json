@@ -1,19 +1,16 @@
 {
-  "folder": "4wRTF9RvSOhb9bd3",
-  "name": "Art District Factions Structure",
-  "_id": "AF3C4T5I6O7N8S9U",
+  "folder": "M8qR4tU7vW0xY3zA",
+  "name": "Downtown Rumors",
+  "_id": "DTR1U2M3O4R5S678",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
   "results": [
     {
       "type": "text",
-      "weight": 2,
-      "range": [
-        2,
-        3
-      ],
-      "_id": "AfC1T2I3O4N5S6T7",
-      "name": "Oligarchical",
+      "weight": 1,
+      "range": [1, 1],
+      "_id": "DfR1U2M3O4R5S6T7",
+      "name": "A Power faction is buying up properties downtown for reasons unknown",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -28,17 +25,14 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.AfC1T2I3O4N5S6T7"
+      "_key": "!tables.results!DTR1U2M3O4R5S678.DfR1U2M3O4R5S6T7"
     },
     {
       "type": "text",
-      "weight": 2,
-      "range": [
-        4,
-        5
-      ],
-      "_id": "BfC2T3I4O5N6S7T8",
-      "name": "Divided",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "EfR2U3M4O5R6S7T8",
+      "name": "Someone is selling a mysterious drug that afflicts mortals with supernatural abilities",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -53,17 +47,14 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.BfC2T3I4O5N6S7T8"
+      "_key": "!tables.results!DTR1U2M3O4R5S678.EfR2U3M4O5R6S7T8"
     },
     {
       "type": "text",
-      "weight": 3,
-      "range": [
-        6,
-        8
-      ],
-      "_id": "CfC3T4I5O6N7S8T9",
-      "name": "Anarchic",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "FfR3U4M5O6R7S8T9",
+      "name": "A Wild faction is attempting to acquire a downtown asset from a local wizard",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -78,17 +69,14 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.CfC3T4I5O6N7S8T9"
+      "_key": "!tables.results!DTR1U2M3O4R5S678.FfR3U4M5O6R7S8T9"
     },
     {
       "type": "text",
-      "weight": 2,
-      "range": [
-        9,
-        10
-      ],
-      "_id": "DfC4T5I6O7N8S9TA",
-      "name": "Democratic",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "GfR4U5M6O7R8S9T0",
+      "name": "A mundane politician has been spotted meeting with Night factions all over downtown",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -103,17 +91,14 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.DfC4T5I6O7N8S9TA"
+      "_key": "!tables.results!DTR1U2M3O4R5S678.GfR4U5M6O7R8S9T0"
     },
     {
       "type": "text",
-      "weight": 2,
-      "range": [
-        11,
-        12
-      ],
-      "_id": "EfC5T6I7O8N9SATB",
-      "name": "Despotic",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "HfR5U6M7O8R9S0T1",
+      "name": "A mortal, an agent of an unknown faction, is snooping on the affairs of a Night faction",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -128,7 +113,29 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.EfC5T6I7O8N9SATB"
+      "_key": "!tables.results!DTR1U2M3O4R5S678.HfR5U6M7O8R9S0T1"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "IfR6U7M8O9R0S1T2",
+      "name": "Witnesses report a monster is stalking the streets, each describing a different threat",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!DTR1U2M3O4R5S678.IfR6U7M8O9R0S1T2"
     }
   ],
   "replacement": true,
@@ -150,6 +157,6 @@
     "modifiedTime": 1748581947337,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
-  "formula": "2d6",
-  "_key": "!tables!AF3C4T5I6O7N8S9U"
+  "formula": "1d6",
+  "_key": "!tables!DTR1U2M3O4R5S678"
 }

@@ -1,19 +1,19 @@
 {
-  "folder": "4wRTF9RvSOhb9bd3",
-  "name": "Art District Factions Structure",
-  "_id": "AF3C4T5I6O7N8S9U",
+  "folder": "L7pQ3sT6uV9wX2yA",
+  "name": "City Hall NPCs Circle",
+  "_id": "CH2O3P4Q5R6S7T89",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
   "results": [
     {
       "type": "text",
-      "weight": 2,
+      "weight": 1,
       "range": [
         2,
-        3
+        2
       ],
-      "_id": "AfC1T2I3O4N5S6T7",
-      "name": "Oligarchical",
+      "_id": "ChO1P2Q3R4S5T6U7",
+      "name": "Wild",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -28,17 +28,17 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.AfC1T2I3O4N5S6T7"
+      "_key": "!tables.results!CH2O3P4Q5R6S7T89.ChO1P2Q3R4S5T6U7"
     },
     {
       "type": "text",
       "weight": 2,
       "range": [
-        4,
-        5
+        3,
+        4
       ],
-      "_id": "BfC2T3I4O5N6S7T8",
-      "name": "Divided",
+      "_id": "DhO2P3Q4R5S6T7U8",
+      "name": "Power",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -53,7 +53,32 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.BfC2T3I4O5N6S7T8"
+      "_key": "!tables.results!CH2O3P4Q5R6S7T89.DhO2P3Q4R5S6T7U8"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "_id": "EhO3P4Q5R6S7T8U9",
+      "name": "Night",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!CH2O3P4Q5R6S7T89.EhO3P4Q5R6S7T8U9"
     },
     {
       "type": "text",
@@ -62,8 +87,8 @@
         6,
         8
       ],
-      "_id": "CfC3T4I5O6N7S8T9",
-      "name": "Anarchic",
+      "_id": "FhO4P5Q6R7S8T9UA",
+      "name": "Mortalis",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -78,17 +103,17 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.CfC3T4I5O6N7S8T9"
+      "_key": "!tables.results!CH2O3P4Q5R6S7T89.FhO4P5Q6R7S8T9UA"
     },
     {
       "type": "text",
-      "weight": 2,
+      "weight": 1,
       "range": [
         9,
-        10
+        9
       ],
-      "_id": "DfC4T5I6O7N8S9TA",
-      "name": "Democratic",
+      "_id": "GhO5P6Q7R8S9TAUB",
+      "name": "Night",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -103,17 +128,17 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.DfC4T5I6O7N8S9TA"
+      "_key": "!tables.results!CH2O3P4Q5R6S7T89.GhO5P6Q7R8S9TAUB"
     },
     {
       "type": "text",
       "weight": 2,
       "range": [
-        11,
-        12
+        10,
+        11
       ],
-      "_id": "EfC5T6I7O8N9SATB",
-      "name": "Despotic",
+      "_id": "HhO6P7Q8R9SATBUC",
+      "name": "Power",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -128,7 +153,32 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.EfC5T6I7O8N9SATB"
+      "_key": "!tables.results!CH2O3P4Q5R6S7T89.HhO6P7Q8R9SATBUC"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "_id": "IhO7P8Q9RASBTUCD",
+      "name": "Wild",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!CH2O3P4Q5R6S7T89.IhO7P8Q9RASBTUCD"
     }
   ],
   "replacement": true,
@@ -151,5 +201,5 @@
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "2d6",
-  "_key": "!tables!AF3C4T5I6O7N8S9U"
+  "_key": "!tables!CH2O3P4Q5R6S7T89"
 }

@@ -1,7 +1,7 @@
 {
-  "folder": "4wRTF9RvSOhb9bd3",
-  "name": "Art District Factions Structure",
-  "_id": "AF3C4T5I6O7N8S9U",
+  "folder": "N9rS5uV8wX1yY4zB",
+  "name": "University Control",
+  "_id": "HJ0KhOCzF5YVvFGW",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
   "results": [
@@ -10,10 +10,10 @@
       "weight": 2,
       "range": [
         2,
-        3
+        12
       ],
-      "_id": "AfC1T2I3O4N5S6T7",
-      "name": "Oligarchical",
+      "_id": "nZu4A8JCO2YdZXgd",
+      "name": "Night",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -28,17 +28,42 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.AfC1T2I3O4N5S6T7"
+      "_key": "!tables.results!HJ0KhOCzF5YVvFGW.nZu4A8JCO2YdZXgd"
+    },
+    {
+      "type": "text",
+      "weight": 2,
+      "range": [
+        3,
+        11
+      ],
+      "_id": "oFH5T2kpOfNoiysE",
+      "name": "Mortalis",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!HJ0KhOCzF5YVvFGW.oFH5T2kpOfNoiysE"
     },
     {
       "type": "text",
       "weight": 2,
       "range": [
         4,
-        5
+        10
       ],
-      "_id": "BfC2T3I4O5N6S7T8",
-      "name": "Divided",
+      "_id": "lieCPYPspaUb8kUm",
+      "name": "Wild",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -53,7 +78,32 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.BfC2T3I4O5N6S7T8"
+      "_key": "!tables.results!HJ0KhOCzF5YVvFGW.lieCPYPspaUb8kUm"
+    },
+    {
+      "type": "text",
+      "weight": 2,
+      "range": [
+        5,
+        9
+      ],
+      "_id": "HMc04DzyHyHdzStZ",
+      "name": "Shared",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!HJ0KhOCzF5YVvFGW.HMc04DzyHyHdzStZ"
     },
     {
       "type": "text",
@@ -62,8 +112,8 @@
         6,
         8
       ],
-      "_id": "CfC3T4I5O6N7S8T9",
-      "name": "Anarchic",
+      "_id": "zZbe18E4lhCBFg0H",
+      "name": "Power",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -78,57 +128,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.CfC3T4I5O6N7S8T9"
-    },
-    {
-      "type": "text",
-      "weight": 2,
-      "range": [
-        9,
-        10
-      ],
-      "_id": "DfC4T5I6O7N8S9TA",
-      "name": "Democratic",
-      "img": "icons/svg/d20-black.svg",
-      "description": "",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.344",
-        "systemId": "pbta",
-        "systemVersion": "1.1.20",
-        "lastModifiedBy": null
-      },
-      "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.DfC4T5I6O7N8S9TA"
-    },
-    {
-      "type": "text",
-      "weight": 2,
-      "range": [
-        11,
-        12
-      ],
-      "_id": "EfC5T6I7O8N9SATB",
-      "name": "Despotic",
-      "img": "icons/svg/d20-black.svg",
-      "description": "",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.344",
-        "systemId": "pbta",
-        "systemVersion": "1.1.20",
-        "lastModifiedBy": null
-      },
-      "documentUuid": null,
-      "_key": "!tables.results!AF3C4T5I6O7N8S9U.EfC5T6I7O8N9SATB"
+      "_key": "!tables.results!HJ0KhOCzF5YVvFGW.zZbe18E4lhCBFg0H"
     }
   ],
   "replacement": true,
@@ -147,9 +147,9 @@
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748581947337,
-    "modifiedTime": 1748581947337,
+    "modifiedTime": 1748582366514,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "2d6",
-  "_key": "!tables!AF3C4T5I6O7N8S9U"
+  "_key": "!tables!HJ0KhOCzF5YVvFGW"
 }

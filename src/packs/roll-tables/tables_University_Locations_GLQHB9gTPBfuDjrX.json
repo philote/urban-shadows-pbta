@@ -1,8 +1,8 @@
 {
-  "folder": "4wRTF9RvSOhb9bd3",
-  "name": "Art District Factions",
-  "_id": "AF1F2A3C4T5I6O78",
-  "img": "icons/svg/ruins.svg",
+  "folder": "N9rS5uV8wX1yY4zB",
+  "name": "University Locations",
+  "_id": "GLQHB9gTPBfuDjrX",
+  "img": "icons/svg/city.svg",
   "description": "",
   "results": [
     {
@@ -12,8 +12,8 @@
         1,
         1
       ],
-      "_id": "AfF1A2C3T4I5O6N7",
-      "name": "Purpose",
+      "_id": "hrTOwr3UTUHjhs80",
+      "name": "Control",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -28,8 +28,8 @@
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
         "modifiedTime": 1748582067674
       },
-      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.AF2A3C4T5I6O7N89",
-      "_key": "!tables.results!AF1F2A3C4T5I6O78.AfF1A2C3T4I5O6N7"
+      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.HJ0KhOCzF5YVvFGW",
+      "_key": "!tables.results!GLQHB9gTPBfuDjrX.hrTOwr3UTUHjhs80"
     },
     {
       "type": "document",
@@ -38,8 +38,8 @@
         1,
         1
       ],
-      "_id": "BfF2A3C4T5I6O7N8",
-      "name": "Structure",
+      "_id": "PzpUVOvlMt1V93LG",
+      "name": "Type (with common NPCs)",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -54,8 +54,8 @@
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
         "modifiedTime": 1748582021315
       },
-      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.AF3C4T5I6O7N8S9U",
-      "_key": "!tables.results!AF1F2A3C4T5I6O78.BfF2A3C4T5I6O7N8"
+      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.OTQmmRSUUWOhZo5H",
+      "_key": "!tables.results!GLQHB9gTPBfuDjrX.PzpUVOvlMt1V93LG"
     },
     {
       "type": "document",
@@ -64,8 +64,8 @@
         1,
         1
       ],
-      "_id": "CfF3A4C5T6I7O8N9",
-      "name": "Mood",
+      "_id": "FoS8NVGxrl0Dfrsr",
+      "name": "Nature",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -80,8 +80,8 @@
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
         "modifiedTime": 1748582032247
       },
-      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.AF4T5I6O7N8S9UVW",
-      "_key": "!tables.results!AF1F2A3C4T5I6O78.CfF3A4C5T6I7O8N9"
+      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.x5NyciRce1eSSABm",
+      "_key": "!tables.results!GLQHB9gTPBfuDjrX.FoS8NVGxrl0Dfrsr"
     },
     {
       "type": "document",
@@ -90,8 +90,8 @@
         1,
         1
       ],
-      "_id": "DfF4A5C6T7I8O9NA",
-      "name": "Size",
+      "_id": "fssYv4mUQyxNGqkT",
+      "name": "Atmosphere",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -106,8 +106,8 @@
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
         "modifiedTime": 1748582043906
       },
-      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.AF5I6O7N8S9UVWXY",
-      "_key": "!tables.results!AF1F2A3C4T5I6O78.DfF4A5C6T7I8O9NA"
+      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.LqU4GrfluUkpJJYZ",
+      "_key": "!tables.results!GLQHB9gTPBfuDjrX.fssYv4mUQyxNGqkT"
     },
     {
       "type": "document",
@@ -116,8 +116,8 @@
         1,
         1
       ],
-      "_id": "EfF5A6C7T8I9OANB",
-      "name": "Strength",
+      "_id": "FDcfLuHKqr18HHyv",
+      "name": "Trouble",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -132,34 +132,8 @@
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
         "modifiedTime": 1748582053548
       },
-      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.AF6O7N8S9UVWXYZ1",
-      "_key": "!tables.results!AF1F2A3C4T5I6O78.EfF5A6C7T8I9OANB"
-    },
-    {
-      "type": "document",
-      "weight": 1,
-      "range": [
-        1,
-        1
-      ],
-      "_id": "FfF6A7C8T9IAOANC",
-      "name": "The Faction...",
-      "img": "icons/svg/d20-grey.svg",
-      "description": "",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.344",
-        "systemId": "pbta",
-        "systemVersion": "1.1.20",
-        "lastModifiedBy": "tolKXMkOd7JsM4Jk",
-        "modifiedTime": 1748582053548
-      },
-      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.AF7N8S9UVWXYZ123",
-      "_key": "!tables.results!AF1F2A3C4T5I6O78.FfF6A7C8T9IAOANC"
+      "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.edD5FYUDPPMfa8CF",
+      "_key": "!tables.results!GLQHB9gTPBfuDjrX.FDcfLuHKqr18HHyv"
     }
   ],
   "replacement": true,
@@ -182,5 +156,5 @@
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "1d1",
-  "_key": "!tables!AF1F2A3C4T5I6O78"
+  "_key": "!tables!GLQHB9gTPBfuDjrX"
 }

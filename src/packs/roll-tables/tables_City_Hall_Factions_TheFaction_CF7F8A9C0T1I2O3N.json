@@ -1,7 +1,7 @@
 {
-  "folder": "4wRTF9RvSOhb9bd3",
-  "name": "Art District Factions Purpose",
-  "_id": "AF2A3C4T5I6O7N89",
+  "folder": "L7pQ3sT6uV9wX2yA",
+  "name": "City Hall Factions The Faction...",
+  "_id": "CF7F8A9C0T1I2O3N",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
   "results": [
@@ -12,8 +12,8 @@
         2,
         2
       ],
-      "_id": "AfA1C2T3I4O5N6S7",
-      "name": "to learn from supernatural collaborations (Mortalis)",
+      "_id": "CfT1H2E3F4A5C6T7",
+      "name": "...is hunted by a powerful Mortalis faction",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -28,7 +28,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.AfA1C2T3I4O5N6S7"
+      "_key": "!tables.results!CF7F8A9C0T1I2O3N.CfT1H2E3F4A5C6T7"
     },
     {
       "type": "text",
@@ -37,8 +37,8 @@
         3,
         3
       ],
-      "_id": "BfA2C3T4I5O6N7S8",
-      "name": "to keep dangerous knowledge secret and safe (Night)",
+      "_id": "DfT2H3E4F5A6C7T8",
+      "name": "...limits direct contact with other Circles",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -53,7 +53,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.BfA2C3T4I5O6N7S8"
+      "_key": "!tables.results!CF7F8A9C0T1I2O3N.DfT2H3E4F5A6C7T8"
     },
     {
       "type": "text",
@@ -62,8 +62,8 @@
         4,
         4
       ],
-      "_id": "CfA3C4T5I6O7N8S9",
-      "name": "to cover up the supernatural truth (Night)",
+      "_id": "EfT3H4E5F6A7C8T9",
+      "name": "...contains many refugees from other Circles",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -78,7 +78,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.CfA3C4T5I6O7N8S9"
+      "_key": "!tables.results!CF7F8A9C0T1I2O3N.EfT3H4E5F6A7C8T9"
     },
     {
       "type": "text",
@@ -87,8 +87,8 @@
         5,
         5
       ],
-      "_id": "DfA4C5T6I7O8N9SA",
-      "name": "to manipulate humans to do their bidding (Night)",
+      "_id": "FfT4H5E6F7A8C9T0",
+      "name": "...is playing two other factions against each other",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -103,7 +103,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.DfA4C5T6I7O8N9SA"
+      "_key": "!tables.results!CF7F8A9C0T1I2O3N.FfT4H5E6F7A8C9T0"
     },
     {
       "type": "text",
@@ -112,8 +112,8 @@
         6,
         6
       ],
-      "_id": "EfA5C6T7I8O9NASB",
-      "name": "to protect their ancient ways of life (Wild)",
+      "_id": "GfT5H6E7F8A9C0T1",
+      "name": "...is being manipulated by a devious Status-3 NPC",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -128,7 +128,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.EfA5C6T7I8O9NASB"
+      "_key": "!tables.results!CF7F8A9C0T1I2O3N.GfT5H6E7F8A9C0T1"
     },
     {
       "type": "text",
@@ -137,8 +137,8 @@
         7,
         7
       ],
-      "_id": "FfA6C7T8I9OANBSC",
-      "name": "to create and exploit new contracts (Wild)",
+      "_id": "HfT6H7E8F9A0C1T2",
+      "name": "...is on the verge of open conflict with another faction",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -153,7 +153,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.FfA6C7T8I9OANBSC"
+      "_key": "!tables.results!CF7F8A9C0T1I2O3N.HfT6H7E8F9A0C1T2"
     },
     {
       "type": "text",
@@ -162,8 +162,8 @@
         8,
         8
       ],
-      "_id": "GfA7C8T9IAONBSCD",
-      "name": "to welcome others of their kind to the city (Wild)",
+      "_id": "IfT7H8E9F0A1C2T3",
+      "name": "...craves credit for their accomplishments",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -178,7 +178,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.GfA7C8T9IAONBSCD"
+      "_key": "!tables.results!CF7F8A9C0T1I2O3N.IfT7H8E9F0A1C2T3"
     },
     {
       "type": "text",
@@ -187,8 +187,8 @@
         9,
         9
       ],
-      "_id": "HfA8C9TAIBONCSDE",
-      "name": "to acquire and profit off of new holdings (Power)",
+      "_id": "JfT8H9E0F1A2C3T4",
+      "name": "...is new to this area of the city",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -203,7 +203,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.HfA8C9TAIBONCSDE"
+      "_key": "!tables.results!CF7F8A9C0T1I2O3N.JfT8H9E0F1A2C3T4"
     },
     {
       "type": "text",
@@ -212,8 +212,8 @@
         10,
         10
       ],
-      "_id": "IfA9CATBICONDSEF",
-      "name": "to find and sway powerful beings to their side (Power)",
+      "_id": "KfT9H0E1F2A3C4T5",
+      "name": "...has many allies within other Circles",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -228,7 +228,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.IfA9CATBICONDSEF"
+      "_key": "!tables.results!CF7F8A9C0T1I2O3N.KfT9H0E1F2A3C4T5"
     },
     {
       "type": "text",
@@ -237,8 +237,8 @@
         11,
         11
       ],
-      "_id": "JfA0CBTCIDONESTG",
-      "name": "to remain hidden from formidable enemies (Power)",
+      "_id": "LfT0H1E2F3A4C5T6",
+      "name": "...has recently recovered from a grievous defeat",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -253,7 +253,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.JfA0CBTCIDONESTG"
+      "_key": "!tables.results!CF7F8A9C0T1I2O3N.LfT0H1E2F3A4C5T6"
     },
     {
       "type": "text",
@@ -262,8 +262,8 @@
         12,
         12
       ],
-      "_id": "KfA1CCTDIEONFSTU",
-      "name": "to keep the peace between rival factions (Mortalis)",
+      "_id": "MfT1H2E3F4A5C6T7",
+      "name": "...broke an agreement with a vengeful fae lord",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -278,7 +278,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.KfA1CCTDIEONFSTU"
+      "_key": "!tables.results!CF7F8A9C0T1I2O3N.MfT1H2E3F4A5C6T7"
     }
   ],
   "replacement": true,
@@ -301,5 +301,5 @@
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "2d6",
-  "_key": "!tables!AF2A3C4T5I6O7N89"
+  "_key": "!tables!CF7F8A9C0T1I2O3N"
 }

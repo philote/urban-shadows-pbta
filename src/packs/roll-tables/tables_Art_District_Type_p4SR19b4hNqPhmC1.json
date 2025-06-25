@@ -1,7 +1,7 @@
 {
   "folder": "4wRTF9RvSOhb9bd3",
-  "name": "Art District Factions Purpose",
-  "_id": "AF2A3C4T5I6O7N89",
+  "name": "Art District Type",
+  "_id": "p4SR19b4hNqPhmC1",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
   "results": [
@@ -12,10 +12,10 @@
         2,
         2
       ],
-      "_id": "AfA1C2T3I4O5N6S7",
-      "name": "to learn from supernatural collaborations (Mortalis)",
+      "_id": "Tyt2b2y8PxrIO6sU",
+      "name": "memorial:",
       "img": "icons/svg/d20-black.svg",
-      "description": "",
+      "description": "<p>mourner, vandal, witness</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -28,7 +28,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.AfA1C2T3I4O5N6S7"
+      "_key": "!tables.results!p4SR19b4hNqPhmC1.Tyt2b2y8PxrIO6sU"
     },
     {
       "type": "text",
@@ -37,10 +37,10 @@
         3,
         3
       ],
-      "_id": "BfA2C3T4I5O6N7S8",
-      "name": "to keep dangerous knowledge secret and safe (Night)",
+      "_id": "1bgLMLgPrGAWvb3l",
+      "name": "hostel:",
       "img": "icons/svg/d20-black.svg",
-      "description": "",
+      "description": "<p>manager, tourist, transient</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -53,7 +53,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.BfA2C3T4I5O6N7S8"
+      "_key": "!tables.results!p4SR19b4hNqPhmC1.1bgLMLgPrGAWvb3l"
     },
     {
       "type": "text",
@@ -62,10 +62,10 @@
         4,
         4
       ],
-      "_id": "CfA3C4T5I6O7N8S9",
-      "name": "to cover up the supernatural truth (Night)",
+      "_id": "ruBcNxQLxcjuYwMv",
+      "name": "dance club:",
       "img": "icons/svg/d20-black.svg",
-      "description": "",
+      "description": "<p>lurker, bouncer, dancer </p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -78,7 +78,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.CfA3C4T5I6O7N8S9"
+      "_key": "!tables.results!p4SR19b4hNqPhmC1.ruBcNxQLxcjuYwMv"
     },
     {
       "type": "text",
@@ -87,10 +87,10 @@
         5,
         5
       ],
-      "_id": "DfA4C5T6I7O8N9SA",
-      "name": "to manipulate humans to do their bidding (Night)",
+      "_id": "xo0rPb3BQHtsFrHa",
+      "name": "community center:",
       "img": "icons/svg/d20-black.svg",
-      "description": "",
+      "description": "<p>organizer, volunteer, child </p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -103,7 +103,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.DfA4C5T6I7O8N9SA"
+      "_key": "!tables.results!p4SR19b4hNqPhmC1.xo0rPb3BQHtsFrHa"
     },
     {
       "type": "text",
@@ -112,10 +112,10 @@
         6,
         6
       ],
-      "_id": "EfA5C6T7I8O9NASB",
-      "name": "to protect their ancient ways of life (Wild)",
+      "_id": "5RSpTX9xO292OR01",
+      "name": "street market:",
       "img": "icons/svg/d20-black.svg",
-      "description": "",
+      "description": "<p>urban farmer, artist, customer </p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -128,7 +128,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.EfA5C6T7I8O9NASB"
+      "_key": "!tables.results!p4SR19b4hNqPhmC1.5RSpTX9xO292OR01"
     },
     {
       "type": "text",
@@ -137,10 +137,10 @@
         7,
         7
       ],
-      "_id": "FfA6C7T8I9OANBSC",
-      "name": "to create and exploit new contracts (Wild)",
+      "_id": "b8o24vDHyEo5LuwD",
+      "name": "art gallery:",
       "img": "icons/svg/d20-black.svg",
-      "description": "",
+      "description": "<p>critic, owner, patron </p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -153,7 +153,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.FfA6C7T8I9OANBSC"
+      "_key": "!tables.results!p4SR19b4hNqPhmC1.b8o24vDHyEo5LuwD"
     },
     {
       "type": "text",
@@ -162,10 +162,10 @@
         8,
         8
       ],
-      "_id": "GfA7C8T9IAONBSCD",
-      "name": "to welcome others of their kind to the city (Wild)",
+      "_id": "AV8AXsSJc2OWdSmB",
+      "name": "dive bar:",
       "img": "icons/svg/d20-black.svg",
-      "description": "",
+      "description": "<p>bartender, regular, underage teenager</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -178,7 +178,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.GfA7C8T9IAONBSCD"
+      "_key": "!tables.results!p4SR19b4hNqPhmC1.AV8AXsSJc2OWdSmB"
     },
     {
       "type": "text",
@@ -187,10 +187,10 @@
         9,
         9
       ],
-      "_id": "HfA8C9TAIBONCSDE",
-      "name": "to acquire and profit off of new holdings (Power)",
+      "_id": "d9kjHuGXVIvf9eez",
+      "name": "museum:",
       "img": "icons/svg/d20-black.svg",
-      "description": "",
+      "description": "<p>curator, security guard, transient </p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -203,7 +203,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.HfA8C9TAIBONCSDE"
+      "_key": "!tables.results!p4SR19b4hNqPhmC1.d9kjHuGXVIvf9eez"
     },
     {
       "type": "text",
@@ -212,10 +212,10 @@
         10,
         10
       ],
-      "_id": "IfA9CATBICONDSEF",
-      "name": "to find and sway powerful beings to their side (Power)",
+      "_id": "bEkEeMpcsskmfZ4R",
+      "name": "co-op:",
       "img": "icons/svg/d20-black.svg",
-      "description": "",
+      "description": "<p>organizer, volunteer, community leader </p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -228,7 +228,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.IfA9CATBICONDSEF"
+      "_key": "!tables.results!p4SR19b4hNqPhmC1.bEkEeMpcsskmfZ4R"
     },
     {
       "type": "text",
@@ -237,10 +237,10 @@
         11,
         11
       ],
-      "_id": "JfA0CBTCIDONESTG",
-      "name": "to remain hidden from formidable enemies (Power)",
+      "_id": "eU7wVwoKgCeNgm8B",
+      "name": "pop-up:",
       "img": "icons/svg/d20-black.svg",
-      "description": "",
+      "description": "<p>influencer, staff, customer </p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -253,7 +253,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.JfA0CBTCIDONESTG"
+      "_key": "!tables.results!p4SR19b4hNqPhmC1.eU7wVwoKgCeNgm8B"
     },
     {
       "type": "text",
@@ -262,10 +262,10 @@
         12,
         12
       ],
-      "_id": "KfA1CCTDIEONFSTU",
-      "name": "to keep the peace between rival factions (Mortalis)",
+      "_id": "8vTuJOq6yTeOB959",
+      "name": "book store:",
       "img": "icons/svg/d20-black.svg",
-      "description": "",
+      "description": "<p>browser, bookseller, lecturer</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -278,7 +278,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!AF2A3C4T5I6O7N89.KfA1CCTDIEONFSTU"
+      "_key": "!tables.results!p4SR19b4hNqPhmC1.8vTuJOq6yTeOB959"
     }
   ],
   "replacement": true,
@@ -300,6 +300,6 @@
     "modifiedTime": 1748581947337,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
-  "formula": "2d6",
-  "_key": "!tables!AF2A3C4T5I6O7N89"
+  "formula": "2d12",
+  "_key": "!tables!p4SR19b4hNqPhmC1"
 }
