@@ -428,7 +428,7 @@ export const configSheet = async () => {
                         },
                     },
                     TheFaeCourtMonarchsStanding: {
-                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.MonarchsStanding.label"),
+                        label: "",
                         description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.MonarchsStanding.description"),
                         playbook: "the-fae",
                         position: "playbook",

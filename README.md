@@ -99,6 +99,22 @@ Electric icon by sbed under CC BY 3.0
 Baton icon by Skoll under CC BY 3.0
 Walther PPK icon by Skoll under CC BY 3.0
 Gym bag icon by Delapouite under CC BY 3.0
+Surfer van icon by Delapouite under CC BY 3.0
+Race car icon by Skoll under CC BY 3.0
+Family house icon by Delapouite under CC BY 3.0
+Flatbed icon by Skoll under CC BY 3.0
+Colombian statue icon by Delapouite under CC BY 3.0
+Ankh icon by Lorc under CC BY 3.0
+Temple gate icon by Delapouite under CC BY 3.0
+Present icon by Delapouite under CC BY 3.0
+Triorb icon by Lorc under CC BY 3.0
+Abstract 099 icon by Viscious Speed under CC0 PDD
+Factory icon by Delapouite under CC BY 3.0
+Bow arrow icon by Delapouite under CC BY 3.0
+Andromeda chain icon by Lorc under CC BY 3.0
+Lee Enfield icon by Skoll under CC BY 3.0
+MP40 icon by Skoll under CC BY 3.0
+Bo icon by Delapouite under CC BY 3.0
 
 City Hub header image:
 “<a href="https://www.flickr.com/photos/dexxus/358919966" title="city of lights">city of lights</a>” by <a href="https://www.flickr.com/photos/dexxus/">paul bica</a>, <a href="https://creativecommons.org/licenses/by/2.0/deed.en" rel="license noopener noreferrer">CC BY 2.0</a>
