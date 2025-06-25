@@ -8,7 +8,10 @@
     {
       "type": "text",
       "weight": 1,
-      "range": [1, 1],
+      "range": [
+        1,
+        1
+      ],
       "_id": "CfR1U2M3O4R5S6T7",
       "name": "A mortal politician is attempting to remove a zoning restriction for a Wild faction",
       "img": "icons/svg/d20-black.svg",
@@ -30,7 +33,10 @@
     {
       "type": "text",
       "weight": 1,
-      "range": [2, 2],
+      "range": [
+        2,
+        2
+      ],
       "_id": "DfR2U3M4O5R6S7T8",
       "name": "A community leader's missing son is the primary suspect in the murder of a prominent member of Night",
       "img": "icons/svg/d20-black.svg",
@@ -52,7 +58,10 @@
     {
       "type": "text",
       "weight": 1,
-      "range": [3, 3],
+      "range": [
+        3,
+        3
+      ],
       "_id": "EfR3U4M5O6R7S8T9",
       "name": "An executed felon, returned as a revenant, is hunting down the Status-3 NPCs he blames for his unjust demise",
       "img": "icons/svg/d20-black.svg",
@@ -74,7 +83,10 @@
     {
       "type": "text",
       "weight": 1,
-      "range": [4, 4],
+      "range": [
+        4,
+        4
+      ],
       "_id": "FfR4U5M6O7R8S9T0",
       "name": "Someone is blackmailing a number of mortal politicians to secure the passage of a strange law",
       "img": "icons/svg/d20-black.svg",
@@ -96,7 +108,10 @@
     {
       "type": "text",
       "weight": 1,
-      "range": [5, 5],
+      "range": [
+        5,
+        5
+      ],
       "_id": "GfR5U6M7O8R9S0T1",
       "name": "Eerily realistic human statues have begun appearing in a prominent park near City Hall.",
       "img": "icons/svg/d20-black.svg",
@@ -118,7 +133,10 @@
     {
       "type": "text",
       "weight": 1,
-      "range": [6, 6],
+      "range": [
+        6,
+        6
+      ],
       "_id": "HfR6U7M8O9R0S1T2",
       "name": "A serial killer has been stalking the streets removing the hearts of their victims",
       "img": "icons/svg/d20-black.svg",

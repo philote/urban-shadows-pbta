@@ -5,24 +5,301 @@
   "img": "icons/svg/d20-grey.svg",
   "description": "",
   "results": [
-    {"type": "text", "weight": 1, "range": [2, 2], "_id": "DfM1O2O3D4R5A6N7", "name": "rigid, refusing needed change", "img": "icons/svg/d20-black.svg", "description": "", "drawn": false, "flags": {}, "_stats": {"compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.344", "systemId": "pbta", "systemVersion": "1.1.20", "lastModifiedBy": null}, "documentUuid": null, "_key": "!tables.results!DF4F5A6C7T8I9O0N.DfM1O2O3D4R5A6N7"},
-    {"type": "text", "weight": 1, "range": [3, 3], "_id": "EfM2O3O4D5R6A7N8", "name": "evolving, accepting transformation", "img": "icons/svg/d20-black.svg", "description": "", "drawn": false, "flags": {}, "_stats": {"compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.344", "systemId": "pbta", "systemVersion": "1.1.20", "lastModifiedBy": null}, "documentUuid": null, "_key": "!tables.results!DF4F5A6C7T8I9O0N.EfM2O3O4D5R6A7N8"},
-    {"type": "text", "weight": 1, "range": [4, 4], "_id": "FfM3O4O5D6R7A8N9", "name": "hedonistic, indulging in vices", "img": "icons/svg/d20-black.svg", "description": "", "drawn": false, "flags": {}, "_stats": {"compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.344", "systemId": "pbta", "systemVersion": "1.1.20", "lastModifiedBy": null}, "documentUuid": null, "_key": "!tables.results!DF4F5A6C7T8I9O0N.FfM3O4O5D6R7A8N9"},
-    {"type": "text", "weight": 1, "range": [5, 5], "_id": "GfM4O5O6D7R8A9N0", "name": "paranoid, hunting for traitors", "img": "icons/svg/d20-black.svg", "description": "", "drawn": false, "flags": {}, "_stats": {"compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.344", "systemId": "pbta", "systemVersion": "1.1.20", "lastModifiedBy": null}, "documentUuid": null, "_key": "!tables.results!DF4F5A6C7T8I9O0N.GfM4O5O6D7R8A9N0"},
-    {"type": "text", "weight": 1, "range": [6, 6], "_id": "HfM5O6O7D8R9A0N1", "name": "vengeful, seeking retribution", "img": "icons/svg/d20-black.svg", "description": "", "drawn": false, "flags": {}, "_stats": {"compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.344", "systemId": "pbta", "systemVersion": "1.1.20", "lastModifiedBy": null}, "documentUuid": null, "_key": "!tables.results!DF4F5A6C7T8I9O0N.HfM5O6O7D8R9A0N1"},
-    {"type": "text", "weight": 1, "range": [7, 7], "_id": "IfM6O7O8D9R0A1N2", "name": "scheming, plotting mischief", "img": "icons/svg/d20-black.svg", "description": "", "drawn": false, "flags": {}, "_stats": {"compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.344", "systemId": "pbta", "systemVersion": "1.1.20", "lastModifiedBy": null}, "documentUuid": null, "_key": "!tables.results!DF4F5A6C7T8I9O0N.IfM6O7O8D9R0A1N2"},
-    {"type": "text", "weight": 1, "range": [8, 8], "_id": "JfM7O8O9D0R1A2N3", "name": "territorial, reinforcing borders", "img": "icons/svg/d20-black.svg", "description": "", "drawn": false, "flags": {}, "_stats": {"compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.344", "systemId": "pbta", "systemVersion": "1.1.20", "lastModifiedBy": null}, "documentUuid": null, "_key": "!tables.results!DF4F5A6C7T8I9O0N.JfM7O8O9D0R1A2N3"},
-    {"type": "text", "weight": 1, "range": [9, 9], "_id": "KfM8O9O0D1R2A3N4", "name": "conflicted, a civil war looms", "img": "icons/svg/d20-black.svg", "description": "", "drawn": false, "flags": {}, "_stats": {"compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.344", "systemId": "pbta", "systemVersion": "1.1.20", "lastModifiedBy": null}, "documentUuid": null, "_key": "!tables.results!DF4F5A6C7T8I9O0N.KfM8O9O0D1R2A3N4"},
-    {"type": "text", "weight": 1, "range": [10, 10], "_id": "LfM9O0O1D2R3A4N5", "name": "besieged, fearful of further loss", "img": "icons/svg/d20-black.svg", "description": "", "drawn": false, "flags": {}, "_stats": {"compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.344", "systemId": "pbta", "systemVersion": "1.1.20", "lastModifiedBy": null}, "documentUuid": null, "_key": "!tables.results!DF4F5A6C7T8I9O0N.LfM9O0O1D2R3A4N5"},
-    {"type": "text", "weight": 1, "range": [11, 11], "_id": "MfM0O1O2D3R4A5N6", "name": "ritualistic, preparing traditions", "img": "icons/svg/d20-black.svg", "description": "", "drawn": false, "flags": {}, "_stats": {"compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.344", "systemId": "pbta", "systemVersion": "1.1.20", "lastModifiedBy": null}, "documentUuid": null, "_key": "!tables.results!DF4F5A6C7T8I9O0N.MfM0O1O2D3R4A5N6"},
-    {"type": "text", "weight": 1, "range": [12, 12], "_id": "NfM1O2O3D4R5A6N7", "name": "open, pursuing opportunities", "img": "icons/svg/d20-black.svg", "description": "", "drawn": false, "flags": {}, "_stats": {"compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.344", "systemId": "pbta", "systemVersion": "1.1.20", "lastModifiedBy": null}, "documentUuid": null, "_key": "!tables.results!DF4F5A6C7T8I9O0N.NfM1O2O3D4R5A6N7"}
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "_id": "DfM1O2O3D4R5A6N7",
+      "name": "rigid, refusing needed change",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!DF4F5A6C7T8I9O0N.DfM1O2O3D4R5A6N7"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "_id": "EfM2O3O4D5R6A7N8",
+      "name": "evolving, accepting transformation",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!DF4F5A6C7T8I9O0N.EfM2O3O4D5R6A7N8"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "_id": "FfM3O4O5D6R7A8N9",
+      "name": "hedonistic, indulging in vices",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!DF4F5A6C7T8I9O0N.FfM3O4O5D6R7A8N9"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "_id": "GfM4O5O6D7R8A9N0",
+      "name": "paranoid, hunting for traitors",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!DF4F5A6C7T8I9O0N.GfM4O5O6D7R8A9N0"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "_id": "HfM5O6O7D8R9A0N1",
+      "name": "vengeful, seeking retribution",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!DF4F5A6C7T8I9O0N.HfM5O6O7D8R9A0N1"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "_id": "IfM6O7O8D9R0A1N2",
+      "name": "scheming, plotting mischief",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!DF4F5A6C7T8I9O0N.IfM6O7O8D9R0A1N2"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "_id": "JfM7O8O9D0R1A2N3",
+      "name": "territorial, reinforcing borders",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!DF4F5A6C7T8I9O0N.JfM7O8O9D0R1A2N3"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "_id": "KfM8O9O0D1R2A3N4",
+      "name": "conflicted, a civil war looms",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!DF4F5A6C7T8I9O0N.KfM8O9O0D1R2A3N4"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "_id": "LfM9O0O1D2R3A4N5",
+      "name": "besieged, fearful of further loss",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!DF4F5A6C7T8I9O0N.LfM9O0O1D2R3A4N5"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "_id": "MfM0O1O2D3R4A5N6",
+      "name": "ritualistic, preparing traditions",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!DF4F5A6C7T8I9O0N.MfM0O1O2D3R4A5N6"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "_id": "NfM1O2O3D4R5A6N7",
+      "name": "open, pursuing opportunities",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!DF4F5A6C7T8I9O0N.NfM1O2O3D4R5A6N7"
+    }
   ],
   "replacement": true,
   "displayRoll": true,
   "sort": 0,
-  "ownership": {"default": 0, "tolKXMkOd7JsM4Jk": 3},
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
   "flags": {},
-  "_stats": {"compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.344", "systemId": "pbta", "systemVersion": "1.1.20", "createdTime": 1748581947337, "modifiedTime": 1748581947337, "lastModifiedBy": "tolKXMkOd7JsM4Jk"},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748581947337,
+    "modifiedTime": 1748581947337,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
   "formula": "2d6",
   "_key": "!tables!DF4F5A6C7T8I9O0N"
 }

@@ -1,7 +1,7 @@
 {
-  "folder": "L7pQ3sT6uV9wX2yA",
-  "name": "City Hall Factions The Faction...",
-  "_id": "CF7F8A9C0T1I2O3N",
+  "folder": "N9rS5uV8wX1yY4zB",
+  "name": "University Factions The Faction...",
+  "_id": "UF7F8A9C0T1I2O3N",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
   "results": [
@@ -12,8 +12,8 @@
         2,
         2
       ],
-      "_id": "CfT1H2E3F4A5C6T7",
-      "name": "...is hunted by a powerful Mortalis faction",
+      "_id": "UfT1H2E3F4A5C6T7",
+      "name": "...captures and studies members of other Circles",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -28,7 +28,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!CF7F8A9C0T1I2O3N.CfT1H2E3F4A5C6T7"
+      "_key": "!tables.results!UF7F8A9C0T1I2O3N.UfT1H2E3F4A5C6T7"
     },
     {
       "type": "text",
@@ -37,8 +37,8 @@
         3,
         3
       ],
-      "_id": "DfT2H3E4F5A6C7T8",
-      "name": "...limits direct contact with other Circles",
+      "_id": "VfT2H3E4F5A6C7T8",
+      "name": "...is targeted by a radical faction of their own Circle",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -53,7 +53,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!CF7F8A9C0T1I2O3N.DfT2H3E4F5A6C7T8"
+      "_key": "!tables.results!UF7F8A9C0T1I2O3N.VfT2H3E4F5A6C7T8"
     },
     {
       "type": "text",
@@ -62,8 +62,8 @@
         4,
         4
       ],
-      "_id": "EfT3H4E5F6A7C8T9",
-      "name": "...contains many refugees from other Circles",
+      "_id": "WfT3H4E5F6A7C8T9",
+      "name": "...is plagued by disputes with a violent werewolf pack",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -78,7 +78,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!CF7F8A9C0T1I2O3N.EfT3H4E5F6A7C8T9"
+      "_key": "!tables.results!UF7F8A9C0T1I2O3N.WfT3H4E5F6A7C8T9"
     },
     {
       "type": "text",
@@ -87,8 +87,8 @@
         5,
         5
       ],
-      "_id": "FfT4H5E6F7A8C9T0",
-      "name": "...is playing two other factions against each other",
+      "_id": "XfT4H5E6F7A8C9T0",
+      "name": "...is a pawn in an immortal's centuries-old schemes",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -103,7 +103,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!CF7F8A9C0T1I2O3N.FfT4H5E6F7A8C9T0"
+      "_key": "!tables.results!UF7F8A9C0T1I2O3N.XfT4H5E6F7A8C9T0"
     },
     {
       "type": "text",
@@ -112,8 +112,8 @@
         6,
         6
       ],
-      "_id": "GfT5H6E7F8A9C0T1",
-      "name": "...is being manipulated by a devious Status-3 NPC",
+      "_id": "YfT5H6E7F8A9C0T1",
+      "name": "...trades with another faction for critical resources",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -128,7 +128,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!CF7F8A9C0T1I2O3N.GfT5H6E7F8A9C0T1"
+      "_key": "!tables.results!UF7F8A9C0T1I2O3N.YfT5H6E7F8A9C0T1"
     },
     {
       "type": "text",
@@ -137,8 +137,8 @@
         7,
         7
       ],
-      "_id": "HfT6H7E8F9A0C1T2",
-      "name": "...is on the verge of open conflict with another faction",
+      "_id": "ZfT6H7E8F9A0C1T2",
+      "name": "...requires members to perform elaborate rituals",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -153,7 +153,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!CF7F8A9C0T1I2O3N.HfT6H7E8F9A0C1T2"
+      "_key": "!tables.results!UF7F8A9C0T1I2O3N.ZfT6H7E8F9A0C1T2"
     },
     {
       "type": "text",
@@ -162,8 +162,8 @@
         8,
         8
       ],
-      "_id": "IfT7H8E9F0A1C2T3",
-      "name": "...craves credit for their accomplishments",
+      "_id": "AfT7H8E9F0A1C2T3",
+      "name": "...controls secret holdings within the university",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -178,7 +178,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!CF7F8A9C0T1I2O3N.IfT7H8E9F0A1C2T3"
+      "_key": "!tables.results!UF7F8A9C0T1I2O3N.AfT7H8E9F0A1C2T3"
     },
     {
       "type": "text",
@@ -187,8 +187,8 @@
         9,
         9
       ],
-      "_id": "JfT8H9E0F1A2C3T4",
-      "name": "...is new to this area of the city",
+      "_id": "BfT8H9E0F1A2C3T4",
+      "name": "...recently underwent a change of leadership",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -203,7 +203,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!CF7F8A9C0T1I2O3N.JfT8H9E0F1A2C3T4"
+      "_key": "!tables.results!UF7F8A9C0T1I2O3N.BfT8H9E0F1A2C3T4"
     },
     {
       "type": "text",
@@ -212,8 +212,8 @@
         10,
         10
       ],
-      "_id": "KfT9H0E1F2A3C4T5",
-      "name": "...has many allies within other Circles",
+      "_id": "CfT9H0E1F2A3C4T5",
+      "name": "...contains many defectors from other Circles",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -228,7 +228,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!CF7F8A9C0T1I2O3N.KfT9H0E1F2A3C4T5"
+      "_key": "!tables.results!UF7F8A9C0T1I2O3N.CfT9H0E1F2A3C4T5"
     },
     {
       "type": "text",
@@ -237,8 +237,8 @@
         11,
         11
       ],
-      "_id": "LfT0H1E2F3A4C5T6",
-      "name": "...has recently recovered from a grievous defeat",
+      "_id": "DfT0H1E2F3A4C5T6",
+      "name": "...has been corrupted by a malevolent Status-3 NPC",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -253,7 +253,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!CF7F8A9C0T1I2O3N.LfT0H1E2F3A4C5T6"
+      "_key": "!tables.results!UF7F8A9C0T1I2O3N.DfT0H1E2F3A4C5T6"
     },
     {
       "type": "text",
@@ -262,8 +262,8 @@
         12,
         12
       ],
-      "_id": "MfT1H2E3F4A5C6T7",
-      "name": "...broke an agreement with a vengeful fae lord",
+      "_id": "EfT1H2E3F4A5C6T7",
+      "name": "...has sworn to protect a faction from another Circle",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -278,7 +278,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!CF7F8A9C0T1I2O3N.MfT1H2E3F4A5C6T7"
+      "_key": "!tables.results!UF7F8A9C0T1I2O3N.EfT1H2E3F4A5C6T7"
     }
   ],
   "replacement": true,
@@ -301,5 +301,5 @@
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "2d6",
-  "_key": "!tables!CF7F8A9C0T1I2O3N"
+  "_key": "!tables!UF7F8A9C0T1I2O3N"
 }

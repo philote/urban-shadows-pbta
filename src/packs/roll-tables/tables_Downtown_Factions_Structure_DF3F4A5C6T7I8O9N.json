@@ -8,154 +8,275 @@
     {
       "type": "text",
       "weight": 1,
-      "range": [2, 2],
+      "range": [
+        2,
+        2
+      ],
       "_id": "DfS1T2R3U4C5T6U7",
       "name": "Anarchic",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
       "flags": {},
-      "_stats": {"compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.344", "systemId": "pbta", "systemVersion": "1.1.20", "lastModifiedBy": null},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
       "documentUuid": null,
       "_key": "!tables.results!DF3F4A5C6T7I8O9N.DfS1T2R3U4C5T6U7"
     },
     {
       "type": "text",
       "weight": 1,
-      "range": [3, 3],
+      "range": [
+        3,
+        3
+      ],
       "_id": "EfS2T3R4U5C6T7U8",
       "name": "Anarchic",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
       "flags": {},
-      "_stats": {"compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.344", "systemId": "pbta", "systemVersion": "1.1.20", "lastModifiedBy": null},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
       "documentUuid": null,
       "_key": "!tables.results!DF3F4A5C6T7I8O9N.EfS2T3R4U5C6T7U8"
     },
     {
       "type": "text",
       "weight": 1,
-      "range": [4, 4],
+      "range": [
+        4,
+        4
+      ],
       "_id": "FfS3T4R5U6C7T8U9",
       "name": "Despotic",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
       "flags": {},
-      "_stats": {"compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.344", "systemId": "pbta", "systemVersion": "1.1.20", "lastModifiedBy": null},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
       "documentUuid": null,
       "_key": "!tables.results!DF3F4A5C6T7I8O9N.FfS3T4R5U6C7T8U9"
     },
     {
       "type": "text",
       "weight": 1,
-      "range": [5, 5],
+      "range": [
+        5,
+        5
+      ],
       "_id": "GfS4T5R6U7C8T9U0",
       "name": "Despotic",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
       "flags": {},
-      "_stats": {"compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.344", "systemId": "pbta", "systemVersion": "1.1.20", "lastModifiedBy": null},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
       "documentUuid": null,
       "_key": "!tables.results!DF3F4A5C6T7I8O9N.GfS4T5R6U7C8T9U0"
     },
     {
       "type": "text",
       "weight": 1,
-      "range": [6, 6],
+      "range": [
+        6,
+        6
+      ],
       "_id": "HfS5T6R7U8C9T0U1",
       "name": "Oligarchal",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
       "flags": {},
-      "_stats": {"compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.344", "systemId": "pbta", "systemVersion": "1.1.20", "lastModifiedBy": null},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
       "documentUuid": null,
       "_key": "!tables.results!DF3F4A5C6T7I8O9N.HfS5T6R7U8C9T0U1"
     },
     {
       "type": "text",
       "weight": 1,
-      "range": [7, 7],
+      "range": [
+        7,
+        7
+      ],
       "_id": "IfS6T7R8U9C0T1U2",
       "name": "Oligarchal",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
       "flags": {},
-      "_stats": {"compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.344", "systemId": "pbta", "systemVersion": "1.1.20", "lastModifiedBy": null},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
       "documentUuid": null,
       "_key": "!tables.results!DF3F4A5C6T7I8O9N.IfS6T7R8U9C0T1U2"
     },
     {
       "type": "text",
       "weight": 1,
-      "range": [8, 8],
+      "range": [
+        8,
+        8
+      ],
       "_id": "JfS7T8R9U0C1T2U3",
       "name": "Oligarchal",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
       "flags": {},
-      "_stats": {"compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.344", "systemId": "pbta", "systemVersion": "1.1.20", "lastModifiedBy": null},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
       "documentUuid": null,
       "_key": "!tables.results!DF3F4A5C6T7I8O9N.JfS7T8R9U0C1T2U3"
     },
     {
       "type": "text",
       "weight": 1,
-      "range": [9, 9],
+      "range": [
+        9,
+        9
+      ],
       "_id": "KfS8T9R0U1C2T3U4",
       "name": "Divided",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
       "flags": {},
-      "_stats": {"compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.344", "systemId": "pbta", "systemVersion": "1.1.20", "lastModifiedBy": null},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
       "documentUuid": null,
       "_key": "!tables.results!DF3F4A5C6T7I8O9N.KfS8T9R0U1C2T3U4"
     },
     {
       "type": "text",
       "weight": 1,
-      "range": [10, 10],
+      "range": [
+        10,
+        10
+      ],
       "_id": "LfS9T0R1U2C3T4U5",
       "name": "Divided",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
       "flags": {},
-      "_stats": {"compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.344", "systemId": "pbta", "systemVersion": "1.1.20", "lastModifiedBy": null},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
       "documentUuid": null,
       "_key": "!tables.results!DF3F4A5C6T7I8O9N.LfS9T0R1U2C3T4U5"
     },
     {
       "type": "text",
       "weight": 1,
-      "range": [11, 11],
+      "range": [
+        11,
+        11
+      ],
       "_id": "MfS0T1R2U3C4T5U6",
       "name": "Democratic",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
       "flags": {},
-      "_stats": {"compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.344", "systemId": "pbta", "systemVersion": "1.1.20", "lastModifiedBy": null},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
       "documentUuid": null,
       "_key": "!tables.results!DF3F4A5C6T7I8O9N.MfS0T1R2U3C4T5U6"
     },
     {
       "type": "text",
       "weight": 1,
-      "range": [12, 12],
+      "range": [
+        12,
+        12
+      ],
       "_id": "NfS1T2R3U4C5T6U7",
       "name": "Democratic",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
       "flags": {},
-      "_stats": {"compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.344", "systemId": "pbta", "systemVersion": "1.1.20", "lastModifiedBy": null},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
       "documentUuid": null,
       "_key": "!tables.results!DF3F4A5C6T7I8O9N.NfS1T2R3U4C5T6U7"
     }
@@ -163,9 +284,22 @@
   "replacement": true,
   "displayRoll": true,
   "sort": 0,
-  "ownership": {"default": 0, "tolKXMkOd7JsM4Jk": 3},
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
   "flags": {},
-  "_stats": {"compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.344", "systemId": "pbta", "systemVersion": "1.1.20", "createdTime": 1748581947337, "modifiedTime": 1748581947337, "lastModifiedBy": "tolKXMkOd7JsM4Jk"},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748581947337,
+    "modifiedTime": 1748581947337,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
   "formula": "2d6",
   "_key": "!tables!DF3F4A5C6T7I8O9N"
 }

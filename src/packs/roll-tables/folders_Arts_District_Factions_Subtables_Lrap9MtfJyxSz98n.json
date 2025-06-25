@@ -1,10 +1,10 @@
 {
   "type": "RollTable",
-  "folder": null,
-  "name": "Art District",
+  "folder": "4wRTF9RvSOhb9bd3",
+  "name": "Arts District Factions Subtables",
   "color": null,
   "sorting": "a",
-  "_id": "4wRTF9RvSOhb9bd3",
+  "_id": "Lrap9MtfJyxSz98n",
   "description": "",
   "sort": 0,
   "flags": {},
@@ -14,7 +14,8 @@
     "exportSource": null,
     "coreVersion": "13.345",
     "systemId": "pbta",
-    "systemVersion": "1.1.21"
+    "systemVersion": "1.1.21",
+    "lastModifiedBy": null
   },
-  "_key": "!folders!4wRTF9RvSOhb9bd3"
+  "_key": "!folders!Lrap9MtfJyxSz98n"
 }

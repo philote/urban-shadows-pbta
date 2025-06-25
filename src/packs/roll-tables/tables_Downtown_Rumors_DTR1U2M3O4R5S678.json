@@ -8,7 +8,10 @@
     {
       "type": "text",
       "weight": 1,
-      "range": [1, 1],
+      "range": [
+        1,
+        1
+      ],
       "_id": "DfR1U2M3O4R5S6T7",
       "name": "A Power faction is buying up properties downtown for reasons unknown",
       "img": "icons/svg/d20-black.svg",
@@ -30,7 +33,10 @@
     {
       "type": "text",
       "weight": 1,
-      "range": [2, 2],
+      "range": [
+        2,
+        2
+      ],
       "_id": "EfR2U3M4O5R6S7T8",
       "name": "Someone is selling a mysterious drug that afflicts mortals with supernatural abilities",
       "img": "icons/svg/d20-black.svg",
@@ -52,7 +58,10 @@
     {
       "type": "text",
       "weight": 1,
-      "range": [3, 3],
+      "range": [
+        3,
+        3
+      ],
       "_id": "FfR3U4M5O6R7S8T9",
       "name": "A Wild faction is attempting to acquire a downtown asset from a local wizard",
       "img": "icons/svg/d20-black.svg",
@@ -74,7 +83,10 @@
     {
       "type": "text",
       "weight": 1,
-      "range": [4, 4],
+      "range": [
+        4,
+        4
+      ],
       "_id": "GfR4U5M6O7R8S9T0",
       "name": "A mundane politician has been spotted meeting with Night factions all over downtown",
       "img": "icons/svg/d20-black.svg",
@@ -96,7 +108,10 @@
     {
       "type": "text",
       "weight": 1,
-      "range": [5, 5],
+      "range": [
+        5,
+        5
+      ],
       "_id": "HfR5U6M7O8R9S0T1",
       "name": "A mortal, an agent of an unknown faction, is snooping on the affairs of a Night faction",
       "img": "icons/svg/d20-black.svg",
@@ -118,7 +133,10 @@
     {
       "type": "text",
       "weight": 1,
-      "range": [6, 6],
+      "range": [
+        6,
+        6
+      ],
       "_id": "IfR6U7M8O9R0S1T2",
       "name": "Witnesses report a monster is stalking the streets, each describing a different threat",
       "img": "icons/svg/d20-black.svg",

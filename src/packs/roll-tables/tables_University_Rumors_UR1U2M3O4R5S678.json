@@ -8,7 +8,10 @@
     {
       "type": "text",
       "weight": 1,
-      "range": [1, 1],
+      "range": [
+        1,
+        1
+      ],
       "_id": "UfR1U2M3O4R5S6T7",
       "name": "An immortal has recently returned to the university to reclaim assets once lost in a conflict with another member of Power",
       "img": "icons/svg/d20-black.svg",
@@ -30,7 +33,10 @@
     {
       "type": "text",
       "weight": 1,
-      "range": [2, 2],
+      "range": [
+        2,
+        2
+      ],
       "_id": "VfR2U3M4O5R6S7T8",
       "name": "The local Power faction has declared a section of the university off limits to everyone but members of their faction",
       "img": "icons/svg/d20-black.svg",
@@ -52,7 +58,10 @@
     {
       "type": "text",
       "weight": 1,
-      "range": [3, 3],
+      "range": [
+        3,
+        3
+      ],
       "_id": "WfR3U4M5O6R7S8T9",
       "name": "A local Wild faction is seeking protection from a looming threat from another plane",
       "img": "icons/svg/d20-black.svg",
@@ -74,7 +83,10 @@
     {
       "type": "text",
       "weight": 1,
-      "range": [4, 4],
+      "range": [
+        4,
+        4
+      ],
       "_id": "XfR4U5M6O7R8S9T0",
       "name": "Several local students have gone missing, only to return a few days later forever changed by their mysterious experience",
       "img": "icons/svg/d20-black.svg",
@@ -96,7 +108,10 @@
     {
       "type": "text",
       "weight": 1,
-      "range": [5, 5],
+      "range": [
+        5,
+        5
+      ],
       "_id": "YfR5U6M7O8R9S0T1",
       "name": "An imp has set up a new record store, attracting supernatural clientele to the area",
       "img": "icons/svg/d20-black.svg",
@@ -118,7 +133,10 @@
     {
       "type": "text",
       "weight": 1,
-      "range": [6, 6],
+      "range": [
+        6,
+        6
+      ],
       "_id": "ZfR6U7M8O9R0S1T2",
       "name": "A wizard is offering Debts to anyone willing to undertake a \"trip to the other side\"",
       "img": "icons/svg/d20-black.svg",
