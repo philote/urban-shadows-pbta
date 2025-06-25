@@ -1,8 +1,8 @@
 {
   "folder": "N9rS5uV8wX1yY4zB",
   "name": "University Rumors",
-  "_id": "UR1U2M3O4R5S678",
-  "img": "icons/svg/d20-grey.svg",
+  "_id": "UR1U2M3O4R5S6782",
+  "img": "icons/svg/deaf.svg",
   "description": "",
   "results": [
     {
@@ -28,7 +28,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!UR1U2M3O4R5S678.UfR1U2M3O4R5S6T7"
+      "_key": "!tables.results!UR1U2M3O4R5S6782.UfR1U2M3O4R5S6T7"
     },
     {
       "type": "text",
@@ -53,7 +53,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!UR1U2M3O4R5S678.VfR2U3M4O5R6S7T8"
+      "_key": "!tables.results!UR1U2M3O4R5S6782.VfR2U3M4O5R6S7T8"
     },
     {
       "type": "text",
@@ -78,7 +78,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!UR1U2M3O4R5S678.WfR3U4M5O6R7S8T9"
+      "_key": "!tables.results!UR1U2M3O4R5S6782.WfR3U4M5O6R7S8T9"
     },
     {
       "type": "text",
@@ -103,7 +103,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!UR1U2M3O4R5S678.XfR4U5M6O7R8S9T0"
+      "_key": "!tables.results!UR1U2M3O4R5S6782.XfR4U5M6O7R8S9T0"
     },
     {
       "type": "text",
@@ -128,7 +128,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!UR1U2M3O4R5S678.YfR5U6M7O8R9S0T1"
+      "_key": "!tables.results!UR1U2M3O4R5S6782.YfR5U6M7O8R9S0T1"
     },
     {
       "type": "text",
@@ -153,12 +153,12 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!UR1U2M3O4R5S678.ZfR6U7M8O9R0S1T2"
+      "_key": "!tables.results!UR1U2M3O4R5S6782.ZfR6U7M8O9R0S1T2"
     }
   ],
   "replacement": true,
   "displayRoll": true,
-  "sort": 0,
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "tolKXMkOd7JsM4Jk": 3
@@ -168,13 +168,13 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748581947337,
-    "modifiedTime": 1748581947337,
+    "modifiedTime": 1750822027186,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "1d6",
-  "_key": "!tables!UR1U2M3O4R5S678"
+  "_key": "!tables!UR1U2M3O4R5S6782"
 }
