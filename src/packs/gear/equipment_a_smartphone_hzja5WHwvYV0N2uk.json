@@ -2,7 +2,7 @@
   "folder": null,
   "name": "a smartphone",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/smartphone.svg",
   "system": {
     "description": "",
     "uses": 0,
@@ -24,11 +24,11 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748486361387,
-    "modifiedTime": 1748486372133,
+    "modifiedTime": 1750826536406,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "_id": "hzja5WHwvYV0N2uk",

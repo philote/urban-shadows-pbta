@@ -3,7 +3,7 @@
   "name": "9mm Glock",
   "type": "equipment",
   "_id": "MTHSObEuSjh33gsZ",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/glock.svg",
   "system": {
     "description": "(2-harm near loud concealable)",
     "uses": 0,
@@ -25,12 +25,12 @@
   "_stats": {
     "compendiumSource": "Item.MTHSObEuSjh33gsZ",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907152038,
-    "modifiedTime": 1733907152038,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1750826526616,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },
   "_key": "!items!MTHSObEuSjh33gsZ"

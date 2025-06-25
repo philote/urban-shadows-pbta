@@ -2,7 +2,7 @@
   "folder": null,
   "name": "Rare tomes and grimoires",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/secret-book.svg",
   "system": {
     "description": "(i.e. lost scrolls, secret books, etc.)",
     "uses": 0,
@@ -24,11 +24,11 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748486424608,
-    "modifiedTime": 1748486424608,
+    "modifiedTime": 1750826631289,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "_id": "PT9avmjve8g9nrCx",

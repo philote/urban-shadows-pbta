@@ -3,7 +3,7 @@
   "name": "Snubnosed revolver",
   "type": "equipment",
   "_id": "03e743a1890c43f9",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/revolver.svg",
   "system": {
     "description": "(2-harm close/near loud reload concealable)",
     "uses": 0,
@@ -24,12 +24,12 @@
   "_stats": {
     "compendiumSource": "Item.P9qQ2rS5tT8uU1vV",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907152038,
-    "modifiedTime": 1733907152038,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1750826659996,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },
   "_key": "!items!03e743a1890c43f9"

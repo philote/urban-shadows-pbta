@@ -3,7 +3,7 @@
   "name": "Sawed-off shotgun",
   "type": "equipment",
   "_id": "M6oP9qQ2rS5tT8uU",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/sawed-off-shotgun.svg",
   "system": {
     "description": "(2-harm close loud reload messy concealable)",
     "uses": 0,
@@ -26,11 +26,11 @@
     "compendiumSource": "Item.M6oP9qQ2rS5tT8uU",
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748486441549,
-    "modifiedTime": 1748486441549,
+    "modifiedTime": 1750826649847,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "_key": "!items!M6oP9qQ2rS5tT8uU"

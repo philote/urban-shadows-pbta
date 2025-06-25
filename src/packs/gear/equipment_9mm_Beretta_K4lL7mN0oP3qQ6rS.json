@@ -3,7 +3,7 @@
   "name": "9mm Beretta",
   "type": "equipment",
   "_id": "K4lL7mN0oP3qQ6rS",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/pistol-gun.svg",
   "system": {
     "description": "(2-harm near loud concealable)",
     "uses": 0,
@@ -26,11 +26,11 @@
     "compendiumSource": "Item.K4lL7mN0oP3qQ6rS",
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748486441549,
-    "modifiedTime": 1748486441549,
+    "modifiedTime": 1750826517691,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "_key": "!items!K4lL7mN0oP3qQ6rS"

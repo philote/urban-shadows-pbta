@@ -3,7 +3,7 @@
   "name": "Hunting knife",
   "type": "equipment",
   "_id": "L5mN8oP1qQ4rS7tT",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/bowie-knife.svg",
   "system": {
     "description": "(2-harm hand)",
     "uses": 0,
@@ -26,11 +26,11 @@
     "compendiumSource": "Item.L5mN8oP1qQ4rS7tT",
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748486441549,
-    "modifiedTime": 1748486441549,
+    "modifiedTime": 1750826594639,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "_key": "!items!L5mN8oP1qQ4rS7tT"

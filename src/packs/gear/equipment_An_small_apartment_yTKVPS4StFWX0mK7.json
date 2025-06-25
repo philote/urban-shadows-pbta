@@ -2,7 +2,7 @@
   "folder": null,
   "name": "An small apartment",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/modern-city.svg",
   "system": {
     "description": "",
     "uses": 0,
@@ -24,11 +24,11 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748486366293,
-    "modifiedTime": 1748486372133,
+    "modifiedTime": 1750826552697,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "_id": "yTKVPS4StFWX0mK7",

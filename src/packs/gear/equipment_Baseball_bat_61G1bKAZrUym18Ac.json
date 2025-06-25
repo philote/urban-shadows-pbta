@@ -3,7 +3,7 @@
   "name": "Baseball bat",
   "type": "equipment",
   "_id": "61G1bKAZrUym18Ac",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/baseball-bat.svg",
   "system": {
     "description": "(2-harm close stun)",
     "uses": 0,
@@ -24,12 +24,12 @@
   "_stats": {
     "compendiumSource": "Item.M7oP0qQ3rS6tT9uU",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907152038,
-    "modifiedTime": 1733907152038,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1750826558982,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },
   "_key": "!items!61G1bKAZrUym18Ac"

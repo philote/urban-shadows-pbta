@@ -2,7 +2,7 @@
   "folder": null,
   "name": "Your kit",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/gym-bag.svg",
   "system": {
     "description": "",
     "uses": 0,
@@ -24,11 +24,11 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748486372125,
-    "modifiedTime": 1748486372133,
+    "modifiedTime": 1750826722371,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "_id": "P5fFVwsQW8trEVGa",
