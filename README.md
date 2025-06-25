@@ -68,11 +68,8 @@ You can install the latest released version of the module by using this manifest
 
 ## TODO
 - Compendium
-    - Create the rest of the City Hub data
     - Create free City Hubs
-    - Fix the Playbook Details
     - fix the Playbook auto grants
-    - add images to gear
 - Improve NPC sheets
 - Relationship and debt tracking on sheets
 
@@ -80,51 +77,28 @@ You can install the latest released version of the module by using this manifest
 [Urban Shadows](https://magpiegames.com/collections/urban-shadows) was created by Andrew Medeiros and Mark Diaz Truman and is copyright 2015 by [Magpie Games](https://magpiegames.com), including all text and art. All rights are reserved.
 
 Icons used are from game-icons.net and are released under a Creative Commons Attribution 3.0 Unported license. https://creativecommons.org/licenses/by/3.0/
-
-Pistol gun icon
-by John Colburn under CC BY 3.0
-Glock icon
-by Skoll under CC BY 3.0
-Smartphone icon
-by Delapouite under CC BY 3.0
-City car icon
-by Delapouite under CC BY 3.0
-Modern city icon
-by Delapouite under CC BY 3.0
-Baseball bat icon
-by Delapouite under CC BY 3.0
-Butterfly knife icon
-by Skoll under CC BY 3.0
-Crystal ball icon
-by Lorc under CC BY 3.0
-Colt M1911 icon
-by Skoll under CC BY 3.0
-Bowie knife icon
-by Lorc under CC BY 3.0
-Machete icon
-by Lorc under CC BY 3.0
-Revolver icon
-by Delapouite under CC BY 3.0
-Sawed-off shotgun icon
-by Delapouite under CC BY 3.0
-Secret book icon
-by Delapouite under CC BY 3.0
-Primitive necklace icon
-by Delapouite under CC BY 3.0
-Egyptian urns icon
-by Delapouite under CC BY 3.0
-Switchblade icon
-by Skoll under CC BY 3.0
-Katana icon
-by Delapouite under CC BY 3.0
-Electric icon
-by sbed under CC BY 3.0
-Baton icon
-by Skoll under CC BY 3.0
-Walther PPK icon
-by Skoll under CC BY 3.0
-Gym bag icon
-by Delapouite under CC BY 3.0
+Pistol gun icon by John Colburn under CC BY 3.0
+Glock icon by Skoll under CC BY 3.0
+Smartphone icon by Delapouite under CC BY 3.0
+City car icon by Delapouite under CC BY 3.0
+Modern city icon by Delapouite under CC BY 3.0
+Baseball bat icon by Delapouite under CC BY 3.0
+Butterfly knife icon by Skoll under CC BY 3.0
+Crystal ball icon by Lorc under CC BY 3.0
+Colt M1911 icon by Skoll under CC BY 3.0
+Bowie knife icon by Lorc under CC BY 3.0
+Machete icon by Lorc under CC BY 3.0
+Revolver icon by Delapouite under CC BY 3.0
+Sawed-off shotgun icon by Delapouite under CC BY 3.0
+Secret book icon by Delapouite under CC BY 3.0
+Primitive necklace icon by Delapouite under CC BY 3.0
+Egyptian urns icon by Delapouite under CC BY 3.0
+Switchblade icon by Skoll under CC BY 3.0
+Katana icon by Delapouite under CC BY 3.0
+Electric icon by sbed under CC BY 3.0
+Baton icon by Skoll under CC BY 3.0
+Walther PPK icon by Skoll under CC BY 3.0
+Gym bag icon by Delapouite under CC BY 3.0
 
 City Hub header image:
 “<a href="https://www.flickr.com/photos/dexxus/358919966" title="city of lights">city of lights</a>” by <a href="https://www.flickr.com/photos/dexxus/">paul bica</a>, <a href="https://creativecommons.org/licenses/by/2.0/deed.en" rel="license noopener noreferrer">CC BY 2.0</a>

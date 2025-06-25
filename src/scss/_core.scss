@@ -145,4 +145,162 @@
             }
         }
     }
+
+    // Playbook descriptions
+
+    .playbook-description {
+        background: #f8f9fa;
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    .playbook-title {
+        font-size: 2.5em;
+        font-weight: bold;
+        text-align: center;
+        color: #2c3e50;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .playbook-intro {
+        font-style: italic;
+        font-size: 1.1em;
+        margin-bottom: 30px;
+        text-align: center;
+        color: #555;
+    }
+
+    h2 {
+        color: #34495e;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 5px;
+        margin-top: 30px;
+    }
+
+    h3 {
+        color: #2c3e50;
+        margin-top: 25px;
+    }
+
+    .checkbox {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border: 2px solid #333;
+        margin-right: 8px;
+        vertical-align: middle;
+    }
+
+    .checkbox.filled {
+        background-color: #333;
+    }
+
+    .move-name {
+        font-weight: bold;
+        color: #2c3e50;
+    }
+
+    .move-description {
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
+
+    .advancement-track {
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .advancement-label {
+        font-weight: bold;
+        margin-right: 10px;
+        min-width: 80px;
+    }
+
+    .advancement-boxes {
+        display: flex;
+        gap: 5px;
+    }
+
+    .scar-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin: 10px 0;
+    }
+
+    .abilities-list {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .abilities-list li {
+        margin: 8px 0;
+        padding-left: 20px;
+        position: relative;
+    }
+
+    .abilities-list li:before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        font-weight: bold;
+    }
+
+    .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin: 20px 0;
+    }
+
+    .stat-section {
+        background: #f8f9fa;
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    .debt-section {
+        background: #fff3cd;
+        padding: 15px;
+        border-radius: 5px;
+        border-left: 4px solid #ffc107;
+        margin: 15px 0;
+    }
+
+    ul.simple-list {
+        list-style-type: disc;
+        margin-left: 20px;
+    }
+
+    .corruption-track {
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .corruption-boxes {
+        display: flex;
+        gap: 3px;
+        margin-left: 10px;
+    }
+
+    .corruption-box {
+        width: 15px;
+        height: 15px;
+        border: 2px solid #e74c3c;
+        display: inline-block;
+    }
+
+    @media print {
+        body {
+            background: white;
+        }
+        .playbook {
+            box-shadow: none;
+            border: 1px solid #ccc;
+        }
+    }
 }

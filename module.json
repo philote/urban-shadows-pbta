@@ -86,6 +86,17 @@
       }
     },
     {
+      "name": "city-hubs",
+      "label": "City Hubs",
+      "path": "packs/city-hubs",
+      "type": "Actor",
+      "system": "pbta",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "roll-tables",
       "label": "Roll Tables",
       "path": "packs/roll-tables",
