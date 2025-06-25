@@ -1,5 +1,5 @@
 {
-  "folder": "L7pQ3sT6uV9wX2yA",
+  "folder": "587G5TbxVekbo8WY",
   "name": "City Hall NPCs Presenting",
   "_id": "CH3P4Q5R6S7T8U9V",
   "img": "icons/svg/d20-grey.svg",
@@ -133,7 +133,7 @@
   ],
   "replacement": true,
   "displayRoll": true,
-  "sort": 0,
+  "sort": 112500,
   "ownership": {
     "default": 0,
     "tolKXMkOd7JsM4Jk": 3
@@ -143,11 +143,11 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748581947337,
-    "modifiedTime": 1748581947337,
+    "modifiedTime": 1750823710703,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "2d6",

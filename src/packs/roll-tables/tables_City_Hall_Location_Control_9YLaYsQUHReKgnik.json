@@ -1,6 +1,6 @@
 {
-  "folder": "L7pQ3sT6uV9wX2yA",
-  "name": "City Hall Control",
+  "folder": "L4NNZosG5D8RRX6l",
+  "name": "City Hall Location Control",
   "_id": "9YLaYsQUHReKgnik",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
@@ -133,7 +133,7 @@
   ],
   "replacement": true,
   "displayRoll": true,
-  "sort": 0,
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "tolKXMkOd7JsM4Jk": 3
@@ -143,11 +143,11 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748581947337,
-    "modifiedTime": 1748582366514,
+    "modifiedTime": 1750823690831,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "2d6",

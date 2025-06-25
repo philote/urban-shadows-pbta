@@ -1,7 +1,7 @@
 {
-  "folder": "M8qR4tU7vW0xY3zA",
-  "name": "Downtown Type",
-  "_id": "POK4nK1ECXTxBLav",
+  "folder": "L4NNZosG5D8RRX6l",
+  "name": "City Hall Location Trouble",
+  "_id": "mEkNtjGVHpeTQObg",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
   "results": [
@@ -12,8 +12,8 @@
         2,
         2
       ],
-      "_id": "rjlBcZVj4xXk8ECp",
-      "name": "sacred space (caretaker, parishioner, pilgrim)",
+      "_id": "lwO9tzzR146dalZD",
+      "name": "haunted",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -28,7 +28,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!POK4nK1ECXTxBLav.rjlBcZVj4xXk8ECp"
+      "_key": "!tables.results!mEkNtjGVHpeTQObg.lwO9tzzR146dalZD"
     },
     {
       "type": "text",
@@ -37,8 +37,8 @@
         3,
         3
       ],
-      "_id": "WWjtJGHLTpItwLVq",
-      "name": "hotel (bellhop, concierge, manager)",
+      "_id": "qrsxjF99v2GUSyZa",
+      "name": "unreliable",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -53,7 +53,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!POK4nK1ECXTxBLav.WWjtJGHLTpItwLVq"
+      "_key": "!tables.results!mEkNtjGVHpeTQObg.qrsxjF99v2GUSyZa"
     },
     {
       "type": "text",
@@ -62,8 +62,8 @@
         4,
         4
       ],
-      "_id": "iw1Yv5xPf3GHWZBX",
-      "name": "street corner (drug dealer, beat cop, transient)",
+      "_id": "D8ARtt5CFyAE51xQ",
+      "name": "xenophobic",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -78,7 +78,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!POK4nK1ECXTxBLav.iw1Yv5xPf3GHWZBX"
+      "_key": "!tables.results!mEkNtjGVHpeTQObg.D8ARtt5CFyAE51xQ"
     },
     {
       "type": "text",
@@ -87,8 +87,8 @@
         5,
         5
       ],
-      "_id": "NG6VdtCQdZhTyAOS",
-      "name": "illegal gambling hall (dealer, pit boss, degenerate gambler)",
+      "_id": "tZ4QxxqoBlQjCEVZ",
+      "name": "pirated",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -103,7 +103,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!POK4nK1ECXTxBLav.NG6VdtCQdZhTyAOS"
+      "_key": "!tables.results!mEkNtjGVHpeTQObg.tZ4QxxqoBlQjCEVZ"
     },
     {
       "type": "text",
@@ -112,8 +112,8 @@
         6,
         6
       ],
-      "_id": "VDVqIrPybcBLpCQ9",
-      "name": "office building (doorman, security guard, custodian)",
+      "_id": "DmioUXfCTeOnv9VO",
+      "name": "competitive",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -128,7 +128,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!POK4nK1ECXTxBLav.VDVqIrPybcBLpCQ9"
+      "_key": "!tables.results!mEkNtjGVHpeTQObg.DmioUXfCTeOnv9VO"
     },
     {
       "type": "text",
@@ -137,8 +137,8 @@
         7,
         7
       ],
-      "_id": "eI7arceZYpNqcqrR",
-      "name": "retail store (cashier, buyer, customer)",
+      "_id": "igYMrxnlS7KtTV95",
+      "name": "underfunded",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -153,7 +153,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!POK4nK1ECXTxBLav.eI7arceZYpNqcqrR"
+      "_key": "!tables.results!mEkNtjGVHpeTQObg.igYMrxnlS7KtTV95"
     },
     {
       "type": "text",
@@ -162,8 +162,8 @@
         8,
         8
       ],
-      "_id": "O6XnvQqcUHvbWRyq",
-      "name": "restaurant (waiter, maître d', diner)",
+      "_id": "LGQa2AQmUnW7CkWZ",
+      "name": "exploitative",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -178,7 +178,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!POK4nK1ECXTxBLav.O6XnvQqcUHvbWRyq"
+      "_key": "!tables.results!mEkNtjGVHpeTQObg.LGQa2AQmUnW7CkWZ"
     },
     {
       "type": "text",
@@ -187,8 +187,8 @@
         9,
         9
       ],
-      "_id": "poJGeSRST08dkuUI",
-      "name": "dive bar (bartender, bouncer, drunk)",
+      "_id": "6STnAOBUFIfzueGl",
+      "name": "expensive",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -203,7 +203,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!POK4nK1ECXTxBLav.poJGeSRST08dkuUI"
+      "_key": "!tables.results!mEkNtjGVHpeTQObg.6STnAOBUFIfzueGl"
     },
     {
       "type": "text",
@@ -212,8 +212,8 @@
         10,
         10
       ],
-      "_id": "Q8XUMZEpwAG4hO1s",
-      "name": "civic site (security guard, reporter, tourist)",
+      "_id": "TCxEBaV5RQpSNdAJ",
+      "name": "polarizing",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -228,7 +228,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!POK4nK1ECXTxBLav.Q8XUMZEpwAG4hO1s"
+      "_key": "!tables.results!mEkNtjGVHpeTQObg.TCxEBaV5RQpSNdAJ"
     },
     {
       "type": "text",
@@ -237,8 +237,8 @@
         11,
         11
       ],
-      "_id": "d4RvhSIl2qjKttVV",
-      "name": "medical site (doctor, nurse/tech, patient)",
+      "_id": "SOzB6ydLAoZw86lH",
+      "name": "fraudulent",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -253,7 +253,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!POK4nK1ECXTxBLav.d4RvhSIl2qjKttVV"
+      "_key": "!tables.results!mEkNtjGVHpeTQObg.SOzB6ydLAoZw86lH"
     },
     {
       "type": "text",
@@ -262,8 +262,8 @@
         12,
         12
       ],
-      "_id": "TxXq5vVIWXJFPHRw",
-      "name": "city park (jogger, drug addict, stalker)",
+      "_id": "iWUktZjHn8FJaSJP",
+      "name": "unstable",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -278,12 +278,12 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!POK4nK1ECXTxBLav.TxXq5vVIWXJFPHRw"
+      "_key": "!tables.results!mEkNtjGVHpeTQObg.iWUktZjHn8FJaSJP"
     }
   ],
   "replacement": true,
   "displayRoll": true,
-  "sort": 0,
+  "sort": 125000,
   "ownership": {
     "default": 0,
     "tolKXMkOd7JsM4Jk": 3
@@ -293,13 +293,13 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748581947337,
-    "modifiedTime": 1748582366514,
+    "modifiedTime": 1750823745343,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "2d6",
-  "_key": "!tables!POK4nK1ECXTxBLav"
+  "_key": "!tables!mEkNtjGVHpeTQObg"
 }

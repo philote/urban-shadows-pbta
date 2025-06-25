@@ -1,7 +1,7 @@
 {
-  "folder": "L7pQ3sT6uV9wX2yA",
-  "name": "City Hall Trouble",
-  "_id": "mEkNtjGVHpeTQObg",
+  "folder": "bzRHSeAR2vekMQMh",
+  "name": "Downtown Location Trouble",
+  "_id": "NaZf3Ya2WH979vXO",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
   "results": [
@@ -12,8 +12,8 @@
         2,
         2
       ],
-      "_id": "lwO9tzzR146dalZD",
-      "name": "haunted",
+      "_id": "DxlnfoCsWBlPz0te",
+      "name": "cursed",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -28,7 +28,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!mEkNtjGVHpeTQObg.lwO9tzzR146dalZD"
+      "_key": "!tables.results!NaZf3Ya2WH979vXO.DxlnfoCsWBlPz0te"
     },
     {
       "type": "text",
@@ -37,7 +37,7 @@
         3,
         3
       ],
-      "_id": "qrsxjF99v2GUSyZa",
+      "_id": "zhGZsEl7z4PAf88H",
       "name": "unreliable",
       "img": "icons/svg/d20-black.svg",
       "description": "",
@@ -53,7 +53,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!mEkNtjGVHpeTQObg.qrsxjF99v2GUSyZa"
+      "_key": "!tables.results!NaZf3Ya2WH979vXO.zhGZsEl7z4PAf88H"
     },
     {
       "type": "text",
@@ -62,7 +62,7 @@
         4,
         4
       ],
-      "_id": "D8ARtt5CFyAE51xQ",
+      "_id": "IgkIOTGQuhAzsl0z",
       "name": "xenophobic",
       "img": "icons/svg/d20-black.svg",
       "description": "",
@@ -78,7 +78,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!mEkNtjGVHpeTQObg.D8ARtt5CFyAE51xQ"
+      "_key": "!tables.results!NaZf3Ya2WH979vXO.IgkIOTGQuhAzsl0z"
     },
     {
       "type": "text",
@@ -87,8 +87,8 @@
         5,
         5
       ],
-      "_id": "tZ4QxxqoBlQjCEVZ",
-      "name": "pirated",
+      "_id": "kXz6giaoygTTDhTF",
+      "name": "watched",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -103,7 +103,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!mEkNtjGVHpeTQObg.tZ4QxxqoBlQjCEVZ"
+      "_key": "!tables.results!NaZf3Ya2WH979vXO.kXz6giaoygTTDhTF"
     },
     {
       "type": "text",
@@ -112,8 +112,8 @@
         6,
         6
       ],
-      "_id": "DmioUXfCTeOnv9VO",
-      "name": "competitive",
+      "_id": "EqTPtoR06A76MPP9",
+      "name": "corrupt",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -128,7 +128,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!mEkNtjGVHpeTQObg.DmioUXfCTeOnv9VO"
+      "_key": "!tables.results!NaZf3Ya2WH979vXO.EqTPtoR06A76MPP9"
     },
     {
       "type": "text",
@@ -137,8 +137,8 @@
         7,
         7
       ],
-      "_id": "igYMrxnlS7KtTV95",
-      "name": "underfunded",
+      "_id": "x2gnY5msN1HWHljV",
+      "name": "contested",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -153,7 +153,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!mEkNtjGVHpeTQObg.igYMrxnlS7KtTV95"
+      "_key": "!tables.results!NaZf3Ya2WH979vXO.x2gnY5msN1HWHljV"
     },
     {
       "type": "text",
@@ -162,8 +162,8 @@
         8,
         8
       ],
-      "_id": "LGQa2AQmUnW7CkWZ",
-      "name": "exploitative",
+      "_id": "ypHwjbLq4HhxfqvN",
+      "name": "violent",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -178,7 +178,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!mEkNtjGVHpeTQObg.LGQa2AQmUnW7CkWZ"
+      "_key": "!tables.results!NaZf3Ya2WH979vXO.ypHwjbLq4HhxfqvN"
     },
     {
       "type": "text",
@@ -187,82 +187,7 @@
         9,
         9
       ],
-      "_id": "6STnAOBUFIfzueGl",
-      "name": "expensive",
-      "img": "icons/svg/d20-black.svg",
-      "description": "",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.344",
-        "systemId": "pbta",
-        "systemVersion": "1.1.20",
-        "lastModifiedBy": null
-      },
-      "documentUuid": null,
-      "_key": "!tables.results!mEkNtjGVHpeTQObg.6STnAOBUFIfzueGl"
-    },
-    {
-      "type": "text",
-      "weight": 1,
-      "range": [
-        10,
-        10
-      ],
-      "_id": "TCxEBaV5RQpSNdAJ",
-      "name": "polarizing",
-      "img": "icons/svg/d20-black.svg",
-      "description": "",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.344",
-        "systemId": "pbta",
-        "systemVersion": "1.1.20",
-        "lastModifiedBy": null
-      },
-      "documentUuid": null,
-      "_key": "!tables.results!mEkNtjGVHpeTQObg.TCxEBaV5RQpSNdAJ"
-    },
-    {
-      "type": "text",
-      "weight": 1,
-      "range": [
-        11,
-        11
-      ],
-      "_id": "SOzB6ydLAoZw86lH",
-      "name": "fraudulent",
-      "img": "icons/svg/d20-black.svg",
-      "description": "",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.344",
-        "systemId": "pbta",
-        "systemVersion": "1.1.20",
-        "lastModifiedBy": null
-      },
-      "documentUuid": null,
-      "_key": "!tables.results!mEkNtjGVHpeTQObg.SOzB6ydLAoZw86lH"
-    },
-    {
-      "type": "text",
-      "weight": 1,
-      "range": [
-        12,
-        12
-      ],
-      "_id": "iWUktZjHn8FJaSJP",
+      "_id": "ioEPb6ol9fvqQXNo",
       "name": "unstable",
       "img": "icons/svg/d20-black.svg",
       "description": "",
@@ -278,12 +203,87 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!mEkNtjGVHpeTQObg.iWUktZjHn8FJaSJP"
+      "_key": "!tables.results!NaZf3Ya2WH979vXO.ioEPb6ol9fvqQXNo"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "_id": "2M9yYyQU7zSZrMPu",
+      "name": "expensive",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!NaZf3Ya2WH979vXO.2M9yYyQU7zSZrMPu"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "_id": "lK86rliuD1nNLVHF",
+      "name": "despotic",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!NaZf3Ya2WH979vXO.lK86rliuD1nNLVHF"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "_id": "FBWvuzh57Ii0l5UW",
+      "name": "stagnant",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!NaZf3Ya2WH979vXO.FBWvuzh57Ii0l5UW"
     }
   ],
   "replacement": true,
   "displayRoll": true,
-  "sort": 0,
+  "sort": 125000,
   "ownership": {
     "default": 0,
     "tolKXMkOd7JsM4Jk": 3
@@ -293,13 +293,13 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748581947337,
-    "modifiedTime": 1748582366514,
+    "modifiedTime": 1750823579966,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "2d6",
-  "_key": "!tables!mEkNtjGVHpeTQObg"
+  "_key": "!tables!NaZf3Ya2WH979vXO"
 }

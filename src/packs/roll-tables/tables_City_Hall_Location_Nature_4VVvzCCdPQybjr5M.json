@@ -1,7 +1,7 @@
 {
-  "folder": "M8qR4tU7vW0xY3zA",
-  "name": "Downtown Atmosphere",
-  "_id": "XrxQ2QxwiIlIlyg7",
+  "folder": "L4NNZosG5D8RRX6l",
+  "name": "City Hall Location Nature",
+  "_id": "4VVvzCCdPQybjr5M",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
   "results": [
@@ -12,8 +12,8 @@
         2,
         2
       ],
-      "_id": "2ZFk5O7SEfx5o0yb",
-      "name": "whimsical",
+      "_id": "g4F3wmwqMNH0nylj",
+      "name": "dilapidated",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -28,7 +28,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!XrxQ2QxwiIlIlyg7.2ZFk5O7SEfx5o0yb"
+      "_key": "!tables.results!4VVvzCCdPQybjr5M.g4F3wmwqMNH0nylj"
     },
     {
       "type": "text",
@@ -37,8 +37,8 @@
         3,
         3
       ],
-      "_id": "6RxAT9W8YGIzvMfl",
-      "name": "safe",
+      "_id": "HtfZg7NMMx1UIiK7",
+      "name": "alluring",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -53,7 +53,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!XrxQ2QxwiIlIlyg7.6RxAT9W8YGIzvMfl"
+      "_key": "!tables.results!4VVvzCCdPQybjr5M.HtfZg7NMMx1UIiK7"
     },
     {
       "type": "text",
@@ -62,8 +62,8 @@
         4,
         4
       ],
-      "_id": "n7086HGdZufr78MN",
-      "name": "dirty",
+      "_id": "C6gjxxrxGH4H3ciD",
+      "name": "bizarre",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -78,7 +78,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!XrxQ2QxwiIlIlyg7.n7086HGdZufr78MN"
+      "_key": "!tables.results!4VVvzCCdPQybjr5M.C6gjxxrxGH4H3ciD"
     },
     {
       "type": "text",
@@ -87,8 +87,8 @@
         5,
         5
       ],
-      "_id": "Cih1xMAAzPuRttWd",
-      "name": "secretive",
+      "_id": "gAudmBeRzjRFZ8L6",
+      "name": "elitist",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -103,7 +103,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!XrxQ2QxwiIlIlyg7.Cih1xMAAzPuRttWd"
+      "_key": "!tables.results!4VVvzCCdPQybjr5M.gAudmBeRzjRFZ8L6"
     },
     {
       "type": "text",
@@ -112,8 +112,8 @@
         6,
         6
       ],
-      "_id": "Xps8JnTe86JCAFLC",
-      "name": "professional",
+      "_id": "hiRlhQa3alGNX1OV",
+      "name": "gentrified",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -128,7 +128,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!XrxQ2QxwiIlIlyg7.Xps8JnTe86JCAFLC"
+      "_key": "!tables.results!4VVvzCCdPQybjr5M.hiRlhQa3alGNX1OV"
     },
     {
       "type": "text",
@@ -137,8 +137,8 @@
         7,
         7
       ],
-      "_id": "eRpXEokS0K22zkHK",
-      "name": "cold",
+      "_id": "5KJR7UiL9CLYmoRU",
+      "name": "chaotic",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -153,7 +153,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!XrxQ2QxwiIlIlyg7.eRpXEokS0K22zkHK"
+      "_key": "!tables.results!4VVvzCCdPQybjr5M.5KJR7UiL9CLYmoRU"
     },
     {
       "type": "text",
@@ -162,8 +162,8 @@
         8,
         8
       ],
-      "_id": "sSgWDru4HG0k1m6m",
-      "name": "dark",
+      "_id": "OKP8budLMe329F39",
+      "name": "vibrant",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -178,7 +178,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!XrxQ2QxwiIlIlyg7.sSgWDru4HG0k1m6m"
+      "_key": "!tables.results!4VVvzCCdPQybjr5M.OKP8budLMe329F39"
     },
     {
       "type": "text",
@@ -187,8 +187,8 @@
         9,
         9
       ],
-      "_id": "vXJILtWy0Fz9MpON",
-      "name": "intoxicating",
+      "_id": "j1rARHmW3r4putnk",
+      "name": "foreign",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -203,7 +203,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!XrxQ2QxwiIlIlyg7.vXJILtWy0Fz9MpON"
+      "_key": "!tables.results!4VVvzCCdPQybjr5M.j1rARHmW3r4putnk"
     },
     {
       "type": "text",
@@ -212,8 +212,8 @@
         10,
         10
       ],
-      "_id": "PXuFGGnuc7aXYVd1",
-      "name": "eerie",
+      "_id": "oxOo0AOYbJG8LEP9",
+      "name": "cluttered",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -228,7 +228,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!XrxQ2QxwiIlIlyg7.PXuFGGnuc7aXYVd1"
+      "_key": "!tables.results!4VVvzCCdPQybjr5M.oxOo0AOYbJG8LEP9"
     },
     {
       "type": "text",
@@ -237,8 +237,8 @@
         11,
         11
       ],
-      "_id": "0xxQ9Y6hQNiPWxvr",
-      "name": "inviting",
+      "_id": "VC2wDU6NCxueLMi7",
+      "name": "modern",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -253,7 +253,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!XrxQ2QxwiIlIlyg7.0xxQ9Y6hQNiPWxvr"
+      "_key": "!tables.results!4VVvzCCdPQybjr5M.VC2wDU6NCxueLMi7"
     },
     {
       "type": "text",
@@ -262,8 +262,8 @@
         12,
         12
       ],
-      "_id": "bbwGimwZFeuhm7OZ",
-      "name": "bright",
+      "_id": "jtk3zWjxa3ac2Wm3",
+      "name": "dingy",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -278,12 +278,12 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!XrxQ2QxwiIlIlyg7.bbwGimwZFeuhm7OZ"
+      "_key": "!tables.results!4VVvzCCdPQybjr5M.jtk3zWjxa3ac2Wm3"
     }
   ],
   "replacement": true,
   "displayRoll": true,
-  "sort": 0,
+  "sort": 150000,
   "ownership": {
     "default": 0,
     "tolKXMkOd7JsM4Jk": 3
@@ -293,13 +293,13 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748581947337,
-    "modifiedTime": 1748582366514,
+    "modifiedTime": 1750823700385,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "2d6",
-  "_key": "!tables!XrxQ2QxwiIlIlyg7"
+  "_key": "!tables!4VVvzCCdPQybjr5M"
 }

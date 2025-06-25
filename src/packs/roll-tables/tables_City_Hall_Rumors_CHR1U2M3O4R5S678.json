@@ -2,7 +2,7 @@
   "folder": "L7pQ3sT6uV9wX2yA",
   "name": "City Hall Rumors",
   "_id": "CHR1U2M3O4R5S678",
-  "img": "icons/svg/d20-grey.svg",
+  "img": "icons/svg/deaf.svg",
   "description": "",
   "results": [
     {
@@ -168,11 +168,11 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748581947337,
-    "modifiedTime": 1748581947337,
+    "modifiedTime": 1750823734866,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "1d6",

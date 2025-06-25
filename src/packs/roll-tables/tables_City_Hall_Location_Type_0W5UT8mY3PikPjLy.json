@@ -1,7 +1,7 @@
 {
-  "folder": "M8qR4tU7vW0xY3zA",
-  "name": "Downtown Trouble",
-  "_id": "NaZf3Ya2WH979vXO",
+  "folder": "L4NNZosG5D8RRX6l",
+  "name": "City Hall Location Type",
+  "_id": "0W5UT8mY3PikPjLy",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
   "results": [
@@ -12,8 +12,8 @@
         2,
         2
       ],
-      "_id": "DxlnfoCsWBlPz0te",
-      "name": "cursed",
+      "_id": "isZrV1z2eYIq6mpX",
+      "name": "memorial (mourner, vandal, witness)",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -28,7 +28,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!NaZf3Ya2WH979vXO.DxlnfoCsWBlPz0te"
+      "_key": "!tables.results!0W5UT8mY3PikPjLy.isZrV1z2eYIq6mpX"
     },
     {
       "type": "text",
@@ -37,8 +37,8 @@
         3,
         3
       ],
-      "_id": "zhGZsEl7z4PAf88H",
-      "name": "unreliable",
+      "_id": "3bK1873thFxaSUmb",
+      "name": "hostel (manager, tourist, transient)",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -53,7 +53,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!NaZf3Ya2WH979vXO.zhGZsEl7z4PAf88H"
+      "_key": "!tables.results!0W5UT8mY3PikPjLy.3bK1873thFxaSUmb"
     },
     {
       "type": "text",
@@ -62,8 +62,8 @@
         4,
         4
       ],
-      "_id": "IgkIOTGQuhAzsl0z",
-      "name": "xenophobic",
+      "_id": "dHceFJcFeHsaNQP1",
+      "name": "dance club (lurker, bouncer, dancer)",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -78,7 +78,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!NaZf3Ya2WH979vXO.IgkIOTGQuhAzsl0z"
+      "_key": "!tables.results!0W5UT8mY3PikPjLy.dHceFJcFeHsaNQP1"
     },
     {
       "type": "text",
@@ -87,8 +87,8 @@
         5,
         5
       ],
-      "_id": "kXz6giaoygTTDhTF",
-      "name": "watched",
+      "_id": "K2ZVMv160XSKPX4t",
+      "name": "community center (organizer, volunteer, child)",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -103,7 +103,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!NaZf3Ya2WH979vXO.kXz6giaoygTTDhTF"
+      "_key": "!tables.results!0W5UT8mY3PikPjLy.K2ZVMv160XSKPX4t"
     },
     {
       "type": "text",
@@ -112,8 +112,8 @@
         6,
         6
       ],
-      "_id": "EqTPtoR06A76MPP9",
-      "name": "corrupt",
+      "_id": "rkdf8mbs6GMGR85j",
+      "name": "street market (urban farmer, artist, customer)",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -128,7 +128,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!NaZf3Ya2WH979vXO.EqTPtoR06A76MPP9"
+      "_key": "!tables.results!0W5UT8mY3PikPjLy.rkdf8mbs6GMGR85j"
     },
     {
       "type": "text",
@@ -137,8 +137,8 @@
         7,
         7
       ],
-      "_id": "x2gnY5msN1HWHljV",
-      "name": "contested",
+      "_id": "Uxu2XREBghMFTJK3",
+      "name": "art gallery (critic, owner, patron)",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -153,7 +153,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!NaZf3Ya2WH979vXO.x2gnY5msN1HWHljV"
+      "_key": "!tables.results!0W5UT8mY3PikPjLy.Uxu2XREBghMFTJK3"
     },
     {
       "type": "text",
@@ -162,8 +162,8 @@
         8,
         8
       ],
-      "_id": "ypHwjbLq4HhxfqvN",
-      "name": "violent",
+      "_id": "qMbLnxpemFaRgIC3",
+      "name": "dive bar (bartender, regular, underage teenager)",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -178,7 +178,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!NaZf3Ya2WH979vXO.ypHwjbLq4HhxfqvN"
+      "_key": "!tables.results!0W5UT8mY3PikPjLy.qMbLnxpemFaRgIC3"
     },
     {
       "type": "text",
@@ -187,8 +187,8 @@
         9,
         9
       ],
-      "_id": "ioEPb6ol9fvqQXNo",
-      "name": "unstable",
+      "_id": "XdUSnujMkNOtYZcm",
+      "name": "museum (curator, security guard, transient)",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -203,7 +203,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!NaZf3Ya2WH979vXO.ioEPb6ol9fvqQXNo"
+      "_key": "!tables.results!0W5UT8mY3PikPjLy.XdUSnujMkNOtYZcm"
     },
     {
       "type": "text",
@@ -212,8 +212,8 @@
         10,
         10
       ],
-      "_id": "2M9yYyQU7zSZrMPu",
-      "name": "expensive",
+      "_id": "iCvYOkJ9MlZfC5LT",
+      "name": "co-op (organizer, volunteer, community leader)",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -228,7 +228,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!NaZf3Ya2WH979vXO.2M9yYyQU7zSZrMPu"
+      "_key": "!tables.results!0W5UT8mY3PikPjLy.iCvYOkJ9MlZfC5LT"
     },
     {
       "type": "text",
@@ -237,8 +237,8 @@
         11,
         11
       ],
-      "_id": "lK86rliuD1nNLVHF",
-      "name": "despotic",
+      "_id": "zXc7BhvImpqvbSO8",
+      "name": "pop-up (influencer, staff, customer)",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -253,7 +253,7 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!NaZf3Ya2WH979vXO.lK86rliuD1nNLVHF"
+      "_key": "!tables.results!0W5UT8mY3PikPjLy.zXc7BhvImpqvbSO8"
     },
     {
       "type": "text",
@@ -262,8 +262,8 @@
         12,
         12
       ],
-      "_id": "FBWvuzh57Ii0l5UW",
-      "name": "stagnant",
+      "_id": "YFrmG448J01mse6l",
+      "name": "book store (browser, bookseller, lecturer)",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -278,12 +278,12 @@
         "lastModifiedBy": null
       },
       "documentUuid": null,
-      "_key": "!tables.results!NaZf3Ya2WH979vXO.FBWvuzh57Ii0l5UW"
+      "_key": "!tables.results!0W5UT8mY3PikPjLy.YFrmG448J01mse6l"
     }
   ],
   "replacement": true,
   "displayRoll": true,
-  "sort": 0,
+  "sort": 112500,
   "ownership": {
     "default": 0,
     "tolKXMkOd7JsM4Jk": 3
@@ -293,13 +293,13 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.345",
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748581947337,
-    "modifiedTime": 1748582366514,
+    "modifiedTime": 1750823752775,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk"
   },
   "formula": "2d6",
-  "_key": "!tables!NaZf3Ya2WH979vXO"
+  "_key": "!tables!0W5UT8mY3PikPjLy"
 }

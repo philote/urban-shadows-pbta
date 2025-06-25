@@ -13,7 +13,7 @@
         1
       ],
       "_id": "qIBAO94GDxqMRoyQ",
-      "name": "Control",
+      "name": "Downtown Location Control",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -22,11 +22,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
-        "modifiedTime": 1748582067674
+        "modifiedTime": 1750823606121
       },
       "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.NtaylQvUwjoEipr9",
       "_key": "!tables.results!OVPaSg7uk8Bwi1SC.qIBAO94GDxqMRoyQ"
@@ -39,7 +39,7 @@
         1
       ],
       "_id": "G8XyZDh34hLPNFN9",
-      "name": "Type (with common NPCs)",
+      "name": "Downtown Location Type",
       "img": "icons/svg/d20-grey.svg",
       "description": "",
       "drawn": false,
@@ -48,11 +48,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
         "lastModifiedBy": "tolKXMkOd7JsM4Jk",
-        "modifiedTime": 1748582021315
+        "modifiedTime": 1750823609634
       },
       "documentUuid": "Compendium.urban-shadows-pbta.roll-tables.RollTable.POK4nK1ECXTxBLav",
       "_key": "!tables.results!OVPaSg7uk8Bwi1SC.G8XyZDh34hLPNFN9"
