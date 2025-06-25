@@ -13,7 +13,7 @@
         2
       ],
       "_id": "AfI1O2N3S4U5V6W7",
-      "name": "4",
+      "name": "Size: 4",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -22,10 +22,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
-        "lastModifiedBy": null
+        "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+        "modifiedTime": 1750815473810
       },
       "documentUuid": null,
       "_key": "!tables.results!AF5I6O7N8S9UVWXY.AfI1O2N3S4U5V6W7"
@@ -38,7 +39,7 @@
         5
       ],
       "_id": "BfI2O3N4S5U6V7W8",
-      "name": "1",
+      "name": "Size: 1",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -47,10 +48,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
-        "lastModifiedBy": null
+        "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+        "modifiedTime": 1750815500846
       },
       "documentUuid": null,
       "_key": "!tables.results!AF5I6O7N8S9UVWXY.BfI2O3N4S5U6V7W8"
@@ -63,7 +65,7 @@
         8
       ],
       "_id": "CfI3O4N5S6U7V8W9",
-      "name": "2",
+      "name": "Size: 2",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -72,10 +74,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
-        "lastModifiedBy": null
+        "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+        "modifiedTime": 1750815497525
       },
       "documentUuid": null,
       "_key": "!tables.results!AF5I6O7N8S9UVWXY.CfI3O4N5S6U7V8W9"
@@ -88,7 +91,7 @@
         11
       ],
       "_id": "DfI4O5N6S7U8V9WA",
-      "name": "3",
+      "name": "Size: 3",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -97,10 +100,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
-        "lastModifiedBy": null
+        "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+        "modifiedTime": 1750815495042
       },
       "documentUuid": null,
       "_key": "!tables.results!AF5I6O7N8S9UVWXY.DfI4O5N6S7U8V9WA"
@@ -113,7 +117,7 @@
         12
       ],
       "_id": "EfI5O6N7S8U9VAWB",
-      "name": "4",
+      "name": "Size: 4",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -122,10 +126,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
-        "lastModifiedBy": null
+        "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+        "modifiedTime": 1750815491593
       },
       "documentUuid": null,
       "_key": "!tables.results!AF5I6O7N8S9UVWXY.EfI5O6N7S8U9VAWB"

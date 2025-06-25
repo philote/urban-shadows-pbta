@@ -1,0 +1,21 @@
+{
+  "type": "RollTable",
+  "folder": "N9rS5uV8wX1yY4zB",
+  "name": "University NPCs Sub-tables",
+  "color": null,
+  "sorting": "a",
+  "_id": "6h41aQSu1j6cw8EF",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!6h41aQSu1j6cw8EF"
+}

@@ -13,7 +13,7 @@
         2
       ],
       "_id": "AfO1N2S3U4V5W6X7",
-      "name": "4",
+      "name": "Strength: 4",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -22,10 +22,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
-        "lastModifiedBy": null
+        "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+        "modifiedTime": 1750815552011
       },
       "documentUuid": null,
       "_key": "!tables.results!AF6O7N8S9UVWXYZ1.AfO1N2S3U4V5W6X7"
@@ -38,7 +39,7 @@
         5
       ],
       "_id": "BfO2N3S4U5V6W7X8",
-      "name": "1",
+      "name": "Strength: 1",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -47,10 +48,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
-        "lastModifiedBy": null
+        "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+        "modifiedTime": 1750815549197
       },
       "documentUuid": null,
       "_key": "!tables.results!AF6O7N8S9UVWXYZ1.BfO2N3S4U5V6W7X8"
@@ -63,7 +65,7 @@
         8
       ],
       "_id": "CfO3N4S5U6V7W8X9",
-      "name": "2",
+      "name": "Strength: 2",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -72,10 +74,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
-        "lastModifiedBy": null
+        "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+        "modifiedTime": 1750815546936
       },
       "documentUuid": null,
       "_key": "!tables.results!AF6O7N8S9UVWXYZ1.CfO3N4S5U6V7W8X9"
@@ -88,7 +91,7 @@
         11
       ],
       "_id": "DfO4N5S6U7V8W9XA",
-      "name": "3",
+      "name": "Strength: 3",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -97,10 +100,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
-        "lastModifiedBy": null
+        "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+        "modifiedTime": 1750815544530
       },
       "documentUuid": null,
       "_key": "!tables.results!AF6O7N8S9UVWXYZ1.DfO4N5S6U7V8W9XA"
@@ -113,7 +117,7 @@
         12
       ],
       "_id": "EfO5N6S7U8V9WAXB",
-      "name": "4",
+      "name": "Strength: 4",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -122,10 +126,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.345",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
-        "lastModifiedBy": null
+        "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+        "modifiedTime": 1750815541550
       },
       "documentUuid": null,
       "_key": "!tables.results!AF6O7N8S9UVWXYZ1.EfO5N6S7U8V9WAXB"

@@ -13,7 +13,7 @@
         2
       ],
       "_id": "DfS1I2Z3E4D5I6S7",
-      "name": "4",
+      "name": "Size: 4",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -38,7 +38,7 @@
         5
       ],
       "_id": "EfS2I3Z4E5D6I7S8",
-      "name": "1",
+      "name": "Size: 1",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -63,7 +63,7 @@
         8
       ],
       "_id": "FfS3I4Z5E6D7I8S9",
-      "name": "2",
+      "name": "Size: 2",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -88,7 +88,7 @@
         11
       ],
       "_id": "GfS4I5Z6E7D8I9S0",
-      "name": "3",
+      "name": "Size: 3",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -113,7 +113,7 @@
         12
       ],
       "_id": "HfS5I6Z7E8D9I0S1",
-      "name": "4",
+      "name": "Size: 4",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,

@@ -1,0 +1,21 @@
+{
+  "type": "RollTable",
+  "folder": "M8qR4tU7vW0xY3zA",
+  "name": "Downtown NPCs Sub-tables",
+  "color": null,
+  "sorting": "a",
+  "_id": "0NYTE6DF4alf17dZ",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!0NYTE6DF4alf17dZ"
+}

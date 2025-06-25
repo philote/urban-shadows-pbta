@@ -13,7 +13,7 @@
         2
       ],
       "_id": "UfS1T2R3E4N5G6T7",
-      "name": "4",
+      "name": "Strength: 4",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -38,7 +38,7 @@
         5
       ],
       "_id": "VfS2T3R4E5N6G7T8",
-      "name": "1",
+      "name": "Strength: 1",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -63,7 +63,7 @@
         8
       ],
       "_id": "WfS3T4R5E6N7G8T9",
-      "name": "2",
+      "name": "Strength: 2",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -88,7 +88,7 @@
         11
       ],
       "_id": "XfS4T5R6E7N8G9T0",
-      "name": "3",
+      "name": "Strength: 3",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -113,7 +113,7 @@
         12
       ],
       "_id": "YfS5T6R7E8N9G0T1",
-      "name": "4",
+      "name": "Strength: 4",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,

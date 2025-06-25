@@ -1,0 +1,21 @@
+{
+  "type": "RollTable",
+  "folder": "N9rS5uV8wX1yY4zB",
+  "name": "University Factions Sub-tables",
+  "color": null,
+  "sorting": "a",
+  "_id": "z0Nu3MDN2RuzIuCJ",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!z0Nu3MDN2RuzIuCJ"
+}
