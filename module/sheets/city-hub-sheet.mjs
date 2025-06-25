@@ -19,13 +19,11 @@ export function UrbanShadowsCityHubSheetMixin(Base) {
         /** @override */
 		async getData() {
 			const context = await super.getData();
-            if (this.actor.baseType === 'npc') {
-				const attributes = context.system.attributes;
-				const connectionsAttributes = this._getAttributes("connections", attributes);
-				context.system.connectionsAttributes = connectionsAttributes;
-				const tablesAttributes = this._getAttributes("tables", attributes);
-				context.system.tablesAttributes = tablesAttributes;
-            }
+            const attributes = context.system.attributes;
+			const connectionsAttributes = this._getAttributes("connections", attributes);
+			context.system.connectionsAttributes = connectionsAttributes;
+			const tablesAttributes = this._getAttributes("tables", attributes);
+			context.system.tablesAttributes = tablesAttributes;
 			return context;
 		}
 

@@ -1577,7 +1577,7 @@ export const configSheet = async () => {
             },
             'urban-shadows-pbta.city-hub': {
                 label: game.i18n.localize("US2E.CityHubSheets.label"),
-                baseType: "npc",
+                baseType: "character",
                 attributes: {
                     residents: {
                         label: game.i18n.localize("US2E.CityHubSheets.attributes.residentsLabel"),

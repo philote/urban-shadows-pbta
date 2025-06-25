@@ -1,5 +1,5 @@
 {
-    "TYPES.urban-shadows-pbta.city-hub": "City Hub",
+    "TYPES.Actor.city-hub": "City Hub",
     "US2E": {
         "SheetConfig": {
             "character": "Urban Shadows Character Sheet",

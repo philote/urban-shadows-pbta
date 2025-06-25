@@ -26,9 +26,9 @@ Hooks.once('init', () => {
 
      // Urban Shadows City Hub Sheet Setup
     CONFIG.Actor.dataModels['urban-shadows-pbta.city-hub'] = CityHubModel;
-	CONFIG.Actor.typeLabels['urban-shadows-pbta.city-hub'] = 'TYPES.urban-shadows-pbta.city-hub';
+	CONFIG.Actor.typeLabels['urban-shadows-pbta.city-hub'] = 'TYPES.Actor.city-hub';
 	const urbanShadowsCityHubSheet = UrbanShadowsCityHubSheetMixin(
-		game.pbta.applications.actor.PbtaActorNpcSheet
+		game.pbta.applications.actor.PbtaActorSheet
 	);
 	Actors.registerSheet("urban-shadows-pbta", urbanShadowsCityHubSheet, {
 		types: ["urban-shadows-pbta.city-hub"],
