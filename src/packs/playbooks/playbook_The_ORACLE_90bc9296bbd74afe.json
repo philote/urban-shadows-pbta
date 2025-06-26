@@ -558,7 +558,7 @@
       },
       "TheOracleBenefactor": {
         "label": "YOUR BENEFACTOR",
-        "description": "You have a benefactor, a powerful NPC whose fate is intertwined with your own; you came into their service as a result of your prophetic visions, but they now demand more and more from you and your powers. Name their Circle—Mortalis, Night, Power, or Wild—and choose the prophecy that binds you together, two strengths, and two flaws: <p>(Ask the MC what life your benefactor has provided for you after you make your choices. Their continued largesse depends on how well you serve their interests.)</p>",
+        "description": "You have a benefactor, a powerful NPC whose fate is intertwined with your own; you came into their service as a result of your prophetic visions, but they now demand more and more from you and your powers. Name their Circle—Mortalis, Night, Power, or Wild—and choose the prophecy that binds you together, two strengths, and two flaws: (Ask the MC what life your benefactor has provided for you after you make your choices. Their continued largesse depends on how well you serve their interests.)",
         "value": "<p><b>NAME:</b> </p><p><b>CIRCLE:</b> </p>",
         "type": "LongText",
         "choices": [
@@ -837,7 +837,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1750890716727,
+    "modifiedTime": 1750907037614,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

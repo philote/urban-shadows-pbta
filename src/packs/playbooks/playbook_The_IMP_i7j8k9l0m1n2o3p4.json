@@ -558,7 +558,7 @@
       },
       "TheImpEstablishmentServices": {
         "label": "YOUR ESTABLISHMENT",
-        "description": "You once served a powerful demon, but you seized upon a loophole in your contracted fealty and won your freedom. Now you cater to supernatural clientele from all four Circles, securing your place in this world...for now. By default, your establishment has a permanent location, a small but loyal staff, and many regular customers. <br>Choose two services you offer:",
+        "description": "You once served a powerful demon, but you seized upon a loophole in your contracted fealty and won your freedom. Now you cater to supernatural clientele from all four Circles, securing your place in this world...for now. By default, your establishment has a permanent location, a small but loyal staff, and many regular customers. Choose two services you offer:",
         "type": "ListMany",
         "options": {
           "0": {
@@ -726,7 +726,7 @@
       },
       "TheImpSchemesText": {
         "label": "YOUR SCHEMES",
-        "description": "Schemes are risky deals and shady cons designed to expand your business. When you generate a scheme, choose a primary Circle, one of your services, and two complications—the MC will tell you what opportunity you’ve seized upon. When you accomplish a scheme, select two boons and a payout; the MC will detail how they arrive. Generate a scheme whenever a boon or a move tells you to generate a new scheme.<br><strong>COMPLICATIONS</strong><br><ul><li>you promised someone involved something you don’t yet have</li><li>you require an unreliable or untrustworthy co-conspirator</li><li>you must fool or deceive a powerful and dangerous NPC</li><li>you need to steal something from a secure location</li><li>you need to wait for a predetermined time or event</li><li>you have attracted the attention of dangerous opposition</li></ul><br><strong>BOONS</strong><br><ul><li>attract new business; generate a new scheme</li><li>pay down your debts; cancel a Debt you owe</li><li>throw your weight around; take a Debt on an NPC</li><li>grow your reputation; mark a Circle affected by the deal</li></ul><br><strong>PAYOUTS</strong><br>",
+        "description": "Schemes are risky deals and shady cons designed to expand your business. When you generate a scheme, choose a primary Circle, one of your services, and two complications—the MC will tell you what opportunity you've seized upon. When you accomplish a scheme, select two boons and a payout; the MC will detail how they arrive. Generate a scheme whenever a boon or a move tells you to generate a new scheme. COMPLICATIONS: • you promised someone involved something you don't yet have • you require an unreliable or untrustworthy co-conspirator • you must fool or deceive a powerful and dangerous NPC • you need to steal something from a secure location • you need to wait for a predetermined time or event • you have attracted the attention of dangerous opposition. BOONS: • attract new business; generate a new scheme • pay down your debts; cancel a Debt you owe • throw your weight around; take a Debt on an NPC • grow your reputation; mark a Circle affected by the deal.",
         "type": "Text",
         "choices": [
           {
@@ -999,7 +999,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1750894820350,
+    "modifiedTime": 1750906721813,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

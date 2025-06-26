@@ -558,7 +558,7 @@
       },
       "TheHunterSocietyPrey": {
         "label": "YOUR SOCIETY",
-        "description": "You belong to a society of hunters, an affiliation of fellow mortals who stalk dangerous prey to protect the mortal world from the supernatural. Tell your MC to stat up your society as a Size-2, Strength-2 faction within Mortalis. <br>WHAT IS YOUR PREY?",
+        "description": "You belong to a society of hunters, an affiliation of fellow mortals who stalk dangerous prey to protect the mortal world from the supernatural. Tell your MC to stat up your society as a Size-2, Strength-2 faction within Mortalis.  WHAT IS YOUR PREY?",
         "type": "ListMany",
         "options": {
           "0": {
@@ -825,7 +825,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1750894781967,
+    "modifiedTime": 1750906996484,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

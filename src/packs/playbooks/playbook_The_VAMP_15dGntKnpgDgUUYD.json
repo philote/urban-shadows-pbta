@@ -563,7 +563,7 @@
         "value": "<p>When someone comes to you to ask for a favor, seek advice, bargain for info, or threaten your interests, they enter your web and owe you a Debt...even if you don't offer them anything in return. People leave your web only when they no longer owe you a Debt. When someone is in your web, you gain the following:</p><ul><li>Take +1 ongoing to lend them a hand or get in their way</li><li>Add the following option whenever you figure them out: \\\"what is your character's true hunger?\\\"</li><li>Spend a Debt (before rolling) when persuading them to advance persuade for the roll in addition to adding +3 to your total</li></ul><p>When time passes—or at the start of the game—choose someone in your web and learn a secret about them that they'd rather keep buried. Mark corruption to ask a follow-up question about the answer; their player must answer you honestly.</p>",
         "choices": [
           {
-            "value": "<p>When someone comes to you to ask for a favor, seek advice, bargain for info, or threaten your interests, they enter your web and owe you a Debt...even if you don't offer them anything in return. People leave your web only when they no longer owe you a Debt. When someone is in your web, you gain the following:</p><ul><li>Take +1 ongoing to lend them a hand or get in their way</li><li>Add the following option whenever you figure them out: \\\"what is your character's true hunger?\\\"</li><li>Spend a Debt (before rolling) when persuading them to advance persuade for the roll in addition to adding +3 to your total</li></ul><p>When time passes—or at the start of the game—choose someone in your web and learn a secret about them that they'd rather keep buried. Mark corruption to ask a follow-up question about the answer; their player must answer you honestly.</p>",
+            "value": "<p>When someone comes to you to ask for a favor, seek advice, bargain for info, or threaten your interests, they enter your web and owe you a Debt...even if you don't offer them anything in return. People leave your web only when they no longer owe you a Debt. When someone is in your web, you gain the following:</p><ul><li>Take +1 ongoing to lend them a hand or get in their way</li><li>Add the following option whenever you figure them out: \"what is your character's true hunger?\"</li><li>Spend a Debt (before rolling) when persuading them to advance persuade for the roll in addition to adding +3 to your total</li></ul><p>When time passes—or at the start of the game—choose someone in your web and learn a secret about them that they'd rather keep buried. Mark corruption to ask a follow-up question about the answer; their player must answer you honestly.</p>",
             "options": {}
           }
         ],
@@ -608,7 +608,45 @@
             "value": false
           }
         },
-        "choices": [],
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "a flashy nightclub",
+                "value": false
+              },
+              "1": {
+                "label": "an oversized restaurant",
+                "value": false
+              },
+              "2": {
+                "label": "an outdated library",
+                "value": false
+              },
+              "3": {
+                "label": "a public transport station",
+                "value": false
+              },
+              "4": {
+                "label": "a restored theater",
+                "value": false
+              },
+              "5": {
+                "label": "a religious hospital",
+                "value": false
+              },
+              "6": {
+                "label": "a historic hotel",
+                "value": false
+              },
+              "7": {
+                "label": "an open-air market",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
         "custom": false,
         "path": "attributes"
       },
@@ -638,7 +676,33 @@
             "value": false
           }
         },
-        "choices": [],
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "your harbor is popular with ordinary mortals, giving you easy access to unsuspecting prey",
+                "value": false
+              },
+              "1": {
+                "label": "your harbor hosts a way to quickly dispose of bodies, attracting little to no suspicion",
+                "value": false
+              },
+              "2": {
+                "label": "your harbor is directly controlled by an allied Status-3 NPC from Night, granting you some limited protections",
+                "value": false
+              },
+              "3": {
+                "label": "your harbor allows you a space to entertain and entrance admirers, bringing in a steady stream of gifts and favors",
+                "value": false
+              },
+              "4": {
+                "label": "your harbor is staffed by ghouls loyal to you, bringing you news of anything they hear or see",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
         "custom": false,
         "path": "attributes"
       },
@@ -668,7 +732,33 @@
             "value": false
           }
         },
-        "choices": [],
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "your harbor lies within the territory of a Status-3 vampire lord; they often demand tribute and Debts",
+                "value": false
+              },
+              "1": {
+                "label": "your harbor is home to a number of ghostly entities; they range from mildly annoying to deeply dangerous",
+                "value": false
+              },
+              "2": {
+                "label": "your harbor has attracted the attention of a dedicated group of mortal hunters; they may soon make their move",
+                "value": false
+              },
+              "3": {
+                "label": "your harbor is constantly busy, day and night; those who frequent it make strict security impossible",
+                "value": false
+              },
+              "4": {
+                "label": "your harbor is closely tied to several mortals you care for; they have been thrust into the supernatural world by your unlife",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
         "custom": false,
         "path": "attributes"
       }
@@ -829,7 +919,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1750892047013,
+    "modifiedTime": 1750907225885,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

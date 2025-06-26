@@ -582,7 +582,33 @@
             "value": false
           }
         },
-        "choices": [],
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "Your territory spans several city blocks you've owned for years (add blessing: +influence)",
+                "value": false
+              },
+              "1": {
+                "label": "People in your territory work hard to keep the streets safe (remove +crime)",
+                "value": false
+              },
+              "2": {
+                "label": "You are widely accepted as this place's protector (add blessing: +supported)",
+                "value": false
+              },
+              "3": {
+                "label": "Your territory includes open grounds for you to roam and hunt (add blessing: +sanctuary)",
+                "value": false
+              },
+              "4": {
+                "label": "You've made a deal with someone, or something, to protect your territory when you're not around (add blessing: +guardian)",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
         "custom": false,
         "path": "attributes"
       },
@@ -612,7 +638,33 @@
             "value": false
           }
         },
-        "choices": [],
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "Your territory owes fealty to someone more powerful than you (add trouble: +obligations)",
+                "value": false
+              },
+              "1": {
+                "label": "A Status-3 NPC wants your territory and is working to get it (add trouble: +encroachment)",
+                "value": false
+              },
+              "2": {
+                "label": "Mortals in the area are actively trying to revitalize local businesses and infrastructure (add trouble: +upheaval)",
+                "value": false
+              },
+              "3": {
+                "label": "Your territory is plagued by a mystical or supernatural presence (add trouble: +haunted)",
+                "value": false
+              },
+              "4": {
+                "label": "You have offered protection within your territory to someone, and now their problems are yours (add trouble: +fealty)",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
         "custom": false,
         "path": "attributes"
       },
@@ -646,7 +698,37 @@
             "value": false
           }
         },
-        "choices": [],
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "You are massive: gain armor+1 and harm +1",
+                "value": false
+              },
+              "1": {
+                "label": "You are savage: your harm is armor piercing (ap) and messy",
+                "value": false
+              },
+              "2": {
+                "label": "You are versatile: take +1 ongoing to letting it out",
+                "value": false
+              },
+              "3": {
+                "label": "You are swift: take +1 ongoing to escaping",
+                "value": false
+              },
+              "4": {
+                "label": "You are cunning: take +1 ongoing to keeping your cool",
+                "value": false
+              },
+              "5": {
+                "label": "You are steadfast: you fight like a small group against groups",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
         "custom": false,
         "path": "attributes"
       },
@@ -680,7 +762,37 @@
             "value": false
           }
         },
-        "choices": [],
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "Silver weapons ignore your armor and inflict harm+1",
+                "value": false
+              },
+              "1": {
+                "label": "Sometimes you lose control while transformed",
+                "value": false
+              },
+              "2": {
+                "label": "Sometimes you transform when you are stressed or angry",
+                "value": false
+              },
+              "3": {
+                "label": "The transformation is brief; you shift back at the end of a scene",
+                "value": false
+              },
+              "4": {
+                "label": "The transformation is violent and painful; suffer 1-harm (ap)",
+                "value": false
+              },
+              "5": {
+                "label": "The transformation draws the attention of supernatural creatures",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
         "custom": false,
         "path": "attributes"
       }
@@ -841,7 +953,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1750892937544,
+    "modifiedTime": 1750907350841,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },

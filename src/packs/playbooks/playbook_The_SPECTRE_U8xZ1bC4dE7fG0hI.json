@@ -573,7 +573,7 @@
       },
       "TheSpectreAnchors": {
         "label": "ANCHORS",
-        "description": "You have several anchors in the city—important places, people, or objects that keep you from moving on. You might have an opportunity to put an anchor to rest, but anchors can also be ruined or destroyed.<br>CHOOSE 4:<br>When one of your anchors is put in danger, you know; mark trauma and take a +1 ongoing to all moves until you see it to safety. When you resolve an anchor, clear your trauma track and erase a corruption advance; when an anchor is destroyed or ruined, fill your trauma track and take a corruption advance.",
+        "description": "You have several anchors in the city—important places, people, or objects that keep you from moving on. You might have an opportunity to put an anchor to rest, but anchors can also be ruined or destroyed. CHOOSE 4: When one of your anchors is put in danger, you know; mark trauma and take a +1 ongoing to all moves until you see it to safety. When you resolve an anchor, clear your trauma track and erase a corruption advance; when an anchor is destroyed or ruined, fill your trauma track and take a corruption advance.",
         "type": "ListMany",
         "options": {
           "0": {
@@ -653,7 +653,7 @@
       },
       "TheSpectrePassingOn": {
         "label": "PASSING ON",
-        "description": "When your last anchor is resolved or destroyed, you pass on; pick one blessing or haunting you bestow upon the city for each one of your anchors that was resolved or destroyed, respectively. If all four of your anchors are destroyed, you do not pass on, but are instead swallowed by oblivion and inflict all three hauntings. <br>BLESSINGS",
+        "description": "When your last anchor is resolved or destroyed, you pass on; pick one blessing or haunting you bestow upon the city for each one of your anchors that was resolved or destroyed, respectively. If all four of your anchors are destroyed, you do not pass on, but are instead swallowed by oblivion and inflict all three hauntings.  BLESSINGS",
         "type": "ListMany",
         "options": {
           "0": {
@@ -850,7 +850,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1750891287038,
+    "modifiedTime": 1750907105045,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },
