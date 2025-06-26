@@ -1,8 +1,5 @@
 # Urban Shadows 2E (PbtA) (Unofficial)
 
-> [!Warning]
-> This module is still in development, use with caution.
-
 <p align="center">
     <img alt="Foundry Version 13 support" src="https://img.shields.io/badge/Foundry-v13-informational">
     <img alt="Latest Release Download Count" src="https://img.shields.io/github/downloads/philote/urban-shadows-pbta/latest/total"> 
