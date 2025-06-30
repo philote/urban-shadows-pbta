@@ -262,6 +262,13 @@
 .vtt div[id^=UrbanShadowsActorSheet-Actor] .sheet-attributes .cell--stats .stat {
   min-width: 140px;
 }
+.vtt div[id^=PbtaActorSheet] .sheet-attributes .cell--stats .stat .stat-toggle,
+.vtt div[id^=UrbanShadowsActorSheet-Actor] .sheet-attributes .cell--stats .stat .stat-toggle {
+  display: inline-flex;
+  width: fit-content;
+  height: fit-content;
+  align-items: flex-start;
+}
 .vtt div[id^=PbtaActorSheet] .sheet-attributes .cell--stats .stat:nth-child(n+5),
 .vtt div[id^=UrbanShadowsActorSheet-Actor] .sheet-attributes .cell--stats .stat:nth-child(n+5) {
   background-color: rgb(27, 3, 40) !important;

@@ -750,12 +750,12 @@
             "startup": {
                 "name": "First Time Startup",
                 "dialog": {
-                    "title": "Welcome to PbtA Template",
+                    "title": "Welcome to Urban Shadows 2e",
                     "content": "Would you like to use this module's custom startup screen?"
                 }
             },
             "img": {
-                "name": "Use the Module Login Image?",
+                "name": "Use the Urban Shadows 2e Login Image?",
                 "hint": "If set to true: use the module login img; if set to false: use the default or user set login image."
             }
         }

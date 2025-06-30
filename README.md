@@ -65,6 +65,7 @@ You can install the latest released version of the module by using this manifest
 
 ## TODO
 - Improve NPC sheets
+- Add tags to the PbtA tag lists
 - Relationship and debt tracking on sheets
 
 # License & Acknowledgements

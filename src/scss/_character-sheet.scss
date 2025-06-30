@@ -27,6 +27,13 @@
     .cell--stats{
         .stat {
             min-width: 140px;
+
+            .stat-toggle {
+                display: inline-flex;
+                width: fit-content;
+                height: fit-content;
+                align-items: flex-start;
+            }
             
             &:nth-child(n + 5) {
                 background-color: colors.$c-dark-purple !important;

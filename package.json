@@ -16,10 +16,8 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "@eslint/js": "^9.16.0",
     "@foundryvtt/foundryvtt-cli": "^1.0.3",
     "dotenv": "^16.4.5",
-    "eslint": "^9.16.0",
     "globals": "^15.13.0",
     "sass": "^1.53.0"
   },
