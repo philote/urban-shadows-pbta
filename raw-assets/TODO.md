@@ -11,29 +11,8 @@ GM Actor
 - Looks pretty meh, so a design pass and maybe layout rework
 - Add the debt solution from Characters *(see above)*
 
-## Faction -> move this to an item so it can live on City Hubs
-GM Item
-- turn faction actor into a faction item (do not delete the current faction actor code)
-
-## City Hub Actor
-GM Actor for tracking city hub data.
-can use the faction actor as a guide
-- picture
-- name
-- description
-- list of Residents (NPCs + other info) (links in actors)
-- list of relationships (or just have them on the PC sheet?) - linked to PC sheets? (Debts are a factor here) (links in actors)
-- list of Hub Moves
-- Hub tables [locations, rumors, factions, npcs]
-    - and lists of created items from tables
-
 ## extra nice features
 - A sheet that shows all debts relationships
-- New Item: Debts?
-
-## Item/Actor clean up
-- finish creating hub tables
-- add good html and styles to to playbook descriptions
 
 -----------------------
 -----------------------
