@@ -5,7 +5,7 @@
   "_id": "fad3fd847c7c4ded",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you hunt someone down, roll with Blood. On a hit, you know exactly where to find them and can follow their scent until you do. On a 10+, you find them alone or vulnerable; take +1 forward against them. On a miss, someone unpleasant finds you first.</p>",
+    "description": "<p>When you hunt someone down, roll with Blood. On a hit, you know exactly where to find them and can follow their scent until you do. On a 10+, you find them alone or vulnerable; take +1 forward against them.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {

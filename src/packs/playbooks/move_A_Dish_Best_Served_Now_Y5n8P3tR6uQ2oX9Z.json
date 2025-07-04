@@ -5,7 +5,7 @@
   "_id": "Y5n8P3tR6uQ2oX9Z",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you commit to enacting revenge on behalf of someone (including yourself) wronged by another, gain +1 ongoing against the target of that vengeance. For every scene in which you do not pursue vengeance, suffer 1-harm (ap).</p>",
+    "description": "<p>When you commit to enacting revenge on behalf of someone (including yourself) wronged by another, gain +1 ongoing against the target of that vengeance. For every scene in which you do not pursue vengeance after committing to it, suffer 1-harm (ap).</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {

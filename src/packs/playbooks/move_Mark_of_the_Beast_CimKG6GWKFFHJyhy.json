@@ -5,7 +5,7 @@
   "_id": "CimKG6GWKFFHJyhy",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you mark a building with your signs or sigils, roll with Spirit. On a hit, you lay claim to the location for the next few days. On a 10+, all 3. On a 7-9, pick 1. At any distance, you can:</p><ul><li>sense who is in the building at all times</li><li>control the doors, locks, and windows</li><li>conceal the building’s location or true function</li></ul><p>On a miss, your attempt to claim the building awakens a sleeping or passive threat you had not considered; the MC will tell you who you angered with your impulsive claim.</p>",
+    "description": "<p>When you mark a building with your signs or sigils, roll with Spirit. On a hit, you lay claim to the location for the next few days. On a 10+, all 3. On a 7-9, pick 1. At any distance, you can:</p><ul><li>sense who is in the building at all times</li><li>control the doors, locks, and windows</li><li>conceal the building’s location or true function</li></ul>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {

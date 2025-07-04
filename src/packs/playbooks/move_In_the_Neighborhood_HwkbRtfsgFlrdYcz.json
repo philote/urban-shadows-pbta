@@ -5,7 +5,7 @@
   "_id": "HwkbRtfsgFlrdYcz",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you hit the streets with someone who owes you a Debt, you can invoke a Debt before rolling to add +3 to your roll. If you get a hit, you also catch them in the middle of a compromising or vulnerable situation; take +1 ongoing against them for the scene.</p>",
+    "description": "<p>When you hit the streets with someone who owes you a Debt, you can invoke a Debt before rolling to add +3 to your roll. If you get a hit, you also catch them in the middle of a compromising or vulnerable situation.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
