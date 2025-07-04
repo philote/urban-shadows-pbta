@@ -9,7 +9,7 @@
     "stats": {
       "blood": {
         "label": "Blood",
-        "value": -1,
+        "value": 0,
         "steps": {
           "value": 0,
           "max": 3
@@ -25,7 +25,7 @@
       },
       "mind": {
         "label": "Mind",
-        "value": 0,
+        "value": -1,
         "steps": {
           "value": 0,
           "max": 3
@@ -41,7 +41,7 @@
       },
       "mortalis": {
         "label": "Mortalis",
-        "value": 0,
+        "value": 1,
         "steps": {
           "value": 0,
           "max": 3
@@ -49,7 +49,7 @@
       },
       "night": {
         "label": "Night",
-        "value": -1,
+        "value": 0,
         "steps": {
           "value": 0,
           "max": 3
@@ -65,7 +65,7 @@
       },
       "wild": {
         "label": "Wild",
-        "value": 1,
+        "value": -1,
         "steps": {
           "value": 0,
           "max": 3
