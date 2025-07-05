@@ -35,9 +35,6 @@ packs/*
 #OS
 .DS_Store
 
-# Pbta Template
-build/
-
 # Foundry code base symlinks
 foundry-config.yaml
 foundry
