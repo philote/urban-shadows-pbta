@@ -44,6 +44,6 @@ foundry
 
 # Environment variables
 .env
-# CLAUDE.md
-raw-assets/UrbanShadows2-CoreBook2.md
+CLAUDE.md
 assets/scenes/*
+raw-assets/coding-assets/*
