@@ -41,6 +41,8 @@ foundry
 
 # Environment variables
 .env
+
+# Other
 CLAUDE.md
+.claude/
 assets/scenes/*
-raw-assets/coding-assets/*
