@@ -1,0 +1,36 @@
+{
+  "name": "Grenade",
+  "type": "equipment",
+  "_id": "MdxWsBKHTbAKADVk",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/grenade.svg",
+  "system": {
+    "description": "",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "[{\"value\":\"3-harm\"},{\"value\":\"US2E.Tags.equipment.close.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.close.description\"},{\"value\":\"US2E.Tags.equipment.area.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.area.description\"},{\"value\":\"US2E.Tags.equipment.concealable.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.concealable.description\"},{\"value\":\"US2E.Tags.equipment.messy.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.messy.description\"}]",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "WynALakZJf661YU1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1756449502645,
+    "modifiedTime": 1756449602066,
+    "lastModifiedBy": "WynALakZJf661YU1"
+  },
+  "_key": "!items!MdxWsBKHTbAKADVk"
+}

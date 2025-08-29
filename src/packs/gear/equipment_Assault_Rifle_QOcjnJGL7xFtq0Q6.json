@@ -1,0 +1,36 @@
+{
+  "name": "Assault Rifle",
+  "type": "equipment",
+  "_id": "QOcjnJGL7xFtq0Q6",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/famas.svg",
+  "system": {
+    "description": "",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "[{\"value\":\"3-harm\"},{\"value\":\"US2E.Tags.equipment.near.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.near.description\"},{\"value\":\"US2E.Tags.equipment.far.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.far.description\"},{\"value\":\"US2E.Tags.equipment.autofire.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.autofire.description\"},{\"value\":\"US2E.Tags.equipment.loud.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.loud.description\"}]",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "WynALakZJf661YU1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1756448980486,
+    "modifiedTime": 1756449183627,
+    "lastModifiedBy": "WynALakZJf661YU1"
+  },
+  "_key": "!items!QOcjnJGL7xFtq0Q6"
+}

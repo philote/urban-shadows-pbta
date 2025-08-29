@@ -111,6 +111,10 @@ Andromeda chain icon by Lorc under CC BY 3.0
 Lee Enfield icon by Skoll under CC BY 3.0
 MP40 icon by Skoll under CC BY 3.0
 Bo icon by Delapouite under CC BY 3.0
+Famas icon by Skoll under CC BY 3.0
+Brass knuckles icon by Delapouite under CC BY 3.0
+Winchester rifle icon by Skoll under CC BY 3.0
+Grenade icon by Lorc under CC BY 3.0
 
 City Hub header image:
 “<a href="https://www.flickr.com/photos/dexxus/358919966" title="city of lights">city of lights</a>” by <a href="https://www.flickr.com/photos/dexxus/">paul bica</a>, <a href="https://creativecommons.org/licenses/by/2.0/deed.en" rel="license noopener noreferrer">CC BY 2.0</a>
