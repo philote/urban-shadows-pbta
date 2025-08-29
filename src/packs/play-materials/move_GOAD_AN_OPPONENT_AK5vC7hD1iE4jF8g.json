@@ -5,7 +5,7 @@
   "_id": "AK5vC7hD1iE4jF8g",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When a <em><strong>faction tries to goad an opponent into making a mistake</strong></em>, roll with the difference between the two factions' Strengths.</p>",
+    "description": "<p>When a faction tries to goad an opponent into making a mistake, roll with the difference between the two factions' Strengths.</p>",
     "moveType": "",
     "rollFormula": "",
     "moveResults": {
@@ -42,12 +42,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1748493194026,
-    "modifiedTime": 1749792162389,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756438460890,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!AK5vC7hD1iE4jF8g"
 }

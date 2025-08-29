@@ -5,24 +5,24 @@
   "_id": "SC7nU9zV3aW6bX2y",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you <em><strong>make a Circle move, make a city move, trigger an intimacy move, cash in a Debt or honor a Debt, lend a hand or get in the way</strong></em>, mark the Circle involved.</p>",
+    "description": "<p>When you make a <em><strong>Circle move</strong></em>, make a <em><strong>city move</strong></em>, trigger an <em><strong>intimacy move</strong></em>, <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.VF0qX2cY6dZ9eA5b]{cash in a Debt}</strong></em> or <em><strong>honor a Debt</strong></em>, lend a hand or <em><strong>get in the way</strong></em>, mark the Circle involved.</p>",
     "moveType": "circle",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": "<p>The MC tells you what interesting thing happens.</p>"
+        "value": ""
       },
       "weakHit": {
         "key": "system.moveResults.weakHit.value",
         "label": "Weak Hit",
-        "value": "<p>When you've marked all four Circles, erase the marks and advance.</p>"
+        "value": ""
       },
       "strongHit": {
         "key": "system.moveResults.strongHit.value",
         "label": "Strong Hit",
-        "value": "<p>When you've marked all four Circles, erase the marks and advance.</p>"
+        "value": ""
       }
     },
     "uses": 0,
@@ -42,12 +42,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.20",
+    "systemVersion": "1.1.21",
     "createdTime": 1748493194026,
-    "modifiedTime": 1748493681109,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756435753911,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!SC7nU9zV3aW6bX2y"
 }

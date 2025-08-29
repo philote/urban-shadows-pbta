@@ -5,14 +5,14 @@
   "_id": "Pz4kR6wS0xT3yU9v",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you <em><strong>put a name to a face or vice versa</strong></em>, roll with their <strong>Circle</strong>.</p>",
+    "description": "<p>When you <em><strong>put a name to a face </strong>or vice versa</em>, roll with their Circle.</p>",
     "moveType": "circle",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": "<p>The MC tells you what interesting thing happens.</p><p>On a miss, you don't know them or you owe them, MC's choice.</p>"
+        "value": "<p>On a miss, you don't know them or you owe them, MC's choice.</p>"
       },
       "weakHit": {
         "key": "system.moveResults.weakHit.value",
@@ -22,7 +22,7 @@
       "strongHit": {
         "key": "system.moveResults.strongHit.value",
         "label": "Strong Hit",
-        "value": "<p>On a hit, you know their reputation; the MC will tell you what most people know about them. On a 10+, you've dealt with them before; learn something interesting and useful about them or they owe you a Debt, your choice.</p>"
+        "value": "<p>On a hit, you know their reputation; the MC will tell you what most people know about them. </p><p>On a 10+, you've dealt with them before; learn something interesting and useful about them or they owe you a Debt, your choice.</p>"
       }
     },
     "uses": 0,
@@ -42,12 +42,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.20",
+    "systemVersion": "1.1.21",
     "createdTime": 1748493194026,
-    "modifiedTime": 1748493681109,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756435882588,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!Pz4kR6wS0xT3yU9v"
 }

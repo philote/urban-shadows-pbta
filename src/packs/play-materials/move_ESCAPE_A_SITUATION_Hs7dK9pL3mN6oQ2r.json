@@ -5,7 +5,7 @@
   "_id": "Hs7dK9pL3mN6oQ2r",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you <em><strong>take advantage of an opening to escape a situation</strong></em>, roll with <strong>BLOOD</strong>.</p>",
+    "description": "<p>When you take advantage of an opening to<em><strong> escape a situation</strong></em>, roll with <strong>BLOOD</strong>.</p>",
     "moveType": "basic",
     "rollFormula": "",
     "moveResults": {
@@ -17,12 +17,12 @@
       "weakHit": {
         "key": "system.moveResults.weakHit.value",
         "label": "Weak Hit",
-        "value": "<p>On a hit, you get away and choose 1. On a 7-9, the MC chooses one as well:</p><ul><li>you suffer harm during your escape</li><li>you end up in another dangerous situation</li><li>you leave something important behind</li><li>you owe an NPC a Debt for their aid</li><li>you give into your base nature and mark corruption</li></ul>"
+        "value": "<p>On a hit, you get away and choose 1. </p><p>On a 7-9, the MC chooses one as well:</p><ul><li>you suffer harm during your escape</li><li>you end up in another dangerous situation</li><li>you leave something important behind</li><li>you owe an NPC a Debt for their aid</li><li>you give into your base nature and mark corruption</li></ul>"
       },
       "strongHit": {
         "key": "system.moveResults.strongHit.value",
         "label": "Strong Hit",
-        "value": "<p>On a hit, you get away and choose 1. On a 10+, the MC doesn't choose one.</p><ul><li>you suffer harm during your escape</li><li>you end up in another dangerous situation</li><li>you leave something important behind</li><li>you owe an NPC a Debt for their aid</li><li>you give into your base nature and mark corruption</li></ul>"
+        "value": "<p>On a hit, you get away and choose 1. </p><ul><li>you suffer harm during your escape</li><li>you end up in another dangerous situation</li><li>you leave something important behind</li><li>you owe an NPC a Debt for their aid</li><li>you give into your base nature and mark corruption</li></ul>"
       }
     },
     "uses": 0,
@@ -42,12 +42,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.20",
+    "systemVersion": "1.1.21",
     "createdTime": 1748493194026,
-    "modifiedTime": 1748493681109,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756435574992,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!Hs7dK9pL3mN6oQ2r"
 }

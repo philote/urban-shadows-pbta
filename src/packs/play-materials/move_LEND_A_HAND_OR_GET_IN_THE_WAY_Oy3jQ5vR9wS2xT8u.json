@@ -5,7 +5,7 @@
   "_id": "Oy3jQ5vR9wS2xT8u",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you <em><strong>lend a hand or get in the way after a PC has rolled</strong></em>, roll with their <strong>Circle</strong>.</p>",
+    "description": "<p>When you <em><strong>lend a hand or get in the way </strong></em>after a PC has rolled, roll with their <strong>CIRCLE</strong>.</p>",
     "moveType": "basic",
     "rollFormula": "",
     "moveResults": {
@@ -17,7 +17,7 @@
       "weakHit": {
         "key": "system.moveResults.weakHit.value",
         "label": "Weak Hit",
-        "value": "<p>On a hit, give them a +1 or -2 to their roll. On a 7-9, you expose yourself to danger, entanglement, or cost.</p>"
+        "value": "<p>On a hit, give them a +1 or -2 to their roll. </p><p>On a 7-9, you expose yourself to danger, entanglement, or cost.</p>"
       },
       "strongHit": {
         "key": "system.moveResults.strongHit.value",
@@ -42,12 +42,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.20",
+    "systemVersion": "1.1.21",
     "createdTime": 1748493194026,
-    "modifiedTime": 1748493681109,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756435426090,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!Oy3jQ5vR9wS2xT8u"
 }

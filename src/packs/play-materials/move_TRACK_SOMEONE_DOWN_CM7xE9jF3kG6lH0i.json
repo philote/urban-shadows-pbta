@@ -5,24 +5,24 @@
   "_id": "CM7xE9jF3kG6lH0i",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When a <em><strong>faction tries to track a Status-1 or Status-2 character down within the city</strong></em>, roll.</p><ul><li>If the faction has a relevant asset, add 1</li><li>If their quarry is of the same Circle, add 1</li><li>If the faction is Size-1 or Strength-1, subtract 1</li><li>If their quarry is actively hiding, subtract 1</li></ul>",
+    "description": "<p>When a faction tries to track a Status-1 or Status-2 character down within the city, roll.</p><ul><li>If the faction has a relevant asset, add 1</li><li>If their quarry is of the same Circle, add 1</li><li>If the faction is Size-1 or Strength-1, subtract 1</li><li>If their quarry is actively hiding, subtract 1</li></ul>",
     "moveType": "",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": "<p>If the quarry is an NPC: On a miss, the faction's attempts to track them down succeed, but their agents make a mess of things and allow the quarry to escape.</p><p>If the quarry is a PC: On a miss, someone close to the PC tips them off early to the faction's search...and an opportunity or weakness the PC can exploit.</p>"
+        "value": "<p><strong>If the quarry is an NPC:</strong> On a miss, the faction's attempts to track them down succeed, but their agents make a mess of things and allow the quarry to escape.</p><p><strong>If the quarry is a PC:</strong> On a miss, someone close to the PC tips them off early to the faction's search...and an opportunity or weakness the PC can exploit.</p>"
       },
       "weakHit": {
         "key": "system.moveResults.weakHit.value",
         "label": "Weak Hit",
-        "value": "<p>If the quarry is an NPC: On a 7-9, the faction finds their quarry; they attack them, kidnap them, or confront them at some cost.</p><p>If the quarry is a PC: On a 7-9, the faction tracks down their location, but the PC has time to prepare for the limited forces coming their way.</p>"
+        "value": "<p><strong>If the quarry is an NPC:</strong> On a 7-9, the faction finds their quarry; they attack them, kidnap them, or confront them at some cost.</p><p><strong>If the quarry is a PC:</strong> On a 7-9, the faction tracks down their location, but the PC has time to prepare for the limited forces coming their way.</p>"
       },
       "strongHit": {
         "key": "system.moveResults.strongHit.value",
         "label": "Strong Hit",
-        "value": "<p>If the quarry is an NPC: On a 10+, they catch the quarry exposed or vulnerable; the faction can act upon the quarry with impunity.</p><p>If the quarry is a PC: On a 10+, the tracking faction gets the best of their quarry; they corner the PC with overwhelming force or careful planning that leaves them little room to avoid their pursuers.</p>"
+        "value": "<p><strong>If the quarry is an NPC:</strong> On a 10+, they catch the quarry exposed or vulnerable; the faction can act upon the quarry with impunity.</p><p><strong>If the quarry is a PC:</strong> On a 10+, the tracking faction gets the best of their quarry; they corner the PC with overwhelming force or careful planning that leaves them little room to avoid their pursuers.</p>"
       }
     },
     "uses": 0,
@@ -42,12 +42,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1748493194026,
-    "modifiedTime": 1749792147390,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756438530903,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!CM7xE9jF3kG6lH0i"
 }

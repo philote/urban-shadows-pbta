@@ -12,17 +12,17 @@
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": "<p>The MC tells you what interesting thing happens.</p>"
+        "value": ""
       },
       "weakHit": {
         "key": "system.moveResults.weakHit.value",
         "label": "Weak Hit",
-        "value": "<p>You owe them a Debt.</p>"
+        "value": ""
       },
       "strongHit": {
         "key": "system.moveResults.strongHit.value",
         "label": "Strong Hit",
-        "value": "<p>You owe them a Debt.</p>"
+        "value": ""
       }
     },
     "uses": 0,
@@ -42,12 +42,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.20",
+    "systemVersion": "1.1.21",
     "createdTime": 1748493194026,
-    "modifiedTime": 1748493681109,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756437315739,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!UE9pW1bX5cY8dZ4a"
 }

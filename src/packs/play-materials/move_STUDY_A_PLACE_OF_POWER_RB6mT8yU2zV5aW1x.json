@@ -22,7 +22,7 @@
       "strongHit": {
         "key": "system.moveResults.strongHit.value",
         "label": "Strong Hit",
-        "value": "<p>On a hit, you see below the surface to the reality underneath; the MC will reveal an area, NPC, or item located within that is not what it seems. On a 10+, your insight reveals much about the Circle's politics and schemes; ask the MC a question about the Circle and take +1 forward when acting on the answer.</p>"
+        "value": "<p>On a hit, you see below the surface to the reality underneath; the MC will reveal an area, NPC, or item located within that is not what it seems. </p><p>On a 10+, your insight reveals much about the Circle's politics and schemes; ask the MC a question about the Circle and take +1 forward when acting on the answer.</p>"
       }
     },
     "uses": 0,
@@ -42,12 +42,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.20",
+    "systemVersion": "1.1.21",
     "createdTime": 1748493194026,
-    "modifiedTime": 1748493681109,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756435795905,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!RB6mT8yU2zV5aW1x"
 }

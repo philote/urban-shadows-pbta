@@ -64,6 +64,7 @@ You can install the latest released version of the module by using this manifest
   - Roll tables
 
 ## TODO
+- get ADVANCED MOVES working
 - Improve NPC sheets
 - Add tags to the PbtA tag lists
 - Relationship and debt tracking on sheets

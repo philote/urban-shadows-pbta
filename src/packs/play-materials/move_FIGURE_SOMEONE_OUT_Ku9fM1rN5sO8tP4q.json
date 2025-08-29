@@ -17,19 +17,19 @@
       "weakHit": {
         "key": "system.moveResults.weakHit.value",
         "label": "Weak Hit",
-        "value": "<p>On a hit, ask two. On a 7-9, they ask one of you as well. If you're in their Circle, ask an additional question, even on a miss.</p><ul><li>who's pulling your character's strings?</li><li>what's your character's beef with _____?</li><li>what's your character hoping to get from _____?</li><li>what does your character worry is going to happen?</li><li>how could I get your character to _____?</li><li>how could I put your character in my Debt?</li></ul>"
+        "value": "<p>On a hit, ask two. On a 7-9, they ask one of you as well. If you're in their Circle, ask an additional question.</p>"
       },
       "strongHit": {
         "key": "system.moveResults.strongHit.value",
         "label": "Strong Hit",
-        "value": "<p>On a hit, ask two. If you're in their Circle, ask an additional question, even on a miss.</p><ul><li>who's pulling your character's strings?</li><li>what's your character's beef with _____?</li><li>what's your character hoping to get from _____?</li><li>what does your character worry is going to happen?</li><li>how could I get your character to _____?</li><li>how could I put your character in my Debt?</li></ul>"
+        "value": "<p>On a hit, ask two. If you're in their Circle, ask an additional question.</p>"
       }
     },
     "uses": 0,
     "rollType": "mind",
     "rollMod": 0,
     "actorType": "character",
-    "choices": ""
+    "choices": "<ul><li>who's pulling your character's strings?</li><li>what's your character's beef with _____?</li><li>what's your character hoping to get from _____?</li><li>what does your character worry is going to happen?</li><li>how could I get your character to _____?</li><li>how could I put your character in my Debt?</li></ul>"
   },
   "effects": [],
   "sort": 0,
@@ -42,12 +42,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.20",
+    "systemVersion": "1.1.21",
     "createdTime": 1748493194026,
-    "modifiedTime": 1748493681109,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756435523173,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!Ku9fM1rN5sO8tP4q"
 }

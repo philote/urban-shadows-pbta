@@ -5,7 +5,7 @@
   "_id": "YI3tA5fB9gC2hD6e",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When a <em><strong>faction openly attacks another faction</strong></em>, roll with the difference between the two factions' Sizes.</p>",
+    "description": "<p>When a faction openly attacks another faction, roll with the difference between the two factions' Sizes.</p>",
     "moveType": "",
     "rollFormula": "",
     "moveResults": {
@@ -42,12 +42,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1748493194026,
-    "modifiedTime": 1749792158007,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756438428545,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!YI3tA5fB9gC2hD6e"
 }

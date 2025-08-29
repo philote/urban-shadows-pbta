@@ -1,12 +1,12 @@
 {
-  "folder": "6ZLeDXGC080ZpwLQ",
-  "name": "DO SOMEONE A FAVOR",
+  "folder": "UQj0bckGnGOYfEHA",
+  "name": "END OF SESSION",
   "type": "move",
-  "_id": "TD8oV0aW4bX7cY3z",
+  "_id": "HWGjm9KRb8WhJiqV",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you <em><strong>do someone a favor</strong></em>, they owe you a Debt.</p>",
-    "moveType": "debt",
+    "description": "<p>At the end of every session, decide if you’ve grown closer to a Circle you engaged with this session: increase your score in that Circle and decrease your score in a different Circle. Tell the MC how your relationships to these communities have changed because of the events of the story, and mark one of the two Circles involved in those changes.</p><p>In addition, think about any Debts you may owe—or Debts that are owed to you—as a result of the session. Tell the group and note them down for next session.</p>",
+    "moveType": "basic",
     "rollFormula": "",
     "moveResults": {
       "miss": {
@@ -35,7 +35,7 @@
   "sort": 0,
   "ownership": {
     "default": 0,
-    "tolKXMkOd7JsM4Jk": 3
+    "WynALakZJf661YU1": 3
   },
   "flags": {},
   "_stats": {
@@ -45,9 +45,9 @@
     "coreVersion": "13.347",
     "systemId": "pbta",
     "systemVersion": "1.1.21",
-    "createdTime": 1748493194026,
-    "modifiedTime": 1756437296206,
+    "createdTime": 1756437455161,
+    "modifiedTime": 1756437515273,
     "lastModifiedBy": "WynALakZJf661YU1"
   },
-  "_key": "!items!TD8oV0aW4bX7cY3z"
+  "_key": "!items!HWGjm9KRb8WhJiqV"
 }

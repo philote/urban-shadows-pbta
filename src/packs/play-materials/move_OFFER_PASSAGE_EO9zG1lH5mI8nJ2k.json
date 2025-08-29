@@ -5,7 +5,7 @@
   "_id": "EO9zG1lH5mI8nJ2k",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When a <em><strong>faction offers passage to someone</strong></em>—into or out of the city—roll with their Size.</p>",
+    "description": "<p>When a faction offers passage to someone—into or out of the city—roll with their Size.</p>",
     "moveType": "",
     "rollFormula": "",
     "moveResults": {
@@ -26,7 +26,7 @@
       }
     },
     "uses": 0,
-    "rollType": "",
+    "rollType": "prompt",
     "rollMod": 0,
     "actorType": "character",
     "choices": ""
@@ -42,12 +42,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1748493194026,
-    "modifiedTime": 1749792159789,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756438611601,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!EO9zG1lH5mI8nJ2k"
 }

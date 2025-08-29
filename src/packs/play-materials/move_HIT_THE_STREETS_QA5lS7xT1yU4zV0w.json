@@ -5,7 +5,7 @@
   "_id": "QA5lS7xT1yU4zV0w",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you <em><strong>hit the streets to get what you need</strong></em>, name who you're going to and roll with their <strong>Circle</strong>.</p>",
+    "description": "<p>When you <em><strong>hit the streets to get what you need</strong></em>, name who you're going to and roll with their Circle.</p>",
     "moveType": "circle",
     "rollFormula": "",
     "moveResults": {
@@ -17,7 +17,7 @@
       "weakHit": {
         "key": "system.moveResults.weakHit.value",
         "label": "Weak Hit",
-        "value": "<p>On a hit, they're available and have the stuff. On a 7-9, choose 1:</p><ul><li>whoever you're going to is juggling their own problems</li><li>whatever you need is more costly than anticipated</li></ul>"
+        "value": "<p>On a hit, they're available and have the stuff. </p><p>On a 7-9, choose 1:</p><ul><li>whoever you're going to is juggling their own problems</li><li>whatever you need is more costly than anticipated</li></ul>"
       },
       "strongHit": {
         "key": "system.moveResults.strongHit.value",
@@ -42,12 +42,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.20",
+    "systemVersion": "1.1.21",
     "createdTime": 1748493194026,
-    "modifiedTime": 1748493681109,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756435839583,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!QA5lS7xT1yU4zV0w"
 }
