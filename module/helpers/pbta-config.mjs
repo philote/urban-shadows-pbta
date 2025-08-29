@@ -1823,8 +1823,29 @@ export const tagConfig = {
         all: '',
         // Tags available to a specific item type (e.g. "equipment", "move")
         equipment:
-            '[{"value":"US2E.Tags.equipment.strong.value", "editable":false, "description":"US2E.Tags.equipment.strong.description"}, ' +
-            '{"value":"US2E.Tags.equipment.weak.value", "editable":false, "description":"US2E.Tags.equipment.weak.description"}, ' +
-            '{"value":"US2E.Tags.equipment.glows.value", "editable":false, "description":"US2E.Tags.equipment.glows.description"}]',
+            '[{"value":"US2E.Tags.equipment.hand.value", "editable":false, "description":"US2E.Tags.equipment.hand.description"}, ' +
+            '{"value":"US2E.Tags.equipment.close.value", "editable":false, "description":"US2E.Tags.equipment.close.description"}, ' +
+            '{"value":"US2E.Tags.equipment.near.value", "editable":false, "description":"US2E.Tags.equipment.near.description"}, ' +
+            '{"value":"US2E.Tags.equipment.far.value", "editable":false, "description":"US2E.Tags.equipment.far.description"}, ' +
+            '{"value":"US2E.Tags.equipment.anchored.value", "editable":false, "description":"US2E.Tags.equipment.anchored.description"}, ' +
+            '{"value":"US2E.Tags.equipment.armorPiercing.value", "editable":false, "description":"US2E.Tags.equipment.armorPiercing.description"}, ' +
+            '{"value":"US2E.Tags.equipment.area.value", "editable":false, "description":"US2E.Tags.equipment.area.description"}, ' +
+            '{"value":"US2E.Tags.equipment.autofire.value", "editable":false, "description":"US2E.Tags.equipment.autofire.description"}, ' +
+            '{"value":"US2E.Tags.equipment.booby-trapped.value", "editable":false, "description":"US2E.Tags.equipment.booby-trapped.description"}, ' +
+            '{"value":"US2E.Tags.equipment.cherished.value", "editable":false, "description":"US2E.Tags.equipment.cherished.description"}, ' +
+            '{"value":"US2E.Tags.equipment.concealable.value", "editable":false, "description":"US2E.Tags.equipment.concealable.description"}, ' +
+            '{"value":"US2E.Tags.equipment.exhausting.value", "editable":false, "description":"US2E.Tags.equipment.exhausting.description"}, ' +
+            '{"value":"US2E.Tags.equipment.fire.value", "editable":false, "description":"US2E.Tags.equipment.fire.description"}, ' +
+            '{"value":"US2E.Tags.equipment.fragile.value", "editable":false, "description":"US2E.Tags.equipment.fragile.description"}, ' +
+            '{"value":"US2E.Tags.equipment.loud.value", "editable":false, "description":"US2E.Tags.equipment.loud.description"}, ' +
+            '{"value":"US2E.Tags.equipment.messy.value", "editable":false, "description":"US2E.Tags.equipment.messy.description"}, ' +
+            '{"value":"US2E.Tags.equipment.mythic.value", "editable":false, "description":"US2E.Tags.equipment.mythic.description"}, ' +
+            '{"value":"US2E.Tags.equipment.reload.value", "editable":false, "description":"US2E.Tags.equipment.reload.description"}, ' +
+            '{"value":"US2E.Tags.equipment.reputation.value", "editable":false, "description":"US2E.Tags.equipment.reputation.description"}, ' +
+            '{"value":"US2E.Tags.equipment.silver.value", "editable":false, "description":"US2E.Tags.equipment.silver.description"}, ' +
+            '{"value":"US2E.Tags.equipment.coldIron.value", "editable":false, "description":"US2E.Tags.equipment.coldIron.description"}, ' +
+            '{"value":"US2E.Tags.equipment.holy.value", "editable":false, "description":"US2E.Tags.equipment.holy.description"}, ' +
+            '{"value":"US2E.Tags.equipment.smoke.value", "editable":false, "description":"US2E.Tags.equipment.smoke.description"}, ' +
+            '{"value":"US2E.Tags.equipment.stun.value", "editable":false, "description":"US2E.Tags.equipment.stun.description"}]',
     },
 };

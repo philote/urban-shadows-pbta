@@ -720,17 +720,101 @@
         },
         "Tags": {
             "equipment": {
-                "strong": {
-                    "value": "Strong",
-                    "description": "Very Strong"
+                "hand": {
+                    "value": "hand",
+                    "description": "can only be used at an intimate range, such as touching or striking someone with your bare hands."
                 },
-                "weak": {
-                    "value": "Weak",
-                    "description": "Pretty Weak"
+                "close": {
+                    "value": "close",
+                    "description": "can be used against someone within a meter or so, probably about the length of the weapon itself."
                 },
-                "glows": {
-                    "value": "Glows",
-                    "description": "Acts as a torch"
+                "near": {
+                    "value": "near",
+                    "description": "can be used against someone in relative proximity, somewhere between 2 to 6 meters."
+                },
+                "far": {
+                    "value": "far",
+                    "description": "can be used against someone at a longer range, more than 6 meters away or further (in good conditions)."
+                },
+                "anchored": {
+                    "value": "anchored",
+                    "description": "mystically anchored to the owner; the item returns upon command, cannot be lost, etc."
+                },
+                "armorPiercing": {
+                    "value": "armor piercing",
+                    "description": "ignores an opponent’s armor rating, inflicting full harm."
+                },
+                "area": {
+                    "value": "area",
+                    "description": "affects an area instead of a single character. When used against a group, ignores the group’s size when determining harm inflicted, assuming the group is clustered together closely enough."
+                },
+                "autofire": {
+                    "value": "autofire",
+                    "description": "can be used as an +area weapon but doing so exhausts the item, requiring the character to reload or refresh it."
+                },
+                "booby-trapped": {
+                    "value": "booby-trapped",
+                    "description": "setup to inflict harm on anyone but the owner interacting with the item; the owner can convey how to avoid the trap to others."
+                },
+                "cherished": {
+                    "value": "cherished",
+                    "description": "beloved for sentimental reasons (e.g. family heirloom or lover’s gift). Once per session, the owner may ignore marking corruption while using it, but the irrevocable loss of a +cherished possession inflicts a corruption advance."
+                },
+                "concealable": {
+                    "value": "concealable",
+                    "description": "easy to keep out of sight, small enough to fit in the pocket of a jacket."
+                },
+                "exhausting": {
+                    "value": "exhausting",
+                    "description": "quickly tires out the person wielding this item; repeated use may require the user to keep their cool."
+                },
+                "fire": {
+                    "value": "fire",
+                    "description": "ignites nearby combustibles and causes serious burns on any targets it injures; supernatural creatures vulnerable to fire take extra harm and/or flee when a +fire item is used on them."
+                },
+                "fragile": {
+                    "value": "fragile",
+                    "description": "brittle or flimsy, likely breaking when it is first used."
+                },
+                "loud": {
+                    "value": "loud",
+                    "description": "when used, everyone nearby hears and can potentially identify what made the noise; it wakes up sleeping people, startles or frightens people who aren’t expecting it, etc."
+                },
+                "messy": {
+                    "value": "messy",
+                    "description": "inflicts wounds that are severe and bloody or destroys the environment surrounding the target. These items are not suited to precision work."
+                },
+                "mythic": {
+                    "value": "mythic",
+                    "description": "well-known in myth or legend (e.g. Excalibur or Agbavboko); it is virtually impossible to conceal or disguise."
+                },
+                "reload": {
+                    "value": "reload",
+                    "description": "holds limited ammunition and needs to be reloaded often when used."
+                },
+                "reputation": {
+                    "value": "reputation",
+                    "description": "well-regarded by at least one Circle; the owner takes a +1 ongoing to persuading or refusing to honor a Debt when engaged with a member of a relevant Circle."
+                },
+                "silver": {
+                    "value": "silver",
+                    "description": "made of a unique material or has been blessed by someone of great faith. Supernatural creatures may be especially vulnerable to these items or weapons, granting +ap when used against them or inflicting +1 harm."
+                },
+                "coldIron": {
+                    "value": "cold iron",
+                    "description": "made of a unique material or has been blessed by someone of great faith. Supernatural creatures may be especially vulnerable to these items or weapons, granting +ap when used against them or inflicting +1 harm."
+                },
+                "holy": {
+                    "value": "holy",
+                    "description": "made of a unique material or has been blessed by someone of great faith. Supernatural creatures may be especially vulnerable to these items or weapons, granting +ap when used against them or inflicting +1 harm."
+                },
+                "smoke": {
+                    "value": "smoke",
+                    "description": "produces enough smoke to offer cover to everyone in it, and likely an opportunity to escape a dangerous situation."
+                },
+                "stun": {
+                    "value": "stun",
+                    "description": "capable of inflicting s-harm (page 48) instead of regular harm."
                 }
             }
         },

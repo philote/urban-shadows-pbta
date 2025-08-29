@@ -8,7 +8,7 @@
     "uses": 0,
     "quantity": 1,
     "weight": 0,
-    "tags": "[{\"value\":\"2-harm\"},{\"value\":\"hand\"},{\"value\":\"concealable\"}]",
+    "tags": "[{\"value\":\"2-harm\"},{\"value\":\"US2E.Tags.equipment.hand.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.hand.description\"},{\"value\":\"US2E.Tags.equipment.concealable.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.concealable.description\"}]",
     "itemType": "",
     "equipmentType": "gear",
     "actorType": "character"
@@ -24,12 +24,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.20",
+    "systemVersion": "1.1.21",
     "createdTime": 1748486368473,
-    "modifiedTime": 1750826684413,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756448752895,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_id": "MzcQgdjQbpLiO6bE",
   "sort": 100000,

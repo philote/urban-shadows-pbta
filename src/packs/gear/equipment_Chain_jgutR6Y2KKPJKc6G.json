@@ -9,7 +9,7 @@
     "uses": 0,
     "quantity": 1,
     "weight": 0,
-    "tags": "[{\"value\":\"1-harm\"},{\"value\":\"close\"},{\"value\":\"area\"},{\"value\":\"exhausting\"}]",
+    "tags": "[{\"value\":\"1-harm\"},{\"value\":\"US2E.Tags.equipment.close.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.close.description\"},{\"value\":\"US2E.Tags.equipment.area.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.area.description\"},{\"value\":\"US2E.Tags.equipment.exhausting.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.exhausting.description\"}]",
     "itemType": "",
     "equipmentType": "gear",
     "actorType": "character"
@@ -25,12 +25,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1750889670950,
-    "modifiedTime": 1750894305467,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756448330193,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!jgutR6Y2KKPJKc6G"
 }

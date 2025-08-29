@@ -3,13 +3,13 @@
   "name": "Pistol",
   "type": "equipment",
   "_id": "I15BOdIRlcIftNWd",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/colt-m1911.svg",
   "system": {
     "description": "",
     "uses": 0,
     "quantity": 1,
     "weight": 0,
-    "tags": "[{\"value\":\"2-harm\"},{\"value\":\"near\"},{\"value\":\"loud\"},{\"value\":\"concealable\"}]",
+    "tags": "[{\"value\":\"2-harm\"},{\"value\":\"US2E.Tags.equipment.near.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.near.description\"},{\"value\":\"US2E.Tags.equipment.loud.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.loud.description\"},{\"value\":\"US2E.Tags.equipment.concealable.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.concealable.description\"}]",
     "itemType": "",
     "equipmentType": "gear",
     "actorType": "character"
@@ -25,12 +25,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1750889594699,
-    "modifiedTime": 1750889615780,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756448482918,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!I15BOdIRlcIftNWd"
 }

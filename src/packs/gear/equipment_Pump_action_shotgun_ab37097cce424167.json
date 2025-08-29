@@ -9,7 +9,7 @@
     "uses": 0,
     "quantity": 1,
     "weight": 0,
-    "tags": "[{\"value\":\"3-harm\"},{\"value\":\"close/near\"},{\"value\":\"loud\"},{\"value\":\"reload\"},{\"value\":\"messy\"}]",
+    "tags": "[{\"value\":\"3-harm\"},{\"value\":\"reload\"},{\"value\":\"US2E.Tags.equipment.close.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.close.description\"},{\"value\":\"US2E.Tags.equipment.near.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.near.description\"},{\"value\":\"US2E.Tags.equipment.messy.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.messy.description\"},{\"value\":\"US2E.Tags.equipment.reload.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.reload.description\"},{\"value\":\"US2E.Tags.equipment.loud.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.loud.description\"}]",
     "itemType": "",
     "equipmentType": "gear",
     "actorType": "character"
@@ -24,12 +24,12 @@
   "_stats": {
     "compendiumSource": "Item.F9iL2oO5rR8sS1tT",
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907152038,
-    "modifiedTime": 1750826621847,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756448417533,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!ab37097cce424167"

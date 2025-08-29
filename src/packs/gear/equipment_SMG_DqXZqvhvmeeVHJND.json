@@ -9,7 +9,7 @@
     "uses": 0,
     "quantity": 1,
     "weight": 0,
-    "tags": "[{\"value\":\"2-harm\"},{\"value\":\"near\"},{\"value\":\"autofire\"},{\"value\":\"loud\"}]",
+    "tags": "[{\"value\":\"2-harm\"},{\"value\":\"US2E.Tags.equipment.near.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.near.description\"},{\"value\":\"US2E.Tags.equipment.autofire.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.autofire.description\"},{\"value\":\"US2E.Tags.equipment.loud.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.loud.description\"}]",
     "itemType": "",
     "equipmentType": "gear",
     "actorType": "character"
@@ -25,12 +25,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1750889549466,
-    "modifiedTime": 1750894441804,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756448627194,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!DqXZqvhvmeeVHJND"
 }

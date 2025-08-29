@@ -9,7 +9,7 @@
     "uses": 0,
     "quantity": 1,
     "weight": 0,
-    "tags": "[{\"value\":\"2-harm\"},{\"value\":\"close\"}]",
+    "tags": "[{\"value\":\"2-harm\"},{\"value\":\"US2E.Tags.equipment.close.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.close.description\"}]",
     "itemType": "",
     "equipmentType": "gear",
     "actorType": "character"
@@ -25,12 +25,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1750889727260,
-    "modifiedTime": 1750894562354,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756448581880,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!eJBt2OnAY8uKSNqc"
 }
