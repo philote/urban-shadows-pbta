@@ -157,7 +157,7 @@
     }
   ],
   "replacement": true,
-  "displayRoll": true,
+  "displayRoll": false,
   "sort": 200000,
   "ownership": {
     "default": 0,
@@ -168,12 +168,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748581947337,
-    "modifiedTime": 1750822027186,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756446129764,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "formula": "1d6",
   "_key": "!tables!8UhsTWySAfWrMMB8"

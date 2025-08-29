@@ -9,8 +9,8 @@
       "type": "document",
       "weight": 1,
       "range": [
-        2,
-        2
+        1,
+        1
       ],
       "_id": "CfF1A2C3T4I5O6N7",
       "name": "Purpose",
@@ -34,8 +34,8 @@
       "type": "document",
       "weight": 1,
       "range": [
-        3,
-        3
+        1,
+        1
       ],
       "_id": "DfF2A3C4T5I6O7N8",
       "name": "Structure",
@@ -59,8 +59,8 @@
       "type": "document",
       "weight": 1,
       "range": [
-        4,
-        4
+        1,
+        1
       ],
       "_id": "EfF3A4C5T6I7O8N9",
       "name": "Mood",
@@ -84,8 +84,8 @@
       "type": "document",
       "weight": 1,
       "range": [
-        5,
-        5
+        1,
+        1
       ],
       "_id": "FfF4A5C6T7I8O9N0",
       "name": "Size",
@@ -109,8 +109,8 @@
       "type": "document",
       "weight": 1,
       "range": [
-        6,
-        6
+        1,
+        1
       ],
       "_id": "GfF5A6C7T8I9O0N1",
       "name": "Strength",
@@ -134,8 +134,8 @@
       "type": "document",
       "weight": 1,
       "range": [
-        7,
-        7
+        1,
+        1
       ],
       "_id": "HfF6A7C8T9I0O1N2",
       "name": "The Faction...",
@@ -157,7 +157,7 @@
     }
   ],
   "replacement": true,
-  "displayRoll": true,
+  "displayRoll": false,
   "sort": 0,
   "ownership": {
     "default": 0,
@@ -168,12 +168,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748581947337,
-    "modifiedTime": 1748581947337,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756446084966,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "formula": "1d6",
   "_key": "!tables!CF1F2A3C4T5I6O78"

@@ -22,10 +22,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.347",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
-        "lastModifiedBy": null
+        "lastModifiedBy": "WynALakZJf661YU1",
+        "modifiedTime": 1756446236896
       },
       "documentUuid": null,
       "_key": "!tables.results!DTR1U2M3O4R5S678.DfR1U2M3O4R5S6T7"
@@ -47,10 +48,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.347",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
-        "lastModifiedBy": null
+        "lastModifiedBy": "WynALakZJf661YU1",
+        "modifiedTime": 1756446236896
       },
       "documentUuid": null,
       "_key": "!tables.results!DTR1U2M3O4R5S678.EfR2U3M4O5R6S7T8"
@@ -72,10 +74,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.347",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
-        "lastModifiedBy": null
+        "lastModifiedBy": "WynALakZJf661YU1",
+        "modifiedTime": 1756446236896
       },
       "documentUuid": null,
       "_key": "!tables.results!DTR1U2M3O4R5S678.FfR3U4M5O6R7S8T9"
@@ -97,10 +100,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.347",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
-        "lastModifiedBy": null
+        "lastModifiedBy": "WynALakZJf661YU1",
+        "modifiedTime": 1756446236896
       },
       "documentUuid": null,
       "_key": "!tables.results!DTR1U2M3O4R5S678.GfR4U5M6O7R8S9T0"
@@ -122,10 +126,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.347",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
-        "lastModifiedBy": null
+        "lastModifiedBy": "WynALakZJf661YU1",
+        "modifiedTime": 1756446236896
       },
       "documentUuid": null,
       "_key": "!tables.results!DTR1U2M3O4R5S678.HfR5U6M7O8R9S0T1"
@@ -147,17 +152,18 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.347",
         "systemId": "pbta",
         "systemVersion": "1.1.20",
-        "lastModifiedBy": null
+        "lastModifiedBy": "WynALakZJf661YU1",
+        "modifiedTime": 1756446236896
       },
       "documentUuid": null,
       "_key": "!tables.results!DTR1U2M3O4R5S678.IfR6U7M8O9R0S1T2"
     }
   ],
   "replacement": true,
-  "displayRoll": true,
+  "displayRoll": false,
   "sort": 0,
   "ownership": {
     "default": 0,
@@ -168,12 +174,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pbta",
     "systemVersion": "1.1.20",
     "createdTime": 1748581947337,
-    "modifiedTime": 1750823501738,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756446235300,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "formula": "1d6",
   "_key": "!tables!DTR1U2M3O4R5S678"
