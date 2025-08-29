@@ -5,7 +5,7 @@
   "_id": "bPJ1yAeTzEMQuRob",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you plead with a member of your Circle for help with a pressing situation, roll with <strong>Heart</strong>. On a hit, they either agree to help or owe you a Debt, their choice. On a 10+, their guilt is palpable: if they decline and owe you a Debt, you take +1 ongoing against them as long as you hold that Debt. On a miss, you are exposed and vulnerable; but if they do agree to help, treat it as if they <em><strong>cashed in a Debt</strong></em> with you that you can’t refuse.</p>",
+    "description": "<p>When you plead with a member of your Circle for help with a pressing situation, roll with <strong>Heart</strong>. On a hit, they either agree to help or owe you a Debt, their choice. On a 10+, their guilt is palpable: if they decline and owe you a Debt, you take +1 ongoing against them as long as you hold that Debt. On a miss, you are exposed and vulnerable; but if they do agree to help, Otreat it as if they <em><strong>cashed in a Debt</strong></em> with you that you can’t refuse.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {

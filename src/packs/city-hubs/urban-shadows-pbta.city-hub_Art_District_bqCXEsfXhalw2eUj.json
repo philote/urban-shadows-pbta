@@ -172,82 +172,29 @@
   "items": [
     {
       "folder": "H9kL2nM5oP8qR3sT",
-      "name": "COME TOGETHER",
-      "type": "move",
-      "_id": "bsvUpX7LZs4ujY4m",
-      "img": "icons/svg/aura.svg",
-      "system": {
-        "description": "<h3>Art District Hub Move</h3><p>When you <em><strong>organize a protest</strong></em>, roll with a <strong>Circle of fellow organizers</strong>.</p>",
-        "moveType": "hub",
-        "rollFormula": "",
-        "moveResults": {
-          "miss": {
-            "key": "system.moveResults.miss.value",
-            "label": "Miss",
-            "value": "<p>Someone you trusted leaks your secrets to a dangerous foe.</p>"
-          },
-          "weakHit": {
-            "key": "system.moveResults.weakHit.value",
-            "label": "Weak Hit",
-            "value": "<p>Your protest puts pressure on a powerful NPC of your choice; they take <strong>-1 ongoing</strong> through next faction turn.</p>"
-          },
-          "strongHit": {
-            "key": "system.moveResults.strongHit.value",
-            "label": "Strong Hit",
-            "value": "<p>Your protest puts pressure on a powerful NPC of your choice; they take <strong>-1 ongoing</strong> through next faction turn. Additionally, the leader of another faction takes interest and delivers a Debt, powerful resources, or secret information.</p>"
-          }
-        },
-        "uses": 0,
-        "rollType": "ask",
-        "rollMod": 0,
-        "actorType": "urban-shadows-pbta.city-hub",
-        "choices": ""
-      },
-      "effects": [],
-      "sort": 100000,
-      "ownership": {
-        "default": 0,
-        "tolKXMkOd7JsM4Jk": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.urban-shadows-pbta.play-materials.Item.B7eF4hG9jK2lM6oQ",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.345",
-        "systemId": "pbta",
-        "systemVersion": "1.1.21",
-        "createdTime": 1750882687392,
-        "modifiedTime": 1750882687392,
-        "lastModifiedBy": "tolKXMkOd7JsM4Jk"
-      },
-      "_key": "!actors.items!bqCXEsfXhalw2eUj.bsvUpX7LZs4ujY4m"
-    },
-    {
-      "folder": "H9kL2nM5oP8qR3sT",
       "name": "CHAOS IS A LADDER",
       "type": "move",
-      "_id": "1EdGydgP8Z0cYXwP",
+      "_id": "cYSwoSTU4xY2jHuT",
       "img": "icons/svg/aura.svg",
       "system": {
-        "description": "<h3>Art District Hub Move</h3><p>When you <em><strong>posture for clout in front of well-connected NPCs</strong></em>, roll with <strong>Mind</strong>.</p>",
+        "description": "<h3>Art District Hub Move</h3><p>When you <em><strong>posture for clout </strong></em>in front of well-connected NPCs, roll with <strong>MIND</strong>.</p>",
         "moveType": "hub",
         "rollFormula": "",
         "moveResults": {
           "miss": {
             "key": "system.moveResults.miss.value",
             "label": "Miss",
-            "value": "<p>Your humblebragging attracts attention of a rival you owe a Debt; take <strong>-1 ongoing</strong> when refusing to honor Debts to their Circle until time passes.</p>"
+            "value": "<p>On a miss, your humblebragging attracts the attention of a rival to whom you owe an uncomfortably large Debt; take -1 ongoing when <em><strong>refusing to honor your Debts</strong></em> to anyone from their Circle until time passes.</p>"
           },
           "weakHit": {
             "key": "system.moveResults.weakHit.value",
             "label": "Weak Hit",
-            "value": "<p>They buy your ruse; take <strong>+1 Status</strong> with relevant Circle until time passes or deception revealed. However, they require you to prove yourself or risk retribution.</p>"
+            "value": "<p>On a hit, they buy your ruse; take +1 Status with a relevant Circle until time passes or your deception is revealed. </p><p>On a 7-9, they require you to prove yourself or risk retribution. </p>"
           },
           "strongHit": {
             "key": "system.moveResults.strongHit.value",
             "label": "Strong Hit",
-            "value": "<p>They buy your ruse; take <strong>+1 Status</strong> with relevant Circle until time passes or deception revealed.</p>"
+            "value": "<p>On a hit, they buy your ruse; take +1 Status with a relevant Circle until time passes or your deception is revealed. </p>"
           }
         },
         "uses": 0,
@@ -260,47 +207,102 @@
       "sort": 200000,
       "ownership": {
         "default": 0,
-        "tolKXMkOd7JsM4Jk": 3
+        "tolKXMkOd7JsM4Jk": 3,
+        "WynALakZJf661YU1": 3
       },
       "flags": {},
       "_stats": {
         "compendiumSource": "Compendium.urban-shadows-pbta.play-materials.Item.C8fG1hH4iJ7kL0mN",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pbta",
         "systemVersion": "1.1.21",
-        "createdTime": 1750882691012,
-        "modifiedTime": 1750882691012,
-        "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+        "createdTime": 1756434929007,
+        "modifiedTime": 1756434929007,
+        "lastModifiedBy": "WynALakZJf661YU1"
       },
-      "_key": "!actors.items!bqCXEsfXhalw2eUj.1EdGydgP8Z0cYXwP"
+      "_key": "!actors.items!bqCXEsfXhalw2eUj.cYSwoSTU4xY2jHuT"
     },
     {
       "folder": "H9kL2nM5oP8qR3sT",
-      "name": "PROMISES, PROMISES",
+      "name": "COME TOGETHER",
       "type": "move",
-      "_id": "OeOPiPgIbbXc4bsq",
+      "_id": "WE1EbPZbmmbltT0Y",
       "img": "icons/svg/aura.svg",
       "system": {
-        "description": "<h3>Art District Hub Move</h3><p>When you <em><strong>persuade an NPC by promising concrete assistance in pursuing their dreams</strong></em>, mark corruption to take a 10+ instead of rolling.</p><p><strong>Important:</strong> If you cannot fulfill your promise by end of next session, mark another corruption.</p>",
+        "description": "<p>When you <em><strong>organize a protest</strong></em>, roll with a Circle of your fellow organizers. </p>",
         "moveType": "hub",
         "rollFormula": "",
         "moveResults": {
           "miss": {
             "key": "system.moveResults.miss.value",
             "label": "Miss",
-            "value": "<p>This move automatically succeeds when triggered.</p>"
+            "value": "<p>On a miss, someone you trusted leaks your secrets to a dangerous foe.</p>"
           },
           "weakHit": {
             "key": "system.moveResults.weakHit.value",
             "label": "Weak Hit",
-            "value": "<p>This move automatically succeeds when triggered.</p>"
+            "value": "<p>On a hit, your protest puts pressure on a powerful NPC of your choice; they take a -1 ongoing through the next faction turn. </p>"
           },
           "strongHit": {
             "key": "system.moveResults.strongHit.value",
             "label": "Strong Hit",
-            "value": "<p>Your promise is accepted as if you rolled a 10+ on persuade an NPC. Remember: if you cannot fulfill your promise by end of next session, mark another corruption.</p>"
+            "value": "<p>On a hit, your protest puts pressure on a powerful NPC of your choice; they take a -1 ongoing through the next faction turn. </p><p>On a 10+, the leader of another faction takes interest in your cause and delivers a Debt, powerful resources, or secret information that aids your cause. </p>"
+          }
+        },
+        "uses": 0,
+        "rollType": "ask",
+        "rollMod": 0,
+        "actorType": "urban-shadows-pbta.city-hub",
+        "choices": ""
+      },
+      "effects": [],
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "tolKXMkOd7JsM4Jk": 3,
+        "WynALakZJf661YU1": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.urban-shadows-pbta.play-materials.Item.B7eF4hG9jK2lM6oQ",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "pbta",
+        "systemVersion": "1.1.21",
+        "createdTime": 1756434930465,
+        "modifiedTime": 1756434930465,
+        "lastModifiedBy": "WynALakZJf661YU1"
+      },
+      "_key": "!actors.items!bqCXEsfXhalw2eUj.WE1EbPZbmmbltT0Y"
+    },
+    {
+      "folder": "H9kL2nM5oP8qR3sT",
+      "name": "PROMISES, PROMISES",
+      "type": "move",
+      "_id": "qNkT7wkf55GV9IbG",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>When you <strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Jt8eL0qM4rN7sO3p]{persuade an NPC}</strong> by promising concrete assistance in pursuing their dreams, mark corruption to take a 10+ instead of rolling. </p><p>If you cannot fulfill your promise by the end of the next session, mark another corruption.</p>",
+        "moveType": "hub",
+        "rollFormula": "",
+        "moveResults": {
+          "miss": {
+            "key": "system.moveResults.miss.value",
+            "label": "Miss",
+            "value": ""
+          },
+          "weakHit": {
+            "key": "system.moveResults.weakHit.value",
+            "label": "Weak Hit",
+            "value": ""
+          },
+          "strongHit": {
+            "key": "system.moveResults.strongHit.value",
+            "label": "Strong Hit",
+            "value": ""
           }
         },
         "uses": 0,
@@ -313,21 +315,22 @@
       "sort": 300000,
       "ownership": {
         "default": 0,
-        "tolKXMkOd7JsM4Jk": 3
+        "tolKXMkOd7JsM4Jk": 3,
+        "WynALakZJf661YU1": 3
       },
       "flags": {},
       "_stats": {
         "compendiumSource": "Compendium.urban-shadows-pbta.play-materials.Item.D9hI2jJ5kL8mN1oP",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pbta",
         "systemVersion": "1.1.21",
-        "createdTime": 1750882695641,
-        "modifiedTime": 1750882695641,
-        "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+        "createdTime": 1756434931759,
+        "modifiedTime": 1756434931759,
+        "lastModifiedBy": "WynALakZJf661YU1"
       },
-      "_key": "!actors.items!bqCXEsfXhalw2eUj.OeOPiPgIbbXc4bsq"
+      "_key": "!actors.items!bqCXEsfXhalw2eUj.qNkT7wkf55GV9IbG"
     }
   ],
   "effects": [],

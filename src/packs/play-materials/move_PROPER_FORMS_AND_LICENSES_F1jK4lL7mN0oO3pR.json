@@ -5,24 +5,24 @@
   "_id": "F1jK4lL7mN0oO3pR",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<h3>City Hall Hub Move</h3><p>When you <em><strong>bury someone in messy paperwork by manipulating city officials</strong></em>, roll with <strong>Heart</strong>.</p>",
+    "description": "<p>When you <em><strong>bury someone in messy paperwork</strong></em> by manipulating city officials, roll with <strong>HEART</strong>. </p>",
     "moveType": "hub",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": "<p>Your machinations are costly and impotent; a Status-3 NPC takes interest in your schemes.</p>"
+        "value": "<p>On a miss, your machinations are both costly and impotent; a Status-3 NPC takes an interest in your schemes as well as a result of your incompetent meddling.</p>"
       },
       "weakHit": {
         "key": "system.moveResults.weakHit.value",
         "label": "Weak Hit",
-        "value": "<p>Draw unwanted municipal attention; they take <strong>-1 ongoing</strong> to moves during faction turn.</p>"
+        "value": "<p>On a hit, you draw unwanted municipal attention to their dealings; they take -1 ongoing to moves during the faction turn until they return to anonymity. </p>"
       },
       "strongHit": {
         "key": "system.moveResults.strongHit.value",
         "label": "Strong Hit",
-        "value": "<p>Draw unwanted municipal attention; they take <strong>-1 ongoing</strong> to moves during faction turn. Additionally, convince agents you're doing them a favor; take a Debt on them.</p>"
+        "value": "<p>On a hit, you draw unwanted municipal attention to their dealings; they take -1 ongoing to moves during the faction turn until they return to anonymity. </p><p>On a 10+, you convince your agents at city hall that you’re doing them a favor; take a Debt on them as well. </p>"
       }
     },
     "uses": 0,
@@ -42,12 +42,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.20",
+    "systemVersion": "1.1.21",
     "createdTime": 1748493194026,
-    "modifiedTime": 1750880191357,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756434151900,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!F1jK4lL7mN0oO3pR"
 }

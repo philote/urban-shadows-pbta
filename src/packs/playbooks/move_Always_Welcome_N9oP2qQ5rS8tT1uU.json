@@ -5,7 +5,7 @@
   "_id": "N9oP2qQ5rS8tT1uU",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you attempt to worm your way into a restricted location by manipulating an underling or guard, roll with your Status in their Circle. On a hit, they open the way for you, despite their misgivings.</p>",
+    "description": "<p>When you attempt to worm your way into a restricted location by manipulating an underling or guard, roll with your Status in their Circle. On a hit, they open the way for you, despite their misgivings. On a 10+, they promise to try to keep your name out of any trouble that arises as a result. On a miss, they stand strong...but inadvertently give you an opening to gain the access you seek through violence.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {

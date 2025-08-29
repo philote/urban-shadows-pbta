@@ -189,82 +189,29 @@
   "items": [
     {
       "folder": "H9kL2nM5oP8qR3sT",
-      "name": "BAR BUDDIES",
-      "type": "move",
-      "_id": "O1AWt3zjajZjQqt9",
-      "img": "icons/svg/aura.svg",
-      "system": {
-        "description": "<h3>Downtown Hub Move</h3><p>When you <em><strong>go drinking downtown hoping to network with wealthy/powerful</strong></em>, roll with <strong>Heart</strong>.</p>",
-        "moveType": "hub",
-        "rollFormula": "",
-        "moveResults": {
-          "miss": {
-            "key": "system.moveResults.miss.value",
-            "label": "Miss",
-            "value": "<p>Overindulge in your worst vice; MC determines consequences.</p>"
-          },
-          "weakHit": {
-            "key": "system.moveResults.weakHit.value",
-            "label": "Weak Hit",
-            "value": "<p>Meet someone connected to NPC of your choice. They help if you help first; <strong>+1 ongoing</strong> to persuade if you agree to small favor.</p>"
-          },
-          "strongHit": {
-            "key": "system.moveResults.strongHit.value",
-            "label": "Strong Hit",
-            "value": "<p>Meet someone connected to NPC of your choice. They become friends and agree to one favor.</p>"
-          }
-        },
-        "uses": 0,
-        "rollType": "heart",
-        "rollMod": 0,
-        "actorType": "urban-shadows-pbta.city-hub",
-        "choices": ""
-      },
-      "effects": [],
-      "sort": 1100000,
-      "ownership": {
-        "default": 0,
-        "tolKXMkOd7JsM4Jk": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.urban-shadows-pbta.play-materials.Item.K6oP9qQ2rU5vV8wX",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.345",
-        "systemId": "pbta",
-        "systemVersion": "1.1.21",
-        "createdTime": 1750883335454,
-        "modifiedTime": 1750883335454,
-        "lastModifiedBy": "tolKXMkOd7JsM4Jk"
-      },
-      "_key": "!actors.items!6ZdgoYdX2MKJhtE8.O1AWt3zjajZjQqt9"
-    },
-    {
-      "folder": "H9kL2nM5oP8qR3sT",
       "name": "UP FOR GRABS",
       "type": "move",
-      "_id": "ESiTpPBWDlgLdsZL",
+      "_id": "ldNAgCUHSM3inO9h",
       "img": "icons/svg/aura.svg",
       "system": {
-        "description": "<h3>Downtown Hub Move</h3><p>When you <em><strong>smash and grab something useful from streets/shops downtown</strong></em>, name target and roll with <strong>Blood</strong>.</p>",
+        "description": "<p>When you <em><strong>smash and grab something useful from the streets or shops downtown</strong></em>, name what you’re after and roll with <strong>BLOOD</strong>. </p>",
         "moveType": "hub",
         "rollFormula": "",
         "moveResults": {
           "miss": {
             "key": "system.moveResults.miss.value",
             "label": "Miss",
-            "value": "<p>Get something close but victim takes it personally; ally becomes additional target until time passes.</p>"
+            "value": "<p>On a miss, you get your hands on something close to what you wanted, but the victim of your theft takes it personally; one of your close allies becomes an additional target of their ire until time passes.</p>"
           },
           "weakHit": {
             "key": "system.moveResults.weakHit.value",
             "label": "Weak Hit",
-            "value": "<p>Take what you want by force. However, spot someone who will make trouble over evidence of your crime.</p>"
+            "value": "<p>On a hit, you take what you want by force. </p><p>On a 7-9, you spot someone who will make trouble for you leaving the scene with evidence of your wrongdoing.</p>"
           },
           "strongHit": {
             "key": "system.moveResults.strongHit.value",
             "label": "Strong Hit",
-            "value": "<p>Take what you want by force.</p>"
+            "value": "<p>On a hit, you take what you want by force.</p>"
           }
         },
         "uses": 0,
@@ -277,21 +224,76 @@
       "sort": 1000000,
       "ownership": {
         "default": 0,
-        "tolKXMkOd7JsM4Jk": 3
+        "tolKXMkOd7JsM4Jk": 3,
+        "WynALakZJf661YU1": 3
       },
       "flags": {},
       "_stats": {
         "compendiumSource": "Compendium.urban-shadows-pbta.play-materials.Item.J5nO8pP1qS4tT7uV",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "13.347",
         "systemId": "pbta",
         "systemVersion": "1.1.21",
-        "createdTime": 1750883338980,
-        "modifiedTime": 1750883338980,
-        "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+        "createdTime": 1756435062068,
+        "modifiedTime": 1756435062068,
+        "lastModifiedBy": "WynALakZJf661YU1"
       },
-      "_key": "!actors.items!6ZdgoYdX2MKJhtE8.ESiTpPBWDlgLdsZL"
+      "_key": "!actors.items!6ZdgoYdX2MKJhtE8.ldNAgCUHSM3inO9h"
+    },
+    {
+      "folder": "H9kL2nM5oP8qR3sT",
+      "name": "BAR BUDDIES",
+      "type": "move",
+      "_id": "2WUW1tRU70cvJwBh",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>When you <em><strong>go drinking downtown in the hopes of networking with the wealthy and powerful</strong></em>, roll with <strong>HEART</strong>.</p>",
+        "moveType": "hub",
+        "rollFormula": "",
+        "moveResults": {
+          "miss": {
+            "key": "system.moveResults.miss.value",
+            "label": "Miss",
+            "value": "<p>On a miss, you overindulge in whatever vice plagues you most; the MC will tell you how your foolish needs get you in over your head.</p>"
+          },
+          "weakHit": {
+            "key": "system.moveResults.weakHit.value",
+            "label": "Weak Hit",
+            "value": "<p>On a hit, you meet just the person— someone connected to an NPC of your choice; the MC will tell you who they are.</p><p>On a 7-9, they are a bit more cautious, only scratching your back if you scratch theirs; take a +1 ongoing to <em><strong>persuade</strong></em> them to help you out if you agree to a small favor before you roll.</p>"
+          },
+          "strongHit": {
+            "key": "system.moveResults.strongHit.value",
+            "label": "Strong Hit",
+            "value": "<p>On a hit, you meet just the person— someone connected to an NPC of your choice; the MC will tell you who they are. </p><p>On a 10+, you get along famously; you can count them among your friends and they (drunkenly) agree to one favor you ask.</p>"
+          }
+        },
+        "uses": 0,
+        "rollType": "heart",
+        "rollMod": 0,
+        "actorType": "urban-shadows-pbta.city-hub",
+        "choices": ""
+      },
+      "effects": [],
+      "sort": 1100000,
+      "ownership": {
+        "default": 0,
+        "tolKXMkOd7JsM4Jk": 3,
+        "WynALakZJf661YU1": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.urban-shadows-pbta.play-materials.Item.K6oP9qQ2rU5vV8wX",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "pbta",
+        "systemVersion": "1.1.21",
+        "createdTime": 1756435065571,
+        "modifiedTime": 1756435065571,
+        "lastModifiedBy": "WynALakZJf661YU1"
+      },
+      "_key": "!actors.items!6ZdgoYdX2MKJhtE8.2WUW1tRU70cvJwBh"
     }
   ],
   "effects": [],

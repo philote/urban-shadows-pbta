@@ -22,7 +22,7 @@
       "strongHit": {
         "key": "system.moveResults.strongHit.value",
         "label": "Strong Hit",
-        "value": "<p>On a hit, you inflict harm as established and your opposition chooses one:</p><ul><li>they inflict harm on you</li><li>they put you in a bad spot</li><li>they create an opening to flee</li></ul><p>On a 10+, you also choose one:</p><ul><li>you inflict terrible harm (+1 harm)</li><li>you take something from them</li><li>you create an opportunity for an ally</li></ul>"
+        "value": "<p>On a hit, you inflict harm as established and your opposition chooses one:</p><ul><li>they inflict harm on you</li><li>they put you in a bad spot</li><li>they create an opening to flee</li></ul><p>On a 10+, you also choose one:</p><ul><li>you inflict terrible harm</li><li>you take something from them</li><li>you create an opportunity for an ally</li></ul>"
       }
     },
     "uses": 0,

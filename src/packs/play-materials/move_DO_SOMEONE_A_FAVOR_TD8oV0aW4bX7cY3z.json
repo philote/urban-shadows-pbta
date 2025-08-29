@@ -5,24 +5,24 @@
   "_id": "TD8oV0aW4bX7cY3z",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you <em><strong>do someone a favor</strong></em>, they owe you a Debt.</p><p><em>This must be a real and meaningful favor that clearly benefits the recipient. You cannot claim a Debt for simply upholding your end of a bargain.</em></p>",
+    "description": "<p>When you <em><strong>do someone a favor</strong></em>, they owe you a Debt.</p>",
     "moveType": "debt",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>The MC tells you what interesting thing happens.</p>"
       },
       "weakHit": {
         "key": "system.moveResults.weakHit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>They owe you a Debt.</p>"
       },
       "strongHit": {
         "key": "system.moveResults.strongHit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>They owe you a Debt.</p>"
       }
     },
     "uses": 0,

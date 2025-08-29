@@ -5,24 +5,24 @@
   "_id": "H3lM6nN9oP2qQ5rT",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<h3>University Hub Move</h3><p>When you <em><strong>perform a ritual to secure a secluded place on campus for a meeting/deal</strong></em>, roll with <strong>Spirit</strong>.</p>",
+    "description": "<p>When you <em><strong>perform a ritual to secure a secluded place on campus for a meeting or deal</strong></em>, roll with <strong>SPIRIT</strong>.</p>",
     "moveType": "hub",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": "<p>Your reality warping creates something dangerous piercing between worlds.</p>"
+        "value": "<p>On a miss, your attempt to warp reality to suit your needs results in something dangerous piercing the veil between worlds.</p>"
       },
       "weakHit": {
         "key": "system.moveResults.weakHit.value",
         "label": "Weak Hit",
-        "value": "<p>Campus produces secure location only available to you and designees until meeting/deal complete.</p>"
+        "value": "<p>On a hit, the campus bends to your will and produces a secure location only available to you and those you designate; it lasts until the meeting or deal is complete.</p>"
       },
       "strongHit": {
         "key": "system.moveResults.strongHit.value",
         "label": "Strong Hit",
-        "value": "<p>Campus produces secure location only available to you and designees until meeting/deal complete. Additionally, place is attuned to you; never mark corruption when letting it out within.</p>"
+        "value": "<p>On a hit, the campus bends to your will and produces a secure location only available to you and those you designate; it lasts until the meeting or deal is complete. </p><p>On a 10+, the place is quietly attuned to you; you never have to mark corruption when you <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Nx2iP4uQ8vR1wS7t]{let it out}</strong></em> within. </p>"
       }
     },
     "uses": 0,
@@ -42,12 +42,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.20",
+    "systemVersion": "1.1.21",
     "createdTime": 1748493194026,
-    "modifiedTime": 1750880191357,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756434898503,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!H3lM6nN9oP2qQ5rT"
 }

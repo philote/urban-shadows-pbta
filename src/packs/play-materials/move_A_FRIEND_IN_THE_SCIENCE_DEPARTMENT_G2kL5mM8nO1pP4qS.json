@@ -5,14 +5,14 @@
   "_id": "G2kL5mM8nO1pP4qS",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<h3>University Hub Move</h3><p>When you <em><strong>hit the streets to look for information about strange/magical phenomena via university contacts</strong></em>, roll with <strong>Mind instead of Circle</strong> when consulting university contacts.</p>",
+    "description": "<p>When you <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.QA5lS7xT1yU4zV0w]{hit the streets}</strong></em> to look for information about strange or magical phenomena by consulting your university contacts, you can roll with <strong>MIND</strong> instead of Circle when you consult your contacts at the university. </p>",
     "moveType": "hub",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": "<p>Questions attract attention of old enemy looking to settle a score.</p>"
+        "value": "<p>On a miss, your questions attract the attention of an old enemy looking to settle a score.</p>"
       },
       "weakHit": {
         "key": "system.moveResults.weakHit.value",
@@ -42,12 +42,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.20",
+    "systemVersion": "1.1.21",
     "createdTime": 1748493194026,
-    "modifiedTime": 1750880191357,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756434645896,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!G2kL5mM8nO1pP4qS"
 }

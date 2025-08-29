@@ -5,24 +5,24 @@
   "_id": "K6oP9qQ2rU5vV8wX",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<h3>Downtown Hub Move</h3><p>When you <em><strong>go drinking downtown hoping to network with wealthy/powerful</strong></em>, roll with <strong>Heart</strong>.</p>",
+    "description": "<p>When you <em><strong>go drinking downtown in the hopes of networking with the wealthy and powerful</strong></em>, roll with <strong>HEART</strong>.</p>",
     "moveType": "hub",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": "<p>Overindulge in your worst vice; MC determines consequences.</p>"
+        "value": "<p>On a miss, you overindulge in whatever vice plagues you most; the MC will tell you how your foolish needs get you in over your head.</p>"
       },
       "weakHit": {
         "key": "system.moveResults.weakHit.value",
         "label": "Weak Hit",
-        "value": "<p>Meet someone connected to NPC of your choice. They help if you help first; <strong>+1 ongoing</strong> to persuade if you agree to small favor.</p>"
+        "value": "<p>On a hit, you meet just the person— someone connected to an NPC of your choice; the MC will tell you who they are.</p><p>On a 7-9, they are a bit more cautious, only scratching your back if you scratch theirs; take a +1 ongoing to <em><strong>persuade</strong></em> them to help you out if you agree to a small favor before you roll.</p>"
       },
       "strongHit": {
         "key": "system.moveResults.strongHit.value",
         "label": "Strong Hit",
-        "value": "<p>Meet someone connected to NPC of your choice. They become friends and agree to one favor.</p>"
+        "value": "<p>On a hit, you meet just the person— someone connected to an NPC of your choice; the MC will tell you who they are. </p><p>On a 10+, you get along famously; you can count them among your friends and they (drunkenly) agree to one favor you ask.</p>"
       }
     },
     "uses": 0,
@@ -42,12 +42,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.20",
+    "systemVersion": "1.1.21",
     "createdTime": 1748493194026,
-    "modifiedTime": 1750880191357,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756434402371,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!K6oP9qQ2rU5vV8wX"
 }

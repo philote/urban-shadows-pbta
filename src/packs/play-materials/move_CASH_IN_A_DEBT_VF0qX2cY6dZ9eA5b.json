@@ -5,24 +5,24 @@
   "_id": "VF0qX2cY6dZ9eA5b",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you <em><strong>cash in a Debt</strong></em>, remind your debtor why they owe you to make them:</p><p><strong>Make a PC:</strong></p><ul><li>answer a question honestly</li><li>do you a favor at moderate cost</li><li>lend a hand to your efforts</li><li>get in the way of someone else</li><li>erase a Debt they hold on someone</li><li>give you a Debt they hold on someone else</li></ul><p><strong>Make an NPC:</strong></p><ul><li>answer a question honestly</li><li>arrange a meeting with an NPC in their Circle</li><li>grant you a worthy boon or useful gift</li><li>erase a Debt they hold on someone</li><li>give you a Debt they hold on someone else</li></ul>",
+    "description": "<p>When you <em><strong>cash in a Debt</strong></em>, remind your debtor why they owe you in order to...</p>",
     "moveType": "debt",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>The MC tells you what interesting thing happens.</p>"
       },
       "weakHit": {
         "key": "system.moveResults.weakHit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>...make a PC:</p><ul><li>answer a question honestly</li><li>do you a favor at moderate cost</li><li>lend a hand to your efforts</li><li>get in the way of someone else</li><li>erase a Debt they hold on someone</li><li>give you a Debt they hold on someone else</li></ul><p>...make an NPC:</p><ul><li>answer a question honestly</li><li>arrange a meeting with an NPC in their Circle</li><li>grant you a worthy boon or useful gift</li><li>erase a Debt they hold on someone</li><li>give you a Debt they hold on someone else</li></ul>"
       },
       "strongHit": {
         "key": "system.moveResults.strongHit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>...make a PC:</p><ul><li>answer a question honestly</li><li>do you a favor at moderate cost</li><li>lend a hand to your efforts</li><li>get in the way of someone else</li><li>erase a Debt they hold on someone</li><li>give you a Debt they hold on someone else</li></ul><p>...make an NPC:</p><ul><li>answer a question honestly</li><li>arrange a meeting with an NPC in their Circle</li><li>grant you a worthy boon or useful gift</li><li>erase a Debt they hold on someone</li><li>give you a Debt they hold on someone else</li></ul>"
       }
     },
     "uses": 0,

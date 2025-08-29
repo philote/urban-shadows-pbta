@@ -5,7 +5,7 @@
   "_id": "Jt8eL0qM4rN7sO3p",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you <em><strong>persuade an NPC with seduction, promises, or threats</strong></em>, roll with <strong>HEART</strong>.</p><p><em>If you cash in a Debt with the NPC before you roll, add +3 to your total (max +4).</em></p>",
+    "description": "<p>When you <em><strong>persuade an NPC with seduction, promises, or threats</strong></em>, roll with <strong>HEART</strong>.</p>",
     "moveType": "basic",
     "rollFormula": "",
     "moveResults": {
@@ -17,12 +17,12 @@
       "weakHit": {
         "key": "system.moveResults.weakHit.value",
         "label": "Weak Hit",
-        "value": "<p>On a hit, they see your point and do as you ask. On a 7-9, they counter your offer or demand payment—a Debt, a favor, resources—before agreeing to follow through.</p>"
+        "value": "<p>On a hit, they see your point and do as you ask. On a 7-9, they counter your offer or demand payment—a Debt, a favor, resources—before agreeing to follow through.</p><p>If you cash in a Debt with the NPC before you roll, add +3 to your total (max+4).</p>"
       },
       "strongHit": {
         "key": "system.moveResults.strongHit.value",
         "label": "Strong Hit",
-        "value": "<p>On a hit, they see your point and do as you ask.</p>"
+        "value": "<p>On a hit, they see your point and do as you ask.</p><p>If you cash in a Debt with the NPC before you roll, add +3 to your total (max+4).</p>"
       }
     },
     "uses": 0,

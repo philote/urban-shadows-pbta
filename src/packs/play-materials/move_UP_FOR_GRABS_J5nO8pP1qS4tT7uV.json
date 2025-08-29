@@ -5,24 +5,24 @@
   "_id": "J5nO8pP1qS4tT7uV",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<h3>Downtown Hub Move</h3><p>When you <em><strong>smash and grab something useful from streets/shops downtown</strong></em>, name target and roll with <strong>Blood</strong>.</p>",
+    "description": "<p>When you <em><strong>smash and grab something useful from the streets or shops downtown</strong></em>, name what you’re after and roll with <strong>BLOOD</strong>. </p>",
     "moveType": "hub",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": "<p>Get something close but victim takes it personally; ally becomes additional target until time passes.</p>"
+        "value": "<p>On a miss, you get your hands on something close to what you wanted, but the victim of your theft takes it personally; one of your close allies becomes an additional target of their ire until time passes.</p>"
       },
       "weakHit": {
         "key": "system.moveResults.weakHit.value",
         "label": "Weak Hit",
-        "value": "<p>Take what you want by force. However, spot someone who will make trouble over evidence of your crime.</p>"
+        "value": "<p>On a hit, you take what you want by force. </p><p>On a 7-9, you spot someone who will make trouble for you leaving the scene with evidence of your wrongdoing.</p>"
       },
       "strongHit": {
         "key": "system.moveResults.strongHit.value",
         "label": "Strong Hit",
-        "value": "<p>Take what you want by force.</p>"
+        "value": "<p>On a hit, you take what you want by force.</p>"
       }
     },
     "uses": 0,
@@ -42,12 +42,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.20",
+    "systemVersion": "1.1.21",
     "createdTime": 1748493194026,
-    "modifiedTime": 1750880191357,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756434470408,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!J5nO8pP1qS4tT7uV"
 }

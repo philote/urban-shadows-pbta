@@ -17,7 +17,7 @@
       },
       "heart": {
         "label": "Heart",
-        "value": -1,
+        "value": 0,
         "steps": {
           "value": 0,
           "max": 3
@@ -25,7 +25,7 @@
       },
       "mind": {
         "label": "Mind",
-        "value": 1,
+        "value": -1,
         "steps": {
           "value": 0,
           "max": 3
@@ -33,7 +33,7 @@
       },
       "spirit": {
         "label": "Spirit",
-        "value": 0,
+        "value": 1,
         "steps": {
           "value": 0,
           "max": 3
@@ -49,7 +49,7 @@
       },
       "night": {
         "label": "Night",
-        "value": 1,
+        "value": 0,
         "steps": {
           "value": 0,
           "max": 3
@@ -57,7 +57,7 @@
       },
       "power": {
         "label": "Power",
-        "value": 0,
+        "value": 1,
         "steps": {
           "value": 0,
           "max": 3
@@ -76,7 +76,7 @@
     "attributes": {
       "corruption": {
         "label": "Corruption",
-        "description": "TRIGGER: When you injure or greatly endanger an innocent bystander, mark corruption.",
+        "description": "TRIGGER: When you kill a supernatural creature that was not an immediate threat, mark corruption.",
         "type": "Clock",
         "value": 0,
         "max": 5,
@@ -96,7 +96,7 @@
         "value": "",
         "choices": [
           {
-            "value": "<ul><li><p>track someone or something through the city with limited information or trail</p></li><li><p>treat a mundane object as a weapon (2-harm messy) or 1-armor for a scene</p></li><li><p>jury rig an explosive (3-harm loud fire) or smoke bomb (s-harm loud smoke)</p></li><li><p>force a vulnerable foe to flee your presence and deliver a message</p></li></ul>",
+            "value": "<ul><li><p>produce the perfect weapon or tool for dealing with a supernatural threat</p></li><li><p>know exactly where to strike to cause maximum harm to your target</p></li><li><p>sense the presence and nature of supernatural creatures nearby</p></li><li><p>push through pain and injury to keep fighting when others would fall</p></li></ul>",
             "options": {}
           }
         ],
@@ -112,7 +112,7 @@
         "value": "",
         "choices": [
           {
-            "value": "<ul><li><p>Someone helps you unwind and keeps you sane, despite the horrors of your hunts. You owe them a Debt.</p></li><li><p>Your hunts incurred the wrath of a powerful person; someone helped smooth things over. You owe them a Debt.</p></li><li><p>Someone has enlisted you to protect them from something dangerous. They owe you a Debt.</p></li></ul>",
+            "value": "<ul><li><p>Someone trained you in the ways of hunting the supernatural. You owe them a Debt.</p></li><li><p>You saved someone from a supernatural threat, but they were changed by the experience. They owe you a Debt.</p></li><li><p>Someone provides you with information about supernatural activities in the city. You owe them a Debt.</p></li></ul>",
             "options": {}
           }
         ],

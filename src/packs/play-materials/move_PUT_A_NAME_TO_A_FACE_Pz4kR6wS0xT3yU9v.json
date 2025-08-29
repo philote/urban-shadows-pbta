@@ -12,7 +12,7 @@
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": "<p>The MC tells you what interesting thing happens.</p>"
+        "value": "<p>The MC tells you what interesting thing happens.</p><p>On a miss, you don't know them or you owe them, MC's choice.</p>"
       },
       "weakHit": {
         "key": "system.moveResults.weakHit.value",

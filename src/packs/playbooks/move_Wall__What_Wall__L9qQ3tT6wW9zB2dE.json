@@ -5,7 +5,7 @@
   "_id": "L9qQ3tT6wW9zB2dE",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>You always have an opening to escape a situation. You can choose an additional option off the list to bring someone with you, even if they would normally be unable to escape.</p>",
+    "description": "<p>You always have an opening to escape a situation. You can choose an additional option off the list to bring someone with you, even if they would normally be unable to escape. On a miss, you—and whoever you brought with you—end up caught in the dangerous space between the worlds of the living and the dead.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {

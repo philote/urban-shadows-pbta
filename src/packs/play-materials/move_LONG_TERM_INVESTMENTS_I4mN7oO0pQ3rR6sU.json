@@ -5,28 +5,28 @@
   "_id": "I4mN7oO0pQ3rR6sU",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<h3>University Hub Move</h3><p>When you <em><strong>set up a new program, business, or enterprise</strong></em>, spend up to 3 Debts; hold 1 for each spent.</p><p>When time passes, spend hold 1-for-1 to take/give +1 to city/faction moves aided by your endeavor.</p>",
+    "description": "<p>When you <em><strong>set up a new program, business, or enterprise</strong></em> to accomplish your goals, spend up to three Debts; hold 1 for each Debt spent. When time passes, you can spend your hold—1 for 1—to take a +1 (or give a +1 to another PC or faction) on any city or faction move aided by your new endeavor.</p>",
     "moveType": "hub",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": "<p>This move automatically succeeds when triggered.</p>"
+        "value": ""
       },
       "weakHit": {
         "key": "system.moveResults.weakHit.value",
         "label": "Weak Hit",
-        "value": "<p>This move automatically succeeds when triggered.</p>"
+        "value": ""
       },
       "strongHit": {
         "key": "system.moveResults.strongHit.value",
         "label": "Strong Hit",
-        "value": "<p>Your investment is established. You may spend up to 3 Debts and hold 1 for each spent. When time passes, spend hold 1-for-1 to take/give +1 to city/faction moves aided by your endeavor.</p>"
+        "value": ""
       }
     },
     "uses": 0,
-    "rollType": "prompt",
+    "rollType": "",
     "rollMod": 0,
     "actorType": "character",
     "choices": ""
@@ -42,12 +42,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.20",
+    "systemVersion": "1.1.21",
     "createdTime": 1748493194026,
-    "modifiedTime": 1750880191357,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756434749458,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!I4mN7oO0pQ3rR6sU"
 }

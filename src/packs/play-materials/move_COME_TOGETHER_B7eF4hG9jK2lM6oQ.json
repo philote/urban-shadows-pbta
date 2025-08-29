@@ -5,24 +5,24 @@
   "_id": "B7eF4hG9jK2lM6oQ",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<h3>Art District Hub Move</h3><p>When you <em><strong>organize a protest</strong></em>, roll with a <strong>Circle of fellow organizers</strong>.</p>",
+    "description": "<p>When you <em><strong>organize a protest</strong></em>, roll with a Circle of your fellow organizers. </p>",
     "moveType": "hub",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": "<p>Someone you trusted leaks your secrets to a dangerous foe.</p>"
+        "value": "<p>On a miss, someone you trusted leaks your secrets to a dangerous foe.</p>"
       },
       "weakHit": {
         "key": "system.moveResults.weakHit.value",
         "label": "Weak Hit",
-        "value": "<p>Your protest puts pressure on a powerful NPC of your choice; they take <strong>-1 ongoing</strong> through next faction turn.</p>"
+        "value": "<p>On a hit, your protest puts pressure on a powerful NPC of your choice; they take a -1 ongoing through the next faction turn. </p>"
       },
       "strongHit": {
         "key": "system.moveResults.strongHit.value",
         "label": "Strong Hit",
-        "value": "<p>Your protest puts pressure on a powerful NPC of your choice; they take <strong>-1 ongoing</strong> through next faction turn. Additionally, the leader of another faction takes interest and delivers a Debt, powerful resources, or secret information.</p>"
+        "value": "<p>On a hit, your protest puts pressure on a powerful NPC of your choice; they take a -1 ongoing through the next faction turn. </p><p>On a 10+, the leader of another faction takes interest in your cause and delivers a Debt, powerful resources, or secret information that aids your cause. </p>"
       }
     },
     "uses": 0,
@@ -42,12 +42,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1748493194026,
-    "modifiedTime": 1750880191357,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756433994917,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!B7eF4hG9jK2lM6oQ"
 }

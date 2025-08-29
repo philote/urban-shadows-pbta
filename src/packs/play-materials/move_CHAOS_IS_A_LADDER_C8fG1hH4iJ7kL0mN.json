@@ -5,24 +5,24 @@
   "_id": "C8fG1hH4iJ7kL0mN",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<h3>Art District Hub Move</h3><p>When you <em><strong>posture for clout in front of well-connected NPCs</strong></em>, roll with <strong>Mind</strong>.</p>",
+    "description": "<h3>Art District Hub Move</h3><p>When you <em><strong>posture for clout </strong></em>in front of well-connected NPCs, roll with <strong>MIND</strong>.</p>",
     "moveType": "hub",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": "<p>Your humblebragging attracts attention of a rival you owe a Debt; take <strong>-1 ongoing</strong> when refusing to honor Debts to their Circle until time passes.</p>"
+        "value": "<p>On a miss, your humblebragging attracts the attention of a rival to whom you owe an uncomfortably large Debt; take -1 ongoing when <em><strong>refusing to honor your Debts</strong></em> to anyone from their Circle until time passes.</p>"
       },
       "weakHit": {
         "key": "system.moveResults.weakHit.value",
         "label": "Weak Hit",
-        "value": "<p>They buy your ruse; take <strong>+1 Status</strong> with relevant Circle until time passes or deception revealed. However, they require you to prove yourself or risk retribution.</p>"
+        "value": "<p>On a hit, they buy your ruse; take +1 Status with a relevant Circle until time passes or your deception is revealed. </p><p>On a 7-9, they require you to prove yourself or risk retribution. </p>"
       },
       "strongHit": {
         "key": "system.moveResults.strongHit.value",
         "label": "Strong Hit",
-        "value": "<p>They buy your ruse; take <strong>+1 Status</strong> with relevant Circle until time passes or deception revealed.</p>"
+        "value": "<p>On a hit, they buy your ruse; take +1 Status with a relevant Circle until time passes or your deception is revealed. </p>"
       }
     },
     "uses": 0,
@@ -42,12 +42,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.20",
+    "systemVersion": "1.1.21",
     "createdTime": 1748493194026,
-    "modifiedTime": 1750880191357,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756434039925,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!C8fG1hH4iJ7kL0mN"
 }
