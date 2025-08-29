@@ -5,7 +5,7 @@
   "_id": "K8nQ1sS4vV7wW0aC",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>Take +1 Spirit (max +3).</p>",
+    "description": "<p>Take +1 <strong>SPIRIT</strong> (max +3).</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.K8nQ1sS4vV7wW0aC",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748304629237,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756441612603,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!K8nQ1sS4vV7wW0aC"

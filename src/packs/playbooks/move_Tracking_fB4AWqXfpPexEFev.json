@@ -6,7 +6,7 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "description": "<p>Spend 1 hold to learn the location of a specific person. You must have a personal object that belongs to the target or recent leavings of their body (a lock of hair, fingernail clippings, their blood, etc.).</p>",
-    "moveType": "playbook",
+    "moveType": "spells",
     "rollFormula": "",
     "moveResults": {
       "miss": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.C5dE8fG1hH4iI7jJ",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748488504552,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756445158414,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!fB4AWqXfpPexEFev"

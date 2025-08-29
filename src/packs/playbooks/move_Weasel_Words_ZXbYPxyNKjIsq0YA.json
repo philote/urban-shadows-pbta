@@ -5,24 +5,24 @@
   "_id": "ZXbYPxyNKjIsq0YA",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you refuse to honor a Debt by fast-talking your way out of the obligation, roll with <strong>Mind</strong> instead of the difference in Status. On a hit—in addition to the normal effects—mark your creditor's Circle as though you had honored the Debt.</p>",
+    "description": "<p>When you <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.WG1rY3dZ7eA0fB6c]{refuse to honor a Debt}</strong></em> by fast-talking your way out of the obligation, roll with <strong>MIND</strong> instead of the difference in Status.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>On a miss, you can't avoid the noose: either honor the Debt in full or erase all the Debts owed to you by their Circle and take a -1 ongoing to Status with their Circle until after time passes.</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a hit, you weasel out of the obligation for now, but you still owe the Debt. On a 7-9, you owe them an additional Debt or mark corruption, your choice.</p><p>On a hit—in addition to the normal effects—mark your creditor's Circle as though you had honored the Debt.</p>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a hit, you weasel out of the obligation for now, but you still owe the Debt.</p><p>On a hit—in addition to the normal effects—mark your creditor's Circle as though you had honored the Debt.</p>"
       }
     },
     "uses": 0,
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.D1gI4lL8oO1rR4uW",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756440753721,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!ZXbYPxyNKjIsq0YA"

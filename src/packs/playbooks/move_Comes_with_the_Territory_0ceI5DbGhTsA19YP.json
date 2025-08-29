@@ -5,24 +5,24 @@
   "_id": "0ceI5DbGhTsA19YP",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>If you are actively patrolling your territory when time passes—or at the start of the game—roll with <strong>Blood</strong>. On a 10+, your territory is secure and trouble is at a minimum; take +1 ongoing when you hit the streets in your territory. On a 7-9, one of your troubles surfaces (your choice), along with an opportunity to address it. On a miss, or if you aren’t attending to your territory, things go south and your troubles are fast and furious.</p>",
+    "description": "<p>If you are actively patrolling your territory when time passes—or at the start of the game—roll with <strong>BLOOD</strong>.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>On a miss, or if you aren’t attending to your territory, things go south and your troubles are fast and furious.</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a 7-9, one of your troubles surfaces (your choice), along with an opportunity to address it.</p>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a 10+, your territory is secure and trouble is at a minimum; take +1 ongoing when you hit the streets in your territory.</p>"
       }
     },
     "uses": 0,
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.X0aA3bC6dE9fG2hH",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748405469882,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756445395415,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!0ceI5DbGhTsA19YP"

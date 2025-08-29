@@ -5,7 +5,7 @@
   "_id": "A5ZER6W4D1Q79fkW",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>You get +1 Blood (max +4). Whenever you roll with Blood and roll a 12+, mark corruption.</p>",
+    "description": "<p>You get +1 <strong>BLOOD</strong> (max +4). Whenever you roll with <strong>BLOOD</strong> and roll a 12+, mark corruption.</p>",
     "moveType": "corruption",
     "rollFormula": "",
     "moveResults": {
@@ -26,7 +26,7 @@
       }
     },
     "uses": 0,
-    "rollType": "blood",
+    "rollType": "",
     "rollMod": 0,
     "actorType": "character",
     "choices": ""
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907149533,
-    "modifiedTime": 1733907149533,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756444914076,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!A5ZER6W4D1Q79fkW"

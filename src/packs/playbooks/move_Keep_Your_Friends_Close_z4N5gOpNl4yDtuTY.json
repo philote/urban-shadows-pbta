@@ -5,7 +5,7 @@
   "_id": "z4N5gOpNl4yDtuTY",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you figure someone out by helping them indulge a true hunger, take a 10+ instead of rolling. If they are in your Circle, take +1 ongoing to act on the answers to your questions until time passes.</p>",
+    "description": "<p>When you <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Ku9fM1rN5sO8tP4q]{figure someone out}</strong></em> by helping them indulge a true hunger, take a 10+ instead of rolling. If they are in your Circle, take +1 ongoing to act on the answers to your questions until time passes.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.P1vV4wW7xX0yY3zZ",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748405539130,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756442961278,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!z4N5gOpNl4yDtuTY"

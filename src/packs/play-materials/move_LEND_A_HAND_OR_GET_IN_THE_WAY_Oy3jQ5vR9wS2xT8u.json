@@ -17,7 +17,7 @@
       "weakHit": {
         "key": "system.moveResults.weakHit.value",
         "label": "Weak Hit",
-        "value": "<p>On a hit, give them a +1 or -2 to their roll. </p><p>On a 7-9, you expose yourself to danger, entanglement, or cost.</p>"
+        "value": "<p>On a hit, give them a +1 or -2 to their roll.</p><p>On a 7-9, you expose yourself to danger, entanglement, or cost.</p>"
       },
       "strongHit": {
         "key": "system.moveResults.strongHit.value",
@@ -46,7 +46,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1748493194026,
-    "modifiedTime": 1756435426090,
+    "modifiedTime": 1756443298351,
     "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!Oy3jQ5vR9wS2xT8u"

@@ -1,5 +1,5 @@
 {
-  "folder": "W0aC3fF6gG9hH2iI",
+  "folder": "8o7qAimGOKAnutBa",
   "name": "SPECTRE END MOVE",
   "type": "move",
   "_id": "N1sS4vV7wW0aC3fF",
@@ -32,7 +32,7 @@
     "choices": ""
   },
   "effects": [],
-  "sort": 300000,
+  "sort": 125000,
   "ownership": {
     "default": 0,
     "MZpJvwT3EQwBniAB": 3
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.N1sS4vV7wW0aC3fF",
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907156058,
-    "modifiedTime": 1749878741314,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756441853124,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!N1sS4vV7wW0aC3fF"

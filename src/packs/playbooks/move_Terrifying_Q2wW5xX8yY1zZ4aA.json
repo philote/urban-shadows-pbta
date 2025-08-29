@@ -5,7 +5,7 @@
   "_id": "Q2wW5xX8yY1zZ4aA",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>Take +1 BLOOD (max+3).</p>",
+    "description": "<p>Take +1 <strong>BLOOD</strong> (max+3).</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -26,7 +26,7 @@
       }
     },
     "uses": 0,
-    "rollType": "blood",
+    "rollType": "",
     "rollMod": 0,
     "actorType": "character",
     "choices": ""
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.Q2wW5xX8yY1zZ4aA",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748304823160,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756442974757,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!Q2wW5xX8yY1zZ4aA"

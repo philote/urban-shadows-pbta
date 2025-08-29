@@ -5,7 +5,7 @@
   "_id": "77e2eaff9f5c4201",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you weaken someone’s standing via false rumors, mark corruption to roll with <strong>Heart</strong> instead of Status. On a miss, mark corruption to have the trail lead back to an ally, not you.</p>",
+    "description": "<p>When you <em>weaken someone’s standing</em> via false rumors, mark corruption to roll with <strong>HEART</strong> instead of Status. On a miss, mark corruption to have the trail lead back to an ally, not you.</p>",
     "moveType": "corruption",
     "rollFormula": "",
     "moveResults": {
@@ -26,7 +26,7 @@
       }
     },
     "uses": 0,
-    "rollType": "heart",
+    "rollType": "",
     "rollMod": 0,
     "actorType": "character",
     "choices": ""
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907149533,
-    "modifiedTime": 1733907149533,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756444797979,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!77e2eaff9f5c4201"

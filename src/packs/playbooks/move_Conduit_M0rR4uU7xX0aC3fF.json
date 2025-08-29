@@ -5,7 +5,7 @@
   "_id": "M0rR4uU7xX0aC3fF",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>Advance let it out for all characters in your presence, including yourself.</p>",
+    "description": "<p>Advance <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Nx2iP4uQ8vR1wS7t]{let it out}</strong></em> for all characters in your presence, including yourself.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.M0rR4uU7xX0aC3fF",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748304634927,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756441673916,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!M0rR4uU7xX0aC3fF"

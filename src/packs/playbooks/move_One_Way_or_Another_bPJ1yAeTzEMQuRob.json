@@ -5,28 +5,28 @@
   "_id": "bPJ1yAeTzEMQuRob",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you plead with a member of your Circle for help with a pressing situation, roll with <strong>Heart</strong>. On a hit, they either agree to help or owe you a Debt, their choice. On a 10+, their guilt is palpable: if they decline and owe you a Debt, you take +1 ongoing against them as long as you hold that Debt. On a miss, you are exposed and vulnerable; but if they do agree to help, Otreat it as if they <em><strong>cashed in a Debt</strong></em> with you that you can’t refuse.</p>",
+    "description": "<p>When you plead with a member of your Circle for help with a pressing situation, roll with <strong>HEART</strong>. </p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>On a miss, you are exposed and vulnerable; but if they do agree to help, treat it as if they <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.VF0qX2cY6dZ9eA5b]{cashed in a Debt}</strong></em> with you that you can’t refuse.</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a hit, they either agree to help or owe you a Debt, their choice. </p>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a hit, they either agree to help or owe you a Debt, their choice. </p><p>On a 10+, their guilt is palpable: if they decline and owe you a Debt, you take +1 ongoing against them as long as you hold that Debt. </p>"
       }
     },
     "uses": 0,
-    "rollType": "",
+    "rollType": "heart",
     "rollMod": 0,
     "actorType": "character",
     "choices": ""
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.bPJ1yAeTzEMQuRob",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756439355024,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!bPJ1yAeTzEMQuRob"

@@ -5,28 +5,28 @@
   "_id": "M4pC2zV7nR6tJ3sQ",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you closely observe a supernatural person or creature, roll with Blood. On a hit, the MC will tell you a bit about their nature and at least one unusual weakness or flaw; take +1 ongoing when you take advantage of these unique vulnerabilities. On a 10+, ask a follow-up question, the MC will answer it honestly. On a miss, someone takes advantage of your diverted attention and acts against you before you see it coming.</p>",
+    "description": "<p>When you closely observe a supernatural person or creature, roll with <strong>BLOOD</strong>. </p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>On a miss, someone takes advantage of your diverted attention and acts against you before you see it coming.</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a hit, the MC will tell you a bit about their nature and at least one unusual weakness or flaw; take +1 ongoing when you take advantage of these unique vulnerabilities. </p>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a hit, the MC will tell you a bit about their nature and at least one unusual weakness or flaw; take +1 ongoing when you take advantage of these unique vulnerabilities. </p><p>On a 10+, ask a follow-up question, the MC will answer it honestly. </p>"
       }
     },
     "uses": 0,
-    "rollType": "",
+    "rollType": "blood",
     "rollMod": 0,
     "actorType": "character",
     "choices": ""
@@ -36,13 +36,14 @@
   "ownership": {},
   "flags": {},
   "_stats": {
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.20",
-    "lastModifiedBy": null,
+    "systemVersion": "1.1.21",
+    "lastModifiedBy": "WynALakZJf661YU1",
     "compendiumSource": null,
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "modifiedTime": 1756440299942
   },
   "_key": "!items!M4pC2zV7nR6tJ3sQ"
 }

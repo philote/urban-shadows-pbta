@@ -5,24 +5,24 @@
   "_id": "gaVbpcYqUTVAuNwu",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you go to your sanctum for a spell ingredient, relic, or tome, roll with <strong>Spirit</strong>. On a 10+, you’ve got pretty much just the thing. On a 7-9, you’ve got something close, but it’s flawed or lacking in some significant way. On a miss, you don’t have what you’re looking for, but you know someone from another Circle who probably has it in stock.</p>",
+    "description": "<p>When you go to your sanctum for a spell ingredient, relic, or tome, roll with <strong>SPIRIT</strong>.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>On a miss, you don’t have what you’re looking for, but you know someone from another Circle who probably has it in stock.</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a 7-9, you’ve got something close, but it’s flawed or lacking in some significant way. </p>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a 10+, you’ve got pretty much just the thing. </p>"
       }
     },
     "uses": 0,
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.B4dE7fG0hH3kK6nN",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756444999512,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!gaVbpcYqUTVAuNwu"

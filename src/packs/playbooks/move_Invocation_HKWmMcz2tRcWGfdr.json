@@ -5,7 +5,7 @@
   "_id": "HKWmMcz2tRcWGfdr",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>You may cash in a Debt with someone to appear in their presence; others may cash in a Debt with you to have you appear as well. Successfully refusing to honor the Debt cancels the invocation completely.</p>",
+    "description": "<p>You may <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.VF0qX2cY6dZ9eA5b]{cash in a Debt}</strong></em> with someone to appear in their presence; others may <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.VF0qX2cY6dZ9eA5b]{cash in a Debt}</strong></em> with you to have you appear as well. Successfully <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.WG1rY3dZ7eA0fB6c]{refusing to honor the Debt}</strong></em> cancels the invocation completely.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.T5vV8wW1xX4yY7zZ",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756442582763,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!HKWmMcz2tRcWGfdr"

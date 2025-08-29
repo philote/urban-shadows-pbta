@@ -5,24 +5,24 @@
   "_id": "O0uU3vV6wW9xX2yY",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you keep your cool by flouting mortal social conventions and expectations, roll with <strong>Blood</strong> instead of <strong>Spirit</strong>.</p>",
+    "description": "<p>When you <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Mw1hO3tP7uQ0vR6s]{keep your cool}</strong></em> by flouting mortal social conventions and expectations, roll with <strong>BLOOD</strong> instead of <strong>SPIRIT</strong>.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>The MC tells you what interesting thing happens.</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a 7-9, the MC will tell you what it's gonna cost you.</p>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a 10+, all's well.</p>"
       }
     },
     "uses": 0,
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.O0uU3vV6wW9xX2yY",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748304413960,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756442873090,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!O0uU3vV6wW9xX2yY"

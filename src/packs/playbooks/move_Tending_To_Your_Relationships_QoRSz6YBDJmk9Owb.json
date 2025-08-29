@@ -6,13 +6,13 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "description": "<p>When you tend to your mortal relationships during the faction turn, make no other city moves and roll with <strong>HEART</strong>. </p>",
-    "moveType": "",
+    "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>The MC tells you what interesting thing happens.</p>"
       },
       "weakHit": {
         "key": "system.moveResults.weakHit.value",
@@ -26,7 +26,7 @@
       }
     },
     "uses": 0,
-    "rollType": "",
+    "rollType": "heart",
     "rollMod": 0,
     "actorType": "character",
     "choices": ""
@@ -42,12 +42,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1749878090151,
-    "modifiedTime": 1749878214366,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756439193869,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!QoRSz6YBDJmk9Owb"
 }

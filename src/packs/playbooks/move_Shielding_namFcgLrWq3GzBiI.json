@@ -6,7 +6,7 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "description": "<p>Spend 1 hold to provide armor+1 to yourself or someone nearby, or spend 2 hold to provide armor+1 to everyone in a small area, possibly including yourself. This armor lasts until the end of the scene. You can stack multiple uses of Shielding at once.</p>",
-    "moveType": "playbook",
+    "moveType": "spells",
     "rollFormula": "",
     "moveResults": {
       "miss": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.F8hK1nN4oP7qQ0rS",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748488514379,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756445179996,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!namFcgLrWq3GzBiI"

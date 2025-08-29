@@ -5,28 +5,28 @@
   "_id": "R6kT3yB8nU5pA1dC",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you persuade an NPC by promising to protect them from harm, roll with Blood instead of Heart.</p>",
+    "description": "<p>When you <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Jt8eL0qM4rN7sO3p]{persuade an NPC}</strong></em> by promising to protect them from harm, roll with <strong>BLOOD</strong> instead of <strong>HEART</strong>.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>The MC tells you what interesting thing happens.</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a hit, they see your point and do as you ask. On a 7-9, they counter your offer or demand payment—a Debt, a favor, resources—before agreeing to follow through.</p><p>If you cash in a Debt with the NPC before you roll, add +3 to your total (max+4).</p>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a hit, they see your point and do as you ask.</p><p>If you cash in a Debt with the NPC before you roll, add +3 to your total (max+4).</p>"
       }
     },
     "uses": 0,
-    "rollType": "",
+    "rollType": "blood",
     "rollMod": 0,
     "actorType": "character",
     "choices": ""
@@ -36,13 +36,14 @@
   "ownership": {},
   "flags": {},
   "_stats": {
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.20",
-    "lastModifiedBy": null,
+    "systemVersion": "1.1.21",
+    "lastModifiedBy": "WynALakZJf661YU1",
     "compendiumSource": null,
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "modifiedTime": 1756440236939
   },
   "_key": "!items!R6kT3yB8nU5pA1dC"
 }

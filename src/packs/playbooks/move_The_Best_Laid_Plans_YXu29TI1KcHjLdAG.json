@@ -5,24 +5,24 @@
   "_id": "YXu29TI1KcHjLdAG",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you work out a plan with someone, roll with Mind. On a 10+, hold 3. On a 7-9, hold 2. You can spend your hold—1 for 1—regardless of distance, while the plan is underway to:</p><ul><li>Add +1 to someone’s roll (after rolling)</li><li>Dismiss all harm someone suffers from a single attack</li><li>Ensure your people have the exact gear they need on hand</li></ul><p>On a miss, hold 1, but your plan encounters some disastrous opposition right from the start.</p>",
+    "description": "<p>When you work out a plan with someone, roll with <strong>MIND</strong>. </p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>On a miss, hold 1, but your plan encounters some disastrous opposition right from the start.</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a 7-9, hold 2. You can spend your hold—1 for 1—regardless of distance, while the plan is underway to:</p><ul><li>Add +1 to someone’s roll (after rolling)</li><li>Dismiss all harm someone suffers from a single attack</li><li>Ensure your people have the exact gear they need on hand</li></ul>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a 10+, hold 3. You can spend your hold—1 for 1—regardless of distance, while the plan is underway to:</p><ul><li>Add +1 to someone’s roll (after rolling)</li><li>Dismiss all harm someone suffers from a single attack</li><li>Ensure your people have the exact gear they need on hand</li></ul>"
       }
     },
     "uses": 0,
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.K5lL8mN1oP4qQ7rS",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756443189651,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!YXu29TI1KcHjLdAG"

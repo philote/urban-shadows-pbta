@@ -5,7 +5,7 @@
   "_id": "G9hH2iI5jJ8kK1lL",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>Mark corruption to transform into a coyote or dog. While in this form, you can roll with <strong>SPIRIT</strong> instead of mind to figure someone out or mislead, distract, and trick them.</p>",
+    "description": "<p>Mark corruption to transform into a coyote or dog. While in this form, you can roll with <strong>SPIRIT</strong> instead of <strong>MIND</strong> to <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Ku9fM1rN5sO8tP4q]{figure someone out}</strong></em> or <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Lv0gN2sO6tP9uQ5r]{mislead, distract, and trick}</strong></em> them.</p>",
     "moveType": "corruption",
     "rollFormula": "",
     "moveResults": {
@@ -26,7 +26,7 @@
       }
     },
     "uses": 0,
-    "rollType": "spirit",
+    "rollType": "",
     "rollMod": 0,
     "actorType": "character",
     "choices": ""
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907149533,
-    "modifiedTime": 1748304736114,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756444874520,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!G9hH2iI5jJ8kK1lL"

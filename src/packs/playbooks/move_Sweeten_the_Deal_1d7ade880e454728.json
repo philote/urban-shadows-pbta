@@ -5,7 +5,7 @@
   "_id": "1d7ade880e454728",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you persuade an NPC by offering an additional bonus or appealing bribe, mark corruption to take a 10+ instead of rolling.</p>",
+    "description": "<p>When you <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Jt8eL0qM4rN7sO3p]{persuade an NPC}</strong></em> by offering an additional bonus or appealing bribe, mark corruption to take a 10+ instead of rolling.</p>",
     "moveType": "corruption",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907149533,
-    "modifiedTime": 1748405564756,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756440488509,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!1d7ade880e454728"

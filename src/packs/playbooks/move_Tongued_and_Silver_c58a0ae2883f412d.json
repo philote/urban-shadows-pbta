@@ -5,31 +5,31 @@
   "_id": "c58a0ae2883f412d",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you figure someone out by tempting them with power, roll with <strong>Heart</strong> instead of <strong>Mind</strong>.</p>",
+    "description": "<p>When you <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Ku9fM1rN5sO8tP4q]{figure someone out}</strong></em> by tempting them with power, roll with <strong>HEART</strong> instead of <strong>MIND</strong>.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>The MC tells you what interesting thing happens.</p><p>If you're in their Circle, ask an additional question, even on a miss.</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a hit, ask two. On a 7-9, they ask one of you as well. If you're in their Circle, ask an additional question.</p>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a hit, ask two. If you're in their Circle, ask an additional question.</p>"
       }
     },
     "uses": 0,
     "rollType": "heart",
     "rollMod": 0,
     "actorType": "character",
-    "choices": ""
+    "choices": "<ul><li>who's pulling your character's strings?</li><li>what's your character's beef with _____?</li><li>what's your character hoping to get from _____?</li><li>what does your character worry is going to happen?</li><li>how could I get your character to _____?</li><li>how could I put your character in my Debt?</li></ul>"
   },
   "effects": [],
   "sort": 0,
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.U6wW9zB2dE5fG8hH",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756442294027,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!c58a0ae2883f412d"

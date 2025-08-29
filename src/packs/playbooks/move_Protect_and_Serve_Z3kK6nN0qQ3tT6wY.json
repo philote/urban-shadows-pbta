@@ -5,24 +5,24 @@
   "_id": "Z3kK6nN0qQ3tT6wY",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you read a charged situation, roll with Mind. On a hit, ask the MC questions; take +1 ongoing when you act on the answers. On a 10+, ask 2. On a 7-9, ask 1.</p><ul><li>where’s my escape route / way in / way past?</li><li>which enemy is most vulnerable to me?</li><li>what should I be on the lookout for?</li><li>what’s my enemy’s true position?</li><li>who here can’t be trusted?</li></ul><p>On a miss, you recognize a weakness in your own position or preparations you should have seen coming.</p>",
+    "description": "<p>When you read a charged situation, roll with <strong>MIND</strong>. </p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>On a miss, you recognize a weakness in your own position or preparations you should have seen coming.</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a hit, ask the MC questions; take +1 ongoing when you act on the answers. </p><p>On a 7-9, ask 1.</p><ul><li>where’s my escape route / way in / way past?</li><li>which enemy is most vulnerable to me?</li><li>what should I be on the lookout for?</li><li>what’s my enemy’s true position?</li><li>who here can’t be trusted?</li></ul>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a hit, ask the MC questions; take +1 ongoing when you act on the answers. </p><p>On a 10+, ask 2.</p><ul><li>where’s my escape route / way in / way past?</li><li>which enemy is most vulnerable to me?</li><li>what should I be on the lookout for?</li><li>what’s my enemy’s true position?</li><li>who here can’t be trusted?</li></ul>"
       }
     },
     "uses": 0,
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.Z3kK6nN0qQ3tT6wY",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748399934916,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756441987886,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!Z3kK6nN0qQ3tT6wY"

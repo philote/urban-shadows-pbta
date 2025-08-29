@@ -5,7 +5,7 @@
   "_id": "n6zfMB7FYPKUAV14",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you figure someone out, add the following questions to the list:</p><ul><li>What pressing need do you have that I might be able to address?</li><li>What's the most valuable thing you'd offer for sale?</li></ul><p>On a miss, ask 1 from this list, but you come off as suspicious or sleazy, your choice.</p>",
+    "description": "<p>When you <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Ku9fM1rN5sO8tP4q]{figure someone out}</strong></em>, add the following questions to the list:</p><ul><li>What pressing need do you have that I might be able to address?</li><li>What's the most valuable thing you'd offer for sale?</li></ul><p>On a miss, ask 1 from this list, but you come off as suspicious or sleazy, your choice.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.Y6bC9fF2iI5lL8qR",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756440668175,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!n6zfMB7FYPKUAV14"

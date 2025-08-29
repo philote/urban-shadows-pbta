@@ -5,24 +5,24 @@
   "_id": "CimKG6GWKFFHJyhy",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you mark a building with your signs or sigils, roll with Spirit. On a hit, you lay claim to the location for the next few days. On a 10+, all 3. On a 7-9, pick 1. At any distance, you can:</p><ul><li>sense who is in the building at all times</li><li>control the doors, locks, and windows</li><li>conceal the building’s location or true function</li></ul><p>On a miss, your attempt to claim the building awakens a sleeping or passive threat you had not considered; the MC will tell you who you angered with your impulsive claim.</p>",
+    "description": "<p>When you mark a building with your signs or sigils, roll with <strong>SPIRIT</strong>.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>On a miss, your attempt to claim the building awakens a sleeping or passive threat you had not considered; the MC will tell you who you angered with your impulsive claim.</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a hit, you lay claim to the location for the next few days. </p><p>On a 7-9, pick 1. At any distance, you can:</p><ul><li>sense who is in the building at all times</li><li>control the doors, locks, and windows</li><li>conceal the building’s location or true function</li></ul>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a hit, you lay claim to the location for the next few days. </p><p>On a 10+, all 3.  At any distance, you can:</p><ul><li>sense who is in the building at all times</li><li>control the doors, locks, and windows</li><li>conceal the building’s location or true function</li></ul>"
       }
     },
     "uses": 0,
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.B4dE7fG0hH3kK6nN",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748405469882,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756445344253,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!CimKG6GWKFFHJyhy"

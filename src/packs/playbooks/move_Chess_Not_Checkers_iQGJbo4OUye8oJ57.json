@@ -5,7 +5,7 @@
   "_id": "iQGJbo4OUye8oJ57",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you turn to violence with any kind of serious advantage—numbers, position, surprise, etc.—and get a hit, tell your opposition which option they cannot choose from their list before they pick.</p>",
+    "description": "<p>When you <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.U21jUxWWz3lhDTau]{turn to violence}</strong></em> with any kind of serious advantage—numbers, position, surprise, etc.—and get a hit, tell your opposition which option they cannot choose from their list before they pick.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.D7gJ0kK3lL6mN9oP",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756442111394,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!iQGJbo4OUye8oJ57"

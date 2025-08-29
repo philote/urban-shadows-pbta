@@ -6,7 +6,7 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "description": "<p>Spend 1 hold to target someone present in the scene with a blast of psychic energy that inflicts s-harm. You can instead spend 2 hold to target a small group or 3 hold to target a medium group.</p>",
-    "moveType": "playbook",
+    "moveType": "spells",
     "rollFormula": "",
     "moveResults": {
       "miss": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.D6fG9hH2iI5jJ8kK",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748488502279,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756445166484,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!Wpcln02jgNak4JGH"

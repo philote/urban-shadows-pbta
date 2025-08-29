@@ -6,7 +6,7 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "description": "<p>Spend 1 hold to teleport yourself a short distance within a scene you’re in.</p>",
-    "moveType": "playbook",
+    "moveType": "spells",
     "rollFormula": "",
     "moveResults": {
       "miss": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.H2iI5jJ8kK1lL4mN",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748304789679,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756445162559,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!H2iI5jJ8kK1lL4mN"

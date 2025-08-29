@@ -5,7 +5,7 @@
   "_id": "V3xZ6cD9gF2iI5mN",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you figure someone out, skim the surface, or use psychometry, mark corruption to ask any questions you’d like, not limited to the lists.</p>",
+    "description": "<p>When you <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Ku9fM1rN5sO8tP4q]{figure someone out}</strong></em>, skim the surface, or use psychometry, mark corruption to ask any questions you’d like, not limited to the lists.</p>",
     "moveType": "corruption",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907149533,
-    "modifiedTime": 1748304368057,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756440814363,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!V3xZ6cD9gF2iI5mN"

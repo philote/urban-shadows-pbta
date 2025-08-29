@@ -5,28 +5,28 @@
   "_id": "m2W7aK9bH5rL6pT4",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you mislead, distract, or trick someone through lies of omission or clever misdirection, roll with Heart instead of Mind.</p>",
+    "description": "<p>When you <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Lv0gN2sO6tP9uQ5r]{mislead, distract, or trick}</strong></em> someone through lies of omission or clever misdirection, roll with <strong>HEART</strong> instead of <strong>MIND</strong>.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>The MC tells you what interesting thing happens.</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a hit, they are fooled, at least for a moment. On a 7-9, pick 2:</p><ul><li>you create an opportunity</li><li>you expose a weakness or flaw</li><li>you confuse them for some time</li><li>you avoid further entanglement</li></ul>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a hit, they are fooled, at least for a moment. On a 10+, pick 3:</p><ul><li>you create an opportunity</li><li>you expose a weakness or flaw</li><li>you confuse them for some time</li><li>you avoid further entanglement</li></ul>"
       }
     },
     "uses": 0,
-    "rollType": "",
+    "rollType": "heart",
     "rollMod": 0,
     "actorType": "character",
     "choices": ""
@@ -36,13 +36,14 @@
   "ownership": {},
   "flags": {},
   "_stats": {
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.20",
-    "lastModifiedBy": null,
+    "systemVersion": "1.1.21",
+    "lastModifiedBy": "WynALakZJf661YU1",
     "compendiumSource": null,
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "modifiedTime": 1756440002727
   },
   "_key": "!items!m2W7aK9bH5rL6pT4"
 }

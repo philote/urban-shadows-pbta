@@ -5,7 +5,7 @@
   "_id": "wd2QKswKnQFLy5A7",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you get a hit while putting a face to a name with a Status-3 NPC, also name a low-level minion or assistant who works for them and describe how this underling recently came to owe you a Debt.</p>",
+    "description": "<p>When you get a hit while <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Pz4kR6wS0xT3yU9v]{putting a face to a name}</strong></em> with a Status-3 NPC, also name a low-level minion or assistant who works for them and describe how this underling recently came to owe you a Debt.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.B9eG2jJ6mM9pP2sU",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756440630496,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!wd2QKswKnQFLy5A7"

@@ -5,24 +5,24 @@
   "_id": "M8oP1qQ4rS7tT0uU",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>You hunger for human blood, flesh, or emotions; pick one. When you feed on someone, roll with <strong>Blood</strong>. On a 10+, all 3. On a 7-9, choose 2:</p><ul><li>You heal 1-harm or take +1 forward</li><li>You learn a secret about your prey</li><li>Your prey doesn’t suffer 3-harm (ap)</li></ul><p>On a miss, your hunger gets the best of you, and everyone suffers.</p>",
+    "description": "<p>You hunger for human blood, flesh, or emotions; pick one. When you feed on someone, roll with <strong>BLOOD</strong>.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>On a miss, your hunger gets the best of you, and everyone suffers.</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a 7-9, choose 2:</p><ul><li>You heal 1-harm or take +1 forward</li><li>You learn a secret about your prey</li><li>Your prey doesn’t suffer 3-harm (ap)</li></ul>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a 10+, all 3:</p><ul><li>You heal 1-harm or take +1 forward</li><li>You learn a secret about your prey</li><li>Your prey doesn’t suffer 3-harm (ap)</li></ul>"
       }
     },
     "uses": 0,
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.M8oP1qQ4rS7tT0uU",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748304407694,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756442912886,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!M8oP1qQ4rS7tT0uU"

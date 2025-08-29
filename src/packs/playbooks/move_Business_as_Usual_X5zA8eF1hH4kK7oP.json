@@ -5,24 +5,24 @@
   "_id": "X5zA8eF1hH4kK7oP",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When time passes—or at the start of the game—roll with Mind. On a hit, your usual operations generate a new scheme or provide an opportunity to advance one of your existing schemes, your choice. On a 10+, you also pick 1:</p><ul><li>A loyal customer reveals the secrets of a powerful NPC, your choice</li><li>An NPC who owes you a Debt shows up to make good on their obligation</li><li>A Status-3 NPC of your Circle offers you a Debt for your services</li></ul><p>On a miss, a family member or close friend drags you into a scheme you'd rather have avoided; generate a new scheme with three complications, and the MC will tell you what terrible fate could befall your ally should you fail to deliver.</p>",
+    "description": "<p>When time passes—or at the start of the game—roll with <strong>MIND</strong>. </p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>On a miss, a family member or close friend drags you into a scheme you'd rather have avoided; generate a new scheme with three complications, and the MC will tell you what terrible fate could befall your ally should you fail to deliver.</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a hit, your usual operations generate a new scheme or provide an opportunity to advance one of your existing schemes, your choice. </p>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a hit, your usual operations generate a new scheme or provide an opportunity to advance one of your existing schemes, your choice. </p><p>On a 10+, you also pick 1:</p><ul><li>A loyal customer reveals the secrets of a powerful NPC, your choice</li><li>An NPC who owes you a Debt shows up to make good on their obligation</li><li>A Status-3 NPC of your Circle offers you a Debt for your services</li></ul>"
       }
     },
     "uses": 0,
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.X5zA8eF1hH4kK7oP",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756440596186,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!X5zA8eF1hH4kK7oP"

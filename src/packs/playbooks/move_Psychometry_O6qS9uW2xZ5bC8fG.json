@@ -5,31 +5,31 @@
   "_id": "O6qS9uW2xZ5bC8fG",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you examine an interesting object, roll with Spirit. On a hit, ask the MC questions from the list below. On a 10+, ask 3. On a 7-9, ask 1:</p><ul><li>what is the history of this object?</li><li>what bans, wards, or limits are attached to this object?</li><li>where does this object belong?</li><li>what secrets or mysteries has this object been privy to?</li><li>what strong emotions have most recently been near this object?</li></ul><p>On a miss, ask 1, but the answers you get overwhelm you; take -1 ongoing for the scene.</p>",
+    "description": "<p>When you examine an interesting object, roll with <strong>SPIRIT</strong>. </p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>On a miss, ask 1, but the answers you get overwhelm you; take -1 ongoing for the scene.</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a hit, ask the MC questions from the list below.</p><p>On a 7-9, ask 1:</p>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a hit, ask the MC questions from the list below. </p><p>On a 10+, ask 3:</p>"
       }
     },
     "uses": 0,
     "rollType": "spirit",
     "rollMod": 0,
     "actorType": "character",
-    "choices": ""
+    "choices": "<ul><li>what is the history of this object?</li><li>what bans, wards, or limits are attached to this object?</li><li>where does this object belong?</li><li>what secrets or mysteries has this object been privy to?</li><li>what strong emotions have most recently been near this object?</li></ul>"
   },
   "effects": [],
   "sort": 150000,
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.O6qS9uW2xZ5bC8fG",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748304648138,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756441037503,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!O6qS9uW2xZ5bC8fG"

@@ -5,7 +5,7 @@
   "_id": "oVFVXHMMrjcuH04M",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you gain access to a secure area within a sanctuary, gathering spot, or place of power, you can <em><strong>study</strong></em> it as if you rolled a 10+. If the location is controlled by a Circle other than your own, you also find incriminating evidence implicating a powerful NPC (your choice) within that Circle; handing the documents over to them—or one of their enemies—counts as <em><strong>cashing in a Debt</strong></em>.</p>",
+    "description": "<p>When you gain access to a secure area within a sanctuary, gathering spot, or place of power, you can <em><strong>study</strong></em> it as if you rolled a 10+. If the location is controlled by a Circle other than your own, you also find incriminating evidence implicating a powerful NPC (your choice) within that Circle; handing the documents over to them—or one of their enemies—counts as <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.VF0qX2cY6dZ9eA5b]{cashing in a Debt}</strong></em>.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.oVFVXHMMrjcuH04M",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756439136717,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!oVFVXHMMrjcuH04M"

@@ -5,7 +5,7 @@
   "_id": "J7mO0rR4uU7xX0aC",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>Mark corruption to declare someone an enemy of your people; others of your kind will gaslight, antagonize, or worse. Until you say otherwise, advance mislead, distract, or trick for anyone targeting them; they also take -1 ongoing during each faction turn.</p>",
+    "description": "<p>Mark corruption to declare someone an enemy of your people; others of your kind will gaslight, antagonize, or worse. Until you say otherwise, advance <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Lv0gN2sO6tP9uQ5r]{mislead, distract, or trick}</strong></em> for anyone targeting them; they also take -1 ongoing during each faction turn.</p>",
     "moveType": "corruption",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907149533,
-    "modifiedTime": 1748405564756,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756440507749,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!J7mO0rR4uU7xX0aC"

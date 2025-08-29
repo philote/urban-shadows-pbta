@@ -5,7 +5,7 @@
   "_id": "RoBtbwCqcWOkqSa7",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you die or retire your character, bestow the favor of your court upon someone. They can take Faerie Magic and two of your faerie powers or advance persuade an NPC.</p>",
+    "description": "<p>When you die or retire your character, bestow the favor of your court upon someone. They can take <em><strong>@UUID[Compendium.urban-shadows-pbta.playbooks.Item.k9J4s2L8q1M7v0X3]{Faerie Magic}</strong></em> and two of your faerie powers or advance <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Jt8eL0qM4rN7sO3p]{persuade an NPC}</strong></em>.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.RoBtbwCqcWOkqSa7",
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1749878609834,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756440082356,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!RoBtbwCqcWOkqSa7"

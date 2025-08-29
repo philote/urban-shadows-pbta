@@ -5,7 +5,7 @@
   "_id": "aEWyXy6hSWhssO4j",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>Mark corruption to turn to violence with SPIRIT instead of Blood using raw magical force (3-harm close or 2-harm close area).</p>",
+    "description": "<p>Mark corruption to <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.U21jUxWWz3lhDTau]{turn to violence}</strong></em> with <strong>SPIRIT</strong> instead of <strong>BLOOD</strong> using raw magical force (3-harm close or 2-harm close area).</p>",
     "moveType": "corruption",
     "rollFormula": "",
     "moveResults": {
@@ -26,7 +26,7 @@
       }
     },
     "uses": 0,
-    "rollType": "spirit",
+    "rollType": "",
     "rollMod": 0,
     "actorType": "character",
     "choices": ""
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907149533,
-    "modifiedTime": 1733907149533,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756444703333,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!aEWyXy6hSWhssO4j"

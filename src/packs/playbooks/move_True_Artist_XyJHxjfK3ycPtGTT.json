@@ -5,7 +5,7 @@
   "_id": "XyJHxjfK3ycPtGTT",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you publicly present a valuable or rare gift you’ve created to a Status-2+ NPC, they must openly refuse or accept your offering. If they refuse, they owe you a Debt; if they accept, take +1 ongoing to consulting your contacts, recruiting allies, and refusing to honor Debts from their Circle until after time passes.</p>",
+    "description": "<p>When you publicly present a valuable or rare gift you’ve created to a Status-2+ NPC, they must openly refuse or accept your offering. If they refuse, they owe you a Debt; if they accept, take +1 ongoing to <em><strong>consulting your contacts</strong></em>, <em><strong>recruiting allies</strong></em>, and <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.WG1rY3dZ7eA0fB6c]{refusing to honor Debts}</strong></em> from their Circle until after time passes.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.H2iI5jJ8kK1lL4mN",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756443143455,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!XyJHxjfK3ycPtGTT"

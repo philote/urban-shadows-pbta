@@ -5,7 +5,7 @@
   "_id": "ZCrI4ragMg1bFdr1",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you cash in your last Debt on someone in your web, mark corruption to keep the Debt and keep them in your web.</p>",
+    "description": "<p>When you <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.VF0qX2cY6dZ9eA5b]{cash in your last Debt}</strong></em> on someone in your web, mark corruption to keep the Debt and keep them in your web.</p>",
     "moveType": "corruption",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907149533,
-    "modifiedTime": 1733907149533,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756442674518,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!ZCrI4ragMg1bFdr1"

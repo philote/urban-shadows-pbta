@@ -5,24 +5,24 @@
   "_id": "4dUME8JD1dKthmSq",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you touch someone and attempt to read their surface thoughts, roll with Spirit. On a hit, ask their player questions from the list below. On a 10+, ask 3. On a 7-9, ask 1:</p><ul><li>what are you thinking about right now?</li><li>who or what are you protecting?</li><li>what secrets are you currently keeping?</li><li>what is your hidden pain?</li></ul><p>On a miss, you inflict 1-harm (ap) on them and yourself.</p>",
+    "description": "<p>When you touch someone and attempt to read their surface thoughts, roll with <strong>SPIRIT</strong>. </p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>On a miss, you inflict 1-harm (ap) on them and yourself.</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a hit, ask their player questions from the list below. </p><p>On a 7-9, ask 1:</p><ul><li>what are you thinking about right now?</li><li>who or what are you protecting?</li><li>what secrets are you currently keeping?</li><li>what is your hidden pain?</li></ul>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a hit, ask their player questions from the list below. </p><p>On a 10+, ask 3:</p><ul><li>what are you thinking about right now?</li><li>who or what are you protecting?</li><li>what secrets are you currently keeping?</li><li>what is your hidden pain?</li></ul>"
       }
     },
     "uses": 0,
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.P7rT0vX3yA6dC9gH",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756441088994,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!4dUME8JD1dKthmSq"

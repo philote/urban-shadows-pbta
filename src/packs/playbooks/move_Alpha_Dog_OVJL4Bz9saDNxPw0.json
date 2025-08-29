@@ -5,24 +5,24 @@
   "_id": "OVJL4Bz9saDNxPw0",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you persuade an NPC in your territory with threats or promises, roll with <strong>Blood</strong> instead of <strong>Heart</strong>.</p>",
+    "description": "<p>When you @UUID[Compendium.urban-shadows-pbta.play-materials.Item.Jt8eL0qM4rN7sO3p]{persuade an NPC} in your territory with threats or promises, roll with <strong>BLLOD</strong> instead of <strong>HEART</strong>.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>The MC tells you what interesting thing happens.</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a hit, they see your point and do as you ask. On a 7-9, they counter your offer or demand payment—a Debt, a favor, resources—before agreeing to follow through.</p><p>If you cash in a Debt with the NPC before you roll, add +3 to your total (max+4).</p>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a hit, they see your point and do as you ask.</p><p>If you cash in a Debt with the NPC before you roll, add +3 to your total (max+4).</p>"
       }
     },
     "uses": 0,
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.Y1bC4dE7pG0hH3kK",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748405469882,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756445528758,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!OVJL4Bz9saDNxPw0"

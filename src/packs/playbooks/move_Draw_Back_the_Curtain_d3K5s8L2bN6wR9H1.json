@@ -5,7 +5,7 @@
   "_id": "d3K5s8L2bN6wR9H1",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you escape a situation, add this option to the list:</p><ul><li>you escape to your homeland, for better or worse</li></ul>",
+    "description": "<p>When you <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Hs7dK9pL3mN6oQ2r]{escape a situation}</strong></em>, add this option to the list:</p><ul><li>you escape to your homeland, for better or worse</li></ul>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -36,13 +36,14 @@
   "ownership": {},
   "flags": {},
   "_stats": {
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.20",
-    "lastModifiedBy": null,
+    "systemVersion": "1.1.21",
+    "lastModifiedBy": "WynALakZJf661YU1",
     "compendiumSource": null,
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "modifiedTime": 1756440047261
   },
   "_key": "!items!d3K5s8L2bN6wR9H1"
 }

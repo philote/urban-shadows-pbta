@@ -5,7 +5,7 @@
   "_id": "EoBxIURUOoz8u85W",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you set up a meeting with a powerful or dangerous individual in a crowded mundane space (museum, restaurant, etc.), hold 2. You can spend your hold, 1 for 1, to:</p><ul><li><p>create an opening for you or another character to <em><strong>escape a situation</strong></em> </p></li><li><p>take +1 forward to <em><strong>escaping a situation</strong></em></p></li><li><p>choose for the MC when you <em><strong>escape a situation</strong></em> and roll a 7-9</p></li></ul>",
+    "description": "<p>When you set up a meeting with a powerful or dangerous individual in a crowded mundane space (museum, restaurant, etc.), hold 2. You can spend your hold, 1 for 1, to:</p><ul><li><p>create an opening for you or another character to <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Hs7dK9pL3mN6oQ2r]{escape a situation}</strong></em></p></li><li><p>take +1 forward to <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Hs7dK9pL3mN6oQ2r]{escaping a situation}</strong></em></p></li><li><p>choose for the MC when you <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Hs7dK9pL3mN6oQ2r]{escape a situation}</strong></em> and roll a 7-9</p></li></ul>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.EoBxIURUOoz8u85W",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756439115386,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!EoBxIURUOoz8u85W"

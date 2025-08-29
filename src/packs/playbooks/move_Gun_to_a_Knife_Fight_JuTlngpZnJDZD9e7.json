@@ -5,24 +5,24 @@
   "_id": "JuTlngpZnJDZD9e7",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you turn to violence against someone by seriously escalating the conflict, roll with <strong>Mind</strong> instead of <strong>Blood</strong></p>",
+    "description": "<p>When you <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.U21jUxWWz3lhDTau]{turn to violence}</strong></em> against someone by seriously escalating the conflict, roll with <strong>MIND</strong> instead of <strong>BLOOD</strong></p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>The MC tells you what interesting thing happens.</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a hit, you inflict harm as established and your opposition chooses one:</p><ul><li>they inflict harm on you</li><li>they put you in a bad spot</li><li>they create an opening to flee</li></ul>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a hit, you inflict harm as established and your opposition chooses one:</p><ul><li>they inflict harm on you</li><li>they put you in a bad spot</li><li>they create an opening to flee</li></ul><p>On a 10+, you also choose one:</p><ul><li>you inflict terrible harm</li><li>you take something from them</li><li>you create an opportunity for an ally</li></ul>"
       }
     },
     "uses": 0,
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.L6mN9oP2qQ5rS8tT",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756443345392,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!JuTlngpZnJDZD9e7"

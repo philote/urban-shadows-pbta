@@ -5,7 +5,7 @@
   "_id": "682d0c13e10c49d1",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When someone rolls a hit while refusing to honor a Debt you’ve cashed in on them, you may mark corruption to make their roll a miss instead.</p>",
+    "description": "<p>When someone rolls a hit while <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.WG1rY3dZ7eA0fB6c]{refusing to honor a Debt}</strong></em> you’ve <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.VF0qX2cY6dZ9eA5b]{cashed in on}</strong></em> them, you may mark corruption to make their roll a miss instead.</p>",
     "moveType": "corruption",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907149533,
-    "modifiedTime": 1733907149533,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756442179374,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!682d0c13e10c49d1"

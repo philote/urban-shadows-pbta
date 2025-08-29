@@ -5,7 +5,7 @@
   "_id": "L9qQ3tT6wW9zB2dE",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>You always have an opening to escape a situation. You can choose an additional option off the list to bring someone with you, even if they would normally be unable to escape. On a miss, you—and whoever you brought with you—end up caught in the dangerous space between the worlds of the living and the dead.</p>",
+    "description": "<p>You always have an opening to <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Hs7dK9pL3mN6oQ2r]{escape a situation}</strong></em>. You can choose an additional option off the list to bring someone with you, even if they would normally be unable to escape. </p><p>On a miss, you—and whoever you brought with you—end up caught in the dangerous space between the worlds of the living and the dead.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.L9qQ3tT6wW9zB2dE",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748304895021,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756441559574,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!L9qQ3tT6wW9zB2dE"

@@ -5,7 +5,7 @@
   "_id": "HwkbRtfsgFlrdYcz",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you hit the streets with someone who owes you a Debt, you can invoke a Debt before rolling to add +3 to your roll. If you get a hit, you also catch them in the middle of a compromising or vulnerable situation; take +1 ongoing against them for the scene.</p>",
+    "description": "<p>When you <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.QA5lS7xT1yU4zV0w]{hit the streets}</strong></em> with someone who owes you a Debt, you can invoke a Debt before rolling to add +3 to your roll. If you get a hit, you also catch them in the middle of a compromising or vulnerable situation; take +1 ongoing against them for the scene.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.R3bC6dE9fG2hH5iI",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748405507726,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756442935809,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!HwkbRtfsgFlrdYcz"

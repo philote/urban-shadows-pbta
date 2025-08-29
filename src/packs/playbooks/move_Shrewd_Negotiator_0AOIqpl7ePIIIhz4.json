@@ -5,7 +5,7 @@
   "_id": "0AOIqpl7ePIIIhz4",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you refuse to honor a Debt to someone of lesser or equal Status, you may mark corruption to take a 12+ instead of rolling.</p>",
+    "description": "<p>When you @UUID[Compendium.urban-shadows-pbta.play-materials.Item.WG1rY3dZ7eA0fB6c]{refuse to honor a Debt} to someone of lesser or equal Status, you may mark corruption to take a 12+ instead of rolling.</p>",
     "moveType": "corruption",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907149533,
-    "modifiedTime": 1733907149533,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756439831579,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!0AOIqpl7ePIIIhz4"

@@ -5,7 +5,7 @@
   "_id": "RAY9vQp45nylHrJS",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you put out the word to your Circle that you need something, mark corruption to take a 10+ instead of rolling. Mark corruption again to have a lackey handle the deal; make an additional, different city move while they get it done.</p>",
+    "description": "<p>When you <em>put out the word</em> to your Circle that you need something, mark corruption to take a 10+ instead of rolling. Mark corruption again to have a lackey handle the deal; make an additional, different city move while they get it done.</p>",
     "moveType": "corruption",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907149533,
-    "modifiedTime": 1748405564756,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756440471798,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!RAY9vQp45nylHrJS"

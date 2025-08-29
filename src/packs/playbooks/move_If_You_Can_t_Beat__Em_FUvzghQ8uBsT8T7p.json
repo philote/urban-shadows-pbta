@@ -5,7 +5,7 @@
   "_id": "FUvzghQ8uBsT8T7p",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>Take one ability from a playbook from another Circle. Whenever you <em><strong>let it out</strong></em> and roll a 12+, mark an additional corruption.</p>",
+    "description": "<p>Take one ability from a playbook from another Circle. Whenever you <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Nx2iP4uQ8vR1wS7t]{let it out}</strong></em> and roll a 12+, mark an additional corruption.</p>",
     "moveType": "corruption",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907149533,
-    "modifiedTime": 1733907149533,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756439038233,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!FUvzghQ8uBsT8T7p"

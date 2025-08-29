@@ -5,24 +5,24 @@
   "_id": "Y4DxqwFjIBSKMlfk",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you put a face to a name or study a sanctuary, gathering spot, or place of power, roll with <strong>Mind</strong> instead of the relevant Circle. You always get to ask the MC an additional question about the person or place in question, even on a miss.</p>",
+    "description": "<p>When you <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Pz4kR6wS0xT3yU9v]{put a face to a name}</strong></em> or study a sanctuary, gathering spot, or place of power, roll with <strong>MIND</strong> instead of the relevant Circle. You always get to ask the MC an additional question about the person or place in question, even on a miss.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>On a miss, you don't know them or you owe them, MC's choice.</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a hit, you know their reputation; the MC will tell you what most people know about them.</p>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a hit, you know their reputation; the MC will tell you what most people know about them.</p><p>On a 10+, you've dealt with them before; learn something interesting and useful about them or they owe you a Debt, your choice.</p>"
       }
     },
     "uses": 0,
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.C6fI9jJ2kK5lL8mN",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756442086586,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!Y4DxqwFjIBSKMlfk"

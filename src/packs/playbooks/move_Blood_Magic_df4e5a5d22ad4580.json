@@ -5,7 +5,7 @@
   "_id": "df4e5a5d22ad4580",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>Choose two Faerie Powers; mark corruption to use one without additional costs. You may take this corruption advance a second time to gain the remaining Faerie Powers.</p>",
+    "description": "<p>Choose two <em><strong>@UUID[Compendium.urban-shadows-pbta.playbooks.Item.k9J4s2L8q1M7v0X3]{Faerie Powers}</strong></em>; mark corruption to use one without additional costs. You may take this corruption advance a second time to gain the remaining <em><strong>@UUID[Compendium.urban-shadows-pbta.playbooks.Item.k9J4s2L8q1M7v0X3]{Faerie Powers}</strong></em>;.</p>",
     "moveType": "corruption",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907149533,
-    "modifiedTime": 1733907149533,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756442718492,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!df4e5a5d22ad4580"

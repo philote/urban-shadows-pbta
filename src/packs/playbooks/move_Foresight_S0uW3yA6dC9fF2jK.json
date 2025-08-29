@@ -5,7 +5,7 @@
   "_id": "S0uW3yA6dC9fF2jK",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>Advance keep your cool for any or all characters you choose in your presence, including yourself.</p>",
+    "description": "<p>Advance <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Mw1hO3tP7uQ0vR6s]{keep your cool}</strong></em> for any or all characters you choose in your presence, including yourself.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.S0uW3yA6dC9fF2jK",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748304434360,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756441118210,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!S0uW3yA6dC9fF2jK"

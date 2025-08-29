@@ -5,24 +5,24 @@
   "_id": "V7wW0xX3yY6zZ9aA",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you seal a bargain with someone in smoke and blood, roll with Heart. On a hit, you infuse the agreement with demonic force. On a 10+, pick 2. On a 7-9, pick 1.</p><ul><li>All parties intuitively know if the deal is being honored.</li><li>All parties take +1 ongoing to letting it out while fulfilling the deal.</li><li>Anyone violating the pact instantly suffers 4-harm (ap).</li></ul><p>On a miss, the bargain displeases the powers you called upon to sanctify the deal; you must perform an act of contrition before you can invoke their influence again.</p>",
+    "description": "<p>When you seal a bargain with someone in smoke and blood, roll with <strong>HEART</strong>. </p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>On a miss, the bargain displeases the powers you called upon to sanctify the deal; you must perform an act of contrition before you can invoke their influence again.</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a hit, you infuse the agreement with demonic force. </p><p>On a 7-9, pick 1.</p><ul><li>All parties intuitively know if the deal is being honored.</li><li>All parties take +1 ongoing to letting it out while fulfilling the deal.</li><li>Anyone violating the pact instantly suffers 4-harm (ap).</li></ul>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a hit, you infuse the agreement with demonic force. </p><p>On a 10+, pick 2. </p><ul><li>All parties intuitively know if the deal is being honored.</li><li>All parties take +1 ongoing to letting it out while fulfilling the deal.</li><li>Anyone violating the pact instantly suffers 4-harm (ap).</li></ul>"
       }
     },
     "uses": 0,
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.V7wW0xX3yY6zZ9aA",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748304979376,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756442626630,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!V7wW0xX3yY6zZ9aA"

@@ -5,24 +5,24 @@
   "_id": "n0pXNthS5xh1hY18",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<div class=\"page\" title=\"Page 1\"><div class=\"layoutArea\"><div class=\"column\"><p>When you <em><strong>hit the streets</strong></em> to get what you need from a member of your Circle, roll with <strong>Heart</strong> instead of their Circle. On a 7-9, add this option to the list:</p><ul><li><p>however you find them requires you to offer a Debt to an intermediary</p></li></ul></div></div></div>",
+    "description": "<div class=\"page\" title=\"Page 1\"><div class=\"layoutArea\"><div class=\"column\"><p>When you <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.QA5lS7xT1yU4zV0w]{hit the streets}</strong></em> to get what you need from a member of your Circle, roll with <strong>HEART</strong> instead of their Circle.</p></div></div></div>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>The MC tells you what interesting thing happens.</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a hit, they're available and have the stuff.</p><p>On a 7-9, choose 1:</p><ul><li>whoever you're going to is juggling their own problems</li><li>whatever you need is more costly than anticipated</li><li>however you find them requires you to offer a Debt to an intermediary</li></ul>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a hit, they're available and have the stuff.</p>"
       }
     },
     "uses": 0,
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.n0pXNthS5xh1hY18",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756439497997,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!n0pXNthS5xh1hY18"

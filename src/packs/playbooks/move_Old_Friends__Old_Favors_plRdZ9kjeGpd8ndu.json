@@ -5,24 +5,24 @@
   "_id": "plRdZ9kjeGpd8ndu",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you first encounter an NPC, you may declare them an old friend instead of putting a name to a face and roll with <strong>Mind</strong>. On a hit, they offer you aid, even if it exposes them to danger. On a 7-9, tell the MC why you owe them a Debt. On a miss, tell the MC why they probably bear an old grudge against you for wronging them in the past.</p>",
+    "description": "<p>When you first encounter an NPC, you may declare them an old friend instead of putting a name to a face and roll with <strong>MIND</strong>. </p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>On a miss, tell the MC why they probably bear an old grudge against you for wronging them in the past.</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a hit, they offer you aid, even if it exposes them to danger. </p><p>On a 7-9, tell the MC why you owe them a Debt. </p>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a hit, they offer you aid, even if it exposes them to danger. </p>"
       }
     },
     "uses": 0,
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.G9hH2iI5jJ8kK1lL",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756443225063,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!plRdZ9kjeGpd8ndu"

@@ -5,24 +5,24 @@
   "_id": "eZ7wIjFes5d2978m",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you turn to your prophetic tools to read someone’s future, roll with Spirit. On a hit, the MC will tell you something new and interesting about their destiny. On a 10+, you may ask a followup question; the MC will answer honestly. On a miss, you see vague shapes of what is to come, but something is obscuring your prophetic powers; the future you tried to read is beyond your sight until you resolve the interference.</p>",
+    "description": "<p>When you turn to your prophetic tools to read someone’s future, roll with <strong>SPIRIT</strong>. </p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>On a miss, you see vague shapes of what is to come, but something is obscuring your prophetic powers; the future you tried to read is beyond your sight until you resolve the interference.</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a hit, the MC will tell you something new and interesting about their destiny. </p>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a hit, the MC will tell you something new and interesting about their destiny.</p><p>On a 10+, you may ask a followup question; the MC will answer honestly. </p>"
       }
     },
     "uses": 0,
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.R9tV2xZ5bC8fE1iJ",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756440895347,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!eZ7wIjFes5d2978m"

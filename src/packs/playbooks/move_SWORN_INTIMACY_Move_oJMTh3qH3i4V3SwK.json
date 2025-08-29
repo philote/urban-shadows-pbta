@@ -1,6 +1,6 @@
 {
   "folder": "W0aC3fF6gG9hH2iI",
-  "name": "SWORN INTIMACY Move",
+  "name": "SWORN INTIMACY MOVE",
   "type": "move",
   "_id": "oJMTh3qH3i4V3SwK",
   "img": "icons/svg/aura.svg",
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.F9iL2oO5rR8sS1tT",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756441913646,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!oJMTh3qH3i4V3SwK"

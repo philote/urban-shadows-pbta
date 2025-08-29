@@ -5,31 +5,31 @@
   "_id": "KKpnIjAKDvcHC4cs",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you assume your demon form, roll with Blood. On a 10+, pick 3. On a 7-9, pick 2. On a miss, pick 1 and give your patron a Debt...or go without your form. If you’re working a job for your patron, pick 1 more. If you mark corruption, pick 1 more.</p>",
+    "description": "<p>When you assume your demon form, roll with <strong>BLOOD</strong>. </p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>On a miss, pick 1 and give your patron a Debt...or go without your form. </p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a 7-9, pick 2. </p>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a 10+, pick 3. </p>"
       }
     },
     "uses": 0,
     "rollType": "blood",
     "rollMod": 0,
     "actorType": "character",
-    "choices": ""
+    "choices": "<ul><li><p>+demonic weapon (3-harm hand or 2-harm close)</p></li><li><p>+demonic movement (flight, flaming motorcycle, etc.)</p></li><li><p>+demonic senses (infrared sight, smell lies, etc.)</p></li><li><p>gain armor+1</p></li><li><p>heal 2-harm</p></li><li><p>take +1 forward</p></li></ul><p>If you’re working a job for your patron, pick 1 more. If you mark corruption, pick 1 more.</p>"
   },
   "effects": [],
   "sort": 0,
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.S4uU7vV0wW3xX6yY",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756442525951,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!KKpnIjAKDvcHC4cs"

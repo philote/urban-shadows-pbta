@@ -5,24 +5,24 @@
   "_id": "8fdc11bc6b9e4259",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you channel and collect your magics, roll with Spirit. On a 10+, hold 3. On a 7-9, hold 3 and choose 1 from the list below. On a miss, hold 1, but you cannot channel again this scene.</p><ul><li>Take -1 ongoing until you rest</li><li>Suffer 1-harm (ap)</li><li>Mark corruption</li></ul><p>Your hold lasts until you spend it or the scene ends. You can spend it to cast any spell you have as per the spell’s details.</p>",
+    "description": "<p>When you channel and collect your magics, roll with <strong>SPIRIT</strong>.</p><p>Your hold lasts until you spend it or the scene ends. You can spend it to cast any spell you have as per the spell’s details.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>On a miss, hold 1, but you cannot channel again this scene.</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a 7-9, hold 3 and choose 1 from the list below.</p><ul><li>Take -1 ongoing until you rest</li><li>Suffer 1-harm (ap)</li><li>Mark corruption</li></ul>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a 10+, hold 3.</p>"
       }
     },
     "uses": 0,
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.A3bC6dE9fG2hH5iI",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756445120760,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!8fdc11bc6b9e4259"

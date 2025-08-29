@@ -5,14 +5,14 @@
   "_id": "OqkXmOBq4MEmGjDV",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>You have some gear you’ve picked up since becoming aware of the supernatural world, mostly stashed away in the trunk of your car or in a bag you carry with you.</p><p>When you go to your kit for some mundane gear—road flares, first aid kit, etc.—useful to the situation, roll with <strong>Spirit</strong>. </p>",
+    "description": "<p>You have some gear you’ve picked up since becoming aware of the supernatural world, mostly stashed away in the trunk of your car or in a bag you carry with you.</p><p>When you go to your kit for some mundane gear—road flares, first aid kit, etc.—useful to the situation, roll with <strong>SPIRIT</strong>.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>On a miss, the situation escalates while you’re trying to prepare—brace yourself!</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
@@ -22,7 +22,7 @@
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": "<p>On a hit, you find something you can use that pretty much fits the bill. </p><p><strong>On a 10+</strong>, it’s perfect; take +1 ongoing to putting it to use in the scene. On a miss, the situation escalates while you’re trying to prepare—brace yourself!</p>"
+        "value": "<p>On a hit, you find something you can use that pretty much fits the bill.</p><p>On a 10+, it’s perfect; take +1 ongoing to putting it to use in the scene. </p>"
       }
     },
     "uses": 0,
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.OqkXmOBq4MEmGjDV",
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1749878383721,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756439636896,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!OqkXmOBq4MEmGjDV"

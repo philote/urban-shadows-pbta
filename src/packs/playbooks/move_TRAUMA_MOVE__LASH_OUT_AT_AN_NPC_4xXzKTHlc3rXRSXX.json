@@ -5,7 +5,7 @@
   "_id": "4xXzKTHlc3rXRSXX",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you <em><strong>lash out at an NPC in furious anger</strong></em>, roll with <strong>Blood</strong>. </p>",
+    "description": "<p>When you <em><strong>lash out at an NPC in furious anger</strong></em>, roll with <strong>BLOOD</strong>.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -42,12 +42,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1750891013253,
-    "modifiedTime": 1750891132568,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756441573925,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!4xXzKTHlc3rXRSXX"
 }

@@ -5,7 +5,7 @@
   "_id": "spyjca3e1XREJAN0",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you work over someone (alive or dead) in your workshop, mark corruption to ask up to two questions about their weaknesses or secrets. They must answer honestly.</p>",
+    "description": "<p>When you work over someone (alive or dead) in your <em><strong>workshop</strong></em>, mark corruption to ask up to two questions about their weaknesses or secrets. They must answer honestly.</p>",
     "moveType": "corruption",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907149533,
-    "modifiedTime": 1748405389841,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756443033952,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!spyjca3e1XREJAN0"

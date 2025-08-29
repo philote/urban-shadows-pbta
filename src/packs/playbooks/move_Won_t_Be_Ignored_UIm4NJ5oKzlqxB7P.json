@@ -5,24 +5,24 @@
   "_id": "UIm4NJ5oKzlqxB7P",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you get in someone’s way, take a 10+ instead of rolling. If you mislead, distract, or trick someone with an obvious supernatural display, roll with <strong>Spirit</strong> instead of <strong>Mind</strong>.</p>",
+    "description": "<p>When you <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Oy3jQ5vR9wS2xT8u]{get in someone’s way}</strong></em>, take a 10+ instead of rolling.</p><p>If you <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Lv0gN2sO6tP9uQ5r]{mislead, distract, or trick}</strong></em> someone with an obvious supernatural display, roll with <strong>SPIRIT</strong> instead of <strong>MIND</strong>.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>The MC tells you what interesting thing happens.</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a hit, they are fooled, at least for a moment. On a 7-9, pick 2:</p><ul><li>you create an opportunity</li><li>you expose a weakness or flaw</li><li>you confuse them for some time</li><li>you avoid further entanglement</li></ul>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a hit, they are fooled, at least for a moment. On a 10+, pick 3:</p><ul><li>you create an opportunity</li><li>you expose a weakness or flaw</li><li>you confuse them for some time</li><li>you avoid further entanglement</li></ul>"
       }
     },
     "uses": 0,
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.I6lN9qQ3tT6wW9zB",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756441527787,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!UIm4NJ5oKzlqxB7P"

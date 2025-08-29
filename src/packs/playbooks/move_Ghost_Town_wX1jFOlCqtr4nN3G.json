@@ -5,7 +5,7 @@
   "_id": "wX1jFOlCqtr4nN3G",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you hit the streets to consult your ghostly contacts, take +1 ongoing to dealing with them. On a miss, you still find a ghost who has what you’re looking to get, but they are dangerous or lost, your choice.</p>",
+    "description": "<p>When you <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.QA5lS7xT1yU4zV0w]{hit the streets}</strong></em> to consult your ghostly contacts, take +1 ongoing to dealing with them. </p><p>On a miss, you still find a ghost who has what you’re looking to get, but they are dangerous or lost, your choice.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.J7mO0rR4uU7xX0aC",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1733907156058,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756441656110,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!wX1jFOlCqtr4nN3G"

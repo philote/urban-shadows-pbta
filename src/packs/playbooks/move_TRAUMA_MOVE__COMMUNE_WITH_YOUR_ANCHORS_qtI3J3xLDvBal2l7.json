@@ -5,7 +5,7 @@
   "_id": "qtI3J3xLDvBal2l7",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you <em><strong>commune with one of your anchors</strong></em>, roll with <strong>Spirit</strong>. </p>",
+    "description": "<p>When you <em><strong>commune with one of your anchors</strong></em>, roll with <strong>SPIRIT</strong>.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -42,12 +42,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.347",
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1750891024840,
-    "modifiedTime": 1750891232305,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+    "modifiedTime": 1756441592052,
+    "lastModifiedBy": "WynALakZJf661YU1"
   },
   "_key": "!items!qtI3J3xLDvBal2l7"
 }

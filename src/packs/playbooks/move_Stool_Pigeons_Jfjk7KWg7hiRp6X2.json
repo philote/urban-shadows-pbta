@@ -5,7 +5,7 @@
   "_id": "Jfjk7KWg7hiRp6X2",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>Mark corruption to roll with Mind instead of the relevant Circle Status when you consult your contacts. On a miss, mark corruption again—then choose to either answer your contact’s tough question or owe them a Debt.</p>",
+    "description": "<p>Mark corruption to roll with <strong>MIND</strong> instead of the relevant Circle Status when you <em><strong>consult your contacts</strong></em>. </p><p>On a miss, mark corruption again—then choose to either answer your contact’s tough question or owe them a Debt.</p>",
     "moveType": "corruption",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907149533,
-    "modifiedTime": 1733907149533,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756441777091,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!Jfjk7KWg7hiRp6X2"

@@ -5,7 +5,7 @@
   "_id": "s8jdzgSfTh1NGojD",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>Take two abilities from another playbook. When you let it out to use these abilities, you cannot choose to avoid corruption on a 10+.</p>",
+    "description": "<p>Take two abilities from another playbook. When you <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Nx2iP4uQ8vR1wS7t]{let it out}</strong></em> to use these abilities, you cannot choose to avoid corruption on a 10+.</p>",
     "moveType": "corruption",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907149533,
-    "modifiedTime": 1748405372717,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756443053538,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!s8jdzgSfTh1NGojD"

@@ -5,7 +5,7 @@
   "_id": "B5eG8hH1iI4jJ7kK",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>Take +1 Mind (max+3).</p>",
+    "description": "<p>Take +1 <strong>MIND</strong> (max+3).</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.B5eG8hH1iI4jJ7kK",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748399934916,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756442097142,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!B5eG8hH1iI4jJ7kK"

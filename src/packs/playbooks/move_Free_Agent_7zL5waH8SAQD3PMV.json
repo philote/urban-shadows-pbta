@@ -5,7 +5,7 @@
   "_id": "7zL5waH8SAQD3PMV",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>Mark corruption to <em><strong>refuse to honor a Debt</strong></em> owed to someone outside your Circle as if you rolled a 10+</p>",
+    "description": "<p>Mark corruption to <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.WG1rY3dZ7eA0fB6c]{refuse to honor a Debt}</strong></em> owed to someone outside your Circle as if you rolled a 10+</p>",
     "moveType": "corruption",
     "rollFormula": "",
     "moveResults": {
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907149533,
-    "modifiedTime": 1733907149533,
-    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "modifiedTime": 1756439014983,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!7zL5waH8SAQD3PMV"

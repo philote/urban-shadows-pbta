@@ -5,24 +5,24 @@
   "_id": "I3jJ6kK9lL2mN5oP",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When someone owes you 2 or more Debts and you lend them a hand or get in their way, roll with <strong>Mind</strong> instead of Circle.</p>",
+    "description": "<p>When someone owes you 2 or more Debts and you <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Oy3jQ5vR9wS2xT8u]{lend them a hand or get in their way}</strong></em>, roll with <strong>MIND</strong> instead of Circle.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
       "miss": {
         "key": "system.moveResults.miss.value",
         "label": "Miss",
-        "value": ""
+        "value": "<p>The MC tells you what interesting thing happens.</p>"
       },
       "weak-hit": {
         "key": "system.moveResults.weak-hit.value",
         "label": "Weak Hit",
-        "value": ""
+        "value": "<p>On a hit, give them a +1 or -2 to their roll.</p><p>On a 7-9, you expose yourself to danger, entanglement, or cost.</p>"
       },
       "strong-hit": {
         "key": "system.moveResults.strong-hit.value",
         "label": "Strong Hit",
-        "value": ""
+        "value": "<p>On a hit, give them a +1 or -2 to their roll.</p>"
       }
     },
     "uses": 0,
@@ -41,12 +41,12 @@
   "_stats": {
     "compendiumSource": "Item.I3jJ6kK9lL2mN5oP",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.21",
     "createdTime": 1733907156058,
-    "modifiedTime": 1748304517482,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1756443296555,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_key": "!items!I3jJ6kK9lL2mN5oP"
