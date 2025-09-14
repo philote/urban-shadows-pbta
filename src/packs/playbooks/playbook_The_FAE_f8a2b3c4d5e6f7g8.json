@@ -661,7 +661,7 @@
         "path": "attributes"
       },
       "TheFaeCourtMonarchsStanding": {
-        "label": "US2E.CharacterSheets.Playbooks.TheFae.MonarchsStanding.label",
+        "label": "",
         "description": "Your monarch's standing is represented by…",
         "type": "ListMany",
         "options": {

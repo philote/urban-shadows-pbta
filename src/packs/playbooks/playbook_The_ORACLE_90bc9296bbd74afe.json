@@ -571,7 +571,7 @@
         "path": "attributes"
       },
       "TheOracleBenefactorProphecy": {
-        "label": "YOUR PROPHECY:",
+        "label": "YOUR PROPHECY (Choose one):",
         "description": "",
         "type": "ListMany",
         "options": {
@@ -619,7 +619,7 @@
         "path": "attributes"
       },
       "TheOracleBenefactorStrengths": {
-        "label": "STRENGTHS:",
+        "label": "STRENGTHS (Choose two):",
         "description": "",
         "type": "ListMany",
         "options": {
@@ -667,7 +667,7 @@
         "path": "attributes"
       },
       "TheOracleBenefactorFlaws": {
-        "label": "FLAWS:",
+        "label": "FLAWS (Choose two):",
         "description": "",
         "type": "ListMany",
         "options": {

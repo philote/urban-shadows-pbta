@@ -125,477 +125,127 @@
                 },
                 "advancements": {
                     "label": "Advancements",
-                    "description": "Available at the beginning of play:",
-                    "options": {
-                        "0": {
-                            "label": "+1 Status (max+1)"
-                        },
-                        "1": {
-                            "label": "+1 Status (max+1)"
-                        },
-                        "2": {
-                            "label": "+1 Status (max+1)"
-                        },
-                        "3": {
-                            "label": "a new Aware move"
-                        },
-                        "4": {
-                            "label": "a new Aware move"
-                        },
-                        "5": {
-                            "label": "a move from another archetype"
-                        },
-                        "6": {
-                            "label": "a move from another archetype"
-                        },
-                        "7": {
-                            "label": "open a new mortal relationship"
-                        }
-                    }
+                    "description": "Available at the beginning of play:"
                 },
                 "expertAdvancements": {
                     "label": "Expert advancements",
-                    "description": "After five advances, you may select:",
-                    "options": {
-                        "0": {
-                            "label": "+1 any Circle (max+3)"
-                        },
-                        "1": {
-                            "label": "+1 any Circle (max+3)"
-                        },
-                        "2": {
-                            "label": "Mortalis Status: 2"
-                        },
-                        "3": {
-                            "label": "erase a scar"
-                        },
-                        "4": {
-                            "label": "change your Circle"
-                        },
-                        "5": {
-                            "label": "advance 3 basic moves"
-                        },
-                        "6": {
-                            "label": "advance 3 basic moves"
-                        },
-                        "7": {
-                            "label": "change to a new archetype"
-                        }
-                    }
+                    "description": "After five advances, you may select:"
                 },
                 "corruptionAdvances": {
                     "label": "Corruption advances",
-                    "description": "Corruption represents your character slipping toward the worst parts of their nature. As your corruption mounts, your powers only grow...",
-                    "options": {
-                        "0": {
-                            "label": "take +1 to any stat (max+3)"
-                        },
-                        "1": {
-                            "label": "take +1 to any stat (max+3)"
-                        },
-                        "2": {
-                            "label": "take a new corruption move"
-                        },
-                        "3": {
-                            "label": "take a new corruption move"
-                        },
-                        "4": {
-                            "label": "take a new corruption move from another archetype or your own"
-                        },
-                        "5": {
-                            "label": "retire your character; they may return as a Threat"
-                        }
-                    }
+                    "description": "Corruption represents your character slipping toward the worst parts of their nature. As your corruption mounts, your powers only grow..."
                 }
             },
             "Playbooks": {
                 "TheAWARE": {
                     "MortalRelationships": {
-                        "label": "Mortal Relationships (Choose 3):",
-                        "description": "While you ride the line between the mortal and supernatural worlds, your friends and family are stuck firmly in the mundane realities of everyday life. When one of your mortal relationships comes to an end for any reason—they cut you off, they die, they leave the city, you tell them to stop contacting you, etc.— immediately mark a corruption advance. If losing a mortal relationship causes you to retire your character due to corruption, tell the MC whom you most blame for the loss; your character will pursue the person responsible as a Threat until \\\"justice\\\" is served.",
-                        "options": {
-                            "0": "A younger sibling who relies on you for transportation and advice",
-                            "1": "A loyal significant other who expects you home by midnight",
-                            "2": "A struggling best friend who's always getting into messy altercations",
-                            "3": "A demanding boss who calls you into work at inconvenient times",
-                            "4": "An elderly parent who always knows when you're lying to them",
-                            "5": "An overbearing ex-partner who constantly worries about you"
-                        }
+                        "label": "Mortal Relationships (Choose 3):"
                     }
                 },
                 "TheFae": {
                     "Powers": {
-                        "label": "FAERIE POWERS",
-                        "description": "Choose three:",
-                        "options": {
-                            "0": "Nature's Caress: Your touch heals 2-harm, starting with critical harm; wounds close, bones knit back together, etc. You cannot use this power on yourself.",
-                            "1": "Wither: You can imbue your touch with the power to kill (3-harm intimate ap). The effect is instantly understood by the target as an attack and leaves behind a nasty mark or scar at the point of contact.",
-                            "2": "Glamours: You create illusions to fool the senses. The effects don't last long, but they are compelling. You cannot disguise or conceal yourself or your actions with these tricks.",
-                            "3": "Shape Change: You can change your shape into that of a small animal—a bird, a mouse, a snake, a fish, etc.—for a scene. Up to three people you designate can still understand your speech, but everyone else perceives you to be barking, chirping, etc.",
-                            "4": "Bedlam: You can touch a vulnerable target to place them in a specific emotional state (your choice) for the scene. Mark corruption to have that emotion directed toward a target of your choosing."
-                        }
+                        "label": "FAERIE POWERS"
                     },
                     "Court": {
-                        "label": "YOUR COURT",
-                        "description": "You belong to a faerie court, presided over by a monarch to whom you have sworn loyalty. Your monarch holds 2 Debts over you; tell the MC what favors they granted you to earn such holdings. Your court is...",
-                        "options": {
-                            "0": "baroque and formal",
-                            "1": "savage and unruly",
-                            "2": "aloof and cold",
-                            "3": "mysterious and exotic"
-                        }
-                    },
-                    "MonarchsStanding": {
-                        "description": "Your monarch's standing is represented by…",
-                        "options": {
-                            "0": "a crown, magically imbued with your court's royal authority",
-                            "1": "a scepter, forged from the elements of your court",
-                            "2": "a magical aura, unconcealable by even faerie magics",
-                            "3": "a seat of power, capable of summoning your entire court"
-                        }
-                    },
-                    "Rival": {
-                        "description": "Your rival is…",
-                        "options": {
-                            "0": "a jealous sibling; you owe them a Debt for their loyalty",
-                            "1": "a former lover; you owe them a Debt for their kindness",
-                            "2": "an old mentor; you owe them a Debt for their tutelage",
-                            "3": "a contemptuous peer; you owe them a Debt for their patience"
-                        }
+                        "label": "YOUR COURT"
                     }
                 },
                 "TheHunter": {
                     "Society": {
-                        "label": "YOUR SOCIETY",
-                        "description": "You belong to a society of hunters, an affiliation of fellow mortals who stalk dangerous prey to protect the mortal world from the supernatural. Tell your MC to stat up your society as a Size-2, Strength-2 faction within Mortalis. WHAT IS YOUR PREY?",
-                        "options": {
-                            "0": "vampires who feed on the weak and coerced",
-                            "1": "demons who corrupt the good and the just",
-                            "2": "angels who subjugate the will of the faithful",
-                            "3": "ghosts who plague the lives of the innocent",
-                            "4": "wizards who abuse their power and authority"
-                        }
-                    },
-                    "Sacrifice": {
-                        "description": "WHAT DID YOU SACRIFICE TO JOIN?",
-                        "options": {
-                            "0": "my soul, forever tainted by magic ritual",
-                            "1": "my family, forever excised from my life",
-                            "2": "my childhood, forever lost to my training",
-                            "3": "my body, forever scarred by ceremony"
-                        }
-                    },
-                    "Gather": {
-                        "description": "WHERE DOES YOUR SOCIETY GATHER?",
-                        "options": {
-                            "0": "a swanky, expensive hotel",
-                            "1": "a dive bar or gambling den",
-                            "2": "a union or veterans hall",
-                            "3": "hallowed religious ground"
-                        }
+                        "label": "YOUR SOCIETY"
                     }
                 },
                 "TheImp": {
                     "Establishment": {
-                        "label": "YOUR ESTABLISHMENT",
-                        "description": "You once served a powerful demon, but you seized upon a loophole in your contracted fealty and won your freedom. Now you cater to supernatural clientele from all four Circles, securing your place in this world...for now. By default, your establishment has a permanent location, a small but loyal staff, and many regular customers. Choose two services you offer:",
-                        "options": {
-                            "0": "Transporting and selling otherworldly creatures",
-                            "1": "Appraising and auctioning magical relics and artifacts",
-                            "2": "Creating forgeries, disguises, and stolen identities",
-                            "3": "Providing news, gossip, and rumor to the city at large",
-                            "4": "Operating a gathering place; name the relevant Circle"
-                        }
-                    },
-                    "Investments": {
-                        "description": "Choose two investments you've made over the years:",
-                        "options": {
-                            "0": "A skilled bodyguard dedicated solely to your security",
-                            "1": "An expansive, expert staff appropriate to your services",
-                            "2": "A secure venue, impenetrable by intruders and thieves",
-                            "3": "A magical dead zone secured by wards and ritual",
-                            "4": "A Status-3 regular in another Circle; take three Debts on them"
-                        }
-                    },
-                    "Plague": {
-                        "description": "Choose two problems that plague your business:",
-                        "options": {
-                            "0": "A dangerous competitor edging in on your market",
-                            "1": "A hard-to-move acquisition attracting unwanted attention",
-                            "2": "A besmirched reputation complicating any new deals",
-                            "3": "A demonic ex-liege seeking your immediate return",
-                            "4": "A severe state of disrepair endangering your staff"
-                        }
+                        "label": "YOUR ESTABLISHMENT"
                     },
                     "SchemesText": {
-                        "label": "YOUR SCHEMES",
-                        "description": "Schemes are risky deals and shady cons designed to expand your business. When you generate a scheme, choose a primary Circle, one of your services, and two complications—the MC will tell you what opportunity you've seized upon. When you accomplish a scheme, select two boons and a payout; the MC will detail how they arrive. Generate a scheme whenever a boon or a move tells you to generate a new scheme. COMPLICATIONS: • you promised someone involved something you don't yet have • you require an unreliable or untrustworthy co-conspirator • you must fool or deceive a powerful and dangerous NPC • you need to steal something from a secure location • you need to wait for a predetermined time or event • you have attracted the attention of dangerous opposition. BOONS: • attract new business; generate a new scheme • pay down your debts; cancel a Debt you owe • throw your weight around; take a Debt on an NPC • grow your reputation; mark a Circle affected by the deal."
+                        "label": "YOUR SCHEMES"
                     },
                     "SchemePayouts1": {
-                        "label": "PAYOUTS",
-                        "description": "Available at the start of play:",
-                        "options": {
-                            "0": "+1 any Circle (max+3)",
-                            "1": "hire Fiendish Underlings",
-                            "2": "acquire an arsenal",
-                            "3": "secure a new investment",
-                            "4": "secure a new investment",
-                            "5": "resolve a problem"
-                        }
-                    },
-                    "SchemePayouts2": {
-                        "description": "After 4+ payouts:",
-                        "options": {
-                            "0": "+1 any Circle (max+3)",
-                            "1": "+1 Status (max+2)",
-                            "2": "acquire a legendary weapon",
-                            "3": "acquire a sanctum",
-                            "4": "get 2 new let it out abilities",
-                            "5": "retire your character to safety"
-                        }
+                        "label": "PAYOUTS"
                     }
                 },
                 "TheOracle": {
                     "Benefactor": {
-                        "label": "YOUR BENEFACTOR",
-                        "description": "You have a benefactor, a powerful NPC whose fate is intertwined with your own; you came into their service as a result of your prophetic visions, but they now demand more and more from you and your powers. Name their Circle—Mortalis, Night, Power, or Wild—and choose the prophecy that binds you together, two strengths, and two flaws: (Ask the MC what life your benefactor has provided for you after you make your choices. Their continued largesse depends on how well you serve their interests.)"
+                        "label": "YOUR BENEFACTOR"
                     },
                     "Prophecy": {
-                        "label": "YOUR PROPHECY (Choose one):",
-                        "options": {
-                            "0": "they alone can guide you to the mystical answers you seek",
-                            "1": "they alone can protect you from a dark fate you have foreseen",
-                            "2": "they alone can destroy a uniquely evil foe within their own Circle",
-                            "3": "they alone must play a critical role in the war against a coming darkness"
-                        }
+                        "label": "YOUR PROPHECY (Choose one):"
                     },
                     "Strengths": {
-                        "description": "STRENGTHS (Choose two):",
-                        "options": {
-                            "0": "they are a Status-3 member of their Circle",
-                            "1": "they speak truthfully and honor their word",
-                            "2": "they wield significant supernatural power",
-                            "3": "their minions are disciplined and loyal"
-                        }
+                        "label": "STRENGTHS (Choose two):"
                     },
                     "Flaws": {
-                        "description": "FLAWS (Choose two):",
-                        "options": {
-                            "0": "they are terrifyingly violent and cruel",
-                            "1": "they have defenses against your sight",
-                            "2": "they are at war with powerful enemies",
-                            "3": "they are madly in love with you"
-                        }
+                        "label": "FLAWS (Choose two):"
                     }
                 },
                 "TheSpectre": {
                     "Trauma": {
-                        "label": "TRAUMA",
-                        "description": "Your sense of self has been shattered by your death, leaving you traumatized. You begin each session with at least 2-trauma marked, but can clear it—and any additional trauma you take—via trauma moves. If you ever fill your trauma track, the MC may call for you to make a trauma move at any time, but you may always choose which trauma move you make in the moment. The first time you take harm in a scene, mark trauma; when you fill up on harm, your corpus is scattered. Mark trauma to reform in a few days at one of your anchors, or mark 3-trauma to reform immediately at an anchor of the MC's choice. If you cannot mark trauma while destroyed, the MC decides how/when you reform."
+                        "label": "TRAUMA"
                     },
                     "Anchors": {
-                        "label": "ANCHORS (Choose 4):",
-                        "description": "You have several anchors in the city—important places, people, or objects that keep you from moving on. You might have an opportunity to put an anchor to rest, but anchors can also be ruined or destroyed. (When one of your anchors is put in danger, you know; mark trauma and take a +1 ongoing to all moves until you see it to safety. When you resolve an anchor, clear your trauma track and erase a corruption advance; when an anchor is destroyed or ruined, fill your trauma track and take a corruption advance.)",
-                        "options": {
-                            "0": "a family member or inheritor, unaware of your existence",
-                            "1": "a witness to your death, bound to you by chance or fate",
-                            "2": "a friendly household pet, constant companion in your unlife",
-                            "3": "a beloved possession of your youth, passed to a new owner",
-                            "4": "a marker of your success in life, now claimed by another",
-                            "5": "an item related to your death, grimly marking your violent end",
-                            "6": "a location of personal importance, a reminder of a past love",
-                            "7": "a space you used to live or work, abandoned by the world"
-                        }
+                        "label": "ANCHORS (Choose 4):"
                     },
                     "PassingOn": {
-                        "label": "PASSING ON",
-                        "description": "When your last anchor is resolved or destroyed, you pass on; pick one blessing or haunting you bestow upon the city for each one of your anchors that was resolved or destroyed, respectively. If all four of your anchors are destroyed, you do not pass on, but are instead swallowed by oblivion and inflict all three hauntings. BLESSINGS:",
-                        "options": {
-                            "0": "you inspire an NPC to forgive someone who once wronged them, ending a long-standing conflict",
-                            "1": "you cleanse or restore a cherished place once thought by all to be ruined or beyond repair",
-                            "2": "you heal or restore someone you once injured or wronged",
-                            "3": "you reveal to an NPC the truth of your death and passing"
-                        }
-                    },
-                    "PassingOn2": {
-                        "description": "HAUNTINGS:",
-                        "options": {
-                            "0": "you leave behind a psychic reflection of your fear and anger, a terrible thing that hunts mortals in the night",
-                            "1": "you imbue an object with nightmarish power; the MC chooses who ends up with the cursed item",
-                            "2": "you drive an NPC close to you into a downward spiral"
-                        }
+                        "label": "PASSING ON"
                     }
                 },
                 "TheSworn": {
                     "OathMasters": {
-                        "label": "YOUR MASTERS (choose one):",
-                        "description": "You've sworn an oath to serve an influential faction of Power, an organization that relies on you to protect its members, punish its enemies, and defend its holdings. Tell your MC to stat up your masters as a Size-3, Strength-3 faction within Power. Ask them what you know about the organization's structure, culture, and assets.",
-                        "options": {
-                            "0": "an abbey of prescient oracles",
-                            "1": "a council of haughty wizards",
-                            "2": "an order of secret immortals",
-                            "3": "an academy of religious scholars",
-                            "4": "a covenant of earthbound deities"
-                        }
+                        "label": "YOUR MASTERS (choose one):"
                     },
                     "OathCharged": {
-                        "label": "YOU ARE CHARGED WITH (choose two):",
-                        "options": {
-                            "0": "protecting and policing their members",
-                            "1": "recovering lost artifacts and tomes",
-                            "2": "investigating threats and problems",
-                            "3": "destroying those who would thwart them",
-                            "4": "negotiating with their allies and vassals"
-                        }
+                        "label": "YOU ARE CHARGED WITH (choose two):"
                     },
                     "Vows": {
-                        "label": "YOUR VOWS, You must… (choose 5):",
-                        "description": "When you break one of your vows, mark corruption. When you take a corruption advance, cross out one of your vows—it no longer binds you. If you strike out every vow, your oath is broken—change playbooks immediately.",
-                        "options": {
-                            "0": "...never trespass on another's property",
-                            "1": "...never strike the first blow",
-                            "2": "...never lie about your identity or purpose",
-                            "3": "...never reveal your faction's secrets",
-                            "4": "...always avoid collateral damage",
-                            "5": "...always protect members of Power from harm",
-                            "6": "...always thwart the enemies of your masters",
-                            "7": "...always seize that which your masters desire"
-                        }
+                        "label": "YOUR VOWS, You must… (choose 5):"
                     },
                     "OathWeapon": {
-                        "label": "YOUR LEGENDARY WEAPON (Choose one):",
-                        "description": "Your masters have given you a weapon (3-harm mythic anchored) to wield, a legendary artifact of an age long lost. So long as you bear this legendary armament, advance the named move. When you wield the weapon in the service of your masters, you can roll with Mind instead of Spirit when you keep your cool. But your weapon—like your oath—is bound to your loyalty. If your oath is broken, the weapon will be lost to you, even betraying you to ensure it exits your service.",
-                        "options": {
-                            "0": "a sword wielded by rightful kings (figure someone out)",
-                            "1": "a knife cut from demonic steel (mislead, distract or trick)",
-                            "2": "a spear stolen from heaven itself (let it out)",
-                            "3": "an axe forged in the blood of gods (turn to violence)",
-                            "4": "a staff imbued with stealthy sorcery (escape a situation)",
-                            "5": "a hammer blessed by otherworldly magic (keep your cool)"
-                        }
+                        "label": "YOUR LEGENDARY WEAPON (Choose one):"
                     }
                 },
                 "TheVamp": {
                     "Web": {
-                        "label": "YOUR WEB",
-                        "value": "<p>When someone comes to you to ask for a favor, seek advice, bargain for info, or threaten your interests, they enter your web and owe you a Debt...even if you don't offer them anything in return. People leave your web only when they no longer owe you a Debt. When someone is in your web, you gain the following:</p><ul><li>Take +1 ongoing to lend them a hand or get in their way</li><li>Add the following option whenever you figure them out: \\\"what is your character's true hunger?\\\"</li><li>Spend a Debt (before rolling) when persuading them to advance persuade for the roll in addition to adding +3 to your total</li></ul><p>When time passes—or at the start of the game—choose someone in your web and learn a secret about them that they'd rather keep buried. Mark corruption to ask a follow-up question about the answer; their player must answer you honestly.</p>"
+                        "label": "YOUR WEB"
                     },
                     "Harbor": {
-                        "label": "YOUR HARBOR",
-                        "description": "You have a safe place—a haven—secure from outside dangers, located within a larger harbor. Your haven is a reinforced bolthole with emergency rations and an escape vector; when someone willingly enters your haven, add them to your web. Your harbor is a public-facing staple of the community (Choose one):",
-                        "options": {
-                            "0": "a flashy nightclub",
-                            "1": "an oversized restaurant",
-                            "2": "an outdated library",
-                            "3": "a public transport station",
-                            "4": "a restored theater",
-                            "5": "a religious hospital",
-                            "6": "a historic hotel",
-                            "7": "an open-air market"
-                        }
+                        "label": "YOUR HARBOR"
                     },
                     "HarborAdvantages": {
-                        "description": "CHOOSE 2 ADVANTAGES:",
-                        "options": {
-                            "0": "your harbor is popular with ordinary mortals, giving you easy access to unsuspecting prey",
-                            "1": "your harbor hosts a way to quickly dispose of bodies, attracting little to no suspicion",
-                            "2": "your harbor is directly controlled by an allied Status-3 NPC from Night, granting you some limited protections",
-                            "3": "your harbor allows you a space to entertain and entrance admirers, bringing in a steady stream of gifts and favors",
-                            "4": "your harbor is staffed by ghouls loyal to you, bringing you news of anything they hear or see"
-                        }
+                        "description": "CHOOSE 2 ADVANTAGES:"
                     },
                     "HarborDangers": {
-                        "description": "CHOOSE 2 DANGERS:",
-                        "options": {
-                            "0": "your harbor lies within the territory of a Status-3 vampire lord; they often demand tribute and Debts",
-                            "1": "your harbor is home to a number of ghostly entities; they range from mildly annoying to deeply dangerous",
-                            "2": "your harbor has attracted the attention of a dedicated group of mortal hunters; they may soon make their move",
-                            "3": "your harbor is constantly busy, day and night; those who frequent it make strict security impossible",
-                            "4": "your harbor is closely tied to several mortals you care for; they have been thrust into the supernatural world by your unlife"
-                        }
+                        "description": "CHOOSE 2 DANGERS:"
                     }
                 },
                 "TheVeteran": {
                     "Workshop": {
-                        "label": "YOUR WORKSHOP",
-                        "value": "<p>You have a workshop that includes a large space for your tools and/or supplies. When you go into your workshop to work on something, the MC tells you, \\\"Sure, no problem, but…\\\" and then 1 to 4 of the following.</p><ul><li>It's going to take you hours/days/weeks/months of work or recovery time</li><li>First you'll have to summon/build/construct ________</li><li>You'll require the services of ________ to complete it</li><li>You require a rare and expensive ingredient or material</li><li>It will only work for a short time, and may be unreliable</li><li>It's going to mean exposing anyone nearby to serious fallout</li><li>Your workshop lacks _______; add this and you'll be able to complete it</li><li>It will require a part of yourself to complete</li><li>You must journey to ________ in order to complete it</li></ul><p>The MC can combine any set of requirements or offer two sets of costs to the same task. Once the requirements are completed, the work is completed. The MC will stat it up, reveal some info, or whatever is called for now that you've finished.</p><p>Items created in your workshop are safe from the MC. They can't be destroyed or taken without your permission, even if you sell or give them away to another character. When you create something specifically for another character, mark their Circle when the project is complete.</p><p>Choose and underline 3 resources your workshop includes: <em>automotive hoist and tools, a darkroom, a regulated growing environment, two or three skilled assistants, a junkyard of raw materials, machining tools, transmitters and receivers, a testing ground, deadly booby traps, a library of old books, a scattering of ancient relics, a mystical focus, magical wards, a medical station, an operating room, high-tech electronics and computers, an advanced surveillance system, a forge, a science lab, a portal to another dimension</em></p>"
+                        "label": "YOUR WORKSHOP"
                     }
                 },
                 "TheWizard": {
                     "Sanctum": {
-                        "label": "YOUR SANCTUM",
-                        "value": "<p>Choose and underline 4 resources of your sanctum:</p> <ul> <li>an extremely knowledgeable assistant</li> <li>a testing ground</li> <li>magical booby traps</li> <li>a library of old tomes</li> <li>a scattering of ancient relics</li> <li>a mystical prison</li> <li>magical wards</li> <li>a portal to another dimension</li> <li>a focus circle</li> <li>an apothecary</li> </ul> <p>Choose and underline 2 downsides of your Sanctum:</p> <ul> <li>it's cursed by a previous owner</li> <li>it attracts otherworldly attention</li> <li>it contains many volatile substances</li> <li>its location is known by many</li> <li>it always lacks a key piece or ingredient</li> <li>it's tough for you to access</li> <li>it contains secrets unfamiliar even to you</li> </ul> <p>When you go into your sanctum to work on something, the MC will tell you, \\\"Sure, no problem, but…\\\" and then 1 to 4 of the following:</p> <ul> <li>It's going to take you hours/days/weeks/months of work or recovery time</li> <li>First you'll have to summon/build/construct ________</li> <li>You'll require the services of ________ to complete it</li> <li>You require a rare and expensive ingredient or material</li> <li>It will only work for a short time, and may be unreliable</li> <li>It's going to mean exposing anyone nearby to serious fallout</li> <li>Your sanctum lacks ________; add this and you'll be able to complete it</li> <li>It will require a part of yourself or comparable sacrifice to complete</li> <li>You must journey to________ in order to complete it</li> </ul> <p>The MC can combine any set of requirements or offer two sets of costs to the same task. Once the requirements are completed, the work is completed. The MC will stat it up, reveal some info, or whatever is called for now that you've finished.</p>"
+                        "label": "YOUR SANCTUM"
                     }
                 },
                 "TheWolf": {
                     "Territory1": {
-                        "label": "YOUR TERRITORY",
-                        "description": "You've claimed an area of the city as your own. By default, your territory covers a city block or two and has the trouble: +crime. CHOOSE 2:",
-                        "options": {
-                            "0": "Your territory spans several city blocks you've owned for years (add blessing: +influence)",
-                            "1": "People in your territory work hard to keep the streets safe (remove +crime)",
-                            "2": "You are widely accepted as this place's protector (add blessing: +supported)",
-                            "3": "Your territory includes open grounds for you to roam and hunt (add blessing: +sanctuary)",
-                            "4": "You've made a deal with someone, or something, to protect your territory when you're not around (add blessing: +guardian)"
-                        }
-                    },
-                    "Territory2": {
-                        "description": "CHOOSE 2:",
-                        "options": {
-                            "0": "Your territory owes fealty to someone more powerful than you (add trouble: +obligations)",
-                            "1": "A Status-3 NPC wants your territory and is working to get it (add trouble: +encroachment)",
-                            "2": "Mortals in the area are actively trying to revitalize local businesses and infrastructure (add trouble: +upheaval)",
-                            "3": "Your territory is plagued by a mystical or supernatural presence (add trouble: +haunted)",
-                            "4": "You have offered protection within your territory to someone, and now their problems are yours (add trouble: +fealty)"
-                        }
+                        "label": "YOUR TERRITORY"
                     },
                     "TransformationQualities": {
-                        "label": "THE TRANSFORMATION",
-                        "description": "By default, you can change into your wolf form—at will—in the sight of the moon: you gain natural weaponry (2-harm), 1-armor, and all of the qualities and weaknesses you choose below. CHOOSE 3 QUALITIES:",
-                        "options": {
-                            "0": "You are massive: gain armor+1 and harm +1",
-                            "1": "You are savage: your harm is armor piercing (ap) and messy",
-                            "2": "You are versatile: take +1 ongoing to letting it out",
-                            "3": "You are swift: take +1 ongoing to escaping",
-                            "4": "You are cunning: take +1 ongoing to keeping your cool",
-                            "5": "You are steadfast: you fight like a small group against groups"
-                        }
-                    },
-                    "TransformationWeaknesses": {
-                        "description": "CHOOSE 3 WEAKNESSES:",
-                        "options": {
-                            "0": "Silver weapons ignore your armor and inflict harm+1",
-                            "1": "Sometimes you lose control while transformed",
-                            "2": "Sometimes you transform when you are stressed or angry",
-                            "3": "The transformation is brief; you shift back at the end of a scene",
-                            "4": "The transformation is violent and painful; suffer 1-harm (ap)",
-                            "5": "The transformation draws the attention of supernatural creatures"
-                        }
+                        "label": "THE TRANSFORMATION"
                     }
                 },
                 "TheTainted": {
                     "DarkPatron": {
-                        "label": "YOUR DARK PATRON (Choose 2):",
-                        "description": "Your soul has fallen into the hands of a dark patron, a powerful demon whose reputation precedes them, but whose true name is known to few. They have given you terms of employment, access to terrible power, and terrifying insight into their true nature.",
-                        "options": {
-                            "0": "they seduce all who come into contact with them with pleasantries, gifts, and vices",
-                            "1": "they govern their sprawling organization through strict and severe rules and punishments",
-                            "2": "they require deference from their minions to their strange obsession with a mortal pastime",
-                            "3": "they manipulate their friends, allies, and enemies alike into conflicts that serve their secret designs",
-                            "4": "they have seeded eyes and ears across the city, always alert to any sign of betrayal or profitable opportunity",
-                            "5": "they employ only dedicated and loyal minons who are all too happy to report on your activities",
-                            "6": "they are slow to anger, but their commitment to their wrath is unstoppable once truly provoked"
-                        }
+                        "label": "YOUR DARK PATRON (Choose 2):"
                     },
                     "YourDemonForm": {
-                        "label": "YOUR DEMON FORM",
-                        "description": "Since your patron claimed your soul, you have a new look: a demon form. Pick as many as apply from the lists below:",
-                        "value": "<ul><li><b>Head:</b> bone, concave, crown, flames, halo, horns, spikes</li><li><b>Eyes:</b> absent, animal, empty, glowing, smoky, un-blinking</li><li><b>Limbs:</b> claws, heavy, hoofed, many, severed, twisted</li><li><b>Wings:</b> blood, feathers, insects, leather, metal, paper, none</li><li><b>Skin:</b> chitinous, marked, misty, sticky, stretched, translucent</li></ul>"
+                        "label": "YOUR DEMON FORM"
                     },
                     "DemonicJobs": {
-                        "label": "DEMONIC JOBS",
-                        "description": "Your dark patron keeps you on Earth for a reason; they could always have decided to drag you to hell. Choose two jobs you regularly do for them from the list below:",
-                        "value": "<p><il>Collecting souls, tracking down rogue demons, delivering threats and messages, cleaning up gruesome messes, guarding someone or something, destroying your patron's enemies, brokering demonic contracts, hiding and securing demonic contraband, operating a demonic establishment, policing your patron's minions</li></p>"
+                        "label": "DEMONIC JOBS"
                     }
                 }
             },

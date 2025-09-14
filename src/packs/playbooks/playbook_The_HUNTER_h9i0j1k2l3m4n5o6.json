@@ -613,8 +613,8 @@
         "path": "attributes"
       },
       "TheHunterSocietySacrifice": {
-        "label": "WHAT DID YOU SACRIFICE TO JOIN?",
-        "description": "",
+        "label": "",
+        "description": "WHAT DID YOU SACRIFICE TO JOIN?",
         "type": "ListMany",
         "options": {
           "0": {
@@ -661,8 +661,8 @@
         "path": "attributes"
       },
       "TheHunterSocietyGather": {
-        "label": "WHERE DOES YOUR SOCIETY GATHER?",
-        "description": "",
+        "label": "",
+        "description": "WHERE DOES YOUR SOCIETY GATHER?",
         "type": "ListMany",
         "options": {
           "0": {

@@ -701,7 +701,7 @@
       },
       "TheSpectrePassingOn2": {
         "label": "",
-        "description": "HAUNTINGS",
+        "description": "HAUNTINGS:",
         "type": "ListMany",
         "options": {
           "0": {

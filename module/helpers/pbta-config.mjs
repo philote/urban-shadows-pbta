@@ -221,40 +221,7 @@ export const configSheet = async () => {
                         type: "ListMany",
                         condition: false,
                         sort: false,
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.advancements.options.0.label"),
-                                value: false
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.advancements.options.1.label"),
-                                value: false
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.advancements.options.2.label"),
-                                value: false
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.advancements.options.3.label"),
-                                value: false
-                            },
-                            4: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.advancements.options.4.label"),
-                                value: false
-                            },
-                            5: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.advancements.options.5.label"),
-                                value: false
-                            },
-                            6: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.advancements.options.6.label"),
-                                value: false
-                            },
-                            7: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.advancements.options.7.label"),
-                                value: false
-                            }
-                        }
+                        options: {}
                     },
                     expertAdvancements: {
                         label: game.i18n.localize("US2E.CharacterSheets.Attributes.expertAdvancements.label"),
@@ -267,40 +234,7 @@ export const configSheet = async () => {
                         type: "ListMany",
                         condition: false,
                         sort: false,
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.expertAdvancements.options.0.label"),
-                                value: false
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.expertAdvancements.options.1.label"),
-                                value: false
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.expertAdvancements.options.2.label"),
-                                value: false
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.expertAdvancements.options.3.label"),
-                                value: false
-                            },
-                            4: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.expertAdvancements.options.4.label"),
-                                value: false
-                            },
-                            5: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.expertAdvancements.options.5.label"),
-                                value: false
-                            },
-                            6: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.expertAdvancements.options.6.label"),
-                                value: false
-                            },
-                            7: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.expertAdvancements.options.7.label"),
-                                value: false
-                            }
-                        }
+                        options: {}
                     },
                     corruptionAdvances: {
                         label: game.i18n.localize("US2E.CharacterSheets.Attributes.corruptionAdvances.label"),
@@ -313,413 +247,124 @@ export const configSheet = async () => {
                         type: "ListMany",
                         condition: false,
                         sort: false,
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.corruptionAdvances.options.0.label"),
-                                value: false
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.corruptionAdvances.options.1.label"),
-                                value: false
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.corruptionAdvances.options.2.label"),
-                                value: false
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.corruptionAdvances.options.3.label"),
-                                value: false
-                            },
-                            4: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.corruptionAdvances.options.4.label"),
-                                value: false
-                            },
-                            5: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Attributes.corruptionAdvances.options.5.label"),
-                                value: false
-                            }
-                        }
+                        options: {}
                     },
                     TheAware: {
                         label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheAWARE.MortalRelationships.label"),
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheAWARE.MortalRelationships.description"),
+                        description: "",
                         playbook: "the-aware",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheAWARE.MortalRelationships.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheAWARE.MortalRelationships.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheAWARE.MortalRelationships.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheAWARE.MortalRelationships.options.3"),
-                                value: false,
-                            },
-                            4: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheAWARE.MortalRelationships.options.4"),
-                                value: false,
-                            },
-                            5: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheAWARE.MortalRelationships.options.5"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheFaePowers: {
                         label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Powers.label"),
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Powers.description"),
+                        description: "",
                         playbook: "the-fae",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Powers.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Powers.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Powers.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Powers.options.3"),
-                                value: false,
-                            },
-                            4: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Powers.options.4"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheFaeCourtCourtIs: {
                         label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Court.label"),
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Court.description"),
+                        description: "",
                         playbook: "the-fae",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Court.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Court.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Court.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Court.options.3"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheFaeCourtMonarchsStanding: {
                         label: "",
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.MonarchsStanding.description"),
+                        description: "",
                         playbook: "the-fae",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.MonarchsStanding.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.MonarchsStanding.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.MonarchsStanding.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.MonarchsStanding.options.3"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheFaeCourtRival: {
                         label: "",
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Rival.description"),
+                        description: "",
                         playbook: "the-fae",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Rival.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Rival.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Rival.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheFae.Rival.options.3"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheHunterSocietyPrey: {
                         label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Society.label"),
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Society.description"),
+                        description: "",
                         playbook: "the-hunter",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Society.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Society.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Society.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Society.options.3"),
-                                value: false,
-                            },
-                            4: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Society.options.4"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheHunterSocietySacrifice: {
                         label: "",
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Sacrifice.description"),
+                        description: "",
                         playbook: "the-hunter",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Sacrifice.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Sacrifice.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Sacrifice.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Sacrifice.options.3"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheHunterSocietyGather: {
                         label: "",
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Gather.description"),
+                        description: "",
                         playbook: "the-hunter",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Gather.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Gather.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Gather.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheHunter.Gather.options.3"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheImpEstablishmentServices: {
                         label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Establishment.label"),
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Establishment.description"),
+                        description: "",
                         playbook: "the-imp",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Establishment.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Establishment.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Establishment.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Establishment.options.3"),
-                                value: false,
-                            },
-                            4: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Establishment.options.4"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheImpEstablishmentInvestments: {
                         label: "",
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Investments.description"),
+                        description: "",
                         playbook: "the-imp",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Investments.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Investments.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Investments.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Investments.options.3"),
-                                value: false,
-                            },
-                            4: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Investments.options.4"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheImpEstablishmentPlague: {
                         label: "",
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Plague.description"),
+                        description: "",
                         playbook: "the-imp",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Plague.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Plague.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Plague.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Plague.options.3"),
-                                value: false,
-                            },
-                            4: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.Plague.options.4"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheImpSchemesText: {
                         label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemesText.label"),
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemesText.description"),
+                        value: "",
+                        description: "",
                         playbook: "the-imp",
                         position: "playbook",
-                        type: "Text",
+                        type: "LongText",
                     },
                     TheImpSchemePayouts1: {
                         label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts1.label"),
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts1.description"),
+                        description: "",
                         playbook: "the-imp",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts1.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts1.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts1.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts1.options.3"),
-                                value: false,
-                            },
-                            4: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts1.options.4"),
-                                value: false,
-                            },
-                            5: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts1.options.5"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheImpSchemePayouts2: {
                         label: "",
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts2.description"),
+                        description: "",
                         playbook: "the-imp",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts2.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts2.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts2.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts2.options.3"),
-                                value: false,
-                            },
-                            4: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts2.options.4"),
-                                value: false,
-                            },
-                            5: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheImp.SchemePayouts2.options.5"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheOracleBenefactor: {
                         label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Benefactor.label"),
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Benefactor.description"),
-                        value: "<p><b>NAME:</b> </p><p><b>CIRCLE:</b> </p>",
+                        description: "",
+                        value: "",
                         playbook: "the-oracle",
                         position: "playbook",
                         type: "LongText",
@@ -730,78 +375,27 @@ export const configSheet = async () => {
                         playbook: "the-oracle",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Prophecy.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Prophecy.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Prophecy.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Prophecy.options.3"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheOracleBenefactorStrengths: {
-                        label: "",
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Strengths.description"),
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Strengths.label"),
+                        description: "",
                         playbook: "the-oracle",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Strengths.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Strengths.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Strengths.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Strengths.options.3"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheOracleBenefactorFlaws: {
-                        label: "",
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Flaws.description"),
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Flaws.label"),
+                        description: "",
                         playbook: "the-oracle",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Flaws.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Flaws.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Flaws.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheOracle.Flaws.options.3"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheSpectreTrauma: {
                         label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.Trauma.label"),
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.Trauma.description"),
+                        description: "",
                         playbook: "the-spectre",
                         position: "playbook",
                         type: "Clock",
@@ -810,119 +404,35 @@ export const configSheet = async () => {
                     },
                     TheSpectreAnchors: {
                         label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.Anchors.label"),
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.Anchors.description"),
+                        description: "",
                         playbook: "the-spectre",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.Anchors.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.Anchors.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.Anchors.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.Anchors.options.3"),
-                                value: false,
-                            },
-                            4: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.Anchors.options.4"),
-                                value: false,
-                            },
-                            5: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.Anchors.options.5"),
-                                value: false,
-                            },
-                            6: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.Anchors.options.6"),
-                                value: false,
-                            },
-                            7: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.Anchors.options.7"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheSpectrePassingOn: {
                         label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.PassingOn.label"),
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.PassingOn.description"),
+                        description: "",
                         playbook: "the-spectre",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.PassingOn.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.PassingOn.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.PassingOn.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.PassingOn.options.3"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheSpectrePassingOn2: {
                         label: "",
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.PassingOn2.description"),
+                        description: "",
                         playbook: "the-spectre",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.PassingOn2.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.PassingOn2.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSpectre.PassingOn2.options.2"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheSwornOathMasters: {
                         label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathMasters.label"),
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathMasters.description"),
+                        description: "",
                         playbook: "the-sworn",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathMasters.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathMasters.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathMasters.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathMasters.options.3"),
-                                value: false,
-                            },
-                            4: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathMasters.options.4"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheSwornOathCharged: {
                         label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathCharged.label"),
@@ -930,156 +440,47 @@ export const configSheet = async () => {
                         playbook: "the-sworn",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathCharged.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathCharged.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathCharged.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathCharged.options.3"),
-                                value: false,
-                            },
-                            4: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathCharged.options.4"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheSwornVows: {
                         label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.Vows.label"),
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.Vows.description"),
+                        description: "",
                         playbook: "the-sworn",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.Vows.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.Vows.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.Vows.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.Vows.options.3"),
-                                value: false,
-                            },
-                            4: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.Vows.options.4"),
-                                value: false,
-                            },
-                            5: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.Vows.options.5"),
-                                value: false,
-                            },
-
-                            6: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.Vows.options.6"),
-                                value: false,
-                            },
-                            7: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.Vows.options.7"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheSwornOathWeapon: {
                         label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathWeapon.label"),
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathWeapon.description"),
+                        description: "",
                         playbook: "the-sworn",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathWeapon.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathWeapon.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathWeapon.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathWeapon.options.3"),
-                                value: false,
-                            },
-                            4: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathWeapon.options.4"),
-                                value: false,
-                            },
-                            5: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheSworn.OathWeapon.options.5"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheTaintedDarkPatron: {
                         label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.DarkPatron.label"),
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.DarkPatron.description"),
+                        description: "",
                         playbook: "the-tainted",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.DarkPatron.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.DarkPatron.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.DarkPatron.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.DarkPatron.options.3"),
-                                value: false,
-                            },
-                            4: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.DarkPatron.options.4"),
-                                value: false,
-                            },
-                            5: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.DarkPatron.options.5"),
-                                value: false,
-                            },
-                            6: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.DarkPatron.options.6"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheTaintedYourDemonForm: {
                         label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.YourDemonForm.label"),
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.YourDemonForm.description"),
+                        description: "",
                         playbook: "the-tainted",
                         position: "playbook",
                         type: "LongText",
-                        value: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.YourDemonForm.value"),
+                        value: "",
                     },
                     TheTaintedDemonicJobs: {
                         label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.DemonicJobs.label"),
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.DemonicJobs.description"),
+                        description: "",
                         playbook: "the-tainted",
                         position: "playbook",
                         type: "LongText",
-                        value: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheTainted.DemonicJobs.value"),
+                        value: "",
                     },
                     TheVampWeb: {
                         label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.Web.label"),
@@ -1087,106 +488,31 @@ export const configSheet = async () => {
                         playbook: "the-vamp",
                         position: "playbook",
                         type: "LongText",
-                        value: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.Web.value"),
+                        value: "",
                     },
                     TheVampHarbor: {
                         label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.Harbor.label"),
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.Harbor.description"),
+                        description: "",
                         playbook: "the-vamp",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.Harbor.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.Harbor.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.Harbor.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.Harbor.options.3"),
-                                value: false,
-                            },
-                            4: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.Harbor.options.4"),
-                                value: false,
-                            },
-                            5: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.Harbor.options.5"),
-                                value: false,
-                            },
-                            6: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.Harbor.options.6"),
-                                value: false,
-                            },
-                            7: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.Harbor.options.7"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheVampHarborAdvantages: {
                         label: "",
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.HarborAdvantages.description"),
+                        description: "",
                         playbook: "the-vamp",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.HarborAdvantages.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.HarborAdvantages.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.HarborAdvantages.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.HarborAdvantages.options.3"),
-                                value: false,
-                            },
-                            4: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.HarborAdvantages.options.4"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheVampHarborDangers: {
                         label: "",
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.HarborDangers.description"),
+                        description: "",
                         playbook: "the-vamp",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.HarborDangers.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.HarborDangers.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.HarborDangers.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.HarborDangers.options.3"),
-                                value: false,
-                            },
-                            4: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVamp.HarborDangers.options.4"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheVeteranWorkshop: {
                         label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVeteran.Workshop.label"),
@@ -1194,7 +520,7 @@ export const configSheet = async () => {
                         playbook: "the-veteran",
                         position: "playbook",
                         type: "LongText",
-                        value: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheVeteran.Workshop.value"),
+                        value: "",
                     },
                     TheWizardSanctum: {
                         label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWizard.Sanctum.label"),
@@ -1202,132 +528,39 @@ export const configSheet = async () => {
                         playbook: "the-wizard",
                         position: "playbook",
                         type: "LongText",
-                        value: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWizard.Sanctum.value"),
+                        value: "",
                     },
                     TheWolfTerritory1: {
                         label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory1.label"),
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory1.description"),
+                        description: "",
                         playbook: "the-wolf",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory1.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory1.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory1.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory1.options.3"),
-                                value: false,
-                            },
-                            4: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory1.options.4"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheWolfTerritory2: {
                         label: "",
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory2.description"),
+                        description: "",
                         playbook: "the-wolf",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory2.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory2.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory2.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory2.options.3"),
-                                value: false,
-                            },
-                            4: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory2.options.4"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
-
                     TheWolfTransformationQualities: {
                         label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationQualities.label"),
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationQualities.description"),
+                        description: "",
                         playbook: "the-wolf",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationQualities.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationQualities.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationQualities.options.2"),
-                                value: false,
-                            },  
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationQualities.options.3"),
-                                value: false,
-                            },
-                            4: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationQualities.options.4"),
-                                value: false,
-                            },
-                            5: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationQualities.options.5"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                     TheWolfTransformationWeaknesses: {
                         label: "",
-                        description: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationWeaknesses.description"),
+                        description: "",
                         playbook: "the-wolf",
                         position: "playbook",
                         type: "ListMany",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationWeaknesses.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationWeaknesses.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationWeaknesses.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationWeaknesses.options.3"),
-                                value: false,
-                            },
-                            4: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationWeaknesses.options.4"),
-                                value: false,
-                            },
-                            5: {
-                                label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.TransformationWeaknesses.options.5"),
-                                value: false,
-                            },
-                        },
+                        options: {},
                     },
                 },
                 details: {
