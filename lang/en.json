@@ -227,6 +227,9 @@
                 "TheWizard": {
                     "Sanctum": {
                         "label": "YOUR SANCTUM"
+                    },
+                    "Ward": {
+                        "label": "YOUR WARD"
                     }
                 },
                 "TheWolf": {

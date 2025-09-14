@@ -569,6 +569,72 @@
         ],
         "custom": false,
         "path": "attributes"
+      },
+      "TheWizardWardProtection": {
+        "label": "YOUR WARD",
+        "description": "A Status-3 member of your Circle has charged you with caring for an important ward. They live and dine with you; their safety is your sworn duty. Choose 2 from each list below. WHY DO THEY NEED PROTECTION?",
+        "type": "ListMany",
+        "options": {
+          "0": {}
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "value": false,
+                "label": "They are the key to a forbidden ritual or magical catastrophe"
+              },
+              "1": {
+                "value": false,
+                "label": "They are the heir to a powerful position or inheritance"
+              },
+              "2": {
+                "value": false,
+                "label": "They are the secret child of an influential and powerful enemy"
+              },
+              "3": {
+                "value": false,
+                "label": "They are a gifted mage in need of a teacher and guardian"
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheWizardWardArrangement": {
+        "label": "",
+        "description": "WHY DID YOU AGREE TO THIS ARRANGEMENT?",
+        "type": "ListMany",
+        "options": {
+          "0": {}
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "value": false,
+                "label": "You are in love with the ward (or the Status-3 member)"
+              },
+              "1": {
+                "value": false,
+                "label": "Your membership in a faction compels your agreement"
+              },
+              "2": {
+                "value": false,
+                "label": "You and your ward are supernaturally linked"
+              },
+              "3": {
+                "value": false,
+                "label": "You hope to redeem yourself for a past failure"
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
       }
     },
     "choiceSets": [
@@ -751,7 +817,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1757828034767,
+    "modifiedTime": 1757883202895,
     "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },

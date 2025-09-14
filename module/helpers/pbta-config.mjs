@@ -530,6 +530,22 @@ export const configSheet = async () => {
                         type: "LongText",
                         value: "",
                     },
+                    TheWizardWardProtection: {
+                        label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWizard.Ward.label"),
+                        description: "",
+                        playbook: "the-wizard",
+                        position: "playbook",
+                        type: "ListMany",
+                        options: {},
+                    },
+                    TheWizardWardArrangement: {
+                        label: "",
+                        description: "",
+                        playbook: "the-wizard",
+                        position: "playbook",
+                        type: "ListMany",
+                        options: {},
+                    },
                     TheWolfTerritory1: {
                         label: game.i18n.localize("US2E.CharacterSheets.Playbooks.TheWolf.Territory1.label"),
                         description: "",
