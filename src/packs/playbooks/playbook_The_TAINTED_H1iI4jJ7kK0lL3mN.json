@@ -627,8 +627,7 @@
       {
         "title": "TAINTED MOVES",
         "desc": "YOU GET THIS ONE:",
-        "grantOn": 0,
-        "advancement": 0,
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
@@ -638,14 +637,14 @@
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
       },
       {
         "title": "TAINTED MOVES",
         "desc": "AND CHOOSE TWO MORE:",
-        "grantOn": 1,
-        "advancement": 0,
+        "type": "multi",
         "repeatable": false,
         "choices": [
           {
@@ -673,16 +672,22 @@
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
       },
       {
         "title": "TAINTED Starting Moves",
         "desc": "",
-        "grantOn": 0,
-        "advancement": 0,
+        "type": "multi",
         "repeatable": true,
         "choices": [
+          {
+            "img": "icons/svg/aura.svg",
+            "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.ha5BS0ndap75Zdz3",
+            "granted": false,
+            "advancement": 0
+          },
           {
             "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.rLpQT2qDAGUaDOYk",
             "img": "icons/svg/aura.svg",
@@ -696,14 +701,14 @@
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
       },
       {
         "title": "Starting Gear",
         "desc": "",
-        "grantOn": 0,
-        "advancement": 0,
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
@@ -725,14 +730,14 @@
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
       },
       {
         "title": "Starting Gear",
         "desc": "One brutal weapon of choice:",
-        "grantOn": 1,
-        "advancement": 0,
+        "type": "multi",
         "repeatable": true,
         "choices": [
           {
@@ -760,8 +765,9 @@
             "advancement": 0
           }
         ],
-        "type": "multi",
-        "granted": false
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
       }
     ]
   },
@@ -779,7 +785,7 @@
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1757827210875,
+    "modifiedTime": 1757882799423,
     "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },

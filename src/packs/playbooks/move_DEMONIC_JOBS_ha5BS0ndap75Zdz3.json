@@ -1,0 +1,53 @@
+{
+  "folder": "67b98e674f1346b5",
+  "name": "DEMONIC JOBS",
+  "type": "move",
+  "_id": "ha5BS0ndap75Zdz3",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you <strong>complete a job for your patron,</strong> mark Wild. Your patron owes you a Debt for every job completed. You can cash in a Debt with your Patron in order to have them:</p><ul><li>answer a question honestly</li><li>arrange a meeting with an NPC from Wild</li><li>grant you a worthy boon or useful gift</li><li>erase a Debt they hold on you or someone else</li><li>give you a Debt they have on someone else</li></ul><p>Your patron holds 3 Debts on you. They may one day offer you the chance to buy your freedom, but Debts alone won’t be enough. At any time, your patron may cash in any Debts you owe them—1 for 1—to inflict corruption on you.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Miss",
+        "value": ""
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Weak Hit",
+        "value": ""
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Strong Hit",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "WynALakZJf661YU1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1757882521545,
+    "modifiedTime": 1757882782989,
+    "lastModifiedBy": "WynALakZJf661YU1"
+  },
+  "_key": "!items!ha5BS0ndap75Zdz3"
+}
