@@ -24,7 +24,6 @@ export function UrbanShadowsActorSheetMixin(Base) {
 				const attributes = context.system.attributes;
 				const playbookAttributes = this._getPlaybookAttributes(playbookSlug, attributes);
 				context.system.playbookAttributes = playbookAttributes;
-				console.log("playbookAttributes: ", playbookAttributes);
 				/*
 				if playbookAttributes is empty then add a playbook details to the playbook tab
 				*/
@@ -45,7 +44,6 @@ export function UrbanShadowsActorSheetMixin(Base) {
 		 */
 		_getPlaybookAttributes(playbookValue, attributes) {
 			if (!playbookValue || !attributes) {
-				console.log("Choose a playbook to update the playbook tab");
 				return {};
 			}
 
