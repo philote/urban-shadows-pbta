@@ -1,0 +1,36 @@
+{
+  "name": "A decent car",
+  "type": "equipment",
+  "_id": "yXC9SxjRxYo6Ww5Z",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/city-car.svg",
+  "system": {
+    "description": "",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "WynALakZJf661YU1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1757805230935,
+    "modifiedTime": 1757826564800,
+    "lastModifiedBy": "WynALakZJf661YU1"
+  },
+  "_key": "!items!yXC9SxjRxYo6Ww5Z"
+}

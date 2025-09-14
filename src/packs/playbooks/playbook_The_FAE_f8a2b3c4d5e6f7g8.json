@@ -96,7 +96,7 @@
         "value": "",
         "choices": [
           {
-            "value": "<ul><li><p>step sideways into the mortal world from your homeland</p></li><li><p>enchant someone with your otherworldly beauty and grace</p></li><li><p>curse someone with a minor but persistent misfortune</p></li><li><p>call upon the wild magic of your court to reshape reality in small ways</p></li></ul>",
+            "value": "<ul><li>summon an elemental storm of your court (2-harm close area ap)</li><li>appear to others as someone you have previously touched</li><li>compel the elements of your court to reveal what they have seen</li><li>create a telepathic link between yourself and another for a scene</li></ul>",
             "options": {}
           }
         ],
@@ -112,7 +112,7 @@
         "value": "",
         "choices": [
           {
-            "value": "<ul><li><p>Someone helped you when you first arrived in the mortal world. You owe them a Debt.</p></li><li><p>You made a bargain with someone that went poorly for them. They owe you a Debt, but also bear you a grudge.</p></li><li><p>Someone knows your true name and could use it against you. You owe them 2 Debts.</p></li></ul>",
+            "value": "<ul><li>Someone disrupted a rare ritual of your court for personal gain, besmirching your reputation with your monarch. They owe you a Debt.</li><li>You are keeping something hidden on behalf of someone else from a powerful member of their Circle. Ask them why. They owe you a Debt.</li><li>You entrusted someone with an important and dangerous task. Ask them if they succeeded or failed. If they succeeded, you owe them a Debt. If they failed, they owe you a Debt.</li></ul>",
             "options": {}
           }
         ],
@@ -259,7 +259,7 @@
               },
               "3": {
                 "value": false,
-                "label": "erase a scar"
+                "label": "acquire a knightly title"
               },
               "4": {
                 "value": false,
@@ -271,11 +271,11 @@
               },
               "6": {
                 "value": false,
-                "label": "change to a new playbook"
+                "label": "retire your character to safety"
               },
               "7": {
                 "value": false,
-                "label": "retire your character to safety"
+                "label": "change to a new playbook"
               }
             },
             "value": ""
@@ -482,7 +482,7 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<p>What court do you serve, and what is your role within it?</p>",
+            "value": "<p>Why did you leave your homeland?</p>",
             "options": {}
           }
         ],
@@ -498,7 +498,7 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<p>How long have you been in the mortal world?</p>",
+            "value": "<p>How long have you been in the city?</p>",
             "options": {}
           }
         ],
@@ -514,7 +514,7 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<p>What brought you to this city?</p>",
+            "value": "<p>What do you love most about humanity?</p>",
             "options": {}
           }
         ],
@@ -530,7 +530,7 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<p>What mortal custom or emotion fascinates you most?</p>",
+            "value": "<p>Who is your closest confidante or lover?</p>",
             "options": {}
           }
         ],
@@ -546,7 +546,7 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<p>What debt or obligation binds you to the mortal world?</p>",
+            "value": "<p>What do you desperately need?</p>",
             "options": {}
           }
         ],
@@ -846,6 +846,18 @@
         "repeatable": true,
         "choices": [
           {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.yXC9SxjRxYo6Ww5Z",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/city-car.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/family-house.svg",
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.lBJbPUDy109EZrNG",
+            "granted": false,
+            "advancement": 0
+          },
+          {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.HZbbbpRVzY68EOu5",
             "img": "modules/urban-shadows-pbta/assets/icons/gear/colombian-statue.svg",
             "granted": false,
@@ -858,20 +870,8 @@
             "advancement": 0
           },
           {
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/triorb.svg",
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.g9PgEqTItk2pyXTT",
-            "granted": false,
-            "advancement": 0
-          },
-          {
-            "uuid": "Compendium.urban-shadows-pbta.gear.Item.2REzA6YjzrbwOgmm",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/city-car.svg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
-            "uuid": "Compendium.urban-shadows-pbta.gear.Item.yTKVPS4StFWX0mK7",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/modern-city.svg",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/triorb.svg",
             "granted": false,
             "advancement": 0
           }
@@ -892,12 +892,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.348",
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1750894738446,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1757805516052,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_id": "f8a2b3c4d5e6f7g8",

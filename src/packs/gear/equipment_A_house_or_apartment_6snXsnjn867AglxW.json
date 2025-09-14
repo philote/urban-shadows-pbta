@@ -1,0 +1,36 @@
+{
+  "name": "A house or apartment",
+  "type": "equipment",
+  "_id": "6snXsnjn867AglxW",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/family-house.svg",
+  "system": {
+    "description": "",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "WynALakZJf661YU1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1757826398104,
+    "modifiedTime": 1757826556202,
+    "lastModifiedBy": "WynALakZJf661YU1"
+  },
+  "_key": "!items!6snXsnjn867AglxW"
+}

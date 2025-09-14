@@ -5,7 +5,7 @@
   "_id": "Z8p4J7v3Q6kM2nR5",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>You know instantly if someone has broken their word to you or reneged on a deal you’ve made; take a Debt on them and +1 ongoing to claim what you deserve from them or their allies.</p>",
+    "description": "<p>You know instantly if someone has broken their word to you or reneged on a deal you’ve made; take a Debt on them and +1 ongoing to claim what you deserve from them or their allies until they’ve made things right.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -36,13 +36,14 @@
   "ownership": {},
   "flags": {},
   "_stats": {
-    "coreVersion": "13.344",
+    "coreVersion": "13.348",
     "systemId": "pbta",
-    "systemVersion": "1.1.20",
-    "lastModifiedBy": null,
+    "systemVersion": "1.1.21",
+    "lastModifiedBy": "WynALakZJf661YU1",
     "compendiumSource": null,
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "modifiedTime": 1757800127434
   },
   "_key": "!items!Z8p4J7v3Q6kM2nR5"
 }

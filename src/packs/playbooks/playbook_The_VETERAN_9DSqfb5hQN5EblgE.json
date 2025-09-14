@@ -41,7 +41,7 @@
       },
       "mortalis": {
         "label": "Mortalis",
-        "value": 0,
+        "value": 1,
         "steps": {
           "value": 0,
           "max": 3
@@ -65,7 +65,7 @@
       },
       "wild": {
         "label": "Wild",
-        "value": 1,
+        "value": 0,
         "steps": {
           "value": 0,
           "max": 3
@@ -729,12 +729,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.348",
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1750907267058,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1757827673524,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_id": "9DSqfb5hQN5EblgE",

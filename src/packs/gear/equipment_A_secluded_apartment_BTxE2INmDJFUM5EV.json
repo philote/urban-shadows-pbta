@@ -1,0 +1,36 @@
+{
+  "name": "A secluded apartment",
+  "type": "equipment",
+  "_id": "BTxE2INmDJFUM5EV",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/modern-city.svg",
+  "system": {
+    "description": "",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "WynALakZJf661YU1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1757826751895,
+    "modifiedTime": 1757826762146,
+    "lastModifiedBy": "WynALakZJf661YU1"
+  },
+  "_key": "!items!BTxE2INmDJFUM5EV"
+}

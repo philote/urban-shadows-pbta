@@ -881,13 +881,13 @@
         "choices": [
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.eOmTPHPz6Akhp26L",
-            "img": "icons/svg/item-bag.svg",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/gym-bag.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.gear.Item.zdAq6oEtPvlN7R6J",
-            "img": "icons/svg/item-bag.svg",
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.jSbzUEBdBfUDzgQ7",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/smartphone.svg",
             "granted": false,
             "advancement": 0
           }
@@ -909,8 +909,8 @@
             "advancement": 0
           },
           {
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/baseball-bat.svg",
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.61G1bKAZrUym18Ac",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/baseball-bat.svg",
             "granted": false,
             "advancement": 0
           },
@@ -949,12 +949,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.348",
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1750907350841,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1757828089040,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_id": "MdVmLn0FBUm08rQC",

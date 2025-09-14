@@ -719,7 +719,8 @@
       {
         "title": "ORACLE MOVES",
         "desc": "CHOOSE TWO:",
-        "type": "multi",
+        "grantOn": 1,
+        "advancement": 0,
         "repeatable": true,
         "choices": [
           {
@@ -753,14 +754,14 @@
             "advancement": 0
           }
         ],
-        "grantOn": 1,
-        "granted": false,
-        "advancement": 0
+        "type": "multi",
+        "granted": false
       },
       {
         "title": "ORACLE MOVES",
         "desc": "Starting Moves",
-        "type": "multi",
+        "grantOn": 0,
+        "advancement": 0,
         "repeatable": true,
         "choices": [
           {
@@ -788,14 +789,14 @@
             "advancement": 0
           }
         ],
-        "grantOn": 0,
-        "granted": false,
-        "advancement": 0
+        "type": "multi",
+        "granted": false
       },
       {
         "title": "Starting Gear",
-        "desc": "Choose two:",
-        "type": "multi",
+        "desc": "Everything provided by your benefactor & Choose two:",
+        "grantOn": 1,
+        "advancement": 0,
         "repeatable": true,
         "choices": [
           {
@@ -805,8 +806,8 @@
             "advancement": 0
           },
           {
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/secret-book.svg",
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.PT9avmjve8g9nrCx",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/secret-book.svg",
             "granted": false,
             "advancement": 0
           },
@@ -817,9 +818,8 @@
             "advancement": 0
           }
         ],
-        "grantOn": 1,
-        "granted": false,
-        "advancement": 0
+        "type": "multi",
+        "granted": false
       }
     ]
   },
@@ -833,12 +833,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.348",
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1750907037614,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1757806216660,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_id": "90bc9296bbd74afe",

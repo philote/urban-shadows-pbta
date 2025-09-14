@@ -96,7 +96,7 @@
         "value": "",
         "choices": [
           {
-            "value": "<ul><li><p>+demonic weapon (3-harm hand or 2-harm close)</p></li><li><p>+demonic movement (flight, flaming motorcycle, etc.)</p></li><li><p>+demonic senses (infrared sight, smell lies, etc.)</p></li><li><p>gain armor+1</p></li><li><p>heal 2-harm</p></li><li><p>take +1 forward</p></li></ul>",
+            "value": "<ul><li><p>imbue your touch with demonic corruption (2-harm hand ap)</p></li><li><p>impress, dismay, or frighten someone with a display of demonic fury</p></li><li><p>move through or past a physical obstacle created by mortal hands</p></li><li><p>summon your dark patron's attention directly on your location</p></li></ul>",
             "options": {}
           }
         ],
@@ -112,7 +112,7 @@
         "value": "",
         "choices": [
           {
-            "value": "<ul><li><p>You’re protecting someone from a dark power, a rival and enemy of your demonic patron. Your charge owes you a Debt.</p></li><li><p>Someone is trying to save you from damnation and keeps suffering for it. Ask them why they care when no one else does. You owe them a Debt.</p></li><li><p>You hurt or killed someone’s good friend or ally on your demonic patron’s orders. You owe them a Debt.</p></li></ul>",
+            "value": "<ul><li><p>You're protecting someone from a dark power, a rival and enemy of your demonic patron. Your charge owes you a Debt.</p></li><li><p>Someone is trying to save you from damnation and keeps suffering for it. Ask them why they care when no one else does. You owe them a Debt.</p></li><li><p>You hurt or killed someone's good friend or ally on your demonic patron's orders. You owe them a Debt.</p></li></ul>",
             "options": {}
           }
         ],
@@ -627,7 +627,8 @@
       {
         "title": "TAINTED MOVES",
         "desc": "YOU GET THIS ONE:",
-        "type": "multi",
+        "grantOn": 0,
+        "advancement": 0,
         "repeatable": true,
         "choices": [
           {
@@ -637,15 +638,15 @@
             "advancement": 0
           }
         ],
-        "grantOn": 1,
-        "granted": false,
-        "advancement": 0
+        "type": "multi",
+        "granted": false
       },
       {
         "title": "TAINTED MOVES",
         "desc": "AND CHOOSE TWO MORE:",
-        "type": "multi",
-        "repeatable": true,
+        "grantOn": 1,
+        "advancement": 0,
+        "repeatable": false,
         "choices": [
           {
             "uuid": "Compendium.urban-shadows-pbta.playbooks.Item.V7wW0xX3yY6zZ9aA",
@@ -672,14 +673,14 @@
             "advancement": 0
           }
         ],
-        "grantOn": 0,
-        "granted": false,
-        "advancement": 0
+        "type": "multi",
+        "granted": false
       },
       {
         "title": "TAINTED Starting Moves",
         "desc": "",
-        "type": "multi",
+        "grantOn": 0,
+        "advancement": 0,
         "repeatable": true,
         "choices": [
           {
@@ -695,43 +696,43 @@
             "advancement": 0
           }
         ],
-        "grantOn": 0,
-        "granted": false,
-        "advancement": 0
+        "type": "multi",
+        "granted": false
       },
       {
         "title": "Starting Gear",
         "desc": "",
-        "type": "multi",
+        "grantOn": 0,
+        "advancement": 0,
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-pbta.gear.Item.hzja5WHwvYV0N2uk",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/smartphone.svg",
-            "granted": false,
-            "advancement": 0
-          },
-          {
-            "uuid": "Compendium.urban-shadows-pbta.gear.Item.2REzA6YjzrbwOgmm",
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.yXC9SxjRxYo6Ww5Z",
             "img": "modules/urban-shadows-pbta/assets/icons/gear/city-car.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-pbta.gear.Item.yTKVPS4StFWX0mK7",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/modern-city.svg",
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.6snXsnjn867AglxW",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/family-house.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.hzja5WHwvYV0N2uk",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/smartphone.svg",
             "granted": false,
             "advancement": 0
           }
         ],
-        "grantOn": 0,
-        "granted": false,
-        "advancement": 0
+        "type": "multi",
+        "granted": false
       },
       {
         "title": "Starting Gear",
         "desc": "One brutal weapon of choice:",
-        "type": "multi",
+        "grantOn": 1,
+        "advancement": 0,
         "repeatable": true,
         "choices": [
           {
@@ -747,8 +748,8 @@
             "advancement": 0
           },
           {
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/katana.svg",
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.033846e28c11448d",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/katana.svg",
             "granted": false,
             "advancement": 0
           },
@@ -759,9 +760,8 @@
             "advancement": 0
           }
         ],
-        "grantOn": 1,
-        "granted": false,
-        "advancement": 0
+        "type": "multi",
+        "granted": false
       }
     ]
   },
@@ -775,12 +775,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.348",
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1750891765207,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1757827210875,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_id": "H1iI4jJ7kK0lL3mN",

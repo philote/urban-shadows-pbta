@@ -1,0 +1,36 @@
+{
+  "name": "A decent smartphone",
+  "type": "equipment",
+  "_id": "7NhQpHr6XyzkD69k",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/smartphone.svg",
+  "system": {
+    "description": "",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "WynALakZJf661YU1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1757828013394,
+    "modifiedTime": 1757828024875,
+    "lastModifiedBy": "WynALakZJf661YU1"
+  },
+  "_key": "!items!7NhQpHr6XyzkD69k"
+}

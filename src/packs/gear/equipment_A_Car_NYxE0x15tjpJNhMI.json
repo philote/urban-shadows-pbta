@@ -1,0 +1,36 @@
+{
+  "name": "A Car",
+  "type": "equipment",
+  "_id": "NYxE0x15tjpJNhMI",
+  "img": "modules/urban-shadows-pbta/assets/icons/gear/city-car.svg",
+  "system": {
+    "description": "",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "WynALakZJf661YU1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1757826465200,
+    "modifiedTime": 1757826473699,
+    "lastModifiedBy": "WynALakZJf661YU1"
+  },
+  "_key": "!items!NYxE0x15tjpJNhMI"
+}

@@ -684,20 +684,20 @@
             "advancement": 0
           },
           {
+            "uuid": "Compendium.urban-shadows-pbta.gear.Item.7NhQpHr6XyzkD69k",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/smartphone.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.lBJbPUDy109EZrNG",
             "img": "modules/urban-shadows-pbta/assets/icons/gear/family-house.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/temple-gate.svg",
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.7TIGuha5kp5VDkF1",
-            "granted": false,
-            "advancement": 0
-          },
-          {
-            "uuid": "Compendium.urban-shadows-pbta.gear.Item.hzja5WHwvYV0N2uk",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/smartphone.svg",
+            "img": "modules/urban-shadows-pbta/assets/icons/gear/temple-gate.svg",
             "granted": false,
             "advancement": 0
           }
@@ -747,12 +747,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.348",
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1750907321186,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1757828034767,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_id": "S4uU7vV0wW3xX6yY",

@@ -9,7 +9,7 @@
     "stats": {
       "blood": {
         "label": "Blood",
-        "value": 1,
+        "value": -1,
         "steps": {
           "value": 0,
           "max": 3
@@ -25,7 +25,7 @@
       },
       "mind": {
         "label": "Mind",
-        "value": -1,
+        "value": 1,
         "steps": {
           "value": 0,
           "max": 3
@@ -41,7 +41,7 @@
       },
       "mortalis": {
         "label": "Mortalis",
-        "value": 1,
+        "value": 0,
         "steps": {
           "value": 0,
           "max": 3
@@ -49,7 +49,7 @@
       },
       "night": {
         "label": "Night",
-        "value": -1,
+        "value": 1,
         "steps": {
           "value": 0,
           "max": 3
@@ -57,7 +57,7 @@
       },
       "power": {
         "label": "Power",
-        "value": 0,
+        "value": -1,
         "steps": {
           "value": 0,
           "max": 3
@@ -76,7 +76,7 @@
     "attributes": {
       "corruption": {
         "label": "Corruption",
-        "description": "TRIGGER: When you complete a scheme that causes significant harm to innocents, mark corruption.",
+        "description": "TRIGGER: When you make a deal that endangers your family, friends, or community, mark corruption.",
         "type": "Clock",
         "value": 0,
         "max": 5,
@@ -96,7 +96,7 @@
         "value": "",
         "choices": [
           {
-            "value": "<ul><li><p>produce exactly the right item, contact, or information needed for your current scheme</p></li><li><p>slip away from danger through cunning, misdirection, or just plain luck</p></li><li><p>convince someone to make a deal that's clearly not in their best interest</p></li><li><p>turn a setback into an opportunity for an even better scheme</p></li></ul>",
+            "value": "<ul><li><p>sniff out a secret stash, even when expertly concealed or hidden</p></li><li><p>infiltrate a hostile area by appearing unworthy of concern</p></li><li><p>teleport into your establishment from any distance or position</p></li><li><p>inflict 4-harm (ap) on a vulnerable target who underestimates you</p></li></ul>",
             "options": {}
           }
         ],
@@ -112,7 +112,7 @@
         "value": "",
         "choices": [
           {
-            "value": "<ul><li><p>Someone helped you establish your first successful scheme in the city. You owe them a Debt.</p></li><li><p>You sold someone something that turned out to be more trouble than it was worth. They owe you a Debt, but they're not happy about it.</p></li><li><p>Someone knows about a scheme of yours that went very wrong. You owe them 2 Debts to keep quiet about it.</p></li></ul>",
+            "value": "<ul><li><p>Someone is a consistent patron or customer of your establishment, regularly relying on you for your services or assistance. They owe you 2 Debts.</p></li><li><p>You offered someone work when no one else would give them the time of day. Ask them if it worked out in your favor. They owe you a Debt either way.</p></li><li><p>You partner with someone on your schemes, both of you profiting in equal measure. You owe each other 2 Debts.</p></li></ul>",
             "options": {}
           }
         ],
@@ -164,36 +164,36 @@
           {
             "options": {
               "0": {
-                "label": "+1 Status (max+1)",
-                "value": false
+                "value": false,
+                "label": "+1 Status (max+1)"
               },
               "1": {
-                "label": "+1 Status (max+1)",
-                "value": false
+                "value": false,
+                "label": "+1 Status (max+1)"
               },
               "2": {
-                "label": "+1 Status (max+1)",
-                "value": false
+                "value": false,
+                "label": "+1 Status (max+1)"
               },
               "3": {
-                "label": "a new Imp move",
-                "value": false
+                "value": false,
+                "label": "a new Imp move"
               },
               "4": {
-                "label": "a new Imp move",
-                "value": false
+                "value": false,
+                "label": "a move from another playbook"
               },
               "5": {
-                "label": "a move from another playbook",
-                "value": false
+                "value": false,
+                "label": "a move from another playbook"
               },
               "6": {
-                "label": "a move from another playbook",
-                "value": false
+                "value": false,
+                "label": "change your Circle"
               },
               "7": {
-                "label": "change your Circle",
-                "value": false
+                "value": false,
+                "label": "change your Circle"
               }
             },
             "value": ""
@@ -255,11 +255,11 @@
               },
               "2": {
                 "value": false,
-                "label": "obtain Circle Status-2"
+                "label": "+1 any Circle (max+3)"
               },
               "3": {
                 "value": false,
-                "label": "erase a scar"
+                "label": "obtain Circle Status-2"
               },
               "4": {
                 "value": false,
@@ -271,11 +271,11 @@
               },
               "6": {
                 "value": false,
-                "label": "change to a new playbook"
+                "label": "get The Devil Inside"
               },
               "7": {
                 "value": false,
-                "label": "retire your character to safety"
+                "label": "change to a new playbook"
               }
             },
             "value": ""
@@ -430,15 +430,15 @@
             "options": {}
           },
           {
-            "value": "<p>practical clothing</p>",
+            "value": "<p>formal clothing</p>",
             "options": {}
           },
           {
-            "value": "<p>street clothing</p>",
+            "value": "<p>underdressed clothing</p>",
             "options": {}
           },
           {
-            "value": "<p>trendy clothing</p>",
+            "value": "<p>uniform clothing</p>",
             "options": {}
           }
         ],
@@ -454,19 +454,19 @@
         "type": "LongText",
         "choices": [
           {
+            "value": "<p>beleaguered</p>",
+            "options": {}
+          },
+          {
             "value": "<p>charming</p>",
             "options": {}
           },
           {
-            "value": "<p>mischievous</p>",
+            "value": "<p>frenzied</p>",
             "options": {}
           },
           {
-            "value": "<p>scheming</p>",
-            "options": {}
-          },
-          {
-            "value": "<p>slick</p>",
+            "value": "<p>shrewd</p>",
             "options": {}
           }
         ],
@@ -482,7 +482,7 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<p>What was your first successful scheme?</p>",
+            "value": "<p>How did you escape your servitude?</p>",
             "options": {}
           }
         ],
@@ -498,7 +498,7 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<p>How long have you been operating in the city?</p>",
+            "value": "<p>How long have you been in the city?</p>",
             "options": {}
           }
         ],
@@ -514,7 +514,7 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<p>What's the biggest scheme you're currently working on?</p>",
+            "value": "<p>Whom do you call family in the city?</p>",
             "options": {}
           }
         ],
@@ -530,7 +530,7 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<p>Who do you consider your biggest rival or competitor?</p>",
+            "value": "<p>Whom do you turn to when you’re in trouble?</p>",
             "options": {}
           }
         ],
@@ -546,7 +546,7 @@
         "type": "LongText",
         "choices": [
           {
-            "value": "<p>What's the one thing you would never sell or trade away?</p>",
+            "value": "<p>Whom did you scam that still holds a grudge?</p>",
             "options": {}
           }
         ],
@@ -995,12 +995,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.348",
     "systemId": "pbta",
     "systemVersion": "1.1.21",
     "createdTime": 1733907141240,
-    "modifiedTime": 1750906721813,
-    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "modifiedTime": 1757805452597,
+    "lastModifiedBy": "WynALakZJf661YU1",
     "exportSource": null
   },
   "_id": "i7j8k9l0m1n2o3p4",
