@@ -2,7 +2,7 @@
   "name": "Longbow",
   "type": "equipment",
   "_id": "DJZabmjegTFKa3EX",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/bow-arrow.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/bow-arrow.svg",
   "system": {
     "description": "",
     "uses": 0,

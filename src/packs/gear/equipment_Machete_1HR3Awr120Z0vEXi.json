@@ -3,7 +3,7 @@
   "name": "Machete",
   "type": "equipment",
   "_id": "1HR3Awr120Z0vEXi",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/machete.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/machete.svg",
   "system": {
     "description": "(3-harm close messy)",
     "uses": 0,

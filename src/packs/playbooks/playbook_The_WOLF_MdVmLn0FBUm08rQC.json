@@ -881,13 +881,13 @@
         "choices": [
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.eOmTPHPz6Akhp26L",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/gym-bag.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/gym-bag.svg",
             "granted": false,
             "advancement": 0
           },
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.jSbzUEBdBfUDzgQ7",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/smartphone.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/smartphone.svg",
             "granted": false,
             "advancement": 0
           }
@@ -904,31 +904,31 @@
         "choices": [
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.K4lL7mN0oP3qQ6rS",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/pistol-gun.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/pistol-gun.svg",
             "granted": false,
             "advancement": 0
           },
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.61G1bKAZrUym18Ac",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/baseball-bat.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/baseball-bat.svg",
             "granted": false,
             "advancement": 0
           },
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.U79fjMPb4uuYb7zR",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/butterfly-knife.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/butterfly-knife.svg",
             "granted": false,
             "advancement": 0
           },
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.1HR3Awr120Z0vEXi",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/machete.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/machete.svg",
             "granted": false,
             "advancement": 0
           },
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.03e743a1890c43f9",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/revolver.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/revolver.svg",
             "granted": false,
             "advancement": 0
           }

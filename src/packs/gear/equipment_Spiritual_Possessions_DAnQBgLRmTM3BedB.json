@@ -3,7 +3,7 @@
   "name": "Spiritual Possessions",
   "type": "equipment",
   "_id": "DAnQBgLRmTM3BedB",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/egyptian-urns.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/egyptian-urns.svg",
   "system": {
     "description": "Whatever was on your person when you died, albeit spiritual versions of each.",
     "uses": 0,

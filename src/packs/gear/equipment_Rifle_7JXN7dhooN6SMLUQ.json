@@ -3,7 +3,7 @@
   "name": "Rifle",
   "type": "equipment",
   "_id": "7JXN7dhooN6SMLUQ",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/lee-enfield.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/lee-enfield.svg",
   "system": {
     "description": "",
     "uses": 0,

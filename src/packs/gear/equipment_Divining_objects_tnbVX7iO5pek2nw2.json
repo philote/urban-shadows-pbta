@@ -3,7 +3,7 @@
   "name": "Divining objects",
   "type": "equipment",
   "_id": "tnbVX7iO5pek2nw2",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/crystal-ball.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/crystal-ball.svg",
   "system": {
     "description": "(i.e. tarot deck, crystal ball, set of runes, etc.)",
     "uses": 0,

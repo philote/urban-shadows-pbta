@@ -3,7 +3,7 @@
   "name": "Baseball bat",
   "type": "equipment",
   "_id": "61G1bKAZrUym18Ac",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/baseball-bat.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/baseball-bat.svg",
   "system": {
     "description": "(2-harm close stun)",
     "uses": 0,

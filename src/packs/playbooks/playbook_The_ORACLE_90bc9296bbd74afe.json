@@ -801,19 +801,19 @@
         "choices": [
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.tnbVX7iO5pek2nw2",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/crystal-ball.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/crystal-ball.svg",
             "granted": false,
             "advancement": 0
           },
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.PT9avmjve8g9nrCx",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/secret-book.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/secret-book.svg",
             "granted": false,
             "advancement": 0
           },
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.1bf9dcd7f50d48d1",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/primitive-necklace.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/primitive-necklace.svg",
             "granted": false,
             "advancement": 0
           }

@@ -3,7 +3,7 @@
   "name": "A symbol of your society",
   "type": "equipment",
   "_id": "lcXwb8IeDwMfD9zA",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/abstract-099.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/abstract-099.svg",
   "system": {
     "description": "<p>(i.e. tattoo, coin, inscription)</p>",
     "uses": 0,

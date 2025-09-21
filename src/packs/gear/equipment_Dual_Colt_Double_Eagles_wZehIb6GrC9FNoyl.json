@@ -3,7 +3,7 @@
   "name": "Dual Colt Double Eagles",
   "type": "equipment",
   "_id": "wZehIb6GrC9FNoyl",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/colt-m1911.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/colt-m1911.svg",
   "system": {
     "description": "(3-harm near loud)",
     "uses": 0,

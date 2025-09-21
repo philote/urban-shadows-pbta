@@ -2,7 +2,7 @@
   "folder": null,
   "name": "Rare tomes and grimoires",
   "type": "equipment",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/secret-book.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/secret-book.svg",
   "system": {
     "description": "(i.e. lost scrolls, secret books, etc.)",
     "uses": 0,

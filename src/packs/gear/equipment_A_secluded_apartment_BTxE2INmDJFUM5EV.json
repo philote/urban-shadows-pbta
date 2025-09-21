@@ -2,7 +2,7 @@
   "name": "A secluded apartment",
   "type": "equipment",
   "_id": "BTxE2INmDJFUM5EV",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/modern-city.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/modern-city.svg",
   "system": {
     "description": "",
     "uses": 0,

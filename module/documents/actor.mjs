@@ -9,7 +9,7 @@ export function UrbanShadowsActorMixin(Base) {
     /** @override */
     static getDefaultArtwork(actorData) {
       if (actorData.type === "urban-shadows-pbta.city-hub") {
-        const imgSrc = `modules/urban-shadows-pbta/assets/header-bg.webp`;
+        const imgSrc = `modules/urban-shadows-pbta/assets/cc-assets/header-bg.webp`;
         return {
           img: imgSrc,
           texture: {

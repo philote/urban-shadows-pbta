@@ -3,7 +3,7 @@
   "name": "Magnum revolver",
   "type": "equipment",
   "_id": "3F6i3djFhxSbolbg",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/revolver.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/revolver.svg",
   "system": {
     "description": "(3-harm near loud reload)",
     "uses": 0,

@@ -3,7 +3,7 @@
   "name": "Ritual instruments",
   "type": "equipment",
   "_id": "1bf9dcd7f50d48d1",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/primitive-necklace.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/primitive-necklace.svg",
   "system": {
     "description": "(i.e. an athame, a pentacle, etc.)",
     "uses": 0,

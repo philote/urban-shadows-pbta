@@ -788,25 +788,25 @@
         "choices": [
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.wXS2VL8ghujNaAmO",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/flatbed.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/flatbed.svg",
             "granted": false,
             "advancement": 0
           },
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.zdAq6oEtPvlN7R6J",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/modern-city.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/modern-city.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/smartphone.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/smartphone.svg",
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.jSbzUEBdBfUDzgQ7",
             "granted": false,
             "advancement": 0
           },
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.lcXwb8IeDwMfD9zA",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/abstract-099.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/abstract-099.svg",
             "granted": false,
             "advancement": 0
           }

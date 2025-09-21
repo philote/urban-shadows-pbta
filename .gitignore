@@ -43,6 +43,6 @@ foundry
 .env
 
 # Other
-CLAUDE.md
+# CLAUDE.md
 .claude/
 assets/scenes/*

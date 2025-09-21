@@ -3,7 +3,7 @@
   "name": "Walther PPK",
   "type": "equipment",
   "_id": "cbc685c9269449d6",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/walther-ppk.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/walther-ppk.svg",
   "system": {
     "description": "(2-harm close/near reload concealable)",
     "uses": 0,

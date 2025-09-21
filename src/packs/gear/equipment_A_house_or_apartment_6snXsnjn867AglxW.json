@@ -2,7 +2,7 @@
   "name": "A house or apartment",
   "type": "equipment",
   "_id": "6snXsnjn867AglxW",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/family-house.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/family-house.svg",
   "system": {
     "description": "",
     "uses": 0,

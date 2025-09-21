@@ -127,6 +127,8 @@ jobs:
             module.json                          \
             README.md                            \
             LICENSE                              \
+            ATTRIBUTION.md                       \
+            LICENSING-GUIDE.md                   \
             templates/                           \
             module/                              \
             css/                                 \

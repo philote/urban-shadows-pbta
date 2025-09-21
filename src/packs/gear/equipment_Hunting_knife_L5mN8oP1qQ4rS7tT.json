@@ -3,7 +3,7 @@
   "name": "Hunting knife",
   "type": "equipment",
   "_id": "L5mN8oP1qQ4rS7tT",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/bowie-knife.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/bowie-knife.svg",
   "system": {
     "description": "(2-harm hand)",
     "uses": 0,

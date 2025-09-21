@@ -68,52 +68,27 @@ You can install the latest released version of the module by using this manifest
 - Improve NPC sheets
 - Relationship and debt tracking on sheets
 
-# License & Acknowledgements
+## Licensing
+
 [Urban Shadows](https://magpiegames.com/collections/urban-shadows) was created by Andrew Medeiros and Mark Diaz Truman and is copyright 2015 by [Magpie Games](https://magpiegames.com), including all text and art. All rights are reserved.
 
-Icons used are from game-icons.net and are released under a Creative Commons Attribution 3.0 Unported license. https://creativecommons.org/licenses/by/3.0/
-Pistol gun icon by John Colburn under CC BY 3.0
-Glock icon by Skoll under CC BY 3.0
-Smartphone icon by Delapouite under CC BY 3.0
-City car icon by Delapouite under CC BY 3.0
-Modern city icon by Delapouite under CC BY 3.0
-Baseball bat icon by Delapouite under CC BY 3.0
-Butterfly knife icon by Skoll under CC BY 3.0
-Crystal ball icon by Lorc under CC BY 3.0
-Colt M1911 icon by Skoll under CC BY 3.0
-Bowie knife icon by Lorc under CC BY 3.0
-Machete icon by Lorc under CC BY 3.0
-Revolver icon by Delapouite under CC BY 3.0
-Sawed-off shotgun icon by Delapouite under CC BY 3.0
-Secret book icon by Delapouite under CC BY 3.0
-Primitive necklace icon by Delapouite under CC BY 3.0
-Egyptian urns icon by Delapouite under CC BY 3.0
-Switchblade icon by Skoll under CC BY 3.0
-Katana icon by Delapouite under CC BY 3.0
-Electric icon by sbed under CC BY 3.0
-Baton icon by Skoll under CC BY 3.0
-Walther PPK icon by Skoll under CC BY 3.0
-Gym bag icon by Delapouite under CC BY 3.0
-Surfer van icon by Delapouite under CC BY 3.0
-Race car icon by Skoll under CC BY 3.0
-Family house icon by Delapouite under CC BY 3.0
-Flatbed icon by Skoll under CC BY 3.0
-Colombian statue icon by Delapouite under CC BY 3.0
-Ankh icon by Lorc under CC BY 3.0
-Temple gate icon by Delapouite under CC BY 3.0
-Present icon by Delapouite under CC BY 3.0
-Triorb icon by Lorc under CC BY 3.0
-Abstract 099 icon by Viscious Speed under CC0 PDD
-Factory icon by Delapouite under CC BY 3.0
-Bow arrow icon by Delapouite under CC BY 3.0
-Andromeda chain icon by Lorc under CC BY 3.0
-Lee Enfield icon by Skoll under CC BY 3.0
-MP40 icon by Skoll under CC BY 3.0
-Bo icon by Delapouite under CC BY 3.0
-Famas icon by Skoll under CC BY 3.0
-Brass knuckles icon by Delapouite under CC BY 3.0
-Winchester rifle icon by Skoll under CC BY 3.0
-Grenade icon by Lorc under CC BY 3.0
+This module uses a multi-license approach:
 
-City Hub header image:
-“<a href="https://www.flickr.com/photos/dexxus/358919966" title="city of lights">city of lights</a>” by <a href="https://www.flickr.com/photos/dexxus/">paul bica</a>, <a href="https://creativecommons.org/licenses/by/2.0/deed.en" rel="license noopener noreferrer">CC BY 2.0</a>
+- **Module Code & Structure**: Licensed under [Apache License 2.0](LICENSE)
+- **Third-Party Icons**: Licensed under [Creative Commons](ATTRIBUTION.md)
+- **Urban Shadows 2E**: Game content © 2015-2024 [Magpie Games](https://magpiegames.com)
+
+See [LICENSING-GUIDE.md](LICENSING-GUIDE.md) for complete details.
+
+### Contributing
+
+We welcome contributions! By submitting pull requests, you agree to license your contributions under Apache 2.0. Please note:
+- Only contribute code and original assets
+- Do not submit any copyrighted Urban Shadows content
+- See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
+
+### Attribution
+
+Icons used under Creative Commons licenses - see [ATTRIBUTION.md](ATTRIBUTION.md) for full credits.
+
+"city of lights" header image by [paul bica](https://www.flickr.com/photos/dexxus/) used under CC BY 2.0.

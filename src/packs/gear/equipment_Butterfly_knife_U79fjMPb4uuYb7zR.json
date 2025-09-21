@@ -3,7 +3,7 @@
   "name": "Butterfly knife",
   "type": "equipment",
   "_id": "U79fjMPb4uuYb7zR",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/butterfly-knife.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/butterfly-knife.svg",
   "system": {
     "description": "(2-harm hand concealable)",
     "uses": 0,

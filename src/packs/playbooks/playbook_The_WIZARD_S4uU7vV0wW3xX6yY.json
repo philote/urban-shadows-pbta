@@ -745,25 +745,25 @@
         "choices": [
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.pLmcHJnSEFA7S4pe",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/city-car.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/city-car.svg",
             "granted": false,
             "advancement": 0
           },
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.7NhQpHr6XyzkD69k",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/smartphone.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/smartphone.svg",
             "granted": false,
             "advancement": 0
           },
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.lBJbPUDy109EZrNG",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/family-house.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/family-house.svg",
             "granted": false,
             "advancement": 0
           },
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.7TIGuha5kp5VDkF1",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/temple-gate.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/temple-gate.svg",
             "granted": false,
             "advancement": 0
           }
@@ -780,19 +780,19 @@
         "choices": [
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.MTHSObEuSjh33gsZ",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/glock.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/glock.svg",
             "granted": false,
             "advancement": 0
           },
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.03e743a1890c43f9",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/revolver.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/revolver.svg",
             "granted": false,
             "advancement": 0
           },
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.033846e28c11448d",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/katana.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/katana.svg",
             "granted": false,
             "advancement": 0
           }

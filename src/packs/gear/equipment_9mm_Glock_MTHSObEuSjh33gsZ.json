@@ -3,7 +3,7 @@
   "name": "9mm Glock",
   "type": "equipment",
   "_id": "MTHSObEuSjh33gsZ",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/glock.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/glock.svg",
   "system": {
     "description": "(2-harm near loud concealable)",
     "uses": 0,

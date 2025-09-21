@@ -3,7 +3,7 @@
   "name": "9mm Beretta",
   "type": "equipment",
   "_id": "K4lL7mN0oP3qQ6rS",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/pistol-gun.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/pistol-gun.svg",
   "system": {
     "description": "(2-harm near loud concealable)",
     "uses": 0,

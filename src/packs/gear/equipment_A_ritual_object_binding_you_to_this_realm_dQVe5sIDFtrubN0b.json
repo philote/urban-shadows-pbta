@@ -3,7 +3,7 @@
   "name": "A ritual object binding you to this realm",
   "type": "equipment",
   "_id": "dQVe5sIDFtrubN0b",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/ankh.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/ankh.svg",
   "system": {
     "description": "<p>(e.g. the first dollar spent at your business)</p>",
     "uses": 0,

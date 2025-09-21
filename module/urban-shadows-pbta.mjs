@@ -89,7 +89,7 @@ Hooks.once("ready", async function () {
       const worldData = {
         id: game.world.id,
         action: "editWorld",
-        background: `modules/urban-shadows-pbta/assets/cover.webp`,
+        background: `modules/urban-shadows-pbta/assets/cc-assets/cover.webp`,
       };
       let response;
       try {
@@ -125,7 +125,7 @@ Hooks.once("ready", async function () {
       const worldData = {
         id: game.world.id,
         action: "editWorld",
-        background: `modules/urban-shadows-pbta/assets/cover.webp`,
+        background: `modules/urban-shadows-pbta/assets/cc-assets/cover.webp`,
       };
       let response;
       try {

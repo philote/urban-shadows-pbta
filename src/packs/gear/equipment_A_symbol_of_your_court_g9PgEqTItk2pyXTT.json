@@ -3,7 +3,7 @@
   "name": "A symbol of your court",
   "type": "equipment",
   "_id": "g9PgEqTItk2pyXTT",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/triorb.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/triorb.svg",
   "system": {
     "description": "<p>(sun, moon, storm, winter, spring, etc.)</p>",
     "uses": 0,

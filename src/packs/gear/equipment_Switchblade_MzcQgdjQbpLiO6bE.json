@@ -2,7 +2,7 @@
   "folder": null,
   "name": "Switchblade",
   "type": "equipment",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/switchblade.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/switchblade.svg",
   "system": {
     "description": "",
     "uses": 0,

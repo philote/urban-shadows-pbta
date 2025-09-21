@@ -117,18 +117,18 @@
   "media": [
     {
       "type": "screenshot",
-      "url": "https://raw.githubusercontent.com/philote/urban-shadows-pbta/main/assets/screenshot.webp",
+      "url": "modules/urban-shadows-pbta/main/assets/original/screenshot.webp",
       "caption": "Character Sheet"
     },
     {
       "type": "cover",
-      "url": "https://raw.githubusercontent.com/philote/urban-shadows-pbta/main/assets/cover.webp",
+      "url": "modules/urban-shadows-pbta/main/assets/cc-assets/cover.webp",
       "caption": "Cover Image"
     },
     {
       "type": "setup",
-      "url": "https://raw.githubusercontent.com/philote/urban-shadows-pbta/main/assets/package_image.webp",
-      "thumbnail": "https://raw.githubusercontent.com/philote/urban-shadows-pbta/main/assets/package_image_thumb.webp"
+      "url": "modules/urban-shadows-pbta/main/assets/cc-assets/package_image.webp",
+      "thumbnail": "modules/urban-shadows-pbta/main/assets/cc-assets/package_image_thumb.webp"
     }
   ]
 }

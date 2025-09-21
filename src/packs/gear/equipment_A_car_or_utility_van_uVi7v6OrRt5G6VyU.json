@@ -3,7 +3,7 @@
   "name": "A car or utility van",
   "type": "equipment",
   "_id": "uVi7v6OrRt5G6VyU",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/surfer-van.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/surfer-van.svg",
   "system": {
     "description": "",
     "uses": 0,

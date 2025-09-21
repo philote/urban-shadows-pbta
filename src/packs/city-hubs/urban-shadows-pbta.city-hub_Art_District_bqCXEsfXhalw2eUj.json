@@ -2,7 +2,7 @@
   "name": "Art District",
   "type": "urban-shadows-pbta.city-hub",
   "_id": "bqCXEsfXhalw2eUj",
-  "img": "modules/urban-shadows-pbta/assets/header-bg.webp",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/header-bg.webp",
   "system": {
     "stats": {},
     "attributes": {
@@ -82,7 +82,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/urban-shadows-pbta/assets/header-bg.webp",
+      "src": "modules/urban-shadows-pbta/assets/cc-assets/header-bg.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

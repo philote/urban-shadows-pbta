@@ -3,7 +3,7 @@
   "name": "Pump-action shotgun",
   "type": "equipment",
   "_id": "ab37097cce424167",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/sawed-off-shotgun.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/sawed-off-shotgun.svg",
   "system": {
     "description": "(3-harm close/near loud reload messy)",
     "uses": 0,

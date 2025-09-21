@@ -3,7 +3,7 @@
   "name": "a fancy car",
   "type": "equipment",
   "_id": "lfiYwkArOhE61rrL",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/race-car.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/race-car.svg",
   "system": {
     "description": "",
     "uses": 0,

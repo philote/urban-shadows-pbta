@@ -2,7 +2,7 @@
   "name": "Hunting Rifle",
   "type": "equipment",
   "_id": "6mEyzKDHgcrSJstg",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/winchester-rifle.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/winchester-rifle.svg",
   "system": {
     "description": "",
     "uses": 0,

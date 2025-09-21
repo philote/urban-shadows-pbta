@@ -2,7 +2,7 @@
   "folder": null,
   "name": "a smartphone",
   "type": "equipment",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/smartphone.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/smartphone.svg",
   "system": {
     "description": "",
     "uses": 0,

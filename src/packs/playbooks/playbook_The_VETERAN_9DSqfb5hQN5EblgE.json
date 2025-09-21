@@ -661,24 +661,24 @@
         "choices": [
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.KJpK75h5tquVPjLJ",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/flatbed.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/flatbed.svg",
             "granted": false,
             "advancement": 0
           },
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.JVrSbjXusGXxQ9mR",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/factory.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/factory.svg",
             "granted": false,
             "advancement": 0
           },
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.hzja5WHwvYV0N2uk",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/smartphone.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/smartphone.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/factory.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/factory.svg",
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.zJHFMoGPOS1qm6oh",
             "granted": false,
             "advancement": 0
@@ -696,19 +696,19 @@
         "choices": [
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.K4lL7mN0oP3qQ6rS",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/pistol-gun.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/pistol-gun.svg",
             "granted": false,
             "advancement": 0
           },
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.3F6i3djFhxSbolbg",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/revolver.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/revolver.svg",
             "granted": false,
             "advancement": 0
           },
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.ab37097cce424167",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/sawed-off-shotgun.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/sawed-off-shotgun.svg",
             "granted": false,
             "advancement": 0
           }

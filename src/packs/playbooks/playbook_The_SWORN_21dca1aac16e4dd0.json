@@ -886,18 +886,18 @@
         "choices": [
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.lfiYwkArOhE61rrL",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/race-car.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/race-car.svg",
             "granted": false,
             "advancement": 0
           },
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.45BahRXdoh9sigR5",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/modern-city.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/modern-city.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/smartphone.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/smartphone.svg",
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.hzja5WHwvYV0N2uk",
             "granted": false,
             "advancement": 0
@@ -915,19 +915,19 @@
         "choices": [
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.K4lL7mN0oP3qQ6rS",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/pistol-gun.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/pistol-gun.svg",
             "granted": false,
             "advancement": 0
           },
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.L5mN8oP1qQ4rS7tT",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/bowie-knife.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/bowie-knife.svg",
             "granted": false,
             "advancement": 0
           },
           {
             "uuid": "Compendium.urban-shadows-pbta.gear.Item.M6oP9qQ2rS5tT8uU",
-            "img": "modules/urban-shadows-pbta/assets/icons/gear/sawed-off-shotgun.svg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/sawed-off-shotgun.svg",
             "granted": false,
             "advancement": 0
           }

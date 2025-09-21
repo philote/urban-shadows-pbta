@@ -2,7 +2,7 @@
   "name": "a shitty cell phone",
   "type": "equipment",
   "_id": "jSbzUEBdBfUDzgQ7",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/smartphone.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/smartphone.svg",
   "system": {
     "description": "",
     "uses": 0,

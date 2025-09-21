@@ -2,7 +2,7 @@
   "name": "A Car",
   "type": "equipment",
   "_id": "NYxE0x15tjpJNhMI",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/city-car.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/city-car.svg",
   "system": {
     "description": "",
     "uses": 0,

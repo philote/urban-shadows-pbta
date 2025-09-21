@@ -3,7 +3,7 @@
   "name": "Sword",
   "type": "equipment",
   "_id": "033846e28c11448d",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/katana.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/katana.svg",
   "system": {
     "description": "(3-harm close messy)",
     "uses": 0,

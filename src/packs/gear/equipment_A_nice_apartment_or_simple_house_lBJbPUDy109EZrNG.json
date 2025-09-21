@@ -1,7 +1,7 @@
 {
   "name": "A nice apartment or simple house",
   "type": "equipment",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/family-house.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/family-house.svg",
   "system": {
     "description": "",
     "uses": 0,

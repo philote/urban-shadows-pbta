@@ -2,7 +2,7 @@
   "name": "Grenade",
   "type": "equipment",
   "_id": "MdxWsBKHTbAKADVk",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/grenade.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/grenade.svg",
   "system": {
     "description": "",
     "uses": 0,

@@ -2,7 +2,7 @@
   "name": "Assault Rifle",
   "type": "equipment",
   "_id": "QOcjnJGL7xFtq0Q6",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/famas.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/famas.svg",
   "system": {
     "description": "",
     "uses": 0,

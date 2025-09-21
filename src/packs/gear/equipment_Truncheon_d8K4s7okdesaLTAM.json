@@ -2,7 +2,7 @@
   "folder": null,
   "name": "Truncheon",
   "type": "equipment",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/baton.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/baton.svg",
   "system": {
     "description": "(2-harm hand stun)",
     "uses": 0,

@@ -2,7 +2,7 @@
   "folder": null,
   "name": "a used car",
   "type": "equipment",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/city-car.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/city-car.svg",
   "system": {
     "description": "",
     "uses": 0,

@@ -2,7 +2,7 @@
   "name": "A duffel bag with your personal belongings",
   "type": "equipment",
   "_id": "eOmTPHPz6Akhp26L",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/gym-bag.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/gym-bag.svg",
   "system": {
     "description": "",
     "uses": 0,

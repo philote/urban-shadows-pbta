@@ -3,7 +3,7 @@
   "name": "Bow",
   "type": "equipment",
   "_id": "TcYWilPcE2aZZt9D",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/bow-arrow.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/bow-arrow.svg",
   "system": {
     "description": "",
     "uses": 0,

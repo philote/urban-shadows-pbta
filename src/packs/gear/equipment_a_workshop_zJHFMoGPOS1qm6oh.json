@@ -2,7 +2,7 @@
   "name": "a workshop",
   "type": "equipment",
   "_id": "zJHFMoGPOS1qm6oh",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/factory.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/factory.svg",
   "system": {
     "description": "",
     "uses": 0,

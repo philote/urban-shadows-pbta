@@ -3,7 +3,7 @@
   "name": "Pistol",
   "type": "equipment",
   "_id": "I15BOdIRlcIftNWd",
-  "img": "modules/urban-shadows-pbta/assets/icons/gear/colt-m1911.svg",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/colt-m1911.svg",
   "system": {
     "description": "",
     "uses": 0,
