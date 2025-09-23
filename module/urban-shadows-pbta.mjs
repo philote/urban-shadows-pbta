@@ -1,5 +1,6 @@
 import * as pbtaConfig from "./helpers/pbta-config.mjs";
 import * as utils from "./helpers/utils.mjs";
+import { migrateWorldData, migrationUtils } from "./helpers/migration.mjs";
 import { UrbanShadowsActorSheetMixin } from "./sheets/actor-sheet.mjs";
 import { UrbanShadowsCityHubSheetMixin } from "./sheets/city-hub-sheet.mjs";
 import { CityHubModel } from "./data/cityHubModel.mjs";
@@ -7,6 +8,7 @@ import { UrbanShadowsActorMixin } from "./documents/actor.mjs";
 
 // Make Urban Shadows helper functions available globally
 window.UrbanShadows = utils.UrbanShadows;
+window.UrbanShadows.migration = migrationUtils;
 
 Hooks.once("init", () => {
   // Urban Shadows ActorSheet Setup
@@ -55,6 +57,14 @@ Hooks.once("init", () => {
     config: true,
     type: Boolean,
     default: false,
+  });
+
+  game.settings.register("urban-shadows-pbta", "worldMigrationVersion", {
+    name: "World Migration Version",
+    scope: "world",
+    config: false,
+    type: String,
+    default: "0.0.0",
   });
 
   // Preload Handlebars parts.
@@ -147,6 +157,9 @@ Hooks.once("ready", async function () {
       }
     }
   }
+
+  // Run world data migration
+  await migrateWorldData();
 });
 
 Hooks.on("renderActorSheet", async (app, html) => {
