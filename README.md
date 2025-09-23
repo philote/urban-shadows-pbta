@@ -67,10 +67,15 @@ You can install the latest released version of the module by using this manifest
 - get ADVANCED MOVES working
 - Improve NPC sheets
 - Relationship and debt tracking on sheets
+- Fix a bug with Hub Moves (they get reset when edited)
 
 ## Licensing
 
 [Urban Shadows](https://magpiegames.com/collections/urban-shadows) was created by Andrew Medeiros and Mark Diaz Truman and is copyright 2015 by [Magpie Games](https://magpiegames.com), including all text and art. All rights are reserved.
+
+> **Licensing Note:** This module is an independent, open-source project. Some game text from Urban Shadows 2E is currently used with verbal permission from Magpie Games while a formal fan-collaboration license is being finalized. The code is licensed under Apache 2.0, but the game content and art from Magpie Games will be subject to a separate, more restrictive license.
+
+This module is built on top of the PbtA system for Foundry VTT.
 
 This module uses a multi-license approach:
 
@@ -92,3 +97,7 @@ We welcome contributions! By submitting pull requests, you agree to license your
 Icons used under Creative Commons licenses - see [ATTRIBUTION.md](ATTRIBUTION.md) for full credits.
 
 "city of lights" header image by [paul bica](https://www.flickr.com/photos/dexxus/) used under CC BY 2.0.
+
+"[New York City at night HDR](https://commons.wikimedia.org/w/index.php?curid=1150291)" (Login and World thumbnail images) by [Paulo Barcellos Jr.](https://www.flickr.com/people/paulobar) is licensed under [CC BY-SA 2.0 
+<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;" /><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;" /><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" style="height: 1em; margin-right: 0.125em; display: inline;" /></a>
+](https://creativecommons.org/licenses/by-sa/2.0/?ref=openverse) .
