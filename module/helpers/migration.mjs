@@ -1,6 +1,12 @@
 /**
  * Migration utilities for Urban Shadows PBTA module
  * Handles asset path migrations and world data updates
+ *
+ * CONSOLE USAGE:
+ * await UrbanShadows.migration.dryRunMigration()    // Preview changes without modifying data
+ * await UrbanShadows.migration.forceMigration()     // Run migration bypassing version checks
+ *
+ * NOTE: Always run dry run first. Force migration modifies world data.
  */
 
 const MODULE_ID = "urban-shadows-pbta";
@@ -11,20 +17,15 @@ const TARGET_VERSION = "2.0.0";
  * Based on asset reorganization from root-level to organized /assets/ structure
  */
 const ASSET_PATH_MAPPINGS = {
-  // Gear icons moved from root icons/gear/ to assets/cc-assets/gear/
-  "icons/gear/": "assets/cc-assets/gear/",
+  // Gear icons moved from assets/icons/gear/ to assets/cc-assets/gear/
+  "assets/icons/gear/": "assets/cc-assets/gear/",
 
-  // Module images moved from root to assets/cc-assets/
-  "cover.webp": "assets/cc-assets/cover.webp",
-  "header-bg.webp": "assets/cc-assets/header-bg.webp",
-  "header-bg-thumb.webp": "assets/cc-assets/header-bg-thumb.webp",
-  "package_image.webp": "assets/cc-assets/package_image.webp",
-  "package_image_thumb.webp": "assets/cc-assets/package_image_thumb.webp",
-
-  // Screenshots moved from root to assets/original/
-  "screenshot.webp": "assets/original/screenshot.webp",
-  "screenshots-city-hub-faction.webp": "assets/original/screenshots-city-hub-faction.webp",
-  "screenshots-compendium.webp": "assets/original/screenshots-compendium.webp"
+  // Module images moved from assets/ to assets/cc-assets/
+  "assets/cover.webp": "assets/cc-assets/cover.webp",
+  "assets/header-bg.webp": "assets/cc-assets/header-bg.webp",
+  "assets/header-bg-thumb.webp": "assets/cc-assets/header-bg-thumb.webp",
+  "assets/package_image.webp": "assets/cc-assets/package_image.webp",
+  "assets/package_image_thumb.webp": "assets/cc-assets/package_image_thumb.webp",
 };
 
 /**
@@ -34,13 +35,27 @@ export async function migrateWorldData() {
   const currentVersion = game.settings.get(MODULE_ID, "worldMigrationVersion");
 
   // Skip migration if already at target version or higher
-  if (!isNewerVersion(TARGET_VERSION, currentVersion)) {
+  if (!foundry.utils.isNewerVersion(TARGET_VERSION, currentVersion)) {
     console.log(`Urban Shadows PBTA | World migration not needed. Current: ${currentVersion}, Target: ${TARGET_VERSION}`);
     return;
   }
 
   console.log(`Urban Shadows PBTA | Starting world migration from ${currentVersion} to ${TARGET_VERSION}`);
+  await performMigration();
+}
 
+/**
+ * Force migration regardless of version (for console use)
+ */
+async function forceMigration() {
+  console.log(`Urban Shadows PBTA | Force migration started`);
+  await performMigration();
+}
+
+/**
+ * Perform the actual migration steps
+ */
+async function performMigration() {
   try {
     ui.notifications.info("Urban Shadows PBTA | Starting world data migration...", { permanent: true });
 
@@ -183,9 +198,19 @@ function needsPathUpdate(path) {
   // Normalize path to check for old patterns
   const normalizedPath = path.replace(/^modules\/urban-shadows-pbta\//, "");
 
-  // Check if path contains old patterns that need updating
+  // Skip if path already uses new structure (starts with assets/cc-assets/ or assets/original/)
+  if (normalizedPath.startsWith("assets/cc-assets/") || normalizedPath.startsWith("assets/original/")) {
+    return false;
+  }
+
+  // Check for specific old path patterns
   return Object.keys(ASSET_PATH_MAPPINGS).some(oldPath => {
-    return normalizedPath.includes(oldPath) || normalizedPath === oldPath;
+    // For directory patterns (ending with /), check if path starts with the pattern
+    if (oldPath.endsWith("/")) {
+      return normalizedPath.startsWith(oldPath);
+    }
+    // For file patterns, check exact match or if path ends with the pattern
+    return normalizedPath === oldPath || normalizedPath.endsWith("/" + oldPath) || normalizedPath.endsWith(oldPath);
   });
 }
 
@@ -195,46 +220,55 @@ function needsPathUpdate(path) {
 function updateAssetPath(oldPath) {
   if (!oldPath || typeof oldPath !== "string") return oldPath;
 
-  let newPath = oldPath;
   const modulePrefix = "modules/urban-shadows-pbta/";
+  const hasModulePrefix = oldPath.startsWith(modulePrefix);
+  const pathWithoutPrefix = hasModulePrefix ? oldPath.substring(modulePrefix.length) : oldPath;
 
-  // Extract the module prefix if present
-  const hasModulePrefix = newPath.startsWith(modulePrefix);
-  const pathWithoutPrefix = hasModulePrefix ? newPath.substring(modulePrefix.length) : newPath;
-
-  // Apply all path mappings to the path without prefix
+  // Apply path mappings to the path without prefix
   let updatedPath = pathWithoutPrefix;
+  let matched = false;
+
   for (const [oldPattern, newPattern] of Object.entries(ASSET_PATH_MAPPINGS)) {
-    if (updatedPath.includes(oldPattern)) {
-      updatedPath = updatedPath.replace(oldPattern, newPattern);
-      console.log(`Urban Shadows PBTA | Updating path: ${oldPath} -> ${modulePrefix}${updatedPath}`);
-      break; // Only apply the first matching pattern
+    if (oldPattern.endsWith("/")) {
+      // Directory pattern - replace at start of path
+      if (updatedPath.startsWith(oldPattern)) {
+        updatedPath = updatedPath.replace(oldPattern, newPattern);
+        matched = true;
+        break;
+      }
+    } else {
+      // File pattern - replace exact matches or at end of path
+      if (updatedPath === oldPattern) {
+        updatedPath = newPattern;
+        matched = true;
+        break;
+      } else if (updatedPath.endsWith("/" + oldPattern)) {
+        updatedPath = updatedPath.replace("/" + oldPattern, "/" + newPattern);
+        matched = true;
+        break;
+      } else if (updatedPath.endsWith(oldPattern) && !updatedPath.includes("/")) {
+        updatedPath = newPattern;
+        matched = true;
+        break;
+      }
     }
   }
 
-  // Reconstruct the full path
-  newPath = hasModulePrefix ? modulePrefix + updatedPath : updatedPath;
+  if (matched) {
+    const finalPath = hasModulePrefix ? modulePrefix + updatedPath : updatedPath;
+    console.log(`Urban Shadows PBTA | Updating path: ${oldPath} -> ${finalPath}`);
+    return finalPath;
+  }
 
-  return newPath;
+  return oldPath; // Return unchanged if no mapping found
 }
 
 /**
- * Add a new asset path mapping
- * Useful for discovering and adding new mappings during migration
- */
-export function addAssetPathMapping(oldPath, newPath) {
-  ASSET_PATH_MAPPINGS[oldPath] = newPath;
-  console.log(`Urban Shadows PBTA | Added asset path mapping: ${oldPath} -> ${newPath}`);
-}
-
-/**
- * Export utility functions for console testing
+ * Export utility functions for console access
  */
 export const migrationUtils = {
   dryRunMigration,
-  addAssetPathMapping,
-  needsPathUpdate,
-  updateAssetPath: (path) => updateAssetPath(path)
+  forceMigration
 };
 
 /**
