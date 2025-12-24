@@ -1,0 +1,500 @@
+{
+    "TYPES.Actor.city-hub": "Núcleo Urbano",
+    "US2E": {
+        "SheetConfig": {
+            "character": "Ficha de Personagem Urban Shadows",
+            "cityHub": "Ficha de Núcleo Urbano Urban Shadows"
+        },
+        "Config": {
+            "rollResults": {
+                "miss": {
+                    "label": "Falha"
+                },
+                "weakHit": {
+                    "label": "Sucesso Parcial"
+                },
+                "strongHit": {
+                    "label": "Sucesso Total"
+                }
+            },
+            "statToggle": {
+                "label": "Cicatriz"
+            }
+        },
+        "CharacterSheets": {
+            "advancementsTab": "Avanços",
+            "playbookTab": "Manual",
+            "rollResults": {
+                "complications": "Complicações",
+                "partialSuccess": "Sucesso Parcial",
+                "success": "Sucesso",
+                "critical": "Crítico"
+            },
+            "shiftStats": {
+                "label": "Alterar Atributos",
+                "statLabel": "Atributo",
+                "statsLabel": "Atributos"
+            },
+            "stats": {
+                "blood": "Sangue",
+                "heart": "Coração",
+                "mind": "Mente",
+                "spirit": "Espírito",
+                "mortalis": "Mortalis",
+                "night": "Noite",
+                "power": "Poder",
+                "wild": "Limiar"
+            },
+            "statToggle": "Alternar Atributo",
+            "details": {
+                "biographyLabel": "Biografia",
+                "lookLabel": "Visual",
+                "demeanorLabel": "Comportamento",
+                "questionsLabel": "Perguntas",
+                "notesLabel": "Notas"
+            },
+            "moveTypes": {
+                "basicLabel": "Movimentos Básicos",
+                "playbookLabel": "Movimentos do Manual",
+                "basicMovesLabel": "Movimentos Básicos",
+                "playbookMovesLabel": "Movimentos do Manual",
+                "debtMovesLabel": "Movimentos de Dívida",
+                "circleMovesLabel": "Movimentos de Círculo",
+                "cityMovesLabel": "Movimentos de Cidade",
+                "hubMovesLabel": "Movimentos de Núcleo",
+                "corruptionMovesLabel": "Movimentos de Corrupção",
+                "spellsLabel": "Feitiços"
+            },
+            "equipmentTypes": {
+                "gearLabel": "Equipamento",
+                "debtLabel": "Dívida"
+            },
+            "Attributes": {
+                "harm": {
+                    "label": "Ferimento",
+                    "options": {
+                        "0": {
+                            "label": "Armadura"
+                        },
+                        "1": {
+                            "label": "Leve"
+                        },
+                        "2": {
+                            "label": "Grave"
+                        },
+                        "3": {
+                            "label": "Crítico"
+                        }
+                    }
+                },
+                "advancement": {
+                    "label": "Avanço",
+                    "description": "Quando marcar os quatro, limpe e avance",
+                    "options": {
+                        "0": {
+                            "label": "Mortalis"
+                        },
+                        "1": {
+                            "label": "Noite"
+                        },
+                        "2": {
+                            "label": "Poder"
+                        },
+                        "3": {
+                            "label": "Limiar"
+                        }
+                    }
+                },
+               "corruption": {
+                    "label": "Corrupção",
+                    "description": "Gatilho de Corrupção: "
+                },
+                "trauma": {
+                    "label": "Trauma",
+                    "description": "Quando você testemunhar uma cena de violência ou vitimização e não fizer nada, marque trauma e corrupção."
+                },
+                "web": {
+                    "label": "Sua Teia",
+                    "description": "Aqueles presos em sua teia:"
+                },
+                "letItOut": {
+                    "label": "Habilidades de Liberar"
+                },
+                "debts": {
+                    "label": "Dívidas"
+                },
+                "advancements": {
+                    "label": "Avanços",
+                    "description": "Disponíveis no início do jogo:"
+                },
+                "expertAdvancements": {
+                    "label": "Avanços de Especialista",
+                    "description": "Após cinco avanços, você pode selecionar:"
+                },
+                "corruptionAdvances": {
+                    "label": "Avanços de Corrupção",
+                    "description": "A Corrupção representa o deslize do seu personagem em direção às piores partes de sua natureza. Conforme sua corrupção aumenta, seus poderes apenas crescem..."
+                }
+            },
+            "Playbooks": {
+                "TheAWARE": {
+                    "MortalRelationships": {
+                        "label": "Relacionamentos Mortais (Escolha 3):"
+                    }
+                },
+                "TheFae": {
+                    "Powers": {
+                        "label": "PODERES FEÉRICOS"
+                    },
+                    "Court": {
+                        "label": "SUA CORTE"
+                    }
+                },
+                "TheHunter": {
+                    "Society": {
+                        "label": "SUA SOCIEDADE"
+                    }
+                },
+                "TheImp": {
+                    "Establishment": {
+                        "label": "SEU ESTABELECIMENTO"
+                    },
+                    "SchemesText": {
+                        "label": "SEUS ESQUEMAS"
+                    },
+                    "SchemePayouts1": {
+                        "label": "PAGAMENTOS"
+                    }
+                },
+                "TheOracle": {
+                    "Benefactor": {
+                        "label": "SEU BENFEITOR"
+                    },
+                    "Prophecy": {
+                        "label": "SUA PROFECIA (Escolha uma):"
+                    },
+                    "Strengths": {
+                        "label": "FORÇAS (Escolha duas):"
+                    },
+                    "Flaws": {
+                        "label": "FALHAS (Escolha duas):"
+                    }
+                },
+                "TheSpectre": {
+                    "Trauma": {
+                        "label": "TRAUMA"
+                    },
+                    "Anchors": {
+                        "label": "ÂNCORAS (Escolha 4):"
+                    },
+                    "PassingOn": {
+                        "label": "A PASSAGEM"
+                    }
+                },
+                "TheSworn": {
+                    "OathMasters": {
+                        "label": "SEUS MESTRES (Escolha um):"
+                    },
+                    "OathCharged": {
+                        "label": "VOCÊ É ENCARREGADO DE (Escolha dois):"
+                    },
+                    "Vows": {
+                        "label": "SEUS VOTOS, Você deve... (Escolha 5):"
+                    },
+                    "OathWeapon": {
+                        "label": "SUA ARMA LENDÁRIA (Escolha uma):"
+                    }
+                },
+                "TheVamp": {
+                    "Web": {
+                        "label": "SUA TEIA"
+                    },
+                    "Harbor": {
+                        "label": "SEU PORTO"
+                    },
+                    "HarborAdvantages": {
+                        "description": "ESCOLHA 2 VANTAGENS:"
+                    },
+                    "HarborDangers": {
+                        "description": "ESCOLHA 2 PERIGOS:"
+                    }
+                },
+                "TheVeteran": {
+                    "Workshop": {
+                        "label": "SUA OFICINA"
+                    }
+                },
+                "TheWizard": {
+                    "Sanctum": {
+                        "label": "SEU SANTUÁRIO"
+                    },
+                    "Ward": {
+                        "label": "SUA PROTEÇÃO"
+                    }
+                },
+                "TheWolf": {
+                    "Territory1": {
+                        "label": "SEU TERRITÓRIO"
+                    },
+                    "TransformationQualities": {
+                        "label": "A TRANSFORMAÇÃO"
+                    }
+                },
+                "TheTainted": {
+                    "DarkPatron": {
+                        "label": "SEU PATRONO SOMBRIO (Escolha 2):"
+                    },
+                    "YourDemonForm": {
+                        "label": "SUA FORMA DEMONÍACA"
+                    },
+                    "DemonicJobs": {
+                        "label": "TRABALHOS DEMONÍACOS"
+                    }
+                }
+            },
+            "attr": {
+                "xpLabel": "Experiência",
+                "injuryLabel": "Ferimento",
+                "coinLabel": "Moeda",
+                "conditions": {
+                    "label": "Condições",
+                    "description": "Descrição das Condições",
+                    "options": {
+                        "0": "Cansado",
+                        "1": "Assustado",
+                        "2": "Ferido",
+                        "3": "Irritado",
+                        "4": "Confuso"
+                    }
+                }
+            }
+        },
+        "FactionSheets": {
+            "label": "Facção",
+            "stats": {
+                "sizeLabel": "Tamanho",
+                "strengthLabel": "Força"
+            },
+            "attributes": {
+                "circlesLabel": "Círculo(s)",
+                "recruitmentLabel": "Recrutamento",
+                "recruitmentDescription": "Preencher esta trilha adiciona +1 ao Tamanho. Se algo reduzir o Tamanho de uma facção, a trilha é limpa.",
+                "resourcesLabel": "Recursos",
+                "resourcesDescription": "Preencher esta trilha adiciona +1 à Força e ganha um novo ativo. Se algo reduzir a Força de uma facção, a trilha de recursos é limpa.",
+                "stanceLabel": "Postura",
+                "stanceOptions": {
+                    "strivingLabel": "Empenhada",
+                    "maintainingLabel": "Mantendo",
+                    "collapsingLabel": "Colapsando"
+                },
+                "goalsLabel": "Objetivos",
+                "leadersLabel": "Líderes",
+                "assetsLabel": "Ativos"
+            },
+            "moveTypes": {
+                "factionMovesLabel": "Movimentos de Facção"
+            },
+            "equipmentTypes": {
+                "assetsLabel": "Ativos"
+            }
+        },
+        "CityHubSheets": {
+            "tabs": {
+                "tables": {
+                    "label": "Tabelas e Notas"
+                },
+                "connections": {
+                    "label": "Conexões"
+                }
+            },
+            "label": "Núcleo Urbano",
+            "attributes": {
+                "dominantCircleLabel": "Círculo Dominante",
+                "dominantCircleDescription": "Qual Círculo controla principalmente este núcleo?",
+                "residentsLabel": "Residentes",
+                "residentsDescription": "NPCs importantes que vivem ou trabalham neste núcleo, incluindo relações de dívida",
+                "relationshipsLabel": "Relacionamentos",
+                "relationshipsDescription": "Perguntas de relacionamento dos PJs e conexões específicas para este núcleo",
+                "tablesLabel": "Tabelas",
+                "tablesDescription": "Tabelas para gerar NPCs aleatórios, locais, rumores, facções e Locais neste núcleo"
+            },
+            "details": {
+                "descriptionLabel": "Descrição",
+                "atmosphereLabel": "Atmosfera",
+                "notesLabel": "Notas"
+            },
+            "moveTypes": {
+                "hubMovesLabel": "Movimentos de Núcleo"
+            },
+            "equipmentTypes": {
+                "assetsLabel": "Ativos"
+            }
+        },
+        "NPCSheets": {
+            "attr": {
+                "factionLabel": "Facção",
+                "injuryLabel": "Ferimento",
+                "flyLabel": "Pode Voar?",
+                "ageLabel": "Idade"
+            },
+            "lootLabel": "Espólio",
+            "attributes": {
+                "harmCapacityLabel": "Capacidade de Ferimento",
+                "statusLabel": "Status",
+                "circleLabel": "Círculo",
+                "factionLabel": "Facção",
+                "drivesLabel": "Impulsos",
+                "resistancesLabel": "Resistências",
+                "vulnerabilitiesLabel": "Vulnerabilidades"
+            },
+            "details": {
+                "biographyLabel": "Biografia",
+                "lookLabel": "Visual",
+                "demeanorLabel": "Comportamento",
+                "informationLabel": "Informação",
+                "informationValue": "Papel: <br>Traço: <br>Peculiaridade: <br>Apresentação: ",
+                "debtsLabel": "Dívidas",
+                "notesLabel": "Notas"
+            },
+            "moveTypes": {
+                "basicLabel": "Movimentos Básicos",
+                "npcMovesLabel": "Movimentos de NPC"
+            },
+            "equipmentTypes": {
+                "gearLabel": "Equipamento",
+                "debtLabel": "Dívida"
+            },
+            "circleOptions": {
+                "mortalisLabel": "Mortalis",
+                "nightLabel": "Noite",
+                "powerLabel": "Poder",
+                "wildLabel": "Limiar"
+            }
+        },
+        "Tags": {
+            "equipment": {
+                "hand": {
+                    "value": "toque",
+                    "description": "pode ser usado apenas em alcance íntimo, como tocar ou golpear alguém com as mãos nuas."
+                },
+                "close": {
+                    "value": "perto",
+                    "description": "pode ser usado contra alguém a um metro ou mais, provavelmente o comprimento da própria arma."
+                },
+                "near": {
+                    "value": "próximo",
+                    "description": "pode ser usado contra alguém em proximidade relativa, algo entre 2 a 6 metros."
+                },
+                "far": {
+                    "value": "longe",
+                    "description": "pode ser usado contra alguém a um alcance maior, mais de 6 metros ou mais (em boas condições)."
+                },
+                "anchored": {
+                    "value": "ancorado",
+                    "description": "misticamente ancorado ao dono; o item retorna sob comando, não pode ser perdido, etc."
+                },
+                "armorPiercing": {
+                    "value": "perfurante",
+                    "description": "ignora a armadura do oponente, causando ferimento total."
+                },
+                "area": {
+                    "value": "área",
+                    "description": "afeta uma área em vez de um único personagem. Quando usada contra um grupo, ignora o tamanho do grupo ao determinar o ferimento causado, assumindo que o grupo esteja agrupado o suficiente."
+                },
+                "autofire": {
+                    "value": "automático",
+                    "description": "pode ser usado como uma arma de +área, mas fazer isso esgota o item, exigindo que o personagem o recarregue ou renove."
+                },
+                "booby-trapped": {
+                    "value": "armadilha",
+                    "description": "preparado para infligir ferimento a qualquer um, exceto o dono, que interagir com o item; o dono pode explicar como evitar a armadilha para outros."
+                },
+                "cherished": {
+                    "value": "estimado",
+                    "description": "amado por razões sentimentais (ex: herança de família ou presente de um amante). Uma vez por sessão, o dono pode ignorar marcar corrupção ao usá-lo, mas a perda irrevogável de uma posse +estimada inflige um avanço de corrupção."
+                },
+                "concealable": {
+                    "value": "ocultável",
+                    "description": "fácil de manter fora de vista, pequeno o suficiente para caber no bolso de uma jaqueta."
+                },
+                "exhausting": {
+                    "value": "exaustivo",
+                    "description": "cansa rapidamente a pessoa que empunha o item; o uso repetido pode exigir que o usuário mantenha a compostura."
+                },
+                "fire": {
+                    "value": "fogo",
+                    "description": "inflama combustíveis próximos e causa queimaduras graves em quaisquer alvos que ferir; criaturas sobrenaturais vulneráveis ao fogo sofrem ferimento extra e/ou fogem quando um item de +fogo é usado contra elas."
+                },
+                "fragile": {
+                    "value": "frágil",
+                    "description": "quebradiço ou fraco, provavelmente quebrando ao ser usado pela primeira vez."
+                },
+                "loud": {
+                    "value": "barulhento",
+                    "description": "quando usado, todos nas proximidades ouvem e podem identificar o que fez o barulho; acorda pessoas dormindo, assusta quem não está esperando, etc."
+                },
+                "messy": {
+                    "value": "brutal",
+                    "description": "inflige ferimentos severos e sangrentos ou destrói o ambiente ao redor do alvo. Estes itens não são adequados para trabalhos de precisão."
+                },
+                "mythic": {
+                    "value": "mítico",
+                    "description": "bem conhecido em mitos ou lendas (ex: Excalibur ou Agbavboko); é virtualmente impossível de esconder ou disfarçar."
+                },
+                "reload": {
+                    "value": "recarga",
+                    "description": "possui munição limitada e precisa ser recarregado frequentemente quando usado."
+                },
+                "reputation": {
+                    "value": "reputação",
+                    "description": "bem visto por pelo menos um Círculo; o dono recebe +1 contínuo para persuadir ou recusar-se a honrar uma Dívida quando engajado com um membro de um Círculo relevante."
+                },
+                "silver": {
+                    "value": "prata",
+                    "description": "feito de um material único ou abençoado por alguém de grande fé. Criaturas sobrenaturais podem ser especialmente vulneráveis a esses itens ou armas, concedendo +perfurante quando usados contra elas ou causando +1 ferimento."
+                },
+                "coldIron": {
+                    "value": "ferro frio",
+                    "description": "feito de um material único ou abençoado por alguém de grande fé. Criaturas sobrenaturais podem ser especialmente vulneráveis a esses itens ou armas, concedendo +perfurante quando usados contra elas ou causando +1 ferimento."
+                },
+                "holy": {
+                    "value": "sagrado",
+                    "description": "feito de um material único ou abençoado por alguém de grande fé. Criaturas sobrenaturais podem ser especialmente vulneráveis a esses itens ou armas, concedendo +perfurante quando usados contra elas ou causando +1 ferimento."
+                },
+                "smoke": {
+                    "value": "fumaça",
+                    "description": "produz fumaça suficiente para oferecer cobertura a todos dentro dela, e provavelmente uma oportunidade de escapar de uma situação perigosa."
+                },
+                "stun": {
+                    "value": "atordoante",
+                    "description": "capaz de infligir ferimento-s (página 48) em vez de ferimento regular."
+                }
+            }
+        },
+        "Settings": {
+            "game": {
+                "heading": "Urban Shadows 2e",
+                "publisher": {
+                    "title": "Magpie Games"
+                },
+                "github": {
+                    "title": "Repositório do Módulo"
+                },
+                "kofi": {
+                    "title": "Apoie-me no Ko-fi"
+                }
+            },
+            "startup": {
+                "name": "Primeira Inicialização",
+                "dialog": {
+                    "title": "Bem-vindo ao Urban Shadows 2e",
+                    "content": "Você gostaria de usar a tela de inicialização personalizada deste módulo?"
+                }
+            },
+            "img": {
+                "name": "Usar a Imagem de Login de Urban Shadows 2e?",
+                "hint": "Se verdadeiro: usa a imagem de login do módulo; se falso: usa a imagem padrão ou a definida pelo usuário."
+            }
+        }
+    }
+}
