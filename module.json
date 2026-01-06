@@ -49,6 +49,11 @@
       "lang": "en",
       "name": "English",
       "path": "lang/en.json"
+    },
+    {
+      "lang": "pt-br",
+      "name": "Português (BR)",
+      "path": "lang/pt-br.json"
     }
   ],
   "packs": [
