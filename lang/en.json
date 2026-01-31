@@ -252,6 +252,12 @@
                     }
                 }
             },
+            "scar": {
+                "shattered": "Shattered",
+                "crushed": "Crushed",
+                "fractured": "Fractured",
+                "broken": "Broken"
+            },
             "attr": {
                 "xpLabel": "Experience",
                 "injuryLabel": "Injury",
