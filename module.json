@@ -2,7 +2,7 @@
   "id": "urban-shadows-pbta",
   "title": "Urban Shadows 2E (PbtA)",
   "description": "Unofficial Urban Shadows 2E RPG custom sheet module, to be used with the Powered by the Apocalypse (PbtA) system.",
-  "version": "#{VERSION}#",
+  "version": "2.0.0",
   "compatibility": {
     "minimum": 13,
     "verified": 13.348,
@@ -49,6 +49,11 @@
       "lang": "en",
       "name": "English",
       "path": "lang/en.json"
+    },
+    {
+      "lang": "pt-br",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-br.json"
     }
   ],
   "packs": [

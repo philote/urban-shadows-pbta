@@ -176,7 +176,7 @@ Hooks.on("renderActorSheet", async (app, html) => {
       (node) => node.nodeType === Node.TEXT_NODE
     );
     if (textNode) {
-      textNode.nodeValue = " Shattered";
+      textNode.nodeValue =  game.i18n.localize("US2E.CharacterSheets.scar.shattered");
     }
   }
 
@@ -191,7 +191,7 @@ Hooks.on("renderActorSheet", async (app, html) => {
       (node) => node.nodeType === Node.TEXT_NODE
     );
     if (textNode) {
-      textNode.nodeValue = " Crushed";
+      textNode.nodeValue = game.i18n.localize("US2E.CharacterSheets.scar.crushed");
     }
   }
 
@@ -206,7 +206,7 @@ Hooks.on("renderActorSheet", async (app, html) => {
       (node) => node.nodeType === Node.TEXT_NODE
     );
     if (textNode) {
-      textNode.nodeValue = " Fractured";
+      textNode.nodeValue = game.i18n.localize("US2E.CharacterSheets.scar.fractured");
     }
   }
 
@@ -221,7 +221,7 @@ Hooks.on("renderActorSheet", async (app, html) => {
       (node) => node.nodeType === Node.TEXT_NODE
     );
     if (textNode) {
-      textNode.nodeValue = " Broken";
+      textNode.nodeValue = game.i18n.localize("US2E.CharacterSheets.scar.broken");
     }
   }
 });
