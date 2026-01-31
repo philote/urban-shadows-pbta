@@ -19,10 +19,10 @@ Hooks.once("init", () => {
   const urbanShadowsActorSheet = UrbanShadowsActorSheetMixin(
     game.pbta.applications.actor.PbtaActorSheet
   );
-  Actors.unregisterSheet("pbta", game.pbta.applications.actor.PbtaActorSheet, {
+  foundry.documents.collections.Actors.unregisterSheet("pbta", game.pbta.applications.actor.PbtaActorSheet, {
     types: ["character"],
   });
-  Actors.registerSheet("pbta", urbanShadowsActorSheet, {
+  foundry.documents.collections.Actors.registerSheet("pbta", urbanShadowsActorSheet, {
     types: ["character"],
     makeDefault: true,
     label: "US2E.SheetConfig.character",
@@ -35,7 +35,7 @@ Hooks.once("init", () => {
   const urbanShadowsCityHubSheet = UrbanShadowsCityHubSheetMixin(
     game.pbta.applications.actor.PbtaActorSheet
   );
-  Actors.registerSheet("urban-shadows-pbta", urbanShadowsCityHubSheet, {
+  foundry.documents.collections.Actors.registerSheet("urban-shadows-pbta", urbanShadowsCityHubSheet, {
     types: ["urban-shadows-pbta.city-hub"],
     makeDefault: true,
     label: "US2E.SheetConfig.cityHub",
