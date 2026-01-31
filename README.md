@@ -62,6 +62,7 @@ You can install the latest released version of the module by using this manifest
   - Basic, Circle, Faction, hub, and Debt Moves
   - Gear
   - Roll tables
+  - Brazilian Portuguese translation added by [Luiz paulo de souza fontes junior](https://github.com/LPfontes)
 
 ## TODO
 - get ADVANCED MOVES working
