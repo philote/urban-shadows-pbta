@@ -122,13 +122,13 @@
     },
     {
       "type": "cover",
-      "url": "modules/urban-shadows-pbta/main/assets/cc-assets/cover.webp",
+      "url": "modules/urban-shadows-pbta/main/assets/magpie/cover.webp",
       "caption": "Cover Image"
     },
     {
       "type": "setup",
-      "url": "modules/urban-shadows-pbta/main/assets/cc-assets/package_image.webp",
-      "thumbnail": "modules/urban-shadows-pbta/main/assets/cc-assets/package_image_thumb.webp"
+      "url": "modules/urban-shadows-pbta/main/assets/magpie/package_image.webp",
+      "thumbnail": "modules/urban-shadows-pbta/main/assets/magpie/package_image_thumb.webp"
     }
   ]
 }
