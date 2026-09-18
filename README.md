@@ -1,7 +1,7 @@
 # Urban Shadows 2E (PbtA) (Unofficial)
 
 <p align="center">
-    <img alt="Foundry Version 13 support" src="https://img.shields.io/badge/Foundry-v13-informational">
+    <img alt="Foundry Version 13-14 support" src="https://img.shields.io/badge/Foundry-v13--v14-informational">
     <img alt="Latest Release Download Count" src="https://img.shields.io/github/downloads/philote/urban-shadows-pbta/latest/total"> 
     <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/philote/urban-shadows-pbta"> 
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/philote/urban-shadows-pbta">
